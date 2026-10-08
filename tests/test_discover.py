@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 """发现员测试: mock 外部目录,验证免费判定 + 候选 diff + 覆盖率。"""
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "agents"))
@@ -46,3 +47,22 @@ def test_coverage_rate(monkeypatch):
     assert cov["candidate"] == 2
     # coverage() 返回 round(rate,3),比对放宽到该精度
     assert abs(cov["coverage_rate"] - 1/3) < 5e-4
+
+
+def test_community_and_regional(monkeypatch, tmp_path):
+    """社区发现 + 地区归类: 写出对应 json。"""
+    monkeypatch.setattr(discover, "CAND", tmp_path)
+    # mock HN 返回
+    hn = {"hits": [{"title": "Free LLM API for students", "objectID": "123",
+                    "points": 50, "created_at": "2026-01-01"}]}
+    monkeypatch.setattr(discover, "_get", lambda url, timeout=25: hn)
+    comm = discover.community_mentions()
+    assert len(comm) == 1 and "Free LLM API" in comm[0]["title"]
+    assert (tmp_path / "community.json").exists()
+    # 地区归类: 造一个候选
+    (tmp_path / "discover.json").write_text(json.dumps({"candidates": [
+        {"provider": "alibaba-token-plan"}, {"provider": "mysteryprov"}]}), encoding="utf-8")
+    reg = discover.regional_candidates()
+    assert "alibaba-token-plan" in reg.get("cn", []), "cn vendor must group to cn"
+    assert "mysteryprov" in reg.get("other", []), "unknown must go to other"
+    assert (tmp_path / "regional.json").exists()
