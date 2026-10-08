@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T13:28:25Z",
+ "fetched_at": "2026-10-08T13:40:31Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "93adff9bb28caa40e3997fd9655fa8993db10958e3cba6fa7d7a0de3e8d85ca2",
+ "hash": "12ecd0d324aa246c488444ca7042efa6790b3e1b8fc239a826eefce2044beaa8",
  "payload": {
   "data": [
    {
@@ -314,7 +314,7 @@
     "name": "Mistral: Mistral Large 4",
     "created": 1791294122,
     "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
-    "context_length": 524288,
+    "context_length": 1048576,
     "architecture": {
      "modality": "text+image->text",
      "input_modalities": [
@@ -333,7 +333,7 @@
      "input_cache_read": "0.00000007"
     },
     "top_provider": {
-     "context_length": 524288,
+     "context_length": 1048576,
      "max_completion_tokens": 262144,
      "is_moderated": false
     },
@@ -8808,9 +8808,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000144",
-     "completion": "0.000000344394",
-     "input_cache_read": "0.0000000144"
+     "prompt": "0.0000000137",
+     "completion": "0.00000128",
+     "input_cache_read": "0.0000000137"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -8880,9 +8880,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000018",
+     "prompt": "0.0000000137",
      "completion": "0.00000128",
-     "input_cache_read": "0.000000018"
+     "input_cache_read": "0.0000000137"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -19265,9 +19265,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000003",
+     "prompt": "0.0000000228",
      "completion": "0.00000128",
-     "input_cache_read": "0.00000003"
+     "input_cache_read": "0.0000000228"
     },
     "top_provider": {
      "context_length": 1048576,
