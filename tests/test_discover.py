@@ -79,4 +79,10 @@ def test_free_catalog_build(tmp_path, monkeypatch):
         assert v["status"] in ("live", "apply_key")
         # 每家都该有申请链接(models.dev doc 或正本 signup)
         assert v.get("apply_url"), f"{v['provider']} must have apply_url"
+        # 链接必须诚实分类 + 按钮不冒充注册口
+        assert v.get("link_kind") in ("signup", "console", "doc", "pricing", "homepage")
+        assert v.get("btn"), f"{v['provider']} must have honest button label"
+        # 文档链接的按钮不能叫去注册(不冒充注册口)
+        if v["link_kind"] == "doc":
+            assert v["btn"] != "去注册", "doc link must not claim signup"
     assert (tmp_path / "free-catalog.json").exists()

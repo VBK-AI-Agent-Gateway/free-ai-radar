@@ -15,8 +15,38 @@ PROV = ROOT / "providers"
 DOCS = ROOT / "docs"
 
 
+def _link_kind(url):
+    """诚实分类链接真实去向(不冒充): signup=注册口, console/platform=控制台(通常含注册),
+    doc/help=文档, homepage=官网。models.dev 只给 doc,多数是文档 -> 不叫'去申请KEY'。"""
+    if not url:
+        return None
+    u = url.lower()
+    path = u.split("?", 1)[0]
+    host = path.split("/")[2] if path.startswith("http") and path.count("/") >= 2 else ""
+    # 路径优先: 明确的注册口/文档路径最可信
+    if any(k in path for k in ("/signup", "/sign-up", "/register", "/join")):
+        return "signup"
+    if any(k in path for k in ("/docs", "/help", "/doc/")) or path.rstrip("/").endswith("/docs") or "docs." in host:
+        return "doc"
+    if "/pricing" in path:
+        return "pricing"
+    # 无明确路径 -> 看 host 是不是控制台/平台域名(通常含注册)
+    if any(h in host for h in ("console.", "platform.", "dashboard.", "app.")):
+        return "console"
+    return "homepage"
+
+
+_KIND_LABEL = {
+    "signup": ("去注册", "真注册入口"),
+    "console": ("去控制台", "控制台/平台,通常可注册领key"),
+    "doc": ("查官方文档", "帮助文档(页内通常有 Get API key 入口)"),
+    "pricing": ("看定价页", "定价/免费额度说明"),
+    "homepage": ("去官网", "厂商官网(找注册/控制台入口)"),
+}
+
+
 def canonical_free():
-    """已正本收录的厂商 -> (名字, 免费模型数, 申请链接=signup/homepage)。"""
+    """已正本收录的厂商 -> 申请链接=正本 signup/homepage(已实测真注册口)。"""
     out = {}
     for f in sorted(PROV.glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
@@ -27,15 +57,18 @@ def canonical_free():
             continue
         su = d.get("signup") or {}
         link = su.get("url") or d.get("homepage") or d.get("pricing_url") or ""
+        kind = _link_kind(link) or "homepage"
         out[pid] = {"provider": pid, "name": pid, "free_count": len(free),
                     "sample_models": [m["id"] for m in free[:6]],
-                    "apply_url": link or None, "status": "live",
+                    "apply_url": link or None, "link_kind": kind,
+                    "btn": _KIND_LABEL[kind][0],
+                    "status": "live",
                     "note": "已收录,直接可看"}
     return out
 
 
 def candidate_free():
-    """候选(有免费层但没采到数据) -> 列出来 + 申请链接=models.dev doc。用户自己去申请 key。"""
+    """候选(有免费层但没采到数据) -> 链接=models.dev doc, 但诚实标注它是文档不是注册口。"""
     md = _get(REF_DIRS["models_dev"]) or {}
     have = load_canonical_providers()
     cands = json.loads((ROOT / "candidates" / "discover.json").read_text(encoding="utf-8")) \
@@ -52,11 +85,14 @@ def candidate_free():
         free = c.get("free_models") or []
         if not free:
             continue
+        kind = _link_kind(doc) or "doc"
         out[p] = {"provider": p, "name": name, "free_count": len(free),
                   "sample_models": free[:6],
-                  "apply_url": doc, "status": "apply_key",
+                  "apply_url": doc, "link_kind": kind,
+                  "btn": _KIND_LABEL[kind][0],
+                  "status": "apply_key",
                   "needs_env": env,
-                  "note": "有免费模型;需自行到厂商申请 key" if env else "有免费模型"}
+                  "note": _KIND_LABEL[kind][1]}
     return out
 
 

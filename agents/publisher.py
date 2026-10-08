@@ -94,6 +94,7 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .catalog .v .vm{{font-size:11px;color:#8b949e;word-break:break-all;line-height:1.4}}
 .catalog .v a{{display:inline-block;margin-top:6px;font-size:12px;color:#238636;text-decoration:none;border:1px solid #23863655;border-radius:6px;padding:2px 8px}}
 .catalog .v a:hover{{background:#23863622}}
+.catalog .v .vk{{font-size:11px;color:#d29922;margin-top:4px;line-height:1.3}}
 .chip{background:#1f6feb33;border:1px solid #1f6feb;color:#79c0ff;border-radius:20px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
 .chip.on{background:#1f6feb;color:#fff}
 .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px 16px;margin:10px 0}
@@ -173,7 +174,7 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <div id="list"></div>
 <section class="catalog" id="catalog">
 <h2>&#127760; 免费模型总目录 &mdash; 哪些厂商有免费模型</h2>
-<p class="hint">已收录的直接看;标&quot;去申请KEY&quot;的需自行到厂商处申请(我们只确认有免费模型并列出入口)。</p>
+<p class="hint">已收录的直接看;待申请的按钮如实标注去向(注册口/控制台/文档),需自行到厂商处申请。models.dev 只提供文档链接,多数按钮是&quot;查官方文档&quot;而非直接注册页。</p>
 <div class="vgrid" id="vgrid"></div>
 </section>
 <section class="submitbox open" id="submitbox">
@@ -280,14 +281,16 @@ function renderCatalog(){
   if(!el || !CATALOG || !CATALOG.vendors) return;
   el.innerHTML = CATALOG.vendors.map(v=>{
     const live = v.status==="live";
+    const btn = v.btn || (live?"打开":"打开");
     const link = v.apply_url
-      ? '<a href="'+esc(v.apply_url)+'" target="_blank" rel="noopener" onclick="regClick(\''+esc(v.provider)+'\')">'+(live?"打开":"去申请KEY")+'</a>' : '';
+      ? '<a href="'+esc(v.apply_url)+'" target="_blank" rel="noopener" title="'+esc(v.note||"")+'" onclick="regClick(\''+esc(v.provider)+'\')">'+esc(btn)+'</a>' : '';
     const badge = live ? '<span class="badge">已收录</span>' : '<span class="badge apply">待申请</span>';
     const models = (v.sample_models||[]).slice(0,4).join(", ");
     return '<div class="v'+(live?" live":"")+'">'
       + '<div class="vn"><span>'+esc(v.name)+'</span>'+badge+'</div>'
       + '<div class="vc">'+v.free_count+' 个免费模型</div>'
       + '<div class="vm">'+esc(models)+'</div>'
+      + (v.note? '<div class="vk">'+esc(v.note)+'</div>':'')
       + link + '</div>';
   }).join("");
 }

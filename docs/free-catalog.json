@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T14:36:29Z",
+ "at": "2026-10-08T14:37:36Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 485,
+ "total_free_models": 486,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -17,6 +17,8 @@
     "alibaba/happyhorse-1.1"
    ],
    "apply_url": "https://fastrouter.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "live",
    "note": "已收录,直接可看"
   },
@@ -33,11 +35,13 @@
     "qwen-image-2.0"
    ],
    "apply_url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_TOKEN_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "alibaba-token-plan-cn",
@@ -52,11 +56,13 @@
     "qwen-image-2.0"
    ],
    "apply_url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_TOKEN_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "gitlab",
@@ -71,11 +77,13 @@
     "duo-chat-opus-4-5"
    ],
    "apply_url": "https://docs.gitlab.com/user/duo_agent_platform/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "GITLAB_TOKEN"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "kenari",
@@ -90,11 +98,13 @@
     "nemotron-3-nano-30b-a3b"
    ],
    "apply_url": "https://kenari.id/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "KENARI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "nvidia",
@@ -109,11 +119,13 @@
     "z-ai/glm-5.3"
    ],
    "apply_url": "https://docs.api.nvidia.com/nim/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "NVIDIA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "opencode",
@@ -128,11 +140,13 @@
     "ling-3.1-flash-free"
    ],
    "apply_url": "https://opencode.ai/docs/zen",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "OPENCODE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "openrouter",
@@ -147,6 +161,8 @@
     "nvidia/nemotron-3.5-lightning:free"
    ],
    "apply_url": "https://openrouter.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "live",
    "note": "已收录,直接可看"
   },
@@ -163,11 +179,13 @@
     "Qwen3.8-Max"
    ],
    "apply_url": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "SCNET_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "iflowcn",
@@ -182,11 +200,13 @@
     "qwen3-235b-a22b-thinking-2507"
    ],
    "apply_url": "https://platform.iflow.cn/en/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "IFLOW_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "requesty",
@@ -201,6 +221,8 @@
     "nvidia/nemotron-3-nano-30b-a3b"
    ],
    "apply_url": "https://requesty.ai/",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "live",
    "note": "已收录,直接可看"
   },
@@ -217,11 +239,13 @@
     "Qwen3-Coder-Next-FP8-no-thinking"
    ],
    "apply_url": "https://model.inferx.net/endpoints",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "INFERX_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "unorouter",
@@ -236,11 +260,13 @@
     "step-3.7-flash:free"
    ],
    "apply_url": "https://unorouter.com/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "UNOROUTER_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "alibaba-coding-plan",
@@ -255,11 +281,13 @@
     "qwen3-coder-plus"
    ],
    "apply_url": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_CODING_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "alibaba-coding-plan-cn",
@@ -274,11 +302,13 @@
     "qwen3-coder-plus"
    ],
    "apply_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_CODING_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "volcengine-coding-plan",
@@ -293,11 +323,13 @@
     "doubao-seed-evolving"
    ],
    "apply_url": "https://www.volcengine.com/docs/82379/1928261",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ARK_CODING_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "qvac",
@@ -312,11 +344,13 @@
     "qwen3.5-9b"
    ],
    "apply_url": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "QVAC_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "xiaomi-token-plan-ams",
@@ -331,11 +365,13 @@
     "mimo-v2-pro"
    ],
    "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "XIAOMI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "xiaomi-token-plan-cn",
@@ -350,11 +386,13 @@
     "mimo-v2-tts"
    ],
    "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "XIAOMI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "xiaomi-token-plan-sgp",
@@ -369,11 +407,13 @@
     "mimo-v2-pro"
    ],
    "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "XIAOMI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "minimax-cn-coding-plan",
@@ -388,11 +428,13 @@
     "MiniMax-M2.7-highspeed"
    ],
    "apply_url": "https://platform.minimaxi.com/docs/token-plan/intro",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "MINIMAX_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "minimax-coding-plan",
@@ -407,11 +449,13 @@
     "MiniMax-M2.7-highspeed"
    ],
    "apply_url": "https://platform.minimax.io/docs/token-plan/intro",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "MINIMAX_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "nan",
@@ -426,11 +470,13 @@
     "qwen3.8-flash"
    ],
    "apply_url": "https://nan.builders/docs/models",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "NAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "tencent-coding-plan",
@@ -445,11 +491,13 @@
     "tc-code-latest"
    ],
    "apply_url": "https://cloud.tencent.com/document/product/1772/128947",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_CODING_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "umans-ai-coding-plan",
@@ -464,11 +512,13 @@
     "umans-glm-5.3"
    ],
    "apply_url": "https://app.umans.ai/offers/code/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "UMANS_AI_CODING_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "llama",
@@ -483,11 +533,13 @@
     "llama-3.3-8b-instruct"
    ],
    "apply_url": "https://llama.developer.meta.com/docs/models",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "LLAMA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "modelscope",
@@ -502,11 +554,13 @@
     "Qwen/Qwen3-30B-A3B-Thinking-2507"
    ],
    "apply_url": "https://modelscope.cn/docs/model-service/API-Inference/intro",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "MODELSCOPE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "zai-coding-plan",
@@ -521,11 +575,13 @@
     "glm-5-turbo"
    ],
    "apply_url": "https://docs.z.ai/devpack/overview",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "pendra",
@@ -540,11 +596,13 @@
     "deepseek-v4-flash"
    ],
    "apply_url": "https://pendra.ai/docs/integrations/opencode",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "PENDRA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "vercel",
@@ -559,6 +617,8 @@
     "stealth/glyph-cluster"
    ],
    "apply_url": "https://vercel.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "live",
    "note": "已收录,直接可看"
   },
@@ -575,11 +635,13 @@
     "stepfun/step-3.7-flash-free"
    ],
    "apply_url": "https://docs.zenmux.ai",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZENMUX_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "aihubmix",
@@ -593,11 +655,13 @@
     "coding-glm-5.1-free"
    ],
    "apply_url": "https://docs.aihubmix.com",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "AIHUBMIX_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "atomic-chat",
@@ -611,11 +675,13 @@
     "Qwen3_5-9B-MLX-4bit"
    ],
    "apply_url": "https://atomic.chat",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "ATOMIC_CHAT_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "kilo",
@@ -629,11 +695,13 @@
     "stepfun/step-3.7-flash:free"
    ],
    "apply_url": "https://kilo.ai",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "KILO_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "orcarouter",
@@ -647,11 +715,13 @@
     "orcarouter/auto"
    ],
    "apply_url": "https://docs.orcarouter.ai",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ORCAROUTER_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "sensenova",
@@ -665,11 +735,13 @@
     "deepseek-v4-flash"
    ],
    "apply_url": "https://platform.sensenova.cn/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "SENSENOVA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "empiriolabs",
@@ -682,11 +754,13 @@
     "glm-4-5-flash"
    ],
    "apply_url": "https://docs.empiriolabs.ai",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "EMPIRIOLABS_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "kimi-code-plan-cn",
@@ -699,11 +773,13 @@
     "k3"
    ],
    "apply_url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "KIMI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "kimi-code-plan-global",
@@ -716,11 +792,13 @@
     "k3"
    ],
    "apply_url": "https://www.kimi.ai/code/docs/en/kimi-code/models.html",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "KIMI_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "tempr",
@@ -733,11 +811,13 @@
     "zai/glm-4.5-flash"
    ],
    "apply_url": "https://temprhq.io/docs/gateway-reference.html",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "TEMPR_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "lmstudio",
@@ -749,27 +829,13 @@
     "openai/gpt-oss-20b"
    ],
    "apply_url": "https://lmstudio.ai/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "LMSTUDIO_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 3,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free",
-    "step-5-preview-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "poe",
@@ -781,11 +847,31 @@
     "openai/gpt-5.3-codex-spark"
    ],
    "apply_url": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "POE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 3,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1",
+    "poolside/laguna-m.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "link_kind": "console",
+   "btn": "去控制台",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
+   ],
+   "note": "控制台/平台,通常可注册领key"
   },
   {
    "provider": "regolo-ai",
@@ -797,11 +883,13 @@
     "faster-whisper-large-v3"
    ],
    "apply_url": "https://docs.regolo.ai/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "REGOLO_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "siliconflow-cn",
@@ -813,11 +901,13 @@
     "PaddlePaddle/PaddleOCR-VL-1.5"
    ],
    "apply_url": "https://cloud.siliconflow.com/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "SILICONFLOW_CN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "zai",
@@ -829,11 +919,13 @@
     "glm-4.5-flash"
    ],
    "apply_url": "https://docs.z.ai/guides/overview/pricing",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "zhipuai",
@@ -845,11 +937,13 @@
     "glm-4.6v-flash"
    ],
    "apply_url": "https://docs.z.ai/guides/overview/pricing",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "zhipuai-coding-plan",
@@ -861,11 +955,13 @@
     "glm-5.3"
    ],
    "apply_url": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "agnes",
@@ -876,11 +972,13 @@
     "agnes-2.5-flash"
    ],
    "apply_url": "https://agnes-ai.com/doc",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "AGNES_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "alibaba-cn",
@@ -891,11 +989,13 @@
     "deepseek-r1-distill-qwen-1-5b"
    ],
    "apply_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "DASHSCOPE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "bothub",
@@ -906,11 +1006,13 @@
     "nemotron-3-ultra-550b-a55b:free"
    ],
    "apply_url": "https://bothub.ru/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "BOTHUB_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "cohere",
@@ -921,11 +1023,13 @@
     "north-small-translate-09-2026"
    ],
    "apply_url": "https://docs.cohere.com/docs/models",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "COHERE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "cortecs",
@@ -936,11 +1040,13 @@
     "qwen3guard-gen-0.6b"
    ],
    "apply_url": "https://api.cortecs.ai/v1/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "CORTECS_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "hetzner",
@@ -951,11 +1057,13 @@
     "Qwen/Qwen3.6-35B-A3B-FP8"
    ],
    "apply_url": "https://experiments.hetzner.com/docs/inference",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "HETZNER_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "llmgateway",
@@ -966,8 +1074,27 @@
     "atria-dawn-preview"
    ],
    "apply_url": "https://llmgateway.io/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "live",
    "note": "已收录,直接可看"
+  },
+  {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 2,
+   "sample_models": [
+    "novita/ling-3.1-flash",
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "nano-gpt",
@@ -978,11 +1105,13 @@
     "auto-model"
    ],
    "apply_url": "https://docs.nano-gpt.com",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "NANO_GPT_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "nova",
@@ -993,11 +1122,30 @@
     "nova-2-lite-v1"
    ],
    "apply_url": "https://nova.amazon.com/dev/documentation",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "NOVA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 2,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "ovhcloud",
@@ -1008,26 +1156,13 @@
     "qwen3guard-gen-0.6b"
    ],
    "apply_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "OVHCLOUD_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
-   "provider": "poolside",
-   "name": "Poolside",
-   "free_count": 2,
-   "sample_models": [
-    "poolside/laguna-s-2.1",
-    "poolside/laguna-xs-2.1"
-   ],
-   "apply_url": "https://platform.poolside.ai",
-   "status": "apply_key",
-   "needs_env": [
-    "POOLSIDE_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "tencent-tokenhub",
@@ -1038,11 +1173,13 @@
     "hy3"
    ],
    "apply_url": "https://cloud.tencent.com/document/product/1823/130050",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_TOKENHUB_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "amd",
@@ -1052,11 +1189,13 @@
     "Qwen3.8-27B"
    ],
    "apply_url": "https://developer.amd.com.cn/radeon/tokenfactory",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "AMD_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "huggingface",
@@ -1066,11 +1205,13 @@
     "zai-org/GLM-4.7-Flash"
    ],
    "apply_url": "https://huggingface.co/docs/inference-providers",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "HF_TOKEN"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "infomaniak",
@@ -1080,12 +1221,14 @@
     "mini_lm_l12_v2"
    ],
    "apply_url": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "INFOMANIAK_API_KEY",
     "INFOMANIAK_PRODUCT_ID"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "jiekou",
@@ -1095,11 +1238,13 @@
     "xiaomimimo/mimo-v2-flash"
    ],
    "apply_url": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "JIEKOU_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "kuae-cloud-coding-plan",
@@ -1109,25 +1254,13 @@
     "GLM-4.7"
    ],
    "apply_url": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "KUAE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
-   "provider": "llmgateway-providers",
-   "name": "LLM Gateway",
-   "free_count": 1,
-   "sample_models": [
-    "atria/atria-dawn-preview"
-   ],
-   "apply_url": "https://llmgateway.io/docs",
-   "status": "apply_key",
-   "needs_env": [
-    "LLMGATEWAY_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "llmtr",
@@ -1137,11 +1270,13 @@
     "poolside/laguna-xs-2.1"
    ],
    "apply_url": "https://llmtr.com/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "LLMTR_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "lynkr",
@@ -1151,11 +1286,13 @@
     "lynkr-auto"
    ],
    "apply_url": "https://github.com/Fast-Editor/Lynkr",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "LYNKR_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "meganova",
@@ -1165,11 +1302,13 @@
     "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
    ],
    "apply_url": "https://docs.meganova.ai",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "MEGANOVA_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "merge-gateway",
@@ -1179,11 +1318,13 @@
     "nvidia/nemotron-3.5-lightning-30b-a3b"
    ],
    "apply_url": "https://docs.merge.dev/merge-gateway",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "MERGE_GATEWAY_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "standardcompute",
@@ -1193,11 +1334,13 @@
     "standardcompute"
    ],
    "apply_url": "https://standardcompute.com/models",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "STANDARDCOMPUTE_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "tencent-token-plan",
@@ -1207,11 +1350,13 @@
     "hy3"
    ],
    "apply_url": "https://cloud.tencent.com/document/product/1823/130060",
+   "link_kind": "homepage",
+   "btn": "去官网",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_TOKEN_PLAN_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "厂商官网(找注册/控制台入口)"
   },
   {
    "provider": "tokenrouter",
@@ -1221,11 +1366,13 @@
     "z-ai/glm-5.3-free"
    ],
    "apply_url": "https://www.tokenrouter.com/docs/tokenrouter-feature-guide/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "TOKENROUTER_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "zeldoc",
@@ -1235,11 +1382,13 @@
     "zdev"
    ],
    "apply_url": "https://docs.zeldoc.ai",
+   "link_kind": "doc",
+   "btn": "查官方文档",
    "status": "apply_key",
    "needs_env": [
     "ZELDOC_API_KEY"
    ],
-   "note": "有免费模型;需自行到厂商申请 key"
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   }
  ]
 }
