@@ -117,7 +117,12 @@ def _parse_openai_compat(snap, url):
     for m in items or []:
         if not isinstance(m, dict) or not m.get("id"):
             continue
-        price = m.get("pricing") or {}
+        price = m.get("pricing")
+        # requesty 把 pricing 写成 list of {input_price,output_price}(per-token) -> 抽第 0 条
+        if isinstance(price, list):
+            price = price[0] if price and isinstance(price[0], dict) else {}
+        elif not isinstance(price, dict):
+            price = {}
         pp = price.get("prompt") if isinstance(price.get("prompt"), dict) else price
         cp = price.get("completion") if isinstance(price.get("completion"), dict) else price
         i_dec = _price_field(pp, "price_per_m_decimal", "price_per_m")
@@ -125,8 +130,12 @@ def _parse_openai_compat(snap, url):
         if i_dec is not None and o_dec is not None:
             i_pm, o_pm = float(i_dec), float(o_dec)   # decimal/price_per_m 已是 $/1M
         else:
-            i_pm = _per_million(_price_field(pp, "prompt", "input"))
-            o_pm = _per_million(_price_field(cp, "completion", "output"))
+            # requesty 用 input_price/output_price(per-token) -> _per_million 换算 $/1M
+            i_pm = _per_million(_price_field(pp, "input_price"))
+            o_pm = _per_million(_price_field(cp, "output_price"))
+            if i_pm is None and o_pm is None:
+                i_pm = _per_million(_price_field(pp, "prompt", "input"))
+                o_pm = _per_million(_price_field(cp, "completion", "output"))
         # deepinfra 等把定价嵌在 metadata.pricing 且单位是 per-token/百万不一,不乱猜 -> 留 None
         free_flag = m.get("free")
         if free_flag is None and i_pm is not None and o_pm is not None:
