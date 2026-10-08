@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T13:39:52Z",
+ "at": "2026-10-08T13:49:37Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 486,
+ "total_free_models": 484,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -193,11 +193,11 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "poolside/laguna-m.1",
-    "poolside/laguna-xs.2",
+    "google/gemma-4-31b-it",
     "novita/ling-3.1-flash",
     "novita/inclusionai/ling-3.0-tiny",
-    "google/gemma-4-31b-it",
+    "poolside/laguna-m.1",
+    "poolside/laguna-xs.2",
     "mistral/leanstral-1-5"
    ],
    "apply_url": "https://requesty.ai/",
@@ -772,22 +772,6 @@
    "note": "有免费模型;需自行到厂商申请 key"
   },
   {
-   "provider": "poolside",
-   "name": "Poolside",
-   "free_count": 3,
-   "sample_models": [
-    "poolside/laguna-s-2.1",
-    "poolside/laguna-xs-2.1",
-    "poolside/laguna-m.1"
-   ],
-   "apply_url": "https://platform.poolside.ai",
-   "status": "apply_key",
-   "needs_env": [
-    "POOLSIDE_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
    "provider": "regolo-ai",
    "name": "Regolo AI",
    "free_count": 3,
@@ -970,21 +954,6 @@
    "note": "已收录,直接可看"
   },
   {
-   "provider": "llmgateway-providers",
-   "name": "LLM Gateway",
-   "free_count": 2,
-   "sample_models": [
-    "novita/ling-3.1-flash",
-    "atria/atria-dawn-preview"
-   ],
-   "apply_url": "https://llmgateway.io/docs",
-   "status": "apply_key",
-   "needs_env": [
-    "LLMGATEWAY_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
    "provider": "nano-gpt",
    "name": "NanoGPT",
    "free_count": 2,
@@ -1041,6 +1010,21 @@
    "status": "apply_key",
    "needs_env": [
     "OVHCLOUD_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 2,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
    ],
    "note": "有免费模型;需自行到厂商申请 key"
   },
@@ -1127,6 +1111,20 @@
    "status": "apply_key",
    "needs_env": [
     "KUAE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 1,
+   "sample_models": [
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
    ],
    "note": "有免费模型;需自行到厂商申请 key"
   },
