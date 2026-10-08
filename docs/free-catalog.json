@@ -1,5 +1,5 @@
 {
- "at": "2026-10-08T13:49:37Z",
+ "at": "2026-10-08T14:10:58Z",
  "live_count": 5,
  "apply_count": 69,
  "total_free_models": 484,
@@ -193,12 +193,12 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "google/gemma-4-31b-it",
-    "novita/ling-3.1-flash",
-    "novita/inclusionai/ling-3.0-tiny",
+    "mistral/leanstral-1-5",
     "poolside/laguna-m.1",
     "poolside/laguna-xs.2",
-    "mistral/leanstral-1-5"
+    "novita/inclusionai/ling-3.0-tiny",
+    "novita/ling-3.1-flash",
+    "google/gemma-4-31b-it"
    ],
    "apply_url": "https://requesty.ai/",
    "status": "live",

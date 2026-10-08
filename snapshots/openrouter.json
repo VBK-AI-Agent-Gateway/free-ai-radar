@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T13:49:14Z",
+ "fetched_at": "2026-10-08T14:10:38Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "07e52dfd7bb9f3c4f32280ba160aaab890475d85731ae7ff1876f5659255ceec",
+ "hash": "6307726d832eea1e949376723d43de0131d32e623b3b19a9b5645158b633f7c5",
  "payload": {
   "data": [
    {
@@ -3302,7 +3302,7 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000356",
+     "prompt": "0.0000000283",
      "completion": "0.000001",
      "input_cache_read": "0.00000001"
     },
@@ -4030,9 +4030,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000356",
-     "completion": "0.000001",
-     "input_cache_read": "0.00000001"
+     "prompt": "0.0000003",
+     "completion": "0.0000012",
+     "input_cache_read": "0.000000006"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -8808,9 +8808,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000001096",
+     "prompt": "0.00000000832",
      "completion": "0.000000378834",
-     "input_cache_read": "0.00000001096"
+     "input_cache_read": "0.00000000832"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -8880,9 +8880,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000137",
+     "prompt": "0.0000000104",
      "completion": "0.00000128",
-     "input_cache_read": "0.0000000137"
+     "input_cache_read": "0.0000000104"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -19265,9 +19265,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000228",
+     "prompt": "0.0000000173",
      "completion": "0.00000128",
-     "input_cache_read": "0.0000000228"
+     "input_cache_read": "0.0000000173"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -19930,9 +19930,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000441",
+     "prompt": "0.0000004375",
      "completion": "0.00000245",
-     "input_cache_read": "0.0000001224"
+     "input_cache_read": "0.0000001211"
     },
     "top_provider": {
      "context_length": 262144,
@@ -35837,12 +35837,12 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000004815",
-     "completion": "0.00000019305"
+     "prompt": "0.0000001",
+     "completion": "0.0000003"
     },
     "top_provider": {
-     "context_length": 128000,
-     "max_completion_tokens": 32000,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "is_moderated": false
     },
     "per_request_limits": null,
