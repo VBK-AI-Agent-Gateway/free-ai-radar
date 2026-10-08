@@ -68,3 +68,19 @@ sources:
     url: https://ai-gateway.vercel.sh/v1/models
     check: daily
     parser: openai_compat
+  # 第三方聚合网关平台(用户核心需求): 全网搜出匿名可拉 + 带定价 + 有真免费
+  - provider: fastrouter
+    type: official_api
+    url: https://api.fastrouter.ai/v1/models
+    check: daily
+    parser: openai_compat
+  - provider: requesty
+    type: official_api
+    url: https://router.requesty.ai/v1/models
+    check: daily
+    parser: openai_compat
+  - provider: llmgateway
+    type: official_api
+    url: https://api.llmgateway.io/v1/models
+    check: daily
+    parser: openai_compat
