@@ -87,9 +87,15 @@ jobs:
       - uses: actions/download-artifact@v4
         with: {name: catalog, path: docs/}
       - run: python agents/verdict.py
+      - name: Snapshot baseline (last round free-models.json, before publisher overwrites)
+        run: cp docs/free-models.json docs/free-models.baseline.json 2>/dev/null || true
       - run: python agents/publisher.py
       - name: Guard (安全闸,不过则整个 run 失败)
         run: python agents/guard.py --file providers/*.yaml --file config/sources.yaml
+      - name: Release (新增免费模型 -> GitHub Release, 触发 Watch→Releases 通知)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python agents/release.py
       - name: Commit artifacts
         run: |
           git config user.name "free-ai-radar[bot]"
