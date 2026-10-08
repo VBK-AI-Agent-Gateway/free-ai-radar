@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T14:37:36Z",
+ "at": "2026-10-08T14:49:34Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 486,
+ "total_free_models": 485,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -215,10 +215,10 @@
    "sample_models": [
     "novita/inclusionai/ling-3.0-tiny",
     "novita/ling-3.1-flash",
-    "google/gemma-4-31b-it",
-    "nvidia/nemotron-3-ultra-550b-a55b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
-    "nvidia/nemotron-3-nano-30b-a3b"
+    "poolside/laguna-xs.2",
+    "poolside/laguna-m.1",
+    "mistral/leanstral-1-5",
+    "google/gemma-4-31b-it"
    ],
    "apply_url": "https://requesty.ai/",
    "link_kind": "homepage",
@@ -838,6 +838,24 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 3,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free",
+    "step-5-preview-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "poe",
    "name": "Poe",
    "free_count": 3,
@@ -854,24 +872,6 @@
     "POE_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "poolside",
-   "name": "Poolside",
-   "free_count": 3,
-   "sample_models": [
-    "poolside/laguna-s-2.1",
-    "poolside/laguna-xs-2.1",
-    "poolside/laguna-m.1"
-   ],
-   "apply_url": "https://platform.poolside.ai",
-   "link_kind": "console",
-   "btn": "去控制台",
-   "status": "apply_key",
-   "needs_env": [
-    "POOLSIDE_API_KEY"
-   ],
-   "note": "控制台/平台,通常可注册领key"
   },
   {
    "provider": "regolo-ai",
@@ -1080,23 +1080,6 @@
    "note": "已收录,直接可看"
   },
   {
-   "provider": "llmgateway-providers",
-   "name": "LLM Gateway",
-   "free_count": 2,
-   "sample_models": [
-    "novita/ling-3.1-flash",
-    "atria/atria-dawn-preview"
-   ],
-   "apply_url": "https://llmgateway.io/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "LLMGATEWAY_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
    "provider": "nano-gpt",
    "name": "NanoGPT",
    "free_count": 2,
@@ -1131,23 +1114,6 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 2,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
    "provider": "ovhcloud",
    "name": "OVHcloud AI Endpoints",
    "free_count": 2,
@@ -1163,6 +1129,23 @@
     "OVHCLOUD_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 2,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "link_kind": "console",
+   "btn": "去控制台",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
+   ],
+   "note": "控制台/平台,通常可注册领key"
   },
   {
    "provider": "tencent-tokenhub",
@@ -1259,6 +1242,22 @@
    "status": "apply_key",
    "needs_env": [
     "KUAE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 1,
+   "sample_models": [
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/docs",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
