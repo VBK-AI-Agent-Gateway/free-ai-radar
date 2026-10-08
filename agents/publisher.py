@@ -8,6 +8,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 PROV = ROOT / "providers"
 DOCS = ROOT / "docs"
 STATE = ROOT / "state.local"
+ONLY_FREE = True  # 免费总闸: 默认只收录/展示免费模型(付费留在正本做证据,不进页面)
 
 
 def load_all():
@@ -26,6 +27,8 @@ def flat(rows):
         reg = reg or r.get("homepage") or r.get("pricing_url")
         home = r.get("homepage") or reg
         for m in r.get("models") or []:
+            if ONLY_FREE and not m.get("free"):
+                continue  # 免费总闸: 只收录免费模型
             caps = m.get("capabilities") or {}
             terms = m.get("terms") or {}
             out.append({
@@ -329,7 +332,10 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="发布员")
     ap.add_argument("--notify", action="store_true", help="有变更事件时推送 Telegram")
     ap.add_argument("--message", help="直接推送这条消息(重大变化人审后用)")
+    ap.add_argument("--include-paid", action="store_true", help="临时把付费模型也放进页面(默认只收录免费)")
     args = ap.parse_args(argv)
+    if args.include_paid:
+        globals()["ONLY_FREE"] = False
     rows = load_all()
     DOCS.mkdir(exist_ok=True)
     (DOCS / "free-models.json").write_text(

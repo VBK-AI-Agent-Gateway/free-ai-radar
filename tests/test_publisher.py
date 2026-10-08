@@ -4,7 +4,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "agents"))
 import publisher
 
 def test_flat_lists_models():
-    rows = [{"provider": "p", "models": [{"id": "p/m", "status": "declared"}], "last_verified": "unknown", "pricing_url": "u"}]
+    rows = [{"provider": "p", "models": [{"id": "p/m", "status": "declared", "free": True}], "last_verified": "unknown", "pricing_url": "u"}]
     out = publisher.flat(rows)
     assert out[0]["id"] == "p/m"
 
@@ -51,3 +51,34 @@ def test_site_js_parses():
         assert r.returncode == 0, r.stderr
     finally:
         os.unlink(path)
+
+
+def test_only_free_gate():
+    """免费总闸: 默认 flat 只出免费模型;--include-paid 才带付费。"""
+    rows = [{"provider": "p", "models": [
+        {"id": "p/free", "free": True},
+        {"id": "p/paid", "free": False},
+    ], "last_verified": "unknown"}]
+    publisher.ONLY_FREE = True
+    out = publisher.flat(rows)
+    assert [m["id"] for m in out] == ["p/free"], "default must show only free"
+    publisher.ONLY_FREE = False
+    out2 = publisher.flat(rows)
+    assert len(out2) == 2, "--include-paid must include paid"
+    publisher.ONLY_FREE = True  # restore
+
+
+def test_register_url_per_provider():
+    """每模型注册跳转到该厂商自己的 signup,不是统一 openrouter。"""
+    rows = [
+        {"provider": "openrouter", "signup": {"url": "https://openrouter.ai/sign-up"},
+         "models": [{"id": "a/b", "free": True}]},
+        {"provider": "groq", "signup": {"url": "https://console.groq.com/keys"},
+         "models": [{"id": "c/d", "free": True}]},
+    ]
+    publisher.ONLY_FREE = True
+    out = publisher.flat(rows)
+    by = {m["provider"]: m["register_url"] for m in out}
+    assert by["openrouter"] == "https://openrouter.ai/sign-up"
+    assert by["groq"] == "https://console.groq.com/keys"
+    assert by["openrouter"] != by["groq"], "must differ per provider"
