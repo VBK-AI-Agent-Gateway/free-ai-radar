@@ -1,0 +1,102 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 301,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "openai",
+   "url": "https://platform.openai.com/docs/pricing",
+   "at": "2026-10-08T04:54:10Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 568,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "anthropic",
+   "url": "https://www.anthropic.com/pricing",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": 110,
+   "http": 403,
+   "provider": "google",
+   "url": "https://generativelanguage.googleapis.com/v1beta/models",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 84,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "openrouter",
+   "url": "https://openrouter.ai/api/v1/models",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "groq",
+   "url": "https://api.groq.com/openai/v1/models",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 235,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "mistral",
+   "url": "https://mistral.ai/pricing",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 208,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "cohere",
+   "url": "https://cohere.com/pricing",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 123,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "together",
+   "url": "https://www.together.ai/pricing",
+   "at": "2026-10-08T04:54:11Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 969,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepseek",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "at": "2026-10-08T04:54:12Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 685,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "zhipu",
+   "url": "https://open.bigmodel.cn/pricing",
+   "at": "2026-10-08T04:54:13Z"
+  }
+ ],
+ "skipped_budget": []
+}

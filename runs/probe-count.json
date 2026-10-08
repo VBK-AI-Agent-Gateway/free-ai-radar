@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-08",
+ "providers": {
+  "openai": 1,
+  "anthropic": 1,
+  "google": 1,
+  "openrouter": 1,
+  "groq": 1,
+  "mistral": 1,
+  "cohere": 1,
+  "together": 1,
+  "deepseek": 1,
+  "zhipu": 1
+ }
+}
