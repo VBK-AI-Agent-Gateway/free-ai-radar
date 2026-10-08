@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T23:44:45Z",
+ "at": "2026-10-08T15:24:28Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 484,
+ "total_free_models": 486,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -151,14 +151,14 @@
   {
    "provider": "openrouter",
    "name": "openrouter",
-   "free_count": 19,
+   "free_count": 20,
    "sample_models": [
     "inclusionai/ling-3.1-flash",
     "apodex/apodex-1.1-mini:free",
+    "inclusionai/ling-3.0-flash-sante:free",
     "dots-studio/dots-3-note-preview:free",
     "liquid/lfm-2.5-2.6b:free",
-    "nvidia/nemotron-3.5-lightning:free",
-    "thinkingmachines/inkling-small:free"
+    "nvidia/nemotron-3.5-lightning:free"
    ],
    "apply_url": "https://openrouter.ai/sign-up",
    "link_kind": "signup",
@@ -213,12 +213,12 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "google/gemma-4-31b-it",
-    "mistral/leanstral-1-5",
-    "poolside/laguna-m.1",
-    "poolside/laguna-xs.2",
+    "novita/inclusionai/ling-3.0-tiny",
     "novita/ling-3.1-flash",
-    "novita/inclusionai/ling-3.0-tiny"
+    "google/gemma-4-31b-it",
+    "nvidia/nemotron-3-ultra-550b-a55b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3-nano-30b-a3b"
    ],
    "apply_url": "https://requesty.ai/",
    "link_kind": "homepage",
@@ -692,7 +692,7 @@
     "openrouter/pareto-code",
     "openrouter/auto",
     "kilo-auto/free",
-    "stepfun/step-5-preview-free"
+    "stepfun/step-3.7-flash:free"
    ],
    "apply_url": "https://kilo.ai/login",
    "link_kind": "signup",
@@ -838,24 +838,6 @@
    "note": "真注册入口(curl 已验证)"
   },
   {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 3,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free",
-    "step-5-preview-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
    "provider": "poe",
    "name": "Poe",
    "free_count": 3,
@@ -872,6 +854,24 @@
     "POE_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 3,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1",
+    "poolside/laguna-m.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "link_kind": "console",
+   "btn": "去控制台",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
+   ],
+   "note": "控制台/平台,通常可注册领key"
   },
   {
    "provider": "regolo-ai",
@@ -1080,6 +1080,23 @@
    "note": "已收录,直接可看"
   },
   {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 2,
+   "sample_models": [
+    "novita/ling-3.1-flash",
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
+   ],
+   "note": "真注册入口(curl 已验证)"
+  },
+  {
    "provider": "nano-gpt",
    "name": "NanoGPT",
    "free_count": 2,
@@ -1114,6 +1131,23 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 2,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "ovhcloud",
    "name": "OVHcloud AI Endpoints",
    "free_count": 2,
@@ -1129,23 +1163,6 @@
     "OVHCLOUD_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
-  },
-  {
-   "provider": "poolside",
-   "name": "Poolside",
-   "free_count": 2,
-   "sample_models": [
-    "poolside/laguna-s-2.1",
-    "poolside/laguna-xs-2.1"
-   ],
-   "apply_url": "https://platform.poolside.ai",
-   "link_kind": "console",
-   "btn": "去控制台",
-   "status": "apply_key",
-   "needs_env": [
-    "POOLSIDE_API_KEY"
-   ],
-   "note": "控制台/平台,通常可注册领key"
   },
   {
    "provider": "tencent-tokenhub",
@@ -1244,22 +1261,6 @@
     "KUAE_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "llmgateway-providers",
-   "name": "LLM Gateway",
-   "free_count": 1,
-   "sample_models": [
-    "atria/atria-dawn-preview"
-   ],
-   "apply_url": "https://llmgateway.io/signup",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "apply_key",
-   "needs_env": [
-    "LLMGATEWAY_API_KEY"
-   ],
-   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "llmtr",
