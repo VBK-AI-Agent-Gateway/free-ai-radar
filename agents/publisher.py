@@ -307,14 +307,26 @@ function init(){
   }));
   document.getElementById("subform").addEventListener("submit", e=>{
     e.preventDefault();
-    const url=NORM(document.getElementById("surl").value), mid=(document.getElementById("smid").value||"").trim().toLowerCase();
+    const url=NORM(document.getElementById("surl").value), mid=NORM(document.getElementById("smid").value);
     const msg=document.getElementById("submsg");
-    if (seen[NORM(url)] || (mid && seen[NORM(mid)])) { msg.textContent="\u26a0 该地址/模型已在清单中,已查重跳过"; msg.className="dup"; return; }
-    const rec={url:document.getElementById("surl").value, model_id:mid, note:document.getElementById("snote").value};
+    if (!url) { msg.textContent="\u26a0 请填接口地址或定价页"; msg.className="dup"; return; }
+    // 第1层: 前端实时查重(已在收录清单/队列中 -> 拒绝提交)
+    if (seen[url] || (mid && seen[mid])) { msg.textContent="\u26a0 该地址/模型已在清单中,重复,无法提交"; msg.className="dup"; return; }
+    // 第2层: 本地已提交过 -> 拒绝
     let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
-    if (q.some(x=>NORM(x.url)===NORM(rec.url))) { msg.textContent="\u26a0 你已提交过该地址,已查重跳过"; msg.className="dup"; return; }
-    q.push(rec); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
-    msg.textContent="\u2713 已记录,将人工核验后入库(服务器端再次查重)"; msg.className="ok";
+    if (q.some(x=>NORM(x.url)===url)) { msg.textContent="\u26a0 你已提交过该地址,重复,无法提交"; msg.className="dup"; return; }
+    q.push({url:url, model_id:mid}); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
+    // 第3层(后端): 投稿 -> GitHub Issues(免费审核队列), 你在 Issues 里审核 approve/reject
+    const title=encodeURIComponent("[投稿] "+(mid||"新免费模型/渠道"));
+    const body=encodeURIComponent(
+      "- 接口/定价页: "+document.getElementById("surl").value+"\n"+
+      "- 模型 ID: "+(document.getElementById("smid").value||"-")+"\n"+
+      "- 说明: "+(document.getElementById("snote").value||"-")+"\n\n"+
+      "_前端已查重通过(非重复)。请审核后关闭此 Issue。_");
+    const gh="https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body;
+    msg.innerHTML='\u2713 查重通过(非重复)。<a href="'+gh+'" target="_blank" rel="noopener" style="color:#58a6ff">\u2192 去 GitHub 提交审核</a>';
+    msg.className="ok";
+    window.open(gh, "_blank", "noopener");
     e.target.reset();
   });
   paintReg();

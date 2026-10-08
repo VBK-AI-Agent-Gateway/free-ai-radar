@@ -233,17 +233,40 @@ def dedupe_submission(sub, existing_urls, existing_ids):
 
 
 def ingest_submission(sub):
-    """处理一条投稿,去重后进待审队列。返回 (accepted, reason)。"""
+    """处理一条投稿,去重后进待审队列(OpenRouter 式审核状态机)。返回 (accepted, reason)。
+    状态: pending(待审) -> approved(通过,转正本) / rejected(驳回,带 reason)。"""
     acc, reason = dedupe_submission(sub, existing_source_urls(), existing_model_ids())
     q = load_queue()
     if acc:
         q.append({"url": sub.get("url"), "model_id": sub.get("model_id"),
-                  "note": (sub.get("note") or "")[:300], "at": now()})
+                  "note": (sub.get("note") or "")[:300], "at": now(),
+                  "status": "pending", "review": None})
         save_queue(q)
         print(f"accepted: {sub.get('url')} {sub.get('model_id') or ''}")
     else:
         print(f"rejected: {reason} ({sub.get('url')})")
     return acc, reason
+
+
+def review_submission(idx, decision, reason=""):
+    """审核一条待审投稿: decision = approve | reject。返回更新后的条目或 None。"""
+    q = load_queue()
+    if not (0 <= idx < len(q)):
+        return None
+    item = q[idx]
+    item["status"] = "approved" if decision == "approve" else "rejected"
+    item["review"] = {"decision": decision, "reason": reason[:200], "at": now()}
+    save_queue(q)
+    return item
+
+
+def queue_summary():
+    """按状态统计待审队列,供审核入口/公示用。"""
+    q = load_queue()
+    from collections import Counter
+    c = Counter(x.get("status", "pending") for x in q)
+    return {"total": len(q), "pending": c.get("pending", 0),
+            "approved": c.get("approved", 0), "rejected": c.get("rejected", 0)}
 
 
 # ---------- 免费模型性能实测 ----------
