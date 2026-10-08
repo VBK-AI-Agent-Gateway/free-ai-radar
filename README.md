@@ -10,4 +10,4 @@
 | openai | 0 | (待采集员首轮抓取) | unknown | https://platform.openai.com/docs/pricing |
 | openrouter | 0 | (待采集员首轮抓取) | unknown | https://openrouter.ai/models?order=free |
 
-数据正本: `providers/*.yaml`。生成时间: 2026-10-08T04:54:31Z
+数据正本: `providers/*.yaml`。生成时间: 2026-10-08T05:00:35Z
