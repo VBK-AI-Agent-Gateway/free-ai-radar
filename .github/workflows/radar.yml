@@ -44,6 +44,9 @@ jobs:
         with: {name: snapshots, path: "snapshots/**"}
       - uses: actions/upload-artifact@v4
         with: {name: changes, path: "state.changes.json"}
+      # providers/ 是 enrich/extract 生成的正本 -> 必须传给 publish job 才能提交
+      - uses: actions/upload-artifact@v4
+        with: {name: providers, path: "providers/**"}
 
   probe:     # 探测员:唯一能读探测密钥的 job
     needs: test
@@ -75,6 +78,8 @@ jobs:
         with: {name: changes, path: .}
       - uses: actions/download-artifact@v4
         with: {name: probe-results, path: runs/}
+      - uses: actions/download-artifact@v4
+        with: {name: providers, path: providers/}
       - run: python agents/verdict.py
       - run: python agents/publisher.py
       - name: Guard (安全闸,不过则整个 run 失败)
