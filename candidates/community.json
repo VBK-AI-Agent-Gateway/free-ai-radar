@@ -1,0 +1,126 @@
+{
+ "at": "2026-10-08T13:32:04Z",
+ "source": "hn_algolia",
+ "mentions": [
+  {
+   "title": "Show HN: Letting an LLM write robot programs",
+   "url": "https://news.ycombinator.com/item?id=47674502",
+   "points": 3,
+   "at": "2026-04-07T12:48:49Z"
+  },
+  {
+   "title": "Show HN: VebGen – AI agent that understands projects with AST, not LLM tokens",
+   "url": "https://news.ycombinator.com/item?id=45711058",
+   "points": 2,
+   "at": "2025-10-26T12:03:34Z"
+  },
+  {
+   "title": "Show HN: LlaMaKey – One master key for all cloud LLM/GenAI APIs",
+   "url": "https://news.ycombinator.com/item?id=39381436",
+   "points": 6,
+   "at": "2024-02-15T11:25:00Z"
+  },
+  {
+   "title": "Show HN: Scrappy Free AI Code Assistant",
+   "url": "https://news.ycombinator.com/item?id=46297932",
+   "points": 1,
+   "at": "2025-12-17T03:34:02Z"
+  },
+  {
+   "title": "Show HN: Papermill Press – An AI-friendly markup language for PDF generation",
+   "url": "https://news.ycombinator.com/item?id=48477708",
+   "points": 18,
+   "at": "2026-06-10T15:21:33Z"
+  },
+  {
+   "title": "Show HN: VebGen – Autonomous AI agent with zero-token AST intelligence",
+   "url": "https://news.ycombinator.com/item?id=45643176",
+   "points": 3,
+   "at": "2025-10-20T12:34:01Z"
+  },
+  {
+   "title": "Tell HN: Tips for (mostly) free agentic coding setup",
+   "url": "https://news.ycombinator.com/item?id=47046601",
+   "points": 2,
+   "at": "2026-02-17T12:05:12Z"
+  },
+  {
+   "title": "Ask HN: LLM vendors with a free tier for students?",
+   "url": "https://news.ycombinator.com/item?id=39214697",
+   "points": 3,
+   "at": "2024-02-01T11:03:46Z"
+  },
+  {
+   "title": "Show HN: HYPD – AI co-pilot for marketers running Google Ads",
+   "url": "https://news.ycombinator.com/item?id=48119543",
+   "points": 4,
+   "at": "2026-05-13T09:09:48Z"
+  },
+  {
+   "title": "Show HN: Structured LLM Output in iOS Shortcuts",
+   "url": "https://news.ycombinator.com/item?id=43971439",
+   "points": 1,
+   "at": "2025-05-13T10:27:25Z"
+  },
+  {
+   "title": "Show HN: GoogLLM – Google search that returns Markdown instead of HTML",
+   "url": "https://news.ycombinator.com/item?id=44161975",
+   "points": 7,
+   "at": "2025-06-02T19:07:51Z"
+  },
+  {
+   "title": "Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems",
+   "url": "https://news.ycombinator.com/item?id=42247368",
+   "points": 354,
+   "at": "2024-11-26T16:57:12Z"
+  },
+  {
+   "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
+   "url": "https://news.ycombinator.com/item?id=49909913",
+   "points": 25,
+   "at": "2026-09-30T14:59:57Z"
+  },
+  {
+   "title": "Show HN: AI agents run my one-person company on Gemini's free tier – $0/month",
+   "url": "https://news.ycombinator.com/item?id=47296664",
+   "points": 16,
+   "at": "2026-03-08T12:04:48Z"
+  },
+  {
+   "title": "Show HN: Web MCP Free Tier – Web Access for Agents Without Getting Blocked",
+   "url": "https://news.ycombinator.com/item?id=44961890",
+   "points": 11,
+   "at": "2025-08-20T13:44:08Z"
+  },
+  {
+   "title": "Show HN: LLM Onestop – Access ChatGPT, Claude, Gemini, and more in one interface",
+   "url": "https://news.ycombinator.com/item?id=45871271",
+   "points": 8,
+   "at": "2025-11-10T01:39:38Z"
+  },
+  {
+   "title": "Show HN: Lumina – Open-source observability for LLM applications",
+   "url": "https://news.ycombinator.com/item?id=46751546",
+   "points": 6,
+   "at": "2026-01-25T07:08:52Z"
+  },
+  {
+   "title": "LotusQ Cross platform voice dictation with free local Whisper(Mac/Windows/Linux)",
+   "url": "https://news.ycombinator.com/item?id=47236888",
+   "points": 2,
+   "at": "2026-03-03T18:48:16Z"
+  },
+  {
+   "title": "Show HN: SnapAPI – Screenshot/PDF/Extract API Built with Fastify and Playwright",
+   "url": "https://news.ycombinator.com/item?id=47073746",
+   "points": 2,
+   "at": "2026-02-19T13:56:12Z"
+  },
+  {
+   "title": "Show HN: Fixthisbug.de – AI Code Fixes with Local LLM for Privacy",
+   "url": "https://news.ycombinator.com/item?id=42087203",
+   "points": 2,
+   "at": "2024-11-08T14:43:22Z"
+  }
+ ]
+}
