@@ -1,10 +1,10 @@
 {
- "at": "2026-10-08T11:09:30Z",
+ "at": "2026-10-08T13:32:04Z",
  "coverage": {
   "ref_providers": 76,
-  "covered": 4,
-  "candidate": 72,
-  "coverage_rate": 0.053,
+  "covered": 7,
+  "candidate": 69,
+  "coverage_rate": 0.092,
   "note": "外部目录并集偏西方,会高估覆盖(方案注明);这是参考不是真值"
  },
  "candidates": [
@@ -557,20 +557,6 @@
    ]
   },
   {
-   "provider": "vercel",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "models_dev",
-   "free_models": [
-    "stealth/glyph-cluster",
-    "poolside/laguna-s-2.1-free",
-    "meta/llama-3.3-70b",
-    "meta/llama-4-maverick",
-    "meta/llama-4-scout",
-    "inclusionai/ling-3.1-flash-free"
-   ]
-  },
-  {
    "provider": "zai-coding-plan",
    "status": "candidate",
    "reason": "provider not in canonical",
@@ -732,6 +718,22 @@
     "Agents-A1",
     "deepseek-v4-flash"
    ]
+  },
+  {
+   "provider": "opencode-go",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "models_dev",
+   "free_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ]
   }
- ]
+ ],
+ "community_mentions": 20,
+ "regional_groups": {
+  "cn": 25,
+  "eu": 3,
+  "other": 41
+ }
 }
