@@ -10,6 +10,8 @@
   "cohere": 2,
   "together": 2,
   "deepseek": 2,
-  "zhipu": 2
+  "zhipu": 2,
+  "deepinfra": 1,
+  "sambanova": 1
  }
 }

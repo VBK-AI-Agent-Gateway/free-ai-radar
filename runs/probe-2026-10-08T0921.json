@@ -1,0 +1,37 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 435,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepinfra",
+   "url": "https://api.deepinfra.com/v1/openai/models",
+   "at": "2026-10-08T09:21:04Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 114,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "sambanova",
+   "url": "https://api.sambanova.ai/v1/models",
+   "at": "2026-10-08T09:21:04Z"
+  }
+ ],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu"
+ ]
+}

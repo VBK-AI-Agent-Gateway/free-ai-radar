@@ -1,9 +1,1 @@
-[
- {
-  "provider": "openrouter",
-  "url": "https://openrouter.ai/api/v1/models",
-  "type": "official_api",
-  "old_hash": "ee44099011b88b1a3456862a400632144f59ae2a24ebbe0d8e6f995ef385d7db",
-  "new_hash": "1e4951869e854df97e9d6cbeb47cdd8b7e427992d678aefea526e0e6d69fc8f3"
- }
-]
+[]
