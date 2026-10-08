@@ -1,0 +1,12 @@
+# 事实正本。字段规则见 docs/schema.md;无证据写 unknown,不猜。
+provider: groq
+homepage: https://groq.com
+pricing_url: https://groq.com/pricing
+signup:
+  url: https://console.groq.com/keys
+  needs: ['email']
+  regions_blocked: unknown
+  est_minutes: unknown
+models: []
+evidence: []
+last_verified: unknown

@@ -1,0 +1,44 @@
+# 要查的接口、页面、公告(六种来源类型之二:official_api / official_page)
+# 全部公开无 key;探测密钥只放仓库 Secrets,不进本文件
+sources:
+  - provider: openai
+    type: official_page
+    url: https://platform.openai.com/docs/pricing
+    check: daily
+  - provider: anthropic
+    type: official_page
+    url: https://www.anthropic.com/pricing
+    check: daily
+  - provider: google
+    type: official_api
+    url: https://generativelanguage.googleapis.com/v1beta/models
+    check: hourly
+  - provider: openrouter
+    type: official_api
+    url: https://openrouter.ai/api/v1/models
+    check: hourly
+  - provider: groq
+    type: official_api
+    url: https://api.groq.com/openai/v1/models
+    check: hourly
+    needs_key: true
+  - provider: mistral
+    type: official_page
+    url: https://mistral.ai/pricing
+    check: daily
+  - provider: cohere
+    type: official_page
+    url: https://cohere.com/pricing
+    check: daily
+  - provider: together
+    type: official_page
+    url: https://www.together.ai/pricing
+    check: daily
+  - provider: deepseek
+    type: official_page
+    url: https://api-docs.deepseek.com/quick_start/pricing
+    check: daily
+  - provider: zhipu
+    type: official_page
+    url: https://open.bigmodel.cn/pricing
+    check: daily

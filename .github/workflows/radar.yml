@@ -1,0 +1,81 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "7 * * * *"    # 每小时:采集员+核验+发布(整点后 7 分避开高峰)
+    - cron: "23 */4 * * *" # 每 4 小时:探测员(预算每天 2 次/家,由代码兜底)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write  # 最低:只有发布产物提交回仓库
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+
+  collect:   # 采集员:抓接口/页面,出变化事件
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - run: python agents/collector.py
+      - uses: actions/upload-artifact@v4
+        with: {name: snapshots, path: "snapshots/**"}
+      - uses: actions/upload-artifact@v4
+        with: {name: changes, path: "state.changes.json"}
+
+  probe:     # 探测员:唯一能读探测密钥的 job
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - name: Probe (secrets injected only here)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PROBE_API_KEY: ${{ secrets.PROBE_API_KEY }}
+        run: python agents/prober.py
+      - uses: actions/upload-artifact@v4
+        with: {name: probe-results, path: runs/probe-*.json}
+
+  publish:   # 发布员:生成产物+守卫过闸+提交;唯一能写通知令牌
+    needs: [collect, probe]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with: {name: snapshots, path: snapshots/}
+      - uses: actions/download-artifact@v4
+        with: {name: changes, path: .}
+      - uses: actions/download-artifact@v4
+        with: {name: probe-results, path: runs/}
+      - run: python agents/verdict.py
+      - run: python agents/publisher.py
+      - name: Guard (安全闸,不过则整个 run 失败)
+        run: python agents/guard.py --file providers/*.yaml --file config/sources.yaml
+      - name: Commit artifacts
+        run: |
+          git config user.name "free-ai-radar[bot]"
+          git config user.email "radar@users.noreply.github.com"
+          git add providers/ docs/ README.md runs/ snapshots/ state.changes.json || true
+          git diff --cached --quiet || git commit -m "radar: auto update $(date -u +%FT%TZ)"
+          git push
+      - name: Notify telegram (small changes auto-publish)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python agents/publisher.py --notify

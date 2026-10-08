@@ -1,0 +1,10 @@
+# 预算与阈值(运营者拍板的数)
+ai:
+  daily_call_limit: 100          # 每天最多调 AI 次数(抽取+摘要合计)
+probe:
+  daily_runs_per_provider: 2     # 每家厂商每天最多探测次数
+  request_timeout_sec: 15
+major_change:
+  quota_drop_pct: 50             # 额度下调超过此百分比算重大变化(占位,待你定)
+notify:
+  min_interval_min: 30           # 同类通知最小间隔,防轰炸

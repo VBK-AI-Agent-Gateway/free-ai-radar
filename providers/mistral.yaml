@@ -1,0 +1,12 @@
+# 事实正本。字段规则见 docs/schema.md;无证据写 unknown,不猜。
+provider: mistral
+homepage: https://mistral.ai
+pricing_url: https://mistral.ai/pricing
+signup:
+  url: https://console.mistral.ai/signup
+  needs: ['email']
+  regions_blocked: unknown
+  est_minutes: unknown
+models: []
+evidence: []
+last_verified: unknown
