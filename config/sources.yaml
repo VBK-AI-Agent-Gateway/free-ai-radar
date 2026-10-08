@@ -62,3 +62,9 @@ sources:
     url: https://api.novita.ai/v3/openai/models
     check: daily
     parser: openai_compat
+  # 阶段2发现员筛出的真厂商:匿名可拉 + 带定价 + 有真免费层
+  - provider: vercel
+    type: official_api
+    url: https://ai-gateway.vercel.sh/v1/models
+    check: daily
+    parser: openai_compat

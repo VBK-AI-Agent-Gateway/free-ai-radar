@@ -1,0 +1,14 @@
+provider: deepseek
+models:
+- id: deepseek/deepseek-chat
+  name: DeepSeek Chat (V3)
+  status: declared
+  free: false
+  description: prices listed below are in units of per 1M tokens.
+  evidence:
+  - kind: official_page
+    url: https://api-docs.deepseek.com/quick_start/pricing
+    at: '2026-10-08'
+    excerpt: prices listed below are in units of per 1M tokens.
+  last_verified: '2026-10-08'
+last_verified: '2026-10-08T11:20:17Z'
