@@ -3,28 +3,35 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "fef0cc1d8092ad01588b1004b53442add317ae75e1da8fc2237872cb219dc074",
-  "new_hash": "2b7fd90b85d747b936d01b24d2959f71ff7cf0ee84a0f44b24d85333a10e714e"
+  "old_hash": "2b7fd90b85d747b936d01b24d2959f71ff7cf0ee84a0f44b24d85333a10e714e",
+  "new_hash": "93ee5b5cc3a09dd519d3f1838bcc043944715384f042b6a3d22ff23ecd704baa"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "0a5231aaacfac860d8298ccf99d27d33bc162e6049cf1f994e40bb35875e8c36",
-  "new_hash": "f7f073ba9f1b0190285aa05a268821b479d0d52944c1078c5d0bddf63725f3f0"
+  "old_hash": "f7f073ba9f1b0190285aa05a268821b479d0d52944c1078c5d0bddf63725f3f0",
+  "new_hash": "6430c5ecd7ebb44a41453afe0041a31b3bc051404a611ab9815b1d67b1e06e70"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "cb9c83449386a3f59cece780d92fed6e2b70cc919c0fb9a139b8e552059780d9",
-  "new_hash": "ab430eae67dd806888967b7e39fac395def8890fa2500500a78545935d90beca"
+  "old_hash": "ab430eae67dd806888967b7e39fac395def8890fa2500500a78545935d90beca",
+  "new_hash": "902279017804877b1c34c88d83626f287813b44a35b84915511fe3dae5800b86"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "2aaa29134b022533ee73a0e894d4af2c0ad9143be20dedf72b70be5635fba4b8",
-  "new_hash": "93030e0e1d05e50d5eb8d60b2bf6095ad8fd3e076fcde1d011c05ff154fc5c14"
+  "old_hash": "93030e0e1d05e50d5eb8d60b2bf6095ad8fd3e076fcde1d011c05ff154fc5c14",
+  "new_hash": "e01297f3ce939c33009beabd42e56ea5f89de3d3f3a08eacbd5aa7f5f33b7cc1"
+ },
+ {
+  "provider": "llmgateway",
+  "url": "https://api.llmgateway.io/v1/models",
+  "type": "official_api",
+  "old_hash": "f63c0f3772b4da3ad2cfa2bf0a806a0a9e91ddd585ebe34dc4838be789c9941e",
+  "new_hash": "1dac0977c951583113d283e6f7d90c8dba5035e47d144e344d326ebfeba97b9a"
  }
 ]

@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T15:01:33Z",
+ "fetched_at": "2026-10-08T15:32:19Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "f63c0f3772b4da3ad2cfa2bf0a806a0a9e91ddd585ebe34dc4838be789c9941e",
+ "hash": "1dac0977c951583113d283e6f7d90c8dba5035e47d144e344d326ebfeba97b9a",
  "payload": {
   "data": [
    {
@@ -15351,7 +15351,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, consensusprotocol, entrim, runware, scx-ai-gp, sciforium, luminal",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, entrim, consensusprotocol, runware, scx-ai-gp, sciforium, luminal",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15565,32 +15565,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "dsv41",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.00000055",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "max",
-       "xhigh"
-      ],
-      "stability": "stable"
-     },
-     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15614,6 +15588,32 @@
        "high",
        "medium",
        "low"
+      ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "dsv41",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.00000055",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "max",
+       "xhigh"
       ],
       "stability": "stable"
      },
