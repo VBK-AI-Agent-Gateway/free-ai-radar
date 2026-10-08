@@ -27,7 +27,13 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
-      - run: python agents/collector.py
+      - name: Collect (注入需要 key 的接口)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python agents/collector.py
+      - name: Update providers from snapshots
+        run: python agents/updater.py
       - uses: actions/upload-artifact@v4
         with: {name: snapshots, path: "snapshots/**"}
       - uses: actions/upload-artifact@v4

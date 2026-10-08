@@ -15,10 +15,27 @@ def load_sources():
         return yaml.safe_load(f)["sources"]
 
 
+def _headers(src):
+    """needs_key 的接口注入对应密钥(只从环境读,绝不打印/落盘)。"""
+    h = dict(UA)
+    if not src.get("needs_key"):
+        return h
+    pid = src["provider"]
+    if pid == "google":
+        k = os.environ.get("GEMINI_API_KEY")
+        if k:
+            h["x-goog-api-key"] = k
+    else:
+        k = os.environ.get(f"{pid.upper()}_API_KEY") or os.environ.get("PROBE_API_KEY")
+        if k:
+            h["Authorization"] = f"Bearer {k}"
+    return h
+
+
 def fetch(src):
     """-> (ok, kind 'json'|'text', payload)"""
     try:
-        r = requests.get(src["url"], headers=UA, timeout=20)
+        r = requests.get(src["url"], headers=_headers(src), timeout=20)
         if r.status_code != 200:
             return False, None, f"HTTP {r.status_code}"
         if src["type"] == "official_api" or r.headers.get("content-type", "").startswith("application/json"):

@@ -1,0 +1,57 @@
+{
+ "agent": "collector",
+ "at": "2026-10-08T04:53:16Z",
+ "results": [
+  {
+   "provider": "openai",
+   "ok": false,
+   "error": "HTTP 401"
+  },
+  {
+   "provider": "anthropic",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "google",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "provider": "openrouter",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "groq",
+   "ok": false,
+   "error": "HTTP 401"
+  },
+  {
+   "provider": "mistral",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "cohere",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "together",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "deepseek",
+   "ok": true,
+   "changed": false
+  },
+  {
+   "provider": "zhipu",
+   "ok": true,
+   "changed": false
+  }
+ ],
+ "changes": []
+}

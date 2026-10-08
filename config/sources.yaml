@@ -2,9 +2,10 @@
 # 全部公开无 key;探测密钥只放仓库 Secrets,不进本文件
 sources:
   - provider: openai
-    type: official_page
-    url: https://platform.openai.com/docs/pricing
-    check: daily
+    type: official_api
+    url: https://api.openai.com/v1/models
+    check: hourly
+    needs_key: true
   - provider: anthropic
     type: official_page
     url: https://www.anthropic.com/pricing
@@ -13,6 +14,7 @@ sources:
     type: official_api
     url: https://generativelanguage.googleapis.com/v1beta/models
     check: hourly
+    needs_key: true
   - provider: openrouter
     type: official_api
     url: https://openrouter.ai/api/v1/models
