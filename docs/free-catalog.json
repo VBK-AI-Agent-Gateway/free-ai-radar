@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T14:25:10Z",
+ "at": "2026-10-08T14:36:29Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 484,
+ "total_free_models": 485,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -193,12 +193,12 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
+    "novita/inclusionai/ling-3.0-tiny",
+    "novita/ling-3.1-flash",
     "google/gemma-4-31b-it",
-    "poolside/laguna-m.1",
-    "poolside/laguna-xs.2",
-    "mistral/leanstral-1-5",
     "nvidia/nemotron-3-ultra-550b-a55b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b"
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3-nano-30b-a3b"
    ],
    "apply_url": "https://requesty.ai/",
    "status": "live",
@@ -756,6 +756,22 @@
    "note": "有免费模型;需自行到厂商申请 key"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 3,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free",
+    "step-5-preview-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
    "provider": "poe",
    "name": "Poe",
    "free_count": 3,
@@ -980,21 +996,6 @@
    "status": "apply_key",
    "needs_env": [
     "NOVA_API_KEY"
-   ],
-   "note": "有免费模型;需自行到厂商申请 key"
-  },
-  {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 2,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
    ],
    "note": "有免费模型;需自行到厂商申请 key"
   },
