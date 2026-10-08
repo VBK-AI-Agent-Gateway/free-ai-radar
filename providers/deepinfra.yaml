@@ -1,4 +1,13 @@
 provider: deepinfra
+homepage: https://deepinfra.com
+signup:
+  url: https://deepinfra.com/dash/api_keys
+  needs:
+  - email
+  regions_blocked: unknown
+  est_minutes: unknown
+pricing_url: https://deepinfra.com/pricing
+last_verified: '2026-10-08T09:11:36Z'
 models:
 - id: google/gemma-3-27b-it
   name: google/gemma-3-27b-it
@@ -2715,4 +2724,3 @@ models:
     url: https://api.deepinfra.com/v1/openai/models
     at: '2026-10-08T09:11:36Z'
   last_verified: '2026-10-08T09:11:36Z'
-last_verified: '2026-10-08T09:11:36Z'
