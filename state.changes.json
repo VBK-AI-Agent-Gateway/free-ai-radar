@@ -3,42 +3,28 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "5322e9dee898d94e7e7ba6d16fde7ef3f1cb690b605521cbcfacab570a5bbff8",
-  "new_hash": "22896e03c31171a67af84ef15802486aa31f95f91ee4a982e8bd7b143363517d"
+  "old_hash": "22896e03c31171a67af84ef15802486aa31f95f91ee4a982e8bd7b143363517d",
+  "new_hash": "0dae1b9ba70b3192faa9dc5bce56cb5dab64d220ce944feac0c97c68c92888c7"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "c5d869800d211de2b859a104e9ae72ee8b916585940c4b14115fd823579a56b6",
-  "new_hash": "0e3ecd6afd648ddc43f38b5b42b4b5a59d9a8d2d06dc11836e1fbb1a9de5706f"
- },
- {
-  "provider": "vercel",
-  "url": "https://ai-gateway.vercel.sh/v1/models",
-  "type": "official_api",
-  "old_hash": "a458c7a2a42d5756333b4aecdcac5edacb1bcfd61740091b8da0e05037e042be",
-  "new_hash": "6b15f1858909b40b2259ac3fb9cb743b7b8f4c455dbe485de092135cbb9af036"
+  "old_hash": "0e3ecd6afd648ddc43f38b5b42b4b5a59d9a8d2d06dc11836e1fbb1a9de5706f",
+  "new_hash": "278e7e92b0cb38073daaaa3534198e95b6d391c86bc2946e57e24cf878f80cd9"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "101741c6a40e8ebf2da1f4850bafb35784e97e08cc0df3f464b878d9f7dde359",
-  "new_hash": "ffaaa1124a54d3738ba90f647b11a4f6c4a9ebb77959e91e6e601137c7e9704b"
+  "old_hash": "ffaaa1124a54d3738ba90f647b11a4f6c4a9ebb77959e91e6e601137c7e9704b",
+  "new_hash": "81de7387ec7e36bf5bd7da11210dfcbd01ea3a9f8c76e9497bd1d4ff5ebdf83c"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "de0ef8e0f7fc940396a5fdce4eff40befaf6c99a758e8b128d91937b79546ed7",
-  "new_hash": "ecd75a10bc0c223833af9692217642975792aa70874ad6394bbb0bd2591311ca"
- },
- {
-  "provider": "llmgateway",
-  "url": "https://api.llmgateway.io/v1/models",
-  "type": "official_api",
-  "old_hash": "04be1da8550e4ed19f6f74d877f877202bda7285f5cf482813ed011de2cae28e",
-  "new_hash": "a160f2be6a5199f45aba8074bfc2854e69ec59901ee09cd3919c53f7307a985f"
+  "old_hash": "ecd75a10bc0c223833af9692217642975792aa70874ad6394bbb0bd2591311ca",
+  "new_hash": "08a64cb38703da73ca955233d07f5ec2584958bf4932ae8b20cc35bf47c5e667"
  }
 ]
