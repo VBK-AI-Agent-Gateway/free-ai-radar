@@ -1,0 +1,51 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 95,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "fastrouter",
+   "url": "https://api.fastrouter.ai/v1/models",
+   "at": "2026-10-08T13:28:27Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 124,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "requesty",
+   "url": "https://router.requesty.ai/v1/models",
+   "at": "2026-10-08T13:28:27Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 169,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "llmgateway",
+   "url": "https://api.llmgateway.io/v1/models",
+   "at": "2026-10-08T13:28:27Z"
+  }
+ ],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu",
+  "deepinfra",
+  "sambanova",
+  "novita",
+  "vercel"
+ ]
+}
