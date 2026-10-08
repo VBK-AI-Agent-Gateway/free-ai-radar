@@ -40,6 +40,8 @@ jobs:
         run: python agents/extractor.py
       - name: Discover (external-directory candidates + coverage)
         run: python agents/discover.py
+      - name: Free catalog (vendors with free models + apply links)
+        run: python agents/free_catalog.py
       - uses: actions/upload-artifact@v4
         with: {name: snapshots, path: "snapshots/**"}
       - uses: actions/upload-artifact@v4
@@ -47,6 +49,8 @@ jobs:
       # providers/ 是 enrich/extract 生成的正本 -> 必须传给 publish job 才能提交
       - uses: actions/upload-artifact@v4
         with: {name: providers, path: "providers/**"}
+      - uses: actions/upload-artifact@v4
+        with: {name: catalog, path: "docs/free-catalog.json"}
 
   probe:     # 探测员:唯一能读探测密钥的 job
     needs: test
@@ -80,6 +84,8 @@ jobs:
         with: {name: probe-results, path: runs/}
       - uses: actions/download-artifact@v4
         with: {name: providers, path: providers/}
+      - uses: actions/download-artifact@v4
+        with: {name: catalog, path: docs/}
       - run: python agents/verdict.py
       - run: python agents/publisher.py
       - name: Guard (安全闸,不过则整个 run 失败)

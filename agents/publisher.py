@@ -81,6 +81,19 @@ input[type=search],select{background:#161b22;border:1px solid #30363d;color:#c9d
 input[type=search]{flex:1;min-width:200px} select{cursor:pointer}
 label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1px solid #30363d;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:14px}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.catalog{{margin-top:26px}}
+.catalog h2{{font-size:16px;margin:0 0 4px}}
+.catalog .hint{{color:#8b949e;font-size:12px;margin:0 0 10px}}
+.catalog .vgrid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}}
+.catalog .v{{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:10px 12px}}
+.catalog .v.live{{border-color:#238636}}
+.catalog .v .vn{{font-weight:600;font-size:13px;display:flex;justify-content:space-between;gap:6px}}
+.catalog .v .vn .badge{{font-size:10px;color:#238636;font-weight:400}}
+.catalog .v .vn .badge.apply{{color:#d29922}}
+.catalog .v .vc{{font-size:12px;color:#58a6ff;margin:3px 0}}
+.catalog .v .vm{{font-size:11px;color:#8b949e;word-break:break-all;line-height:1.4}}
+.catalog .v a{{display:inline-block;margin-top:6px;font-size:12px;color:#238636;text-decoration:none;border:1px solid #23863655;border-radius:6px;padding:2px 8px}}
+.catalog .v a:hover{{background:#23863622}}
 .chip{background:#1f6feb33;border:1px solid #1f6feb;color:#79c0ff;border-radius:20px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
 .chip.on{background:#1f6feb;color:#fff}
 .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px 16px;margin:10px 0}
@@ -148,6 +161,11 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <span class="chip" data-f="json_mode">JSON输出</span>
 </div>
 <div id="list"></div>
+<section class="catalog" id="catalog">
+<h2>&#127760; 免费模型总目录 &mdash; 哪些厂商有免费模型</h2>
+<p class="hint">已收录的直接看;标&quot;去申请KEY&quot;的需自行到厂商处申请(我们只确认有免费模型并列出入口)。</p>
+<div class="vgrid" id="vgrid"></div>
+</section>
 <details class="submitbox"><summary>&#128227; 投稿新模型 / 新渠道(自动查重)</summary>
 <form id="subform">
   <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页" required>
@@ -160,6 +178,7 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 </div>
 <script>
 let MODELS = __DATA__;
+let CATALOG = __CATALOG__;
 const REG_URL = "__REGISTER_URL__";
 // ---- 人气: 点赞(心) + 注册点击,本地按模型ID去重,防刷;计数只增 ----
 const POP_KEY = "radar_pop_v1", REG_KEY = "radar_reg_v0";
@@ -244,6 +263,23 @@ function renderChan(){
     '<span class="chan live">'+esc(p)+' <b>'+by[p]+'</b></span>').join("")
     + '<span class="chan" title="配 key 后自动接入">groq/google/openai <b>待配key</b></span>';
 }
+// ---- 免费模型总目录: live=已收录可直接看; apply=确认有免费模型+去申请key入口 ----
+function renderCatalog(){
+  const el = document.getElementById("vgrid");
+  if(!el || !CATALOG || !CATALOG.vendors) return;
+  el.innerHTML = CATALOG.vendors.map(v=>{
+    const live = v.status==="live";
+    const link = v.apply_url
+      ? '<a href="'+esc(v.apply_url)+'" target="_blank" rel="noopener" onclick="regClick(\''+esc(v.provider)+'\')">'+(live?"打开":"去申请KEY")+'</a>' : '';
+    const badge = live ? '<span class="badge">已收录</span>' : '<span class="badge apply">待申请</span>';
+    const models = (v.sample_models||[]).slice(0,4).join(", ");
+    return '<div class="v'+(live?" live":"")+'">'
+      + '<div class="vn"><span>'+esc(v.name)+'</span>'+badge+'</div>'
+      + '<div class="vc">'+v.free_count+' 个免费模型</div>'
+      + '<div class="vm">'+esc(models)+'</div>'
+      + link + '</div>';
+  }).join("");
+}
 // ---- init: 所有顶层 DOM 绑定收进这里,挂 DOMContentLoaded(已加载则立即跑),防整体崩 ----
 function init(){
   document.getElementById("q").addEventListener("input", render);
@@ -267,6 +303,7 @@ function init(){
   });
   paintReg();
   renderChan();
+  renderCatalog();
   render();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
@@ -298,6 +335,12 @@ def render_site(rows):
     data = flat(rows)
     providers = {r["provider"] for r in rows}
     gen = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
+    # 免费模型总目录(确认有免费模型的厂商清单)
+    try:
+        import json as _json
+        _cat = json.loads((ROOT / "docs" / "free-catalog.json").read_text(encoding="utf-8"))
+    except Exception:
+        _cat = {"vendors": []}
     out = SITE_TEMPLATE
     out = out.replace("__GEN__", html.escape(gen))
     out = out.replace("__TOTAL__", str(len(data)))
@@ -307,6 +350,9 @@ def render_site(rows):
     _safe = json.dumps(data, ensure_ascii=False)
     _safe = _re.sub(r"[<>&]", lambda c: "\\u%04x" % ord(c.group()), _safe)
     out = out.replace("__DATA__", _safe)
+    _cat_s = json.dumps(_cat, ensure_ascii=False)
+    _cat_s = _re.sub(r"[<>&]", lambda c: "\\u%04x" % ord(c.group()), _cat_s)
+    out = out.replace("__CATALOG__", _cat_s)
     out = out.replace("__REGISTER_URL__", html.escape(SITE_REGISTER_URL))
     return out
 

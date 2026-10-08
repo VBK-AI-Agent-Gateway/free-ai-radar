@@ -1,0 +1,1246 @@
+{
+ "at": "2026-10-08T13:39:52Z",
+ "live_count": 5,
+ "apply_count": 69,
+ "total_free_models": 486,
+ "vendors": [
+  {
+   "provider": "fastrouter",
+   "name": "fastrouter",
+   "free_count": 28,
+   "sample_models": [
+    "fastrouter/auto",
+    "google/gemini-3.1-flash-image-preview",
+    "openai/gpt-live-1",
+    "google/gemini-2.5-flash-image",
+    "ace-step/prompt-to-audio",
+    "alibaba/happyhorse-1.1"
+   ],
+   "apply_url": "https://fastrouter.ai/signup",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
+   "provider": "alibaba-token-plan",
+   "name": "Alibaba Token Plan",
+   "free_count": 20,
+   "sample_models": [
+    "happyhorse-1.1-r2v",
+    "qwen3.7-max",
+    "deepseek-v4-flash-0731",
+    "qwen3.8-max",
+    "happyhorse-1.1-t2v",
+    "qwen-image-2.0"
+   ],
+   "apply_url": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+   "status": "apply_key",
+   "needs_env": [
+    "ALIBABA_TOKEN_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "alibaba-token-plan-cn",
+   "name": "Alibaba Token Plan (China)",
+   "free_count": 20,
+   "sample_models": [
+    "happyhorse-1.1-r2v",
+    "qwen3.7-max",
+    "deepseek-v4-flash-0731",
+    "qwen3.8-max",
+    "happyhorse-1.1-t2v",
+    "qwen-image-2.0"
+   ],
+   "apply_url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
+   "status": "apply_key",
+   "needs_env": [
+    "ALIBABA_TOKEN_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "gitlab",
+   "name": "GitLab Duo",
+   "free_count": 20,
+   "sample_models": [
+    "duo-chat-gpt-5-4-nano",
+    "duo-chat-opus-5-5",
+    "duo-chat-gpt-6-1-sol",
+    "duo-chat-sonnet-5-5",
+    "duo-chat-gpt-6-astra",
+    "duo-chat-opus-4-5"
+   ],
+   "apply_url": "https://docs.gitlab.com/user/duo_agent_platform/",
+   "status": "apply_key",
+   "needs_env": [
+    "GITLAB_TOKEN"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "kenari",
+   "name": "Kenari",
+   "free_count": 20,
+   "sample_models": [
+    "gpt-5-4-mini",
+    "gpt-5-6-luna",
+    "gemma-4-31b-it",
+    "grok-4-5",
+    "gemini-2-5-flash",
+    "nemotron-3-nano-30b-a3b"
+   ],
+   "apply_url": "https://kenari.id/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "KENARI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "nvidia",
+   "name": "Nvidia",
+   "free_count": 20,
+   "sample_models": [
+    "baai/bge-m3",
+    "poolside/laguna-xs-2.1",
+    "abacusai/dracarys-llama-3.1-70b-instruct",
+    "z-ai/glm-5.3-flash",
+    "z-ai/glm-5.2",
+    "z-ai/glm-5.3"
+   ],
+   "apply_url": "https://docs.api.nvidia.com/nim/",
+   "status": "apply_key",
+   "needs_env": [
+    "NVIDIA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "opencode",
+   "name": "OpenCode Zen",
+   "free_count": 20,
+   "sample_models": [
+    "ling-3.0-flash-fin-free",
+    "fledge-alpha-free",
+    "qwen3.6-plus-free",
+    "mimo-v2-pro-free",
+    "muse-spark-1.2-contributor-free",
+    "ling-3.1-flash-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/zen",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "openrouter",
+   "name": "openrouter",
+   "free_count": 20,
+   "sample_models": [
+    "inclusionai/ling-3.1-flash",
+    "apodex/apodex-1.1-mini:free",
+    "inclusionai/ling-3.0-flash-sante:free",
+    "dots-studio/dots-3-note-preview:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free"
+   ],
+   "apply_url": "https://openrouter.ai/sign-up",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
+   "provider": "scnet-token-plan",
+   "name": "SCNet Token Plan",
+   "free_count": 19,
+   "sample_models": [
+    "DeepSeek-V4-Flash-0731",
+    "Kimi-K2.6",
+    "MiniMax-M3",
+    "GLM-5.1",
+    "GLM-5.2",
+    "Qwen3.8-Max"
+   ],
+   "apply_url": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
+   "status": "apply_key",
+   "needs_env": [
+    "SCNET_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "iflowcn",
+   "name": "iFlow",
+   "free_count": 14,
+   "sample_models": [
+    "qwen3-vl-plus",
+    "glm-4.6",
+    "qwen3-32b",
+    "qwen3-max",
+    "deepseek-v3",
+    "qwen3-235b-a22b-thinking-2507"
+   ],
+   "apply_url": "https://platform.iflow.cn/en/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "IFLOW_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "requesty",
+   "name": "requesty",
+   "free_count": 13,
+   "sample_models": [
+    "poolside/laguna-m.1",
+    "poolside/laguna-xs.2",
+    "novita/ling-3.1-flash",
+    "novita/inclusionai/ling-3.0-tiny",
+    "google/gemma-4-31b-it",
+    "mistral/leanstral-1-5"
+   ],
+   "apply_url": "https://requesty.ai/",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
+   "provider": "inferx",
+   "name": "InferX",
+   "free_count": 12,
+   "sample_models": [
+    "gemma-4-31B-it-fp8",
+    "Qwen3.6-35B-A3B-fp8-no-thinking",
+    "Devstral-2-123B-Instruct-2512-int4-AutoRound",
+    "Qwen3.6-27B-FP8",
+    "Qwen3-Coder-Next-FP8",
+    "Qwen3-Coder-Next-FP8-no-thinking"
+   ],
+   "apply_url": "https://model.inferx.net/endpoints",
+   "status": "apply_key",
+   "needs_env": [
+    "INFERX_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "unorouter",
+   "name": "UnoRouter",
+   "free_count": 11,
+   "sample_models": [
+    "gpt-5.5:free",
+    "glm-4.5-flash:free",
+    "gemma-4-31b-it:free",
+    "nemotron-3-ultra-550b-a55b:free",
+    "gpt-5.4:free",
+    "step-3.7-flash:free"
+   ],
+   "apply_url": "https://unorouter.com/models",
+   "status": "apply_key",
+   "needs_env": [
+    "UNOROUTER_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "alibaba-coding-plan",
+   "name": "Alibaba Coding Plan",
+   "free_count": 10,
+   "sample_models": [
+    "qwen3-coder-next",
+    "qwen3.5-plus",
+    "glm-5",
+    "kimi-k2.5",
+    "qwen3-max-2026-01-23",
+    "qwen3-coder-plus"
+   ],
+   "apply_url": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+   "status": "apply_key",
+   "needs_env": [
+    "ALIBABA_CODING_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "alibaba-coding-plan-cn",
+   "name": "Alibaba Coding Plan (China)",
+   "free_count": 10,
+   "sample_models": [
+    "qwen3-coder-next",
+    "qwen3.5-plus",
+    "glm-5",
+    "kimi-k2.5",
+    "qwen3-max-2026-01-23",
+    "qwen3-coder-plus"
+   ],
+   "apply_url": "https://help.aliyun.com/zh/model-studio/coding-plan",
+   "status": "apply_key",
+   "needs_env": [
+    "ALIBABA_CODING_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "volcengine-coding-plan",
+   "name": "Volcengine Ark Coding Plan",
+   "free_count": 10,
+   "sample_models": [
+    "doubao-seed-2.0-lite",
+    "glm-5.3-flash",
+    "kimi-k3",
+    "doubao-seed-2.1-turbo",
+    "minimax-m3",
+    "doubao-seed-evolving"
+   ],
+   "apply_url": "https://www.volcengine.com/docs/82379/1928261",
+   "status": "apply_key",
+   "needs_env": [
+    "ARK_CODING_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "qvac",
+   "name": "QVAC",
+   "free_count": 9,
+   "sample_models": [
+    "qwen3.5-0.8b",
+    "gemma4-31b",
+    "qwen3.6-35b-a3b",
+    "qwen3.5-2b",
+    "gpt-oss-20b",
+    "qwen3.5-9b"
+   ],
+   "apply_url": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
+   "status": "apply_key",
+   "needs_env": [
+    "QVAC_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "xiaomi-token-plan-ams",
+   "name": "Xiaomi Token Plan (Europe)",
+   "free_count": 9,
+   "sample_models": [
+    "mimo-v2.6-pro",
+    "mimo-v2.6-flash",
+    "mimo-v2.5-tts-voiceclone",
+    "mimo-v2.5-pro",
+    "mimo-v2-tts",
+    "mimo-v2-pro"
+   ],
+   "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "XIAOMI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "xiaomi-token-plan-cn",
+   "name": "Xiaomi Token Plan (China)",
+   "free_count": 9,
+   "sample_models": [
+    "mimo-v2.6-pro",
+    "mimo-v2.5",
+    "mimo-v2.5-tts-voicedesign",
+    "mimo-v2.5-tts",
+    "mimo-v2-pro",
+    "mimo-v2-tts"
+   ],
+   "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "XIAOMI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "xiaomi-token-plan-sgp",
+   "name": "Xiaomi Token Plan (Singapore)",
+   "free_count": 9,
+   "sample_models": [
+    "mimo-v2.6-pro",
+    "mimo-v2.6-flash",
+    "mimo-v2.5-tts-voiceclone",
+    "mimo-v2.5-pro",
+    "mimo-v2-tts",
+    "mimo-v2-pro"
+   ],
+   "apply_url": "https://platform.xiaomimimo.com/#/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "XIAOMI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "minimax-cn-coding-plan",
+   "name": "MiniMax Token Plan (minimax.cn)",
+   "free_count": 8,
+   "sample_models": [
+    "MiniMax-M3",
+    "MiniMax-M2.1",
+    "MiniMax-M3.1-Flash-Preview",
+    "MiniMax-M2.5",
+    "MiniMax-M2.7",
+    "MiniMax-M2.7-highspeed"
+   ],
+   "apply_url": "https://platform.minimaxi.com/docs/token-plan/intro",
+   "status": "apply_key",
+   "needs_env": [
+    "MINIMAX_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "minimax-coding-plan",
+   "name": "MiniMax Token Plan (minimax.io)",
+   "free_count": 8,
+   "sample_models": [
+    "MiniMax-M3",
+    "MiniMax-M2.1",
+    "MiniMax-M3.1-Flash-Preview",
+    "MiniMax-M2.5",
+    "MiniMax-M2.7",
+    "MiniMax-M2.7-highspeed"
+   ],
+   "apply_url": "https://platform.minimax.io/docs/token-plan/intro",
+   "status": "apply_key",
+   "needs_env": [
+    "MINIMAX_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "nan",
+   "name": "NaN",
+   "free_count": 8,
+   "sample_models": [
+    "qwen-image-2.1",
+    "glm5.3-flash",
+    "gemma4",
+    "qwen3.6",
+    "mimo-v2.6-flash",
+    "qwen3.8-flash"
+   ],
+   "apply_url": "https://nan.builders/docs/models",
+   "status": "apply_key",
+   "needs_env": [
+    "NAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "tencent-coding-plan",
+   "name": "Tencent Coding Plan (China)",
+   "free_count": 8,
+   "sample_models": [
+    "hunyuan-2.0-thinking",
+    "glm-5",
+    "minimax-m2.5",
+    "hunyuan-2.0-instruct",
+    "kimi-k2.5",
+    "tc-code-latest"
+   ],
+   "apply_url": "https://cloud.tencent.com/document/product/1772/128947",
+   "status": "apply_key",
+   "needs_env": [
+    "TENCENT_CODING_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "umans-ai-coding-plan",
+   "name": "Umans AI Coding Plan",
+   "free_count": 8,
+   "sample_models": [
+    "umans-deepseek-v4.1-flash",
+    "umans-glm-5.3-flash",
+    "umans-flash",
+    "umans-deepseek-v4-flash-0731",
+    "umans-kimi-k3",
+    "umans-glm-5.3"
+   ],
+   "apply_url": "https://app.umans.ai/offers/code/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "UMANS_AI_CODING_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "llama",
+   "name": "Llama",
+   "free_count": 7,
+   "sample_models": [
+    "llama-4-maverick-17b-128e-instruct-fp8",
+    "groq-llama-4-maverick-17b-128e-instruct",
+    "llama-4-scout-17b-16e-instruct-fp8",
+    "cerebras-llama-4-maverick-17b-128e-instruct",
+    "llama-3.3-70b-instruct",
+    "llama-3.3-8b-instruct"
+   ],
+   "apply_url": "https://llama.developer.meta.com/docs/models",
+   "status": "apply_key",
+   "needs_env": [
+    "LLAMA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "modelscope",
+   "name": "ModelScope",
+   "free_count": 7,
+   "sample_models": [
+    "ZhipuAI/GLM-4.6",
+    "ZhipuAI/GLM-4.5",
+    "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "Qwen/Qwen3-235B-A22B-Thinking-2507",
+    "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "Qwen/Qwen3-30B-A3B-Thinking-2507"
+   ],
+   "apply_url": "https://modelscope.cn/docs/model-service/API-Inference/intro",
+   "status": "apply_key",
+   "needs_env": [
+    "MODELSCOPE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "zai-coding-plan",
+   "name": "Z.AI Coding Plan",
+   "free_count": 7,
+   "sample_models": [
+    "glm-5.3-flash",
+    "glm-5.3-highspeed",
+    "glm-5.2-highspeed",
+    "glm-4.7",
+    "glm-5.2",
+    "glm-5-turbo"
+   ],
+   "apply_url": "https://docs.z.ai/devpack/overview",
+   "status": "apply_key",
+   "needs_env": [
+    "ZHIPU_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "pendra",
+   "name": "Pendra",
+   "free_count": 6,
+   "sample_models": [
+    "llama3.3:70b",
+    "qwen3-coder:30b",
+    "gpt-oss:120b",
+    "qwen3.6:27b",
+    "glm-4.7-flash",
+    "deepseek-v4-flash"
+   ],
+   "apply_url": "https://pendra.ai/docs/integrations/opencode",
+   "status": "apply_key",
+   "needs_env": [
+    "PENDRA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "vercel",
+   "name": "vercel",
+   "free_count": 6,
+   "sample_models": [
+    "convaiinnovations/laya",
+    "convaiinnovations/laya-free",
+    "inclusionai/ling-3.1-flash",
+    "inclusionai/ling-3.1-flash-free",
+    "poolside/laguna-s-2.1-free",
+    "stealth/glyph-cluster"
+   ],
+   "apply_url": "https://vercel.com/signup",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
+   "provider": "zenmux",
+   "name": "ZenMux",
+   "free_count": 6,
+   "sample_models": [
+    "anthropic/claude-sonnet-5-free",
+    "z-ai/glm-4.7-flash-free",
+    "z-ai/glm-4.6v-flash-free",
+    "moonshotai/kimi-k3-free",
+    "moonshotai/kimi-k2.7-code-free",
+    "stepfun/step-3.7-flash-free"
+   ],
+   "apply_url": "https://docs.zenmux.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "ZENMUX_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "aihubmix",
+   "name": "AIHubMix",
+   "free_count": 5,
+   "sample_models": [
+    "coding-minimax-m2.7-free",
+    "xiaomi-mimo-v2.5-pro-free",
+    "xiaomi-mimo-v2.5-free",
+    "ox-alpha",
+    "coding-glm-5.1-free"
+   ],
+   "apply_url": "https://docs.aihubmix.com",
+   "status": "apply_key",
+   "needs_env": [
+    "AIHUBMIX_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "atomic-chat",
+   "name": "Atomic Chat",
+   "free_count": 5,
+   "sample_models": [
+    "gemma-4-E4B-it-MLX-4bit",
+    "Meta-Llama-3_1-8B-Instruct-GGUF",
+    "Qwen3_5-9B-Q4_K_M",
+    "gemma-4-E4B-it-IQ4_XS",
+    "Qwen3_5-9B-MLX-4bit"
+   ],
+   "apply_url": "https://atomic.chat",
+   "status": "apply_key",
+   "needs_env": [
+    "ATOMIC_CHAT_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "kilo",
+   "name": "Kilo Gateway",
+   "free_count": 5,
+   "sample_models": [
+    "openrouter/bodybuilder",
+    "openrouter/pareto-code",
+    "openrouter/auto",
+    "kilo-auto/free",
+    "stepfun/step-3.7-flash:free"
+   ],
+   "apply_url": "https://kilo.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "KILO_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "orcarouter",
+   "name": "OrcaRouter",
+   "free_count": 5,
+   "sample_models": [
+    "deepseek/deepseek-v4-flash-free",
+    "tencent/hy3-free",
+    "z-ai/glm-5.3-flash-free",
+    "orcarouter/free",
+    "orcarouter/auto"
+   ],
+   "apply_url": "https://docs.orcarouter.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "ORCAROUTER_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "sensenova",
+   "name": "SenseNova (China)",
+   "free_count": 5,
+   "sample_models": [
+    "kimi-k3",
+    "sensenova-6.8-flash-lite",
+    "glm-5.2",
+    "deepseek-v4-pro",
+    "deepseek-v4-flash"
+   ],
+   "apply_url": "https://platform.sensenova.cn/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "SENSENOVA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "empiriolabs",
+   "name": "EmpirioLabs AI",
+   "free_count": 4,
+   "sample_models": [
+    "glm-4-7-flash",
+    "glm-4-6v-flash",
+    "gemma-3-27b",
+    "glm-4-5-flash"
+   ],
+   "apply_url": "https://docs.empiriolabs.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "EMPIRIOLABS_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "kimi-code-plan-cn",
+   "name": "Kimi For Coding (kimi.com)",
+   "free_count": 4,
+   "sample_models": [
+    "kimi-for-coding-highspeed",
+    "kimi-for-coding",
+    "k3-256k",
+    "k3"
+   ],
+   "apply_url": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+   "status": "apply_key",
+   "needs_env": [
+    "KIMI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "kimi-code-plan-global",
+   "name": "Kimi For Coding (kimi.ai)",
+   "free_count": 4,
+   "sample_models": [
+    "kimi-for-coding-highspeed",
+    "kimi-for-coding",
+    "k3-256k",
+    "k3"
+   ],
+   "apply_url": "https://www.kimi.ai/code/docs/en/kimi-code/models.html",
+   "status": "apply_key",
+   "needs_env": [
+    "KIMI_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "tempr",
+   "name": "Tempr Gateway",
+   "free_count": 4,
+   "sample_models": [
+    "groq/allam-2-7b",
+    "zai/glm-4.6v-flash",
+    "zai/glm-4.7-flash",
+    "zai/glm-4.5-flash"
+   ],
+   "apply_url": "https://temprhq.io/docs/gateway-reference.html",
+   "status": "apply_key",
+   "needs_env": [
+    "TEMPR_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "lmstudio",
+   "name": "LMStudio",
+   "free_count": 3,
+   "sample_models": [
+    "qwen/qwen3-30b-a3b-2507",
+    "qwen/qwen3-coder-30b",
+    "openai/gpt-oss-20b"
+   ],
+   "apply_url": "https://lmstudio.ai/models",
+   "status": "apply_key",
+   "needs_env": [
+    "LMSTUDIO_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "poe",
+   "name": "Poe",
+   "free_count": 3,
+   "sample_models": [
+    "google/gemma-4-31b",
+    "fireworks-ai/kimi-k2.5-fw",
+    "openai/gpt-5.3-codex-spark"
+   ],
+   "apply_url": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
+   "status": "apply_key",
+   "needs_env": [
+    "POE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 3,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1",
+    "poolside/laguna-m.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "regolo-ai",
+   "name": "Regolo AI",
+   "free_count": 3,
+   "sample_models": [
+    "brick-v1-beta",
+    "deepseek-ocr-2",
+    "faster-whisper-large-v3"
+   ],
+   "apply_url": "https://docs.regolo.ai/",
+   "status": "apply_key",
+   "needs_env": [
+    "REGOLO_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "siliconflow-cn",
+   "name": "SiliconFlow (China)",
+   "free_count": 3,
+   "sample_models": [
+    "Qwen/Qwen3.5-4B",
+    "deepseek-ai/DeepSeek-OCR",
+    "PaddlePaddle/PaddleOCR-VL-1.5"
+   ],
+   "apply_url": "https://cloud.siliconflow.com/models",
+   "status": "apply_key",
+   "needs_env": [
+    "SILICONFLOW_CN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "zai",
+   "name": "Z.AI",
+   "free_count": 3,
+   "sample_models": [
+    "glm-4.6v-flash",
+    "glm-4.7-flash",
+    "glm-4.5-flash"
+   ],
+   "apply_url": "https://docs.z.ai/guides/overview/pricing",
+   "status": "apply_key",
+   "needs_env": [
+    "ZHIPU_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "zhipuai",
+   "name": "Zhipu AI",
+   "free_count": 3,
+   "sample_models": [
+    "glm-4.5-flash",
+    "glm-4.7-flash",
+    "glm-4.6v-flash"
+   ],
+   "apply_url": "https://docs.z.ai/guides/overview/pricing",
+   "status": "apply_key",
+   "needs_env": [
+    "ZHIPU_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "zhipuai-coding-plan",
+   "name": "Zhipu AI Coding Plan",
+   "free_count": 3,
+   "sample_models": [
+    "glm-5.3-flash",
+    "glm-5.3-highspeed",
+    "glm-5.3"
+   ],
+   "apply_url": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+   "status": "apply_key",
+   "needs_env": [
+    "ZHIPU_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "agnes",
+   "name": "Agnes AI",
+   "free_count": 2,
+   "sample_models": [
+    "agnes-2.0-flash",
+    "agnes-2.5-flash"
+   ],
+   "apply_url": "https://agnes-ai.com/doc",
+   "status": "apply_key",
+   "needs_env": [
+    "AGNES_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "alibaba-cn",
+   "name": "Alibaba (China)",
+   "free_count": 2,
+   "sample_models": [
+    "deepseek-r1-distill-llama-8b",
+    "deepseek-r1-distill-qwen-1-5b"
+   ],
+   "apply_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+   "status": "apply_key",
+   "needs_env": [
+    "DASHSCOPE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "bothub",
+   "name": "Bothub",
+   "free_count": 2,
+   "sample_models": [
+    "gemma-4-31b-it:free",
+    "nemotron-3-ultra-550b-a55b:free"
+   ],
+   "apply_url": "https://bothub.ru/models",
+   "status": "apply_key",
+   "needs_env": [
+    "BOTHUB_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "cohere",
+   "name": "Cohere",
+   "free_count": 2,
+   "sample_models": [
+    "north-mini-code-1-0",
+    "north-small-translate-09-2026"
+   ],
+   "apply_url": "https://docs.cohere.com/docs/models",
+   "status": "apply_key",
+   "needs_env": [
+    "COHERE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "cortecs",
+   "name": "Cortecs",
+   "free_count": 2,
+   "sample_models": [
+    "qwen3guard-gen-8b",
+    "qwen3guard-gen-0.6b"
+   ],
+   "apply_url": "https://api.cortecs.ai/v1/models",
+   "status": "apply_key",
+   "needs_env": [
+    "CORTECS_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "hetzner",
+   "name": "Hetzner",
+   "free_count": 2,
+   "sample_models": [
+    "Qwen3.8-27B",
+    "Qwen/Qwen3.6-35B-A3B-FP8"
+   ],
+   "apply_url": "https://experiments.hetzner.com/docs/inference",
+   "status": "apply_key",
+   "needs_env": [
+    "HETZNER_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "llmgateway",
+   "name": "llmgateway",
+   "free_count": 2,
+   "sample_models": [
+    "ling-3.1-flash",
+    "atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/signup",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 2,
+   "sample_models": [
+    "novita/ling-3.1-flash",
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "nano-gpt",
+   "name": "NanoGPT",
+   "free_count": 2,
+   "sample_models": [
+    "nano-gpt-help",
+    "auto-model"
+   ],
+   "apply_url": "https://docs.nano-gpt.com",
+   "status": "apply_key",
+   "needs_env": [
+    "NANO_GPT_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "nova",
+   "name": "Nova",
+   "free_count": 2,
+   "sample_models": [
+    "nova-2-pro-v1",
+    "nova-2-lite-v1"
+   ],
+   "apply_url": "https://nova.amazon.com/dev/documentation",
+   "status": "apply_key",
+   "needs_env": [
+    "NOVA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 2,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "ovhcloud",
+   "name": "OVHcloud AI Endpoints",
+   "free_count": 2,
+   "sample_models": [
+    "qwen3guard-gen-8b",
+    "qwen3guard-gen-0.6b"
+   ],
+   "apply_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
+   "status": "apply_key",
+   "needs_env": [
+    "OVHCLOUD_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "tencent-tokenhub",
+   "name": "Tencent TokenHub",
+   "free_count": 2,
+   "sample_models": [
+    "hy3-preview",
+    "hy3"
+   ],
+   "apply_url": "https://cloud.tencent.com/document/product/1823/130050",
+   "status": "apply_key",
+   "needs_env": [
+    "TENCENT_TOKENHUB_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "amd",
+   "name": "AMD",
+   "free_count": 1,
+   "sample_models": [
+    "Qwen3.8-27B"
+   ],
+   "apply_url": "https://developer.amd.com.cn/radeon/tokenfactory",
+   "status": "apply_key",
+   "needs_env": [
+    "AMD_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "huggingface",
+   "name": "Hugging Face",
+   "free_count": 1,
+   "sample_models": [
+    "zai-org/GLM-4.7-Flash"
+   ],
+   "apply_url": "https://huggingface.co/docs/inference-providers",
+   "status": "apply_key",
+   "needs_env": [
+    "HF_TOKEN"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "infomaniak",
+   "name": "Infomaniak",
+   "free_count": 1,
+   "sample_models": [
+    "mini_lm_l12_v2"
+   ],
+   "apply_url": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
+   "status": "apply_key",
+   "needs_env": [
+    "INFOMANIAK_API_KEY",
+    "INFOMANIAK_PRODUCT_ID"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "jiekou",
+   "name": "Jiekou.AI",
+   "free_count": 1,
+   "sample_models": [
+    "xiaomimimo/mimo-v2-flash"
+   ],
+   "apply_url": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+   "status": "apply_key",
+   "needs_env": [
+    "JIEKOU_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "kuae-cloud-coding-plan",
+   "name": "KUAE Cloud Coding Plan",
+   "free_count": 1,
+   "sample_models": [
+    "GLM-4.7"
+   ],
+   "apply_url": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
+   "status": "apply_key",
+   "needs_env": [
+    "KUAE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "llmtr",
+   "name": "LLMTR",
+   "free_count": 1,
+   "sample_models": [
+    "poolside/laguna-xs-2.1"
+   ],
+   "apply_url": "https://llmtr.com/docs",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMTR_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "lynkr",
+   "name": "Lynkr",
+   "free_count": 1,
+   "sample_models": [
+    "lynkr-auto"
+   ],
+   "apply_url": "https://github.com/Fast-Editor/Lynkr",
+   "status": "apply_key",
+   "needs_env": [
+    "LYNKR_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "meganova",
+   "name": "Meganova",
+   "free_count": 1,
+   "sample_models": [
+    "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+   ],
+   "apply_url": "https://docs.meganova.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "MEGANOVA_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "merge-gateway",
+   "name": "Merge Gateway",
+   "free_count": 1,
+   "sample_models": [
+    "nvidia/nemotron-3.5-lightning-30b-a3b"
+   ],
+   "apply_url": "https://docs.merge.dev/merge-gateway",
+   "status": "apply_key",
+   "needs_env": [
+    "MERGE_GATEWAY_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "standardcompute",
+   "name": "Standard Compute",
+   "free_count": 1,
+   "sample_models": [
+    "standardcompute"
+   ],
+   "apply_url": "https://standardcompute.com/models",
+   "status": "apply_key",
+   "needs_env": [
+    "STANDARDCOMPUTE_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "tencent-token-plan",
+   "name": "Tencent Token Plan",
+   "free_count": 1,
+   "sample_models": [
+    "hy3"
+   ],
+   "apply_url": "https://cloud.tencent.com/document/product/1823/130060",
+   "status": "apply_key",
+   "needs_env": [
+    "TENCENT_TOKEN_PLAN_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "tokenrouter",
+   "name": "TokenRouter",
+   "free_count": 1,
+   "sample_models": [
+    "z-ai/glm-5.3-free"
+   ],
+   "apply_url": "https://www.tokenrouter.com/docs/tokenrouter-feature-guide/",
+   "status": "apply_key",
+   "needs_env": [
+    "TOKENROUTER_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  },
+  {
+   "provider": "zeldoc",
+   "name": "Zeldoc",
+   "free_count": 1,
+   "sample_models": [
+    "zdev"
+   ],
+   "apply_url": "https://docs.zeldoc.ai",
+   "status": "apply_key",
+   "needs_env": [
+    "ZELDOC_API_KEY"
+   ],
+   "note": "有免费模型;需自行到厂商申请 key"
+  }
+ ]
+}

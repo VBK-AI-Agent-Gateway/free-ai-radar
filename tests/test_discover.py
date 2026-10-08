@@ -66,3 +66,17 @@ def test_community_and_regional(monkeypatch, tmp_path):
     assert "alibaba-token-plan" in reg.get("cn", []), "cn vendor must group to cn"
     assert "mysteryprov" in reg.get("other", []), "unknown must go to other"
     assert (tmp_path / "regional.json").exists()
+
+
+def test_free_catalog_build(tmp_path, monkeypatch):
+    """免费模型目录: build 出 vendors,每个有 apply_url 或 live。"""
+    import free_catalog
+    monkeypatch.setattr(free_catalog, "DOCS", tmp_path)
+    cat = free_catalog.build_catalog()
+    assert cat["vendors"], "catalog must have vendors"
+    for v in cat["vendors"]:
+        assert v["free_count"] > 0
+        assert v["status"] in ("live", "apply_key")
+        # 每家都该有申请链接(models.dev doc 或正本 signup)
+        assert v.get("apply_url"), f"{v['provider']} must have apply_url"
+    assert (tmp_path / "free-catalog.json").exists()
