@@ -1,4 +1,13 @@
 provider: novita
+homepage: https://novita.ai
+signup:
+  url: https://novita.ai/dashboard/api-keys
+  needs:
+  - email
+  regions_blocked: unknown
+  est_minutes: unknown
+pricing_url: https://novita.ai/pricing
+last_verified: '2026-10-08T10:14:16Z'
 models:
 - id: zai-org/glm-5.3-flash
   name: zai-org/glm-5.3-flash
@@ -2478,4 +2487,3 @@ models:
     url: https://api.novita.ai/v3/openai/models
     at: '2026-10-08T10:14:16Z'
   last_verified: '2026-10-08T10:14:16Z'
-last_verified: '2026-10-08T10:14:16Z'
