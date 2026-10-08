@@ -86,3 +86,21 @@ def test_free_catalog_build(tmp_path, monkeypatch):
         if v["link_kind"] == "doc":
             assert v["btn"] != "去注册", "doc link must not claim signup"
     assert (tmp_path / "free-catalog.json").exists()
+
+
+def test_verified_signup_urls_used():
+    """已验证注册口必须被用上且标为 signup/去注册(方案A: 只升级curl验证过的)。"""
+    import json as _json
+    from pathlib import Path
+    import free_catalog
+    verified = free_catalog._verified_signups()
+    assert verified, "config/signup_urls.json must exist with verified signups"
+    cat = free_catalog.build_catalog()
+    by = {v["provider"]: v for v in cat["vendors"]}
+    for pid, url in verified.items():
+        if pid not in by:
+            continue  # 可能被正本收录(live)或不在候选
+        v = by[pid]
+        assert v["apply_url"] == url, f"{pid} must use verified signup {url}"
+        assert v["link_kind"] == "signup", f"{pid} verified signup must classify as signup"
+        assert v["btn"] == "去注册", f"{pid} verified signup must label 去注册"
