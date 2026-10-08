@@ -15,6 +15,7 @@ sources:
     url: https://generativelanguage.googleapis.com/v1beta/models
     check: hourly
     needs_key: true
+    parser: google
   - provider: openrouter
     type: official_api
     url: https://openrouter.ai/api/v1/models
@@ -24,6 +25,7 @@ sources:
     url: https://api.groq.com/openai/v1/models
     check: hourly
     needs_key: true
+    parser: openai_compat
   - provider: mistral
     type: official_page
     url: https://mistral.ai/pricing

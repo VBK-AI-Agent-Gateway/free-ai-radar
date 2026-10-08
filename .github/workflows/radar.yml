@@ -36,6 +36,8 @@ jobs:
         run: python agents/updater.py
       - name: Enrich (new channels + submission dedupe self-check)
         run: python agents/enrich.py && python -c "import sys; sys.path.insert(0,'agents'); import enrich; enrich.run_new_channels()"
+      - name: Discover (external-directory candidates + coverage)
+        run: python agents/discover.py
       - uses: actions/upload-artifact@v4
         with: {name: snapshots, path: "snapshots/**"}
       - uses: actions/upload-artifact@v4

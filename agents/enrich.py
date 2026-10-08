@@ -65,9 +65,32 @@ def _evidence(url, kind="official_api"):
 
 def parse_source(snap, source):
     """snap=已抓快照 payload;source=sources.yaml 条目(含 url/parser)。返回 [model fact]。"""
-    if source.get("parser", "openai_compat") == "openrouter":
+    p = source.get("parser", "openai_compat")
+    if p == "openrouter":
         return _parse_openrouter(snap, source.get("url", ""))
+    if p == "google":
+        return _parse_google(snap, source.get("url", ""))
     return _parse_openai_compat(snap, source.get("url", ""))
+
+
+def _parse_google(snap, url):
+    """Google generativelanguage /v1beta/models(原生格式)。免费层看 generateContent 方法。"""
+    out = []
+    for m in snap.get("models", []) or []:
+        methods = m.get("supportedGenerationMethods") or []
+        name = (m.get("name") or "").replace("models/", "")
+        if not name:
+            continue
+        free = "generateContent" in methods  # 能 generateContent = 有免费层可用
+        out.append({
+            "id": f"google/{name}",
+            "name": m.get("displayName") or name,
+            "status": "declared", "free": free,
+            "description": (m.get("description") or "").strip()[:600] or None,
+            "capabilities": {"methods": methods},
+            "evidence": _evidence(url), "last_verified": now(),
+        })
+    return out
 
 
 def _parse_openrouter(snap, url):
