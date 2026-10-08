@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "provider": "openrouter",
+  "url": "https://openrouter.ai/api/v1/models",
+  "type": "official_api",
+  "old_hash": "1e4951869e854df97e9d6cbeb47cdd8b7e427992d678aefea526e0e6d69fc8f3",
+  "new_hash": "7464e01495f952cebeef1b70feb30bbdc36f0a0e3af8d0b8123d343e5f5733e3"
+ },
+ {
+  "provider": "deepinfra",
+  "url": "https://api.deepinfra.com/v1/openai/models",
+  "type": "official_api",
+  "old_hash": "c9676937d093ef3505cd27f452ce46ef1406d726c40c2b8ceb55e87ec535b078",
+  "new_hash": "f5e26f566c953c4bf85b21e53f899368d96f2356872945c208fbb088041973e2"
+ }
+]
