@@ -1,5 +1,5 @@
 {
- "at": "2026-10-08T15:32:49Z",
+ "at": "2026-10-08T15:43:19Z",
  "live_count": 5,
  "apply_count": 69,
  "total_free_models": 485,
@@ -213,11 +213,11 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "mistral/leanstral-1-5",
     "poolside/laguna-m.1",
     "poolside/laguna-xs.2",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
-    "nvidia/nemotron-3-nano-30b-a3b",
+    "google/gemma-4-31b-it",
+    "novita/ling-3.1-flash",
+    "novita/inclusionai/ling-3.0-tiny",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
    ],
    "apply_url": "https://requesty.ai/",
@@ -692,7 +692,7 @@
     "openrouter/pareto-code",
     "openrouter/auto",
     "kilo-auto/free",
-    "stepfun/step-3.7-flash:free"
+    "stepfun/step-5-preview-free"
    ],
    "apply_url": "https://kilo.ai/login",
    "link_kind": "signup",

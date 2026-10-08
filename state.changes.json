@@ -3,35 +3,28 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "2b7fd90b85d747b936d01b24d2959f71ff7cf0ee84a0f44b24d85333a10e714e",
-  "new_hash": "93ee5b5cc3a09dd519d3f1838bcc043944715384f042b6a3d22ff23ecd704baa"
+  "old_hash": "93ee5b5cc3a09dd519d3f1838bcc043944715384f042b6a3d22ff23ecd704baa",
+  "new_hash": "b055547366079a339b44e88c5b5e77ba8f974bfcd9e7ec366ffc61e3b76f3307"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "f7f073ba9f1b0190285aa05a268821b479d0d52944c1078c5d0bddf63725f3f0",
-  "new_hash": "6430c5ecd7ebb44a41453afe0041a31b3bc051404a611ab9815b1d67b1e06e70"
+  "old_hash": "6430c5ecd7ebb44a41453afe0041a31b3bc051404a611ab9815b1d67b1e06e70",
+  "new_hash": "921dd0c61b366b67aa0d0813a0cb2701f360a0ac93505ed4e6f82d6f192731db"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "ab430eae67dd806888967b7e39fac395def8890fa2500500a78545935d90beca",
-  "new_hash": "902279017804877b1c34c88d83626f287813b44a35b84915511fe3dae5800b86"
+  "old_hash": "902279017804877b1c34c88d83626f287813b44a35b84915511fe3dae5800b86",
+  "new_hash": "61adc85bde3c03109180df64e90ef67b855eaf5c0d2c8626da88a172883504fa"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "93030e0e1d05e50d5eb8d60b2bf6095ad8fd3e076fcde1d011c05ff154fc5c14",
-  "new_hash": "e01297f3ce939c33009beabd42e56ea5f89de3d3f3a08eacbd5aa7f5f33b7cc1"
- },
- {
-  "provider": "llmgateway",
-  "url": "https://api.llmgateway.io/v1/models",
-  "type": "official_api",
-  "old_hash": "f63c0f3772b4da3ad2cfa2bf0a806a0a9e91ddd585ebe34dc4838be789c9941e",
-  "new_hash": "1dac0977c951583113d283e6f7d90c8dba5035e47d144e344d326ebfeba97b9a"
+  "old_hash": "e01297f3ce939c33009beabd42e56ea5f89de3d3f3a08eacbd5aa7f5f33b7cc1",
+  "new_hash": "e6ffce1cf623a74caf6d6b70554eb03a45c93118fee35b96e7ed0acdccfe75cb"
  }
 ]
