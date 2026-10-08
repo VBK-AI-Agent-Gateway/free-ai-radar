@@ -126,6 +126,12 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .submitbox form{display:grid;gap:8px;margin-top:10px}
 .submitbox input,.submitbox textarea{background:#0d1117;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:8px 10px;font-size:13px}
 .submitbox button{background:#1f6feb;color:#fff;border:0;border-radius:6px;padding:9px;cursor:pointer;font-size:14px;justify-self:start}
+.submitbox h2{font-size:15px;margin:0 0 6px}
+.submitbox h2 .hint{font-size:12px;color:#8b949e;font-weight:400}
+.submitbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0 4px}
+.subbtn{background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;padding:9px 16px;border-radius:8px;font-size:14px}
+.subbtn:hover{background:#388bfd}
+.subhint{color:#8b949e;font-size:12px}
 #submsg{font-size:13px}
 #submsg.ok{color:#3fb950}
 #submsg.dup{color:#d29922}
@@ -135,8 +141,12 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
 <div class="sub">每条事实带来源与验证时间 &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
 <div class="hero">
-  <a class="cta" id="regbtn" href="__REGISTER_URL__" target="_blank" rel="noopener" onclick="regClick('site')">&#128279; 各模型注册领免费 KEY &mdash; 点模型卡进入对应厂商</a>
-  <span class="ctahint">点任一模型的"注册领KEY"即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
+  <a class="cta" id="regbtn" href="#catalog" onclick="regClick('site')">&#127760; 看 74 家厂商的免费模型 &mdash; 点下方任一模型/厂商进去申请</a>
+  <span class="ctahint">点任一模型的“注册领KEY”即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
+</div>
+<div class="submitbar">
+  <a href="#subform" class="subbtn" id="subopen" onclick="openSubmit()">&#128227; 我要提交一个免费模型 / 新渠道</a>
+  <span class="subhint">自动查重,人工核验后入库</span>
 </div>
 <div class="stats">
 <div class="stat"><b>__TOTAL__</b><span>模型总数</span></div>
@@ -166,14 +176,15 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <p class="hint">已收录的直接看;标&quot;去申请KEY&quot;的需自行到厂商处申请(我们只确认有免费模型并列出入口)。</p>
 <div class="vgrid" id="vgrid"></div>
 </section>
-<details class="submitbox"><summary>&#128227; 投稿新模型 / 新渠道(自动查重)</summary>
+<section class="submitbox open" id="submitbox">
+<h2>&#128227; 主动提交免费模型 / 新渠道 <span class="hint">(自动查重 + 人工核验)</span></h2>
 <form id="subform">
   <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页" required>
   <input id="smid" placeholder="模型 ID(可选,如 deepseek/DeepSeek-V3)">
   <textarea id="snote" placeholder="说明: 免费额度 / 注册入口等(纯文本,我们会人工核验)"></textarea>
   <button type="submit">提交投稿</button>
   <span id="submsg"></span>
-</form></details>
+</form></section>
 <footer>数据来源: 官方API/页面, 证据见 <code>providers/*.yaml</code> &middot; 无证据写 unknown, 不猜</footer>
 </div>
 <script>
@@ -279,6 +290,11 @@ function renderCatalog(){
       + '<div class="vm">'+esc(models)+'</div>'
       + link + '</div>';
   }).join("");
+}
+function openSubmit(){
+  const b=document.getElementById("submitbox");
+  if(b){ b.scrollIntoView({behavior:"smooth",block:"center"}); const f=document.getElementById("surl"); if(f) setTimeout(()=>f.focus(),400); }
+  return false; // 阻止 #subform 默认跳,改平滑滚动
 }
 // ---- init: 所有顶层 DOM 绑定收进这里,挂 DOMContentLoaded(已加载则立即跑),防整体崩 ----
 function init(){

@@ -82,3 +82,22 @@ def test_register_url_per_provider():
     assert by["openrouter"] == "https://openrouter.ai/sign-up"
     assert by["groq"] == "https://console.groq.com/keys"
     assert by["openrouter"] != by["groq"], "must differ per provider"
+
+
+def test_top_cta_not_single_vendor_and_submit_visible():
+    """顶部注册按钮不能硬指单一厂商(如 openrouter);投稿表单必须常显可见(不折叠)。"""
+    import re
+    rows = [{"provider": "p", "model_id": "m", "name": "M", "free": True,
+             "source": "official_api", "evidence": {"url": "https://x"}, "last_verified": "2026"}]
+    html = publisher.render_site(rows)
+    # 顶部 regbtn 不能跳单一厂商 -> 应跳页面内 #catalog
+    m = re.search(r'id="regbtn" href="([^"]+)"', html)
+    assert m, "regbtn must exist"
+    assert "openrouter.ai" not in m.group(1), "top CTA must not hardcode a single vendor"
+    assert m.group(1).startswith("#"), "top CTA should anchor into the page"
+    # 投稿入口: 顶部 submitbar + 表单常显(不是 <details> 折叠)
+    assert 'class="submitbar"' in html, "top submit entry must be visible"
+    assert '<section class="submitbox' in html, "submit form must be an always-visible section"
+    assert '<details class="submitbox' not in html, "submit form must not be collapsed"
+    assert 'id="subform"' in html and 'id="surl"' in html, "submit form fields must exist"
+    assert "function openSubmit" in html, "submit button handler must exist"
