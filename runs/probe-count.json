@@ -14,6 +14,9 @@
   "deepinfra": 2,
   "sambanova": 2,
   "novita": 2,
-  "vercel": 2
+  "vercel": 2,
+  "fastrouter": 1,
+  "requesty": 1,
+  "llmgateway": 1
  }
 }
