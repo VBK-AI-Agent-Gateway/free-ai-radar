@@ -1,0 +1,29 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 509,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "novita",
+   "url": "https://api.novita.ai/v3/openai/models",
+   "at": "2026-10-08T11:02:06Z"
+  }
+ ],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu",
+  "deepinfra",
+  "sambanova"
+ ]
+}
