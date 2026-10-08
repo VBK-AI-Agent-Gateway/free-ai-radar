@@ -3,28 +3,28 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "697c78bbf373f05e9869e0e09b219de54fb7ea021ddc5fb93f800abb3fba8e06",
-  "new_hash": "fef0cc1d8092ad01588b1004b53442add317ae75e1da8fc2237872cb219dc074"
+  "old_hash": "fef0cc1d8092ad01588b1004b53442add317ae75e1da8fc2237872cb219dc074",
+  "new_hash": "2b7fd90b85d747b936d01b24d2959f71ff7cf0ee84a0f44b24d85333a10e714e"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "798a5be28290dcf53eebc4557f8e37e36dbafbf8bce8b58451a854f2b780a165",
-  "new_hash": "0a5231aaacfac860d8298ccf99d27d33bc162e6049cf1f994e40bb35875e8c36"
+  "old_hash": "0a5231aaacfac860d8298ccf99d27d33bc162e6049cf1f994e40bb35875e8c36",
+  "new_hash": "f7f073ba9f1b0190285aa05a268821b479d0d52944c1078c5d0bddf63725f3f0"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "becda8361ce60cc367519af62894edd73f98fbd534d51d9b7bf922586a8fa8f8",
-  "new_hash": "cb9c83449386a3f59cece780d92fed6e2b70cc919c0fb9a139b8e552059780d9"
+  "old_hash": "cb9c83449386a3f59cece780d92fed6e2b70cc919c0fb9a139b8e552059780d9",
+  "new_hash": "ab430eae67dd806888967b7e39fac395def8890fa2500500a78545935d90beca"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "20011b77ca046220529b295823e0c0d02d1c1054586ad285a4f4e191da0a1014",
-  "new_hash": "2aaa29134b022533ee73a0e894d4af2c0ad9143be20dedf72b70be5635fba4b8"
+  "old_hash": "2aaa29134b022533ee73a0e894d4af2c0ad9143be20dedf72b70be5635fba4b8",
+  "new_hash": "93030e0e1d05e50d5eb8d60b2bf6095ad8fd3e076fcde1d011c05ff154fc5c14"
  }
 ]

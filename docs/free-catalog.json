@@ -1,5 +1,5 @@
 {
- "at": "2026-10-08T14:49:34Z",
+ "at": "2026-10-08T15:01:53Z",
  "live_count": 5,
  "apply_count": 69,
  "total_free_models": 485,
@@ -213,12 +213,12 @@
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "novita/inclusionai/ling-3.0-tiny",
-    "novita/ling-3.1-flash",
-    "poolside/laguna-xs.2",
-    "poolside/laguna-m.1",
-    "mistral/leanstral-1-5",
-    "google/gemma-4-31b-it"
+    "nvidia/muse-glimmer-30b",
+    "nvidia/nemotron-3.5-content-safety",
+    "nvidia/nemotron-3-super-120b-a12b",
+    "nvidia/nemotron-3-ultra-550b-a55b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3-nano-30b-a3b"
    ],
    "apply_url": "https://requesty.ai/",
    "link_kind": "homepage",
