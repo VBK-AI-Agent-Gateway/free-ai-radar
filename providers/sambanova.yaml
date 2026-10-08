@@ -1,4 +1,13 @@
 provider: sambanova
+homepage: https://sambanova.ai
+signup:
+  url: https://cloud.sambanova.ai/apis
+  needs:
+  - email
+  regions_blocked: unknown
+  est_minutes: unknown
+pricing_url: https://sambanova.ai/pricing
+last_verified: '2026-10-08T09:11:36Z'
 models:
 - id: DeepSeek-V3.1
   name: DeepSeek-V3.1
@@ -96,4 +105,3 @@ models:
     url: https://api.sambanova.ai/v1/models
     at: '2026-10-08T09:11:36Z'
   last_verified: '2026-10-08T09:11:36Z'
-last_verified: '2026-10-08T09:11:36Z'
