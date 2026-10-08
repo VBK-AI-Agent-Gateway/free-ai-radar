@@ -55,3 +55,8 @@ sources:
     url: https://api.sambanova.ai/v1/models
     check: daily
     parser: openai_compat
+  - provider: novita
+    type: official_api
+    url: https://api.novita.ai/v3/openai/models
+    check: daily
+    parser: openai_compat
