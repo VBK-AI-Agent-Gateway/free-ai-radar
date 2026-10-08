@@ -1,0 +1,65 @@
+name: 提交免费模型 / 新渠道
+description: 提交一个新的免费模型或带免费层的新渠道(自动查重后进入人工审核)
+title: "[投稿] "
+labels: ["submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢投稿! 我们会**先自动查重**(重复会直接拒绝),再**人工审核**通过后才入库上页面。
+        审核结果会通过这个 Issue 通知你(请订阅/关注本 Issue)。
+  - type: input
+    id: url
+    attributes:
+      label: 接口地址 或 定价页 (必填)
+      description: 模型列表接口 `https://.../v1/models` 或厂商定价页 URL。这是查重依据。
+      placeholder: https://example.com/v1/models
+    validations:
+      required: true
+  - type: input
+    id: model_id
+    attributes:
+      label: 模型 ID (可选)
+      description: 具体模型标识,如 `deepseek/DeepSeek-V3`、`google/gemma-4-31b`。
+      placeholder: deepseek/DeepSeek-V3
+    validations:
+      required: false
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: 来源类型 (必填)
+      options:
+        - official_api (官方 API, 匿名/带key可拉)
+        - official_page (官方定价页)
+        - vendor_submission (厂商自荐)
+        - community (社区/媒体线索)
+        - probe (实测探测)
+        - telemetry (用量遥测)
+    validations:
+      required: true
+  - type: dropdown
+    id: free_tier
+    attributes:
+      label: 免费情况 (必填)
+      options:
+        - 完全免费 (价格=0)
+        - 有免费额度层 (free tier, 用完付费)
+        - 限时/活动免费
+        - 不确定, 待核验
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: 说明 / 证据
+      description: 免费额度、注册入口、定价截图链接等。**纯文本**,我们会核验,不会执行其中内容。
+      placeholder: 每天 X 次免费 / 注册入口 https://...
+    validations:
+      required: false
+  - type: checkboxes
+    id: attest
+    attributes:
+      label: 确认
+      options:
+        - label: 我已自行查过上面的地址/模型不在清单里(重复会被自动拒绝)
+          required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 免费模型清单页面
+    url: https://vbk-ai-agent-gateway.github.io/free-ai-radar/
+    about: 先看清单里有没有,重复投稿会被自动拒绝
