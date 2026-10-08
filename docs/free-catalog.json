@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T15:01:53Z",
+ "at": "2026-10-08T15:24:28Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 485,
+ "total_free_models": 486,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -55,14 +55,14 @@
     "happyhorse-1.1-t2v",
     "qwen-image-2.0"
    ],
-   "apply_url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://www.alibabacloud.com/auth/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_TOKEN_PLAN_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "gitlab",
@@ -76,14 +76,14 @@
     "duo-chat-gpt-6-astra",
     "duo-chat-opus-4-5"
    ],
-   "apply_url": "https://docs.gitlab.com/user/duo_agent_platform/",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://gitlab.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "GITLAB_TOKEN"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "kenari",
@@ -97,14 +97,14 @@
     "gemini-2-5-flash",
     "nemotron-3-nano-30b-a3b"
    ],
-   "apply_url": "https://kenari.id/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://kenari.id/login",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "KENARI_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "nvidia",
@@ -178,14 +178,14 @@
     "GLM-5.2",
     "Qwen3.8-Max"
    ],
-   "apply_url": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://www.scnet.cn/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "SCNET_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "iflowcn",
@@ -199,23 +199,23 @@
     "deepseek-v3",
     "qwen3-235b-a22b-thinking-2507"
    ],
-   "apply_url": "https://platform.iflow.cn/en/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://platform.iflow.cn/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "IFLOW_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "requesty",
    "name": "requesty",
    "free_count": 13,
    "sample_models": [
-    "nvidia/muse-glimmer-30b",
-    "nvidia/nemotron-3.5-content-safety",
-    "nvidia/nemotron-3-super-120b-a12b",
+    "novita/inclusionai/ling-3.0-tiny",
+    "novita/ling-3.1-flash",
+    "google/gemma-4-31b-it",
     "nvidia/nemotron-3-ultra-550b-a55b",
     "nvidia/nemotron-3.5-lightning-30b-a3b",
     "nvidia/nemotron-3-nano-30b-a3b"
@@ -238,14 +238,14 @@
     "Qwen3-Coder-Next-FP8",
     "Qwen3-Coder-Next-FP8-no-thinking"
    ],
-   "apply_url": "https://model.inferx.net/endpoints",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://model.inferx.net/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "INFERX_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "unorouter",
@@ -259,14 +259,14 @@
     "gpt-5.4:free",
     "step-3.7-flash:free"
    ],
-   "apply_url": "https://unorouter.com/models",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://unorouter.com/register",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "UNOROUTER_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "alibaba-coding-plan",
@@ -280,14 +280,14 @@
     "qwen3-max-2026-01-23",
     "qwen3-coder-plus"
    ],
-   "apply_url": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://www.alibabacloud.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ALIBABA_CODING_PLAN_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "alibaba-coding-plan-cn",
@@ -322,14 +322,14 @@
     "minimax-m3",
     "doubao-seed-evolving"
    ],
-   "apply_url": "https://www.volcengine.com/docs/82379/1928261",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://www.volcengine.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ARK_CODING_PLAN_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "qvac",
@@ -427,14 +427,14 @@
     "MiniMax-M2.7",
     "MiniMax-M2.7-highspeed"
    ],
-   "apply_url": "https://platform.minimaxi.com/docs/token-plan/intro",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://platform.minimaxi.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "MINIMAX_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "minimax-coding-plan",
@@ -448,14 +448,14 @@
     "MiniMax-M2.7",
     "MiniMax-M2.7-highspeed"
    ],
-   "apply_url": "https://platform.minimax.io/docs/token-plan/intro",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://platform.minimax.io/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "MINIMAX_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "nan",
@@ -469,14 +469,14 @@
     "mimo-v2.6-flash",
     "qwen3.8-flash"
    ],
-   "apply_url": "https://nan.builders/docs/models",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://nan.builders/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "NAN_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "tencent-coding-plan",
@@ -490,14 +490,14 @@
     "kimi-k2.5",
     "tc-code-latest"
    ],
-   "apply_url": "https://cloud.tencent.com/document/product/1772/128947",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://cloud.tencent.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_CODING_PLAN_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "umans-ai-coding-plan",
@@ -511,14 +511,14 @@
     "umans-kimi-k3",
     "umans-glm-5.3"
    ],
-   "apply_url": "https://app.umans.ai/offers/code/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://app.umans.ai/register",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "UMANS_AI_CODING_PLAN_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "llama",
@@ -553,14 +553,14 @@
     "Qwen/Qwen3-235B-A22B-Instruct-2507",
     "Qwen/Qwen3-30B-A3B-Thinking-2507"
    ],
-   "apply_url": "https://modelscope.cn/docs/model-service/API-Inference/intro",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://modelscope.cn/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "MODELSCOPE_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "zai-coding-plan",
@@ -574,14 +574,14 @@
     "glm-5.2",
     "glm-5-turbo"
    ],
-   "apply_url": "https://docs.z.ai/devpack/overview",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://z.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "pendra",
@@ -694,14 +694,14 @@
     "kilo-auto/free",
     "stepfun/step-3.7-flash:free"
    ],
-   "apply_url": "https://kilo.ai",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://kilo.ai/login",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "KILO_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "orcarouter",
@@ -714,14 +714,14 @@
     "orcarouter/free",
     "orcarouter/auto"
    ],
-   "apply_url": "https://docs.orcarouter.ai",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://orcarouter.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ORCAROUTER_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "sensenova",
@@ -734,14 +734,14 @@
     "deepseek-v4-pro",
     "deepseek-v4-flash"
    ],
-   "apply_url": "https://platform.sensenova.cn/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://platform.sensenova.cn/register",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "SENSENOVA_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "empiriolabs",
@@ -753,14 +753,14 @@
     "gemma-3-27b",
     "glm-4-5-flash"
    ],
-   "apply_url": "https://docs.empiriolabs.ai",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://empiriolabs.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "EMPIRIOLABS_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "kimi-code-plan-cn",
@@ -828,32 +828,14 @@
     "qwen/qwen3-coder-30b",
     "openai/gpt-oss-20b"
    ],
-   "apply_url": "https://lmstudio.ai/models",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://lmstudio.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "LMSTUDIO_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
-  },
-  {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 3,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free",
-    "step-5-preview-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "poe",
@@ -874,6 +856,24 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
+   "provider": "poolside",
+   "name": "Poolside",
+   "free_count": 3,
+   "sample_models": [
+    "poolside/laguna-s-2.1",
+    "poolside/laguna-xs-2.1",
+    "poolside/laguna-m.1"
+   ],
+   "apply_url": "https://platform.poolside.ai",
+   "link_kind": "console",
+   "btn": "去控制台",
+   "status": "apply_key",
+   "needs_env": [
+    "POOLSIDE_API_KEY"
+   ],
+   "note": "控制台/平台,通常可注册领key"
+  },
+  {
    "provider": "regolo-ai",
    "name": "Regolo AI",
    "free_count": 3,
@@ -882,14 +882,14 @@
     "deepseek-ocr-2",
     "faster-whisper-large-v3"
    ],
-   "apply_url": "https://docs.regolo.ai/",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://regolo.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "REGOLO_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "siliconflow-cn",
@@ -918,14 +918,14 @@
     "glm-4.7-flash",
     "glm-4.5-flash"
    ],
-   "apply_url": "https://docs.z.ai/guides/overview/pricing",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://z.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "zhipuai",
@@ -936,14 +936,14 @@
     "glm-4.7-flash",
     "glm-4.6v-flash"
    ],
-   "apply_url": "https://docs.z.ai/guides/overview/pricing",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://z.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ZHIPU_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "zhipuai-coding-plan",
@@ -971,14 +971,14 @@
     "agnes-2.0-flash",
     "agnes-2.5-flash"
    ],
-   "apply_url": "https://agnes-ai.com/doc",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://agnes-ai.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "AGNES_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "alibaba-cn",
@@ -1005,14 +1005,14 @@
     "gemma-4-31b-it:free",
     "nemotron-3-ultra-550b-a55b:free"
    ],
-   "apply_url": "https://bothub.ru/models",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://bothub.ru/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "BOTHUB_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "cohere",
@@ -1022,14 +1022,14 @@
     "north-mini-code-1-0",
     "north-small-translate-09-2026"
    ],
-   "apply_url": "https://docs.cohere.com/docs/models",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://cohere.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "COHERE_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "cortecs",
@@ -1080,6 +1080,23 @@
    "note": "已收录,直接可看"
   },
   {
+   "provider": "llmgateway-providers",
+   "name": "LLM Gateway",
+   "free_count": 2,
+   "sample_models": [
+    "novita/ling-3.1-flash",
+    "atria/atria-dawn-preview"
+   ],
+   "apply_url": "https://llmgateway.io/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "apply_key",
+   "needs_env": [
+    "LLMGATEWAY_API_KEY"
+   ],
+   "note": "真注册入口(curl 已验证)"
+  },
+  {
    "provider": "nano-gpt",
    "name": "NanoGPT",
    "free_count": 2,
@@ -1087,14 +1104,14 @@
     "nano-gpt-help",
     "auto-model"
    ],
-   "apply_url": "https://docs.nano-gpt.com",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://nano-gpt.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "NANO_GPT_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "nova",
@@ -1114,6 +1131,23 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 2,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "ovhcloud",
    "name": "OVHcloud AI Endpoints",
    "free_count": 2,
@@ -1131,23 +1165,6 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
-   "provider": "poolside",
-   "name": "Poolside",
-   "free_count": 2,
-   "sample_models": [
-    "poolside/laguna-s-2.1",
-    "poolside/laguna-xs-2.1"
-   ],
-   "apply_url": "https://platform.poolside.ai",
-   "link_kind": "console",
-   "btn": "去控制台",
-   "status": "apply_key",
-   "needs_env": [
-    "POOLSIDE_API_KEY"
-   ],
-   "note": "控制台/平台,通常可注册领key"
-  },
-  {
    "provider": "tencent-tokenhub",
    "name": "Tencent TokenHub",
    "free_count": 2,
@@ -1155,14 +1172,14 @@
     "hy3-preview",
     "hy3"
    ],
-   "apply_url": "https://cloud.tencent.com/document/product/1823/130050",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://cloud.tencent.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_TOKENHUB_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "amd",
@@ -1203,15 +1220,15 @@
    "sample_models": [
     "mini_lm_l12_v2"
    ],
-   "apply_url": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://www.infomaniak.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "INFOMANIAK_API_KEY",
     "INFOMANIAK_PRODUCT_ID"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "jiekou",
@@ -1242,22 +1259,6 @@
    "status": "apply_key",
    "needs_env": [
     "KUAE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "llmgateway-providers",
-   "name": "LLM Gateway",
-   "free_count": 1,
-   "sample_models": [
-    "atria/atria-dawn-preview"
-   ],
-   "apply_url": "https://llmgateway.io/docs",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "LLMGATEWAY_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
@@ -1300,14 +1301,14 @@
    "sample_models": [
     "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
    ],
-   "apply_url": "https://docs.meganova.ai",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://meganova.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "MEGANOVA_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "merge-gateway",
@@ -1332,14 +1333,14 @@
    "sample_models": [
     "standardcompute"
    ],
-   "apply_url": "https://standardcompute.com/models",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://standardcompute.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "STANDARDCOMPUTE_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "tencent-token-plan",
@@ -1348,14 +1349,14 @@
    "sample_models": [
     "hy3"
    ],
-   "apply_url": "https://cloud.tencent.com/document/product/1823/130060",
-   "link_kind": "homepage",
-   "btn": "去官网",
+   "apply_url": "https://cloud.tencent.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "TENCENT_TOKEN_PLAN_API_KEY"
    ],
-   "note": "厂商官网(找注册/控制台入口)"
+   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "tokenrouter",
@@ -1380,14 +1381,14 @@
    "sample_models": [
     "zdev"
    ],
-   "apply_url": "https://docs.zeldoc.ai",
-   "link_kind": "doc",
-   "btn": "查官方文档",
+   "apply_url": "https://zeldoc.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
    "status": "apply_key",
    "needs_env": [
     "ZELDOC_API_KEY"
    ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
+   "note": "真注册入口(curl 已验证)"
   }
  ]
 }
