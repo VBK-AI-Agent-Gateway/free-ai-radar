@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T11:09:26Z",
+ "generated_at": "2026-10-08T13:31:37Z",
  "candidates": [
   {
    "provider": "poe",
@@ -550,20 +550,6 @@
    ]
   },
   {
-   "provider": "vercel",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "models_dev",
-   "free_models": [
-    "stealth/glyph-cluster",
-    "poolside/laguna-s-2.1-free",
-    "meta/llama-3.3-70b",
-    "meta/llama-4-maverick",
-    "meta/llama-4-scout",
-    "inclusionai/ling-3.1-flash-free"
-   ]
-  },
-  {
    "provider": "zai-coding-plan",
    "status": "candidate",
    "reason": "provider not in canonical",
@@ -880,38 +866,6 @@
    "free_models": [
     "qwen3guard-gen-8b",
     "qwen3guard-gen-0.6b"
-   ]
-  },
-  {
-   "provider": "requesty",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "models_dev",
-   "free_models": [
-    "gemma-4-31b-it",
-    "nemotron-3.5-lightning-30b-a3b",
-    "muse-glimmer-30b",
-    "laguna-xs.2",
-    "leanstral-1-5@eu",
-    "nemotron-3-super-120b-a12b",
-    "ling-3.0-tiny",
-    "nemotron-3-ultra-550b-a55b",
-    "nemotron-3-nano-omni-30b-a3b-reasoning",
-    "nemotron-3.5-content-safety",
-    "leanstral-1-5",
-    "laguna-m.1"
-   ]
-  },
-  {
-   "provider": "llmgateway",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "models_dev",
-   "free_models": [
-    "ling-3.1-flash",
-    "atria-dawn-preview",
-    "auto",
-    "custom"
    ]
   },
   {
