@@ -2,7 +2,7 @@
 """发现员(方案第 1 层: 目录/聚合器): 把外部目录当参考并集,对比正本,把"有免费层但没收录"
 的厂商/模型推进候选队列 candidates/discover.json,标待确认。纯代码,不调 AI,不碰密钥。
 覆盖率度量(方案"怎么证明覆盖多少")也算在这里。"""
-import json, pathlib, sys, time, urllib.request, urllib.error
+import json, pathlib, sys, time, urllib.request, urllib.error, urllib.parse
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -111,6 +111,61 @@ def coverage(candidates):
             "note": "外部目录并集偏西方,会高估覆盖(方案注明);这是参考不是真值"}
 
 
+def community_mentions():
+    """方案第 4 层(社区/媒体发现): 抓 HN Algolia 公开搜'免费 LLM API'帖,提取标题提到的平台线索。
+    纯发现,不入库 -> 进 candidates/community.json 标待确认。Reddit 匿名 403,暂不接。"""
+    q = urllib.parse.quote("free LLM API free tier")
+    data = _get(f"https://hn.algolia.com/api/v1/search?query={q}&tags=story&hitsPerPage=20")
+    if not isinstance(data, dict):
+        return []
+    out = []
+    for h in data.get("hits") or []:
+        title = (h.get("title") or "").strip()
+        if title:
+            out.append({"title": title[:160],
+                        "url": f"https://news.ycombinator.com/item?id={h.get('objectID')}",
+                        "points": h.get("points"), "at": h.get("created_at")})
+    (CAND / "community.json").write_text(
+        json.dumps({"at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    "source": "hn_algolia", "mentions": out}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
+    return out
+
+
+def regional_candidates():
+    """把候选按地区粗分(方案'其它国家地区'): 启发式按已知地区厂商名归类。写 candidates/regional.json。"""
+    # 启发式地区映射(厂商名关键词 -> 地区)。只标注,不保证(候选本来就待确认)。
+    regions = {
+        "cn": ("alibaba", "qwen", "zhipu", "zai", "baidu", "qianfan", "volcengine", "dashscope",
+               "deepseek", "moonshot", "kimi", "minimax", "baichuan", "stepfun", "iflytek", "siliconflow",
+               "xiaomi", "scnet", "iflowcn", "modelscope", "bothub", "tencent"),
+        "in": ("sarvam", "krutrim", "indiallm", "kissan"),
+        "jp": ("rinna", "sakana", "cyberagent", "elastika"),
+        "kr": ("exaone", "lgai", "naver", "hyperclova"),
+        "ru": ("yandex", "sber", "gigachat"),
+        "me": ("g42", "core42", "jais", "tap"),
+        "sea": ("sea-lion", "sealion", "globant", "grit"),
+        "eu": ("mistral", "ovhcloud", "hetzner", "infomaniak", "adept", "mistral_fr", "deepinfra_eu"),
+    }
+    cands = json.loads((CAND / "discover.json").read_text(encoding="utf-8")).get("candidates", [])
+    grouped = {k: [] for k in regions}
+    grouped["other"] = []
+    for c in cands:
+        p = (c.get("provider") or "").lower()
+        placed = False
+        for reg, keys in regions.items():
+            if any(k in p for k in keys):
+                grouped[reg].append(c["provider"]); placed = True; break
+        if not placed:
+            grouped["other"].append(c["provider"])
+    grouped = {k: v for k, v in grouped.items() if v}
+    (CAND / "regional.json").write_text(
+        json.dumps({"at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    "note": "启发式地区标注,候选待确认", "regions": grouped}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
+    return grouped
+
+
 def main(argv=None):
     import argparse
     ap = argparse.ArgumentParser(description="发现员")
@@ -118,14 +173,19 @@ def main(argv=None):
     args = ap.parse_args(argv)
     cands = build_candidates()
     cov = coverage(cands)
+    comm = community_mentions()          # 第 4 层: 社区/媒体发现
+    reg = regional_candidates()          # 其它国家地区候选归类
     report = {"at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-              "coverage": cov, "candidates": list(cands.values())[:50]}
+              "coverage": cov, "candidates": list(cands.values())[:50],
+              "community_mentions": len(comm),
+              "regional_groups": {k: len(v) for k, v in reg.items()}}
     (CAND / "coverage.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     if args.json:
         print(json.dumps(report, ensure_ascii=False, indent=1))
     else:
         print(f"discover: ref={cov['ref_providers']} covered={cov['covered']} "
               f"candidate={cov['candidate']} rate={cov['coverage_rate']}")
+        print(f"  community mentions: {len(comm)} | regional groups: {len(reg)}")
         for c in list(cands.values())[:10]:
             print(f"  + {c['provider']} ({c['src']}): {len(c['free_models'])} free models")
     return 0
