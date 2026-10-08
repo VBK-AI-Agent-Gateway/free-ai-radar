@@ -7,7 +7,7 @@ signup:
   regions_blocked: unknown
   est_minutes: unknown
 pricing_url: https://novita.ai/pricing
-last_verified: '2026-10-08T18:49:23Z'
+last_verified: '2026-10-08T21:23:54Z'
 models:
 - id: zai-org/glm-5.3-flash
   name: zai-org/glm-5.3-flash
@@ -26,8 +26,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-pro-0813-p
   name: deepseek/deepseek-v4-pro-0813-p
   status: declared
@@ -42,8 +42,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4.1-flash-dst
   name: deepseek/deepseek-v4.1-flash-dst
   status: declared
@@ -58,8 +58,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4.1-flash-p
   name: deepseek/deepseek-v4.1-flash-p
   status: declared
@@ -74,8 +74,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: xiaomimimo/mimo-v2.6-flash
   name: xiaomimimo/mimo-v2.6-flash
   status: declared
@@ -94,8 +94,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: xiaomimimo/mimo-v2.6-pro
   name: xiaomimimo/mimo-v2.6-pro
   status: declared
@@ -114,8 +114,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: tencent/hy4-preview
   name: tencent/hy4-preview
   status: declared
@@ -133,8 +133,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-5.3-p
   name: zai-org/glm-5.3-p
   status: declared
@@ -151,8 +151,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4.1-flash
   name: deepseek/deepseek-v4.1-flash
   status: declared
@@ -167,8 +167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k3-p
   name: moonshotai/kimi-k3-p
   status: declared
@@ -187,8 +187,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-5.3
   name: zai-org/glm-5.3
   status: declared
@@ -209,8 +209,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-pro-0813
   name: deepseek/deepseek-v4-pro-0813
   status: declared
@@ -225,8 +225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k3
   name: moonshotai/kimi-k3
   status: declared
@@ -245,8 +245,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: tencent/hy3
   name: tencent/hy3
   status: declared
@@ -265,8 +265,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-5.2
   name: zai-org/glm-5.2
   status: declared
@@ -288,8 +288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2.7-code
   name: moonshotai/kimi-k2.7-code
   status: declared
@@ -308,8 +308,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-flash-0731-p
   name: deepseek/deepseek-v4-flash-0731-p
   status: declared
@@ -326,8 +326,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.8-flash
   name: qwen/qwen3.8-flash
   status: declared
@@ -350,8 +350,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-flash-0731
   name: deepseek/deepseek-v4-flash-0731
   status: declared
@@ -368,8 +368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: mindai/macaron-v1-venti
   name: mindai/macaron-v1-venti
   status: declared
@@ -389,8 +389,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: minimax/minimax-m3
   name: minimax/minimax-m3
   status: declared
@@ -405,8 +405,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-flash
   name: deepseek/deepseek-v4-flash
   status: declared
@@ -428,8 +428,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-v4-pro
   name: deepseek/deepseek-v4-pro
   status: declared
@@ -451,8 +451,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: apodex/apodex-1.1-mini
   name: apodex/apodex-1.1-mini
   status: declared
@@ -470,8 +470,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: inclusionai/ling-3.1-flash
   name: inclusionai/ling-3.1-flash
   status: declared
@@ -487,8 +487,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.8-27b
   name: qwen/qwen3.8-27b
   status: declared
@@ -503,8 +503,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: inclusionai/ling-3.0-flash-fin
   name: inclusionai/ling-3.0-flash-fin
   status: declared
@@ -524,8 +524,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.8-2.4t-a95b
   name: qwen/qwen3.8-2.4t-a95b
   status: declared
@@ -543,8 +543,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.8-max
   name: qwen/qwen3.8-max
   status: declared
@@ -562,8 +562,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: inclusionai/ling-3.0-flash
   name: inclusionai/ling-3.0-flash
   status: declared
@@ -583,8 +583,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: mindai/macaron-v1-tall
   name: mindai/macaron-v1-tall
   status: declared
@@ -603,8 +603,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: stepfun/step-3.7-flash
   name: stepfun/step-3.7-flash
   status: declared
@@ -626,8 +626,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: nvidia/nemotron-3-nano-30b-a3b
   name: nvidia/nemotron-3-nano-30b-a3b
   status: declared
@@ -649,8 +649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: baidu/cobuddy
   name: baidu/cobuddy
   status: declared
@@ -668,8 +668,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: xiaomimimo/mimo-v2.5
   name: xiaomimimo/mimo-v2.5
   status: declared
@@ -686,8 +686,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.7-max
   name: qwen/qwen3.7-max
   status: declared
@@ -706,8 +706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: xiaomimimo/mimo-v2.5-pro
   name: xiaomimimo/mimo-v2.5-pro
   status: declared
@@ -729,8 +729,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.6-27b
   name: qwen/qwen3.6-27b
   status: declared
@@ -750,8 +750,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2.6
   name: moonshotai/kimi-k2.6
   status: declared
@@ -773,8 +773,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: bunny
   name: bunny
   status: declared
@@ -789,8 +789,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-5.1
   name: zai-org/glm-5.1
   status: declared
@@ -812,8 +812,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: minimax/minimax-m2.7-highspeed
   name: minimax/minimax-m2.7-highspeed
   status: declared
@@ -836,8 +836,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: google/gemma-4-26b-a4b-it
   name: google/gemma-4-26b-a4b-it
   status: declared
@@ -859,8 +859,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: google/gemma-4-31b-it
   name: google/gemma-4-31b-it
   status: declared
@@ -882,8 +882,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: minimax/minimax-m2.7
   name: minimax/minimax-m2.7
   status: declared
@@ -907,8 +907,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.5-27b
   name: qwen/qwen3.5-27b
   status: declared
@@ -926,8 +926,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.5-122b-a10b
   name: qwen/qwen3.5-122b-a10b
   status: declared
@@ -947,8 +947,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.5-35b-a3b
   name: qwen/qwen3.5-35b-a3b
   status: declared
@@ -966,8 +966,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.5-397b-a17b
   name: qwen/qwen3.5-397b-a17b
   status: declared
@@ -989,8 +989,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: minimax/minimax-m2.5
   name: minimax/minimax-m2.5
   status: declared
@@ -1012,8 +1012,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-5
   name: zai-org/glm-5
   status: declared
@@ -1035,8 +1035,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-ocr-2
   name: deepseek/deepseek-ocr-2
   status: declared
@@ -1058,8 +1058,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2.5
   name: moonshotai/kimi-k2.5
   status: declared
@@ -1081,8 +1081,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.7-h
   name: zai-org/glm-4.7-h
   status: declared
@@ -1100,8 +1100,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.7-flash
   name: zai-org/glm-4.7-flash
   status: declared
@@ -1122,8 +1122,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.7
   name: zai-org/glm-4.7
   status: declared
@@ -1141,8 +1141,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/autoglm-phone-9b-multilingual
   name: zai-org/autoglm-phone-9b-multilingual
   status: declared
@@ -1170,8 +1170,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2-thinking
   name: moonshotai/kimi-k2-thinking
   status: declared
@@ -1187,8 +1187,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: paddlepaddle/paddleocr-vl
   name: paddlepaddle/paddleocr-vl
   status: declared
@@ -1203,8 +1203,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.6v
   name: zai-org/glm-4.6v
   status: declared
@@ -1225,8 +1225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.6
   name: zai-org/glm-4.6
   status: declared
@@ -1243,8 +1243,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3.6-35b-a3b
   name: qwen/qwen3.6-35b-a3b
   status: declared
@@ -1264,8 +1264,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2-0905
   name: moonshotai/kimi-k2-0905
   status: declared
@@ -1288,8 +1288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: openai/gpt-oss-120b
   name: openai/gpt-oss-120b
   status: declared
@@ -1309,8 +1309,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: moonshotai/kimi-k2-instruct
   name: moonshotai/kimi-k2-instruct
   status: declared
@@ -1330,8 +1330,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek_v3
   name: deepseek/deepseek_v3
   status: declared
@@ -1349,8 +1349,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: meta-llama/llama-3.1-8b-instruct
   name: meta-llama/llama-3.1-8b-instruct
   status: declared
@@ -1368,8 +1368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: google/gemma-3-12b-it
   name: google/gemma-3-12b-it
   status: declared
@@ -1384,8 +1384,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.5v
   name: zai-org/glm-4.5v
   status: declared
@@ -1409,8 +1409,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: meta-llama/llama-3.3-70b-instruct
   name: meta-llama/llama-3.3-70b-instruct
   status: declared
@@ -1433,8 +1433,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: minimaxai/minimax-m1-80k
   name: minimaxai/minimax-m1-80k
   status: declared
@@ -1461,8 +1461,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-r1-0528
   name: deepseek/deepseek-r1-0528
   status: declared
@@ -1479,8 +1479,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: microsoft/wizardlm-2-8x22b
   name: microsoft/wizardlm-2-8x22b
   status: declared
@@ -1497,8 +1497,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-r1-0528-qwen3-8b
   name: deepseek/deepseek-r1-0528-qwen3-8b
   status: declared
@@ -1518,8 +1518,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   name: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   status: declared
@@ -1544,8 +1544,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: meta-llama/llama-4-scout-17b-16e-instruct
   name: meta-llama/llama-4-scout-17b-16e-instruct
   status: declared
@@ -1569,8 +1569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: nousresearch/hermes-2-pro-llama-3-8b
   name: nousresearch/hermes-2-pro-llama-3-8b
   status: declared
@@ -1587,8 +1587,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: sao10k/l3-70b-euryale-v2.1
   name: sao10k/l3-70b-euryale-v2.1
   status: declared
@@ -1610,8 +1610,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: baichuan/baichuan-m2-32b
   name: baichuan/baichuan-m2-32b
   status: declared
@@ -1635,8 +1635,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: google/gemma-3-27b-it
   name: google/gemma-3-27b-it
   status: declared
@@ -1655,8 +1655,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-r1-turbo
   name: deepseek/deepseek-r1-turbo
   status: declared
@@ -1673,8 +1673,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: deepseek/deepseek-r1/community
   name: deepseek/deepseek-r1/community
   status: declared
@@ -1689,8 +1689,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: Sao10K/L3-8B-Stheno-v3.2
   name: Sao10K/L3-8B-Stheno-v3.2
   status: declared
@@ -1706,8 +1706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: gryphe/mythomax-l2-13b
   name: gryphe/mythomax-l2-13b
   status: declared
@@ -1726,8 +1726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: ming-image-0.1-design-layer
   name: ming-image-0.1-design-layer
   status: declared
@@ -1741,8 +1741,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: ming-image-0.1-design
   name: ming-image-0.1-design
   status: declared
@@ -1756,8 +1756,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: inclusionai/ling-3.0-flash-vl
   name: inclusionai/ling-3.0-flash-vl
   status: declared
@@ -1774,8 +1774,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: inclusionai/ling-3.0-flash-sante
   name: inclusionai/ling-3.0-flash-sante
   status: declared
@@ -1795,8 +1795,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: dev/glm46
   name: dev/glm46
   status: declared
@@ -1811,8 +1811,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: zai-org/glm-4.5-air
   name: zai-org/glm-4.5-air
   status: declared
@@ -1827,8 +1827,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3-vl-30b-a3b-instruct
   name: qwen/qwen3-vl-30b-a3b-instruct
   status: declared
@@ -1843,8 +1843,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen3-omni-30b-a3b-thinking
   name: qwen/qwen3-omni-30b-a3b-thinking
   status: declared
@@ -1863,8 +1863,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: qwen/qwen-mt-plus
   name: qwen/qwen-mt-plus
   status: declared
@@ -1883,8 +1883,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: baidu/ernie-4.5-21B-a3b
   name: baidu/ernie-4.5-21B-a3b
   status: declared
@@ -1906,8 +1906,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
 - id: meta-llama/llama-3.2-1b-instruct
   name: meta-llama/llama-3.2-1b-instruct
   status: declared
@@ -1924,5 +1924,5 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T18:49:23Z'
-  last_verified: '2026-10-08T18:49:23Z'
+    at: '2026-10-08T21:23:54Z'
+  last_verified: '2026-10-08T21:23:54Z'
