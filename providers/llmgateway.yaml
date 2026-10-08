@@ -1,0 +1,6 @@
+provider: llmgateway
+homepage: https://llmgateway.io/
+pricing_url: https://llmgateway.io/
+signup:
+  url: https://llmgateway.io/signup
+models: []
