@@ -43,3 +43,6 @@ def test_page_has_submit_entry_and_issue_redirect():
     assert "issues/new" in html, "submission must route to GitHub Issues (review queue)"
     assert "无法提交" in html, "duplicate must show cannot-submit message"
     assert "function openSubmit" in html
+    # 投稿表单字段与 Issue 模板一致(不再简易版): 两个下拉 + 必勾
+    assert 'id="stype"' in html and 'id="stier"' in html, "submit form must have source/free-tier dropdowns"
+    assert 'id="sattest"' in html, "submit form must have attestation checkbox"
