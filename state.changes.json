@@ -3,14 +3,14 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "e0eafb62df42b8ba794f20e49abae6a8839df6b2e3bfac8f72c56e7089caccea",
-  "new_hash": "2fc1bb9b07ed1ab37eb65290a29b36797db53149c0c77155a41069ca7d5d6b51"
+  "old_hash": "2fc1bb9b07ed1ab37eb65290a29b36797db53149c0c77155a41069ca7d5d6b51",
+  "new_hash": "4aeb56fc9693c75dd2ab3dd7864096803045c047d8fa98c0f6da215bf40246f9"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "beb7a9b65b120c48698899229606c86f78a77ba85e8832d3d29532109f80e20f",
-  "new_hash": "2e39d6e9e681d3aab5b5f4b3e29861b7a5eb0635309d73db11bfb92db49a0661"
+  "old_hash": "2e39d6e9e681d3aab5b5f4b3e29861b7a5eb0635309d73db11bfb92db49a0661",
+  "new_hash": "7146dee2e20dac1ccee978ea7ba8200f3d53d403b34e470e896f58a9ebdb2ebc"
  }
 ]

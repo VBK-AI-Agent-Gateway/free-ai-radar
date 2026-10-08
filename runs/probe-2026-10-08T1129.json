@@ -1,0 +1,30 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 145,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "vercel",
+   "url": "https://ai-gateway.vercel.sh/v1/models",
+   "at": "2026-10-08T11:29:20Z"
+  }
+ ],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu",
+  "deepinfra",
+  "sambanova",
+  "novita"
+ ]
+}
