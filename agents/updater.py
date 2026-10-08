@@ -14,26 +14,55 @@ def _now():
     return datetime.date.today().isoformat()
 
 
+def _price_per_million(raw):
+    """OpenRouter pricing 是 per-token 字符串 -> 换算成每百万 token 美元。"""
+    try:
+        return round(float(raw) * 1_000_000, 4)
+    except (TypeError, ValueError):
+        return None
+
+
+def _caps(m):
+    """从 architecture/support 抽能力标签: 模态、上下文、最大输出、reasoning/tools。"""
+    arch = m.get("architecture") or {}
+    tp = m.get("top_provider") or {}
+    params = set(m.get("supported_parameters") or [])
+    caps = {
+        "context_length": m.get("context_length"),
+        "max_output_tokens": tp.get("max_completion_tokens"),
+        "input_modalities": arch.get("input_modalities") or [],
+        "output_modalities": arch.get("output_modalities") or [],
+        "modality": arch.get("modality"),
+        "reasoning": bool((m.get("reasoning") or {}).get("mandatory"))
+                      or "reasoning" in params,
+        "tools": "tools" in params,
+        "json_mode": "response_format" in params or "structured_outputs" in params,
+        "image_input": "image" in (arch.get("input_modalities") or []),
+    }
+    return {k: v for k, v in caps.items() if v not in (None, False, [], "")}
+
+
 def parse_openrouter(payload):
-    """OpenRouter /api/v1/models -> [model fact]。pricing 字符串,0 = 免费。"""
+    """OpenRouter /api/v1/models -> [model fact]。完整字段:定价/描述/能力/模态。"""
     out = []
     for m in payload.get("data", []) or []:
         p = m.get("pricing") or {}
-        try:
-            inp, outp = float(p.get("prompt", "0")), float(p.get("completion", "0"))
-        except (TypeError, ValueError):
-            inp = outp = None
-        free = (inp == 0 and outp == 0)
+        i_pm, o_pm = _price_per_million(p.get("prompt")), _price_per_million(p.get("completion"))
+        free = (i_pm == 0 and o_pm == 0)
+        created = m.get("created")
         out.append({
             "id": f"openrouter/{m.get('id')}",
             "name": m.get("name"),
             "status": "declared",
             "free": free,
-            "capabilities": {"context_length": m.get("context_length")},
-            "terms": {"input_per_million": inp, "output_per_million": outp} if inp is not None else {},
+            "description": (m.get("description") or "").strip()[:600] or None,
+            "capabilities": _caps(m),
+            "terms": {"input_per_million": i_pm, "output_per_million": o_pm,
+                      "currency": "USD"},
             "evidence": [{"kind": "official_api", "url": "https://openrouter.ai/api/v1/models",
                           "at": _now()}],
             "last_verified": _now(),
+            "created": created,
         })
     return out
 

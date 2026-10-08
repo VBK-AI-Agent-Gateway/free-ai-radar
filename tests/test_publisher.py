@@ -13,5 +13,10 @@ def test_render_readme_has_table():
     assert "| openai |" in text
 
 def test_site_escapes_html():
-    text = publisher.render_site([{"provider": "<script>", "models": [], "last_verified": "unknown", "pricing_url": "u"}])
-    assert "<script>" not in text.split("<h1>")[1]  # 卡片区已转义
+    evil = '<img src=x onerror=alert(1)>'
+    text = publisher.render_site([{"provider": "p", "models": [{"id": "p/" + evil, "status": "declared", "description": evil}], "last_verified": "unknown", "pricing_url": "u"}])
+    # 数据进 JSON,载荷不得以裸 HTML 出现在 JS 上下文之外,也不得裸露 onerror 载荷
+    body = text.split("</style>", 1)[-1]
+    assert evil not in body            # 载荷不裸露(被 JSON 转义/放在 script 数据里)
+    assert "<h1>" in text              # 结构完好
+    assert "render();" in text         # 客户端渲染存在
