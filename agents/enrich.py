@@ -32,6 +32,16 @@ def _per_million(raw):
     return None if v is None else round(v * 1_000_000, 4)
 
 
+def _price_field(d, *keys):
+    """从 pricing 子对象取价: 优先 *_decimal(novita price_per_m_decimal=0.15 即 $/1M),其次裸值。"""
+    if not isinstance(d, dict):
+        return None
+    for k in keys:
+        if k in d and d[k] is not None:
+            return d[k]
+    return None
+
+
 def _caps(m):
     arch = m.get("architecture") or {}
     tp = m.get("top_provider") or {}
@@ -85,8 +95,15 @@ def _parse_openai_compat(snap, url):
         if not isinstance(m, dict) or not m.get("id"):
             continue
         price = m.get("pricing") or {}
-        i_pm = _per_million(price.get("prompt", price.get("input")))
-        o_pm = _per_million(price.get("completion", price.get("output")))
+        pp = price.get("prompt") if isinstance(price.get("prompt"), dict) else price
+        cp = price.get("completion") if isinstance(price.get("completion"), dict) else price
+        i_dec = _price_field(pp, "price_per_m_decimal", "price_per_m")
+        o_dec = _price_field(cp, "price_per_m_decimal", "price_per_m")
+        if i_dec is not None and o_dec is not None:
+            i_pm, o_pm = float(i_dec), float(o_dec)   # decimal/price_per_m 已是 $/1M
+        else:
+            i_pm = _per_million(_price_field(pp, "prompt", "input"))
+            o_pm = _per_million(_price_field(cp, "completion", "output"))
         # deepinfra 等把定价嵌在 metadata.pricing 且单位是 per-token/百万不一,不乱猜 -> 留 None
         free_flag = m.get("free")
         if free_flag is None and i_pm is not None and o_pm is not None:
