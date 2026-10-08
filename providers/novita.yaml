@@ -1,7 +1,7 @@
 provider: novita
 homepage: https://novita.ai
 signup:
-  url: https://novita.ai/dashboard/api-keys
+  url: https://novita.ai/dashboard
   needs:
   - email
   regions_blocked: unknown
