@@ -58,7 +58,7 @@ def telegram(msg):
     chat = os.environ.get("TELEGRAM_CHAT_ID")
     if not tok or not chat:
         print("telegram: no token/chat configured, skip notify")
-        return False
+        return None  # 未配置 = 跳过,不算失败
     r = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
                       json={"chat_id": chat, "text": msg, "parse_mode": "HTML"}, timeout=20)
     ok = r.status_code == 200
@@ -86,7 +86,8 @@ def main(argv=None):
     print(f"publisher: wrote docs/free-models.json, docs/index.html, README.md ({len(rows)} providers)")
 
     if args.message:
-        return 0 if telegram(args.message) else 1
+        r = telegram(args.message)
+        return 0 if r in (True, None) else 1  # None=skip, not fail
     if args.notify:
         ev_p = events_path()
         events = json.loads(ev_p.read_text(encoding="utf-8")) if ev_p.exists() else []
@@ -96,7 +97,8 @@ def main(argv=None):
         lines = [f"📡 free-ai-radar 检测到 {len(events)} 处变化:"]
         for e in events[:10]:
             lines.append(f"- {e['provider']}: {e['type']} 变化 <a href='{e['url']}'>来源</a>")
-        return 0 if telegram("\n".join(lines)) else 1
+        r = telegram("\n".join(lines))
+        return 0 if r in (True, None) else 1  # None=skip, not fail
     return 0
 
 
