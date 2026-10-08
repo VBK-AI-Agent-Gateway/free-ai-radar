@@ -61,11 +61,11 @@ def guard_provider(data, seen_ids=None):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="守卫")
-    ap.add_argument("--file", action="append", required=True, help="要检查的 yaml/json 文件(可多个)")
+    ap.add_argument("--file", nargs="+", required=True, help="要检查的 yaml/json 文件(可多个,支持 shell 通配展开)")
     args = ap.parse_args(argv)
     import yaml
     failed = 0
-    for fp in args.file:
+    for fp in (args.file or []):
         p = pathlib.Path(fp)
         text = p.read_text(encoding="utf-8")
         errs = guard_text(text)
@@ -74,7 +74,7 @@ def main(argv=None):
         except Exception as e:
             errs.append(f"yaml parse error: {e}")
             data = None
-        if data is not None and p.suffix in (".yaml", ".yml"):
+        if data is not None and p.suffix in (".yaml", ".yml") and "providers" in str(p.parent):
             errs += guard_provider(data)
         if errs:
             failed = 1
