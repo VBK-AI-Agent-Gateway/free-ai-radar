@@ -7,7 +7,7 @@ signup:
   regions_blocked: unknown
   est_minutes: unknown
 pricing_url: https://novita.ai/pricing
-last_verified: '2026-10-08T15:43:10Z'
+last_verified: '2026-10-08T18:49:23Z'
 models:
 - id: zai-org/glm-5.3-flash
   name: zai-org/glm-5.3-flash
@@ -26,8 +26,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-pro-0813-p
   name: deepseek/deepseek-v4-pro-0813-p
   status: declared
@@ -42,8 +42,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4.1-flash-dst
   name: deepseek/deepseek-v4.1-flash-dst
   status: declared
@@ -58,8 +58,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4.1-flash-p
   name: deepseek/deepseek-v4.1-flash-p
   status: declared
@@ -74,8 +74,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: xiaomimimo/mimo-v2.6-flash
   name: xiaomimimo/mimo-v2.6-flash
   status: declared
@@ -94,8 +94,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: xiaomimimo/mimo-v2.6-pro
   name: xiaomimimo/mimo-v2.6-pro
   status: declared
@@ -114,8 +114,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: tencent/hy4-preview
   name: tencent/hy4-preview
   status: declared
@@ -133,8 +133,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-5.3-p
   name: zai-org/glm-5.3-p
   status: declared
@@ -151,8 +151,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4.1-flash
   name: deepseek/deepseek-v4.1-flash
   status: declared
@@ -167,8 +167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k3-p
   name: moonshotai/kimi-k3-p
   status: declared
@@ -187,8 +187,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-5.3
   name: zai-org/glm-5.3
   status: declared
@@ -209,8 +209,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-pro-0813
   name: deepseek/deepseek-v4-pro-0813
   status: declared
@@ -225,8 +225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k3
   name: moonshotai/kimi-k3
   status: declared
@@ -245,8 +245,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: tencent/hy3
   name: tencent/hy3
   status: declared
@@ -265,8 +265,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-5.2
   name: zai-org/glm-5.2
   status: declared
@@ -288,8 +288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2.7-code
   name: moonshotai/kimi-k2.7-code
   status: declared
@@ -308,8 +308,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-flash-0731-p
   name: deepseek/deepseek-v4-flash-0731-p
   status: declared
@@ -326,8 +326,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.8-flash
   name: qwen/qwen3.8-flash
   status: declared
@@ -350,32 +350,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: deepseek/deepseek-v4-flash-vision-exp
-  name: deepseek/deepseek-v4-flash-vision-exp
-  status: declared
-  free: false
-  description: 'DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version
-    of DeepSeek V4 Flash 0731(opens in new tab) from DeepSeek, adding image understanding
-    while matching the base model on text capabilities including agents, reasoning,
-    and world knowledge. It is a sparse mixture-of-experts model with 13B active parameters
-    out of 284B total.
-
-
-    It is suited for document and chart understanding, visual question answering,
-    and multimodal agent workflows that interleave text and images.'
-  capabilities:
-    max_output_tokens: 393216
-  terms:
-    input_per_million: 0.44
-    output_per_million: 1.32
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-flash-0731
   name: deepseek/deepseek-v4-flash-0731
   status: declared
@@ -392,8 +368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: mindai/macaron-v1-venti
   name: mindai/macaron-v1-venti
   status: declared
@@ -413,8 +389,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: minimax/minimax-m3
   name: minimax/minimax-m3
   status: declared
@@ -429,8 +405,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-flash
   name: deepseek/deepseek-v4-flash
   status: declared
@@ -452,8 +428,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-v4-pro
   name: deepseek/deepseek-v4-pro
   status: declared
@@ -475,8 +451,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: apodex/apodex-1.1-mini
   name: apodex/apodex-1.1-mini
   status: declared
@@ -494,8 +470,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: inclusionai/ling-3.1-flash
   name: inclusionai/ling-3.1-flash
   status: declared
@@ -511,8 +487,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.8-27b
   name: qwen/qwen3.8-27b
   status: declared
@@ -527,8 +503,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: inclusionai/ling-3.0-flash-fin
   name: inclusionai/ling-3.0-flash-fin
   status: declared
@@ -548,8 +524,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.8-2.4t-a95b
   name: qwen/qwen3.8-2.4t-a95b
   status: declared
@@ -567,8 +543,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.8-max
   name: qwen/qwen3.8-max
   status: declared
@@ -586,8 +562,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: inclusionai/ling-3.0-flash
   name: inclusionai/ling-3.0-flash
   status: declared
@@ -607,8 +583,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: mindai/macaron-v1-tall
   name: mindai/macaron-v1-tall
   status: declared
@@ -627,8 +603,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: stepfun/step-3.7-flash
   name: stepfun/step-3.7-flash
   status: declared
@@ -650,8 +626,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: nvidia/nemotron-3-nano-30b-a3b
   name: nvidia/nemotron-3-nano-30b-a3b
   status: declared
@@ -673,8 +649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: baidu/cobuddy
   name: baidu/cobuddy
   status: declared
@@ -692,8 +668,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: xiaomimimo/mimo-v2.5
   name: xiaomimimo/mimo-v2.5
   status: declared
@@ -710,8 +686,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.7-max
   name: qwen/qwen3.7-max
   status: declared
@@ -730,8 +706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: xiaomimimo/mimo-v2.5-pro
   name: xiaomimimo/mimo-v2.5-pro
   status: declared
@@ -753,8 +729,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.6-27b
   name: qwen/qwen3.6-27b
   status: declared
@@ -774,8 +750,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2.6
   name: moonshotai/kimi-k2.6
   status: declared
@@ -797,8 +773,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: bunny
   name: bunny
   status: declared
@@ -813,8 +789,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-5.1
   name: zai-org/glm-5.1
   status: declared
@@ -836,8 +812,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: minimax/minimax-m2.7-highspeed
   name: minimax/minimax-m2.7-highspeed
   status: declared
@@ -860,29 +836,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: zai-org/glm-5v-turbo
-  name: zai-org/glm-5v-turbo
-  status: declared
-  free: false
-  description: GLM-5V-Turbo is Z.AI’s first multimodal coding foundation model, built
-    for vision-based coding tasks. It can natively process multimodal inputs such
-    as images, video, and text, while also excelling at long-horizon planning, complex
-    coding, and action execution. Deeply optimized for agent workflows, it works seamlessly
-    with agents such as Claude Code and OpenClaw to complete the full loop of “understand
-    the environment → plan actions → execute tasks”.
-  capabilities:
-    max_output_tokens: 131072
-  terms:
-    input_per_million: 1.2
-    output_per_million: 4.0
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: google/gemma-4-26b-a4b-it
   name: google/gemma-4-26b-a4b-it
   status: declared
@@ -904,8 +859,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: google/gemma-4-31b-it
   name: google/gemma-4-31b-it
   status: declared
@@ -927,31 +882,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: zai-org/glm-5-turbo
-  name: zai-org/glm-5-turbo
-  status: declared
-  free: false
-  description: GLM-5 is an open-source foundation model engineered for complex system
-    engineering and long-horizon Agent tasks, delivering reliable productivity for
-    top-tier programmers. Transcending the boundary from "writing code" to "building
-    systems," it moves beyond traditional snippet generation to offer senior-architect-level
-    planning and execution capabilities. By rejecting the "frontend-heavy, logic-light"
-    approach, GLM-5 demonstrates exceptional reasoning and self-healing abilities
-    in backend refactoring, complex algorithm implementation, and deep debugging—autonomously
-    analyzing logs and iterative
-  capabilities:
-    max_output_tokens: 131072
-  terms:
-    input_per_million: 1.2
-    output_per_million: 4.0
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: minimax/minimax-m2.7
   name: minimax/minimax-m2.7
   status: declared
@@ -975,31 +907,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: minimax/minimax-m2.5-highspeed
-  name: minimax/minimax-m2.5-highspeed
-  status: declared
-  free: false
-  description: MiniMax M2.5-highspeed is an accelerated SOTA model engineered for
-    scenarios demanding extreme efficiency. It perfectly inherits the core intelligence
-    and robust digital workspace capabilities of the standard M2.5—including its 80.2%
-    score on SWE-Bench Verified, seamless manipulation of Office documents, and versatility
-    in cross-software collaboration. With zero compromise on reasoning precision or
-    logical depth, the Highspeed version delivers ultra-low latency inference through
-    rigorous engineering optimization. This means you get more than just an intelligent
-    assistant capable of planning an
-  capabilities:
-    max_output_tokens: 131100
-  terms:
-    input_per_million: 0.6
-    output_per_million: 2.4
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.5-27b
   name: qwen/qwen3.5-27b
   status: declared
@@ -1017,8 +926,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.5-122b-a10b
   name: qwen/qwen3.5-122b-a10b
   status: declared
@@ -1038,8 +947,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.5-35b-a3b
   name: qwen/qwen3.5-35b-a3b
   status: declared
@@ -1057,8 +966,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.5-397b-a17b
   name: qwen/qwen3.5-397b-a17b
   status: declared
@@ -1080,29 +989,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3.5-plus
-  name: qwen/qwen3.5-plus
-  status: declared
-  free: false
-  description: The Qwen3.5 native vision-language series Plus models are based on
-    a hybrid architecture design that integrates linear attention mechanisms with
-    sparse Mixture-of-Experts (MoE), achieving higher inference efficiency. Across
-    various task evaluations, the 3.5 series demonstrates exceptional performance
-    comparable to current top-tier frontier models, marking a leap forward in both
-    plain text and multimodal capabilities compared to the 3 series.
-  capabilities:
-    max_output_tokens: 65536
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: minimax/minimax-m2.5
   name: minimax/minimax-m2.5
   status: declared
@@ -1124,8 +1012,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-5
   name: zai-org/glm-5
   status: declared
@@ -1147,31 +1035,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-coder-next
-  name: qwen/qwen3-coder-next
-  status: declared
-  free: false
-  description: 'Qwen3-Coder-Next is an open-weight language model specifically engineered
-    for coding agents and local development environments. This highly efficient model
-    delivers exceptional performance with only 3B activated parameters out of 80B
-    total parameters, achieving results comparable to models with 10-20x more active
-    parameters while maintaining remarkable cost-effectiveness for agent deployment.
-    Through its sophisticated training methodology, Qwen3-Coder-Next excels in advanced
-    agentic capabilities including long-horizon reasoning, complex tool usage, and
-    robust recovery from execution failures, '
-  capabilities:
-    max_output_tokens: 65536
-  terms:
-    input_per_million: 0.2
-    output_per_million: 1.5
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-ocr-2
   name: deepseek/deepseek-ocr-2
   status: declared
@@ -1193,8 +1058,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2.5
   name: moonshotai/kimi-k2.5
   status: declared
@@ -1216,8 +1081,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.7-h
   name: zai-org/glm-4.7-h
   status: declared
@@ -1235,8 +1100,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.7-flash
   name: zai-org/glm-4.7-flash
   status: declared
@@ -1257,39 +1122,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: minimax/minimax-m2.1
-  name: minimax/minimax-m2.1
-  status: declared
-  free: false
-  description: 'MiniMax M2.1 is a cutting-edge AI model designed to revolutionize
-    how developers build software. With enhanced multi-language programming support,
-    it excels in generating high-quality code across popular languages like Rust,
-    Java, Golang, C++, Kotlin, Objective-C, TypeScript, and JavaScript.
-
-
-    Key improvements include:
-
-
-    22% faster response times and 30% lower token consumption for efficient workflows.
-
-    Seamless integration with leading development frameworks (Claude Code, Droid Factory
-    AI, BlackBox, etc.).
-
-    Full-stack development capabilities, from mobile (Android/iOS) to web and 3D interactive
-    p'
-  capabilities:
-    max_output_tokens: 131072
-  terms:
-    input_per_million: 0.3
-    output_per_million: 1.2
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.7
   name: zai-org/glm-4.7
   status: declared
@@ -1307,8 +1141,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/autoglm-phone-9b-multilingual
   name: zai-org/autoglm-phone-9b-multilingual
   status: declared
@@ -1336,8 +1170,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2-thinking
   name: moonshotai/kimi-k2-thinking
   status: declared
@@ -1353,34 +1187,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: minimax/minimax-m2
-  name: minimax/minimax-m2
-  status: declared
-  free: false
-  description: 'MiniMax-M2 is a compact, high-efficiency large language model optimized
-    for end-to-end coding and agentic workflows. With 10 billion activated parameters
-    (230 billion total), it delivers near-frontier intelligence across general reasoning,
-    tool use, and multi-step task execution while maintaining low latency and deployment
-    efficiency.
-
-
-    The model excels in code generation, multi-file editing, compile-run-fix loops,
-    and test-validated repair, showing strong results on SWE-Bench Verified, Multi-SWE-Bench,
-    and Terminal-Bench. It also performs competitively in agentic evaluations such
-    as BrowseComp'
-  capabilities:
-    max_output_tokens: 131072
-  terms:
-    input_per_million: 0.3
-    output_per_million: 1.2
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: paddlepaddle/paddleocr-vl
   name: paddlepaddle/paddleocr-vl
   status: declared
@@ -1395,45 +1203,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-vl-235b-a22b-thinking
-  name: qwen/qwen3-vl-235b-a22b-thinking
-  status: declared
-  free: false
-  description: null
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.98
-    output_per_million: 3.95
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3.6-plus
-  name: qwen/qwen3.6-plus
-  status: declared
-  free: false
-  description: The Qwen3.6 native vision-language Plus series models demonstrate exceptional
-    performance on par with the current state-of-the-art models, with a significant
-    improvement in overall results compared to the 3.5 series. The models have been
-    markedly enhanced in code-related capabilities such as agentic coding, front-end
-    programming, and Vibe coding, as well as in multi-modal general object recognition,
-    OCR, and object localization.
-  capabilities:
-    max_output_tokens: 65536
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.6v
   name: zai-org/glm-4.6v
   status: declared
@@ -1454,8 +1225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.6
   name: zai-org/glm-4.6
   status: declared
@@ -1472,8 +1243,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3.6-35b-a3b
   name: qwen/qwen3.6-35b-a3b
   status: declared
@@ -1493,66 +1264,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-next-80b-a3b-instruct
-  name: qwen/qwen3-next-80b-a3b-instruct
-  status: declared
-  free: false
-  description: 'Qwen3-Next uses a highly sparse MoE design: 80B total parameters,
-    but only ~3B activated per inference step. Experiments show that, with global
-    load balancing, increasing total expert parameters while keeping activated experts
-    fixed steadily reduces training loss.Compared to Qwen3’s MoE (128 total experts,
-    8 routed), Qwen3-Next expands to 512 total experts, combining 10 routed experts
-    + 1 shared expert — maximizing resource usage without hurting performance.
-
-    The Qwen3-Next-80B-A3B-Instruct performs comparably to our flagship model Qwen3-235B-A22B-Instruct-2507,
-    and shows clear advantages in ta'
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.15
-    output_per_million: 1.5
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-vl-235b-a22b-instruct
-  name: qwen/qwen3-vl-235b-a22b-instruct
-  status: declared
-  free: false
-  description: null
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.3
-    output_per_million: 1.5
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-max
-  name: qwen/qwen3-max
-  status: declared
-  free: false
-  description: Qwen/qwen3-max, Enhanced with specialized upgrades in agent programming
-    and tool calling. This official release achieves domain SOTA performance, supporting
-    more complex agent scenarios.
-  capabilities:
-    max_output_tokens: 65536
-  terms:
-    input_per_million: 2.11
-    output_per_million: 8.45
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2-0905
   name: moonshotai/kimi-k2-0905
   status: declared
@@ -1575,54 +1288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-coder-480b-a35b-instruct
-  name: qwen/qwen3-coder-480b-a35b-instruct
-  status: declared
-  free: false
-  description: Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model
-    from Qwen, matching Claude Sonnet’s performance in agentic programming, browser
-    automation, and core development tasks. With native 256K context (extendable to
-    1M tokens via YaRN), it excels at repository-scale analysis and features specialized
-    function-call support for platforms like Qwen Code and CLINE—making it ideal for
-    complex, real-world development workflows.
-  capabilities:
-    max_output_tokens: 65536
-  terms:
-    input_per_million: 0.38
-    output_per_million: 1.55
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-coder-30b-a3b-instruct
-  name: qwen/qwen3-coder-30b-a3b-instruct
-  status: declared
-  free: false
-  description: 'Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts
-    (MoE) model with 128 experts (8 active per forward pass), designed for advanced
-    code generation, repository-scale understanding, and agentic tool use. Built on
-    the Qwen3 architecture, it supports a native context length of 256K tokens (extendable
-    to 1M with Yarn) and performs strongly in tasks involving function calls, browser
-    use, and structured code completion.
-
-
-    This model is optimized for instruction-following without “thinking mode”, and
-    integrates well with OpenAI-compatible tool-use formats.'
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.07
-    output_per_million: 0.27
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: openai/gpt-oss-120b
   name: openai/gpt-oss-120b
   status: declared
@@ -1642,8 +1309,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: moonshotai/kimi-k2-instruct
   name: moonshotai/kimi-k2-instruct
   status: declared
@@ -1663,31 +1330,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-235b-a22b-thinking-2507
-  name: qwen/qwen3-235b-a22b-thinking-2507
-  status: declared
-  free: false
-  description: The Qwen3-235B-A22B-Thinking-2507 represents the newest thinking-enabled
-    model in the Qwen3 series, delivering groundbreaking improvements in reasoning
-    capabilities. This advanced AI demonstrates significantly enhanced performance
-    across logical reasoning, mathematics, scientific analysis, coding tasks, and
-    academic benchmarks - matching or even surpassing human-expert level performance
-    to achieve state-of-the-art results among open-source thinking models. Beyond
-    its exceptional reasoning skills, the model shows markedly better general capabilities
-    including more precise instruction following,
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.3
-    output_per_million: 3.0
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek_v3
   name: deepseek/deepseek_v3
   status: declared
@@ -1705,8 +1349,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: meta-llama/llama-3.1-8b-instruct
   name: meta-llama/llama-3.1-8b-instruct
   status: declared
@@ -1724,8 +1368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: google/gemma-3-12b-it
   name: google/gemma-3-12b-it
   status: declared
@@ -1740,8 +1384,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.5v
   name: zai-org/glm-4.5v
   status: declared
@@ -1765,55 +1409,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: openai/gpt-oss-20b
-  name: openai/gpt-oss-20b
-  status: declared
-  free: false
-  description: gpt-oss-20b is an open-weight 21B parameter model released by OpenAI
-    under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture
-    with 3.6B active parameters per forward pass, optimized for lower-latency inference
-    and deployability on consumer or single-GPU hardware. The model is trained in
-    OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning,
-    and agentic capabilities including function calling, tool use, and structured
-    outputs.
-  capabilities:
-    max_output_tokens: 32768
-  terms:
-    input_per_million: 0.04
-    output_per_million: 0.15
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-235b-a22b-instruct-2507
-  name: qwen/qwen3-235b-a22b-instruct-2507
-  status: declared
-  free: false
-  description: 'Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned
-    mixture-of-experts language model based on the Qwen3-235B architecture, with 22B
-    active parameters per forward pass. It is optimized for general-purpose text generation,
-    including instruction following, logical reasoning, math, code, and tool usage.
-    The model supports a native 262K context length and does not implement "thinking
-    mode" (<think> blocks).
-
-    Compared to its base variant, this version delivers significant gains in knowledge
-    coverage, long-context reasoning, coding benchmarks, and alignment with open-ended
-    tasks. It is'
-  capabilities:
-    max_output_tokens: 16384
-  terms:
-    input_per_million: 0.09
-    output_per_million: 0.58
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: meta-llama/llama-3.3-70b-instruct
   name: meta-llama/llama-3.3-70b-instruct
   status: declared
@@ -1836,45 +1433,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen-2.5-72b-instruct
-  name: qwen/qwen-2.5-72b-instruct
-  status: declared
-  free: false
-  description: Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5,
-    we release a number of base language models and instruction-tuned language models
-    ranging from 0.5 to 72 billion parameters.
-  capabilities:
-    max_output_tokens: 8192
-  terms:
-    input_per_million: 0.38
-    output_per_million: 0.4
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: mistralai/mistral-nemo
-  name: mistralai/mistral-nemo
-  status: declared
-  free: false
-  description: A 12B parameter model with a 128k token context length built by Mistral
-    in collaboration with NVIDIA. The model is multilingual, supporting English, French,
-    German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.
-    It supports function calling and is released under the Apache 2.0 license.
-  capabilities:
-    max_output_tokens: 16000
-  terms:
-    input_per_million: 0.04
-    output_per_million: 0.17
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: minimaxai/minimax-m1-80k
   name: minimaxai/minimax-m1-80k
   status: declared
@@ -1901,8 +1461,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-r1-0528
   name: deepseek/deepseek-r1-0528
   status: declared
@@ -1919,8 +1479,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: microsoft/wizardlm-2-8x22b
   name: microsoft/wizardlm-2-8x22b
   status: declared
@@ -1937,8 +1497,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-r1-0528-qwen3-8b
   name: deepseek/deepseek-r1-0528-qwen3-8b
   status: declared
@@ -1958,28 +1518,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-235b-a22b-fp8
-  name: qwen/qwen3-235b-a22b-fp8
-  status: declared
-  free: false
-  description: Achieves effective integration of inference and non-inference modes,
-    enabling seamless switching between modes during conversations. The model's inference
-    capability significantly surpasses that of QwQ, and its general capabilities exceed
-    those of Qwen2.5-72B-Instruct, reaching the state-of-the-art (SOTA) level among
-    models of the same scale.
-  capabilities:
-    max_output_tokens: 20000
-  terms:
-    input_per_million: 0.2
-    output_per_million: 0.8
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   name: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   status: declared
@@ -2004,8 +1544,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: meta-llama/llama-4-scout-17b-16e-instruct
   name: meta-llama/llama-4-scout-17b-16e-instruct
   status: declared
@@ -2029,8 +1569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: nousresearch/hermes-2-pro-llama-3-8b
   name: nousresearch/hermes-2-pro-llama-3-8b
   status: declared
@@ -2047,8 +1587,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: sao10k/l3-70b-euryale-v2.1
   name: sao10k/l3-70b-euryale-v2.1
   status: declared
@@ -2070,24 +1610,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: sao10k/l3-8b-lunaris
-  name: sao10k/l3-8b-lunaris
-  status: declared
-  free: false
-  description: A generalist / roleplaying model merge based on Llama 3.
-  capabilities:
-    max_output_tokens: 8192
-  terms:
-    input_per_million: 0.05
-    output_per_million: 0.05
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: baichuan/baichuan-m2-32b
   name: baichuan/baichuan-m2-32b
   status: declared
@@ -2111,31 +1635,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: baidu/ernie-4.5-vl-424b-a47b
-  name: baidu/ernie-4.5-vl-424b-a47b
-  status: declared
-  free: false
-  description: The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts
-    (MoE) architecture, representing an innovative multimodal heterogeneous model
-    structure. It achieves cross-modal knowledge fusion through a parameter-sharing
-    mechanism while retaining dedicated parameter spaces for individual modalities.
-    This architecture is particularly well-suited for the continuous pre-training
-    paradigm from large language models to multimodal models, significantly enhancing
-    multimodal understanding capabilities while maintaining or even improving performance
-    in text-based tasks. The models are efficient
-  capabilities:
-    max_output_tokens: 16000
-  terms:
-    input_per_million: 0.42
-    output_per_million: 1.25
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: google/gemma-3-27b-it
   name: google/gemma-3-27b-it
   status: declared
@@ -2154,8 +1655,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-r1-turbo
   name: deepseek/deepseek-r1-turbo
   status: declared
@@ -2172,8 +1673,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: deepseek/deepseek-r1/community
   name: deepseek/deepseek-r1/community
   status: declared
@@ -2188,8 +1689,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: Sao10K/L3-8B-Stheno-v3.2
   name: Sao10K/L3-8B-Stheno-v3.2
   status: declared
@@ -2205,8 +1706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: gryphe/mythomax-l2-13b
   name: gryphe/mythomax-l2-13b
   status: declared
@@ -2225,8 +1726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: ming-image-0.1-design-layer
   name: ming-image-0.1-design-layer
   status: declared
@@ -2240,8 +1741,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: ming-image-0.1-design
   name: ming-image-0.1-design
   status: declared
@@ -2255,8 +1756,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: inclusionai/ling-3.0-flash-vl
   name: inclusionai/ling-3.0-flash-vl
   status: declared
@@ -2273,8 +1774,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: inclusionai/ling-3.0-flash-sante
   name: inclusionai/ling-3.0-flash-sante
   status: declared
@@ -2288,14 +1789,14 @@ models:
   capabilities:
     max_output_tokens: 32768
   terms:
-    input_per_million: null
-    output_per_million: null
+    input_per_million: 0.075
+    output_per_million: 0.22
     currency: USD
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: dev/glm46
   name: dev/glm46
   status: declared
@@ -2310,8 +1811,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: zai-org/glm-4.5-air
   name: zai-org/glm-4.5-air
   status: declared
@@ -2326,8 +1827,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3-vl-30b-a3b-instruct
   name: qwen/qwen3-vl-30b-a3b-instruct
   status: declared
@@ -2342,8 +1843,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen3-omni-30b-a3b-thinking
   name: qwen/qwen3-omni-30b-a3b-thinking
   status: declared
@@ -2362,28 +1863,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: qwen/qwen3-omni-30b-a3b-instruct
-  name: qwen/qwen3-omni-30b-a3b-instruct
-  status: declared
-  free: false
-  description: The Qwen-Omni model accepts combined inputs of text and a single additional
-    modality (image, audio, or video) to generate responses in text or speech. It
-    offers a variety of human-like voices, supports speech output in multiple languages
-    and dialects, and is suitable for applications such as text creation, visual recognition,
-    and voice assistants
-  capabilities:
-    max_output_tokens: 16384
-  terms:
-    input_per_million: 0.25
-    output_per_million: 0.97
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: qwen/qwen-mt-plus
   name: qwen/qwen-mt-plus
   status: declared
@@ -2402,8 +1883,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: baidu/ernie-4.5-21B-a3b
   name: baidu/ernie-4.5-21B-a3b
   status: declared
@@ -2425,33 +1906,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: thudm/glm-4-32b-0414
-  name: thudm/glm-4-32b-0414
-  status: declared
-  free: false
-  description: 'GLM-4-32B-0414 is the latest open-source model in the GLM series,
-    featuring 32 billion parameters. Its performance is comparable to OpenAI''s GPT
-    series and DeepSeek''s V3/R1 series, while also supporting highly user-friendly
-    local deployment capabilities.
-
-    GLM-4-32B-Base-0414 was pre-trained on 15T of high-quality data, including a large
-    amount of reasoning-type synthetic data, which laid a solid foundation for subsequent
-    reinforcement learning extensions. In the post-training stage, in addition to
-    human preference alignment for dialogue scenarios, the research team enhanced
-    the model’s performa'
-  capabilities:
-    max_output_tokens: 32000
-  terms:
-    input_per_million: 0.55
-    output_per_million: 1.66
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'
 - id: meta-llama/llama-3.2-1b-instruct
   name: meta-llama/llama-3.2-1b-instruct
   status: declared
@@ -2468,22 +1924,5 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
-- id: sao10k/l31-70b-euryale-v2.2
-  name: sao10k/l31-70b-euryale-v2.2
-  status: declared
-  free: false
-  description: Euryale L3.1 70B v2.2 is a model focused on creative roleplay from
-    Sao10k. It is the successor of Euryale L3 70B v2.1.
-  capabilities:
-    max_output_tokens: 8192
-  terms:
-    input_per_million: 1.48
-    output_per_million: 1.48
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-08T15:43:10Z'
-  last_verified: '2026-10-08T15:43:10Z'
+    at: '2026-10-08T18:49:23Z'
+  last_verified: '2026-10-08T18:49:23Z'

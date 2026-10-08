@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T15:42:59Z",
+ "fetched_at": "2026-10-08T18:49:13Z",
  "url": "https://api.fastrouter.ai/v1/models",
- "hash": "61adc85bde3c03109180df64e90ef67b855eaf5c0d2c8626da88a172883504fa",
+ "hash": "101741c6a40e8ebf2da1f4850bafb35784e97e08cc0df3f464b878d9f7dde359",
  "payload": {
   "data": [
    {
@@ -519,22 +519,23 @@
     "supported_params_details": {
      "include_reasoning": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "max": 128000,
+       "dataType": "number",
        "min": 1,
-       "dataType": "number"
+       "max": 128000
       }
      },
      "reasoning": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
@@ -542,18 +543,17 @@
         "xhigh",
         "max"
        ],
-       "default": "medium",
-       "dataType": "string"
+       "default": "medium"
       }
      },
      "response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "stop": {
@@ -563,22 +563,22 @@
      },
      "structured_outputs": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "tool_choice": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "auto",
         "any",
         "tool",
         "none"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "tools": {
@@ -588,12 +588,12 @@
      },
      "verbosity": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
         "high"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
@@ -661,8 +661,8 @@
       "completion": "0.00001",
       "input_cache_read": "0.0000002",
       "input_cache_write": "0.0000025",
-      "input_cache_write_5m": "0.0000025",
-      "input_cache_write_1h": "0.000004"
+      "input_cache_write_1h": "0.000004",
+      "input_cache_write_5m": "0.0000025"
      }
     },
     "top_provider": {
@@ -695,11 +695,11 @@
     "supported_params_details": {
      "between_tools": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "cache_control": {
@@ -709,17 +709,17 @@
      },
      "display": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "updates"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "dataType": "number",
+       "max": 128000,
        "min": 1,
-       "max": 128000
+       "dataType": "number"
       }
      },
      "metadata": {
@@ -729,24 +729,24 @@
      },
      "reasoning": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "between_tools",
         "low",
         "medium",
         "high"
        ],
-       "default": "high"
+       "default": "high",
+       "dataType": "string"
       }
      },
      "response_format": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "stop": {
@@ -756,11 +756,11 @@
      },
      "stream": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "system": {
@@ -770,11 +770,11 @@
      },
      "tool_choice": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "auto",
         "none"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "tools": {
@@ -852,8 +852,8 @@
       "prompt_more_than_100k_input": "0.0000005",
       "completion_more_than_100k_input": "0.0000025",
       "input_cache_read_more_than_100k_input": "0.00000005",
-      "input_cache_write_5m_more_than_100k_input": "0.000000625",
-      "input_cache_write_1h_more_than_100k_input": "0.000001"
+      "input_cache_write_1h_more_than_100k_input": "0.000001",
+      "input_cache_write_5m_more_than_100k_input": "0.000000625"
      }
     },
     "top_provider": {
@@ -987,7 +987,12 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.000000375",
+      "completion": "0.000001875",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000005"
+     },
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -1552,9 +1557,9 @@
     }
    },
    {
-    "id": "openai/gpt-image-2.5-sunburst",
-    "name": "OpenAI: GPT Image 2.5 Sunburst",
-    "description": "GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation and editing model, offering an extra level of precision for detailed creative work at the cost of longer generation times than Flare. It shares Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, with sharper detail, more natural lighting, richer textures, and better handling of complex layouts and transparent backgrounds. Recommended for premium visual workflows like production-ready campaign creative or polished product imagery.",
+    "id": "openai/gpt-image-2.5-flare",
+    "name": "OpenAI: GPT Image 2.5 Flare",
+    "description": "GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency. It is the default choice for most API applications, sharing Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, and is well suited to creator and social content, product experiences, visual search, rapid prototyping, and high-volume generation.",
     "created": 1788825600,
     "context_length": 128000,
     "architecture": {
@@ -1653,9 +1658,7 @@
      "output_format",
      "partial_images",
      "quality",
-     "size",
-     "stream",
-     "user"
+     "size"
     ],
     "models_extra_params": {
      "category": [
@@ -1773,21 +1776,6 @@
         "1024x1536"
        ],
        "default": "auto"
-      }
-     },
-     "stream": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ],
-       "default": false
-      }
-     },
-     "user": {
-      "inputFormat": {
-       "dataType": "string"
       }
      }
     }
@@ -2130,8 +2118,8 @@
       "completion": "0.00005",
       "input_cache_read": "0.000001",
       "input_cache_write": "0.0000125",
-      "input_cache_write_5m": "0.0000125",
-      "input_cache_write_1h": "0.00002"
+      "input_cache_write_1h": "0.00002",
+      "input_cache_write_5m": "0.0000125"
      }
     },
     "top_provider": {
@@ -2166,256 +2154,6 @@
      "tool_choice": {},
      "tools": {},
      "verbosity": {}
-    }
-   },
-   {
-    "id": "openai/gpt-6-sol",
-    "name": "OpenAI: GPT-6 Sol",
-    "description": "GPT-6 Sol is OpenAI's mid-tier model in the GPT-6 family, sitting below flagship GPT-6 Astra. Trained using the same methods as Astra but optimized to run faster and cost less, it cuts API prices 50% versus GPT-5.6 Sol's promotional pricing, with about half the factuality errors of its predecessor and cached input tokens now discounted 90%. OpenAI reports it matches Claude Fable 5.1 xhigh on FrontierCode coding benchmarks at substantially lower cost, and scores 33.2% on AutomationBench (xhigh) versus 26.9% for Claude Opus 5 at roughly a ninth of the per-task cost.",
-    "created": 1790035200,
-    "context_length": 400000,
-    "architecture": {
-     "modality": "text+image+file->text",
-     "input_modalities": [
-      "file",
-      "image",
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "pricing": {
-     "prompt": "0.000002",
-     "completion": "0.00001",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
-     "citation": "",
-     "reasoning": "",
-     "duration": "",
-     "internal_reasoning": "",
-     "input_cache_read": "0.0000002",
-     "input_cache_write": "0.0000025",
-     "input_cache_read_more_than_272k_input": "0.0000004",
-     "prompt_more_than_128k_input": "",
-     "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "",
-     "completion_more_than_200k_input": "",
-     "prompt_more_than_272k_input": "0.000004",
-     "completion_more_than_272k_input": "0.000015",
-     "prompt_more_than_512k_input": "",
-     "completion_more_than_512k_input": "",
-     "web_search_per_1000_requests_low": "",
-     "web_search_per_1000_requests_medium": "",
-     "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "",
-     "audio_output_per_minute": "",
-     "audio_input": "",
-     "audio_output": "",
-     "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
-     },
-     "flex_service_tier_pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "prompt_more_than_272k_input": "0.000002",
-      "completion_more_than_272k_input": "0.0000075",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
-     },
-     "fast_service_tier_pricing": {
-      "prompt": "0.000004",
-      "completion": "0.00002",
-      "prompt_more_than_272k_input": "0.000008",
-      "completion_more_than_272k_input": "0.00003",
-      "input_cache_read": "0.0000004",
-      "input_cache_write": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000008"
-     },
-     "videoCost": null,
-     "videoCostWithAudio": null,
-     "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.000002",
-      "completion": "0.00001",
-      "input_cache_read": "0.0000002",
-      "input_cache_write": "0.0000025",
-      "prompt_more_than_272k_input": "0.000004",
-      "completion_more_than_272k_input": "0.000015",
-      "input_cache_write_more_than_272k": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000004"
-     }
-    },
-    "top_provider": {
-     "context_length": 400000,
-     "max_completion_tokens": 128000,
-     "is_moderated": true
-    },
-    "supported_parameters": [
-     "frequency_penalty",
-     "logprobs",
-     "max_completion_tokens",
-     "metadata",
-     "n",
-     "presence_penalty",
-     "reasoning",
-     "response_format",
-     "seed",
-     "service_tier",
-     "stop",
-     "stop_sequences",
-     "stream",
-     "tool_choice",
-     "tools",
-     "top_logprobs",
-     "top_p"
-    ],
-    "models_extra_params": {
-     "category": [
-      "Text Generation"
-     ],
-     "sample_code_snippet": null
-    },
-    "is_active": true,
-    "creator": "OpenAI",
-    "supported_params_details": {
-     "frequency_penalty": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": -2,
-       "max": 2
-      }
-     },
-     "logprobs": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
-      }
-     },
-     "max_completion_tokens": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 1,
-       "max": 128000
-      }
-     },
-     "metadata": {
-      "inputFormat": {
-       "dataType": "string"
-      }
-     },
-     "n": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 1
-      }
-     },
-     "presence_penalty": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": -2,
-       "max": 2
-      }
-     },
-     "reasoning": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-       ]
-      }
-     },
-     "response_format": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "text",
-        "json_object",
-        "json_schema"
-       ]
-      }
-     },
-     "seed": {
-      "inputFormat": {
-       "dataType": "number"
-      }
-     },
-     "service_tier": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "auto",
-        "default",
-        "flex",
-        "priority",
-        "fast"
-       ]
-      }
-     },
-     "stop": {
-      "inputFormat": {
-       "dataType": "array"
-      }
-     },
-     "stop_sequences": {
-      "inputFormat": {
-       "dataType": "array"
-      }
-     },
-     "stream": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
-      }
-     },
-     "tool_choice": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "auto",
-        "required",
-        "none"
-       ]
-      }
-     },
-     "tools": {
-      "inputFormat": {
-       "dataType": "array"
-      }
-     },
-     "top_logprobs": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 0,
-       "max": 20
-      }
-     },
-     "top_p": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 0,
-       "max": 1
-      }
-     }
     }
    },
    {
@@ -2651,6 +2389,256 @@
       "inputFormat": {
        "dataType": "number",
        "min": 0
+      }
+     },
+     "top_logprobs": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 0,
+       "max": 20
+      }
+     },
+     "top_p": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 0,
+       "max": 1
+      }
+     }
+    }
+   },
+   {
+    "id": "openai/gpt-6-sol",
+    "name": "OpenAI: GPT-6 Sol",
+    "description": "GPT-6 Sol is OpenAI's mid-tier model in the GPT-6 family, sitting below flagship GPT-6 Astra. Trained using the same methods as Astra but optimized to run faster and cost less, it cuts API prices 50% versus GPT-5.6 Sol's promotional pricing, with about half the factuality errors of its predecessor and cached input tokens now discounted 90%. OpenAI reports it matches Claude Fable 5.1 xhigh on FrontierCode coding benchmarks at substantially lower cost, and scores 33.2% on AutomationBench (xhigh) versus 26.9% for Claude Opus 5 at roughly a ninth of the per-task cost.",
+    "created": 1790035200,
+    "context_length": 400000,
+    "architecture": {
+     "modality": "text+image+file->text",
+     "input_modalities": [
+      "file",
+      "image",
+      "text"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "pricing": {
+     "prompt": "0.000002",
+     "completion": "0.00001",
+     "request": "",
+     "image": "",
+     "web_search": "0.01",
+     "citation": "",
+     "reasoning": "",
+     "duration": "",
+     "internal_reasoning": "",
+     "input_cache_read": "0.0000002",
+     "input_cache_write": "0.0000025",
+     "input_cache_read_more_than_272k_input": "0.0000004",
+     "prompt_more_than_128k_input": "",
+     "completion_more_than_128k_input": "",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
+     "prompt_more_than_272k_input": "0.000004",
+     "completion_more_than_272k_input": "0.000015",
+     "prompt_more_than_512k_input": "",
+     "completion_more_than_512k_input": "",
+     "web_search_per_1000_requests_low": "",
+     "web_search_per_1000_requests_medium": "",
+     "web_search_per_1000_requests_high": "",
+     "web_search_per_1000_requests": "",
+     "audio_output_per_minute": "",
+     "audio_input": "",
+     "audio_output": "",
+     "cached_audio_input": "",
+     "batchPrice": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "input_cache_read_more_than_272k_input": "0.0000002"
+     },
+     "flex_service_tier_pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "prompt_more_than_272k_input": "0.000002",
+      "completion_more_than_272k_input": "0.0000075",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "input_cache_read_more_than_272k_input": "0.0000002"
+     },
+     "fast_service_tier_pricing": {
+      "prompt": "0.000004",
+      "completion": "0.00002",
+      "prompt_more_than_272k_input": "0.000008",
+      "completion_more_than_272k_input": "0.00003",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "input_cache_read_more_than_272k_input": "0.0000008"
+     },
+     "videoCost": null,
+     "videoCostWithAudio": null,
+     "imageCost": null,
+     "priceToShow": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "prompt_more_than_272k_input": "0.000004",
+      "completion_more_than_272k_input": "0.000015",
+      "input_cache_write_more_than_272k": "0.000005",
+      "input_cache_read_more_than_272k_input": "0.0000004"
+     }
+    },
+    "top_provider": {
+     "context_length": 400000,
+     "max_completion_tokens": 128000,
+     "is_moderated": true
+    },
+    "supported_parameters": [
+     "frequency_penalty",
+     "logprobs",
+     "max_completion_tokens",
+     "metadata",
+     "n",
+     "presence_penalty",
+     "reasoning",
+     "response_format",
+     "seed",
+     "service_tier",
+     "stop",
+     "stop_sequences",
+     "stream",
+     "tool_choice",
+     "tools",
+     "top_logprobs",
+     "top_p"
+    ],
+    "models_extra_params": {
+     "category": [
+      "Text Generation"
+     ],
+     "sample_code_snippet": null
+    },
+    "is_active": true,
+    "creator": "OpenAI",
+    "supported_params_details": {
+     "frequency_penalty": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": -2,
+       "max": 2
+      }
+     },
+     "logprobs": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
+      }
+     },
+     "max_completion_tokens": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 1,
+       "max": 128000
+      }
+     },
+     "metadata": {
+      "inputFormat": {
+       "dataType": "string"
+      }
+     },
+     "n": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 1
+      }
+     },
+     "presence_penalty": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": -2,
+       "max": 2
+      }
+     },
+     "reasoning": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+       ]
+      }
+     },
+     "response_format": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "text",
+        "json_object",
+        "json_schema"
+       ]
+      }
+     },
+     "seed": {
+      "inputFormat": {
+       "dataType": "number"
+      }
+     },
+     "service_tier": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "auto",
+        "default",
+        "flex",
+        "priority",
+        "fast"
+       ]
+      }
+     },
+     "stop": {
+      "inputFormat": {
+       "dataType": "array"
+      }
+     },
+     "stop_sequences": {
+      "inputFormat": {
+       "dataType": "array"
+      }
+     },
+     "stream": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
+      }
+     },
+     "tool_choice": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "auto",
+        "required",
+        "none"
+       ]
+      }
+     },
+     "tools": {
+      "inputFormat": {
+       "dataType": "array"
       }
      },
      "top_logprobs": {
@@ -3014,12 +3002,10 @@
      "input_cache_write": "0.00000625",
      "input_cache_write_5m": "0.00000625",
      "input_cache_write_1h": "0.00001000",
-     "input_cache_write_more_than_200k_5m": "0.00000625",
-     "input_cache_write_more_than_200k_1h": "0.00001000",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "0.00000500",
-     "completion_more_than_200k_input": "0.00002500",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
      "prompt_more_than_272k_input": "",
      "completion_more_than_272k_input": "",
      "prompt_more_than_512k_input": "",
@@ -3036,11 +3022,7 @@
       "prompt": "0.00000250",
       "completion": "0.00001250",
       "input_cache_read": "0.00000025",
-      "input_cache_write": "0.000003125",
-      "input_cache_read_more_than_200k_input": "0.00000025",
-      "input_cache_write_more_than_200k_input": "0.000003125",
-      "prompt_more_than_200k_input": "0.00000250",
-      "completion_more_than_200k_input": "0.00001250"
+      "input_cache_write": "0.000003125"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -3052,12 +3034,8 @@
       "completion": "0.00002500",
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
-      "input_cache_write_5m": "0.00000625",
       "input_cache_write_1h": "0.00001000",
-      "input_cache_write_more_than_200k_5m": "0.00000625",
-      "input_cache_write_more_than_200k_1h": "0.00001000",
-      "prompt_more_than_200k_input": "0.00000500",
-      "completion_more_than_200k_input": "0.00002500"
+      "input_cache_write_5m": "0.00000625"
      }
     },
     "top_provider": {
@@ -3121,7 +3099,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.00000020",
+     "input_cache_read": "0.0000002",
      "input_cache_write": "0.0000025",
      "input_cache_write_5m": "0.0000025",
      "input_cache_write_1h": "0.000004",
@@ -3142,10 +3120,10 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000002",
+      "prompt": "0.000001",
       "completion": "0.000005",
-      "input_cache_read": "0.00000025",
-      "input_cache_write": "0.000003125"
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -3155,10 +3133,10 @@
      "priceToShow": {
       "prompt": "0.000002",
       "completion": "0.00001",
-      "input_cache_read": "0.00000020",
+      "input_cache_read": "0.0000002",
       "input_cache_write": "0.0000025",
-      "input_cache_write_1h": "0.000004",
-      "input_cache_write_5m": "0.0000025"
+      "input_cache_write_5m": "0.0000025",
+      "input_cache_write_1h": "0.000004"
      }
     },
     "top_provider": {
@@ -3226,7 +3204,7 @@
      "completion": "0.00001500",
      "request": "",
      "image": "",
-     "web_search": "0.01",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
@@ -3267,8 +3245,8 @@
       "completion": "0.00001500",
       "input_cache_read": "0.00000030",
       "input_cache_write": "0.00000375",
-      "input_cache_write_5m": "0.00000375",
-      "input_cache_write_1h": "0.00000600"
+      "input_cache_write_1h": "0.00000600",
+      "input_cache_write_5m": "0.00000375"
      }
     },
     "top_provider": {
@@ -3374,8 +3352,8 @@
       "completion": "0.00001500",
       "input_cache_read": "0.00000030",
       "input_cache_write": "0.00000375",
-      "input_cache_write_5m": "0.00000375",
-      "input_cache_write_1h": "0.00000600"
+      "input_cache_write_1h": "0.00000600",
+      "input_cache_write_5m": "0.00000375"
      }
     },
     "top_provider": {
@@ -3475,8 +3453,8 @@
       "completion": "0.00000500",
       "input_cache_read": "0.00000010",
       "input_cache_write": "0.00000125",
-      "input_cache_write_5m": "0.00000125",
-      "input_cache_write_1h": "0.00000200"
+      "input_cache_write_1h": "0.00000200",
+      "input_cache_write_5m": "0.00000125"
      }
     },
     "top_provider": {
@@ -3684,7 +3662,11 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.000000375",
+      "completion": "0.000001875",
+      "input_cache_read": "0.0000000375"
+     },
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -4886,9 +4868,9 @@
     }
    },
    {
-    "id": "openai/gpt-image-2.5-flare",
-    "name": "OpenAI: GPT Image 2.5 Flare",
-    "description": "GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency. It is the default choice for most API applications, sharing Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, and is well suited to creator and social content, product experiences, visual search, rapid prototyping, and high-volume generation.",
+    "id": "openai/gpt-image-2.5-sunburst",
+    "name": "OpenAI: GPT Image 2.5 Sunburst",
+    "description": "GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation and editing model, offering an extra level of precision for detailed creative work at the cost of longer generation times than Flare. It shares Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, with sharper detail, more natural lighting, richer textures, and better handling of complex layouts and transparent backgrounds. Recommended for premium visual workflows like production-ready campaign creative or polished product imagery.",
     "created": 1788825600,
     "context_length": 128000,
     "architecture": {
@@ -4987,7 +4969,9 @@
      "output_format",
      "partial_images",
      "quality",
-     "size"
+     "size",
+     "stream",
+     "user"
     ],
     "models_extra_params": {
      "category": [
@@ -5105,6 +5089,21 @@
         "1024x1536"
        ],
        "default": "auto"
+      }
+     },
+     "stream": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ],
+       "default": false
+      }
+     },
+     "user": {
+      "inputFormat": {
+       "dataType": "string"
       }
      }
     }
@@ -6751,8 +6750,8 @@
       "completion": "0.00002500",
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
-      "input_cache_write_1h": "0.00001000",
-      "input_cache_write_5m": "0.00000625"
+      "input_cache_write_5m": "0.00000625",
+      "input_cache_write_1h": "0.00001000"
      }
     },
     "top_provider": {
@@ -6966,8 +6965,7 @@
      },
      "seed": {
       "inputFormat": {
-       "dataType": "number",
-       "max": 2147483638
+       "dataType": "number"
       }
      },
      "size": {
@@ -8185,9 +8183,11 @@
        "enum": [
         "16:9",
         "9:16",
+        "1:1",
         "4:3",
         "3:4",
-        "1:1",
+        "2:3",
+        "3:2",
         "21:9"
        ]
       }
@@ -8205,11 +8205,7 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
+       "dataType": "bool"
       }
      },
      "image": {
@@ -8225,20 +8221,8 @@
      "length": {
       "inputFormat": {
        "dataType": "number",
-       "enum": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-       ]
+       "min": 3,
+       "max": 12
       }
      },
      "prompt": {
@@ -8259,7 +8243,7 @@
      "seed": {
       "inputFormat": {
        "dataType": "number",
-       "min": 1,
+       "min": -1,
        "max": 2147483647
       }
      },
@@ -9232,7 +9216,9 @@
      },
      "seed": {
       "inputFormat": {
-       "dataType": "number"
+       "dataType": "number",
+       "min": -1,
+       "max": 2147483647
       }
      },
      "size": {},
@@ -9882,11 +9868,11 @@
      "priceToShow": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "input_cache_read": "0.00000003",
-      "prompt_more_than_200k_input": "0.0000003",
-      "completion_more_than_200k_input": "0.0000025",
       "prompt_audio": "0.000001",
-      "input_cache_read_audio": "0.0000001"
+      "input_cache_read": "0.00000003",
+      "input_cache_read_audio": "0.0000001",
+      "prompt_more_than_200k_input": "0.0000003",
+      "completion_more_than_200k_input": "0.0000025"
      }
     },
     "top_provider": {
@@ -10121,8 +10107,8 @@
      "priceToShow": {
       "prompt": "0.0000005",
       "completion": "0.000003",
-      "prompt_audio": "0.000001",
       "input_cache_read": "0.00000005",
+      "prompt_audio": "0.000001",
       "input_cache_read_audio": "0.0000001"
      }
     },
@@ -10463,7 +10449,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.000000025",
+     "input_cache_read": "",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -10483,13 +10469,11 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.000000125",
-      "completion": "0.00000075",
-      "input_cache_read": "0.0000000125"
+      "completion": "0.00000075"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000000125",
-      "completion": "0.00000075",
-      "input_cache_read": "0.0000000125"
+      "completion": "0.00000075"
      },
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -10498,7 +10482,6 @@
      "priceToShow": {
       "prompt": "0.00000025",
       "completion": "0.0000015",
-      "input_cache_read": "0.000000025",
       "image": "0.00003"
      }
     },
@@ -11628,7 +11611,6 @@
        "dataType": "number",
        "enum": [
         5,
-        6,
         8
        ]
       }
@@ -16387,13 +16369,13 @@
     "pricing": {
      "prompt": "0.000002",
      "completion": "0.000008",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.0000005",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16413,23 +16395,15 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000001",
-      "completion": "0.000004"
+      "prompt": "0.00000100",
+      "completion": "0.00000400"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000035",
-      "completion": "0.000014",
-      "input_cache_read": "0.000000875"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.000002",
-      "completion": "0.000008",
-      "input_cache_read": "0.0000005"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16617,13 +16591,13 @@
     "pricing": {
      "prompt": "0.0000001",
      "completion": "0.0000004",
-     "request": "0",
-     "image": "0",
-     "web_search": "0",
+     "request": "",
+     "image": "",
+     "web_search": "0.01",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "0",
+     "internal_reasoning": "",
      "input_cache_read": "0.000000025",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16644,14 +16618,22 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.00000005",
-      "completion": "0.00000020"
+      "completion": "0.0000002"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {},
+     "fast_service_tier_pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
+      "input_cache_read": "0.00000005"
+     },
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "input_cache_read": "0.000000025"
+     }
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16726,13 +16708,13 @@
     "pricing": {
      "prompt": "0.0000025",
      "completion": "0.00001",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0.003613",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.00000125",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16756,11 +16738,7 @@
       "completion": "0.000005"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {
-      "prompt": "0.00000425",
-      "completion": "0.000017",
-      "input_cache_read": "0.000002125"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -17411,7 +17389,7 @@
     },
     "pricing": {
      "prompt": "0.00000125",
-     "completion": "0.000010",
+     "completion": "0.00001",
      "request": "0",
      "image": "0",
      "web_search": "0",
@@ -17419,7 +17397,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "0",
-     "input_cache_read": "0.000000125",
+     "input_cache_read": "0.00000013",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -17440,14 +17418,22 @@
      "batchPrice": {
       "prompt": "0.00000063",
       "completion": "0.000005",
-      "input_cache_read": "0.00000006"
+      "input_cache_read": "0.00000007"
      },
-     "flex_service_tier_pricing": {},
+     "flex_service_tier_pricing": {
+      "prompt": "0.000000625",
+      "completion": "0.000005",
+      "input_cache_read": "0.0000000625"
+     },
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.00000125",
+      "completion": "0.00001",
+      "input_cache_read": "0.00000013"
+     }
     },
     "top_provider": {
      "context_length": 400000,
@@ -18742,6 +18728,7 @@
      "internal_reasoning": "",
      "input_cache_read": "0.00000002",
      "input_cache_write": "0.00000025",
+     "input_cache_read_more_than_272k_input": "0.00000004",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -18762,7 +18749,8 @@
       "prompt": "0.0000001",
       "completion": "0.0000006",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125"
+      "input_cache_write": "0.000000125",
+      "input_cache_read_more_than_272k_input": "0.00000002"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.0000001",
@@ -18770,9 +18758,18 @@
       "prompt_more_than_272k_input": "0.0000002",
       "completion_more_than_272k_input": "0.0000009",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125"
+      "input_cache_write": "0.000000125",
+      "input_cache_read_more_than_272k_input": "0.00000002"
      },
-     "fast_service_tier_pricing": {},
+     "fast_service_tier_pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000024",
+      "prompt_more_than_272k_input": "0.0000008",
+      "completion_more_than_272k_input": "0.0000036",
+      "input_cache_read": "0.00000004",
+      "input_cache_write": "0.0000005",
+      "input_cache_read_more_than_272k_input": "0.00000008"
+     },
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -18782,7 +18779,9 @@
       "input_cache_read": "0.00000002",
       "input_cache_write": "0.00000025",
       "prompt_more_than_272k_input": "0.0000004",
-      "completion_more_than_272k_input": "0.0000018"
+      "completion_more_than_272k_input": "0.0000018",
+      "input_cache_write_more_than_272k": "0.0000005",
+      "input_cache_read_more_than_272k_input": "0.00000004"
      }
     },
     "top_provider": {
@@ -18988,7 +18987,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.0000002",
      "input_cache_write": "0.0000025",
-     "input_cache_read_more_than_272k_input": "0.0000004",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19009,8 +19007,7 @@
       "prompt": "0.000001",
       "completion": "0.000006",
       "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
+      "input_cache_write": "0.00000125"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000001",
@@ -19018,18 +19015,9 @@
       "prompt_more_than_272k_input": "0.000002",
       "completion_more_than_272k_input": "0.000009",
       "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
+      "input_cache_write": "0.00000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000024",
-      "prompt_more_than_272k_input": "0.000008",
-      "completion_more_than_272k_input": "0.000036",
-      "input_cache_read": "0.0000004",
-      "input_cache_write": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000008"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19037,9 +19025,7 @@
       "prompt": "0.000002",
       "completion": "0.000012",
       "input_cache_read": "0.0000002",
-      "input_cache_read_more_than_272k_input": "0.0000004",
       "input_cache_write": "0.0000025",
-      "input_cache_write_more_than_272k": "0.000005",
       "prompt_more_than_272k_input": "0.000004",
       "completion_more_than_272k_input": "0.000018"
      }
@@ -20700,7 +20686,10 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.00000750",
+      "completion": "0.00003000"
+     },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -20768,13 +20757,13 @@
     "pricing": {
      "prompt": "0.000002",
      "completion": "0.000008",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.0000005",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -20802,11 +20791,7 @@
       "completion": "0.000004",
       "input_cache_read": "0.00000025"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000035",
-      "completion": "0.000014",
-      "input_cache_read": "0.000000875"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -26749,7 +26734,6 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "1:1",
         "3:4",
@@ -26766,24 +26750,25 @@
         "9:20",
         "auto"
        ],
-       "default": "1:1"
+       "default": "1:1",
+       "dataType": "string"
       }
      },
      "aspect_ratio": {},
      "image_response_format": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "b64_json"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "n": {
       "inputFormat": {
-       "dataType": "number",
-       "min": 1,
        "max": 4,
-       "default": 4
+       "min": 1,
+       "default": 4,
+       "dataType": "number"
       }
      },
      "prompt": {
@@ -26794,12 +26779,12 @@
      },
      "size": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "1K",
         "2K"
        ],
-       "default": "1K"
+       "default": "1K",
+       "dataType": "string"
       }
      }
     }

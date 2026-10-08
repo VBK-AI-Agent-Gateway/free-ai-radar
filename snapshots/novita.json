@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T15:42:59Z",
+ "fetched_at": "2026-10-08T18:49:12Z",
  "url": "https://api.novita.ai/v3/openai/models",
- "hash": "3fe6d2fb8f723f18ebed65484c937e83b290b9649c4cdfa6335bcd958d0b208d",
+ "hash": "b1a36393c3bb3cca662c3be11290308658f3e56a661e4de789b0e8a45e9fa8e5",
  "payload": {
   "data": [
    {
@@ -1040,64 +1040,6 @@
      "text",
      "image",
      "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1787550870,
-    "id": "deepseek/deepseek-v4-flash-vision-exp",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 4400,
-    "output_token_price_per_m": 13200,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 4400,
-      "price_per_m": 4400,
-      "origin_price_per_m_decimal": "0.44",
-      "price_per_m_decimal": "0.44"
-     },
-     "completion": {
-      "origin_price_per_m": 13200,
-      "price_per_m": 13200,
-      "origin_price_per_m_decimal": "1.32",
-      "price_per_m_decimal": "1.32"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 280,
-      "price_per_m": 280,
-      "origin_price_per_m_decimal": "0.028",
-      "price_per_m_decimal": "0.028"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "deepseek/deepseek-v4-flash-vision-exp",
-    "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of DeepSeek V4 Flash 0731(opens in new tab) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents, reasoning, and world knowledge. It is a sparse mixture-of-experts model with 13B active parameters out of 284B total.\n\nIt is suited for document and chart understanding, visual question answering, and multimodal agent workflows that interleave text and images.",
-    "tags": [],
-    "context_size": 1048576,
-    "status": 1,
-    "display_name": "DeepSeek V4 Flash Vision Exp",
-    "model_type": "chat",
-    "max_output_tokens": 393216,
-    "features": [
-     "serverless",
-     "function-calling",
-     "structured-outputs",
-     "reasoning"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic",
-     "responses"
-    ],
-    "input_modalities": [
-     "text",
-     "image"
     ],
     "output_modalities": [
      "text"
@@ -2434,64 +2376,6 @@
     ]
    },
    {
-    "created": 1775118243,
-    "id": "zai-org/glm-5v-turbo",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 12000,
-    "output_token_price_per_m": 40000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 12000,
-      "price_per_m": 12000,
-      "origin_price_per_m_decimal": "1.2",
-      "price_per_m_decimal": "1.2"
-     },
-     "completion": {
-      "origin_price_per_m": 40000,
-      "price_per_m": 40000,
-      "origin_price_per_m_decimal": "4",
-      "price_per_m_decimal": "4"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 2400,
-      "price_per_m": 2400,
-      "origin_price_per_m_decimal": "0.24",
-      "price_per_m_decimal": "0.24"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "zai-org/glm-5v-turbo",
-    "description": "GLM-5V-Turbo is Z.AI’s first multimodal coding foundation model, built for vision-based coding tasks. It can natively process multimodal inputs such as images, video, and text, while also excelling at long-horizon planning, complex coding, and action execution. Deeply optimized for agent workflows, it works seamlessly with agents such as Claude Code and OpenClaw to complete the full loop of “understand the environment → plan actions → execute tasks”.",
-    "tags": [],
-    "context_size": 204800,
-    "status": 1,
-    "display_name": "GLM-5V-Turbo",
-    "model_type": "chat",
-    "max_output_tokens": 131072,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1775113502,
     "id": "google/gemma-4-26b-a4b-it",
     "object": "model",
@@ -2592,61 +2476,6 @@
     ]
    },
    {
-    "created": 1774514974,
-    "id": "zai-org/glm-5-turbo",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 12000,
-    "output_token_price_per_m": 40000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 12000,
-      "price_per_m": 12000,
-      "origin_price_per_m_decimal": "1.2",
-      "price_per_m_decimal": "1.2"
-     },
-     "completion": {
-      "origin_price_per_m": 40000,
-      "price_per_m": 40000,
-      "origin_price_per_m_decimal": "4",
-      "price_per_m_decimal": "4"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 2400,
-      "price_per_m": 2400,
-      "origin_price_per_m_decimal": "0.24",
-      "price_per_m_decimal": "0.24"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "zai-org/glm-5-turbo",
-    "description": "GLM-5 is an open-source foundation model engineered for complex system engineering and long-horizon Agent tasks, delivering reliable productivity for top-tier programmers. Transcending the boundary from \"writing code\" to \"building systems,\" it moves beyond traditional snippet generation to offer senior-architect-level planning and execution capabilities. By rejecting the \"frontend-heavy, logic-light\" approach, GLM-5 demonstrates exceptional reasoning and self-healing abilities in backend refactoring, complex algorithm implementation, and deep debugging—autonomously analyzing logs and iteratively fixing persistent bugs until the system runs. As the first open-source model featuring Opus-class style and system engineering depth, GLM-5 provides extreme logic density alongside the freedom of local deployment and high cost-effectiveness, making it the ideal choice for large-scale backend development and automated Agent construction.",
-    "tags": [],
-    "context_size": 202800,
-    "status": 1,
-    "display_name": "GLM-5-Turbo",
-    "model_type": "chat",
-    "max_output_tokens": 131072,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1773739876,
     "id": "minimax/minimax-m2.7",
     "object": "model",
@@ -2695,62 +2524,6 @@
      "chat/completions",
      "anthropic",
      "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1772422895,
-    "id": "minimax/minimax-m2.5-highspeed",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 6000,
-    "output_token_price_per_m": 24000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 6000,
-      "price_per_m": 6000,
-      "origin_price_per_m_decimal": "0.6",
-      "price_per_m_decimal": "0.6"
-     },
-     "completion": {
-      "origin_price_per_m": 24000,
-      "price_per_m": 24000,
-      "origin_price_per_m_decimal": "2.4",
-      "price_per_m_decimal": "2.4"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 300,
-      "price_per_m": 300,
-      "origin_price_per_m_decimal": "0.03",
-      "price_per_m_decimal": "0.03"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "minimax/minimax-m2.5-highspeed",
-    "description": "MiniMax M2.5-highspeed is an accelerated SOTA model engineered for scenarios demanding extreme efficiency. It perfectly inherits the core intelligence and robust digital workspace capabilities of the standard M2.5—including its 80.2% score on SWE-Bench Verified, seamless manipulation of Office documents, and versatility in cross-software collaboration. With zero compromise on reasoning precision or logical depth, the Highspeed version delivers ultra-low latency inference through rigorous engineering optimization. This means you get more than just an intelligent assistant capable of planning and self-optimization; you gain a \"high-velocity engine\" that responds to high-frequency calls and processes complex document streams in near real-time, making it ideal for latency-sensitive interactive applications and large-scale automated pipelines.",
-    "tags": [],
-    "context_size": 204800,
-    "status": 1,
-    "display_name": "MiniMax M2.5 Highspeed",
-    "model_type": "chat",
-    "max_output_tokens": 131100,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic"
     ],
     "input_modalities": [
      "text"
@@ -2964,81 +2737,6 @@
     ]
    },
    {
-    "created": 1771234162,
-    "id": "qwen/qwen3.5-plus",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 0,
-    "output_token_price_per_m": 0,
-    "is_tiered_billing": true,
-    "tiered_billing_configs": [
-     {
-      "min_tokens": 1,
-      "max_tokens": 256000,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 4000,
-        "price_per_m": 4000,
-        "origin_price_per_m_decimal": "0.4",
-        "price_per_m_decimal": "0.4"
-       },
-       "completion": {
-        "origin_price_per_m": 24000,
-        "price_per_m": 24000,
-        "origin_price_per_m_decimal": "2.4",
-        "price_per_m_decimal": "2.4"
-       }
-      }
-     },
-     {
-      "min_tokens": 256000,
-      "max_tokens": 1000000,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 5000,
-        "price_per_m": 5000,
-        "origin_price_per_m_decimal": "0.5",
-        "price_per_m_decimal": "0.5"
-       },
-       "completion": {
-        "origin_price_per_m": 30000,
-        "price_per_m": 30000,
-        "origin_price_per_m_decimal": "3",
-        "price_per_m_decimal": "3"
-       }
-      }
-     }
-    ],
-    "title": "qwen/qwen3.5-plus",
-    "description": "The Qwen3.5 native vision-language series Plus models are based on a hybrid architecture design that integrates linear attention mechanisms with sparse Mixture-of-Experts (MoE), achieving higher inference efficiency. Across various task evaluations, the 3.5 series demonstrates exceptional performance comparable to current top-tier frontier models, marking a leap forward in both plain text and multimodal capabilities compared to the 3 series.",
-    "tags": [],
-    "context_size": 1000000,
-    "status": 1,
-    "display_name": "Qwen3.5-Plus",
-    "model_type": "chat",
-    "max_output_tokens": 65536,
-    "features": [
-     "serverless",
-     "function-calling",
-     "structured-outputs",
-     "reasoning"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1770874862,
     "id": "minimax/minimax-m2.5",
     "object": "model",
@@ -3137,55 +2835,6 @@
      "function-calling",
      "structured-outputs",
      "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1770138288,
-    "id": "qwen/qwen3-coder-next",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 2000,
-    "output_token_price_per_m": 15000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 2000,
-      "price_per_m": 2000,
-      "origin_price_per_m_decimal": "0.2",
-      "price_per_m_decimal": "0.2"
-     },
-     "completion": {
-      "origin_price_per_m": 15000,
-      "price_per_m": 15000,
-      "origin_price_per_m_decimal": "1.5",
-      "price_per_m_decimal": "1.5"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-coder-next",
-    "description": "Qwen3-Coder-Next is an open-weight language model specifically engineered for coding agents and local development environments. This highly efficient model delivers exceptional performance with only 3B activated parameters out of 80B total parameters, achieving results comparable to models with 10-20x more active parameters while maintaining remarkable cost-effectiveness for agent deployment. Through its sophisticated training methodology, Qwen3-Coder-Next excels in advanced agentic capabilities including long-horizon reasoning, complex tool usage, and robust recovery from execution failures, ensuring reliable performance across dynamic coding tasks. The model's versatility is further enhanced by its 256k context length and adaptability to various scaffold templates, enabling seamless integration with diverse CLI/IDE platforms such as Claude Code, Qwen Code, Qoder, Kilo, Trae, and Cline, making it an ideal solution for comprehensive development environments.",
-    "tags": [],
-    "context_size": 262144,
-    "status": 1,
-    "display_name": "Qwen3 Coder Next",
-    "model_type": "chat",
-    "max_output_tokens": 65536,
-    "features": [
-     "function-calling",
-     "structured-outputs",
      "serverless"
     ],
     "endpoints": [
@@ -3417,61 +3066,6 @@
     ]
    },
    {
-    "created": 1766485136,
-    "id": "minimax/minimax-m2.1",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3000,
-    "output_token_price_per_m": 12000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3000,
-      "price_per_m": 3000,
-      "origin_price_per_m_decimal": "0.3",
-      "price_per_m_decimal": "0.3"
-     },
-     "completion": {
-      "origin_price_per_m": 12000,
-      "price_per_m": 12000,
-      "origin_price_per_m_decimal": "1.2",
-      "price_per_m_decimal": "1.2"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 300,
-      "price_per_m": 300,
-      "origin_price_per_m_decimal": "0.03",
-      "price_per_m_decimal": "0.03"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "minimax/minimax-m2.1",
-    "description": "MiniMax M2.1 is a cutting-edge AI model designed to revolutionize how developers build software. With enhanced multi-language programming support, it excels in generating high-quality code across popular languages like Rust, Java, Golang, C++, Kotlin, Objective-C, TypeScript, and JavaScript.\n\nKey improvements include:\n\n22% faster response times and 30% lower token consumption for efficient workflows.\nSeamless integration with leading development frameworks (Claude Code, Droid Factory AI, BlackBox, etc.).\nFull-stack development capabilities, from mobile (Android/iOS) to web and 3D interactive prototyping.\nOptimized performance-to-cost ratio, making AI-assisted development more accessible.\nWhether you're a software engineer, app developer, or tech innovator, M2.1 empowers smarter coding with industry-leading AI.",
-    "tags": [],
-    "context_size": 204800,
-    "status": 1,
-    "display_name": "MiniMax M2.1",
-    "model_type": "chat",
-    "max_output_tokens": 131072,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1766422299,
     "id": "zai-org/glm-4.7",
     "object": "model",
@@ -3632,62 +3226,6 @@
     ]
    },
    {
-    "created": 1761536024,
-    "id": "minimax/minimax-m2",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3000,
-    "output_token_price_per_m": 12000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3000,
-      "price_per_m": 3000,
-      "origin_price_per_m_decimal": "0.3",
-      "price_per_m_decimal": "0.3"
-     },
-     "completion": {
-      "origin_price_per_m": 12000,
-      "price_per_m": 12000,
-      "origin_price_per_m_decimal": "1.2",
-      "price_per_m_decimal": "1.2"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 300,
-      "price_per_m": 300,
-      "origin_price_per_m_decimal": "0.03",
-      "price_per_m_decimal": "0.03"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "minimax/minimax-m2",
-    "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning, tool use, and multi-step task execution while maintaining low latency and deployment efficiency.\n\nThe model excels in code generation, multi-file editing, compile-run-fix loops, and test-validated repair, showing strong results on SWE-Bench Verified, Multi-SWE-Bench, and Terminal-Bench. It also performs competitively in agentic evaluations such as BrowseComp and GAIA, effectively handling long-horizon planning, retrieval, and recovery from execution errors.\n\nBenchmarked by Artificial Analysis, MiniMax-M2 ranks among the top open-source models for composite intelligence, spanning mathematics, science, and instruction-following. Its small activation footprint enables fast inference, high concurrency, and improved unit economics, making it well-suited for large-scale agents, d",
-    "tags": [],
-    "context_size": 204800,
-    "status": 1,
-    "display_name": "MiniMax M2",
-    "model_type": "chat",
-    "max_output_tokens": 131072,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1761138629,
     "id": "paddlepaddle/paddleocr-vl",
     "object": "model",
@@ -3726,155 +3264,6 @@
     "input_modalities": [
      "text",
      "image"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1758695177,
-    "id": "qwen/qwen3-vl-235b-a22b-thinking",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 9800,
-    "output_token_price_per_m": 39500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 9800,
-      "price_per_m": 9800,
-      "origin_price_per_m_decimal": "0.98",
-      "price_per_m_decimal": "0.98"
-     },
-     "completion": {
-      "origin_price_per_m": 39500,
-      "price_per_m": 39500,
-      "origin_price_per_m_decimal": "3.95",
-      "price_per_m_decimal": "3.95"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-vl-235b-a22b-thinking",
-    "description": "",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "Qwen3 VL 235B A22B Thinking",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "function-calling",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1776757830,
-    "id": "qwen/qwen3.6-plus",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 0,
-    "output_token_price_per_m": 0,
-    "is_tiered_billing": true,
-    "tiered_billing_configs": [
-     {
-      "min_tokens": 1,
-      "max_tokens": 262144,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 5000,
-        "price_per_m": 5000,
-        "origin_price_per_m_decimal": "0.5",
-        "price_per_m_decimal": "0.5"
-       },
-       "completion": {
-        "origin_price_per_m": 30000,
-        "price_per_m": 30000,
-        "origin_price_per_m_decimal": "3",
-        "price_per_m_decimal": "3"
-       },
-       "input_cache_read": {
-        "origin_price_per_m": 500,
-        "price_per_m": 500,
-        "origin_price_per_m_decimal": "0.05",
-        "price_per_m_decimal": "0.05"
-       },
-       "input_cache_write": {
-        "origin_price_per_m": 6250,
-        "price_per_m": 6250,
-        "origin_price_per_m_decimal": "0.625",
-        "price_per_m_decimal": "0.625"
-       }
-      }
-     },
-     {
-      "min_tokens": 262144,
-      "max_tokens": 1000000,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 20000,
-        "price_per_m": 20000,
-        "origin_price_per_m_decimal": "2",
-        "price_per_m_decimal": "2"
-       },
-       "completion": {
-        "origin_price_per_m": 60000,
-        "price_per_m": 60000,
-        "origin_price_per_m_decimal": "6",
-        "price_per_m_decimal": "6"
-       },
-       "input_cache_read": {
-        "origin_price_per_m": 2000,
-        "price_per_m": 2000,
-        "origin_price_per_m_decimal": "0.2",
-        "price_per_m_decimal": "0.2"
-       },
-       "input_cache_write": {
-        "origin_price_per_m": 25000,
-        "price_per_m": 25000,
-        "origin_price_per_m_decimal": "2.5",
-        "price_per_m_decimal": "2.5"
-       }
-      }
-     }
-    ],
-    "title": "qwen/qwen3.6-plus",
-    "description": "The Qwen3.6 native vision-language Plus series models demonstrate exceptional performance on par with the current state-of-the-art models, with a significant improvement in overall results compared to the 3.5 series. The models have been markedly enhanced in code-related capabilities such as agentic coding, front-end programming, and Vibe coding, as well as in multi-modal general object recognition, OCR, and object localization.",
-    "tags": [],
-    "context_size": 1000000,
-    "status": 1,
-    "display_name": "Qwen3.6-Plus",
-    "model_type": "chat",
-    "max_output_tokens": 65536,
-    "features": [
-     "serverless",
-     "function-calling",
-     "structured-outputs",
-     "reasoning"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
     ],
     "output_modalities": [
      "text"
@@ -4048,213 +3437,6 @@
     ]
    },
    {
-    "created": 1757534155,
-    "id": "qwen/qwen3-next-80b-a3b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 1500,
-    "output_token_price_per_m": 15000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 1500,
-      "price_per_m": 1500,
-      "origin_price_per_m_decimal": "0.15",
-      "price_per_m_decimal": "0.15"
-     },
-     "completion": {
-      "origin_price_per_m": 15000,
-      "price_per_m": 15000,
-      "origin_price_per_m_decimal": "1.5",
-      "price_per_m_decimal": "1.5"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-next-80b-a3b-instruct",
-    "description": "Qwen3-Next uses a highly sparse MoE design: 80B total parameters, but only ~3B activated per inference step. Experiments show that, with global load balancing, increasing total expert parameters while keeping activated experts fixed steadily reduces training loss.Compared to Qwen3’s MoE (128 total experts, 8 routed), Qwen3-Next expands to 512 total experts, combining 10 routed experts + 1 shared expert — maximizing resource usage without hurting performance.\nThe Qwen3-Next-80B-A3B-Instruct performs comparably to our flagship model Qwen3-235B-A22B-Instruct-2507, and shows clear advantages in tasks requiring ultra-long context (up to 256K tokens).\n",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "Qwen3 Next 80B A3B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1758695214,
-    "id": "qwen/qwen3-vl-235b-a22b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3000,
-    "output_token_price_per_m": 15000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3000,
-      "price_per_m": 3000,
-      "origin_price_per_m_decimal": "0.3",
-      "price_per_m_decimal": "0.3"
-     },
-     "completion": {
-      "origin_price_per_m": 15000,
-      "price_per_m": 15000,
-      "origin_price_per_m_decimal": "1.5",
-      "price_per_m_decimal": "1.5"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-vl-235b-a22b-instruct",
-    "description": "",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "Qwen3 VL 235B A22B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "batch-api"
-    ],
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1758682246,
-    "id": "qwen/qwen3-max",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 21100,
-    "output_token_price_per_m": 84500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 21100,
-      "price_per_m": 21100,
-      "origin_price_per_m_decimal": "2.11",
-      "price_per_m_decimal": "2.11"
-     },
-     "completion": {
-      "origin_price_per_m": 84500,
-      "price_per_m": 84500,
-      "origin_price_per_m_decimal": "8.45",
-      "price_per_m_decimal": "8.45"
-     }
-    },
-    "is_tiered_billing": true,
-    "tiered_billing_configs": [
-     {
-      "min_tokens": 1,
-      "max_tokens": 32768,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 8450,
-        "price_per_m": 8450,
-        "origin_price_per_m_decimal": "0.845",
-        "price_per_m_decimal": "0.845"
-       },
-       "completion": {
-        "origin_price_per_m": 33800,
-        "price_per_m": 33800,
-        "origin_price_per_m_decimal": "3.38",
-        "price_per_m_decimal": "3.38"
-       }
-      }
-     },
-     {
-      "min_tokens": 32768,
-      "max_tokens": 131072,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 14000,
-        "price_per_m": 14000,
-        "origin_price_per_m_decimal": "1.4",
-        "price_per_m_decimal": "1.4"
-       },
-       "completion": {
-        "origin_price_per_m": 56400,
-        "price_per_m": 56400,
-        "origin_price_per_m_decimal": "5.64",
-        "price_per_m_decimal": "5.64"
-       }
-      }
-     },
-     {
-      "min_tokens": 131072,
-      "max_tokens": 258048,
-      "pricing": {
-       "prompt": {
-        "origin_price_per_m": 21100,
-        "price_per_m": 21100,
-        "origin_price_per_m_decimal": "2.11",
-        "price_per_m_decimal": "2.11"
-       },
-       "completion": {
-        "origin_price_per_m": 84500,
-        "price_per_m": 84500,
-        "origin_price_per_m_decimal": "8.45",
-        "price_per_m_decimal": "8.45"
-       }
-      }
-     }
-    ],
-    "title": "qwen/qwen3-max",
-    "description": "Qwen/qwen3-max, Enhanced with specialized upgrades in agent programming and tool calling. This official release achieves domain SOTA performance, supporting more complex agent scenarios.",
-    "tags": [],
-    "context_size": 262144,
-    "status": 1,
-    "display_name": "Qwen3 Max",
-    "model_type": "chat",
-    "max_output_tokens": 65536,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1757052991,
     "id": "moonshotai/kimi-k2-0905",
     "object": "model",
@@ -4295,104 +3477,6 @@
     "endpoints": [
      "chat/completions",
      "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1753233789,
-    "id": "qwen/qwen3-coder-480b-a35b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3800,
-    "output_token_price_per_m": 15500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3800,
-      "price_per_m": 3800,
-      "origin_price_per_m_decimal": "0.38",
-      "price_per_m_decimal": "0.38"
-     },
-     "completion": {
-      "origin_price_per_m": 15500,
-      "price_per_m": 15500,
-      "origin_price_per_m_decimal": "1.55",
-      "price_per_m_decimal": "1.55"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-coder-480b-a35b-instruct",
-    "description": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks. With native 256K context (extendable to 1M tokens via YaRN), it excels at repository-scale analysis and features specialized function-call support for platforms like Qwen Code and CLINE—making it ideal for complex, real-world development workflows.",
-    "tags": [],
-    "context_size": 262144,
-    "status": 1,
-    "display_name": "Qwen3 Coder 480B A35B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 65536,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1759991077,
-    "id": "qwen/qwen3-coder-30b-a3b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 700,
-    "output_token_price_per_m": 2700,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 700,
-      "price_per_m": 700,
-      "origin_price_per_m_decimal": "0.07",
-      "price_per_m_decimal": "0.07"
-     },
-     "completion": {
-      "origin_price_per_m": 2700,
-      "price_per_m": 2700,
-      "origin_price_per_m_decimal": "0.27",
-      "price_per_m_decimal": "0.27"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-coder-30b-a3b-instruct",
-    "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the Qwen3 architecture, it supports a native context length of 256K tokens (extendable to 1M with Yarn) and performs strongly in tasks involving function calls, browser use, and structured code completion.\n\nThis model is optimized for instruction-following without “thinking mode”, and integrates well with OpenAI-compatible tool-use formats.",
-    "tags": [],
-    "context_size": 160000,
-    "status": 1,
-    "display_name": "Qwen3 Coder 30B A3B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
     ],
     "input_modalities": [
      "text"
@@ -4492,56 +3576,6 @@
     ],
     "endpoints": [
      "chat/completions",
-     "anthropic"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1753443150,
-    "id": "qwen/qwen3-235b-a22b-thinking-2507",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3000,
-    "output_token_price_per_m": 30000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3000,
-      "price_per_m": 3000,
-      "origin_price_per_m_decimal": "0.3",
-      "price_per_m_decimal": "0.3"
-     },
-     "completion": {
-      "origin_price_per_m": 30000,
-      "price_per_m": 30000,
-      "origin_price_per_m_decimal": "3",
-      "price_per_m_decimal": "3"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-235b-a22b-thinking-2507",
-    "description": "The Qwen3-235B-A22B-Thinking-2507 represents the newest thinking-enabled model in the Qwen3 series, delivering groundbreaking improvements in reasoning capabilities. This advanced AI demonstrates significantly enhanced performance across logical reasoning, mathematics, scientific analysis, coding tasks, and academic benchmarks - matching or even surpassing human-expert level performance to achieve state-of-the-art results among open-source thinking models. Beyond its exceptional reasoning skills, the model shows markedly better general capabilities including more precise instruction following, sophisticated tool usage, highly natural text generation, and improved alignment with human preferences. It also features enhanced 256K long-context understanding, allowing it to maintain coherence and depth across extended documents and complex discussions.",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "Qwen3 235B A22B Thinking 2507",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "function-calling",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions",
      "anthropic"
     ],
     "input_modalities": [
@@ -4751,105 +3785,6 @@
     ]
    },
    {
-    "created": 1754438961,
-    "id": "openai/gpt-oss-20b",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 400,
-    "output_token_price_per_m": 1500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 400,
-      "price_per_m": 400,
-      "origin_price_per_m_decimal": "0.04",
-      "price_per_m_decimal": "0.04"
-     },
-     "completion": {
-      "origin_price_per_m": 1500,
-      "price_per_m": 1500,
-      "origin_price_per_m_decimal": "0.15",
-      "price_per_m_decimal": "0.15"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "openai/gpt-oss-20b",
-    "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference and deployability on consumer or single-GPU hardware. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "OpenAI GPT OSS 20B",
-    "model_type": "chat",
-    "max_output_tokens": 32768,
-    "features": [
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1753176794,
-    "id": "qwen/qwen3-235b-a22b-instruct-2507",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 900,
-    "output_token_price_per_m": 5800,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 900,
-      "price_per_m": 900,
-      "origin_price_per_m_decimal": "0.09",
-      "price_per_m_decimal": "0.09"
-     },
-     "completion": {
-      "origin_price_per_m": 5800,
-      "price_per_m": 5800,
-      "origin_price_per_m_decimal": "0.58",
-      "price_per_m_decimal": "0.58"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-235b-a22b-instruct-2507",
-    "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following, logical reasoning, math, code, and tool usage. The model supports a native 262K context length and does not implement \"thinking mode\" (<think> blocks).\nCompared to its base variant, this version delivers significant gains in knowledge coverage, long-context reasoning, coding benchmarks, and alignment with open-ended tasks. It is particularly strong on multilingual understanding, math reasoning (e.g., AIME, HMMT), and alignment evaluations like Arena-Hard and WritingBench.",
-    "tags": [],
-    "context_size": 131072,
-    "status": 1,
-    "display_name": "Qwen3 235B A22B Instruct 2507",
-    "model_type": "chat",
-    "max_output_tokens": 16384,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1733560109,
     "id": "meta-llama/llama-3.3-70b-instruct",
     "object": "model",
@@ -4884,102 +3819,6 @@
     "max_output_tokens": 12288,
     "features": [
      "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1728962258,
-    "id": "qwen/qwen-2.5-72b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 3800,
-    "output_token_price_per_m": 4000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 3800,
-      "price_per_m": 3800,
-      "origin_price_per_m_decimal": "0.38",
-      "price_per_m_decimal": "0.38"
-     },
-     "completion": {
-      "origin_price_per_m": 4000,
-      "price_per_m": 4000,
-      "origin_price_per_m_decimal": "0.4",
-      "price_per_m_decimal": "0.4"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen-2.5-72b-instruct",
-    "description": "Qwen2.5 is the latest series of Qwen large language models. For Qwen2.5, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters.",
-    "tags": [],
-    "context_size": 32000,
-    "status": 1,
-    "display_name": "Qwen2.5 72B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 8192,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1722337858,
-    "id": "mistralai/mistral-nemo",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 400,
-    "output_token_price_per_m": 1700,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 400,
-      "price_per_m": 400,
-      "origin_price_per_m_decimal": "0.04",
-      "price_per_m_decimal": "0.04"
-     },
-     "completion": {
-      "origin_price_per_m": 1700,
-      "price_per_m": 1700,
-      "origin_price_per_m_decimal": "0.17",
-      "price_per_m_decimal": "0.17"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "mistralai/mistral-nemo",
-    "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA. The model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi. It supports function calling and is released under the Apache 2.0 license.",
-    "tags": [],
-    "context_size": 60288,
-    "status": 1,
-    "display_name": "Mistral Nemo",
-    "model_type": "chat",
-    "max_output_tokens": 16000,
-    "features": [
      "structured-outputs",
      "serverless"
     ],
@@ -5192,55 +4031,6 @@
     ]
    },
    {
-    "created": 1745897024,
-    "id": "qwen/qwen3-235b-a22b-fp8",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 2000,
-    "output_token_price_per_m": 8000,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 2000,
-      "price_per_m": 2000,
-      "origin_price_per_m_decimal": "0.2",
-      "price_per_m_decimal": "0.2"
-     },
-     "completion": {
-      "origin_price_per_m": 8000,
-      "price_per_m": 8000,
-      "origin_price_per_m_decimal": "0.8",
-      "price_per_m_decimal": "0.8"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-235b-a22b-fp8",
-    "description": "Achieves effective integration of inference and non-inference modes, enabling seamless switching between modes during conversations. The model's inference capability significantly surpasses that of QwQ, and its general capabilities exceed those of Qwen2.5-72B-Instruct, reaching the state-of-the-art (SOTA) level among models of the same scale.",
-    "tags": [],
-    "context_size": 40960,
-    "status": 1,
-    "display_name": "Qwen3 235B A22B",
-    "model_type": "chat",
-    "max_output_tokens": 20000,
-    "features": [
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1743906990,
     "id": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
     "object": "model",
@@ -5432,54 +4222,6 @@
     ]
    },
    {
-    "created": 1732791714,
-    "id": "sao10k/l3-8b-lunaris",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 500,
-    "output_token_price_per_m": 500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 500,
-      "price_per_m": 500,
-      "origin_price_per_m_decimal": "0.05",
-      "price_per_m_decimal": "0.05"
-     },
-     "completion": {
-      "origin_price_per_m": 500,
-      "price_per_m": 500,
-      "origin_price_per_m_decimal": "0.05",
-      "price_per_m_decimal": "0.05"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "sao10k/l3-8b-lunaris",
-    "description": "A generalist / roleplaying model merge based on Llama 3.",
-    "tags": [],
-    "context_size": 8192,
-    "status": 1,
-    "display_name": "Llama 3 8B Lunaris",
-    "model_type": "chat",
-    "max_output_tokens": 8192,
-    "features": [
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1755106514,
     "id": "baichuan/baichuan-m2-32b",
     "object": "model",
@@ -5518,55 +4260,6 @@
     ],
     "input_modalities": [
      "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1751258620,
-    "id": "baidu/ernie-4.5-vl-424b-a47b",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 4200,
-    "output_token_price_per_m": 12500,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 4200,
-      "price_per_m": 4200,
-      "origin_price_per_m_decimal": "0.42",
-      "price_per_m_decimal": "0.42"
-     },
-     "completion": {
-      "origin_price_per_m": 12500,
-      "price_per_m": 12500,
-      "origin_price_per_m_decimal": "1.25",
-      "price_per_m_decimal": "1.25"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "baidu/ernie-4.5-vl-424b-a47b",
-    "description": "The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts (MoE) architecture, representing an innovative multimodal heterogeneous model structure. It achieves cross-modal knowledge fusion through a parameter-sharing mechanism while retaining dedicated parameter spaces for individual modalities. This architecture is particularly well-suited for the continuous pre-training paradigm from large language models to multimodal models, significantly enhancing multimodal understanding capabilities while maintaining or even improving performance in text-based tasks. The models are efficiently trained, inferred, and deployed using the PaddlePaddle deep learning framework. During the pre-training of large language models, the Model FLOPs Utilization (MFU) reaches 47%. Experimental results demonstrate that this series of models achieves state-of-the-art (SOTA) performance across multiple text and multimodal benchmarks, with particularly outstanding results in instruction following, world knowledge memorizatio",
-    "tags": [],
-    "context_size": 123000,
-    "status": 1,
-    "display_name": "ERNIE 4.5 VL 424B A47B",
-    "model_type": "chat",
-    "max_output_tokens": 16000,
-    "features": [
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text",
-     "image"
     ],
     "output_modalities": [
      "text"
@@ -6075,8 +4768,28 @@
     "permission": null,
     "root": "",
     "parent": "",
-    "input_token_price_per_m": 0,
-    "output_token_price_per_m": 0,
+    "input_token_price_per_m": 750,
+    "output_token_price_per_m": 2200,
+    "pricing": {
+     "prompt": {
+      "origin_price_per_m": 750,
+      "price_per_m": 750,
+      "origin_price_per_m_decimal": "0.075",
+      "price_per_m_decimal": "0.075"
+     },
+     "completion": {
+      "origin_price_per_m": 2200,
+      "price_per_m": 2200,
+      "origin_price_per_m_decimal": "0.22",
+      "price_per_m_decimal": "0.22"
+     },
+     "input_cache_read": {
+      "origin_price_per_m": 150,
+      "price_per_m": 150,
+      "origin_price_per_m_decimal": "0.015",
+      "price_per_m_decimal": "0.015"
+     }
+    },
     "is_tiered_billing": false,
     "title": "inclusionai/ling-3.0-flash-sante",
     "description": "Ling-3.0-Flash-Sante is a Mixture-of-Experts (MoE) model with enhanced capabilities across health and medicine. Built on Ling-3.0-Flash, it has 124 billion total parameters and activates approximately 5.1 billion parameters per token. The model excels in medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining strong general capabilities in reasoning, coding, and agentic tasks.",
@@ -6348,112 +5061,6 @@
     ]
    },
    {
-    "created": 1758695025,
-    "id": "qwen/qwen3-omni-30b-a3b-instruct",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 2500,
-    "output_token_price_per_m": 9700,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 2500,
-      "price_per_m": 2500,
-      "origin_price_per_m_decimal": "0.25",
-      "price_per_m_decimal": "0.25"
-     },
-     "completion": {
-      "origin_price_per_m": 9700,
-      "price_per_m": 9700,
-      "origin_price_per_m_decimal": "0.97",
-      "price_per_m_decimal": "0.97"
-     },
-     "multimodal_input": [
-      {
-       "modals": [
-        "text"
-       ],
-       "input_token_base_price": 2500,
-       "input_token_discount_price": 2500
-      },
-      {
-       "modals": [
-        "audio"
-       ],
-       "input_token_base_price": 22000,
-       "input_token_discount_price": 22000
-      },
-      {
-       "modals": [
-        "image"
-       ],
-       "input_token_base_price": 4600,
-       "input_token_discount_price": 4600
-      },
-      {
-       "modals": [
-        "video"
-       ],
-       "input_token_base_price": 4600,
-       "input_token_discount_price": 4600
-      },
-      {
-       "modals": [
-        "image",
-        "video"
-       ],
-       "input_token_base_price": 4600,
-       "input_token_discount_price": 4600
-      }
-     ],
-     "multimodal_output": [
-      {
-       "modals": [
-        "text"
-       ],
-       "output_token_base_price": 9700,
-       "output_token_discount_price": 9700
-      },
-      {
-       "modals": [
-        "audio"
-       ],
-       "output_token_base_price": 17880,
-       "output_token_discount_price": 17880
-      }
-     ]
-    },
-    "is_tiered_billing": false,
-    "title": "qwen/qwen3-omni-30b-a3b-instruct",
-    "description": "The Qwen-Omni model accepts combined inputs of text and a single additional modality (image, audio, or video) to generate responses in text or speech. It offers a variety of human-like voices, supports speech output in multiple languages and dialects, and is suitable for applications such as text creation, visual recognition, and voice assistants",
-    "tags": [],
-    "context_size": 65536,
-    "status": 1,
-    "display_name": "Qwen3 Omni 30B A3B Instruct",
-    "model_type": "chat",
-    "max_output_tokens": 16384,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions"
-    ],
-    "input_modalities": [
-     "text",
-     "video",
-     "audio",
-     "image"
-    ],
-    "output_modalities": [
-     "text",
-     "audio"
-    ]
-   },
-   {
     "created": 1756888269,
     "id": "qwen/qwen-mt-plus",
     "object": "model",
@@ -6548,55 +5155,6 @@
     ]
    },
    {
-    "created": 1744798076,
-    "id": "thudm/glm-4-32b-0414",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 5500,
-    "output_token_price_per_m": 16600,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 5500,
-      "price_per_m": 5500,
-      "origin_price_per_m_decimal": "0.55",
-      "price_per_m_decimal": "0.55"
-     },
-     "completion": {
-      "origin_price_per_m": 16600,
-      "price_per_m": 16600,
-      "origin_price_per_m_decimal": "1.66",
-      "price_per_m_decimal": "1.66"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "thudm/glm-4-32b-0414",
-    "description": "GLM-4-32B-0414 is the latest open-source model in the GLM series, featuring 32 billion parameters. Its performance is comparable to OpenAI's GPT series and DeepSeek's V3/R1 series, while also supporting highly user-friendly local deployment capabilities.\nGLM-4-32B-Base-0414 was pre-trained on 15T of high-quality data, including a large amount of reasoning-type synthetic data, which laid a solid foundation for subsequent reinforcement learning extensions. In the post-training stage, in addition to human preference alignment for dialogue scenarios, the research team enhanced the model’s performance in instruction following, engineering code, and function calling using techniques such as rejection sampling and reinforcement learning, thereby strengthening the atomic capabilities required for agent tasks.\nGLM-4-32B-0414 has achieved strong results in engineering code generation, artifact creation, function calling, search-based question answering, and report generation. On several benchmarks, its performance appr",
-    "tags": [],
-    "context_size": 32000,
-    "status": 1,
-    "display_name": "GLM-4-32B-0414",
-    "model_type": "chat",
-    "max_output_tokens": 32000,
-    "features": [
-     "function-calling",
-     "structured-outputs",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
     "created": 1732609540,
     "id": "meta-llama/llama-3.2-1b-instruct",
     "object": "model",
@@ -6635,55 +5193,6 @@
     "endpoints": [
      "chat/completions",
      "batch-api"
-    ],
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1726742141,
-    "id": "sao10k/l31-70b-euryale-v2.2",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 14800,
-    "output_token_price_per_m": 14800,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 14800,
-      "price_per_m": 14800,
-      "origin_price_per_m_decimal": "1.48",
-      "price_per_m_decimal": "1.48"
-     },
-     "completion": {
-      "origin_price_per_m": 14800,
-      "price_per_m": 14800,
-      "origin_price_per_m_decimal": "1.48",
-      "price_per_m_decimal": "1.48"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "sao10k/l31-70b-euryale-v2.2",
-    "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from Sao10k. It is the successor of Euryale L3 70B v2.1.",
-    "tags": [],
-    "context_size": 8192,
-    "status": 1,
-    "display_name": "Llama 3.1 70B Euryale V2.2",
-    "model_type": "chat",
-    "max_output_tokens": 8192,
-    "features": [
-     "structured-outputs",
-     "reasoning",
-     "serverless"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "completions"
     ],
     "input_modalities": [
      "text"

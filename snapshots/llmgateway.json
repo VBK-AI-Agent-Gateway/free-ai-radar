@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T15:43:00Z",
+ "fetched_at": "2026-10-08T18:49:13Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "1dac0977c951583113d283e6f7d90c8dba5035e47d144e344d326ebfeba97b9a",
+ "hash": "04be1da8550e4ed19f6f74d877f877202bda7285f5cf482813ed011de2cae28e",
  "payload": {
   "data": [
    {
@@ -15351,7 +15351,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, entrim, consensusprotocol, runware, scx-ai-gp, sciforium, luminal",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, consensusprotocol, entrim, runware, scx-ai-gp, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15565,14 +15565,14 @@
       "max_output": 393216
      },
      {
-      "providerId": "entrim",
+      "providerId": "luminal",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
-       "prompt": "0.0000002",
-       "completion": "0.0000006",
+       "prompt": "0.000000135",
+       "completion": "0.00000054",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.000000005",
+       "input_cache_read": "0.0000000027",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -15582,13 +15582,6 @@
       "tools": true,
       "parallelToolCalls": false,
       "reasoning": true,
-      "reasoning_efforts": [
-       "max",
-       "xhigh",
-       "high",
-       "medium",
-       "low"
-      ],
       "stability": "stable"
      },
      {
@@ -15614,6 +15607,33 @@
        "high",
        "max",
        "xhigh"
+      ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "entrim",
+      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "pricing": {
+       "prompt": "0.0000002",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "max",
+       "xhigh",
+       "high",
+       "medium",
+       "low"
       ],
       "stability": "stable"
      },
@@ -15689,26 +15709,6 @@
        "max",
        "xhigh"
       ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "luminal",
-      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "pricing": {
-       "prompt": "0.000000135",
-       "completion": "0.00000054",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000027",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      }
     ],

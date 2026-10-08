@@ -1,8 +1,8 @@
 {
- "at": "2026-10-08T15:43:19Z",
+ "at": "2026-10-08T18:49:32Z",
  "live_count": 5,
  "apply_count": 69,
- "total_free_models": 485,
+ "total_free_models": 484,
  "vendors": [
   {
    "provider": "fastrouter",
@@ -151,14 +151,14 @@
   {
    "provider": "openrouter",
    "name": "openrouter",
-   "free_count": 20,
+   "free_count": 19,
    "sample_models": [
     "inclusionai/ling-3.1-flash",
     "apodex/apodex-1.1-mini:free",
-    "inclusionai/ling-3.0-flash-sante:free",
     "dots-studio/dots-3-note-preview:free",
     "liquid/lfm-2.5-2.6b:free",
-    "nvidia/nemotron-3.5-lightning:free"
+    "nvidia/nemotron-3.5-lightning:free",
+    "thinkingmachines/inkling-small:free"
    ],
    "apply_url": "https://openrouter.ai/sign-up",
    "link_kind": "signup",
@@ -215,10 +215,10 @@
    "sample_models": [
     "poolside/laguna-m.1",
     "poolside/laguna-xs.2",
-    "google/gemma-4-31b-it",
-    "novita/ling-3.1-flash",
     "novita/inclusionai/ling-3.0-tiny",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    "novita/ling-3.1-flash",
+    "mistral/leanstral-1-5",
+    "google/gemma-4-31b-it"
    ],
    "apply_url": "https://requesty.ai/",
    "link_kind": "homepage",

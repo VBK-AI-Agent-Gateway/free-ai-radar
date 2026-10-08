@@ -3,28 +3,49 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "93ee5b5cc3a09dd519d3f1838bcc043944715384f042b6a3d22ff23ecd704baa",
-  "new_hash": "b055547366079a339b44e88c5b5e77ba8f974bfcd9e7ec366ffc61e3b76f3307"
+  "old_hash": "b055547366079a339b44e88c5b5e77ba8f974bfcd9e7ec366ffc61e3b76f3307",
+  "new_hash": "5322e9dee898d94e7e7ba6d16fde7ef3f1cb690b605521cbcfacab570a5bbff8"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "6430c5ecd7ebb44a41453afe0041a31b3bc051404a611ab9815b1d67b1e06e70",
-  "new_hash": "921dd0c61b366b67aa0d0813a0cb2701f360a0ac93505ed4e6f82d6f192731db"
+  "old_hash": "921dd0c61b366b67aa0d0813a0cb2701f360a0ac93505ed4e6f82d6f192731db",
+  "new_hash": "c5d869800d211de2b859a104e9ae72ee8b916585940c4b14115fd823579a56b6"
+ },
+ {
+  "provider": "novita",
+  "url": "https://api.novita.ai/v3/openai/models",
+  "type": "official_api",
+  "old_hash": "3fe6d2fb8f723f18ebed65484c937e83b290b9649c4cdfa6335bcd958d0b208d",
+  "new_hash": "b1a36393c3bb3cca662c3be11290308658f3e56a661e4de789b0e8a45e9fa8e5"
+ },
+ {
+  "provider": "vercel",
+  "url": "https://ai-gateway.vercel.sh/v1/models",
+  "type": "official_api",
+  "old_hash": "2de88ae720b4e8ddaf3d71f193a76e5421d2c1e81afec01ac4f94d3f2c12b901",
+  "new_hash": "a458c7a2a42d5756333b4aecdcac5edacb1bcfd61740091b8da0e05037e042be"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "902279017804877b1c34c88d83626f287813b44a35b84915511fe3dae5800b86",
-  "new_hash": "61adc85bde3c03109180df64e90ef67b855eaf5c0d2c8626da88a172883504fa"
+  "old_hash": "61adc85bde3c03109180df64e90ef67b855eaf5c0d2c8626da88a172883504fa",
+  "new_hash": "101741c6a40e8ebf2da1f4850bafb35784e97e08cc0df3f464b878d9f7dde359"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "e01297f3ce939c33009beabd42e56ea5f89de3d3f3a08eacbd5aa7f5f33b7cc1",
-  "new_hash": "e6ffce1cf623a74caf6d6b70554eb03a45c93118fee35b96e7ed0acdccfe75cb"
+  "old_hash": "e6ffce1cf623a74caf6d6b70554eb03a45c93118fee35b96e7ed0acdccfe75cb",
+  "new_hash": "de0ef8e0f7fc940396a5fdce4eff40befaf6c99a758e8b128d91937b79546ed7"
+ },
+ {
+  "provider": "llmgateway",
+  "url": "https://api.llmgateway.io/v1/models",
+  "type": "official_api",
+  "old_hash": "1dac0977c951583113d283e6f7d90c8dba5035e47d144e344d326ebfeba97b9a",
+  "new_hash": "04be1da8550e4ed19f6f74d877f877202bda7285f5cf482813ed011de2cae28e"
  }
 ]

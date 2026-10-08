@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-08T15:42:59Z",
+ "fetched_at": "2026-10-08T18:49:12Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "2de88ae720b4e8ddaf3d71f193a76e5421d2c1e81afec01ac4f94d3f2c12b901",
+ "hash": "a458c7a2a42d5756333b4aecdcac5edacb1bcfd61740091b8da0e05037e042be",
  "payload": {
   "object": "list",
   "data": [
@@ -29585,7 +29585,7 @@
     "released": 1789948800,
     "owned_by": "xiaomi",
     "name": "MiMo V2.6 Flash",
-    "description": "MiMo-V2.6-Flash is an open-source Mixture-of-Experts model from Xiaomi with 309B total parameters and 15B activated per token. Its hybrid attention (sliding-window layers interleaved with global attention) keeps long-context serving efficient across a 1M-token context window. It accepts text and image input and is suited for coding, agent workflows and high-volume tool use.\n\nReasoning is supported and enabled by default.",
+    "description": "MiMo V2.6 Flash is Xiaomi's efficient multimodal reasoning model for coding, automation, and everyday agent workflows. It accepts text, images, audio, and video within a 1M-token context window, with up to 128K tokens of output. Deep thinking, tool calling, JSON mode, and prompt caching make it suitable for applications that need multimodal understanding at a lower token cost.",
     "context_window": 1048576,
     "max_tokens": 131072,
     "type": "language",
@@ -29644,9 +29644,9 @@
      }
     ],
     "pricing": {
-     "input": "0.00000004",
-     "output": "0.00000128",
-     "input_cache_read": "0.00000004",
+     "input": "0.00000014",
+     "output": "0.00000028",
+     "input_cache_read": "0.0000000028",
      "varies_by_provider": true
     }
    },
