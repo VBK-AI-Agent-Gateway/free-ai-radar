@@ -8,9 +8,9 @@ def test_budgets_limits():
     assert b["ai"]["daily_call_limit"] == 100
     assert b["probe"]["daily_runs_per_provider"] == 2
 
-def test_five_providers_phase0():
+def test_phase0_min_providers():
     files = sorted(p.name for p in (ROOT / "providers").glob("*.yaml"))
-    assert len(files) == 5, files
+    assert len(files) >= 5, files  # 阶段0门槛=5家;渠道扩充后只增不减
 
 def test_provider_yaml_schema():
     import sys

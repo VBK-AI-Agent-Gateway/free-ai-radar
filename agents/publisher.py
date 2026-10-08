@@ -83,11 +83,32 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .tag.y{border-color:#d29922;color:#e3b341}
 a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .empty{color:#8b949e;text-align:center;padding:30px}
+.hero{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:16px 0}
+.cta{background:#238636;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:8px;font-size:15px;box-shadow:0 2px 8px #23863655}
+.cta:hover{background:#2ea043}
+.ctahint{color:#8b949e;font-size:13px}
+.ctahint b{color:#3fb950}
+.pop{margin-top:8px}
+.like{background:#21262d;border:1px solid #30363d;color:#8b949e;border-radius:20px;padding:3px 12px;font-size:13px;cursor:pointer;transition:.15s}
+.like:hover{border-color:#f85149;color:#f85149}
+.like.on{border-color:#f85149;color:#f85149;background:#f8514922}
+.submitbox{margin:16px 0;border:1px dashed #30363d;border-radius:10px;padding:10px 14px}
+.submitbox summary{cursor:pointer;color:#79c0ff;font-size:14px}
+.submitbox form{display:grid;gap:8px;margin-top:10px}
+.submitbox input,.submitbox textarea{background:#0d1117;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:8px 10px;font-size:13px}
+.submitbox button{background:#1f6feb;color:#fff;border:0;border-radius:6px;padding:9px;cursor:pointer;font-size:14px;justify-self:start}
+#submsg{font-size:13px}
+#submsg.ok{color:#3fb950}
+#submsg.dup{color:#d29922}
 footer{color:#484f58;font-size:12px;margin-top:24px;text-align:center}
 code{background:#21262d;padding:1px 5px;border-radius:4px}
 </style></head><body><div class="wrap">
 <header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
 <div class="sub">每条事实带来源与验证时间 &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
+<div class="hero">
+  <a class="cta" id="regbtn" href="__REGISTER_URL__" target="_blank" rel="noopener" onclick="regClick()">&#128279; 立即注册领取免费 KEY</a>
+  <span class="ctahint">点击注册即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
+</div>
 <div class="stats">
 <div class="stat"><b>__TOTAL__</b><span>模型总数</span></div>
 <div class="stat"><b>__FREE__</b><span>免费模型</span></div>
@@ -110,10 +131,38 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <span class="chip" data-f="json_mode">JSON输出</span>
 </div>
 <div id="list"></div>
+<details class="submitbox"><summary>&#128227; 投稿新模型 / 新渠道(自动查重)</summary>
+<form id="subform">
+  <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页" required>
+  <input id="smid" placeholder="模型 ID(可选,如 deepseek/DeepSeek-V3)">
+  <textarea id="snote" placeholder="说明: 免费额度 / 注册入口等(纯文本,我们会人工核验)"></textarea>
+  <button type="submit">提交投稿</button>
+  <span id="submsg"></span>
+</form></details>
 <footer>数据来源: 官方API/页面, 证据见 <code>providers/*.yaml</code> &middot; 无证据写 unknown, 不猜</footer>
 </div>
 <script>
 const MODELS = __DATA__;
+const REG_URL = __REGISTER_URL__;
+// ---- 人气: 点赞(心) + 注册点击,本地按模型ID去重,防刷;计数只增 ----
+const POP_KEY = "radar_pop_v1", REG_KEY = "radar_reg_v0";
+const load = k => { try { return JSON.parse(localStorage.getItem(k)) || {c:{},m:{}} } catch(e){ return {c:{},m:{}} } };
+let POP = load(POP_KEY), REG = load(REG_KEY);
+const save = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch(e){} };
+const popOf = id => (POP.c[id]||0);
+function likeBtn(id){
+  const liked = !!POP.m[id], n = popOf(id);
+  return '<button class="like'+(liked?' on':'')+'" data-id="'+esc(id)+'" title="点赞">&#10084; '+n+'</button>';
+}
+function toggleLike(id){
+  if (POP.m[id]) return;            // 已点过 -> 去重,不重复计
+  POP.m[id]=1; POP.c[id]=popOf(id)+1; save(POP_KEY,POP); render();
+}
+function regClick(){
+  if (REG.done) return;             // 只计一次
+  REG.done=1; REG.n=(REG.n||0)+1; save(REG_KEY,REG); paintReg();
+}
+function paintReg(){ document.getElementById("regcount").textContent = REG.n||0; }
 const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmtCtx = n => !n?"-":n>=1e6?(n/1e6).toFixed(0)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n);
 const fmtPrice = v => v==null?"?":v===0?"$0":v<0.01?"$"+v.toFixed(4):"$"+v.toFixed(2);
@@ -158,8 +207,10 @@ function render(){
       + '<span>&#128197; 验证 '+esc(m.last_verified||"-")+'</span>'
       + '<span>&#128279; <a href="'+esc(m.pricing_url||"#")+'" target="_blank" rel="noopener">定价页</a></span></div>'
       + (tags?'<div class="tags">'+tags+'</div>':"")
+      + '<div class="pop">'+likeBtn(m.id)+'</div>'
       + '</div>';
   }).join("");
+  document.querySelectorAll(".like").forEach(b=>b.addEventListener("click",()=>toggleLike(b.dataset.id)));
 }
 document.getElementById("q").addEventListener("input", render);
 document.getElementById("onlyfree").addEventListener("change", render);
@@ -168,8 +219,27 @@ document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
   const f=c.dataset.f; active.has(f)?active.delete(f):active.add(f);
   c.classList.toggle("on"); render();
 }));
+// ---- 投稿: 客户端查重(仅提示),真去重在 agents/enrich.py ----
+const NORM = u => (u||"").trim().toLowerCase().replace(/^https?:\/\//,"").replace(/^www\./,"").replace(/\/$/,"");
+const seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});
+document.getElementById("subform").addEventListener("submit", e=>{
+  e.preventDefault();
+  const url=NORM(document.getElementById("surl").value), mid=(document.getElementById("smid").value||"").trim().toLowerCase();
+  const msg=document.getElementById("submsg");
+  if (seen[NORM(url)] || (mid && seen[NORM(mid)])) { msg.textContent="\u26a0 该地址/模型已在清单中,已查重跳过"; msg.className="dup"; return; }
+  const rec={url:document.getElementById("surl").value, model_id:mid, note:document.getElementById("snote").value};
+  let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
+  if (q.some(x=>NORM(x.url)===NORM(rec.url))) { msg.textContent="\u26a0 你已提交过该地址,已查重跳过"; msg.className="dup"; return; }
+  q.push(rec); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
+  msg.textContent="\u2713 已记录,将人工核验后入库(服务器端再次查重)"; msg.className="ok";
+  e.target.reset();
+});
+paintReg();
 render();
 </script></body></html>"""
+
+
+SITE_REGISTER_URL = os.environ.get("RADAR_REGISTER_URL", "https://openrouter.ai/")  # 注册领KEY落地页
 
 
 def render_site(rows):
@@ -185,6 +255,7 @@ def render_site(rows):
     _safe = json.dumps(data, ensure_ascii=False)
     _safe = _re.sub(r"[<>&]", lambda c: "\\u%04x" % ord(c.group()), _safe)
     out = out.replace("__DATA__", _safe)
+    out = out.replace("__REGISTER_URL__", html.escape(SITE_REGISTER_URL))
     return out
 
 
