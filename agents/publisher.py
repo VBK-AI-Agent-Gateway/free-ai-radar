@@ -85,16 +85,19 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .catalog h2{{font-size:16px;margin:0 0 4px}}
 .catalog .hint{{color:#8b949e;font-size:12px;margin:0 0 10px}}
 .catalog .vgrid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}}
-.catalog .v{{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:10px 12px}}
-.catalog .v.live{{border-color:#238636}}
+.catalog .v{{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px 16px;margin:0}}
+.catalog .v.live{{border-color:#238636;box-shadow:0 0 0 1px #23863644}}
+.catalog .v .top{{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}}
+.catalog .v .nm{{font-weight:600;color:#e6edf3;font-size:15px}}
 .catalog .v .vn{{font-weight:600;font-size:13px;display:flex;justify-content:space-between;gap:6px}}
 .catalog .v .vn .badge{{font-size:10px;color:#238636;font-weight:400}}
 .catalog .v .vn .badge.apply{{color:#d29922}}
-.catalog .v .vc{{font-size:12px;color:#58a6ff;margin:3px 0}}
+.catalog .v .vc{{font-size:12px;color:#58a6ff;margin:6px 0 2px}}
 .catalog .v .vm{{font-size:11px;color:#8b949e;word-break:break-all;line-height:1.4}}
-.catalog .v a{{display:inline-block;margin-top:6px;font-size:12px;color:#238636;text-decoration:none;border:1px solid #23863655;border-radius:6px;padding:2px 8px}}
-.catalog .v a:hover{{background:#23863622}}
-.catalog .v .vk{{font-size:11px;color:#d29922;margin-top:4px;line-height:1.3}}
+.catalog .v .vmeta{{display:flex;gap:12px;flex-wrap:wrap;font-size:12.5px;color:#8b949e;margin-top:6px}}
+.catalog .v a{{display:inline-block;margin-top:8px;font-size:13px;background:#238636;color:#fff;text-decoration:none;border-radius:20px;padding:4px 12px}}
+.catalog .v a:hover{{background:#2ea043}}
+.catalog .v .vk{{font-size:11px;color:#d29922;margin-top:6px;line-height:1.3}}
 .chip{background:#1f6feb33;border:1px solid #1f6feb;color:#79c0ff;border-radius:20px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
 .chip.on{background:#1f6feb;color:#fff}
 .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px 16px;margin:10px 0}
@@ -125,7 +128,12 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .submitbox{margin:16px 0;border:1px dashed #30363d;border-radius:10px;padding:10px 14px}
 .submitbox summary{cursor:pointer;color:#79c0ff;font-size:14px}
 .submitbox form{display:grid;gap:8px;margin-top:10px}
-.submitbox input,.submitbox textarea{background:#0d1117;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:8px 10px;font-size:13px}
+.submitbox input,.submitbox textarea,.submitbox select{background:#0d1117;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:8px 10px;font-size:13px}
+.submitbox select{min-width:150px}
+.submitbox .frow{display:flex;gap:8px;flex-wrap:wrap}
+.submitbox .frow select{flex:1;min-width:160px}
+.submitbox .attest{display:flex;align-items:center;gap:7px;font-size:13px;color:#c9d1d9;cursor:pointer}
+.submitbox .attest input{width:auto;padding:0}
 .submitbox button{background:#1f6feb;color:#fff;border:0;border-radius:6px;padding:9px;cursor:pointer;font-size:14px;justify-self:start}
 .submitbox h2{font-size:15px;margin:0 0 6px}
 .submitbox h2 .hint{font-size:12px;color:#8b949e;font-weight:400}
@@ -178,11 +186,30 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <div class="vgrid" id="vgrid"></div>
 </section>
 <section class="submitbox open" id="submitbox">
-<h2>&#128227; 主动提交免费模型 / 新渠道 <span class="hint">(自动查重 + 人工核验)</span></h2>
+<h2>&#128227; 主动提交免费模型 / 新渠道 <span class="hint">(自动查重 + 人工审核, 字段与 Issue 模板一致)</span></h2>
 <form id="subform">
-  <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页" required>
+  <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页 (必填)" required>
   <input id="smid" placeholder="模型 ID(可选,如 deepseek/DeepSeek-V3)">
-  <textarea id="snote" placeholder="说明: 免费额度 / 注册入口等(纯文本,我们会人工核验)"></textarea>
+  <div class="frow">
+    <select id="stype" required>
+      <option value="">来源类型(必选)…</option>
+      <option value="official_api">official_api 官方API</option>
+      <option value="official_page">official_page 官方定价页</option>
+      <option value="vendor_submission">vendor_submission 厂商自荐</option>
+      <option value="community">community 社区/媒体线索</option>
+      <option value="probe">probe 实测探测</option>
+      <option value="telemetry">telemetry 用量遥测</option>
+    </select>
+    <select id="stier" required>
+      <option value="">免费情况(必选)…</option>
+      <option value="完全免费">完全免费(价格=0)</option>
+      <option value="免费额度层">免费额度层(free tier)</option>
+      <option value="限时免费">限时/活动免费</option>
+      <option value="不确定">不确定,待核验</option>
+    </select>
+  </div>
+  <textarea id="snote" placeholder="说明 / 证据: 免费额度、注册入口等(纯文本,人工核验)"></textarea>
+  <label class="attest"><input type="checkbox" id="sattest" required> 我已查过清单,该地址/模型不重复</label>
   <button type="submit">提交投稿</button>
   <span id="submsg"></span>
 </form></section>
@@ -282,14 +309,16 @@ function renderCatalog(){
   el.innerHTML = CATALOG.vendors.map(v=>{
     const live = v.status==="live";
     const btn = v.btn || (live?"打开":"打开");
+    const badge = live ? '<span class="badge free">已收录</span>' : '<span class="badge apply">待申请</span>';
     const link = v.apply_url
       ? '<a href="'+esc(v.apply_url)+'" target="_blank" rel="noopener" title="'+esc(v.note||"")+'" onclick="regClick(\''+esc(v.provider)+'\')">'+esc(btn)+'</a>' : '';
-    const badge = live ? '<span class="badge">已收录</span>' : '<span class="badge apply">待申请</span>';
     const models = (v.sample_models||[]).slice(0,4).join(", ");
+    const kindLbl = {signup:"注册口", console:"控制台", doc:"官方文档", pricing:"定价页", homepage:"官网"}[v.link_kind]||"链接";
     return '<div class="v'+(live?" live":"")+'">'
-      + '<div class="vn"><span>'+esc(v.name)+'</span>'+badge+'</div>'
+      + '<div class="top"><div class="nm">'+esc(v.name)+'</div>'+badge+'</div>'
       + '<div class="vc">'+v.free_count+' 个免费模型</div>'
       + '<div class="vm">'+esc(models)+'</div>'
+      + '<div class="vmeta"><span>&#128279; '+kindLbl+'</span>'+(live?'<span>&#9989; 已验证</span>':'<span>&#128269; 待申请key</span>')+'</div>'
       + (v.note? '<div class="vk">'+esc(v.note)+'</div>':'')
       + link + '</div>';
   }).join("");
@@ -320,10 +349,14 @@ function init(){
     if (q.some(x=>NORM(x.url)===url)) { msg.textContent="\u26a0 你已提交过该地址,重复,无法提交"; msg.className="dup"; return; }
     q.push({url:url, model_id:mid}); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
     // 第3层(后端): 投稿 -> GitHub Issues(免费审核队列), 你在 Issues 里审核 approve/reject
+    const stype=document.getElementById("stype").value||"-";
+    const stier=document.getElementById("stier").value||"-";
     const title=encodeURIComponent("[投稿] "+(mid||"新免费模型/渠道"));
     const body=encodeURIComponent(
       "- 接口/定价页: "+document.getElementById("surl").value+"\n"+
       "- 模型 ID: "+(document.getElementById("smid").value||"-")+"\n"+
+      "- 来源类型: "+stype+"\n"+
+      "- 免费情况: "+stier+"\n"+
       "- 说明: "+(document.getElementById("snote").value||"-")+"\n\n"+
       "_前端已查重通过(非重复)。请审核后关闭此 Issue。_");
     const gh="https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body;
