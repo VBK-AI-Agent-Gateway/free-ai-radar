@@ -3,7 +3,7 @@
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "7146dee2e20dac1ccee978ea7ba8200f3d53d403b34e470e896f58a9ebdb2ebc",
-  "new_hash": "b0f3000e0da9ae030ad78a7b60a35759293ae15d741b514823638d0144af0d62"
+  "old_hash": "b0f3000e0da9ae030ad78a7b60a35759293ae15d741b514823638d0144af0d62",
+  "new_hash": "a3bd007a913c3f3789c4d0c4642805b55ff8933aa7d4d4a0ecfdd3fda78377e5"
  }
 ]
