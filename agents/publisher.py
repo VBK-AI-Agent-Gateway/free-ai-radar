@@ -60,6 +60,11 @@ SITE_TEMPLATE = r"""<!doctype html><html lang="zh"><head><meta charset="utf-8">
 .wrap{max-width:1080px;margin:0 auto;padding:20px 16px}
 header h1{font-size:22px;margin:0 0 4px;color:#e6edf3} .sub{color:#8b949e;font-size:13px}
 .stats{display:flex;gap:16px;margin:14px 0;flex-wrap:wrap}
+.chanbar{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px}
+.chan{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:4px 11px;font-size:12px;color:#8b949e}
+.chan b{color:#79c0ff}
+.chan.live{border-color:#238636}
+.chan.live b{color:#3fb950}
 .stat{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:8px 16px}
 .stat b{display:block;font-size:20px;color:#e6edf3} .stat span{font-size:12px;color:#8b949e}
 .controls{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
@@ -112,8 +117,9 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <div class="stats">
 <div class="stat"><b>__TOTAL__</b><span>模型总数</span></div>
 <div class="stat"><b>__FREE__</b><span>免费模型</span></div>
-<div class="stat"><b>__PROV__</b><span>厂商</span></div>
+<div class="stat"><b>__PROV__</b><span>渠道</span></div>
 </div>
+<div class="chanbar" id="chanbar"></div>
 <div class="controls">
 <input type="search" id="q" placeholder="搜模型名 / 描述 / 厂商...">
 <label class="toggle"><input type="checkbox" id="onlyfree"> 只看免费</label>
@@ -142,8 +148,8 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <footer>数据来源: 官方API/页面, 证据见 <code>providers/*.yaml</code> &middot; 无证据写 unknown, 不猜</footer>
 </div>
 <script>
-const MODELS = __DATA__;
-const REG_URL = __REGISTER_URL__;
+let MODELS = __DATA__;
+const REG_URL = "__REGISTER_URL__";
 // ---- 人气: 点赞(心) + 注册点击,本地按模型ID去重,防刷;计数只增 ----
 const POP_KEY = "radar_pop_v1", REG_KEY = "radar_reg_v0";
 const load = k => { try { return JSON.parse(localStorage.getItem(k)) || {c:{},m:{}} } catch(e){ return {c:{},m:{}} } };
@@ -212,30 +218,61 @@ function render(){
   }).join("");
   document.querySelectorAll(".like").forEach(b=>b.addEventListener("click",()=>toggleLike(b.dataset.id)));
 }
-document.getElementById("q").addEventListener("input", render);
-document.getElementById("onlyfree").addEventListener("change", render);
-document.getElementById("sort").addEventListener("change", render);
-document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
-  const f=c.dataset.f; active.has(f)?active.delete(f):active.add(f);
-  c.classList.toggle("on"); render();
-}));
-// ---- 投稿: 客户端查重(仅提示),真去重在 agents/enrich.py ----
+// ---- 投稿查重: 客户端提示,真去重在 agents/enrich.py ----
 const NORM = u => (u||"").trim().toLowerCase().replace(/^https?:\/\//,"").replace(/^www\./,"").replace(/\/$/,"");
-const seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});
-document.getElementById("subform").addEventListener("submit", e=>{
-  e.preventDefault();
-  const url=NORM(document.getElementById("surl").value), mid=(document.getElementById("smid").value||"").trim().toLowerCase();
-  const msg=document.getElementById("submsg");
-  if (seen[NORM(url)] || (mid && seen[NORM(mid)])) { msg.textContent="\u26a0 该地址/模型已在清单中,已查重跳过"; msg.className="dup"; return; }
-  const rec={url:document.getElementById("surl").value, model_id:mid, note:document.getElementById("snote").value};
-  let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
-  if (q.some(x=>NORM(x.url)===NORM(rec.url))) { msg.textContent="\u26a0 你已提交过该地址,已查重跳过"; msg.className="dup"; return; }
-  q.push(rec); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
-  msg.textContent="\u2713 已记录,将人工核验后入库(服务器端再次查重)"; msg.className="ok";
-  e.target.reset();
-});
-paintReg();
-render();
+let seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});
+function renderChan(){
+  const by = MODELS.reduce((a,m)=>{ a[m.provider]=(a[m.provider]||0)+1; return a; },{});
+  const el = document.getElementById("chanbar");
+  if(!el) return;
+  el.innerHTML = Object.keys(by).sort((a,b)=>by[b]-by[a]).map(p=>
+    '<span class="chan live">'+esc(p)+' <b>'+by[p]+'</b></span>').join("")
+    + '<span class="chan" title="配 key 后自动接入">groq/google/openai <b>待配key</b></span>';
+}
+// ---- init: 所有顶层 DOM 绑定收进这里,挂 DOMContentLoaded(已加载则立即跑),防整体崩 ----
+function init(){
+  document.getElementById("q").addEventListener("input", render);
+  document.getElementById("onlyfree").addEventListener("change", render);
+  document.getElementById("sort").addEventListener("change", render);
+  document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
+    const f=c.dataset.f; active.has(f)?active.delete(f):active.add(f);
+    c.classList.toggle("on"); render();
+  }));
+  document.getElementById("subform").addEventListener("submit", e=>{
+    e.preventDefault();
+    const url=NORM(document.getElementById("surl").value), mid=(document.getElementById("smid").value||"").trim().toLowerCase();
+    const msg=document.getElementById("submsg");
+    if (seen[NORM(url)] || (mid && seen[NORM(mid)])) { msg.textContent="\u26a0 该地址/模型已在清单中,已查重跳过"; msg.className="dup"; return; }
+    const rec={url:document.getElementById("surl").value, model_id:mid, note:document.getElementById("snote").value};
+    let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
+    if (q.some(x=>NORM(x.url)===NORM(rec.url))) { msg.textContent="\u26a0 你已提交过该地址,已查重跳过"; msg.className="dup"; return; }
+    q.push(rec); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
+    msg.textContent="\u2713 已记录,将人工核验后入库(服务器端再次查重)"; msg.className="ok";
+    e.target.reset();
+  });
+  paintReg();
+  renderChan();
+  render();
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+else init();
+const DATA_URL = "free-models.json";
+async function refresh(){
+  try{
+    const r = await fetch(DATA_URL+"?t="+Date.now(), {cache:"no-store"});
+    if(!r.ok) return;
+    const j = await r.json();
+    if(!j.models || j.models.length === MODELS.length && JSON.stringify(j.models) === JSON.stringify(MODELS)) return;
+    MODELS = j.models;
+    seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});  // 重建查重集
+    renderChan();
+    document.getElementById("regcount").textContent = REG.n||0;
+    render();
+    const g=document.querySelector("header .sub"); if(g) g.innerHTML = g.innerHTML.replace(/更新 .*/, "更新 " + (j.generated_at||"").replace("T"," "));
+  }catch(e){}
+}
+setInterval(()=>{ if(document.visibilityState === "visible") refresh(); }, 60000);
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState === "visible") refresh(); });
 </script></body></html>"""
 
 
