@@ -1,0 +1,16 @@
+{
+ "agent": "prober",
+ "results": [],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu"
+ ]
+}
