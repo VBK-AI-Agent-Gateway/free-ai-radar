@@ -24,7 +24,7 @@ def _link_kind(url):
     path = u.split("?", 1)[0]
     host = path.split("/")[2] if path.startswith("http") and path.count("/") >= 2 else ""
     # 路径优先: 明确的注册口/文档路径最可信
-    if any(k in path for k in ("/signup", "/sign-up", "/register", "/join")):
+    if any(k in path for k in ("/signup", "/sign-up", "/register", "/join", "/login", "/auth/login")):
         return "signup"
     if any(k in path for k in ("/docs", "/help", "/doc/")) or path.rstrip("/").endswith("/docs") or "docs." in host:
         return "doc"
@@ -37,12 +37,23 @@ def _link_kind(url):
 
 
 _KIND_LABEL = {
-    "signup": ("去注册", "真注册入口"),
+    "signup": ("去注册", "真注册入口(curl 已验证)"),
     "console": ("去控制台", "控制台/平台,通常可注册领key"),
     "doc": ("查官方文档", "帮助文档(页内通常有 Get API key 入口)"),
     "pricing": ("看定价页", "定价/免费额度说明"),
     "homepage": ("去官网", "厂商官网(找注册/控制台入口)"),
 }
+
+# 已验证真注册口(config/signup_urls.json): curl 200 + body 含注册特征 + 同品牌核验过。
+# 这些优先于 models.dev 的 doc 链接(那是文档不是注册口)。
+def _verified_signups():
+    p = ROOT / "config" / "signup_urls.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
 def canonical_free():
@@ -71,6 +82,7 @@ def candidate_free():
     """候选(有免费层但没采到数据) -> 链接=models.dev doc, 但诚实标注它是文档不是注册口。"""
     md = _get(REF_DIRS["models_dev"]) or {}
     have = load_canonical_providers()
+    verified = _verified_signups()
     cands = json.loads((ROOT / "candidates" / "discover.json").read_text(encoding="utf-8")) \
         .get("candidates", [])
     out = {}
@@ -85,10 +97,12 @@ def candidate_free():
         free = c.get("free_models") or []
         if not free:
             continue
-        kind = _link_kind(doc) or "doc"
+        # 有已验证真注册口 -> 优先用它(kind=signup, btn=去注册);否则用 doc(诚实标注)
+        link = verified.get(p) or doc
+        kind = _link_kind(link) or "doc"
         out[p] = {"provider": p, "name": name, "free_count": len(free),
                   "sample_models": free[:6],
-                  "apply_url": doc, "link_kind": kind,
+                  "apply_url": link, "link_kind": kind,
                   "btn": _KIND_LABEL[kind][0],
                   "status": "apply_key",
                   "needs_env": env,
