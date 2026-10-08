@@ -20,6 +20,11 @@ def load_all():
 def flat(rows):
     out = []
     for r in rows:
+        # 每模型注册跳转: 该厂商自己的 signup(领KEY页),回落 homepage/pricing_url
+        su = r.get("signup") or {}
+        reg = su.get("url") if isinstance(su, dict) else (su or None)
+        reg = reg or r.get("homepage") or r.get("pricing_url")
+        home = r.get("homepage") or reg
         for m in r.get("models") or []:
             caps = m.get("capabilities") or {}
             terms = m.get("terms") or {}
@@ -37,6 +42,7 @@ def flat(rows):
                 "json_mode": bool(caps.get("json_mode")),
                 "created": m.get("created"),
                 "last_verified": r.get("last_verified"), "pricing_url": r.get("pricing_url"),
+                "register_url": reg, "provider_home": home,
             })
     return out
 
@@ -94,6 +100,8 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .ctahint{color:#8b949e;font-size:13px}
 .ctahint b{color:#3fb950}
 .pop{margin-top:8px}
+.reglink{margin-left:8px;background:#238636;color:#fff;text-decoration:none;border-radius:20px;padding:4px 12px;font-size:13px;transition:.15s}
+.reglink:hover{background:#2ea043}
 .like{background:#21262d;border:1px solid #30363d;color:#8b949e;border-radius:20px;padding:3px 12px;font-size:13px;cursor:pointer;transition:.15s}
 .like:hover{border-color:#f85149;color:#f85149}
 .like.on{border-color:#f85149;color:#f85149;background:#f8514922}
@@ -111,8 +119,8 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
 <div class="sub">每条事实带来源与验证时间 &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
 <div class="hero">
-  <a class="cta" id="regbtn" href="__REGISTER_URL__" target="_blank" rel="noopener" onclick="regClick()">&#128279; 立即注册领取免费 KEY</a>
-  <span class="ctahint">点击注册即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
+  <a class="cta" id="regbtn" href="__REGISTER_URL__" target="_blank" rel="noopener" onclick="regClick('site')">&#128279; 各模型注册领免费 KEY &mdash; 点模型卡进入对应厂商</a>
+  <span class="ctahint">点任一模型的"注册领KEY"即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
 </div>
 <div class="stats">
 <div class="stat"><b>__TOTAL__</b><span>模型总数</span></div>
@@ -164,8 +172,10 @@ function toggleLike(id){
   if (POP.m[id]) return;            // 已点过 -> 去重,不重复计
   POP.m[id]=1; POP.c[id]=popOf(id)+1; save(POP_KEY,POP); render();
 }
-function regClick(){
-  if (REG.done) return;             // 只计一次
+function regClick(prov){
+  // 记录哪个厂商的注册被点(人气),再计总数一次
+  if (prov) { try{ REG.p = REG.p||{}; REG.p[prov]=(REG.p[prov]||0)+1; save(REG_KEY,REG); }catch(e){} }
+  if (REG.done) return;             // 总数只计一次
   REG.done=1; REG.n=(REG.n||0)+1; save(REG_KEY,REG); paintReg();
 }
 function paintReg(){ document.getElementById("regcount").textContent = REG.n||0; }
@@ -209,11 +219,13 @@ function render(){
       + '<div class="top"><div><span class="nm">'+esc(m.name||m.id)+'</span>'
       + '<div class="nid">'+esc(m.id)+'</div></div>'+price+'</div>'
       + desc
-      + '<div class="meta"><span>&#127760; '+esc(m.provider)+'</span>'
+      + '<div class="meta"><span>&#127760; <a href="'+esc(m.provider_home||"#")+'" target="_blank" rel="noopener">'+esc(m.provider)+'</a></span>'
       + '<span>&#128197; 验证 '+esc(m.last_verified||"-")+'</span>'
       + '<span>&#128279; <a href="'+esc(m.pricing_url||"#")+'" target="_blank" rel="noopener">定价页</a></span></div>'
       + (tags?'<div class="tags">'+tags+'</div>':"")
-      + '<div class="pop">'+likeBtn(m.id)+'</div>'
+      + '<div class="pop">'+likeBtn(m.id)
+      + (m.register_url ? ' <a class="reglink" href="'+esc(m.register_url)+'" target="_blank" rel="noopener" onclick="regClick(\''+esc(m.provider)+'\')">&#128279; 注册领KEY</a>' : '')
+      + '</div>'
       + '</div>';
   }).join("");
   document.querySelectorAll(".like").forEach(b=>b.addEventListener("click",()=>toggleLike(b.dataset.id)));
