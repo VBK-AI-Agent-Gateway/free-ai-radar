@@ -3,7 +3,7 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "3fb4220b64beb70669a60c327976b53f494d3cd0abfb037e8c9089864e2b5dd0",
-  "new_hash": "d4333db6b9f5055915141addff15952abde23ef5ef3422dab0a18ae90cb8dc75"
+  "old_hash": "d4333db6b9f5055915141addff15952abde23ef5ef3422dab0a18ae90cb8dc75",
+  "new_hash": "acf12c3e94feefb64da8c1d15dce28c8a8dc00dd2b1b00c3d306807af7671e85"
  }
 ]
