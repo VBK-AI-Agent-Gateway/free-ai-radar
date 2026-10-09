@@ -5,6 +5,17 @@
 *{box-sizing:border-box} body{font:15px/1.55 -apple-system,Segoe UI,system-ui,sans-serif;margin:0;background:#0d1117;color:#c9d1d9}
 .wrap{max-width:1080px;margin:0 auto;padding:20px 16px}
 header h1{font-size:22px;margin:0 0 4px;color:#e6edf3} .sub{color:#8b949e;font-size:13px}
+.guide{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 18px;margin:16px 0}
+.guide h3{margin:0 0 4px;font-size:15px;color:#e6edf3}
+.guide .cap{color:#8b949e;font-size:13px;margin-bottom:12px}
+.flow{display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:13px;margin-bottom:14px}
+.fstep{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:5px 9px;color:#c9d1d9;white-space:nowrap}
+.fstep b{color:#3fb950;font-weight:700}
+.farrow{color:#3fb950;font-weight:700}
+.guide ol{margin:0;padding-left:18px;font-size:13px;color:#8b949e;line-height:1.7}
+.guide ol li::marker{color:#3fb950;font-weight:700}
+.guide ol a{color:#58a6ff}
+.guide ol b{color:#c9d1d9}
 .stats{display:flex;gap:16px;margin:14px 0;flex-wrap:wrap}
 .chanbar{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px}
 .chan{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:4px 11px;font-size:12px;color:#8b949e}
@@ -100,6 +111,24 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 </style></head><body><div class="wrap">
 <header><h1>&#128269; free-ai-radar &mdash; <span data-i18n="h1">Free AI model directory</span></h1>
 <div class="sub">Every fact carries a source &amp; fetched/probed time &middot; no evidence = unknown &middot; source of truth <code>providers/*.yaml</code> &middot; <span data-i18n="updated">updated</span> <span id="gents">2026-10-09 06:01 UTC</span></div></header>
+<div class="guide" id="flowguide">
+  <h3>🚀 使用流程</h3>
+  <div class="cap">从申请免费 KEY 到接入网关，四步完成</div>
+  <div class="flow">
+    <span class="fstep"><b>1</b> 注册</span><span class="farrow">&rarr;</span>
+    <span class="fstep"><b>2</b> 登录</span><span class="farrow">&rarr;</span>
+    <span class="fstep"><b>3</b> 领免费 KEY</span><span class="farrow">&rarr;</span>
+    <span class="fstep"><b>4</b> 加 BYOK 渠道</span>
+  </div>
+  <h3>📝 注册使用说明</h3>
+  <ol>
+    <li>点右上角 <b>&#128273; Open console</b> 打开控制台面板，面板内点 <b>「注册」</b> 新标签创建账号：<b>用户名 + 邮箱 + 密码(&ge;8位)</b>，无需邀请码。</li>
+    <li>注册后回面板 <b>登录</b>，进入 BYOK 控制台。</li>
+    <li>在下方 <b>radar 列表</b> 点 <b>&laquo;Apply for key&raquo;</b> 到厂商处领免费 KEY（各厂商限额见列表）。</li>
+    <li>回面板点 <b>&laquo;+ 添加 BYOK 渠道&raquo;</b>，填厂商名、BASE URL、刚领的 KEY &rarr; 保存。</li>
+    <li>用网关统一入口调用，自动路由到你的 BYOK 渠道，KEY 只存本地。</li>
+  </ol>
+</div>
 <div class="hero">
   <a class="cta" id="regbtn" href="#catalog" data-reg="site" data-i18n="cta">&#127760; Browse free models from 74 vendors — click any model/vendor below to sign up</a>
   <a class="cta byokbtn" id="byokbtn" target="_blank" rel="noopener" href="http://5.189.129.216:8888/ops/byok.html">&#128273; Got your free KEY? Open console</a>
