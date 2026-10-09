@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T03:30:50Z",
+ "generated_at": "2026-10-09T04:14:25Z",
  "models": [
   {
    "id": "fastrouter/auto",
@@ -1772,7 +1772,7 @@
  ],
  "providers": 13,
  "catalog": {
-  "at": "2026-10-09T03:30:42Z",
+  "at": "2026-10-09T04:13:10Z",
   "live_count": 7,
   "apply_count": 69,
   "total_free_models": 446,
