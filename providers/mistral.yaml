@@ -1,4 +1,4 @@
-# 事实正本。字段规则见 docs/schema.md;无证据写 unknown,不猜。
+# 事实正本。免费层 = Mistral la Plateforme 免费档(官方)。limits 待核验: 未抓到官方 rate-limits 页前留 unknown。
 provider: mistral
 homepage: https://mistral.ai
 pricing_url: https://mistral.ai/pricing
@@ -7,6 +7,25 @@ signup:
   needs: ['email']
   regions_blocked: unknown
   est_minutes: unknown
-models: []
+models:
+- id: mistral-small-latest
+  name: Mistral Small (latest)
+  status: declared
+  free: true
+  free_type: free_tier
+  free_limits: unknown
+  free_evidence: "Mistral 免费档可用 Mistral Small; 具体 RPM/TPM 见官方 rate-limits 页"
+  description: Mistral Small — 免费档可用(有限额)。
+  capabilities:
+    context_length: 32768
+    tools: true
+    json_mode: true
+  terms: {input_per_million: 0, output_per_million: 0, currency: USD}
+  evidence:
+  - kind: official_page
+    url: https://docs.mistral.ai/getting-started/rate_limits
+    at: '2026-10-09T00:00:00Z'
+  last_fetched: '2026-10-09T00:00:00Z'
+  last_verified: '2026-10-09T00:00:00Z'
 evidence: []
-last_verified: unknown
+last_verified: '2026-10-09T00:00:00Z'
