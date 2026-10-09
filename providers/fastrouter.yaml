@@ -8,7 +8,7 @@ models:
   name: 'FastRouter: Auto'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: fastrouter/auto is an enhanced meta-model that intelligently routes
     each prompt to the best-fit model from dozens of options — optimizing for quality,
     contextual relevance, and cost. You will be billed at the exact rate of the selected
@@ -34,8 +34,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-fable-5.1
   name: 'Anthropic: Claude Fable 5.1'
   status: declared
@@ -67,8 +67,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-6.1-sol
   name: 'OpenAI: GPT-6.1 Sol'
   status: declared
@@ -101,8 +101,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-5.5
   name: 'Anthropic: Claude Opus 5.5'
   status: declared
@@ -135,8 +135,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-sonnet-5.5
   name: 'Anthropic: Claude Sonnet 5.5'
   status: declared
@@ -168,13 +168,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-haiku-5.5
   name: 'Anthropic: Claude Haiku 5.5'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'Claude Haiku 5.5 is Anthropic''s fastest and most efficient model
     in the Claude 5.5 family, built for high-volume, latency-sensitive work such as
     classification, routing, extraction, summarization, and subagent tasks. It accepts
@@ -201,8 +201,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.8-flash
   name: 'Google: Gemini 3.8 Flash'
   status: declared
@@ -236,8 +236,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-4.7
   name: 'xAI: Grok 4.7'
   status: declared
@@ -269,8 +269,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.3-codex
   name: 'OpenAI: GPT-5.3-Codex'
   status: declared
@@ -298,8 +298,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: moonshotai/kimi-k3
   name: 'MoonshotAI: Kimi K3'
   status: declared
@@ -329,13 +329,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek/deepseek-v4.1-flash
   name: 'DeepSeek: DeepSeek V4.1 Flash'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts model with a
     552B-parameter backbone, activating just 8B parameters per token during prefill
     and 16B during decoding. It natively processes images and text, supports a 1M-token
@@ -362,20 +362,19 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
-- id: openai/gpt-image-2.5-sunburst
-  name: 'OpenAI: GPT Image 2.5 Sunburst'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
+- id: openai/gpt-image-2.5-flare
+  name: 'OpenAI: GPT Image 2.5 Flare'
   status: declared
-  free: null
-  free_type: zero_price
-  description: GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation
-    and editing model, offering an extra level of precision for detailed creative
-    work at the cost of longer generation times than Flare. It shares Images 2.5's
-    improvements in reference fidelity, precise edits, and multi-turn consistency,
-    with sharper detail, more natural lighting, richer textures, and better handling
-    of complex layouts and transparent backgrounds. Recommended for premium visual
-    workflows like production-ready campaign creative or polished product imagery.
+  free: false
+  free_type: paid
+  description: GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing
+    model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency.
+    It is the default choice for most API applications, sharing Images 2.5's improvements
+    in reference fidelity, precise edits, and multi-turn consistency, and is well
+    suited to creator and social content, product experiences, visual search, rapid
+    prototyping, and high-volume generation.
   capabilities:
     context_length: 128000
     max_output_tokens: 4096
@@ -394,13 +393,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.1-flash-image-preview
   name: 'Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Google's gemini-3.1-flash-image-preview (codenamed Nano Banana 2) is
     a preview version of the Gemini 3.1 Flash Image model, optimized for high-speed
     image generation and editing with Pro-level quality, balancing performance, low
@@ -423,8 +422,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-fable-5
   name: 'Anthropic: Claude Fable 5'
   status: declared
@@ -455,8 +454,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-6-sol
   name: 'OpenAI: GPT-6 Sol'
   status: declared
@@ -489,13 +488,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-6-luna
   name: 'OpenAI: GPT-6 Luna'
   status: declared
   free: false
-  free_type: local
+  free_type: paid
   description: GPT-6 Luna is OpenAI's fast, low-cost entry-tier model in the GPT-6
     family, trained with the same methods as flagship GPT-6 Astra but tuned to run
     faster and cheaper. It cuts API prices 50% versus GPT-5.6 Luna's promotional pricing,
@@ -522,13 +521,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-live-1
   name: 'OpenAI: GPT-Live 1'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: GPT-Live 1 is OpenAI's full-duplex voice model for natural, expressive
     real-time conversations with smooth interruption handling. It listens and speaks
     at the same time, and delegates reasoning and tool use to a backend agent (OpenAI
@@ -553,13 +552,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-5
   name: 'Anthropic: Claude Opus 5'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: Claude Opus 5 is Anthropic’s latest flagship reasoning model in the
     Claude Opus family, offering near-frontier intelligence with strong performance
     on complex analysis, coding, and multi-step reasoning tasks. It supports very
@@ -586,8 +585,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-4.8
   name: 'Anthropic: Claude Opus 4.8'
   status: declared
@@ -618,8 +617,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-4.7
   name: 'Anthropic: Claude Opus 4.7'
   status: declared
@@ -646,8 +645,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-sonnet-5
   name: 'Anthropic: Claude Sonnet 5'
   status: declared
@@ -677,8 +676,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-sonnet-4.6
   name: 'Anthropic: Claude Sonnet 4.6'
   status: declared
@@ -708,8 +707,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-4.5-sonnet
   name: 'Anthropic: Claude Sonnet 4.5'
   status: declared
@@ -743,8 +742,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-haiku-4.5
   name: 'Anthropic: Claude Haiku 4.5'
   status: declared
@@ -773,8 +772,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.7-flash
   name: 'Google: Gemini 3.7 Flash'
   status: declared
@@ -808,8 +807,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.6-flash
   name: 'Google: Gemini 3.6 Flash'
   status: declared
@@ -842,8 +841,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.5-flash-lite
   name: 'Google: Gemini 3.5 Flash-Lite'
   status: declared
@@ -876,8 +875,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-4.6
   name: 'xAI: Grok 4.6'
   status: declared
@@ -909,8 +908,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-imagine-video-1.5
   name: 'xAI: Grok Imagine Video 1.5'
   status: declared
@@ -938,8 +937,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-4.5
   name: 'xAI: Grok 4.5'
   status: declared
@@ -969,8 +968,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: moonshotai/kimi-k2.7-code
   name: 'MoonshotAI: Kimi K2.7 Code'
   status: declared
@@ -998,8 +997,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: moonshotai/kimi-k2.6
   name: 'MoonshotAI: Kimi K2.6'
   status: declared
@@ -1028,13 +1027,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: moonshotai/kimi-k2.5
   name: 'MoonshotAI: Kimi K2.5'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: MoonshotAI's Kimi-K2.5 is a cutting-edge open-source multimodal large
     language model series from MoonshotAI, featuring a massive Mixture-of-Experts
     (MoE) architecture with 1 trillion total parameters—yet only 32 billion activated
@@ -1061,8 +1060,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek/deepseek-v4-flash
   name: 'DeepSeek: V4 Flash'
   status: declared
@@ -1090,13 +1089,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek/deepseek-v4-pro
   name: 'DeepSeek: DeepSeek V4 Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: "DeepSeek-V4-Pro is a 1.6 trillion parameter Mixture-of-Experts (MoE)\
     \ language model from DeepSeek AI, with 49 billion parameters activated per token\
     \ and support for a 1 million token context window. \nIt features a hybrid attention\
@@ -1122,8 +1121,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek/deepseek-v3.2
   name: 'DeepSeek: DeepSeek V3.2'
   status: declared
@@ -1152,19 +1151,20 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
-- id: openai/gpt-image-2.5-flare
-  name: 'OpenAI: GPT Image 2.5 Flare'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
+- id: openai/gpt-image-2.5-sunburst
+  name: 'OpenAI: GPT Image 2.5 Sunburst'
   status: declared
   free: false
   free_type: paid
-  description: GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing
-    model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency.
-    It is the default choice for most API applications, sharing Images 2.5's improvements
-    in reference fidelity, precise edits, and multi-turn consistency, and is well
-    suited to creator and social content, product experiences, visual search, rapid
-    prototyping, and high-volume generation.
+  description: GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation
+    and editing model, offering an extra level of precision for detailed creative
+    work at the cost of longer generation times than Flare. It shares Images 2.5's
+    improvements in reference fidelity, precise edits, and multi-turn consistency,
+    with sharper detail, more natural lighting, richer textures, and better handling
+    of complex layouts and transparent backgrounds. Recommended for premium visual
+    workflows like production-ready campaign creative or polished product imagery.
   capabilities:
     context_length: 128000
     max_output_tokens: 4096
@@ -1183,8 +1183,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-image-2
   name: 'OpenAI: GPT Image 2'
   status: declared
@@ -1212,8 +1212,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-image-1.5
   name: 'OpenAI: GPT Image 1.5'
   status: declared
@@ -1239,13 +1239,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-2.5-flash-image
   name: 'Google: Gemini 2.5 Flash Image (Nano Banana)'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Google Gemini 2.5 Flash Image (often nicknamed "nano-banana") is Google's
     latest state-of-the-art multimodal model for image generation and editing, designed
     for both developers and enterprises. It enables users to create, blend, and edit
@@ -1269,8 +1269,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: Qwen/Qwen2.5-72B-Instruct
   name: 'Qwen: Qwen2.5 72B Instruct'
   status: declared
@@ -1297,8 +1297,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: Qwen/Qwen3-14B
   name: 'Qwen: Qwen3 14B'
   status: declared
@@ -1326,13 +1326,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: Qwen/Qwen3-30B-A3B
   name: 'Qwen: Qwen3 30B A3B'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'A Mixture-of-Experts model that activates only 3.3B of its 30.5B parameters
     per forward pass. Offers dual thinking modes: a detailed step-by-step reasoning
     mode for complex problems and a faster non-thinking mode for simpler queries.
@@ -1355,13 +1355,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: ace-step/prompt-to-audio
   name: 'ACE Step: Prompt-to-Audio'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: ACE-Step is an open-source model built to address the shortcomings
     of previous music generation systems by combining diffusion techniques, Sana’s
     Deep Compression AutoEncoder (DCAE), and a lightweight linear transformer. The
@@ -1387,13 +1387,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: alibaba/happyhorse-1.1
   name: 'Alibaba: HappyHorse 1.1'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: HappyHorse 1.1 is Alibaba's closed-weight cinematic video generation
     model, producing clips of 3-15 seconds with synchronized audio and multilingual
     lip-synced dialogue generated in a single pass. It generates video from a text
@@ -1421,8 +1421,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-4.1
   name: 'Anthropic: Claude Opus 4.1'
   status: declared
@@ -1455,8 +1455,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-4.5
   name: 'Anthropic: Claude Opus 4.5'
   status: declared
@@ -1487,8 +1487,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: anthropic/claude-opus-4.6
   name: 'Anthropic: Claude Opus 4.6'
   status: declared
@@ -1519,13 +1519,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: black-forest-labs/flux-dev
   name: 'Black Forest Labs: FLUX Dev'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: FLUX.1 [dev] is a 12 billion parameter text-to-image model developed
     by Black Forest Labs for high-quality image generation and editing from text prompts.It
     excels at generating photorealistic images with strong prompt adherence, real-world
@@ -1548,13 +1548,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: black-forest-labs/flux-kontext-pro
   name: 'Black Forest Labs: FLUX Kontext Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: price_zero_unverified
   description: FLUX.1 Kontext [pro] is an advanced image generation and editing model
     from Black Forest Labs that supports both text prompts and reference images for
     in-context modifications.
@@ -1575,13 +1575,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: black-forest-labs/flux-pro-2.0
   name: 'Black Forest Labs: FLUX 2 Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: price_zero_unverified
   description: FLUX.2 Pro (also styled as Flux-2-Pro or FLUX.2 [pro]) is a production-grade
     AI image generation and editing model developed by Black Forest Labs, released
     in November 2025 as the flagship of the FLUX.2 family. It excels in creating high-quality,
@@ -1606,8 +1606,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: black-forest-labs/flux-schnell
   name: 'Black Forest Labs: FLUX Schnell'
   status: declared
@@ -1636,8 +1636,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/dreamina-seedance-2-5
   name: 'ByteDance: Seedance 2.5'
   status: declared
@@ -1667,13 +1667,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedance-1.5-pro
   name: 'ByteDance: Seedance 1.5 Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: unknown
   description: Seedance 1.5 Pro is an advanced, joint audio-video AI generation model
     from ByteDance Seed, designed to create high-fidelity, cinematic, 4–12 second
     clips with synchronized audio, dialogue, and sound effects in a single pass. Utilizing
@@ -1698,8 +1698,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedance-2
   name: 'ByteDance: Seedance 2'
   status: declared
@@ -1728,8 +1728,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedance-2-fast
   name: 'ByteDance: Seedance 2 Fast'
   status: declared
@@ -1757,8 +1757,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedance-2-mini
   name: 'ByteDance: Seedance 2 Mini'
   status: declared
@@ -1787,13 +1787,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedance-pro
   name: 'ByteDance: Seedance Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: unknown
   description: Seedance 1.0 Pro is the full version of the Seedance model (ByteDance)
     with professional-level capabilities. Like the Lite version, it creates 1080p
     multi-shot videos from text or images, but with enhanced storytelling features.
@@ -1820,13 +1820,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedream-4.0
   name: 'ByteDance: Seedream 4.0'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Seedream 4.0 is a next-generation AI image generation and editing model
     developed by ByteDance Seed, unifying text-to-image synthesis, image editing,
     and multi-image composition in a single architecture for high-resolution outputs
@@ -1850,13 +1850,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedream-4.5
   name: 'ByteDance: seedream-4.5'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Seedream 4.5 is ByteDance Seed’s advanced AI image generation model
     for creating high-quality visuals with strong prompt adherence, excellent character
     consistency, and precise image editing. It supports text-to-image, image-to-image,
@@ -1881,13 +1881,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: bytedance/seedream-5-lite
   name: 'ByteDance: Seedream 5.0 Lite'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: unknown
   description: Seedream 5.0 Lite is ByteDance's fast, cost-efficient image-generation
     model from the Seedream family, built on a unified generation-editing architecture
     that runs text-to-image, single-image editing, multi-image fusion, and batch sequence
@@ -1911,13 +1911,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepgram/nova-3
   name: 'Deepgram: Nova 3'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Deepgram Nova-3 is a fast, accurate speech-to-text model served through
     Telnyx's OpenAI-compatible transcription endpoint. It supports English variants
     (en, en-US, en-GB, en-AU, en-NZ, en-IN) and only accepts mp3 or wav audio files.
@@ -1941,8 +1941,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepinfra/intfloat-e5-base-v2
   name: 'DeepInfra: intfloat/e5-base-v2'
   status: declared
@@ -1967,13 +1967,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek-ai/DeepSeek-R1
   name: 'DeepSeek: R1'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: A frontier-level reasoning model with 671B total parameters (37B activated
     per token) that delivers performance comparable to OpenAI's o1 across mathematics,
     coding, and reasoning tasks. Licensed under MIT for free commercial use, it pioneered
@@ -1996,13 +1996,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: deepseek/deepseek-v3.1
   name: 'DeepSeek: DeepSeek V3.1'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'DeepSeek V3.1 is an advanced open-source hybrid AI model designed
     to balance powerful reasoning with high-speed efficiency. It uniquely supports
     two inference modes—"Think" for deep reasoning and "Non-Think" for direct, lightweight
@@ -2028,8 +2028,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-2.5-flash
   name: 'Google: Gemini 2.5 Flash'
   status: declared
@@ -2062,13 +2062,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-2.5-pro
   name: 'Google: Gemini 2.5 Pro '
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: Gemini 2.5 Pro is Google's premiere thinking model built for enterprise-grade
     applications requiring sophisticated reasoning. It delivers top performance on
     critical benchmarks, featuring built-in reasoning capabilities that enable it
@@ -2096,8 +2096,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3-flash-preview
   name: 'Google: Gemini 3 Flash Preview'
   status: declared
@@ -2128,13 +2128,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3-pro-image-preview
   name: 'Google: Gemini 3 Pro Image Preview (Nano Banana Pro)'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: price_zero_unverified
   description: Gemini 3 Pro Image Preview is a high-end image generation and editing
     model in the Gemini 3 family (also known as Nano Banana Pro), built to produce
     studio-quality visuals with strong reasoning over complex prompts. It is optimized
@@ -2158,8 +2158,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.1-flash-lite-image
   name: 'Google: Nano Banana 2 Lite (Gemini 3.1 Flash-Lite Image)'
   status: declared
@@ -2189,13 +2189,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.1-pro-preview
   name: 'Google: Gemini 3.1 Pro Preview'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: "Google's gemini-3.1-pro-preview (also called Gemini 3.1 Pro Preview)\
     \ is a preview-stage, multimodal AI model from Google DeepMind, optimized for\
     \ advanced reasoning, agentic workflows, software engineering, and complex problem-solving\
@@ -2225,8 +2225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-3.5-flash
   name: 'Google: Gemini 3.5 Flash'
   status: declared
@@ -2257,8 +2257,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-embedding-001
   name: 'Google: gemini-embedding'
   status: declared
@@ -2283,8 +2283,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-omni-1.1-flash
   name: 'Google: Gemini Omni 1.1 Flash'
   status: declared
@@ -2318,8 +2318,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemini-omni-flash-preview
   name: 'Google: Gemini Omni Flash Preview'
   status: declared
@@ -2351,13 +2351,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemma-4-26b-a4b-it
   name: 'Google: Gemma 4 26B A4B IT'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Gemma 4 26B A4B IT is a 26B-parameter Mixture-of-Experts, instruction-tuned,
     open-weight multimodal model from Google DeepMind that processes text, image,
     and video inputs to produce text outputs. It targets long-context (up to ~256K
@@ -2383,8 +2383,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemma-4-31b-it
   name: 'Google: Gemma 4 31B'
   status: declared
@@ -2413,13 +2413,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/gemma4-26b:free
   name: 'Google: Gemma 4 26B (Free)'
   status: declared
   free: true
-  free_type: permanent
+  free_type: free_variant
   description: Gemma 4 26B is a 31B-parameter dense multimodal model from Google DeepMind,
     handling text, image, and audio input to generate text output. It supports an
     explicit thinking mode via control tokens, tool use, and a 256K-token context
@@ -2442,8 +2442,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo2
   name: 'Google: Veo 2'
   status: declared
@@ -2471,8 +2471,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo3
   name: 'Google: Veo 3'
   status: declared
@@ -2501,8 +2501,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo3-fast
   name: 'Google: Veo 3 Fast'
   status: declared
@@ -2531,8 +2531,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo3.1
   name: 'Google: Google Veo 3.1'
   status: declared
@@ -2560,8 +2560,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo3.1-fast
   name: 'Google: Google Veo 3.1 Fast'
   status: declared
@@ -2589,8 +2589,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: google/veo3.1-lite
   name: 'Google: Google Veo 3.1 Lite'
   status: declared
@@ -2617,8 +2617,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-v1-6
   name: 'Kling AI: Kling V1.6'
   status: declared
@@ -2650,8 +2650,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-v2
   name: 'Kling AI: Kling V2'
   status: declared
@@ -2682,8 +2682,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-v2-1
   name: 'Kling AI: Kling V2.1'
   status: declared
@@ -2715,8 +2715,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-v2-1-master
   name: 'Kling AI: Kling V2.1 Master'
   status: declared
@@ -2748,8 +2748,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-v3
   name: 'Kling AI: Kling V3'
   status: declared
@@ -2778,8 +2778,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: kling-ai/kling-video-o1
   name: 'Kling AI: Kling Video O1'
   status: declared
@@ -2806,13 +2806,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: leonardo-ai/lucid-origin
   name: 'Leonardo.AI: Lucid Origin'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Lucid Origin is Leonardo AI's versatile text-to-image model optimized
     for exceptional prompt adherence, vibrant Full HD outputs, and diverse visual
     styles from photorealistic to stylized illustration.
@@ -2833,13 +2833,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: leonardo-ai/lucid-realism
   name: 'Leonardo.AI: Lucid Realism'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Lucid Realism is a specialized text-to-image model from Leonardo AI
     optimized for hyperrealistic, cinematic photorealism with exceptional detail,
     natural lighting, and minimal generation errors.
@@ -2860,13 +2860,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: leonardo-ai/phoenix
   name: 'Leonardo.AI: Phoenix'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Phoenix is Leonardo.AI's flagship foundational text-to-image model
     designed for exceptional prompt adherence and photorealistic results up to 5 megapixels.
   capabilities:
@@ -2886,8 +2886,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: meta-llama/llama-3.1-8b-instant
   name: 'Meta: LLaMA 3.1 8B Instant'
   status: declared
@@ -2918,8 +2918,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: meta-llama/llama-4-scout-17b-16e-instruct
   name: 'Meta: LLaMA 4 Scout 17B 16E Instruct'
   status: declared
@@ -2949,8 +2949,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: meta/muse-spark-1.1
   name: 'Meta: Muse Spark 1.1'
   status: declared
@@ -2982,8 +2982,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: meta/muse-spark-1.2
   name: 'Meta: Muse Spark 1.2'
   status: declared
@@ -3017,8 +3017,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-h3
   name: 'MiniMax: MiniMax-H3'
   status: declared
@@ -3050,13 +3050,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-m2.5
   name: 'MiniMax: MiniMax M2.5'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: MiniMaxAI/MiniMax-M2.5 is a 229B-parameter Mixture-of-Experts (MoE)
     language model with 10B active parameters per token, designed as the world's first
     production-level model natively optimized for agentic scenarios like coding, tool
@@ -3078,8 +3078,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-m2.5-highspeed
   name: 'MiniMax: MiniMax M2.5 Highspeed'
   status: declared
@@ -3106,8 +3106,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-m2.7
   name: 'MiniMax: MiniMax M2.7'
   status: declared
@@ -3135,13 +3135,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-m2.7-highspeed
   name: 'MiniMax: MiniMax M2.7 Highspeed'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: MiniMax-M2.7-HighSpeed is the ultra-fast variant of MiniMax's M2.7
     flagship model, delivering approximately 100 tokens per second—3x faster than
     competitors like Claude Opus 4.6 (~33 tps) and GPT-5 (~40 tps)—while maintaining
@@ -3163,8 +3163,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: minimax/minimax-m3
   name: 'MiniMax: MiniMax M3'
   status: declared
@@ -3193,8 +3193,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: mistralai/Mistral-Nemo-Instruct-2407
   name: 'Mistral: Mistral Nemo'
   status: declared
@@ -3221,8 +3221,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: mistralai/Mistral-Small-24B-Instruct-2501
   name: 'Mistral: Mistral Small 3'
   status: declared
@@ -3250,13 +3250,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: nvidia/nemotron-3-nano-30b:free
   name: 'NVIDIA: Nemotron 3 Nano 30B (Free)'
   status: declared
   free: true
-  free_type: permanent
+  free_type: free_variant
   description: NVIDIA Nemotron 3 Nano 30B is a hybrid Mamba-2/MoE/Attention model
     with 3.5B active parameters, trained from scratch as a unified model for both
     reasoning and non-reasoning tasks. Reasoning traces can be toggled via a chat
@@ -3279,13 +3279,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: nvidia/nemotron-3-super:free
   name: 'NVIDIA: Nemotron 3 Super 120B (Free)'
   status: declared
   free: true
-  free_type: permanent
+  free_type: free_variant
   description: NVIDIA Nemotron 3 Super is a 120B-parameter open mixture-of-experts
     model that activates just 12B parameters per token, delivering high compute efficiency
     and strong reasoning, agentic, and conversational capabilities for complex multi-agent
@@ -3309,8 +3309,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-3.5-turbo
   name: 'OpenAI: GPT-3.5 Turbo'
   status: declared
@@ -3341,8 +3341,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-3.5-turbo-0125
   name: 'OpenAI: GPT-3.5 Turbo 0125'
   status: declared
@@ -3373,8 +3373,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-3.5-turbo-1106
   name: 'OpenAI: GPT-3.5 Turbo 16k (older v1106)'
   status: declared
@@ -3400,8 +3400,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-3.5-turbo-16k
   name: 'OpenAI: GPT-3.5 Turbo 16k'
   status: declared
@@ -3427,8 +3427,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4
   name: 'OpenAI: GPT-4'
   status: declared
@@ -3458,8 +3458,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4-turbo
   name: 'OpenAI: GPT-4 Turbo'
   status: declared
@@ -3489,8 +3489,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4.1
   name: 'OpenAI: GPT-4.1'
   status: declared
@@ -3523,8 +3523,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4.1-mini
   name: 'OpenAI: GPT-4.1 Mini'
   status: declared
@@ -3557,13 +3557,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4.1-nano
   name: 'OpenAI: GPT-4.1 Nano'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'GPT-4.1 Nano is OpenAI''s most efficient model optimized for maximum
     speed and minimum cost in the GPT-4.1 family. Released in April 2025, this compact
     model maintains the full 1 million token context window while delivering impressive
@@ -3591,8 +3591,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o
   name: 'OpenAI: GPT-4o'
   status: declared
@@ -3625,8 +3625,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o-2024-05-13
   name: 'OpenAI: GPT-4o (2024-05-13)'
   status: declared
@@ -3659,8 +3659,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o-2024-08-06
   name: 'OpenAI: GPT-4o (2024-08-06)'
   status: declared
@@ -3693,13 +3693,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o-2024-11-20
   name: 'OpenAI: GPT-4o (2024-11-20)'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: GPT-4o (November 2024 version) enhances OpenAI's flagship multimodal
     model with specialized improvements in creative writing and document analysis.
     This updated release delivers more natural, engaging, and contextually tailored
@@ -3727,8 +3727,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o-mini
   name: 'OpenAI: GPT-4o-mini'
   status: declared
@@ -3759,13 +3759,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-4o-mini-2024-07-18
   name: 'OpenAI: GPT-4o-mini (2024-07-18)'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: GPT-4o mini (July 2024 version) represents OpenAI's efficiency-focused
     multimodal model combining strong performance with minimal resource requirements.
     Released in July 2024, this model processes both text and image inputs while generating
@@ -3793,8 +3793,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5
   name: 'OpenAI: GPT-5'
   status: declared
@@ -3825,8 +3825,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5-mini
   name: 'OpenAI: GPT-5-Mini'
   status: declared
@@ -3857,8 +3857,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5-nano
   name: 'OpenAI: GPT-5-Nano'
   status: declared
@@ -3890,8 +3890,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.1
   name: 'OpenAI: GPT-5.1'
   status: declared
@@ -3919,8 +3919,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.2
   name: 'OpenAI: GPT-5.2'
   status: declared
@@ -3949,13 +3949,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.2-pro
   name: 'OpenAI: GPT-5.2 Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: GPT-5.2 Pro is OpenAI's flagship enterprise-grade reasoning model released
     on December 10, 2025, designed for sophisticated professional workflows requiring
     advanced problem-solving capabilities.
@@ -3978,8 +3978,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.4
   name: 'OpenAI: GPT-5.4'
   status: declared
@@ -4012,13 +4012,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.4-mini
   name: 'OpenAI: GPT-5.4 Mini'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: "GPT-5.4 mini is OpenAI's compact, high-performance model in the GPT-5.4\
     \ family, balancing advanced reasoning, multimodal capabilities, and efficiency\
     \ for high-volume workloads like coding, agent workflows, and production-scale\
@@ -4046,8 +4046,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.4-nano
   name: 'OpenAI: GPT-5.4 Nano'
   status: declared
@@ -4081,13 +4081,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.4-pro
   name: 'OpenAI: GPT-5.4 Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's
     unified architecture with enhanced reasoning capabilities for complex, high-stakes
     tasks. It features a 1M+ token context window (922K input, 128K output) with support
@@ -4113,13 +4113,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.5
   name: 'OpenAI: GPT-5.5'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: OpenAI's GPT-5.5 is a large language model (LLM) released on April
     23, 2026, codenamed "Spud," positioned as the company's smartest model yet for
     complex real-world tasks like coding, research, data analysis, and agentic workflows.
@@ -4144,13 +4144,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.5-pro
   name: 'OpenAI: GPT-5.5 Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: OpenAI's GPT-5.5 Pro is a premium variant of the GPT-5.5 model, designed
     for higher-tier users (Pro, Business, Enterprise) handling demanding workloads
     like advanced research, business analysis, legal tasks, and deep reasoning with
@@ -4175,8 +4175,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.6-luna
   name: 'OpenAI: GPT-5.6 Luna'
   status: declared
@@ -4206,8 +4206,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.6-sol
   name: 'OpenAI: GPT-5.6 Sol'
   status: declared
@@ -4238,8 +4238,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-5.6-terra
   name: 'OpenAI: GPT-5.6 Terra'
   status: declared
@@ -4269,13 +4269,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-6-astra
   name: 'OpenAI: GPT-6 Astra'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: GPT-6 Astra is OpenAI’s flagship frontier model for complex end-to-end
     work, featuring very long context (up to ~1.05M tokens), advanced reasoning with
     configurable effort levels, and strong performance on coding, computer use, research,
@@ -4302,8 +4302,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-image-1
   name: 'OpenAI: GPT-image-1'
   status: declared
@@ -4334,8 +4334,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-image-1-mini
   name: 'OpenAI: GPT Image 1: Mini'
   status: declared
@@ -4363,13 +4363,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-oss-120b
   name: 'OpenAI: GPT OSS 120B'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: GPT-OSS-120B is OpenAI’s most powerful open-weight model, designed
     for production-grade reasoning tasks with 117 billion parameters and a Mixture-of-Experts
     (MoE) architecture that activates 5.1 billion parameters per token. It uses a
@@ -4394,13 +4394,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-oss-120b:free
   name: 'OpenAI: gpt-oss-120b (Free)'
   status: declared
   free: true
-  free_type: permanent
+  free_type: free_variant
   description: gpt-oss-120b is OpenAI's larger open-weight model, designed for powerful
     reasoning, agentic tasks, and versatile developer use cases. It offers native
     function calling, python tool calls, structured outputs, full chain-of-thought
@@ -4424,8 +4424,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-oss-20b
   name: 'OpenAI: GPT OSS 20B'
   status: declared
@@ -4453,8 +4453,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-oss-20b:free
   name: 'OpenAI: gpt-oss-20b (Free)'
   status: declared
@@ -4482,13 +4482,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-realtime
   name: GPT Realtime
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'This is OpenAI''s general-availability realtime model, capable of
     responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP
     connections. Supports a 32,000 token context window and up to 4,096 output tokens
@@ -4513,8 +4513,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-realtime-1.5
   name: 'OpenAI: GPT Realtime 1.5'
   status: declared
@@ -4542,8 +4542,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-realtime-2.1
   name: 'OpenAI: GPT-Realtime-2.1'
   status: declared
@@ -4570,13 +4570,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-realtime-mini
   name: GPT Realtime Mini
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'A cost-efficient version of GPT Realtime, capable of responding to
     audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.
     Supports a 32,000 token context window and up to 4,096 output tokens per response
@@ -4601,13 +4601,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/gpt-transcribe
   name: 'OpenAI: GPT Transcribe'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: GPT Transcribe is OpenAI's speech-to-text model for completed audio
     files, streamed file transcripts, and committed turns in Realtime sessions over
     WebSocket. It supports unstructured context, keyword hints, and multiple language
@@ -4633,8 +4633,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o1
   name: 'OpenAI: o1'
   status: declared
@@ -4662,8 +4662,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o3
   name: 'OpenAI: o3'
   status: declared
@@ -4695,8 +4695,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o3-mini
   name: 'OpenAI: o3 Mini'
   status: declared
@@ -4727,8 +4727,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o3-mini-high
   name: 'OpenAI: o3 Mini High'
   status: declared
@@ -4759,8 +4759,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o4-mini
   name: 'OpenAI: o4 Mini'
   status: declared
@@ -4792,8 +4792,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/o4-mini-high
   name: 'OpenAI: o4 Mini High'
   status: declared
@@ -4826,13 +4826,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/omni-moderation-latest
   name: Omni Moderation (Latest)
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Omni Moderation (Latest) is a state-of-the-art moderation model designed
     for real-time classification of unsafe, offensive, or policy-violating content.
     It supports text moderation across multiple languages and content types, including
@@ -4855,8 +4855,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/sora-2
   name: 'OpenAI: Sora 2'
   status: declared
@@ -4885,13 +4885,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/sora-2-pro
   name: 'OpenAI: Sora 2 Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: unknown
   description: Sora-2 Pro is OpenAI’s premium offering for its latest AI-powered video
     and audio generation system, Sora 2, launched in October 2025. Sora-2 Pro is designed
     for professional creators and advanced users, giving them enhanced creative controls,
@@ -4914,13 +4914,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/text-embedding-3-large
   name: 'OpenAI: text-embedding-3-large'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: text-embedding-3-large is OpenAI's high-capacity embedding model for
     text, aimed at delivering the strongest semantic encoding. It produces 3072-dimensional
     embeddings and achieves the highest accuracy among OpenAI's embedding models (about
@@ -4946,13 +4946,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/text-embedding-3-small
   name: 'OpenAI: text-embedding-3-small'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: text-embedding-3-small is a compact OpenAI text embedding model designed
     for general-purpose semantic tasks (search, classification, similarity) with high
     throughput. It produces 1536-dimensional vectors and is optimized for efficiency.
@@ -4978,13 +4978,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/text-embedding-ada-002
   name: 'OpenAI: text-embedding-ada-002'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: text-embedding-ada-002 (often called ada v2) is an earlier-generation
     OpenAI embedding model for general semantic tasks like text and code search, clustering,
     and classification. It produces 1536-dimensional embeddings and was initially
@@ -5010,13 +5010,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/tts-1
   name: 'OpenAI: TTS-1'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'OpenAI: TTS-1 is a text-to-speech model optimised for real-time use
     cases, converting text into natural-sounding spoken audio with low latency.
 
@@ -5042,13 +5042,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/tts-1-hd
   name: 'OpenAI: TTS-1 HD'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: 'OpenAI: TTS-1-HD is a text-to-speech model optimised for high audio
     fidelity, converting text into natural-sounding spoken audio with greater clarity
     and detail than the standard tts-1 model, at roughly double the cost.
@@ -5075,8 +5075,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/whisper-1
   name: 'OpenAI: Whisper-1'
   status: declared
@@ -5102,13 +5102,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: openai/whisper-large-v3
   name: 'OpenAI: Whisper Large V3 '
   status: declared
   free: null
-  free_type: zero_price
+  free_type: unknown
   description: Whisper Large V3 is OpenAI's general-purpose speech recognition model,
     trained on a large and diverse audio dataset. It is a multi-task model capable
     of multilingual speech recognition, speech translation to English, and language
@@ -5131,8 +5131,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: perplexity/sonar
   name: 'Perplexity: Sonar'
   status: declared
@@ -5164,8 +5164,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: perplexity/sonar-deep-research
   name: 'Perplexity: Sonar Deep Research'
   status: declared
@@ -5196,13 +5196,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: perplexity/sonar-pro
   name: 'Perplexity: Sonar Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: 'Sonar Pro is an advanced non-reasoning search model designed for handling
     complex, multi-step queries that demand deeper content understanding and high
     citation accuracy. With a large context length of 200k, it excels at retrieving
@@ -5229,13 +5229,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: perplexity/sonar-reasoning-pro
   name: 'Perplexity: Sonar Reasoning Pro'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: Sonar Reasoning Pro is a high-performance reasoning model designed
     to tackle complex topics that require advanced multi-step thinking and deep content
     understanding. With a context length of 128k, it combines enhanced Chain-of-Thought
@@ -5262,8 +5262,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: pika/pika-v2-2
   name: 'Pika: Pika V2.2'
   status: declared
@@ -5295,8 +5295,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: pollo/pollo-v1-6
   name: 'Pollo: Pollo V1.6'
   status: declared
@@ -5327,8 +5327,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen-image
   name: 'Qwen: Qwen Image'
   status: declared
@@ -5356,8 +5356,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen-image-2512
   name: 'Qwen: Qwen Image 2512'
   status: declared
@@ -5384,8 +5384,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen-image-3
   name: 'Qwen: Qwen Image 3.0'
   status: declared
@@ -5414,13 +5414,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen-image-3-pro
   name: 'Qwen: Qwen Image 3.0 Pro'
   status: declared
-  free: false
-  free_type: subscription
+  free: null
+  free_type: unknown
   description: Qwen-Image 3.0 Pro is the high-quality tier of the Qwen-Image 3.0 series,
     offering stronger text rendering, more realistic textures, and better semantic
     adherence for both text-to-image (T2I) and image-to-image/editing (I2I). Output
@@ -5443,8 +5443,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen3-32b
   name: 'Qwen: Qwen3 32B'
   status: declared
@@ -5475,8 +5475,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen3-embedding-8b
   name: 'Qwen: Qwen3 Embedding 8B'
   status: declared
@@ -5506,13 +5506,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen3.8-27b
   name: 'Qwen: Qwen3.8 27B'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: Qwen3.8-27B is Alibaba's compact, deployment-friendly open-weight model
     from the Qwen3.8 generation, released under Apache 2.0. It is a 27.8-billion-parameter
     dense model using a hybrid decoder that alternates Gated DeltaNet linear attention
@@ -5539,13 +5539,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: qwen/qwen3.8-max
   name: 'Qwen: Qwen3.8 Max'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: Qwen3.8-Max is Alibaba's flagship sparse mixture-of-experts model,
     with 2.4 trillion total parameters and approximately 95 billion active per forward
     pass, accepting text, image, and video input and returning text with a 1M-token
@@ -5573,8 +5573,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: runway/runway-gen-3-turbo
   name: 'Runway: Runway Gen-3 Turbo'
   status: declared
@@ -5606,8 +5606,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: runway/runway-gen-4-turbo
   name: 'Runway: Runway Gen-4 Turbo'
   status: declared
@@ -5638,8 +5638,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: sarvam/bulbul:v2
   name: 'Sarvam: Bulbul V2'
   status: declared
@@ -5670,8 +5670,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: sarvam/saaras:v3
   name: 'Sarvam: Saaras V3'
   status: declared
@@ -5703,8 +5703,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: sarvam/sarvam-105b
   name: 'Sarvam: Sarvam 105B'
   status: declared
@@ -5732,13 +5732,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: sarvam/sarvam-105b:free
   name: 'Sarvam: Sarvam 105B (Free)'
   status: declared
   free: true
-  free_type: permanent
+  free_type: free_variant
   description: Sarvam 105B is Sarvam AI's flagship open-source Mixture-of-Experts
     (MoE) large language model, trained from scratch as India's first competitive
     105-billion-parameter model. It delivers strong performance across Indian languages
@@ -5761,13 +5761,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: typesafe/jev-latest
   name: 'TypeSafe: Jev (latest)'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: Jev is TypeSafe's flagship System One model, served by POST /v1/systemone.
     It evaluates a text `state` against a map of typed `questions` (noul yes/no, choice,
     and score) and returns one calibrated `answer` per question. `jev-latest` currently
@@ -5791,8 +5791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: vidu/vidu-q1
   name: 'Vidu: Vidu Q1'
   status: declared
@@ -5824,8 +5824,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: vidu/vidu-v2-0
   name: 'Vidu: Vidu V2.0'
   status: declared
@@ -5856,13 +5856,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: wanx/wan-v2-6
   name: 'Alibaba: Wan 2.6 '
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Wan 2.6 is a state-of-the-art, open-source multimodal AI video generation
     model developed by Alibaba Cloud (released around December 2025). It is designed
     to create high-fidelity, 1080p cinematic videos up to 15 seconds long from text,
@@ -5885,13 +5885,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: wanx/wan-v2-7
   name: 'Alibaba: Wan 2.7'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: price_zero_unverified
   description: Wan 2.7 is Alibaba Tongyi Lab's flagship video generation model, offering
     text-to-video, image-to-video, reference-to-video, and instruction-based video
     editing through one endpoint. It supports first-and-last-frame control, up to
@@ -5918,8 +5918,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: wanx/wan-v3-0
   name: 'Alibaba: Wan 3.0'
   status: declared
@@ -5953,8 +5953,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-3-beta
   name: 'xAI: Grok 3 Beta'
   status: declared
@@ -5985,8 +5985,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-3-mini-beta
   name: 'xAI: Grok 3 Mini Beta'
   status: declared
@@ -6017,13 +6017,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-4.20-beta
   name: 'xAI: Grok 4.20 Beta'
   status: declared
-  free: null
-  free_type: zero_price
+  free: false
+  free_type: paid
   description: Grok 4.20 Beta is xAI’s newest flagship large language model that uses
     four specialized “agents” working together to answer complex questions more accurately
     and with deeper reasoning than prior Grok versions.
@@ -6045,8 +6045,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-4.3
   name: 'xAI: Grok 4.3'
   status: declared
@@ -6073,8 +6073,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-build-0.1
   name: 'xAI: Grok Build 1'
   status: declared
@@ -6102,8 +6102,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-imagine-image
   name: 'xAI: Grok Imagine Image'
   status: declared
@@ -6130,8 +6130,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-imagine-image-quality
   name: 'xAI: Grok Imagine (Image Quality)'
   status: declared
@@ -6159,8 +6159,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: x-ai/grok-imagine-video
   name: 'xAI: Grok Imagine (Video)'
   status: declared
@@ -6189,8 +6189,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-4.6
   name: 'Z.AI: GLM 4.6'
   status: declared
@@ -6220,8 +6220,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-4.7
   name: 'Z.AI: GLM 4.7'
   status: declared
@@ -6248,8 +6248,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5
   name: 'Z.AI: GLM 5'
   status: declared
@@ -6278,8 +6278,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5.1
   name: 'Z.ai: GLM 5.1'
   status: declared
@@ -6306,8 +6306,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5.2
   name: 'Z.ai: GLM 5.2'
   status: declared
@@ -6333,13 +6333,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5.3
   name: 'Z.ai: GLM-5.3'
   status: declared
   free: false
-  free_type: subscription
+  free_type: paid
   description: GLM-5.3 is Z.ai’s latest GLM-5-series flagship, a 743B-parameter text-only
     foundation model post-trained from GLM-5.2 for frontier-level coding, long-horizon
     agentic workflows, and defensive cybersecurity analysis. It inherits GLM-5’s 200K-token
@@ -6362,8 +6362,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5.3-flash
   name: 'Z.ai: GLM-5.3-Flash'
   status: declared
@@ -6393,8 +6393,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-5.3-flashx
   name: 'Z.ai: GLM-5.3-FlashX'
   status: declared
@@ -6427,13 +6427,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-ai/glm-image
   name: 'Z.AI: GLM-Image'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: unknown
   description: GLM-Image is Z.AI's text-to-image generation model that quickly and
     accurately understands text descriptions to produce precise, personalized, high-quality
     images. It supports an 'hd' mode for more detailed and consistent output (~20s
@@ -6456,8 +6456,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-image/base
   name: 'Z-Image: Base'
   status: declared
@@ -6485,13 +6485,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
 - id: z-image/turbo
   name: 'Z-Image: Turbo'
   status: declared
   free: null
-  free_type: zero_price
+  free_type: unknown
   description: Z-Image Turbo is a super fast text-to-image model of 6B parameters
     developed by Tongyi-MAI. It compresses inference to as few as 1-8 diffusion steps
     (default 8), delivering high-volume, low-cost image generation at $0.005 per megapixel
@@ -6515,6 +6515,6 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-09T03:18:08Z'
-  last_verified: '2026-10-09T03:18:08Z'
-last_verified: '2026-10-09T03:18:08Z'
+    at: '2026-10-09T03:23:49Z'
+  last_verified: '2026-10-09T03:23:49Z'
+last_verified: '2026-10-09T03:23:50Z'
