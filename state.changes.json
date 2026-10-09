@@ -3,28 +3,35 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "22896e03c31171a67af84ef15802486aa31f95f91ee4a982e8bd7b143363517d",
-  "new_hash": "0dae1b9ba70b3192faa9dc5bce56cb5dab64d220ce944feac0c97c68c92888c7"
+  "old_hash": "0dae1b9ba70b3192faa9dc5bce56cb5dab64d220ce944feac0c97c68c92888c7",
+  "new_hash": "e698f3d430729292465ed4e639d6402a02a9629bb945c4c1f3e4d3e214118cf4"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "0e3ecd6afd648ddc43f38b5b42b4b5a59d9a8d2d06dc11836e1fbb1a9de5706f",
-  "new_hash": "278e7e92b0cb38073daaaa3534198e95b6d391c86bc2946e57e24cf878f80cd9"
+  "old_hash": "278e7e92b0cb38073daaaa3534198e95b6d391c86bc2946e57e24cf878f80cd9",
+  "new_hash": "bfd909b26cf2733df2d07b821ea30712748c5b3a2064b6510afb761bc1aafa6f"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "ffaaa1124a54d3738ba90f647b11a4f6c4a9ebb77959e91e6e601137c7e9704b",
-  "new_hash": "81de7387ec7e36bf5bd7da11210dfcbd01ea3a9f8c76e9497bd1d4ff5ebdf83c"
+  "old_hash": "81de7387ec7e36bf5bd7da11210dfcbd01ea3a9f8c76e9497bd1d4ff5ebdf83c",
+  "new_hash": "74fdbae11579f94ea2709a91b1208cc251a96ffb474d020c0df3683a95b0e422"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "ecd75a10bc0c223833af9692217642975792aa70874ad6394bbb0bd2591311ca",
-  "new_hash": "08a64cb38703da73ca955233d07f5ec2584958bf4932ae8b20cc35bf47c5e667"
+  "old_hash": "08a64cb38703da73ca955233d07f5ec2584958bf4932ae8b20cc35bf47c5e667",
+  "new_hash": "ba29ef99dcb7ccb01388a902ef9f83881e1cf44055afbb9eb2557dc204cfa963"
+ },
+ {
+  "provider": "llmgateway",
+  "url": "https://api.llmgateway.io/v1/models",
+  "type": "official_api",
+  "old_hash": "a160f2be6a5199f45aba8074bfc2854e69ec59901ee09cd3919c53f7307a985f",
+  "new_hash": "04be1da8550e4ed19f6f74d877f877202bda7285f5cf482813ed011de2cae28e"
  }
 ]
