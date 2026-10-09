@@ -90,9 +90,9 @@ def render_readme(rows):
     return "\n".join(lines)
 
 
-SITE_TEMPLATE = r"""<!doctype html><html lang="zh"><head><meta charset="utf-8">
+SITE_TEMPLATE = r"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>free-ai-radar - 免费AI模型清单</title>
+<title>free-ai-radar - Free AI model directory</title>
 <style>
 *{box-sizing:border-box} body{font:15px/1.55 -apple-system,Segoe UI,system-ui,sans-serif;margin:0;background:#0d1117;color:#c9d1d9}
 .wrap{max-width:1080px;margin:0 auto;padding:20px 16px}
@@ -188,79 +188,83 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 footer{color:#484f58;font-size:12px;margin-top:24px;text-align:center}
 code{background:#21262d;padding:1px 5px;border-radius:4px}
 </style></head><body><div class="wrap">
-<header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
-<div class="sub">每条事实带来源与抓取/实测时间 &middot; 无证据写 unknown &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
+<header><h1>&#128269; free-ai-radar &mdash; <span data-i18n="h1">Free AI model directory</span></h1>
+<div class="sub">Every fact carries a source &amp; fetched/probed time &middot; no evidence = unknown &middot; source of truth <code>providers/*.yaml</code> &middot; <span data-i18n="updated">updated</span> <span id="gents">__GEN__</span></div></header>
 <div class="hero">
-  <a class="cta" id="regbtn" href="#catalog" data-reg="site">&#127760; 看 74 家厂商的免费模型 &mdash; 点下方任一模型/厂商进去申请</a>
-  <span class="ctahint">点任一模型的“注册领KEY”即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
+  <a class="cta" id="regbtn" href="#catalog" data-reg="site" data-i18n="cta">&#127760; Browse free models from 74 vendors — click any model/vendor below to sign up</a>
+  <span class="ctahint"><span data-i18n="ctahint">Click "Get API key" on any model to upvote it</span> &middot; <span data-i18n="registered">registered</span> <b id="regcount">0</b></span>
 </div>
 <div class="submitbar">
-  <a href="#subform" class="subbtn" id="subopen">&#128227; 我要提交一个免费模型 / 新渠道</a>
-  <span class="subhint">自动查重,人工核验后入库</span>
+  <a href="#subform" class="subbtn" id="subopen" data-i18n="submitbtn">&#128227; Submit a free model / new channel</a>
+  <span class="subhint" data-i18n="subhint">Auto-dedup, manually verified before landing</span>
 </div>
 <div class="stats">
-<div class="stat"><b>__TOTAL__</b><span>已收录(可路由)</span></div>
-<div class="stat"><b>__PEND__</b><span>待核验(价格0)</span></div>
-<div class="stat"><b>__CATALOGN__</b><span>目录发现(待核验)</span></div>
-<div class="stat"><b>__PROBED__</b><span>已实测</span></div>
-<div class="stat"><b>__PROV__</b><span>渠道(有数据)</span></div>
+<div class="stat"><b>__TOTAL__</b><span data-i18n="stat_total">Ingested (routable)</span></div>
+<div class="stat"><b>__PEND__</b><span data-i18n="stat_pend">To verify (price 0)</span></div>
+<div class="stat"><b>__CATALOGN__</b><span data-i18n="stat_catalog">In directory (to verify)</span></div>
+<div class="stat"><b>__PROBED__</b><span data-i18n="stat_probed">Probed live</span></div>
+<div class="stat"><b>__PROV__</b><span data-i18n="stat_prov">Channels (with data)</span></div>
 </div>
 <div class="chanbar" id="chanbar"></div>
 <div class="controls">
-<input type="search" id="q" placeholder="搜模型名 / 描述 / 厂商...">
-<label class="toggle"><input type="checkbox" id="onlyfree"> 只看免费</label>
+<input type="search" id="q" placeholder="Search model / description / vendor...">
+<label class="toggle"><input type="checkbox" id="onlyfree"> <span data-i18n="onlyfree">Free only</span></label>
 <select id="sort">
-<option value="free">排序: 免费优先</option>
-<option value="ctx">排序: 上下文最大</option>
-<option value="price">排序: 价格最低</option>
-<option value="new">排序: 最新收录</option>
+<option value="free" data-i18n="sort_free">Sort: free first</option>
+<option value="ctx" data-i18n="sort_ctx">Sort: largest context</option>
+<option value="price" data-i18n="sort_price">Sort: lowest price</option>
+<option value="new" data-i18n="sort_new">Sort: newest</option>
+</select>
+<select id="langsel" title="Language">
+<option value="en" selected>English</option>
+<option value="zh">中文</option>
 </select>
 </div>
 <div class="chips" id="chips">
-<span class="chip" data-f="image_input">图像输入</span>
-<span class="chip" data-f="reasoning">推理</span>
-<span class="chip" data-f="tools">工具调用</span>
-<span class="chip" data-f="json_mode">JSON输出</span>
+<span class="chip" data-f="image_input" data-i18n="f_image">Vision input</span>
+<span class="chip" data-f="reasoning" data-i18n="f_reason">Reasoning</span>
+<span class="chip" data-f="tools" data-i18n="f_tools">Tool calling</span>
+<span class="chip" data-f="json_mode" data-i18n="f_json">JSON output</span>
 </div>
 <div id="list"></div>
 <section class="catalog" id="catalog">
-<h2>&#127760; 免费模型总目录 &mdash; 哪些厂商有免费模型</h2>
-<p class="hint">已收录的直接看;待申请的按钮如实标注去向(注册口/控制台/文档),需自行到厂商处申请。models.dev 只提供文档链接,多数按钮是&quot;查官方文档&quot;而非直接注册页。</p>
+<h2>&#127760; <span data-i18n="cat_h">Free-model directory — which vendors have free models</span></h2>
+<p class="hint" data-i18n="cat_hint">Ingested ones you can open directly; pending buttons honestly label where they lead (signup / console / docs) — you must apply at the vendor yourself. models.dev only gives doc links, so most buttons are "view official docs" rather than a direct signup page.</p>
 <div class="vgrid" id="vgrid"></div>
 </section>
 <section class="submitbox open" id="submitbox">
-<h2>&#128227; 主动提交免费模型 / 新渠道 <span class="hint">(自动查重 + 人工审核, 字段与 Issue 模板一致)</span></h2>
+<h2>&#128227; <span data-i18n="sub_h">Submit a free model / new channel</span> <span class="hint" data-i18n="sub_hhint">(auto-dedup + manual review, fields match the Issue template)</span></h2>
 <form id="subform">
   <div class="findbox">
-    <input id="sfind" placeholder="先搜索：厂商、模型或域名 —— 命中就在卡片上报，搜不到再填下面新增" autocomplete="off">
+    <input id="sfind" placeholder="Search first: vendor, model or domain — if found, report on the card; only add below if not found" autocomplete="off">
     <div id="sfindres"></div>
   </div>
-  <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页 (必填)" required>
-  <input id="smid" placeholder="模型 ID(可选,如 deepseek/DeepSeek-V3)">
+  <input id="surl" type="url" placeholder="Endpoint https://.../v1/models or vendor pricing page (required)" required>
+  <input id="smid" placeholder="Model ID (optional, e.g. deepseek/DeepSeek-V3)">
   <div class="frow">
     <select id="stype" required>
-      <option value="">来源类型(必选)…</option>
-      <option value="official_api">official_api 官方API</option>
-      <option value="official_page">official_page 官方定价页</option>
-      <option value="vendor_submission">vendor_submission 厂商自荐</option>
-      <option value="community">community 社区/媒体线索</option>
-      <option value="probe">probe 实测探测</option>
-      <option value="telemetry">telemetry 用量遥测</option>
+      <option value="" data-i18n="stype_empty">Source type (required)…</option>
+      <option value="official_api">official_api official API</option>
+      <option value="official_page">official_page official pricing page</option>
+      <option value="vendor_submission">vendor_submission vendor self-report</option>
+      <option value="community">community community/media lead</option>
+      <option value="probe">probe live probe</option>
+      <option value="telemetry">telemetry usage telemetry</option>
     </select>
     <select id="stier" required>
-      <option value="">免费情况(必选)…</option>
-      <option value="完全免费">完全免费(价格=0)</option>
-      <option value="免费额度层">免费额度层(free tier)</option>
-      <option value="限时免费">限时/活动免费</option>
-      <option value="不确定">不确定,待核验</option>
+      <option value="" data-i18n="stier_empty">Free status (required)…</option>
+      <option value="完全免费" data-i18n="stier_free">Fully free (price = 0)</option>
+      <option value="免费额度层" data-i18n="stier_tier">Free tier (quota)</option>
+      <option value="限时免费" data-i18n="stier_promo">Limited-time / promo free</option>
+      <option value="不确定" data-i18n="stier_unsure">Not sure, to verify</option>
     </select>
   </div>
-  <textarea id="snote" placeholder="说明 / 证据: 免费额度、注册入口等(纯文本,人工核验)"></textarea>
-  <label class="attest"><input type="checkbox" id="sattest" required> 我已查过清单,该地址/模型不重复</label>
-  <button type="submit">提交投稿</button>
+  <textarea id="snote" placeholder="Note / evidence: free quota, signup entry, etc. (plain text, manually verified)"></textarea>
+  <label class="attest"><input type="checkbox" id="sattest" required> <span data-i18n="attest">I checked the list; this endpoint/model is not a duplicate</span></label>
+  <button type="submit" data-i18n="subbtn">Submit</button>
   <span id="submsg"></span>
 </form></section>
-<footer>数据来源: 官方API/页面, 证据见 <code>providers/*.yaml</code> &middot; 无证据写 unknown, 不猜</footer>
+<footer data-i18n="footer">Data from official APIs/pages, evidence in <code>providers/*.yaml</code> &middot; no evidence = unknown, no guessing</footer>
 </div>
 <script>
 let MODELS = __DATA__;
@@ -274,7 +278,7 @@ const save = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch
 const popOf = id => (POP.c[id]||0);
 function likeBtn(id){
   const liked = !!POP.m[id], n = popOf(id);
-  return '<button class="like'+(liked?' on':'')+'" data-id="'+esc(id)+'" title="点赞">&#10084; '+n+'</button>';
+  return '<button class="like'+(liked?' on':'')+'" data-id="'+esc(id)+'" title="'+t("like")+'">&#10084; '+n+'</button>';
 }
 function toggleLike(id){
   if (POP.m[id]) return;            // 已点过 -> 去重,不重复计
@@ -287,19 +291,89 @@ function regClick(prov){
   REG.done=1; REG.n=(REG.n||0)+1; save(REG_KEY,REG); paintReg();
 }
 function paintReg(){ document.getElementById("regcount").textContent = REG.n||0; }
+// 应用语言: 静态(data-i18n) + 重渲染动态内容 + 切 <html lang>
+function applyLang(lang){
+  LANG = (lang==="zh"||lang==="en")?lang:"en";
+  try{ localStorage.setItem("radar_lang", LANG); }catch(e){}
+  document.documentElement.lang = LANG;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const k=el.dataset.i18n, v=t(k);
+    if(v==null) return;
+    if(/<code|&lt;|&amp;/.test(v) || v.indexOf("<code")>=0) el.innerHTML=v; else el.textContent=v;
+  });
+  const sel=document.getElementById("langsel"); if(sel) sel.value=LANG;
+  // 重渲染依赖 t() 的动态区
+  renderChan(); renderCatalog(); render(); runFind(); paintReg();
+}
 const esc = s => (s==null?"":String(s)).replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// ---- i18n: 英文默认, 可切中文 (静态用 data-i18n, 动态用 t()) ----
+const I18N = {
+  en: {
+    h1:"Free AI model directory", updated:"updated", cta:"Browse free models from 74 vendors — click any model/vendor below to sign up",
+    ctahint:"Click \"Get API key\" on any model to upvote it", registered:"registered", submitbtn:"Submit a free model / new channel",
+    subhint:"Auto-dedup, manually verified before landing", stat_total:"Ingested (routable)", stat_pend:"To verify (price 0)",
+    stat_catalog:"In directory (to verify)", stat_probed:"Probed live", stat_prov:"Channels (with data)", onlyfree:"Free only",
+    sort_free:"Sort: free first", sort_ctx:"Sort: largest context", sort_price:"Sort: lowest price", sort_new:"Sort: newest",
+    f_image:"Vision input", f_reason:"Reasoning", f_tools:"Tool calling", f_json:"JSON output",
+    cat_h:"Free-model directory — which vendors have free models",
+    cat_hint:"Ingested ones you can open directly; pending buttons honestly label where they lead (signup / console / docs) — you must apply at the vendor yourself. models.dev only gives doc links, so most buttons are \"view official docs\" rather than a direct signup page.",
+    sub_h:"Submit a free model / new channel", sub_hhint:"(auto-dedup + manual review, fields match the Issue template)",
+    stype_empty:"Source type (required)…", stier_empty:"Free status (required)…", stier_free:"Fully free (price = 0)",
+    stier_tier:"Free tier (quota)", stier_promo:"Limited-time / promo free", stier_unsure:"Not sure, to verify",
+    attest:"I checked the list; this endpoint/model is not a duplicate", subbtn:"Submit",
+    footer:"Data from official APIs/pages, evidence in <code>providers/*.yaml</code> · no evidence = unknown, no guessing",
+    // dynamic (JS-built) strings
+    free:"FREE free", pend:"To verify", no_match:"No matching models",
+    probed:"Probed", fetched:"Fetched", not_probed:"(not probed)", status_declared:"Vendor-declared", status_probed:"Probed live", status_verified:"Verified",
+    pricing:"Pricing page", getkey:"Get API key", limit:"Limit", limit_unknown:"Free limit — see official page (unverified)", ctx:"Context", maxout:"Max output", unknown:"unknown",
+    ingested:"ingested", open:"Open", live_ingested:"Ingested", to_apply:"To apply", verified:"Verified", apply_key:"Apply for key",
+    link_signup:"Signup", link_console:"Console", link_doc:"Official docs", link_pricing:"Pricing", link_home:"Website", link_link:"Link", free_models:"free models",
+    none_found:"↳ Not in the list → fill in a new submission below", needs_key:"needs key",
+    rep_still:"Still works", rep_quota:"Quota changed", rep_gone:"No longer works", rep_phone:"Requires phone", rep_region:"Doesn't work for me",
+    msg_fill:"⚠ Please enter an endpoint or pricing page", msg_dup:"⚠ That endpoint/model is already in the list — duplicate, cannot submit",
+    msg_selfdup:"⚠ You already submitted this endpoint — duplicate, cannot submit", msg_ok:"✓ Passed dedup (not a duplicate). ", msg_gh:"→ Submit on GitHub for review",
+    report_tag:"[Report]", submit_tag:"[Submission]", like:"Upvote"
+  },
+  zh: {
+    h1:"免费AI模型清单", updated:"更新", cta:"看 74 家厂商的免费模型 — 点下方任一模型/厂商进去申请",
+    ctahint:"点任一模型的“注册领KEY”即计入人气", registered:"已注册", submitbtn:"我要提交一个免费模型 / 新渠道",
+    subhint:"自动查重,人工核验后入库", stat_total:"已收录(可路由)", stat_pend:"待核验(价格0)",
+    stat_catalog:"目录发现(待核验)", stat_probed:"已实测", stat_prov:"渠道(有数据)", onlyfree:"只看免费",
+    sort_free:"排序: 免费优先", sort_ctx:"排序: 上下文最大", sort_price:"排序: 价格最低", sort_new:"排序: 最新收录",
+    f_image:"图像输入", f_reason:"推理", f_tools:"工具调用", f_json:"JSON输出",
+    cat_h:"免费模型总目录 — 哪些厂商有免费模型",
+    cat_hint:"已收录的直接看;待申请的按钮如实标注去向(注册口/控制台/文档),需自行到厂商处申请。models.dev 只提供文档链接,多数按钮是“查官方文档”而非直接注册页。",
+    sub_h:"主动提交免费模型 / 新渠道", sub_hhint:"(自动查重 + 人工审核, 字段与 Issue 模板一致)",
+    stype_empty:"来源类型(必选)…", stier_empty:"免费情况(必选)…", stier_free:"完全免费(价格=0)",
+    stier_tier:"免费额度层(free tier)", stier_promo:"限时/活动免费", stier_unsure:"不确定,待核验",
+    attest:"我已查过清单,该地址/模型不重复", subbtn:"提交投稿",
+    footer:"数据来源: 官方API/页面, 证据见 <code>providers/*.yaml</code> · 无证据写 unknown, 不猜",
+    free:"FREE 免费", pend:"待核验", no_match:"没有匹配的模型",
+    probed:"实测", fetched:"抓取", not_probed:"(未实测)", status_declared:"厂商声明", status_probed:"实测", status_verified:"已验证",
+    pricing:"定价页", getkey:"注册领KEY", limit:"限额", limit_unknown:"免费限额见官方页(未核验)", ctx:"上下文", maxout:"输出上限", unknown:"未知",
+    ingested:"个免费模型", open:"打开", live_ingested:"已收录", to_apply:"待申请", verified:"已验证", apply_key:"待申请key", free_models:"个免费模型",
+    link_signup:"注册口", link_console:"控制台", link_doc:"官方文档", link_pricing:"定价页", link_home:"官网", link_link:"链接", needs_key:"待配key",
+    none_found:"↳ 清单未命中 → 在下面填新增投稿", rep_still:"仍可用", rep_quota:"额度变了", rep_gone:"已失效", rep_phone:"要手机号", rep_region:"我这里不能用",
+    msg_fill:"⚠ 请填接口地址或定价页", msg_dup:"⚠ 该地址/模型已在清单中,重复,无法提交",
+    msg_selfdup:"⚠ 你已提交过该地址,重复,无法提交", msg_ok:"✓ 查重通过(非重复)。", msg_gh:"→ 去 GitHub 提交审核",
+    report_tag:"[上报]", submit_tag:"[投稿]", like:"点赞"
+  }
+};
+let LANG = "en";  // 英文默认
+try { LANG = localStorage.getItem("radar_lang") || "en"; } catch(e){}
+const t = k => (I18N[LANG] && I18N[LANG][k]) || (I18N.en[k] || k);
 // 安全: 第三方数据(register/apply/home/pricing)进 href 前过 https 白名单, 非 https(javascript:)一律回 #
 const safeUrl = u => { try{ const x=new URL(u, location.href); return x.protocol==="https:" ? x.href : "#"; }catch(e){ return "#"; } };
-const fmtCtx = n => (n==null)?"未知":n>=1e6?(n/1e6).toFixed(0)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n);
+const fmtCtx = n => (n==null)?t("unknown"):n>=1e6?(n/1e6).toFixed(0)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n);
 const fmtPrice = v => v==null?"?":v===0?"$0":v<0.01?"$"+v.toFixed(4):"$"+v.toFixed(2);
 const FIELDS = ["image_input","reasoning","tools","json_mode"];
-const LABEL = {image_input:"图像输入",reasoning:"推理",tools:"工具调用",json_mode:"JSON输出"};
+const LBLK = {image_input:"f_image",reasoning:"f_reason",tools:"f_tools",json_mode:"f_json"};
 // 能力三态标签: true=确认支持(绿); false=不显示; null=未知(灰, 单独标)
 function capTags(m){
-  let s = FIELDS.filter(f=>m[f]===true).map(f=>'<span class="tag y">'+LABEL[f]+'</span>').join("")
-        + FIELDS.filter(f=>m[f]===null).map(f=>'<span class="tag unk">'+LABEL[f]+' 未知</span>').join("");
-  s += (m.context_length!=null?'<span class="tag">上下文 '+fmtCtx(m.context_length)+'</span>':"")
-     + (m.max_output_tokens!=null?'<span class="tag">输出上限 '+fmtCtx(m.max_output_tokens)+'</span>':"");
+  let s = FIELDS.filter(f=>m[f]===true).map(f=>'<span class="tag y">'+t(LBLK[f])+'</span>').join("")
+        + FIELDS.filter(f=>m[f]===null).map(f=>'<span class="tag unk">'+t(LBLK[f])+' '+t("unknown")+'</span>').join("");
+  s += (m.context_length!=null?'<span class="tag">'+t("ctx")+' '+fmtCtx(m.context_length)+'</span>':"")
+     + (m.max_output_tokens!=null?'<span class="tag">'+t("maxout")+' '+fmtCtx(m.max_output_tokens)+'</span>':"");
   return s;
 }
 // 筛选: 三态, true 才算"支持"; null(unknown) 不算支持(但可被"含未知"单独筛)
@@ -326,34 +400,34 @@ function render(){
     return 0;
   });
   const el = document.getElementById("list");
-  if (!list.length) { el.innerHTML = '<div class="empty">没有匹配的模型</div>'; return; }
+  if (!list.length) { el.innerHTML = '<div class="empty">'+t("no_match")+'</div>'; return; }
   el.innerHTML = list.map(m => {
     const tags = capTags(m);
     // 免费类型 badge: 免费层/免费变体/试用/促销 -> FREE; price_zero_unverified/unknown -> 待核验; 其余显示价格
     let price;
     if (m.free_type==="free_tier"||m.free_type==="free_variant"||m.free_type==="trial"||m.free_type==="promo")
-      price = '<span class="badge free">FREE 免费</span>';
+      price = '<span class="badge free">'+t("free")+'</span>';
     else if (m.free_type==="price_zero_unverified"||m.free_type==="unknown"||m.free===null||m.free===undefined)
-      price = '<span class="badge pend">待核验</span>';
+      price = '<span class="badge pend">'+t("pend")+'</span>';
     else
       price = '<span class="badge paid">'+fmtPrice(m.input_per_million)+' / '+fmtPrice(m.output_per_million)+' per 1M</span>';
     const desc = m.description ? '<div class="desc">'+esc(m.description)+'</div>' : "";
     // 时间: 有 last_probed 显示"实测", 否则"抓取(未实测)" — 不把抓取当验证
     const timeLbl = m.last_probed
-      ? '&#128200; 实测 '+esc(String(m.last_probed).slice(0,10))
-      : '&#128197; 抓取 '+esc(String(m.last_fetched||m.last_verified||"-").slice(0,10))+' (未实测)';
+      ? '&#128200; '+t("probed")+' '+esc(String(m.last_probed).slice(0,10))
+      : '&#128197; '+t("fetched")+' '+esc(String(m.last_fetched||m.last_verified||"-").slice(0,10))+' '+t("not_probed");
     return '<div class="card '+((m.free===true)?"free":"pend")+'">'
       + '<div class="top"><div><span class="nm">'+esc(m.name||m.id)+'</span>'
       + '<div class="nid">'+esc(m.id)+'</div></div>'+price+'</div>'
       + desc
       + '<div class="meta"><span>&#127760; <a href="'+safeUrl(m.provider_home||"")+'" target="_blank" rel="noopener">'+esc(m.provider)+'</a></span>'
       + '<span>'+timeLbl+'</span>'
-      + (m.status?'<span class="tag">'+({declared:"厂商声明",probed:"实测",verified:"已验证"}[m.status]||esc(m.status))+'</span>':"")
-      + '<span>&#128279; <a href="'+safeUrl(m.pricing_url||"")+'" target="_blank" rel="noopener">定价页</a></span></div>'
+      + (m.status?'<span class="tag">'+({declared:t("status_declared"),probed:t("status_probed"),verified:t("status_verified")}[m.status]||esc(m.status))+'</span>':"")
+      + '<span>&#128279; <a href="'+safeUrl(m.pricing_url||"")+'" target="_blank" rel="noopener">'+t("pricing")+'</a></span></div>'
       + (tags?'<div class="tags">'+tags+'</div>':"")
-      + (m.free_limits && m.free_limits!=="unknown" ? '<div class="flim">&#128200; 限额 '+esc(typeof m.free_limits==="object"?JSON.stringify(m.free_limits):String(m.free_limits))+'</div>' : (m.free_type==="free_variant"||m.free_type==="free_tier" ? '<div class="flim unk">&#9888; 免费限额见官方页(未核验)</div>' : ""))
+      + (m.free_limits && m.free_limits!=="unknown" ? '<div class="flim">&#128200; '+t("limit")+' '+esc(typeof m.free_limits==="object"?JSON.stringify(m.free_limits):String(m.free_limits))+'</div>' : (m.free_type==="free_variant"||m.free_type==="free_tier" ? '<div class="flim unk">&#9888; '+t("limit_unknown")+'</div>' : ""))
       + '<div class="pop">'+likeBtn(m.id)
-      + (m.register_url ? ' <a class="reglink" href="'+safeUrl(m.register_url)+'" target="_blank" rel="noopener" data-reg="'+esc(m.provider)+'">&#128279; 注册领KEY</a>' : '')
+      + (m.register_url ? ' <a class="reglink" href="'+safeUrl(m.register_url)+'" target="_blank" rel="noopener" data-reg="'+esc(m.provider)+'">&#128279; '+t("getkey")+'</a>' : '')
       + '</div>'
       + '</div>';
   }).join("");
@@ -373,7 +447,7 @@ function renderChan(){
   if(!el) return;
   el.innerHTML = Object.keys(by).sort((a,b)=>by[b]-by[a]).map(p=>
     '<span class="chan live">'+esc(p)+' <b>'+by[p]+'</b></span>').join("")
-    + '<span class="chan" title="配 key 后自动接入">groq/google/openai <b>待配key</b></span>';
+    + '<span class="chan" title="'+t("needs_key")+'">groq/google/openai <b>'+t("needs_key")+'</b></span>';
 }
 // ---- 免费模型总目录: live=已收录可直接看; apply=确认有免费模型+去申请key入口 ----
 function renderCatalog(){
@@ -381,17 +455,17 @@ function renderCatalog(){
   if(!el || !CATALOG || !CATALOG.vendors) return;
   el.innerHTML = CATALOG.vendors.map(v=>{
     const live = v.status==="live";
-    const btn = v.btn || (live?"打开":"打开");
-    const badge = live ? '<span class="badge free">已收录</span>' : '<span class="badge apply">待申请</span>';
+    const btn = v.btn || (live?t("open"):t("open"));
+    const badge = live ? '<span class="badge free">'+t("live_ingested")+'</span>' : '<span class="badge apply">'+t("to_apply")+'</span>';
     const link = v.apply_url
       ? '<a href="'+safeUrl(v.apply_url)+'" target="_blank" rel="noopener" title="'+esc(v.note||"")+'" data-reg="'+esc(v.provider)+'">'+esc(btn)+'</a>' : '';
     const models = (v.sample_models||[]).slice(0,4).join(", ");
-    const kindLbl = {signup:"注册口", console:"控制台", doc:"官方文档", pricing:"定价页", homepage:"官网"}[v.link_kind]||"链接";
+    const kindLbl = {signup:t("link_signup"), console:t("link_console"), doc:t("link_doc"), pricing:t("link_pricing"), homepage:t("link_home")}[v.link_kind]||t("link_link");
     return '<div class="v'+(live?" live":"")+'">'
       + '<div class="top"><div class="nm">'+esc(v.name)+'</div>'+badge+'</div>'
-      + '<div class="vc">'+v.free_count+' 个免费模型</div>'
+      + '<div class="vc">'+v.free_count+' '+t("free_models")+'</div>'
       + '<div class="vm">'+esc(models)+'</div>'
-      + '<div class="vmeta"><span>&#128279; '+kindLbl+'</span>'+(live?'<span>&#9989; 已验证</span>':'<span>&#128269; 待申请key</span>')+'</div>'
+      + '<div class="vmeta"><span>&#128279; '+kindLbl+'</span>'+(live?'<span>&#9989; '+t("verified")+'</span>':'<span>&#128269; '+t("apply_key")+'</span>')+'</div>'
       + (v.note? '<div class="vk">'+esc(v.note)+'</div>':'')
       + link + '</div>';
   }).join("");
@@ -399,7 +473,7 @@ function renderCatalog(){
 }
 // ---- 先搜后提: 搜清单, 命中就在卡片上一键上报(仍可用/额度变了/已失效), 搜不到才走下面新增 ----
 function reportFor(mid, prov, kind){
-  const title=encodeURIComponent("[上报] "+kind+" — "+mid);
+  const title=encodeURIComponent(t("report_tag")+" "+kind+" — "+mid);
   const body=encodeURIComponent(
     "- 类型: 对已有条目的上报(非新增)\n"+
     "- 模型: "+mid+"\n- 厂商: "+(prov||"-")+"\n- 上报: "+kind+"\n"+
@@ -407,7 +481,8 @@ function reportFor(mid, prov, kind){
     "_先搜后提: 这是对清单中已收录条目的状态上报, 不是重复新增。请审核。_");
   window.open("https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body, "_blank", "noopener");
 }
-const REPORT_KINDS=["仍可用","额度变了","已失效","要手机号","我这里不能用"];
+const REPORT_KEYS=["rep_still","rep_quota","rep_gone","rep_phone","rep_region"];
+const REPORT_KINDS=()=>REPORT_KEYS.map(t);
 function runFind(){
   const box=document.getElementById("sfindres"); if(!box) return;
   const q=(document.getElementById("sfind").value||"").trim().toLowerCase();
@@ -417,13 +492,13 @@ function runFind(){
     const hay=((m.id||"")+" "+(m.name||"")+" "+(m.provider||"")+" "+(m.register_url||"")+" "+(m.provider_home||"")+" "+(m.pricing_url||"")).toLowerCase();
     return hay.indexOf(q)>=0;
   }).slice(0,8);
-  if(!hits.length){ box.innerHTML='<div class="fnone">\u21b3 清单未命中 → 在下面填新增投稿</div>'; return; }
+  if(!hits.length){ box.innerHTML='<div class="fnone">'+t("none_found")+'</div>'; return; }
   box.innerHTML=hits.map(m=>
     '<div class="fhit"><span class="fid">'+esc(m.id)+'</span><span class="fp">'+esc(m.provider)+'</span>'+
-    REPORT_KINDS.map((k,ki)=>'<button data-rep="'+esc(EKEY(m))+'" data-repk="'+ki+'">'+k+'</button>').join("")+
+    REPORT_KINDS().map((k,ki)=>'<button data-rep="'+esc(EKEY(m))+'" data-repk="'+ki+'">'+k+'</button>').join("")+
     '</div>').join("");
   box.querySelectorAll("[data-rep]").forEach(b=>b.addEventListener("click",()=>{
-    const p=b.dataset.rep.split("/"); reportFor(p.slice(1).join("/"), p[0], REPORT_KINDS[+b.dataset.repk]);
+    const p=b.dataset.rep.split("/"); reportFor(p.slice(1).join("/"), p[0], REPORT_KINDS()[+b.dataset.repk]);
   }));
 }
 function openSubmit(){
@@ -433,9 +508,12 @@ function openSubmit(){
 }
 // ---- init: 所有顶层 DOM 绑定收进这里,挂 DOMContentLoaded(已加载则立即跑),防整体崩 ----
 function init(){
+  applyLang(LANG);  // 英文默认, 已存偏好则切换
   document.getElementById("q").addEventListener("input", render);
   document.getElementById("onlyfree").addEventListener("change", render);
   document.getElementById("sort").addEventListener("change", render);
+  const ls=document.getElementById("langsel");
+  if(ls) ls.addEventListener("change", ()=>applyLang(ls.value));
   document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click", ()=>{
     const f=c.dataset.f; active.has(f)?active.delete(f):active.add(f);
     c.classList.toggle("on"); render();
@@ -446,18 +524,18 @@ function init(){
     e.preventDefault();
     const url=NORM(document.getElementById("surl").value), mid=NORM(document.getElementById("smid").value);
     const msg=document.getElementById("submsg");
-    if (!url) { msg.textContent="\u26a0 请填接口地址或定价页"; msg.className="dup"; return; }
+    if (!url) { msg.textContent=t("msg_fill"); msg.className="dup"; return; }
     // 第1层: 前端实时查重(端点唯一键 provider/id + 目录域名 + 模型ID -> 拒绝)
     const dom = url.split("/")[0];
-    if ((mid && seen[mid]) || seenDomains[dom]) { msg.textContent="\u26a0 该地址/模型已在清单中,重复,无法提交"; msg.className="dup"; return; }
+    if ((mid && seen[mid]) || seenDomains[dom]) { msg.textContent=t("msg_dup"); msg.className="dup"; return; }
     // 第2层: 本地已提交过 -> 拒绝
     let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
-    if (q.some(x=>NORM(x.url)===url)) { msg.textContent="\u26a0 你已提交过该地址,重复,无法提交"; msg.className="dup"; return; }
+    if (q.some(x=>NORM(x.url)===url)) { msg.textContent=t("msg_selfdup"); msg.className="dup"; return; }
     q.push({url:url, model_id:mid}); try{ localStorage.setItem("radar_subs",JSON.stringify(q)) }catch(e){}
     // 第3层(后端): 投稿 -> GitHub Issues(免费审核队列), 你在 Issues 里审核 approve/reject
     const stype=document.getElementById("stype").value||"-";
     const stier=document.getElementById("stier").value||"-";
-    const title=encodeURIComponent("[投稿] "+(mid||"新免费模型/渠道"));
+    const title=encodeURIComponent(t("submit_tag")+" "+(mid||"新免费模型/渠道"));
     const body=encodeURIComponent(
       "- 接口/定价页: "+document.getElementById("surl").value+"\n"+
       "- 模型 ID: "+(document.getElementById("smid").value||"-")+"\n"+
@@ -466,7 +544,7 @@ function init(){
       "- 说明: "+(document.getElementById("snote").value||"-")+"\n\n"+
       "_前端已查重通过(非重复)。请审核后关闭此 Issue。_");
     const gh="https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body;
-    msg.innerHTML='\u2713 查重通过(非重复)。<a href="'+safeUrl(gh)+'" target="_blank" rel="noopener" style="color:#58a6ff">\u2192 去 GitHub 提交审核</a>';
+    msg.innerHTML=t("msg_ok")+'<a href="'+safeUrl(gh)+'" target="_blank" rel="noopener" style="color:#58a6ff">'+t("msg_gh")+'</a>';
     msg.className="ok";
     window.open(gh, "_blank", "noopener");
     e.target.reset();
@@ -492,7 +570,7 @@ async function refresh(){
     renderChan();
     document.getElementById("regcount").textContent = REG.n||0;
     render();
-    const g=document.querySelector("header .sub"); if(g) g.innerHTML = g.innerHTML.replace(/更新 .*/, "更新 " + (j.generated_at||"").replace("T"," "));
+    const ts=document.getElementById("gents"); if(ts) ts.textContent=(j.generated_at||"").replace("T"," ");
   }catch(e){}
 }
 setInterval(()=>{ if(document.visibilityState === "visible") refresh(); }, 300000);  // 5分钟(降频, 减轻 Pages 带宽)
