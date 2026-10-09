@@ -4,8 +4,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "agents"))
 import updater
 
 def test_openrouter_parses_free():
-    # 新口径(docs/CALIBER.md): 价格=0 但无免费证据 -> zero_price/None(待核验), 不再直接判 True;
-    # 只有明确付费 -> False; 带 :free 或显式 free 才 permanent/True。
+    # 新口径(docs/CALIBER.md): 价格=0 但无免费证据 -> price_zero_unverified/None(待核验), 不再直接判 True;
+    # 只有明确付费 -> False; 带 :free 或显式 free 才 free_variant/free_tier/True。
     payload = {"data": [
         {"id": "a/m1", "name": "M1", "context_length": 8192,
          "pricing": {"prompt": "0", "completion": "0"}},          # 价格0, 无证据 -> None
@@ -15,9 +15,9 @@ def test_openrouter_parses_free():
          "pricing": {"prompt": "0", "completion": "0"}},          # 显式 free -> True
     ]}
     out = updater.parse_openrouter(payload)
-    assert out[0]["free"] is None and out[0]["free_type"] == "zero_price"
+    assert out[0]["free"] is None and out[0]["free_type"] == "price_zero_unverified"
     assert out[1]["free"] is False and out[1]["free_type"] == "paid"
-    assert out[2]["free"] is True and out[2]["free_type"] == "permanent"
+    assert out[2]["free"] is True and out[2]["free_type"] == "free_tier"
     assert out[0]["id"] == "openrouter/a/m1"
 
 def test_google_free_on_generate_content():
