@@ -198,6 +198,18 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 #submsg{font-size:13px}
 #submsg.ok{color:#3fb950}
 #submsg.dup{color:#d29922}
+.assistbtn{background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;padding:7px 13px;border-radius:7px;font-size:12px;margin-left:8px;display:inline-block;cursor:pointer}
+.assistbtn:hover{background:#388bfd}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:1000}
+.modal.open{display:flex}
+.mbox{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:18px;max-width:640px;width:92%;max-height:86vh;overflow:auto}
+.mbox h3{margin:0 0 10px;font-size:16px}
+.mbox pre{background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:12px;font-size:12px;white-space:pre-wrap;word-break:break-all;max-height:46vh;overflow:auto}
+.mrow{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;align-items:center}
+.mbtn{background:#21262d;border:1px solid #30363d;color:#c9d1d9;padding:7px 14px;border-radius:7px;font-size:13px;cursor:pointer}
+.mbtn:hover{border-color:#58a6ff;color:#58a6ff}
+.mbtn.pri{background:#238636;border-color:#238636;color:#fff}
+.mhint{color:#8b949e;font-size:12px;margin-top:8px}
 footer{color:#484f58;font-size:12px;margin-top:24px;text-align:center}
 code{background:#21262d;padding:1px 5px;border-radius:4px}
 </style></head><body><div class="wrap">
@@ -220,6 +232,17 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
     <li data-i18n="guide_l4">Back in the panel, click <b>&#171;+ Add BYOK channel&#187;</b>, fill in vendor name, BASE URL, and your KEY &rarr; save.</li>
     <li data-i18n="guide_l5">Call via the unified gateway entry; traffic auto-routes to your BYOK channel. The KEY stays local only.</li>
   </ol>
+</div>
+<div class="modal" id="assistModal">
+  <div class="mbox">
+    <h3 data-i18n="assist_h">Configuration assistant</h3>
+    <pre id="assistPre"></pre>
+    <div class="mhint" data-i18n="assist_hint">Paste into your gateway &quot;Config assistant&quot; (or use as base_url/endpoints), add your free KEY, then create the BYOK channel.</div>
+    <div class="mrow">
+      <button class="mbtn pri" id="assistCopyBtn" onclick="assistCopy()" data-i18n="assist_copy">Copy config</button>
+      <button class="mbtn" onclick="assistClose()" data-i18n="assist_close">Close</button>
+    </div>
+  </div>
 </div>
 <div class="hero">
   <a class="cta" id="regbtn" href="#catalog" data-reg="site" data-i18n="cta">&#127760; Browse free models from 74 vendors — click any model/vendor below to sign up</a>
@@ -338,6 +361,17 @@ function applyLang(lang){
   renderChan(); renderCatalog(); render(); runFind(); paintReg();
 }
 const esc = s => (s==null?"":String(s)).replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// ---- 配置助理: 8 家官方 API base_url 已测 (401=端点通) + endpoint ----
+const ASSIST = {
+  deepinfra:{name:"Deepinfra", type:1, base:"https://api.deepinfra.com", endpoint:"/v1/chat/completions", signup:"https://deepinfra.com/dash/api_keys", needPath:true},
+  openrouter:{name:"OpenRouter", type:1, base:"https://openrouter.ai/api", endpoint:"/v1/chat/completions", signup:"https://openrouter.ai/sign-up", needPath:true},
+  fastrouter:{name:"FastRouter", type:1, base:"https://api.fastrouter.ai", endpoint:"/v1/chat/completions", signup:"https://fastrouter.ai/signup", needPath:true},
+  llmgateway:{name:"LLMGateway", type:1, base:"https://api.llmgateway.io", endpoint:"/v1/chat/completions", signup:"https://llmgateway.io/signup", needPath:true},
+  novita:{name:"Novita", type:1, base:"https://api.novita.ai/v3/openai", endpoint:"/chat/completions", signup:"https://novita.ai/signup", needPath:true},
+  requesty:{name:"Requesty", type:1, base:"https://router.requesty.ai", endpoint:"/v1/chat/completions", signup:"https://router.requesty.ai/signup", needPath:true},
+  sambanova:{name:"SambaNova", type:1, base:"https://api.sambanova.ai", endpoint:"/v1/chat/completions", signup:"https://cloud.sambanova.ai/signup", needPath:true},
+  vercel:{name:"Vercel", type:1, base:"https://ai-gateway.vercel.sh", endpoint:"/v1/chat/completions", signup:"https://vercel.com/signup", needPath:true}
+};
 // ---- i18n: 英文默认, 可切中文 (静态用 data-i18n, 动态用 t()) ----
 const I18N = {
   en: {
@@ -372,7 +406,10 @@ const I18N = {
     rep_still:"Still works", rep_quota:"Quota changed", rep_gone:"No longer works", rep_phone:"Requires phone", rep_region:"Doesn't work for me",
     msg_fill:"⚠ Please enter an endpoint or pricing page", msg_dup:"⚠ That endpoint/model is already in the list — duplicate, cannot submit",
     msg_selfdup:"⚠ You already submitted this endpoint — duplicate, cannot submit", msg_ok:"✓ Passed dedup (not a duplicate). ", msg_gh:"→ Submit on GitHub for review",
-    report_tag:"[Report]", submit_tag:"[Submission]", like:"Upvote"
+    report_tag:"[Report]", submit_tag:"[Submission]", like:"Upvote",
+    assist_btn:"Config assistant", assist_h:"Configuration assistant",
+    assist_hint:"Paste into your gateway \"Config assistant\" (or use as base_url/endpoints), add your free KEY, then create the BYOK channel.",
+    assist_copy:"Copy config", assist_close:"Close", copied:"\u2713 Copied"
   },
   zh: {
     guide_h1:"\u{1F680} \u4F7F\u7528\u6D41\u7A0B", guide_cap:"\u4ECE\u7533\u8BF7\u514D\u8D39 KEY \u5230\u63A5\u5165\u7F51\u5173\uFF0C\u56DB\u6B65\u5B8C\u6210",
@@ -404,7 +441,10 @@ const I18N = {
     none_found:"↳ 清单未命中 → 在下面填新增投稿", rep_still:"仍可用", rep_quota:"额度变了", rep_gone:"已失效", rep_phone:"要手机号", rep_region:"我这里不能用",
     msg_fill:"⚠ 请填接口地址或定价页", msg_dup:"⚠ 该地址/模型已在清单中,重复,无法提交",
     msg_selfdup:"⚠ 你已提交过该地址,重复,无法提交", msg_ok:"✓ 查重通过(非重复)。", msg_gh:"→ 去 GitHub 提交审核",
-    report_tag:"[上报]", submit_tag:"[投稿]", like:"点赞"
+    report_tag:"[上报]", submit_tag:"[投稿]", like:"点赞",
+    assist_btn:"\u914D\u7F6E\u52A9\u7406", assist_h:"\u914D\u7F6E\u52A9\u7406",
+    assist_hint:"\u590D\u5236\u5230\u7F51\u5173\u300C\u914D\u7F6E\u52A9\u7406\u300D\u7C98\u8D34\uFF08\u6216\u4F5C\u4E3A base_url/endpoints\uFF09\uFF0C\u52A0\u4E0A\u514D\u8D39 KEY \uFF0C\u521B\u5EFA BYOK \u6E20\u9053\u3002",
+    assist_copy:"\u590D\u5236\u914D\u7F6E", assist_close:"\u5173\u95ED", copied:"\u2713 \u5DF2\u590D\u5236"
   }
 };
 let LANG = "en";  // 英文默认
@@ -515,10 +555,35 @@ function renderCatalog(){
       + '<div class="vm">'+esc(models)+'</div>'
       + '<div class="vmeta"><span>&#128279; '+kindLbl+'</span>'+(live?'<span>&#9989; '+t("verified")+'</span>':'<span>&#128269; '+t("apply_key")+'</span>')+'</div>'
       + (v.note? '<div class="vk">'+esc(v.note)+'</div>':'')
-      + link + '</div>';
+      + link
+      + (ASSIST[v.provider] ? '<a class="assistbtn" data-assist="'+esc(v.provider)+'">&#128295; '+t("assist_btn")+'</a>' : '')
+      + '</div>';
   }).join("");
   el.querySelectorAll("[data-reg]").forEach(a=>a.addEventListener("click",()=>regClick(a.dataset.reg)));
+  el.querySelectorAll("[data-assist]").forEach(a=>a.addEventListener("click",()=>openAssist(a.dataset.assist)));
 }
+// ---- 配置助理: 构造接入 JSON + 复制 + 弹窗 ----
+function buildAssistConfig(prov){
+  const a=ASSIST[prov]; if(!a) return null;
+  const base=a.needPath ? a.base+a.endpoint : a.base;
+  return {provider:prov, name:a.name, type:a.type, base_url:base, endpoints:"",
+          supported_api_types:"chat-completion", models:"<已注册模型,用 gateway 下拉>",
+          model_mapping:"{\"<已注册名>\":\"<厂商原始ID>\"}", signup:a.signup,
+          note:"type=1 OpenAI; base_url 已含 endpoint; models 必须是 gateway 已注册模型; model_mapping 关联厂商原始ID"};
+}
+function openAssist(prov){
+  const cfg=buildAssistConfig(prov); const m=document.getElementById("assistModal");
+  if(!cfg||!m) return;
+  document.getElementById("assistPre").textContent=JSON.stringify(cfg,null,2);
+  m.classList.add("open");
+}
+function assistCopy(){
+  const txt=document.getElementById("assistPre").textContent;
+  navigator.clipboard && navigator.clipboard.writeText(txt);
+  const b=document.getElementById("assistCopyBtn");
+  if(b){ const o=b.textContent; b.textContent=t("copied"); setTimeout(()=>b.textContent=o,1400); }
+}
+function assistClose(){ const m=document.getElementById("assistModal"); if(m) m.classList.remove("open"); }
 // ---- 先搜后提: 搜清单, 命中就在卡片上一键上报(仍可用/额度变了/已失效), 搜不到才走下面新增 ----
 function reportFor(mid, prov, kind){
   const title=encodeURIComponent(t("report_tag")+" "+kind+" — "+mid);
