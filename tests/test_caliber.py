@@ -127,10 +127,26 @@ def test_site_has_security_and_tri_state():
     assert 'onclick="regClick(' not in html                  # 不再内联拼 provider
     assert "REPORT_KINDS.map(k=>" not in html                 # 上报按钮也走 data-attr
     # 三态: 未知标签 + 筛选 capPass + 待核验区分
-    assert "未知" in html and "capPass" in html
+    assert "未知" in html and "capPass" in html          # zh 字典(切换后可见)
     # 时间拆分: 实测/抓取
     assert "实测" in html and "抓取" in html
     # 首页数字统一
     assert "已收录" in html and "目录发现" in html and "已实测" in html
     # 降频 5 分钟
     assert "300000" in html
+
+
+def test_english_default_and_lang_switch():
+    # 英文界面为默认, 且提供 i18n 字典 + 语言切换器(评审 #7: 英文界面)
+    rows = [{"provider": "p", "homepage": "https://x", "pricing_url": "https://x/p",
+             "signup": {"url": "https://x/s"}, "models": [
+             {"id": "m", "name": "M", "free": True, "free_type": "free_variant", "capabilities": {}, "terms": {}}]}]
+    html = publisher.render_site(rows)
+    assert 'let LANG = "en"' in html                 # 英文默认
+    assert '<html lang="en">' in html
+    assert "I18N" in html and 'zh:' in html           # 中文字典存在(可切换)
+    assert 'id="langsel"' in html                    # 语言切换器
+    assert "applyLang" in html                        # 应用函数
+    # 英文默认可见文案(在 body, 不只在字典里)
+    assert "Free only" in html and "Sort: free first" in html
+    assert "data-i18n=" in html                      # 静态元素挂了 i18n 键
