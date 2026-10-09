@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T19:29:45Z",
+ "fetched_at": "2026-10-09T21:00:28Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "483e2400b888e7b9f817cdfd975958de14af47981ee78ad7e078c80f19953142",
+ "hash": "950923fd958fbc4133f190a1bc0966cf9da676c4f9ac43389501380ce8c95050",
  "payload": {
   "data": [
    {
@@ -14667,7 +14667,7 @@
     "name": "DeepSeek V4 Pro",
     "display_name": "DeepSeek V4 Pro",
     "created": 1776988800,
-    "description": "deepseek-v4-pro provided by deepseek, together-ai, alibaba, deepinfra, bytedance, nebius, canopywave, fireworks, baidu, tencent, runware",
+    "description": "deepseek-v4-pro provided by deepseek, together-ai, alibaba, deepinfra, bytedance, nebius, canopywave, fireworks, baidu, tencent, runware, reka-ai",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -14975,6 +14975,36 @@
       ],
       "max_output": 384000,
       "stability": "stable"
+     },
+     {
+      "providerId": "reka-ai",
+      "externalId": "deepseek-v4-pro",
+      "pricing": {
+       "prompt": "0.0000012",
+       "completion": "0.0000033",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000013",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 393216,
+      "stability": "stable"
      }
     ],
     "pricing": {
@@ -15012,7 +15042,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, reka-ai, gonka24",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15371,6 +15401,36 @@
       "tools": true,
       "parallelToolCalls": false,
       "reasoning": true,
+      "stability": "stable"
+     },
+     {
+      "providerId": "reka-ai",
+      "externalId": "deepseek4-flash",
+      "pricing": {
+       "prompt": "0.00000011",
+       "completion": "0.00000066",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000007",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 131072,
       "stability": "stable"
      },
      {
@@ -21012,7 +21072,7 @@
     "name": "Qwen3.8 27B",
     "display_name": "Qwen3.8 27B",
     "created": 1786665600,
-    "description": "qwen3.8-27b provided by novita, deepinfra",
+    "description": "qwen3.8-27b provided by novita, deepinfra, reka-ai",
     "family": "alibaba",
     "architecture": {
      "input_modalities": [
@@ -21073,14 +21133,44 @@
        "high"
       ],
       "max_output": 235929
+     },
+     {
+      "providerId": "reka-ai",
+      "externalId": "qwen3.8-27b",
+      "pricing": {
+       "prompt": "0.0000002",
+       "completion": "0.0000025",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 262144,
+      "stability": "stable"
      }
     ],
     "pricing": {
-     "prompt": "0.42e-6",
-     "completion": "3e-6",
+     "prompt": "0.0000002",
+     "completion": "0.0000025",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.085e-6",
+     "input_cache_read": "0.00000005",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -21102,7 +21192,7 @@
      "reasoning"
     ],
     "json_output": true,
-    "structured_outputs": false,
+    "structured_outputs": true,
     "free": false
    },
    {
@@ -26513,7 +26603,7 @@
     "name": "GLM-5.3 Flash",
     "display_name": "GLM-5.3 Flash",
     "created": 1787702400,
-    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, runware, entrim, gonka24, consensusprotocol, scx-ai-gp",
+    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, runware, entrim, reka-ai, gonka24, consensusprotocol, scx-ai-gp",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -26712,6 +26802,36 @@
       "stability": "stable"
      },
      {
+      "providerId": "reka-ai",
+      "externalId": "glm5.3-flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000005",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000015",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 262144,
+      "stability": "stable"
+     },
+     {
       "providerId": "gonka24",
       "externalId": "glm-5.3-flash",
       "pricing": {
@@ -26817,7 +26937,7 @@
     "name": "GLM-5.3",
     "display_name": "GLM-5.3",
     "created": 1786665600,
-    "description": "glm-5.3 provided by zai, novita, baidu, alibaba, fireworks, inference.net, mistral, deepinfra, together-ai, runware, scx-ai-gp",
+    "description": "glm-5.3 provided by zai, novita, baidu, alibaba, fireworks, inference.net, mistral, deepinfra, together-ai, reka-ai, runware, scx-ai-gp",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -27050,6 +27170,36 @@
        "max"
       ],
       "max_output": 943717
+     },
+     {
+      "providerId": "reka-ai",
+      "externalId": "glm5.3",
+      "pricing": {
+       "prompt": "0.00000117",
+       "completion": "0.00000396",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000234",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 262144,
+      "stability": "stable"
      },
      {
       "providerId": "runware",
@@ -30150,6 +30300,78 @@
     ],
     "json_output": false,
     "structured_outputs": false,
+    "free": false,
+    "stability": "stable"
+   },
+   {
+    "id": "reka-edge-2603",
+    "name": "Reka Edge 2603",
+    "display_name": "Reka Edge 2603",
+    "aliases": [],
+    "created": 1791576159,
+    "description": "reka-edge-2603 provided by reka-ai",
+    "family": "reka",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "reka-ai",
+      "externalId": "reka-edge-2603",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000001",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "max_output": 16384,
+      "stability": "stable"
+     }
+    ],
+    "pricing": {
+     "prompt": "0.0000001",
+     "completion": "0.0000001",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 16384,
+    "max_output": 16384,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": true,
     "free": false,
     "stability": "stable"
    },

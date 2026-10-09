@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T19:29:44Z",
+ "fetched_at": "2026-10-09T21:00:27Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "bd429dfea545bd49dd0c200f9131b2ad811d704c0d594a29b9dfa99d75161de0",
+ "hash": "9e09c0462392a4e7de983b2dbf545cd9584ca75af9010dfe2c4c7045c1ec52a7",
  "payload": {
   "object": "list",
   "data": [
@@ -15592,7 +15592,7 @@
     "temperature": true,
     "knowledge": "2024-04",
     "pricing": {
-     "input": "0.000000019",
+     "input": "0.000000029",
      "output": "0.00000003"
     }
    },
