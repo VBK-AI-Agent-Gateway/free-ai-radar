@@ -85,7 +85,7 @@ def parse_google(payload):
     for m in payload.get("models", []) or []:
         methods = m.get("supportedGenerationMethods") or []
         free = "generateContent" in methods  # 免费层可用 generateContent
-        ft = "permanent" if free else "paid"
+        ft = "free_tier" if free else "paid"
         out.append({
             "id": f"google/{m.get('name', '').replace('models/', '')}",
             "name": m.get("displayName") or m.get("name"),
