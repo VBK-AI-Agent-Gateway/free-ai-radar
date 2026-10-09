@@ -5,7 +5,7 @@ import argparse, json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ALLOW_TOP = {"provider", "homepage", "pricing_url", "signup", "models", "evidence", "last_verified"}
-ALLOW_MODEL = {"id", "status", "free", "free_type", "free_evidence", "last_fetched", "last_probed", "capabilities", "terms", "evidence", "last_verified", "ttl_days", "name", "notes", "description", "created"}
+ALLOW_MODEL = {"id", "status", "free", "free_type", "free_evidence", "free_limits", "last_fetched", "last_probed", "capabilities", "terms", "evidence", "last_verified", "ttl_days", "name", "notes", "description", "created"}
 STATUSES = {"verified", "declared", "reported", "disputed", "stale"}
 SOURCE_KINDS = {"probe", "official_api", "official_page", "vendor_submission", "community", "telemetry",
                 "page_quote", "detector", "human"}
