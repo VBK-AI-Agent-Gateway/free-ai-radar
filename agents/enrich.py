@@ -43,49 +43,51 @@ def _price_field(d, *keys):
 
 
 # ---- 免费类型分类(free_type) + 三态能力 — 见 docs/CALIBER.md ----
-# 首页只把这三类算"免费"; zero_price(仅价格0, 无证据)不进免费清单, 归"待核验"。
-FREE_TYPES_COUNTABLE = {"permanent", "trial", "promo"}
-_SUBSCRIPTION_HINTS = ("token plan", "coding plan", "subscription", "duo", " pro ", "plan-")
+# 枚举(评审第2条): free_tier/free_variant/trial/promo 算免费; subscription/local 不算;
+# price_zero_unverified=价格0但无证据(待核验); paid=有价>0; unknown=无价格也无证据。
+FREE_TYPES_COUNTABLE = {"free_tier", "free_variant", "trial", "promo"}
+_SUBSCRIPTION_HINTS = ("token plan", "coding plan", "subscription", "duo", " plan", "plan-")
 _LOCAL_HINTS = ("lmstudio", "local", "ollama", "desktop", "atomic chat", "qvac")
-_PER_UNIT_HINTS = ("per song", "per second", "per image", "per request", "per video",
-                  "每首", "每秒", "每张", "按次", "按秒", "按图", "per " )
+# 按次/按秒/按图计费的结构信号(只在价格缺失或0时兜底用; 裸"per "不收, 会误伤 "per benchmark")
+_PER_UNIT_HINTS = ("per song", "per second", "per image", "per request", "per video", "per token",
+                  "per call", "每首", "每秒", "每张", "每条", "按次", "按秒", "按图")
 
 
 def derive_free(free_type):
-    """由 free_type 推导 free 布尔: 只永久/试用/促销算免费; 无证据(zero_price/unknown) -> None。"""
+    """由 free_type 推导 free 布尔: 只永久层/免费变体/试用/促销算免费; 待核验/未知 -> None。"""
     if free_type in FREE_TYPES_COUNTABLE:
         return True
     if free_type in ("subscription", "local", "paid"):
         return False
-    return None   # zero_price / unknown -> None(unknown, 不武断判)
+    return None   # price_zero_unverified / unknown -> None(unknown, 不武断判)
 
 
 def classify_free(i_pm, o_pm, name="", desc="", explicit_free=None, mid=""):
     """不再"价格=0 就当免费"。返回 (free_type, free)。
-    结构信号优先(按次/订阅/本地/:free/明示免费), 价格只做兜底; 只价格0没证据 -> zero_price(待核验)。"""
+    价格>0 无条件 paid(修 bug: 别让描述里的 "per" 把有价模型误判成待核验)。
+    价格缺失/0 时才用结构信号(:free/-free/明示/订阅/本地/按次)细分, 否则 price_zero_unverified。"""
     blob = f"{name} {desc}".lower()
+    # 1) 价格 > 0 -> 明确付费(最高优先, 不被任何文字信号覆盖)
+    if (i_pm is not None and i_pm > 0) or (o_pm is not None and o_pm > 0):
+        # 除非厂商明说有免费档(免费额度 + 另有价格) —— 暂无证据来源, 先判 paid
+        return "paid", False
+    # 2) 价格全 0 或缺失 —— 用结构信号细分
     if any(h in blob for h in _LOCAL_HINTS):
         return "local", False
     if any(h in blob for h in _SUBSCRIPTION_HINTS):
         return "subscription", False
-    # OpenRouter 用 :free、vercel 用 -free 后缀标免费档 -> 明示免费
     _mid = str(mid or "").lower()
     if _mid.endswith(":free") or _mid.endswith("-free"):
-        return "permanent", True
-    # 厂商接口明示 free 字段
+        return "free_variant", True          # 聚合平台免费变体(评审第3条: 不叫 permanent, 通常有额度限制)
     if explicit_free is True:
-        return "permanent", True
+        return "free_tier", True
     if explicit_free is False:
         return "paid", False
-    # 按次/按秒/按图计费 -> 不是按 token 免费, 待核验(除非另有免费额度证据)
     if any(h in blob for h in _PER_UNIT_HINTS):
-        return "zero_price", None
-    # 价格信号兜底
-    if i_pm is not None and o_pm is not None:
-        if i_pm == 0 and o_pm == 0:
-            # 只有价格0、没别的免费证据 -> 待核验, 不直接算免费(避免假免费)
-            return "zero_price", None
-        return "paid", False
+        return "price_zero_unverified", None  # 按次/按秒计费, token价0但非免费 -> 待核验
+    # 价格0、无任何免费证据 -> 待核验(不直接算免费, 避免假免费)
+    if i_pm == 0 and o_pm == 0:
+        return "price_zero_unverified", None
     return "unknown", None   # 没价格也没证据
 
 
