@@ -24,49 +24,58 @@
 # providers/{id}.yaml 里每个 model:
 - id: xxx
   free: true              # 由 free_type 推导(见下)
-  free_type: permanent    # ← 新增, 免费类型
-  free_evidence: "..."    # ← 新增, 证据(限额/条款原文), 无则留空
+  free_type: free_tier    # ← 新增, 免费类型(见下枚举)
+  free_limits:            # ← 新增, 免费额度/条件(评审第3条), 可选
+    rpm: 20
+    rpd: 50
+    note: "rpd 在充值 $10 后提高到 1000"
+  free_evidence: "..."    # ← 新增, 证据(限额/条款原文/文档链接), 无则留空
 ```
 
-### 枚举定义
+### 枚举定义（评审第2条改名）
 
 | `free_type` | 含义 | `free`? | 首页算"免费"? | 证据要求 |
 | --- | --- | --- | --- | --- |
-| `permanent` | **永久免费层**：厂商文档明说的免费额度/免费档（如 Gemini 免费层 RPM/TPM、Groq 免费档） | `true` | ✅ 算 | 必须有厂商文档的**限额条款**（RPM/RPD/TPM），`free_evidence` 写限额 |
+| `free_tier` | **永久免费层**：厂商文档明说的免费额度/免费档（如 Gemini 免费层 RPM/TPM、Groq 免费档） | `true` | ✅ 算 | 必须有厂商文档的**限额条款**（RPM/RPD/TPM），`free_evidence` 写限额 |
+| `free_variant` | **免费变体**：聚合平台 `:free`/`-free` 后缀的模型（OpenRouter/vercel）；**通常有额度限制**，不是无限永久 | `true` | ✅ 算 | 平台免费档限额（如 OpenRouter 未充值 50/天、20/分） |
 | `trial` | **试用额度**：新用户送 N 美元/额度，用完即止 | `true` | ✅ 算 | 送多少、多久 |
 | `promo` | **限时促销**：活动期免费，会过期 | `true` | ✅ 算 | 活动截止日 |
 | `subscription` | **订阅内含**：套餐（Coding Plan/Token Plan/Duo）里含，不是独立免费 API | `false` | ❌ 不算 | 属于哪个套餐 |
 | `local` | **本地运行**：LMStudio/QVAC 等本地软件，非托管 API | `false` | ❌ 不算 | 本地部署说明 |
-| `zero_price` | **仅价格为 0（待核验）**：抓到价格=0，但**没证据**是真免费层（可能是按次计费单价空、或数据缺失） | `null`(unknown) | ⚠️ 不算（待核验区） | 缺 —— 需人工补 |
-| `paid` | 明确付费 | `false` | ❌ 不算 | 定价页 |
-| `unknown` | 完全没证据 | `null` | ❌ 不算 | 缺 |
+| `price_zero_unverified` | **价格为 0（待核验）**：抓到价格=0，但**没证据**是真免费层（可能按次计费单价空、或数据缺失） | `null` | ⚠️ 单列待核验区 | 缺 —— 需人工补 |
+| `paid` | **明确付费**：价格 > 0（如 Claude Opus $5/$25、GPT-6 $10/$50） | `false` | ❌ 不算 | 定价页 |
+| `unknown` | 完全没价格也没证据 | `null` | ❌ 不进页 | 缺 |
 
 ### 推导规则（`free` 布尔）
 
 ```python
-FREE_TYPES_COUNTABLE = {"permanent", "trial", "promo"}   # 首页只把这三类算"免费"
+FREE_TYPES_COUNTABLE = {"free_tier", "free_variant", "trial", "promo"}   # 首页只把这四类算"免费"
 
 def derive_free(free_type):
     if free_type in FREE_TYPES_COUNTABLE: return True
     if free_type in ("subscription", "local", "paid"): return False
-    return None   # zero_price / unknown -> None(不进免费清单, 也不武断判 false)
+    return None   # price_zero_unverified / unknown -> None(不武断判)
 ```
 
 ### 怎么判出 `free_type`（采集时）
 
-**不再用"价格=0"直接判 `free`**，改成：
+**价格 > 0 无条件 `paid`**（修 bug：不被描述里的 "per" 等文字信号误判）。价格缺失/0 时才用结构信号细分：
 
-1. **结构信号优先**（能自动判的）：
-   - 描述/字段里有 `per song`/`per second`/`per image`/`per request`/按次/按秒/按图 → **不是按 token 计价** → `zero_price`（待核验，除非同时有免费额度证据）。
-   - id/description 含 `:free`、`free` 标记、厂商明示 free tier → 候选 `permanent`。
-   - id/description/厂商名含 `plan`/`subscription`/`duo`/`token plan`/`coding plan` → `subscription`。
-   - 厂商/描述表明本地运行（`local`/`ollama`/`lmstudio`/`desktop`）→ `local`。
-2. **价格信号兜底**（只在没有上面信号时）：
+1. **价格 > 0** → `paid`（最高优先，Claude/GPT 等有价模型不会再混进免费页）。
+2. **结构信号**（价格缺失或 0 时）：
+   - 描述含 `per song`/`per second`/`per image`/`per request`/按次/按秒/按图 → **非按 token 计价** → `price_zero_unverified`（待核验）。
+   - id 含 `:free`/`-free` 后缀 → `free_variant`（免费变体，通常有额度限制）。
+   - 厂商接口明示 `free=true` → `free_tier`。
+   - id/description 含 `plan`/`subscription`/`duo` → `subscription`。
+   - 厂商/描述表明本地运行（`lmstudio`/`ollama`/`desktop`）→ `local`。
+   - 价格0 但无上述信号 → `price_zero_unverified`。
+   - 什么都没有 → `unknown`。
+3. **人工核验**：`price_zero_unverified` 和需限额的 `free_tier`，由人补 `free_evidence`+`free_limits` 后转正。
    - `input==0 and output==0` **且** 有证据支持免费层 → `permanent`；**只有价格 0 没别的证据 → `zero_price`**（待核验，**不进免费清单**）。
    - 价格 > 0 → `paid`（**除非**有免费额度证据，那是 `permanent`，需 `free_evidence`）。
-3. **人工核验**：`zero_price` 和需要限额的 `permanent`，由人（或带 key 的探测）补 `free_evidence` 后转正。
+3. **人工核验**：`price_zero_unverified` 和需要限额的 `free_tier`，由人（或带 key 的探测）补 `free_evidence`+`free_limits` 后转正。
 
-**关键：首页免费数 = `free_type ∈ {permanent, trial, promo}` 的个数**，`zero_price` 单列"待核验"，不混进免费数。
+**关键：首页免费数 = `free_type ∈ {free_tier, free_variant, trial, promo}` 的个数**，`price_zero_unverified` 单列"待核验"，不混进免费数；`paid`/`unknown` 不进免费页。
 
 ---
 
