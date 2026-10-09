@@ -101,3 +101,27 @@ def test_top_cta_not_single_vendor_and_submit_visible():
     assert '<details class="submitbox' not in html, "submit form must not be collapsed"
     assert 'id="subform"' in html and 'id="surl"' in html, "submit form fields must exist"
     assert "function openSubmit" in html, "submit button handler must exist"
+
+
+def test_readme_free_caliber_only_lists_free():
+    """README 表头必须是免费/全量分列, 免费数<=全量数(免费口径, 不把全量当免费清单)。"""
+    import agents.publisher as pub
+    readme = pub.render_readme([
+        {"provider": "x", "last_verified": "t",
+         "models": [{"id": "free-1", "free": True}, {"id": "paid-1", "free": False}]},
+    ])
+    assert "| 免费模型 | 全量(含付费) |" in readme        # 表头分列
+    assert "含付费,留作证据" in readme                     # 有口径说明
+    row = [l for l in readme.splitlines() if l.startswith("| x ")][0]
+    assert "| 1 | 2 |" in row                             # 免费1 / 全量2
+    assert "free-1" in row and "paid-1" not in row        # 免费ID列只列免费
+
+
+def test_search_then_submit_present():
+    """先搜后提: 页面有搜索框+命中上报逻辑(runFind/reportFor), 搜不到才走新增。"""
+    import agents.publisher as pub
+    html = pub.render_site(pub.load_all())
+    assert 'id="sfind"' in html                            # 搜索框
+    assert 'function runFind' in html and 'function reportFor' in html
+    assert "仍可用" in html and "已失效" in html             # 上报按钮
+    assert 'getElementById("sfind").addEventListener' in html  # 绑定输入

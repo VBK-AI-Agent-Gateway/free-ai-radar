@@ -53,10 +53,14 @@ def flat(rows):
 def render_readme(rows):
     lines = ["# free-ai-radar", "",
              "免费AI情报汇聚智能体 — 每条事实带来源与验证时间,无证据写 unknown。", "",
-             "| 厂商 | 模型数 | 已收录模型 | 最后验证 | 说明 |", "| --- | --- | --- | --- | --- |"]
+             "口径: **免费模型** = 本页与站点展示的免费清单(含免费层);全量 = 正本所有模型(含付费,留作证据/比价,不展示)。", "",
+             "| 厂商 | 免费模型 | 全量(含付费) | 免费模型ID | 最后验证 | 说明 |", "| --- | --- | --- | --- | --- | --- |"]
     for r in rows:
-        ids = ", ".join(m.get("id", "?") for m in (r.get("models") or [])) or "(待采集员首轮抓取)"
-        lines.append(f"| {r['provider']} | {len(r.get('models') or [])} | {ids} | {r.get('last_verified')} | {r.get('pricing_url', '')} |")
+        allm = r.get("models") or []
+        freem = [m for m in allm if m.get("free")]
+        # 只列免费模型ID(免费口径), 不再把全量(含Claude/GPT收费)当免费清单
+        ids = ", ".join(m.get("id", "?") for m in freem) or "(待采集员首轮抓取)"
+        lines.append(f"| {r['provider']} | {len(freem)} | {len(allm)} | {ids} | {r.get('last_verified')} | {r.get('pricing_url', '')} |")
     lines += ["", "数据正本: `providers/*.yaml`。生成时间: " + time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), ""]
     return "\n".join(lines)
 
@@ -137,6 +141,15 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .submitbox button{background:#1f6feb;color:#fff;border:0;border-radius:6px;padding:9px;cursor:pointer;font-size:14px;justify-self:start}
 .submitbox h2{font-size:15px;margin:0 0 6px}
 .submitbox h2 .hint{font-size:12px;color:#8b949e;font-weight:400}
+.findbox{display:grid;gap:6px}
+.findbox input{background:#0d1117;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:8px 10px;font-size:13px}
+#sfindres{display:grid;gap:6px}
+.fhit{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#161b22;border:1px solid #30363d;border-radius:8px;padding:8px 10px;font-size:13px}
+.fhit .fid{color:#c9d1d9;font-weight:600}
+.fhit .fp{color:#8b949e;font-size:12px}
+.fhit button{background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:4px 8px;font-size:12px;cursor:pointer}
+.fhit button:hover{border-color:#58a6ff;color:#58a6ff}
+.fnone{color:#8b949e;font-size:12px;padding:4px 2px}
 .submitbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0 4px}
 .subbtn{background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;padding:9px 16px;border-radius:8px;font-size:14px}
 .subbtn:hover{background:#388bfd}
@@ -188,6 +201,10 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <section class="submitbox open" id="submitbox">
 <h2>&#128227; 主动提交免费模型 / 新渠道 <span class="hint">(自动查重 + 人工审核, 字段与 Issue 模板一致)</span></h2>
 <form id="subform">
+  <div class="findbox">
+    <input id="sfind" placeholder="先搜索：厂商、模型或域名 —— 命中就在卡片上报，搜不到再填下面新增" autocomplete="off">
+    <div id="sfindres"></div>
+  </div>
   <input id="surl" type="url" placeholder="接口地址 https://.../v1/models 或厂商定价页 (必填)" required>
   <input id="smid" placeholder="模型 ID(可选,如 deepseek/DeepSeek-V3)">
   <div class="frow">
@@ -323,6 +340,32 @@ function renderCatalog(){
       + link + '</div>';
   }).join("");
 }
+// ---- 先搜后提: 搜清单, 命中就在卡片上一键上报(仍可用/额度变了/已失效), 搜不到才走下面新增 ----
+function reportFor(mid, prov, kind){
+  const title=encodeURIComponent("[上报] "+kind+" — "+mid);
+  const body=encodeURIComponent(
+    "- 类型: 对已有条目的上报(非新增)\n"+
+    "- 模型: "+mid+"\n- 厂商: "+(prov||"-")+"\n- 上报: "+kind+"\n"+
+    "- 说明: (可在此补证据, 如截图链接/额度数值)\n\n"+
+    "_先搜后提: 这是对清单中已收录条目的状态上报, 不是重复新增。请审核。_");
+  window.open("https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body, "_blank", "noopener");
+}
+const REPORT_KINDS=["仍可用","额度变了","已失效","要手机号","我这里不能用"];
+function runFind(){
+  const box=document.getElementById("sfindres"); if(!box) return;
+  const q=(document.getElementById("sfind").value||"").trim().toLowerCase();
+  if(!q){ box.innerHTML=""; return; }
+  // 搜模型 ID / 名称 / 厂商 / 域名(register_url|provider_home|pricing_url)
+  const hits=MODELS.filter(m=>{
+    const hay=((m.id||"")+" "+(m.name||"")+" "+(m.provider||"")+" "+(m.register_url||"")+" "+(m.provider_home||"")+" "+(m.pricing_url||"")).toLowerCase();
+    return hay.indexOf(q)>=0;
+  }).slice(0,8);
+  if(!hits.length){ box.innerHTML='<div class="fnone">\u21b3 清单未命中 → 在下面填新增投稿</div>'; return; }
+  box.innerHTML=hits.map(m=>
+    '<div class="fhit"><span class="fid">'+esc(m.id)+'</span><span class="fp">'+esc(m.provider)+'</span>'+
+    REPORT_KINDS.map(k=>'<button onclick="reportFor(\''+esc(m.id).replace(/'/g,"\\'")+'\',\''+esc(m.provider).replace(/'/g,"\\'")+'\',\''+k+'\')">'+k+'</button>').join("")+
+    '</div>').join("");
+}
 function openSubmit(){
   const b=document.getElementById("submitbox");
   if(b){ b.scrollIntoView({behavior:"smooth",block:"center"}); const f=document.getElementById("surl"); if(f) setTimeout(()=>f.focus(),400); }
@@ -337,6 +380,7 @@ function init(){
     const f=c.dataset.f; active.has(f)?active.delete(f):active.add(f);
     c.classList.toggle("on"); render();
   }));
+  document.getElementById("sfind").addEventListener("input", runFind);
   document.getElementById("subform").addEventListener("submit", e=>{
     e.preventDefault();
     const url=NORM(document.getElementById("surl").value), mid=NORM(document.getElementById("smid").value);
