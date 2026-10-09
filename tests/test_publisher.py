@@ -104,9 +104,8 @@ def test_top_cta_not_single_vendor_and_submit_visible():
 
 
 def test_readme_free_caliber_only_lists_free():
-    """README 表头必须是免费/全量分列, 免费数<=全量数(免费口径, 不把全量当免费清单)。"""
-    import agents.publisher as pub
-    readme = pub.render_readme([
+    """README 表头必须是免费/全量分列, 免费数<=全量数(免费口径, 不把全量当免费清单)"""
+    readme = publisher.render_readme([
         {"provider": "x", "last_verified": "t",
          "models": [{"id": "free-1", "free": True}, {"id": "paid-1", "free": False}]},
     ])
@@ -119,8 +118,7 @@ def test_readme_free_caliber_only_lists_free():
 
 def test_search_then_submit_present():
     """先搜后提: 页面有搜索框+命中上报逻辑(runFind/reportFor), 搜不到才走新增。"""
-    import agents.publisher as pub
-    html = pub.render_site(pub.load_all())
+    html = publisher.render_site(publisher.load_all())
     assert 'id="sfind"' in html                            # 搜索框
     assert 'function runFind' in html and 'function reportFor' in html
     assert "仍可用" in html and "已失效" in html             # 上报按钮
