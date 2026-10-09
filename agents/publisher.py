@@ -9,6 +9,15 @@ PROV = ROOT / "providers"
 DOCS = ROOT / "docs"
 STATE = ROOT / "state.local"
 ONLY_FREE = True  # 免费总闸: 默认只收录/展示免费模型(付费留在正本做证据,不进页面)
+FREE_TYPES_COUNTABLE = {"permanent", "trial", "promo"}  # 首页只把这三类算"免费"(见 docs/CALIBER.md)
+
+
+def _is_countable_free(m):
+    """免费口径: 有 free_type 用分类判(只永久/试用/促销算); 没有 free_type 回落 free==True。zero_price/unknown 不算。"""
+    ft = m.get("free_type")
+    if ft:
+        return ft in FREE_TYPES_COUNTABLE
+    return bool(m.get("free"))
 
 
 def load_all():
@@ -27,24 +36,29 @@ def flat(rows):
         reg = reg or r.get("homepage") or r.get("pricing_url")
         home = r.get("homepage") or reg
         for m in r.get("models") or []:
-            if ONLY_FREE and not m.get("free"):
-                continue  # 免费总闸: 只收录免费模型
+            if ONLY_FREE and not _is_countable_free(m):
+                continue  # 免费总闸: 只收录免费模型(永久/试用/促销; zero_price待核验/订阅/本地不进)
             caps = m.get("capabilities") or {}
             terms = m.get("terms") or {}
             out.append({
                 "id": m.get("id"), "name": m.get("name"), "provider": r["provider"],
                 "status": m.get("status"), "free": m.get("free"),
+                "free_type": m.get("free_type"),
                 "description": m.get("description"),
                 "context_length": caps.get("context_length"),
                 "max_output_tokens": caps.get("max_output_tokens"),
                 "input_per_million": terms.get("input_per_million"),
                 "output_per_million": terms.get("output_per_million"),
-                "image_input": bool(caps.get("image_input")),
-                "reasoning": bool(caps.get("reasoning")),
-                "tools": bool(caps.get("tools")),
-                "json_mode": bool(caps.get("json_mode")),
+                # 能力三态: 原样传 None(unknown), 不 bool() 压成 False
+                "image_input": caps.get("image_input"),
+                "reasoning": caps.get("reasoning"),
+                "tools": caps.get("tools"),
+                "json_mode": caps.get("json_mode"),
                 "created": m.get("created"),
-                "last_verified": r.get("last_verified"), "pricing_url": r.get("pricing_url"),
+                "last_verified": r.get("last_verified"),
+                "last_fetched": m.get("last_fetched") or r.get("last_fetched") or r.get("last_verified"),
+                "last_probed": m.get("last_probed") or r.get("last_probed"),
+                "pricing_url": r.get("pricing_url"),
                 "register_url": reg, "provider_home": home,
             })
     return out
@@ -115,6 +129,7 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .meta b{color:#c9d1d9;font-weight:600}
 .tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
 .tag{font-size:11px;background:#21262d;border:1px solid #30363d;color:#8b949e;padding:1px 7px;border-radius:4px}
+.tag.unk{background:#161b22;border-style:dashed;color:#6e7681}
 .tag.y{border-color:#d29922;color:#e3b341}
 a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .empty{color:#8b949e;text-align:center;padding:30px}
@@ -163,7 +178,7 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
 <div class="sub">每条事实带来源与验证时间 &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
 <div class="hero">
-  <a class="cta" id="regbtn" href="#catalog" onclick="regClick('site')">&#127760; 看 74 家厂商的免费模型 &mdash; 点下方任一模型/厂商进去申请</a>
+  <a class="cta" id="regbtn" href="#catalog" data-reg="site">&#127760; 看 74 家厂商的免费模型 &mdash; 点下方任一模型/厂商进去申请</a>
   <span class="ctahint">点任一模型的“注册领KEY”即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
 </div>
 <div class="submitbar">
@@ -171,9 +186,10 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
   <span class="subhint">自动查重,人工核验后入库</span>
 </div>
 <div class="stats">
-<div class="stat"><b>__TOTAL__</b><span>模型总数</span></div>
-<div class="stat"><b>__FREE__</b><span>免费模型</span></div>
-<div class="stat"><b>__PROV__</b><span>渠道</span></div>
+<div class="stat"><b>__TOTAL__</b><span>已收录(可路由)</span></div>
+<div class="stat"><b>__CATALOGN__</b><span>目录发现(待核验)</span></div>
+<div class="stat"><b>__PROBED__</b><span>已实测</span></div>
+<div class="stat"><b>__PROV__</b><span>渠道(有数据)</span></div>
 </div>
 <div class="chanbar" id="chanbar"></div>
 <div class="controls">
@@ -257,11 +273,23 @@ function regClick(prov){
   REG.done=1; REG.n=(REG.n||0)+1; save(REG_KEY,REG); paintReg();
 }
 function paintReg(){ document.getElementById("regcount").textContent = REG.n||0; }
-const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmtCtx = n => !n?"-":n>=1e6?(n/1e6).toFixed(0)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n);
+const esc = s => (s==null?"":String(s)).replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// 安全: 第三方数据(register/apply/home/pricing)进 href 前过 https 白名单, 非 https(javascript:)一律回 #
+const safeUrl = u => { try{ const x=new URL(u, location.href); return x.protocol==="https:" ? x.href : "#"; }catch(e){ return "#"; } };
+const fmtCtx = n => (n==null)?"未知":n>=1e6?(n/1e6).toFixed(0)+"M":n>=1e3?(n/1e3).toFixed(0)+"K":String(n);
 const fmtPrice = v => v==null?"?":v===0?"$0":v<0.01?"$"+v.toFixed(4):"$"+v.toFixed(2);
 const FIELDS = ["image_input","reasoning","tools","json_mode"];
 const LABEL = {image_input:"图像输入",reasoning:"推理",tools:"工具调用",json_mode:"JSON输出"};
+// 能力三态标签: true=确认支持(绿); false=不显示; null=未知(灰, 单独标)
+function capTags(m){
+  let s = FIELDS.filter(f=>m[f]===true).map(f=>'<span class="tag y">'+LABEL[f]+'</span>').join("")
+        + FIELDS.filter(f=>m[f]===null).map(f=>'<span class="tag unk">'+LABEL[f]+' 未知</span>').join("");
+  s += (m.context_length!=null?'<span class="tag">上下文 '+fmtCtx(m.context_length)+'</span>':"")
+     + (m.max_output_tokens!=null?'<span class="tag">输出上限 '+fmtCtx(m.max_output_tokens)+'</span>':"");
+  return s;
+}
+// 筛选: 三态, true 才算"支持"; null(unknown) 不算支持(但可被"含未知"单独筛)
+function capPass(m,f){ if(m[f]===true) return true; if(m[f]===null && active.has(f+"?")) return true; return false; }
 let active = new Set();
 function render(){
   const q = document.getElementById("q").value.toLowerCase();
@@ -269,7 +297,7 @@ function render(){
   const sort = document.getElementById("sort").value;
   let list = MODELS.filter(m => {
     if (onlyFree && !m.free) return false;
-    for (const f of active) if (!m[f]) return false;
+    for (const f of active) if (!capPass(m,f)) return false;
     if (q) {
       const hay = ((m.name||"")+" "+m.id+" "+(m.description||"")+" "+m.provider).toLowerCase();
       if (!hay.includes(q)) return false;
@@ -286,31 +314,39 @@ function render(){
   const el = document.getElementById("list");
   if (!list.length) { el.innerHTML = '<div class="empty">没有匹配的模型</div>'; return; }
   el.innerHTML = list.map(m => {
-    const tags = FIELDS.filter(f=>m[f]).map(f=>'<span class="tag y">'+LABEL[f]+'</span>').join("")
-      + (m.context_length?'<span class="tag">上下文 '+fmtCtx(m.context_length)+'</span>':"")
-      + (m.max_output_tokens?'<span class="tag">输出上限 '+fmtCtx(m.max_output_tokens)+'</span>':"");
+    const tags = capTags(m);
     const price = m.free
       ? '<span class="badge free">FREE 免费</span>'
       : '<span class="badge paid">'+fmtPrice(m.input_per_million)+' / '+fmtPrice(m.output_per_million)+' per 1M</span>';
     const desc = m.description ? '<div class="desc">'+esc(m.description)+'</div>' : "";
+    // 时间: 有 last_probed 显示"实测", 否则"抓取(未实测)" — 不把抓取当验证
+    const timeLbl = m.last_probed
+      ? '&#128200; 实测 '+esc(String(m.last_probed).slice(0,10))
+      : '&#128197; 抓取 '+esc(String(m.last_fetched||m.last_verified||"-").slice(0,10))+' (未实测)';
     return '<div class="card '+(m.free?"free":"")+'">'
       + '<div class="top"><div><span class="nm">'+esc(m.name||m.id)+'</span>'
       + '<div class="nid">'+esc(m.id)+'</div></div>'+price+'</div>'
       + desc
-      + '<div class="meta"><span>&#127760; <a href="'+esc(m.provider_home||"#")+'" target="_blank" rel="noopener">'+esc(m.provider)+'</a></span>'
-      + '<span>&#128197; 验证 '+esc(m.last_verified||"-")+'</span>'
-      + '<span>&#128279; <a href="'+esc(m.pricing_url||"#")+'" target="_blank" rel="noopener">定价页</a></span></div>'
+      + '<div class="meta"><span>&#127760; <a href="'+safeUrl(m.provider_home||"")+'" target="_blank" rel="noopener">'+esc(m.provider)+'</a></span>'
+      + '<span>'+timeLbl+'</span>'
+      + (m.status?'<span class="tag">'+esc(m.status)+'</span>':"")
+      + '<span>&#128279; <a href="'+safeUrl(m.pricing_url||"")+'" target="_blank" rel="noopener">定价页</a></span></div>'
       + (tags?'<div class="tags">'+tags+'</div>':"")
       + '<div class="pop">'+likeBtn(m.id)
-      + (m.register_url ? ' <a class="reglink" href="'+esc(m.register_url)+'" target="_blank" rel="noopener" onclick="regClick(\''+esc(m.provider)+'\')">&#128279; 注册领KEY</a>' : '')
+      + (m.register_url ? ' <a class="reglink" href="'+safeUrl(m.register_url)+'" target="_blank" rel="noopener" data-reg="'+esc(m.provider)+'">&#128279; 注册领KEY</a>' : '')
       + '</div>'
       + '</div>';
   }).join("");
   document.querySelectorAll(".like").forEach(b=>b.addEventListener("click",()=>toggleLike(b.dataset.id)));
+  document.querySelectorAll("[data-reg]").forEach(a=>a.addEventListener("click",()=>regClick(a.dataset.reg)));
 }
-// ---- 投稿查重: 客户端提示,真去重在 agents/enrich.py ----
+// ---- 投稿查重: 端点唯一键 = provider + model id (同一ID跨厂商是不同端点); 真去重在 agents/enrich.py ----
 const NORM = u => (u||"").trim().toLowerCase().replace(/^https?:\/\//,"").replace(/^www\./,"").replace(/\/$/,"");
-let seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});
+const EKEY = m => (m.provider+"/"+m.id).toLowerCase();   // 端点唯一键
+let seen = MODELS.reduce((s,m)=>{ s[EKEY(m)]=1; s[NORM(m.id)]=1; return s; }, {});
+// 目录里的厂商域名也进查重集(投稿填了已收录厂商的接口/定价页 -> 拦)
+let seenDomains = {};
+if (CATALOG && CATALOG.vendors) CATALOG.vendors.forEach(v=>{ const h=NORM(v.home||v.apply_url||""); if(h) seenDomains[h.split("/")[0]]=1; });
 function renderChan(){
   const by = MODELS.reduce((a,m)=>{ a[m.provider]=(a[m.provider]||0)+1; return a; },{});
   const el = document.getElementById("chanbar");
@@ -328,7 +364,7 @@ function renderCatalog(){
     const btn = v.btn || (live?"打开":"打开");
     const badge = live ? '<span class="badge free">已收录</span>' : '<span class="badge apply">待申请</span>';
     const link = v.apply_url
-      ? '<a href="'+esc(v.apply_url)+'" target="_blank" rel="noopener" title="'+esc(v.note||"")+'" onclick="regClick(\''+esc(v.provider)+'\')">'+esc(btn)+'</a>' : '';
+      ? '<a href="'+safeUrl(v.apply_url)+'" target="_blank" rel="noopener" title="'+esc(v.note||"")+'" data-reg="'+esc(v.provider)+'">'+esc(btn)+'</a>' : '';
     const models = (v.sample_models||[]).slice(0,4).join(", ");
     const kindLbl = {signup:"注册口", console:"控制台", doc:"官方文档", pricing:"定价页", homepage:"官网"}[v.link_kind]||"链接";
     return '<div class="v'+(live?" live":"")+'">'
@@ -339,6 +375,7 @@ function renderCatalog(){
       + (v.note? '<div class="vk">'+esc(v.note)+'</div>':'')
       + link + '</div>';
   }).join("");
+  el.querySelectorAll("[data-reg]").forEach(a=>a.addEventListener("click",()=>regClick(a.dataset.reg)));
 }
 // ---- 先搜后提: 搜清单, 命中就在卡片上一键上报(仍可用/额度变了/已失效), 搜不到才走下面新增 ----
 function reportFor(mid, prov, kind){
@@ -363,8 +400,11 @@ function runFind(){
   if(!hits.length){ box.innerHTML='<div class="fnone">\u21b3 清单未命中 → 在下面填新增投稿</div>'; return; }
   box.innerHTML=hits.map(m=>
     '<div class="fhit"><span class="fid">'+esc(m.id)+'</span><span class="fp">'+esc(m.provider)+'</span>'+
-    REPORT_KINDS.map(k=>'<button onclick="reportFor(\''+esc(m.id).replace(/'/g,"\\'")+'\',\''+esc(m.provider).replace(/'/g,"\\'")+'\',\''+k+'\')">'+k+'</button>').join("")+
+    REPORT_KINDS.map((k,ki)=>'<button data-rep="'+esc(EKEY(m))+'" data-repk="'+ki+'">'+k+'</button>').join("")+
     '</div>').join("");
+  box.querySelectorAll("[data-rep]").forEach(b=>b.addEventListener("click",()=>{
+    const p=b.dataset.rep.split("/"); reportFor(p.slice(1).join("/"), p[0], REPORT_KINDS[+b.dataset.repk]);
+  }));
 }
 function openSubmit(){
   const b=document.getElementById("submitbox");
@@ -386,8 +426,9 @@ function init(){
     const url=NORM(document.getElementById("surl").value), mid=NORM(document.getElementById("smid").value);
     const msg=document.getElementById("submsg");
     if (!url) { msg.textContent="\u26a0 请填接口地址或定价页"; msg.className="dup"; return; }
-    // 第1层: 前端实时查重(已在收录清单/队列中 -> 拒绝提交)
-    if (seen[url] || (mid && seen[mid])) { msg.textContent="\u26a0 该地址/模型已在清单中,重复,无法提交"; msg.className="dup"; return; }
+    // 第1层: 前端实时查重(端点唯一键 provider/id + 目录域名 + 模型ID -> 拒绝)
+    const dom = url.split("/")[0];
+    if ((mid && seen[mid]) || seenDomains[dom]) { msg.textContent="\u26a0 该地址/模型已在清单中,重复,无法提交"; msg.className="dup"; return; }
     // 第2层: 本地已提交过 -> 拒绝
     let q=[]; try{ q=JSON.parse(localStorage.getItem("radar_subs")||"[]") }catch(e){}
     if (q.some(x=>NORM(x.url)===url)) { msg.textContent="\u26a0 你已提交过该地址,重复,无法提交"; msg.className="dup"; return; }
@@ -412,6 +453,7 @@ function init(){
   paintReg();
   renderChan();
   renderCatalog();
+  document.querySelectorAll("[data-reg]").forEach(a=>a.addEventListener("click",()=>regClick(a.dataset.reg)));
   render();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
@@ -424,14 +466,15 @@ async function refresh(){
     const j = await r.json();
     if(!j.models || j.models.length === MODELS.length && JSON.stringify(j.models) === JSON.stringify(MODELS)) return;
     MODELS = j.models;
-    seen = MODELS.reduce((s,m)=>{ s[NORM(m.id)]=1; return s; }, {});  // 重建查重集
+    seen = MODELS.reduce((s,m)=>{ s[EKEY(m)]=1; s[NORM(m.id)]=1; return s; }, {});  // 重建查重集(端点键)
+    if (j.catalog) { CATALOG = j.catalog; renderCatalog(); }  // 目录也刷新(不再等重部署)
     renderChan();
     document.getElementById("regcount").textContent = REG.n||0;
     render();
     const g=document.querySelector("header .sub"); if(g) g.innerHTML = g.innerHTML.replace(/更新 .*/, "更新 " + (j.generated_at||"").replace("T"," "));
   }catch(e){}
 }
-setInterval(()=>{ if(document.visibilityState === "visible") refresh(); }, 60000);
+setInterval(()=>{ if(document.visibilityState === "visible") refresh(); }, 300000);  // 5分钟(降频, 减轻 Pages 带宽)
 document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState === "visible") refresh(); });
 </script></body></html>"""
 
@@ -439,21 +482,29 @@ document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState 
 SITE_REGISTER_URL = os.environ.get("RADAR_REGISTER_URL", "https://openrouter.ai/")  # 注册领KEY落地页
 
 
+def _load_cat():
+    """读免费模型总目录(free-catalog.json), 供首页"目录发现"数与刷新用;读不到返回空。"""
+    try:
+        return json.loads((ROOT / "docs" / "free-catalog.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {"vendors": [], "total_free_models": 0}
+
+
 def render_site(rows):
     data = flat(rows)
     providers = {r["provider"] for r in rows}
     gen = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
     # 免费模型总目录(确认有免费模型的厂商清单)
-    try:
-        import json as _json
-        _cat = json.loads((ROOT / "docs" / "free-catalog.json").read_text(encoding="utf-8"))
-    except Exception:
-        _cat = {"vendors": []}
+    _cat = _load_cat()
     out = SITE_TEMPLATE
     out = out.replace("__GEN__", html.escape(gen))
-    out = out.replace("__TOTAL__", str(len(data)))
-    out = out.replace("__FREE__", str(sum(1 for m in data if m.get("free"))))
-    out = out.replace("__PROV__", str(len(providers)))
+    out = out.replace("__TOTAL__", str(len(data)))   # 已收录: 进页面的免费模型(永久/试用/促销)
+    out = out.replace("__PROBED__", str(sum(1 for m in data if m.get("status") == "probed")))
+    # 目录发现: free-catalog 里全部待核验/待申请的模型数
+    out = out.replace("__CATALOGN__", str(_cat.get("total_free_models", 0) or 0))
+    # 渠道: 只算有模型数据的厂商(不是 yaml 文件数)
+    prov_with_data = {r["provider"] for r in rows if r.get("models")}
+    out = out.replace("__PROV__", str(len(prov_with_data)))
     import re as _re
     _safe = json.dumps(data, ensure_ascii=False)
     _safe = _re.sub(r"[<>&]", lambda c: "\\u%04x" % ord(c.group()), _safe)
@@ -494,7 +545,8 @@ def main(argv=None):
     DOCS.mkdir(exist_ok=True)
     (DOCS / "free-models.json").write_text(
         json.dumps({"generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                    "models": flat(rows), "providers": len(rows)},
+                    "models": flat(rows), "providers": len(rows),
+                    "catalog": _load_cat()},
                    ensure_ascii=False, indent=1), encoding="utf-8")
     (DOCS / "index.html").write_text(render_site(rows), encoding="utf-8")
     (ROOT / "README.md").write_text(render_readme(rows), encoding="utf-8")

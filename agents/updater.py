@@ -4,6 +4,7 @@
 规则:无证据不写模型;免费判定 = 官方 pricing 字段明说,不是猜。"""
 import argparse, datetime, json, pathlib, sys, time
 import yaml
+from enrich import classify_free, derive_free, FREE_TYPES_COUNTABLE
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SNAP = ROOT / "snapshots"
@@ -23,23 +24,32 @@ def _price_per_million(raw):
 
 
 def _caps(m):
-    """从 architecture/support 抽能力标签: 模态、上下文、最大输出、reasoning/tools。"""
+    """三态能力: 只有明确在 supported_parameters 才 True; 接口没给 -> None(unknown), 不写 False。"""
     arch = m.get("architecture") or {}
     tp = m.get("top_provider") or {}
-    params = set(m.get("supported_parameters") or [])
+    params = m.get("supported_parameters")
+    if params is None:
+        tools = reason = jsonm = None
+    else:
+        params = set(params)
+        tools = "tools" in params
+        reason = bool((m.get("reasoning") or {}).get("mandatory")) or "reasoning" in params
+        jsonm = "response_format" in params or "structured_outputs" in params
+    inp = arch.get("input_modalities")
+    image = ("image" in inp) if inp is not None else None
     caps = {
         "context_length": m.get("context_length"),
         "max_output_tokens": tp.get("max_completion_tokens"),
-        "input_modalities": arch.get("input_modalities") or [],
+        "input_modalities": inp or [],
         "output_modalities": arch.get("output_modalities") or [],
         "modality": arch.get("modality"),
-        "reasoning": bool((m.get("reasoning") or {}).get("mandatory"))
-                      or "reasoning" in params,
-        "tools": "tools" in params,
-        "json_mode": "response_format" in params or "structured_outputs" in params,
-        "image_input": "image" in (arch.get("input_modalities") or []),
+        "reasoning": reason,
+        "tools": tools,
+        "json_mode": jsonm,
+        "image_input": image,
     }
-    return {k: v for k, v in caps.items() if v not in (None, False, [], "")}
+    # 保留 True/False/None 三态, 只丢空字符串
+    return {k: v for k, v in caps.items() if v != ""}
 
 
 def parse_openrouter(payload):
@@ -48,14 +58,16 @@ def parse_openrouter(payload):
     for m in payload.get("data", []) or []:
         p = m.get("pricing") or {}
         i_pm, o_pm = _price_per_million(p.get("prompt")), _price_per_million(p.get("completion"))
-        free = (i_pm == 0 and o_pm == 0)
+        _desc = (m.get("description") or "").strip()[:600]
+        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"))
         created = m.get("created")
         out.append({
             "id": f"openrouter/{m.get('id')}",
             "name": m.get("name"),
             "status": "declared",
             "free": free,
-            "description": (m.get("description") or "").strip()[:600] or None,
+            "free_type": ft,
+            "description": _desc or None,
             "capabilities": _caps(m),
             "terms": {"input_per_million": i_pm, "output_per_million": o_pm,
                       "currency": "USD"},
@@ -73,11 +85,13 @@ def parse_google(payload):
     for m in payload.get("models", []) or []:
         methods = m.get("supportedGenerationMethods") or []
         free = "generateContent" in methods  # 免费层可用 generateContent
+        ft = "permanent" if free else "paid"
         out.append({
             "id": f"google/{m.get('name', '').replace('models/', '')}",
             "name": m.get("displayName") or m.get("name"),
             "status": "declared",
             "free": free,
+            "free_type": ft,
             "capabilities": {"methods": methods},
             "evidence": [{"kind": "official_api",
                           "url": "https://generativelanguage.googleapis.com/v1beta/models",
@@ -96,6 +110,7 @@ def parse_openai(payload):
             "name": m.get("id"),
             "status": "declared",
             "free": None,  # 接口不给价格,不猜
+            "free_type": "unknown",
             "evidence": [{"kind": "official_api", "url": "https://api.openai.com/v1/models",
                           "at": _now()}],
             "last_verified": _now(),

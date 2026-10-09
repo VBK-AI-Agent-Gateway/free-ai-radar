@@ -53,6 +53,7 @@ def extract_deepseek(raw, url):
         "name": "DeepSeek Chat (V3)",
         "status": "declared",
         "free": free,
+        "free_type": "paid",  # 证据无免费层, 按量付费
         "description": (ev[0] if ev else None),
         "evidence": [{"kind": "official_page", "url": url, "at": _now(),
                       "excerpt": (ev[0][:300] if ev else None)}],

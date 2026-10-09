@@ -7,10 +7,16 @@ import pytest, enrich
 
 
 def test_parse_openrouter_free_flag():
-    snap = {"data": [{"id": "m", "name": "M", "context_length": 1,
-                      "pricing": {"prompt": "0", "completion": "0"}}]}
+    # 新口径: 价格0无证据 -> None(zero_price 待核验); 显式 free -> True(permanent)
+    snap = {"data": [
+        {"id": "m", "name": "M", "context_length": 1,
+         "pricing": {"prompt": "0", "completion": "0"}},
+        {"id": "f", "name": "F", "free": True,
+         "pricing": {"prompt": "0", "completion": "0"}},
+    ]}
     out = enrich.parse_source(snap, {"url": "u", "parser": "openrouter"})
-    assert out[0]["free"] is True
+    assert out[0]["free"] is None and out[0]["free_type"] == "zero_price"
+    assert out[1]["free"] is True and out[1]["free_type"] == "permanent"
     assert out[0]["id"] == "openrouter/m"
 
 

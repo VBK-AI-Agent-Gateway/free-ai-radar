@@ -42,22 +42,75 @@ def _price_field(d, *keys):
     return None
 
 
+# ---- 免费类型分类(free_type) + 三态能力 — 见 docs/CALIBER.md ----
+# 首页只把这三类算"免费"; zero_price(仅价格0, 无证据)不进免费清单, 归"待核验"。
+FREE_TYPES_COUNTABLE = {"permanent", "trial", "promo"}
+_SUBSCRIPTION_HINTS = ("token plan", "coding plan", "subscription", "duo", " pro ", "plan-")
+_LOCAL_HINTS = ("lmstudio", "local", "ollama", "desktop", "atomic chat", "qvac")
+_PER_UNIT_HINTS = ("per song", "per second", "per image", "per request", "per video",
+                  "每首", "每秒", "每张", "按次", "按秒", "按图", "per " )
+
+
+def derive_free(free_type):
+    """由 free_type 推导 free 布尔: 只永久/试用/促销算免费; 无证据(zero_price/unknown) -> None。"""
+    if free_type in FREE_TYPES_COUNTABLE:
+        return True
+    if free_type in ("subscription", "local", "paid"):
+        return False
+    return None   # zero_price / unknown -> None(unknown, 不武断判)
+
+
+def classify_free(i_pm, o_pm, name="", desc="", explicit_free=None):
+    """不再"价格=0 就当免费"。返回 (free_type, free)。
+    结构信号优先(按次/订阅/本地/明示免费), 价格只做兜底; 只价格0没证据 -> zero_price(待核验)。"""
+    blob = f"{name} {desc}".lower()
+    if any(h in blob for h in _LOCAL_HINTS):
+        return "local", False
+    if any(h in blob for h in _SUBSCRIPTION_HINTS):
+        return "subscription", False
+    # 厂商接口明示 free 字段
+    if explicit_free is True:
+        return "permanent", True
+    if explicit_free is False:
+        return "paid", False
+    # 按次/按秒/按图计费 -> 不是按 token 免费, 待核验(除非另有免费额度证据)
+    if any(h in blob for h in _PER_UNIT_HINTS):
+        return "zero_price", None
+    # 价格信号兜底
+    if i_pm is not None and o_pm is not None:
+        if i_pm == 0 and o_pm == 0:
+            # 只有价格0、没别的免费证据 -> 待核验, 不直接算免费(避免假免费)
+            return "zero_price", None
+        return "paid", False
+    return "unknown", None   # 没价格也没证据
+
+
 def _caps(m):
+    """三态能力: 显式在 supported_parameters 才 True; 接口没给该字段 -> None(unknown), 不写成 False。"""
     arch = m.get("architecture") or {}
     tp = m.get("top_provider") or {}
-    params = set(m.get("supported_parameters") or [])
-    inp = arch.get("input_modalities") or []
+    params = m.get("supported_parameters")
+    if params is None:
+        tools = reason = jsonm = None          # 接口不给 -> unknown
+    else:
+        params = set(params)
+        tools = "tools" in params
+        reason = bool((m.get("reasoning") or {}).get("mandatory")) or "reasoning" in params
+        jsonm = "response_format" in params or "structured_outputs" in params
+    inp = arch.get("input_modalities")
+    image = ("image" in inp) if inp is not None else None   # 没给 modalities -> unknown
     caps = {
         "context_length": m.get("context_length"),
         "max_output_tokens": tp.get("max_completion_tokens") or m.get("max_output_tokens"),
-        "input_modalities": inp,
+        "input_modalities": inp or [],
         "modality": arch.get("modality"),
-        "image_input": "image" in inp,
-        "reasoning": bool((m.get("reasoning") or {}).get("mandatory")) or "reasoning" in params,
-        "tools": "tools" in params,
-        "json_mode": "response_format" in params or "structured_outputs" in params,
+        "image_input": image,
+        "reasoning": reason,
+        "tools": tools,
+        "json_mode": jsonm,
     }
-    return {k: v for k, v in caps.items() if v not in (None, False, [], "")}
+    # 只丢"明确的空"([] ""), 保留 True/False/None 三态
+    return {k: v for k, v in caps.items() if v not in ("",)}
 
 
 def _evidence(url, kind="official_api"):
@@ -98,11 +151,13 @@ def _parse_openrouter(snap, url):
     for m in snap.get("data", []) or []:
         p = m.get("pricing") or {}
         i_pm, o_pm = _per_million(p.get("prompt")), _per_million(p.get("completion"))
+        _desc = (m.get("description") or "").strip()[:600]
+        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"))
         out.append({
             "id": f"openrouter/{m.get('id')}",
             "name": m.get("name"), "status": "declared",
-            "free": (i_pm == 0 and o_pm == 0),
-            "description": (m.get("description") or "").strip()[:600] or None,
+            "free": free, "free_type": ft,
+            "description": _desc or None,
             "capabilities": _caps(m),
             "terms": {"input_per_million": i_pm, "output_per_million": o_pm, "currency": "USD"},
             "evidence": _evidence(url), "last_verified": now(), "created": m.get("created"),
@@ -136,15 +191,15 @@ def _parse_openai_compat(snap, url):
             if i_pm is None and o_pm is None:
                 i_pm = _per_million(_price_field(pp, "prompt", "input"))
                 o_pm = _per_million(_price_field(cp, "completion", "output"))
-        # deepinfra 等把定价嵌在 metadata.pricing 且单位是 per-token/百万不一,不乱猜 -> 留 None
-        free_flag = m.get("free")
-        if free_flag is None and i_pm is not None and o_pm is not None:
-            free_flag = (i_pm == 0 and o_pm == 0)
+        # 不再"价格=0 就当免费": 结构信号优先(按次/订阅/本地/明示), 价格0但没证据 -> zero_price(待核验)
         mid = m.get("id")
+        _name = m.get("name") or mid
+        _desc = (m.get("description") or "").strip()[:600]
+        ft, free = classify_free(i_pm, o_pm, _name, _desc, m.get("free"))
         out.append({
-            "id": mid, "name": m.get("name") or mid, "status": "declared",
-            "free": bool(free_flag) if free_flag is not None else False,
-            "description": (m.get("description") or "").strip()[:600] or None,
+            "id": mid, "name": _name, "status": "declared",
+            "free": free, "free_type": ft,
+            "description": _desc or None,
             "capabilities": _caps(m),
             "terms": {"input_per_million": i_pm, "output_per_million": o_pm, "currency": "USD"},
             "evidence": _evidence(url), "last_verified": now(),
