@@ -1,0 +1,170 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "openai",
+   "url": "https://api.openai.com/v1/models",
+   "at": "2026-10-09T03:17:41Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 810,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "anthropic",
+   "url": "https://www.anthropic.com/pricing",
+   "at": "2026-10-09T03:17:41Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "google",
+   "url": "https://generativelanguage.googleapis.com/v1beta/models",
+   "at": "2026-10-09T03:17:41Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 99,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "openrouter",
+   "url": "https://openrouter.ai/api/v1/models",
+   "at": "2026-10-09T03:17:41Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "groq",
+   "url": "https://api.groq.com/openai/v1/models",
+   "at": "2026-10-09T03:17:41Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 333,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "mistral",
+   "url": "https://mistral.ai/pricing",
+   "at": "2026-10-09T03:17:42Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 193,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "cohere",
+   "url": "https://cohere.com/pricing",
+   "at": "2026-10-09T03:17:42Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 149,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "together",
+   "url": "https://www.together.ai/pricing",
+   "at": "2026-10-09T03:17:42Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 1094,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepseek",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "at": "2026-10-09T03:17:43Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 524,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "zhipu",
+   "url": "https://open.bigmodel.cn/pricing",
+   "at": "2026-10-09T03:17:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 297,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepinfra",
+   "url": "https://api.deepinfra.com/v1/openai/models",
+   "at": "2026-10-09T03:17:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 109,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "sambanova",
+   "url": "https://api.sambanova.ai/v1/models",
+   "at": "2026-10-09T03:17:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 314,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "novita",
+   "url": "https://api.novita.ai/v3/openai/models",
+   "at": "2026-10-09T03:17:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 122,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "vercel",
+   "url": "https://ai-gateway.vercel.sh/v1/models",
+   "at": "2026-10-09T03:17:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 184,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "fastrouter",
+   "url": "https://api.fastrouter.ai/v1/models",
+   "at": "2026-10-09T03:17:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 727,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "requesty",
+   "url": "https://router.requesty.ai/v1/models",
+   "at": "2026-10-09T03:17:46Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 239,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "llmgateway",
+   "url": "https://api.llmgateway.io/v1/models",
+   "at": "2026-10-09T03:17:46Z"
+  }
+ ],
+ "skipped_budget": []
+}

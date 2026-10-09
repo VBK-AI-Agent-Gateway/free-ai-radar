@@ -4,6 +4,7 @@ models:
   name: DeepSeek Chat (V3)
   status: declared
   free: false
+  free_type: paid
   description: prices listed below are in units of per 1M tokens.
   evidence:
   - kind: official_page
@@ -11,4 +12,4 @@ models:
     at: '2026-10-09'
     excerpt: prices listed below are in units of per 1M tokens.
   last_verified: '2026-10-09'
-last_verified: '2026-10-09T02:41:45Z'
+last_verified: '2026-10-09T03:18:11Z'

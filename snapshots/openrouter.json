@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T02:41:15Z",
+ "fetched_at": "2026-10-09T03:17:40Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "e698f3d430729292465ed4e639d6402a02a9629bb945c4c1f3e4d3e214118cf4",
+ "hash": "fd153fadede4c398990ac03634c05a281480797f1f6fc035248de50552f710e1",
  "payload": {
   "data": [
    {
@@ -3412,9 +3412,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000162",
+     "prompt": "0.000000171",
      "completion": "0.000008",
-     "input_cache_read": "0.00000016"
+     "input_cache_read": "0.00000017"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -6196,7 +6196,7 @@
     },
     "pricing": {
      "prompt": "0.000000032",
-     "completion": "0.000001487179",
+     "completion": "0.000001338461",
      "input_cache_read": "0.00000002"
     },
     "top_provider": {
@@ -8996,9 +8996,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000000632",
-     "completion": "0.000000346071",
-     "input_cache_read": "0.00000000632"
+     "prompt": "0.00000000368",
+     "completion": "0.000000311464",
+     "input_cache_read": "0.00000000368"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -9068,9 +9068,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000079",
+     "prompt": "0.000000018",
      "completion": "0.00000128",
-     "input_cache_read": "0.0000000079"
+     "input_cache_read": "0.000000018"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -18595,12 +18595,12 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000045",
-     "completion": "0.0000027"
+     "prompt": "0.00000032",
+     "completion": "0.0000032"
     },
     "top_provider": {
      "context_length": 262144,
-     "max_completion_tokens": 65536,
+     "max_completion_tokens": 81920,
      "is_moderated": false
     },
     "per_request_limits": null,
@@ -19453,9 +19453,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000173",
+     "prompt": "0.0000000099",
      "completion": "0.00000128",
-     "input_cache_read": "0.0000000173"
+     "input_cache_read": "0.0000000099"
     },
     "top_provider": {
      "context_length": 1048576,
