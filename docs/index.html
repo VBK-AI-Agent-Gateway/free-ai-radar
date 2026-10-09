@@ -483,4 +483,19 @@ async function refresh(){
 }
 setInterval(()=>{ if(document.visibilityState === "visible") refresh(); }, 300000);  // 5分钟(降频, 减轻 Pages 带宽)
 document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState === "visible") refresh(); });
-</script></body></html>
+</script>
+<script>
+// 隐藏入口: 领到免费 KEY 后 → 打开网关控制台(登录+添加BYOK) [embedded hidden login, cross-origin nav]
+(function(){
+  var b=document.createElement('a');
+  b.className='subbtn'; b.target='_blank'; b.rel='noopener';
+  b.href='http://5.189.129.216:8888/login';
+  b.style.marginLeft='8px';
+  b.textContent='\u{1F510} \u9886\u5230 KEY? \u53bb\u63A7\u5236\u53F0';
+  var host=document.getElementById('subopen');
+  if(host && host.parentNode){ host.parentNode.insertBefore(b, host.nextSibling); }
+  else { var h=document.querySelector('.submitbar'); if(h) h.appendChild(b); }
+})();
+</script>
+
+</body></html>
