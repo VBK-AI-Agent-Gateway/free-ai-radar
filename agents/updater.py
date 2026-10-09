@@ -59,7 +59,7 @@ def parse_openrouter(payload):
         p = m.get("pricing") or {}
         i_pm, o_pm = _price_per_million(p.get("prompt")), _price_per_million(p.get("completion"))
         _desc = (m.get("description") or "").strip()[:600]
-        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"))
+        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"), m.get("id") or "")
         created = m.get("created")
         out.append({
             "id": f"openrouter/{m.get('id')}",

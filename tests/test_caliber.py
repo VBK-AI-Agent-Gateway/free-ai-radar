@@ -81,13 +81,21 @@ def test_flat_keeps_capability_tristate():
     assert m["context_length"] == 8192
 
 
-def test_flat_gates_zero_price_out():
-    # zero_price(价格0但待核验) 不进免费清单(被 ONLY_FREE 闸挡住)
+def test_flat_shows_zero_price_as_pending():
+    # zero_price(价格0但待核验) 现在进页面(诚实待核验), 但 free_type 保留供 badge 标"待核验"
     rows = [{
         "provider": "p", "homepage": "https://x",
         "models": [{"id": "z", "name": "Z", "free": None, "free_type": "zero_price", "capabilities": {}, "terms": {}}],
     }]
-    assert publisher.flat(rows) == []   # 待核验的不进页面
+    out = publisher.flat(rows)
+    assert len(out) == 1 and out[0]["free_type"] == "zero_price" and out[0]["free"] is None
+    # 付费/订阅/本地 仍不进免费页
+    rows2 = [{"provider": "p", "models": [
+        {"id": "a", "free": False, "free_type": "paid", "capabilities": {}, "terms": {}},
+        {"id": "b", "free": False, "free_type": "subscription", "capabilities": {}, "terms": {}},
+        {"id": "c", "free": False, "free_type": "local", "capabilities": {}, "terms": {}},
+    ]}]
+    assert publisher.flat(rows2) == []
 
 
 def test_site_has_security_and_tri_state():

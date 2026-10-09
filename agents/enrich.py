@@ -60,14 +60,18 @@ def derive_free(free_type):
     return None   # zero_price / unknown -> None(unknown, 不武断判)
 
 
-def classify_free(i_pm, o_pm, name="", desc="", explicit_free=None):
+def classify_free(i_pm, o_pm, name="", desc="", explicit_free=None, mid=""):
     """不再"价格=0 就当免费"。返回 (free_type, free)。
-    结构信号优先(按次/订阅/本地/明示免费), 价格只做兜底; 只价格0没证据 -> zero_price(待核验)。"""
+    结构信号优先(按次/订阅/本地/:free/明示免费), 价格只做兜底; 只价格0没证据 -> zero_price(待核验)。"""
     blob = f"{name} {desc}".lower()
     if any(h in blob for h in _LOCAL_HINTS):
         return "local", False
     if any(h in blob for h in _SUBSCRIPTION_HINTS):
         return "subscription", False
+    # OpenRouter 用 :free、vercel 用 -free 后缀标免费档 -> 明示免费
+    _mid = str(mid or "").lower()
+    if _mid.endswith(":free") or _mid.endswith("-free"):
+        return "permanent", True
     # 厂商接口明示 free 字段
     if explicit_free is True:
         return "permanent", True
@@ -152,7 +156,7 @@ def _parse_openrouter(snap, url):
         p = m.get("pricing") or {}
         i_pm, o_pm = _per_million(p.get("prompt")), _per_million(p.get("completion"))
         _desc = (m.get("description") or "").strip()[:600]
-        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"))
+        ft, free = classify_free(i_pm, o_pm, m.get("name") or "", _desc, m.get("free"), m.get("id") or "")
         out.append({
             "id": f"openrouter/{m.get('id')}",
             "name": m.get("name"), "status": "declared",
@@ -195,7 +199,7 @@ def _parse_openai_compat(snap, url):
         mid = m.get("id")
         _name = m.get("name") or mid
         _desc = (m.get("description") or "").strip()[:600]
-        ft, free = classify_free(i_pm, o_pm, _name, _desc, m.get("free"))
+        ft, free = classify_free(i_pm, o_pm, _name, _desc, m.get("free"), mid or "")
         out.append({
             "id": mid, "name": _name, "status": "declared",
             "free": free, "free_type": ft,
@@ -374,10 +378,15 @@ if __name__ == "__main__":
     assert a1 and not a2, "dedupe selftest failed"
     if QUEUE.exists():
         QUEUE.unlink()
-    o = parse_source({"data": [{"id": "m", "name": "M", "context_length": 1,
-                                "pricing": {"prompt": "0", "completion": "0"}}]},
+    o = parse_source({"data": [
+                        {"id": "m", "name": "M", "context_length": 1,
+                         "pricing": {"prompt": "0", "completion": "0"}},        # 价格0无证据 -> None
+                        {"id": "f", "name": "F", "free": True,
+                         "pricing": {"prompt": "0", "completion": "0"}},        # 显式 free -> True
+                     ]},
                      {"url": "u", "parser": "openrouter"})
-    assert o[0]["free"] is True and o[0]["id"] == "openrouter/m"
+    # 新口径(docs/CALIBER.md): 价格0无证据 -> None(待核验); 显式 free -> True
+    assert o[0]["free"] is None and o[1]["free"] is True and o[0]["id"] == "openrouter/m"
     print("enrich self-check PASS: dedupe + parse")
 
 

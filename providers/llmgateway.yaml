@@ -8,12 +8,19 @@ models:
   name: Custom Model
   status: declared
   free: false
+  free_type: paid
   description: custom provided by llmgateway
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 0.0
     output_per_million: 0.0
@@ -21,18 +28,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: smart
   name: Smart Route
   status: declared
   free: false
+  free_type: paid
   description: smart provided by llmgateway
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 0.0
     output_per_million: 0.0
@@ -40,18 +54,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: auto
   name: Auto Route
   status: declared
   free: false
+  free_type: paid
   description: auto provided by llmgateway
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 0.0
     output_per_million: 0.0
@@ -59,19 +80,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4o-mini
   name: GPT-4o Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-4o-mini provided by openai, azure
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -81,17 +106,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4
   name: GPT-4
   status: declared
   free: false
+  free_type: paid
   description: gpt-4 provided by openai, azure
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -101,19 +131,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4o
   name: GPT-4o
   status: declared
   free: false
+  free_type: paid
   description: gpt-4o provided by openai, azure
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -123,17 +157,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-3.5-turbo
   name: GPT-3.5 Turbo
   status: declared
   free: false
+  free_type: paid
   description: gpt-3.5-turbo provided by openai, azure
   capabilities:
     context_length: 16385
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -143,19 +182,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4-turbo
   name: GPT-4 Turbo
   status: declared
   free: false
+  free_type: paid
   description: gpt-4-turbo provided by openai, azure
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -165,19 +208,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4.1
   name: GPT-4.1
   status: declared
   free: false
+  free_type: paid
   description: gpt-4.1 provided by openai, azure
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -187,18 +234,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: o1
   name: o1
   status: declared
   free: false
+  free_type: paid
   description: o1 provided by openai, azure
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -210,19 +260,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4.1-mini
   name: GPT-4.1 Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-4.1-mini provided by openai, azure
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -232,19 +286,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4.1-nano
   name: GPT-4.1 Nano
   status: declared
   free: false
+  free_type: paid
   description: gpt-4.1-nano provided by openai, azure
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -254,19 +312,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: o3
   name: o3
   status: declared
   free: false
+  free_type: paid
   description: o3 provided by openai, azure
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
+    tools: false
     json_mode: true
   terms:
     input_per_million: 2.0
@@ -275,17 +338,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: o3-mini
   name: o3 Mini
   status: declared
   free: false
+  free_type: paid
   description: o3-mini provided by openai, azure
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
+    tools: false
     json_mode: true
   terms:
     input_per_million: 1.1
@@ -294,20 +363,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: o4-mini
   name: o4 Mini
   status: declared
   free: false
+  free_type: paid
   description: o4-mini provided by openai, azure
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 1.1
@@ -316,18 +389,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-oss-120b
   name: GPT OSS 120B
   status: declared
   free: false
+  free_type: paid
   description: gpt-oss-120b provided by groq, cerebras, nanogpt, bytedance, nebius,
     together-ai, azure, scx-ai, runware
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -338,17 +415,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-oss-20b
   name: GPT OSS 20B
   status: declared
   free: false
+  free_type: paid
   description: gpt-oss-20b provided by groq, nanogpt, together-ai, consensusprotocol
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -359,18 +440,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5
   name: GPT-5
   status: declared
   free: false
+  free_type: paid
   description: gpt-5 provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -382,18 +466,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5-mini
   name: GPT-5 Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-5-mini provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -405,17 +492,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5-nano
   name: GPT-5 Nano
   status: declared
   free: false
+  free_type: paid
   description: gpt-5-nano provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -426,20 +517,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.1
   name: GPT-5.1
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.1 provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 1.25
@@ -448,18 +543,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5-pro
   name: GPT-5 Pro
   status: declared
   free: false
+  free_type: subscription
   description: gpt-5-pro provided by openai
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -471,18 +569,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.1-codex
   name: GPT-5.1 Codex
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.1-codex provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -494,18 +595,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.1-codex-mini
   name: GPT-5.1 Codex mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.1-codex-mini provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -517,20 +621,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.2
   name: GPT-5.2
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.2 provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 1.75
@@ -539,18 +647,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.2-pro
   name: GPT-5.2 Pro
   status: declared
   free: false
+  free_type: subscription
   description: gpt-5.2-pro provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -562,20 +673,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.4
   name: GPT-5.4
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.4 provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 2.5
@@ -584,18 +699,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.4-pro
   name: GPT-5.4 Pro
   status: declared
   free: false
+  free_type: subscription
   description: gpt-5.4-pro provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -607,18 +725,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.4-mini
   name: GPT-5.4 Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.4-mini provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -630,18 +751,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.4-nano
   name: GPT-5.4 Nano
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.4-nano provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -653,20 +777,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.5
   name: GPT-5.5
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.5 provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 5.0
@@ -675,18 +803,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.5-pro
   name: GPT-5.5 Pro
   status: declared
   free: false
+  free_type: subscription
   description: gpt-5.5-pro provided by openai
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -698,20 +829,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.6-sol
   name: GPT-5.6 Sol
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.6-sol provided by openai, azure, aws-mantle
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 4.0
@@ -720,20 +855,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.6-terra
   name: GPT-5.6 Terra
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.6-terra provided by openai, azure, aws-mantle
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 2.0
@@ -742,20 +881,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.6-luna
   name: GPT-5.6 Luna
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.6-luna provided by openai, azure, aws-mantle
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
     json_mode: true
   terms:
     input_per_million: 0.2
@@ -764,18 +907,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-6-astra
   name: GPT-6 Astra
   status: declared
   free: false
+  free_type: paid
   description: gpt-6-astra provided by openai, azure, aws-mantle
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -787,18 +933,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-6-sol
   name: GPT-6 Sol
   status: declared
   free: false
+  free_type: paid
   description: gpt-6-sol provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -810,18 +959,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-6.1-sol
   name: GPT-6.1 Sol
   status: declared
   free: false
+  free_type: paid
   description: gpt-6.1-sol provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -833,18 +985,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-6-luna
   name: GPT-6 Luna
   status: declared
   free: false
+  free_type: paid
   description: gpt-6-luna provided by openai, azure
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -856,18 +1011,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.2-codex
   name: GPT-5.2 Codex
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.2-codex provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -879,18 +1037,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-5.3-codex
   name: GPT-5.3 Codex
   status: declared
   free: false
+  free_type: paid
   description: gpt-5.3-codex provided by openai, azure
   capabilities:
     context_length: 400000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -902,19 +1063,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-image-2
   name: GPT Image 2
   status: declared
   free: false
+  free_type: paid
   description: gpt-image-2 provided by openai, azure
   capabilities:
     context_length: 272000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -924,18 +1089,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-image-2.5-sunburst
   name: GPT Image 2.5 Sunburst
   status: declared
   free: false
+  free_type: paid
   description: gpt-image-2.5-sunburst provided by openai, azure
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -945,18 +1115,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-image-2.5-flare
   name: GPT Image 2.5 Flare
   status: declared
   free: false
+  free_type: paid
   description: gpt-image-2.5-flare provided by openai, azure
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -966,17 +1141,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-embedding-3-small
   name: Text Embedding 3 Small
   status: declared
   free: false
+  free_type: paid
   description: text-embedding-3-small provided by openai
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -986,17 +1166,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-embedding-3-large
   name: Text Embedding 3 Large
   status: declared
   free: false
+  free_type: paid
   description: text-embedding-3-large provided by openai
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1006,17 +1191,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-embedding-ada-002
   name: Text Embedding Ada 002
   status: declared
   free: false
+  free_type: paid
   description: text-embedding-ada-002 provided by openai
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1026,17 +1216,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: tts-1
   name: TTS-1
   status: declared
   free: false
+  free_type: paid
   description: tts-1 provided by openai
   capabilities:
     context_length: 4096
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1046,17 +1241,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: tts-1-hd
   name: TTS-1 HD
   status: declared
   free: false
+  free_type: paid
   description: tts-1-hd provided by openai
   capabilities:
     context_length: 4096
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1066,17 +1266,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4o-mini-tts
   name: GPT-4o Mini TTS
   status: declared
   free: false
+  free_type: paid
   description: gpt-4o-mini-tts provided by openai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1086,18 +1291,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-realtime
   name: GPT Realtime
   status: declared
   free: false
+  free_type: paid
   description: gpt-realtime provided by openai
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1107,18 +1317,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-realtime-mini
   name: GPT Realtime Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-realtime-mini provided by openai
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1128,18 +1343,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-realtime-2.1
   name: GPT Realtime 2.1
   status: declared
   free: false
+  free_type: paid
   description: gpt-realtime-2.1 provided by openai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -1150,18 +1369,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-realtime-2.1-mini
   name: GPT Realtime 2.1 Mini
   status: declared
   free: false
+  free_type: paid
   description: gpt-realtime-2.1-mini provided by openai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1171,18 +1395,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4o-mini-transcribe
   name: GPT-4o Mini Transcribe
   status: declared
   free: false
+  free_type: paid
   description: gpt-4o-mini-transcribe provided by openai
   capabilities:
     context_length: 16000
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1192,18 +1421,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-4o-transcribe
   name: GPT-4o Transcribe
   status: declared
   free: false
+  free_type: paid
   description: gpt-4o-transcribe provided by openai
   capabilities:
     context_length: 16000
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1213,17 +1447,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-live-transcribe
   name: GPT Live Transcribe
   status: declared
   free: false
+  free_type: paid
   description: gpt-live-transcribe provided by openai
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1233,17 +1473,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gpt-transcribe
   name: GPT Transcribe
   status: declared
   free: false
+  free_type: paid
   description: gpt-transcribe provided by openai
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1253,20 +1499,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-fable-5-1
   name: Claude Fable 5.1
   status: declared
   free: false
+  free_type: paid
   description: claude-fable-5-1 provided by anthropic, azure-anthropic, aws-bedrock
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 10.0
     output_per_million: 50.0
@@ -1274,20 +1525,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-fable-5
   name: Claude Fable 5
   status: declared
   free: false
+  free_type: paid
   description: claude-fable-5 provided by anthropic, azure-anthropic, aws-bedrock
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 10.0
     output_per_million: 50.0
@@ -1295,18 +1551,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-sonnet-4-5
   name: Claude Sonnet 4.5
   status: declared
   free: false
+  free_type: paid
   description: claude-sonnet-4-5 provided by anthropic, aws-bedrock, vertex-anthropic
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1318,18 +1577,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-sonnet-4-5-20250929
   name: Claude Sonnet 4.5 (2025-09-29)
   status: declared
   free: false
+  free_type: paid
   description: claude-sonnet-4-5-20250929 provided by anthropic, aws-bedrock
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1341,18 +1603,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-sonnet-4-6
   name: Claude Sonnet 4.6
   status: declared
   free: false
+  free_type: paid
   description: claude-sonnet-4-6 provided by anthropic, aws-bedrock, vertex-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1364,21 +1629,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-sonnet-5
   name: Claude Sonnet 5
   status: declared
   free: false
+  free_type: paid
   description: claude-sonnet-5 provided by anthropic, aws-bedrock, azure-anthropic,
     vertex-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 2.0
     output_per_million: 10.0
@@ -1386,20 +1656,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-sonnet-5-5
   name: Claude Sonnet 5.5
   status: declared
   free: false
+  free_type: paid
   description: claude-sonnet-5-5 provided by anthropic, azure-anthropic, aws-bedrock
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 2.0
     output_per_million: 10.0
@@ -1407,20 +1682,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-haiku-5-5
   name: Claude Haiku 5.5
   status: declared
   free: false
+  free_type: paid
   description: claude-haiku-5-5 provided by anthropic, aws-bedrock
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 0.1
     output_per_million: 0.5
@@ -1428,18 +1708,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-haiku-4-5
   name: Claude Haiku 4.5
   status: declared
   free: false
+  free_type: paid
   description: claude-haiku-4-5 provided by anthropic, aws-bedrock, vertex-anthropic
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1451,18 +1734,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-haiku-4-5-20251001
   name: Claude Haiku 4.5 (2025-10-01)
   status: declared
   free: false
+  free_type: paid
   description: claude-haiku-4-5-20251001 provided by anthropic, aws-bedrock
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1474,18 +1760,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-4-1-20250805
   name: Claude Opus 4.1
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-4-1-20250805 provided by anthropic, aws-bedrock
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1497,20 +1786,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-4-5-20251101
   name: Claude Opus 4.5
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-4-5-20251101 provided by anthropic, aws-bedrock, vertex-anthropic
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 5.0
     output_per_million: 25.0
@@ -1518,21 +1812,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-4-6
   name: Claude Opus 4.6
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-4-6 provided by anthropic, aws-bedrock, azure-anthropic,
     vertex-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 5.0
     output_per_million: 25.0
@@ -1540,21 +1839,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-4-7
   name: Claude Opus 4.7
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-4-7 provided by anthropic, aws-bedrock, azure-anthropic,
     vertex-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 5.0
     output_per_million: 25.0
@@ -1562,20 +1866,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-4-8
   name: Claude Opus 4.8
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-4-8 provided by anthropic, aws-bedrock, azure-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 5.0
     output_per_million: 25.0
@@ -1583,20 +1892,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-5-5
   name: Claude Opus 5.5
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-5-5 provided by anthropic, azure-anthropic, aws-bedrock
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 4.0
     output_per_million: 20.0
@@ -1604,20 +1918,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: claude-opus-5
   name: Claude Opus 5
   status: declared
   free: false
+  free_type: paid
   description: claude-opus-5 provided by anthropic, aws-bedrock, azure-anthropic
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 5.0
     output_per_million: 25.0
@@ -1625,19 +1944,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-pro
   name: Gemini 2.5 Pro
   status: declared
   free: false
+  free_type: subscription
   description: gemini-2.5-pro provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1649,19 +1971,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-flash
   name: Gemini 2.5 Flash
   status: declared
   free: false
+  free_type: paid
   description: gemini-2.5-flash provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1673,20 +1998,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-flash-lite
   name: Gemini 2.5 Flash Lite
   status: declared
   free: false
+  free_type: paid
   description: gemini-2.5-flash-lite provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1696,19 +2025,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-pro-latest
   name: Gemini Pro Latest
   status: declared
   free: false
+  free_type: subscription
   description: gemini-pro-latest provided by google-ai-studio
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1720,20 +2052,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-pro-preview
   name: Gemini 3.1 Pro (Preview)
   status: declared
   free: false
+  free_type: subscription
   description: gemini-3.1-pro-preview provided by google-ai-studio, google-vertex,
     quartz
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1745,19 +2080,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-lite
   name: Gemini 3.1 Flash Lite
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-lite provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1769,18 +2107,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-lite-image
   name: Gemini 3.1 Flash Lite Image
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-lite-image provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 65536
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1792,19 +2133,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.5-flash
   name: Gemini 3.5 Flash
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.5-flash provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1816,19 +2160,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.5-flash-lite
   name: Gemini 3.5 Flash Lite
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.5-flash-lite provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1840,19 +2187,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.6-flash
   name: Gemini 3.6 Flash
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.6-flash provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1864,19 +2214,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.7-flash
   name: Gemini 3.7 Flash
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.7-flash provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1888,19 +2241,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.8-flash
   name: Gemini 3.8 Flash
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.8-flash provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -1912,17 +2268,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: veo-3.1-generate-preview
   name: Veo 3.1
   status: declared
   free: false
+  free_type: paid
   description: veo-3.1-generate-preview provided by google-vertex
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1932,17 +2293,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: veo-3.1-fast-generate-preview
   name: Veo 3.1 Fast
   status: declared
   free: false
+  free_type: paid
   description: veo-3.1-fast-generate-preview provided by google-vertex
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1952,19 +2318,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-nano-banana-2.1
   name: Gemini Nano Banana 2.1
   status: declared
   free: false
+  free_type: paid
   description: gemini-nano-banana-2.1 provided by google-ai-studio
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1974,20 +2344,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-image
   name: Gemini 3.1 Flash Image
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-image provided by google-ai-studio, glacier, google-vertex,
     quartz
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -1997,20 +2371,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-image-preview
   name: Gemini 3.1 Flash Image (Preview)
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-image-preview provided by google-ai-studio, glacier,
     google-vertex, quartz
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2020,19 +2398,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3-flash-preview
   name: Gemini 3 Flash (Preview)
   status: declared
   free: false
+  free_type: paid
   description: gemini-3-flash-preview provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2044,20 +2425,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-flash-image
   name: Gemini 2.5 Flash Image
   status: declared
   free: false
+  free_type: paid
   description: gemini-2.5-flash-image provided by google-ai-studio, google-vertex,
     glacier
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2067,20 +2452,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3-pro-image
   name: Gemini 3 Pro Image
   status: declared
   free: false
+  free_type: subscription
   description: gemini-3-pro-image provided by google-ai-studio, glacier, google-vertex,
     quartz
   capabilities:
     context_length: 65536
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2090,20 +2479,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3-pro-image-preview
   name: Gemini 3 Pro Image (Preview)
   status: declared
   free: false
+  free_type: subscription
   description: gemini-3-pro-image-preview provided by google-ai-studio, glacier, google-vertex,
     quartz
   capabilities:
     context_length: 65536
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2113,19 +2506,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemma-4-31b-it
   name: Gemma 4 31B IT
   status: declared
   free: false
+  free_type: paid
   description: gemma-4-31b-it provided by deepinfra, novita, together-ai, cerebras,
     ranoai, scx-ai, consensusprotocol, runware
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2137,17 +2533,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemma-4-26b-a4b-it
   name: Gemma 4 26B A4B IT
   status: declared
   free: false
+  free_type: paid
   description: gemma-4-26b-a4b-it provided by deepinfra, novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -2158,17 +2558,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-embedding-001
   name: Gemini Embedding 001
   status: declared
   free: false
+  free_type: paid
   description: gemini-embedding-001 provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 2048
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2178,17 +2583,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-embedding-2
   name: Gemini Embedding 2
   status: declared
   free: false
+  free_type: paid
   description: gemini-embedding-2 provided by google-ai-studio
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2198,17 +2608,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-embedding-005
   name: Text Embedding 005
   status: declared
   free: false
+  free_type: paid
   description: text-embedding-005 provided by google-vertex
   capabilities:
     context_length: 2048
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2218,17 +2633,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-embedding-004
   name: Text Embedding 004
   status: declared
   free: false
+  free_type: paid
   description: text-embedding-004 provided by google-vertex
   capabilities:
     context_length: 2048
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2238,17 +2658,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: text-multilingual-embedding-002
   name: Text Multilingual Embedding 002
   status: declared
   free: false
+  free_type: paid
   description: text-multilingual-embedding-002 provided by google-vertex
   capabilities:
     context_length: 2048
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2258,17 +2683,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-flash-preview-tts
   name: Gemini 2.5 Flash Preview TTS
   status: declared
   free: false
+  free_type: paid
   description: gemini-2.5-flash-preview-tts provided by google-ai-studio
   capabilities:
     context_length: 8000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2278,17 +2708,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-pro-preview-tts
   name: Gemini 2.5 Pro Preview TTS
   status: declared
   free: false
+  free_type: subscription
   description: gemini-2.5-pro-preview-tts provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 8000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2298,17 +2733,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-tts-preview
   name: Gemini 3.1 Flash TTS Preview
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-tts-preview provided by google-ai-studio, google-vertex
   capabilities:
     context_length: 8000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2318,18 +2758,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-2.5-flash-native-audio-preview-12-2025
   name: Gemini 2.5 Flash Native Audio Preview (12-2025)
   status: declared
   free: false
+  free_type: paid
   description: gemini-2.5-flash-native-audio-preview-12-2025 provided by google-ai-studio
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2339,18 +2784,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: gemini-3.1-flash-live-preview
   name: Gemini 3.1 Flash Live Preview
   status: declared
   free: false
+  free_type: paid
   description: gemini-3.1-flash-live-preview provided by google-ai-studio
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - audio
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2360,17 +2810,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ling-3.0-flash
   name: Ling 3.0 Flash
   status: declared
   free: false
+  free_type: paid
   description: ling-3.0-flash provided by deepinfra, novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -2381,19 +2835,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ling-3.1-flash
   name: Ling 3.1 Flash
   status: declared
   free: true
+  free_type: permanent
   description: ling-3.1-flash provided by novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
+    json_mode: false
   terms:
     input_per_million: 0.0
     output_per_million: 0.0
@@ -2401,18 +2860,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ling-3.0-flash-vl
   name: Ling 3.0 Flash VL
   status: declared
   free: false
+  free_type: paid
   description: ling-3.0-flash-vl provided by deepinfra
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2424,17 +2886,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: sonar
   name: Sonar
   status: declared
   free: false
+  free_type: paid
   description: sonar provided by perplexity
   capabilities:
     context_length: 130000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2444,16 +2911,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: perplexity-search
   name: Perplexity Search
   status: declared
   free: false
+  free_type: paid
   description: perplexity-search provided by perplexity
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2463,16 +2936,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: perplexity-search-fast
   name: Perplexity Search Fast
   status: declared
   free: false
+  free_type: paid
   description: perplexity-search-fast provided by perplexity
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2482,18 +2961,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4
   name: Grok 4
   status: declared
   free: false
+  free_type: paid
   description: grok-4 provided by xai
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2505,18 +2987,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-1-fast-reasoning
   name: Grok 4.1 Fast Reasoning
   status: declared
   free: false
+  free_type: paid
   description: grok-4-1-fast-reasoning provided by xai, azure-ai-foundry
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2528,19 +3013,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-1-fast-non-reasoning
   name: Grok 4.1 Fast Non-Reasoning
   status: declared
   free: false
+  free_type: paid
   description: grok-4-1-fast-non-reasoning provided by xai, azure-ai-foundry
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2550,18 +3039,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-20-beta-0309-reasoning
   name: Grok 4.20 Beta Reasoning (0309)
   status: declared
   free: false
+  free_type: paid
   description: grok-4-20-beta-0309-reasoning provided by xai
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2573,19 +3065,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-20-beta-0309-non-reasoning
   name: Grok 4.20 Beta Non-Reasoning (0309)
   status: declared
   free: false
+  free_type: paid
   description: grok-4-20-beta-0309-non-reasoning provided by xai
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2595,18 +3091,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-20-reasoning
   name: Grok 4.20 Reasoning
   status: declared
   free: false
+  free_type: paid
   description: grok-4-20-reasoning provided by vertex-openai
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2618,19 +3117,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-20-non-reasoning
   name: Grok 4.20 Non-Reasoning
   status: declared
   free: false
+  free_type: paid
   description: grok-4-20-non-reasoning provided by vertex-openai
   capabilities:
     context_length: 2000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2640,18 +3143,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-3
   name: Grok 4.3
   status: declared
   free: false
+  free_type: paid
   description: grok-4-3 provided by xai, aws-bedrock, azure-ai-foundry
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2663,19 +3169,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-imagine-image
   name: Grok Imagine Image
   status: declared
   free: false
+  free_type: paid
   description: grok-imagine-image provided by xai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2685,19 +3195,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-imagine-image-2-0
   name: Grok Imagine Image 2.0
   status: declared
   free: false
+  free_type: paid
   description: grok-imagine-image-2-0 provided by xai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2707,19 +3221,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-imagine-video-1-5
   name: Grok Imagine Video 1.5
   status: declared
   free: false
+  free_type: paid
   description: grok-imagine-video-1-5 provided by xai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2729,19 +3247,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-imagine-video-1-5-preview
   name: Grok Imagine Video 1.5 Preview
   status: declared
   free: false
+  free_type: paid
   description: grok-imagine-video-1-5-preview provided by xai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2751,18 +3273,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-5
   name: Grok 4.5
   status: declared
   free: false
+  free_type: paid
   description: grok-4-5 provided by xai
   capabilities:
     context_length: 500000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2774,18 +3299,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-6
   name: Grok 4.6
   status: declared
   free: false
+  free_type: paid
   description: grok-4-6 provided by xai, aws-bedrock, vertex-openai
   capabilities:
     context_length: 500000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2797,18 +3325,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-4-7
   name: Grok 4.7
   status: declared
   free: false
+  free_type: paid
   description: grok-4-7 provided by xai, aws-bedrock
   capabilities:
     context_length: 524288
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2820,18 +3351,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-build-0-1
   name: Grok Build 0.1
   status: declared
   free: false
+  free_type: paid
   description: grok-build-0-1 provided by xai
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2843,16 +3377,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: grok-stt-1-0
   name: Grok STT 1.0
   status: declared
   free: false
+  free_type: paid
   description: grok-stt-1-0 provided by xai
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -2862,19 +3402,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mimo-v2.6-pro
   name: MiMo V2.6 Pro
   status: declared
   free: false
+  free_type: subscription
   description: mimo-v2.6-pro provided by xiaomi, deepinfra
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2886,19 +3429,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mimo-v2.6-flash
   name: MiMo V2.6 Flash
   status: declared
   free: false
+  free_type: paid
   description: mimo-v2.6-flash provided by xiaomi, deepinfra
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2910,17 +3456,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mimo-v2.5-pro
   name: MiMo V2.5 Pro
   status: declared
   free: false
+  free_type: subscription
   description: mimo-v2.5-pro provided by xiaomi, novita, deepinfra, tencent
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -2931,19 +3481,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mimo-v2.5
   name: MiMo V2.5
   status: declared
   free: false
+  free_type: paid
   description: mimo-v2.5 provided by xiaomi, novita, deepinfra
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
     - audio
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2955,17 +3508,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-image-1.0
   name: Muse Image 1.0
   status: declared
   free: false
+  free_type: paid
   description: muse-image-1.0 provided by meta
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -2977,18 +3534,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-spark-1.3
   name: Muse Spark 1.3
   status: declared
   free: false
+  free_type: paid
   description: muse-spark-1.3 provided by meta
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3000,18 +3560,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-spark-1.3-contributor
   name: Muse Spark 1.3 Contributor
   status: declared
   free: false
+  free_type: paid
   description: muse-spark-1.3-contributor provided by meta-contributor
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3023,18 +3586,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-spark-1.2
   name: Muse Spark 1.2
   status: declared
   free: false
+  free_type: paid
   description: muse-spark-1.2 provided by meta
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3046,18 +3612,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-spark-1.2-contributor
   name: Muse Spark 1.2 Contributor
   status: declared
   free: false
+  free_type: paid
   description: muse-spark-1.2-contributor provided by meta-contributor
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3069,18 +3638,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-spark-1.1
   name: Muse Spark 1.1
   status: declared
   free: false
+  free_type: paid
   description: muse-spark-1.1 provided by meta
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3092,18 +3664,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: muse-glimmer-30b
   name: Muse Glimmer 30B
   status: declared
   free: false
+  free_type: paid
   description: muse-glimmer-30b provided by deepinfra, together-ai
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3115,17 +3690,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-3.1-70b-instruct
   name: Llama 3.1 70B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-3.1-70b-instruct provided by aws-bedrock
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3135,17 +3715,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-3.2-11b-instruct
   name: Llama 3.2 11B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-3.2-11b-instruct provided by inference.net
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3155,17 +3740,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-3.3-70b-instruct
   name: Llama 3.3 70B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-3.3-70b-instruct provided by nebius, cerebras, novita
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3175,19 +3765,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-4-scout-17b-instruct
   name: Llama 4 Scout 17B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-4-scout-17b-instruct provided by aws-bedrock, novita
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3197,19 +3791,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-4-maverick-17b-instruct
   name: Llama 4 Maverick 17B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-4-maverick-17b-instruct provided by aws-bedrock, novita, scx-ai
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3219,17 +3817,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-3-70b-instruct
   name: Llama 3 70B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-3-70b-instruct provided by novita
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3239,17 +3842,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: llama-3.2-3b-instruct
   name: Llama 3.2 3B Instruct
   status: declared
   free: false
+  free_type: paid
   description: llama-3.2-3b-instruct provided by novita
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3259,18 +3867,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: deepseek-v3.2
   name: DeepSeek V3.2
   status: declared
   free: false
+  free_type: paid
   description: deepseek-v3.2 provided by deepseek, novita, alibaba, bytedance, nebius,
     deepinfra, vertex-openai
   capabilities:
     context_length: 163840
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3281,18 +3893,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: deepseek-v4-pro
   name: DeepSeek V4 Pro
   status: declared
   free: false
+  free_type: subscription
   description: deepseek-v4-pro provided by deepseek, together-ai, alibaba, deepinfra,
     bytedance, nebius, canopywave, fireworks, baidu, tencent, runware
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3303,19 +3919,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: deepseek-v4-flash
   name: DeepSeek V4 Flash
   status: declared
   free: false
+  free_type: paid
   description: deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra,
     bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, consensusprotocol,
     gonka24, runware
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3326,20 +3946,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: deepseek-v4.1-flash
   name: DeepSeek V4.1 Flash
   status: declared
   free: false
+  free_type: paid
   description: deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks,
     together-ai, novita, baidu, luminal, consensusprotocol, entrim, runware, scx-ai-gp,
     sciforium
   capabilities:
     context_length: 1050000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3351,17 +3974,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-large-latest
   name: Mistral Large Latest
   status: declared
   free: false
+  free_type: paid
   description: mistral-large-latest provided by mistral
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3371,19 +3999,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-large-2512
   name: Mistral Large 3
   status: declared
   free: false
+  free_type: paid
   description: mistral-large-2512 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3393,19 +4025,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-small-2506
   name: Mistral Small 3.2
   status: declared
   free: false
+  free_type: paid
   description: mistral-small-2506 provided by mistral
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3415,19 +4051,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ministral-14b-2512
   name: Ministral 14B
   status: declared
   free: false
+  free_type: paid
   description: ministral-14b-2512 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3437,19 +4077,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ministral-8b-2512
   name: Ministral 8B
   status: declared
   free: false
+  free_type: paid
   description: ministral-8b-2512 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3459,19 +4103,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ministral-3b-2512
   name: Ministral 3B
   status: declared
   free: false
+  free_type: paid
   description: ministral-3b-2512 provided by mistral
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3481,17 +4129,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: codestral-2508
   name: Codestral
   status: declared
   free: false
+  free_type: paid
   description: codestral-2508 provided by mistral
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3501,17 +4154,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: devstral-2512
   name: Devstral 2
   status: declared
   free: false
+  free_type: paid
   description: devstral-2512 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3521,18 +4179,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-ocr-latest
   name: Mistral OCR
   status: declared
   free: false
+  free_type: paid
   description: mistral-ocr-latest provided by mistral
   capabilities:
+    context_length: 0
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3542,19 +4205,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-small-2603
   name: Mistral Small 4
   status: declared
   free: false
+  free_type: paid
   description: mistral-small-2603 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3564,19 +4231,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-medium-3-5
   name: Mistral Medium 3.5
   status: declared
   free: false
+  free_type: paid
   description: mistral-medium-3-5 provided by mistral
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3586,19 +4257,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: mistral-large-4
   name: Mistral Large 4
   status: declared
   free: false
+  free_type: paid
   description: mistral-large-4 provided by mistral
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3608,18 +4283,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m3
   name: MiniMax M3
   status: declared
   free: false
+  free_type: paid
   description: minimax-m3 provided by minimax, together-ai, nebius, tencent
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3631,18 +4309,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.7
   name: MiniMax M2.7
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.7 provided by minimax, novita, together-ai, tencent, scx-ai,
     gonka24
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3653,17 +4335,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.7-highspeed
   name: MiniMax M2.7 Highspeed
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.7-highspeed provided by minimax
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3674,18 +4360,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.5
   name: MiniMax M2.5
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.5 provided by minimax, novita, together-ai, embercloud,
     nebius
   capabilities:
     context_length: 228700
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3696,17 +4386,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.5-highspeed
   name: MiniMax M2.5 Highspeed
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.5-highspeed provided by minimax
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3717,17 +4411,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2
   name: MiniMax M2
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2 provided by minimax
   capabilities:
     context_length: 196608
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3738,17 +4436,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.1
   name: MiniMax M2.1
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.1 provided by minimax, novita
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3759,17 +4461,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-m2.1-lightning
   name: MiniMax M2.1 Lightning
   status: declared
   free: false
+  free_type: paid
   description: minimax-m2.1-lightning provided by minimax
   capabilities:
     context_length: 196608
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3780,17 +4486,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-text-01
   name: MiniMax Text 01
   status: declared
   free: false
+  free_type: paid
   description: minimax-text-01 provided by minimax
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3801,19 +4511,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-hailuo-2-3
   name: MiniMax Hailuo 2.3
   status: declared
   free: false
+  free_type: paid
   description: minimax-hailuo-2-3 provided by minimax
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3823,19 +4537,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: minimax-h3-max
   name: MiniMax H3 Max
   status: declared
   free: false
+  free_type: paid
   description: minimax-h3-max provided by minimax
   capabilities:
     context_length: 7000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3845,17 +4563,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2
   name: Kimi K2
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2 provided by groq, novita, moonshot, nebius, bytedance, alibaba
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -3865,17 +4588,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2-thinking
   name: Kimi K2 Thinking
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2-thinking provided by moonshot, bytedance, alibaba, vertex-openai
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -3886,19 +4613,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2.5
   name: Kimi K2.5
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2.5 provided by moonshot, together-ai, nebius, alibaba, embercloud,
     deepinfra
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3910,19 +4640,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2.6
   name: Kimi K2.6
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2.6 provided by moonshot, canopywave, novita, together-ai, nebius,
     baidu, tencent, runware
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3934,18 +4667,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2.7-code
   name: Kimi K2.7 Code
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2.7-code provided by moonshot, novita, nebius, tencent, scx-ai-gp
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -3957,21 +4693,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k2.7-code-highspeed
   name: Kimi K2.7 Code Highspeed
   status: declared
   free: false
+  free_type: paid
   description: kimi-k2.7-code-highspeed provided by moonshot, tencent
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
+    json_mode: false
   terms:
     input_per_million: 1.9
     output_per_million: 8.0
@@ -3979,19 +4719,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k3
   name: Kimi K3
   status: declared
   free: false
+  free_type: paid
   description: kimi-k3 provided by alibaba, moonshot, runpod, novita, together-ai,
     nebius, fireworks, canopywave, tencent, aws-bedrock, scx-ai-gp, runware
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4003,18 +4746,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kimi-k3-fast
   name: Kimi K3 Fast
   status: declared
   free: false
+  free_type: paid
   description: kimi-k3-fast provided by fireworks
   capabilities:
     context_length: 1040384
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4026,19 +4772,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-max
   name: Qwen Max
   status: declared
   free: false
+  free_type: paid
   description: qwen-max provided by alibaba
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4048,17 +4798,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-plus
   name: Qwen Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen-plus provided by alibaba
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4068,17 +4823,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-plus-latest
   name: Qwen Plus Latest
   status: declared
   free: false
+  free_type: paid
   description: qwen-plus-latest provided by alibaba
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4088,17 +4848,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-flash
   name: Qwen Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen-flash provided by alibaba
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4108,19 +4873,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-omni-turbo
   name: Qwen Omni Turbo
   status: declared
   free: false
+  free_type: paid
   description: qwen-omni-turbo provided by alibaba
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4130,17 +4899,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-coder-plus
   name: Qwen3 Coder Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen3-coder-plus provided by alibaba
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4150,18 +4924,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-235b-a22b-instruct-2507
   name: Qwen3 235B A22B Instruct 2507
   status: declared
   free: false
+  free_type: paid
   description: qwen3-235b-a22b-instruct-2507 provided by nebius, cerebras, novita,
     vertex-openai
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4171,17 +4950,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-235b-a22b-thinking-2507
   name: Qwen3 235B A22B Thinking 2507
   status: declared
   free: false
+  free_type: paid
   description: qwen3-235b-a22b-thinking-2507 provided by nebius, novita
   capabilities:
     context_length: 262000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4192,17 +4975,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-235b-a22b-fp8
   name: Qwen3 235B A22B FP8
   status: declared
   free: false
+  free_type: paid
   description: qwen3-235b-a22b-fp8 provided by novita
   capabilities:
     context_length: 40960
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4212,17 +5000,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.5-9b
   name: Qwen3.5 9B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.5-9b provided by deepinfra
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4233,17 +5025,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-32b
   name: Qwen3 32B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-32b provided by nebius, cerebras, scx-ai
   capabilities:
     context_length: 40960
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4254,17 +5050,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-coder-480b-a35b-instruct
   name: Qwen3 Coder 480B A35B Instruct
   status: declared
   free: false
+  free_type: paid
   description: qwen3-coder-480b-a35b-instruct provided by nebius, novita, vertex-openai
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4274,17 +5075,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-coder-30b-a3b-instruct
   name: Qwen3 Coder 30B A3B Instruct
   status: declared
   free: false
+  free_type: paid
   description: qwen3-coder-30b-a3b-instruct provided by nebius, novita
   capabilities:
     context_length: 262000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4294,17 +5100,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-next-80b-a3b-thinking
   name: Qwen3 Next 80B A3B Thinking
   status: declared
   free: false
+  free_type: paid
   description: qwen3-next-80b-a3b-thinking provided by alibaba, novita, nebius, vertex-openai
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4315,17 +5125,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-next-80b-a3b-instruct
   name: Qwen3 Next 80B A3B Instruct
   status: declared
   free: false
+  free_type: paid
   description: qwen3-next-80b-a3b-instruct provided by alibaba, novita, vertex-openai
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4335,18 +5150,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-max
   name: Qwen3 Max
   status: declared
   free: false
+  free_type: paid
   description: qwen3-max provided by alibaba, novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4358,17 +5176,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.7-max
   name: Qwen3.7 Max
   status: declared
   free: false
+  free_type: paid
   description: qwen3.7-max provided by alibaba, novita
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4379,18 +5201,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.7-plus
   name: Qwen3.7 Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen3.7-plus provided by alibaba
   capabilities:
     context_length: 983616
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4402,18 +5227,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.7-flash
   name: Qwen3.7 Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen3.7-flash provided by alibaba
   capabilities:
     context_length: 983616
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4425,18 +5253,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.8-max
   name: Qwen3.8 Max
   status: declared
   free: false
+  free_type: paid
   description: qwen3.8-max provided by alibaba, novita, scx-ai-gp
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4448,18 +5279,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.8-27b
   name: Qwen3.8 27B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.8-27b provided by novita, deepinfra
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4471,17 +5305,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.8-2.4t-a95b
   name: Qwen3.8 2.4T A95B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.8-2.4t-a95b provided by together-ai, deepinfra, novita
   capabilities:
     context_length: 1010000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4492,18 +5330,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.8-flash
   name: Qwen3.8 Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen3.8-flash provided by alibaba, novita
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4515,17 +5356,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-coder-next
   name: Qwen3 Coder Next
   status: declared
   free: false
+  free_type: paid
   description: qwen3-coder-next provided by embercloud
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4535,19 +5381,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-vl-30b-a3b-instruct
   name: Qwen3 VL 30B A3B Instruct
   status: declared
   free: false
+  free_type: paid
   description: qwen3-vl-30b-a3b-instruct provided by novita, deepinfra
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4557,18 +5407,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen35-397b-a17b
   name: Qwen3.5 397B A17B
   status: declared
   free: false
+  free_type: paid
   description: qwen35-397b-a17b provided by alibaba, novita, nebius
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4580,19 +5433,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-3.0
   name: Qwen Image 3.0
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-3.0 provided by alibaba
   capabilities:
     context_length: 4500
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4602,19 +5459,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-3.0-pro
   name: Qwen Image 3.0 Pro
   status: declared
   free: false
+  free_type: subscription
   description: qwen-image-3.0-pro provided by alibaba
   capabilities:
     context_length: 4500
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4624,19 +5485,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-2.1-pro
   name: Qwen Image 2.1 Pro
   status: declared
   free: false
+  free_type: subscription
   description: qwen-image-2.1-pro provided by alibaba
   capabilities:
     context_length: 4500
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4646,17 +5511,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-plus
   name: Qwen Image Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-plus provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4666,17 +5536,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-max
   name: Qwen Image Max
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-max provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4686,17 +5561,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image
   name: Qwen Image
   status: declared
   free: false
+  free_type: paid
   description: qwen-image provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4706,17 +5586,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-max-2025-12-30
   name: Qwen Image Max 2025-12-30
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-max-2025-12-30 provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4726,17 +5611,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-coder-plus
   name: Qwen Coder Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen-coder-plus provided by alibaba
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4746,17 +5636,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-coder-flash
   name: Qwen3 Coder Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen3-coder-flash provided by alibaba
   capabilities:
     context_length: 997952
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4766,19 +5661,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-vl-plus
   name: Qwen3 VL Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen3-vl-plus provided by alibaba
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4788,19 +5687,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-vl-flash
   name: Qwen3 VL Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen3-vl-flash provided by alibaba
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4810,19 +5713,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-vl-235b-a22b-instruct
   name: Qwen3 VL 235B A22B Instruct
   status: declared
   free: false
+  free_type: paid
   description: qwen3-vl-235b-a22b-instruct provided by alibaba, novita, deepinfra
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4832,18 +5739,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-vl-235b-a22b-thinking
   name: Qwen3 VL 235B A22B Thinking
   status: declared
   free: false
+  free_type: paid
   description: qwen3-vl-235b-a22b-thinking provided by alibaba, novita
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4855,19 +5765,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-edit-plus
   name: Qwen Image Edit Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-edit-plus provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4877,19 +5791,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-image-edit-max
   name: Qwen Image Edit Max
   status: declared
   free: false
+  free_type: paid
   description: qwen-image-edit-max provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -4899,17 +5817,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.6-max-preview
   name: Qwen3.6 Max Preview
   status: declared
   free: false
+  free_type: paid
   description: qwen3.6-max-preview provided by alibaba
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -4920,18 +5842,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.6-plus
   name: Qwen3.6 Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen3.6-plus provided by alibaba
   capabilities:
     context_length: 983616
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4943,18 +5868,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.5-122b-a10b
   name: Qwen3.5 122B A10B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.5-122b-a10b provided by alibaba, novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4966,18 +5894,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.5-27b
   name: Qwen3.5 27B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.5-27b provided by alibaba
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -4989,18 +5920,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.5-35b-a3b
   name: Qwen3.5 35B A3B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.5-35b-a3b provided by alibaba
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5012,18 +5946,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.6-35b-a3b
   name: Qwen3.6 35B A3B
   status: declared
   free: false
+  free_type: paid
   description: qwen3.6-35b-a3b provided by alibaba, novita
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5035,18 +5972,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3.6-flash
   name: Qwen3.6 Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen3.6-flash provided by alibaba
   capabilities:
     context_length: 983616
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5058,17 +5998,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-embedding-0.6b
   name: Qwen3 Embedding 0.6B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-embedding-0.6b provided by deepinfra
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5078,17 +6023,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-embedding-8b
   name: Qwen3 Embedding 8B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-embedding-8b provided by nebius, deepinfra
   capabilities:
     context_length: 40960
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5098,17 +6048,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: wan-2-6-t2v
   name: Wan 2.6 Text-to-Video
   status: declared
   free: false
+  free_type: paid
   description: wan-2-6-t2v provided by alibaba
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5118,17 +6073,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-audio-3.0-tts-plus
   name: Qwen-Audio-3.0-TTS Plus
   status: declared
   free: false
+  free_type: paid
   description: qwen-audio-3.0-tts-plus provided by alibaba
   capabilities:
     context_length: 20000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5138,17 +6098,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-reranker-8b
   name: Qwen3 Reranker 8B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-reranker-8b provided by deepinfra
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5158,17 +6123,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen-audio-3.0-tts-flash
   name: Qwen-Audio-3.0-TTS Flash
   status: declared
   free: false
+  free_type: paid
   description: qwen-audio-3.0-tts-flash provided by alibaba
   capabilities:
     context_length: 20000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5178,17 +6148,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-reranker-4b
   name: Qwen3 Reranker 4B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-reranker-4b provided by deepinfra
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5198,17 +6173,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: qwen3-reranker-0.6b
   name: Qwen3 Reranker 0.6B
   status: declared
   free: false
+  free_type: paid
   description: qwen3-reranker-0.6b provided by deepinfra
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5218,19 +6198,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kling-v3-0
   name: KLING v3.0
   status: declared
   free: false
+  free_type: paid
   description: kling-v3-0 provided by atlascloud
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5240,19 +6224,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kling-v3-0-turbo
   name: KLING v3.0 Turbo
   status: declared
   free: false
+  free_type: paid
   description: kling-v3-0-turbo provided by atlascloud
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5262,19 +6250,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: atria-dawn-preview
   name: Atria Dawn Preview
   status: declared
   free: true
+  free_type: permanent
   description: atria-dawn-preview provided by atria
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
+    json_mode: false
   terms:
     input_per_million: 0.0
     output_per_million: 0.0
@@ -5282,17 +6275,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: bge-m3
   name: BGE-M3
   status: declared
   free: false
+  free_type: paid
   description: bge-m3 provided by deepinfra
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5302,20 +6300,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: ernie-4.5-vl-424b-a47b
   name: ERNIE 4.5 VL 424B A47B
   status: declared
   free: false
+  free_type: paid
   description: ernie-4.5-vl-424b-a47b provided by novita
   capabilities:
     context_length: 123000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
+    tools: false
+    json_mode: false
   terms:
     input_per_million: 0.42
     output_per_million: 1.25
@@ -5323,18 +6326,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-1-6-250615
   name: Seed 1.6 (250615)
   status: declared
   free: false
+  free_type: paid
   description: seed-1-6-250615 provided by bytedance
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5346,18 +6352,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-1-6-250915
   name: Seed 1.6 (250915)
   status: declared
   free: false
+  free_type: paid
   description: seed-1-6-250915 provided by bytedance
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5369,18 +6378,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-1-6-flash-250715
   name: Seed 1.6 Flash (250715)
   status: declared
   free: false
+  free_type: paid
   description: seed-1-6-flash-250715 provided by bytedance
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5392,18 +6404,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-1-8-251228
   name: Seed 1.8 (251228)
   status: declared
   free: false
+  free_type: paid
   description: seed-1-8-251228 provided by bytedance
   capabilities:
     context_length: 256000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5415,17 +6430,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedream-4-0
   name: Seedream 4.0
   status: declared
   free: false
+  free_type: paid
   description: seedream-4-0 provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5435,17 +6455,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedance-2-5
   name: Seedance 2.5
   status: declared
   free: false
+  free_type: paid
   description: seedance-2-5 provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5455,17 +6480,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedance-2-0
   name: Seedance 2.0
   status: declared
   free: false
+  free_type: paid
   description: seedance-2-0 provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5475,17 +6505,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedance-2-0-fast
   name: Seedance 2.0 Fast
   status: declared
   free: false
+  free_type: paid
   description: seedance-2-0-fast provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5495,17 +6530,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedance-2-0-mini
   name: Seedance 2.0 Mini
   status: declared
   free: false
+  free_type: paid
   description: seedance-2-0-mini provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5515,17 +6555,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedance-1-5-pro
   name: Seedance 1.5 Pro
   status: declared
   free: false
+  free_type: subscription
   description: seedance-1-5-pro provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5535,17 +6580,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedream-4-5
   name: Seedream 4.5
   status: declared
   free: false
+  free_type: paid
   description: seedream-4-5 provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5555,17 +6605,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedream-5-0-lite
   name: Seedream 5.0 Lite
   status: declared
   free: false
+  free_type: paid
   description: seedream-5-0-lite provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5575,19 +6630,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedream-5-0-pro
   name: Seedream 5.0 Pro
   status: declared
   free: false
+  free_type: subscription
   description: seedream-5-0-pro provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5597,19 +6656,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seedream-5-0-flash
   name: Seedream 5.0 Flash
   status: declared
   free: false
+  free_type: paid
   description: seedream-5-0-flash provided by bytedance
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5619,18 +6682,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-2-0-pro-260328
   name: Seed 2.0 Pro (260328)
   status: declared
   free: false
+  free_type: subscription
   description: seed-2-0-pro-260328 provided by bytedance
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5642,18 +6708,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-2-0-lite-260428
   name: Seed 2.0 Lite (260428)
   status: declared
   free: false
+  free_type: paid
   description: seed-2-0-lite-260428 provided by bytedance
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5665,18 +6734,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-2-0-mini-260428
   name: Seed 2.0 Mini (260428)
   status: declared
   free: false
+  free_type: paid
   description: seed-2-0-mini-260428 provided by bytedance
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5688,18 +6760,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: seed-2-0-code-preview-260328
   name: Seed 2.0 Code Preview (260328)
   status: declared
   free: false
+  free_type: paid
   description: seed-2-0-code-preview-260328 provided by bytedance
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5711,18 +6786,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: fugu-ultra
   name: Fugu Ultra
   status: declared
   free: false
+  free_type: paid
   description: fugu-ultra provided by sakana
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5734,18 +6812,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: fugu-max
   name: Fugu Max
   status: declared
   free: false
+  free_type: paid
   description: fugu-max provided by sakana
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5757,18 +6838,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: fugu-ultra-v2.0
   name: Fugu Ultra v2.0
   status: declared
   free: false
+  free_type: paid
   description: fugu-ultra-v2.0 provided by sakana
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5780,17 +6864,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kinfra-text-embedding-0.6b
   name: Kinfra Text Embedding 0.6B
   status: declared
   free: false
+  free_type: paid
   description: kinfra-text-embedding-0.6b provided by tencent
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5800,17 +6889,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: kinfra-text-embedding-4b
   name: Kinfra Text Embedding 4B
   status: declared
   free: false
+  free_type: paid
   description: kinfra-text-embedding-4b provided by tencent
   capabilities:
     context_length: 32768
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5820,17 +6914,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: hy3
   name: Hy3
   status: declared
   free: false
+  free_type: paid
   description: hy3 provided by deepinfra, novita, tencent
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -5841,17 +6939,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: hy-mt2-plus
   name: Hy-MT2 Plus
   status: declared
   free: false
+  free_type: paid
   description: hy-mt2-plus provided by tencent
   capabilities:
     context_length: 8192
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5861,17 +6964,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: hy4-preview
   name: Hy4 Preview
   status: declared
   free: false
+  free_type: paid
   description: hy4-preview provided by tencent
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -5882,19 +6989,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: hy-image-v3.5-preview
   name: Hy Image 3.5 Preview
   status: declared
   free: false
+  free_type: paid
   description: hy-image-v3.5-preview provided by tencent
   capabilities:
     context_length: 100000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -5904,18 +7015,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: nemotron-3-ultra-550b
   name: Nemotron 3 Ultra 550B
   status: declared
   free: false
+  free_type: paid
   description: nemotron-3-ultra-550b provided by deepinfra, nebius
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5927,19 +7041,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.3-flash
   name: GLM-5.3 Flash
   status: declared
   free: false
+  free_type: paid
   description: glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai,
     runware, gonka24, consensusprotocol, entrim, scx-ai-gp
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -5951,18 +7068,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.3
   name: GLM-5.3
   status: declared
   free: false
+  free_type: paid
   description: glm-5.3 provided by zai, novita, baidu, alibaba, fireworks, inference.net,
     mistral, deepinfra, together-ai, runware, scx-ai-gp
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -5973,18 +7094,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.2
   name: GLM-5.2
   status: declared
   free: false
+  free_type: paid
   description: glm-5.2 provided by zai, novita, canopywave, embercloud, bytedance,
     alibaba, nebius, baidu, tencent, runware, scx-ai-gp
   capabilities:
     context_length: 1048576
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -5995,18 +7120,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.1
   name: GLM-5.1
   status: declared
   free: false
+  free_type: paid
   description: glm-5.1 provided by zai, novita, together-ai, deepinfra, embercloud,
     nebius, baidu, tencent
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6017,18 +7146,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5
   name: GLM-5
   status: declared
   free: false
+  free_type: paid
   description: glm-5 provided by zai, together-ai, novita, alibaba, embercloud, nebius,
     vertex-openai, baidu, tencent
   capabilities:
     context_length: 203000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6039,17 +7172,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.5
   name: GLM-4.5
   status: declared
   free: false
+  free_type: paid
   description: glm-4.5 provided by zai, embercloud
   capabilities:
     context_length: 131000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6060,18 +7197,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.5v
   name: GLM-4.5V
   status: declared
   free: false
+  free_type: paid
   description: glm-4.5v provided by zai, novita
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6083,17 +7223,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.5-air
   name: GLM-4.5 Air
   status: declared
   free: false
+  free_type: paid
   description: glm-4.5-air provided by zai, embercloud
   capabilities:
     context_length: 131000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6103,17 +7248,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.5-x
   name: GLM-4.5 X
   status: declared
   free: false
+  free_type: paid
   description: glm-4.5-x provided by zai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6124,17 +7273,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.5-airx
   name: GLM-4.5 AirX
   status: declared
   free: false
+  free_type: paid
   description: glm-4.5-airx provided by zai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6144,18 +7298,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.7
   name: GLM-4.7
   status: declared
   free: false
+  free_type: paid
   description: glm-4.7 provided by zai, novita, cerebras, bytedance, together-ai,
     alibaba, embercloud, vertex-openai
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6166,17 +7324,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.7-flashx
   name: GLM-4.7 FlashX
   status: declared
   free: false
+  free_type: paid
   description: glm-4.7-flashx provided by zai
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6187,17 +7349,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.7-flash
   name: GLM-4.7 Flash
   status: declared
   free: false
+  free_type: paid
   description: glm-4.7-flash provided by embercloud
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6207,17 +7374,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.6
   name: GLM-4.6
   status: declared
   free: false
+  free_type: paid
   description: glm-4.6 provided by zai, cerebras, alibaba, novita
   capabilities:
     context_length: 204800
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6228,17 +7399,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4-32b-0414-128k
   name: GLM-4 32B (0414-128k)
   status: declared
   free: false
+  free_type: paid
   description: glm-4-32b-0414-128k provided by zai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6248,18 +7424,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.6v
   name: GLM-4.6V
   status: declared
   free: false
+  free_type: paid
   description: glm-4.6v provided by zai, novita
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6271,18 +7450,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-4.6v-flashx
   name: GLM-4.6V FlashX
   status: declared
   free: false
+  free_type: paid
   description: glm-4.6v-flashx provided by zai
   capabilities:
     context_length: 128000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6294,17 +7476,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: cogview-4
   name: CogView-4
   status: declared
   free: false
+  free_type: paid
   description: cogview-4 provided by zai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6314,17 +7501,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-image
   name: GLM-Image
   status: declared
   free: false
+  free_type: paid
   description: glm-image provided by zai
   capabilities:
     context_length: 2000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6334,17 +7526,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5-turbo
   name: GLM-5 Turbo
   status: declared
   free: false
+  free_type: paid
   description: glm-5-turbo provided by tencent
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6355,18 +7551,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5v-turbo
   name: GLM-5V Turbo
   status: declared
   free: false
+  free_type: paid
   description: glm-5v-turbo provided by tencent
   capabilities:
     context_length: 200000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6378,17 +7577,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: eleven-multilingual-v2
   name: Eleven Multilingual v2
   status: declared
   free: false
+  free_type: paid
   description: eleven-multilingual-v2 provided by elevenlabs
   capabilities:
     context_length: 10000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6398,17 +7602,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: eleven-v3
   name: Eleven v3
   status: declared
   free: false
+  free_type: paid
   description: eleven-v3 provided by elevenlabs
   capabilities:
     context_length: 5000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6418,17 +7627,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: eleven-flash-v2-5
   name: Eleven Flash v2.5
   status: declared
   free: false
+  free_type: paid
   description: eleven-flash-v2-5 provided by elevenlabs
   capabilities:
     context_length: 40000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6438,17 +7652,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: eleven-turbo-v2-5
   name: Eleven Turbo v2.5
   status: declared
   free: false
+  free_type: paid
   description: eleven-turbo-v2-5 provided by elevenlabs
   capabilities:
     context_length: 40000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6458,17 +7677,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: jev-1.13.0
   name: Jev 1.13
   status: declared
   free: false
+  free_type: paid
   description: jev-1.13.0 provided by typesafe
   capabilities:
     context_length: 64000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6478,18 +7702,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: inkling
   name: Inkling
   status: declared
   free: false
+  free_type: paid
   description: inkling provided by together-ai, deepinfra
   capabilities:
     context_length: 524288
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6501,18 +7728,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: step-3.7-flash
   name: Step 3.7 Flash
   status: declared
   free: false
+  free_type: paid
   description: step-3.7-flash provided by novita, deepinfra
   capabilities:
     context_length: 262144
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6524,17 +7754,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: granite-4.2-8b
   name: Granite 4.2 8B
   status: declared
   free: false
+  free_type: paid
   description: granite-4.2-8b provided by deepinfra
   capabilities:
     context_length: 131072
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6545,17 +7779,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.2-fast
   name: GLM-5.2 Turbo
   status: declared
   free: false
+  free_type: paid
   description: glm-5.2-fast provided by scx-ai-gp
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
     reasoning: true
     tools: true
     json_mode: true
@@ -6566,18 +7804,21 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: Qwen3.8-27B
   name: Qwen3.8 27B
   status: declared
   free: false
+  free_type: paid
   description: Qwen3.8-27B provided by consensusprotocol
   capabilities:
     context_length: 262000
+    max_output_tokens: null
     input_modalities:
     - text
     - image
+    modality: null
     image_input: true
     reasoning: true
     tools: true
@@ -6589,17 +7830,22 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
 - id: glm-5.3-fast
   name: GLM 5.3 Fast
   status: declared
   free: false
+  free_type: paid
   description: glm-5.3-fast provided by scx-ai-gp
   capabilities:
     context_length: 1000000
+    max_output_tokens: null
     input_modalities:
     - text
+    modality: null
+    image_input: false
+    reasoning: false
     tools: true
     json_mode: true
   terms:
@@ -6609,6 +7855,6 @@ models:
   evidence:
   - kind: official_api
     url: https://api.llmgateway.io/v1/models
-    at: '2026-10-09T02:41:44Z'
-  last_verified: '2026-10-09T02:41:44Z'
-last_verified: '2026-10-09T02:41:44Z'
+    at: '2026-10-09T03:04:18Z'
+  last_verified: '2026-10-09T03:04:18Z'
+last_verified: '2026-10-09T03:04:19Z'

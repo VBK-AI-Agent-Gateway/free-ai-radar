@@ -7,18 +7,26 @@ signup:
   regions_blocked: unknown
   est_minutes: unknown
 pricing_url: https://novita.ai/pricing
-last_verified: '2026-10-09T02:41:41Z'
+last_verified: '2026-10-09T03:04:07Z'
 models:
 - id: zai-org/glm-5.3-flash
   name: zai-org/glm-5.3-flash
   status: declared
   free: false
+  free_type: paid
   description: GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited
     for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear
     attention architecture maintains accurate long-context behavior while reducing
     compute overhead.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.15
     output_per_million: 0.5
@@ -26,15 +34,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-pro-0813-p
   name: deepseek/deepseek-v4-pro-0813-p
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.32
     output_per_million: 3.96
@@ -42,15 +58,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4.1-flash-dst
   name: deepseek/deepseek-v4.1-flash-dst
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -58,15 +82,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4.1-flash-p
   name: deepseek/deepseek-v4.1-flash-p
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -74,19 +106,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: xiaomimimo/mimo-v2.6-flash
   name: xiaomimimo/mimo-v2.6-flash
   status: declared
   free: false
+  free_type: paid
   description: MiMo V2.6 Flash is Xiaomi's cost-efficient open-source reasoning model
     for high-frequency calls and large-scale professional workflows. It combines native
     text, image, video, and audio understanding with a 1M-token context window and
     up to 128K output tokens, while supporting controllable deep thinking, tool calling,
     JSON mode, streaming, and prompt caching.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.14
     output_per_million: 0.28
@@ -94,19 +134,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: xiaomimimo/mimo-v2.6-pro
   name: xiaomimimo/mimo-v2.6-pro
   status: declared
   free: false
+  free_type: subscription
   description: MiMo V2.6 Pro is Xiaomi's flagship open-source reasoning model for
     complex projects, long-horizon agent tasks, cybersecurity, research, and high-value
     professional work. It natively understands text, images, video, and audio, supports
     a 1M-token context window and up to 128K output tokens, and provides controllable
     deep thinking, tool calling, JSON mode, streaming, and prompt caching.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.435
     output_per_million: 0.87
@@ -114,18 +162,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: tencent/hy4-preview
   name: tencent/hy4-preview
   status: declared
   free: false
+  free_type: paid
   description: 'Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with
     49B active parameters out of 770B total. It is designed for coding agents, complex
     tool-use workflows, and productivity tasks that require planning, context continuity,
     and sustained multi-step execution.'
   capabilities:
+    context_length: null
     max_output_tokens: 64000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.834
     output_per_million: 2.501
@@ -133,17 +189,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-5.3-p
   name: zai-org/glm-5.3-p
   status: declared
   free: false
+  free_type: paid
   description: GLM-5.3 is Z.ai’s latest flagship model, delivering comprehensive advancements
     in complex software engineering and agent capabilities. It uses the same base
     model as GLM-5.2, with all improvements driven by post-training.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.4
     output_per_million: 4.4
@@ -151,15 +215,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4.1-flash
   name: deepseek/deepseek-v4.1-flash
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -167,19 +239,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k3-p
   name: moonshotai/kimi-k3-p
   status: declared
   free: false
+  free_type: paid
   description: Kimi K3 is Kimi’s most capable model to date, with 2.8 trillion parameters.
     Built on Kimi Delta Attention, a hybrid linear attention mechanism, and Attention
     Residuals, it offers native visual understanding and a 1M-token context window
     for frontier intelligence scenarios such as software engineering, knowledge work,
     and deep reasoning.
   capabilities:
+    context_length: null
     max_output_tokens: 1048576
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 3.0
     output_per_million: 15.0
@@ -187,12 +267,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-5.3
   name: zai-org/glm-5.3
   status: declared
   free: false
+  free_type: paid
   description: 'GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex
     software engineering and long-horizon agent tasks. It supports text input and
     output with a 1M-token context window, and improves on GLM-5.2 in coding and in
@@ -201,7 +282,14 @@ models:
     Reasoning is always on and cannot be disabled. Reasoning efforts low, high, and
     max are supported; max is the default.'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.4
     output_per_million: 4.4
@@ -209,15 +297,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-pro-0813
   name: deepseek/deepseek-v4-pro-0813
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.32
     output_per_million: 3.96
@@ -225,19 +321,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k3
   name: moonshotai/kimi-k3
   status: declared
   free: false
+  free_type: paid
   description: Kimi K3 is Kimi’s most capable model to date, with 2.8 trillion parameters.
     Built on Kimi Delta Attention, a hybrid linear attention mechanism, and Attention
     Residuals, it offers native visual understanding and a 1M-token context window
     for frontier intelligence scenarios such as software engineering, knowledge work,
     and deep reasoning.
   capabilities:
+    context_length: null
     max_output_tokens: 1048576
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 3.0
     output_per_million: 15.0
@@ -245,19 +349,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: tencent/hy3
   name: tencent/hy3
   status: declared
   free: false
+  free_type: paid
   description: Built for real-world business scenarios, Hy3 features a 295B/21B active
     MoE architecture, native 256K context support, and three reasoning modes. It enhances
     coding, long-form comprehension, multi-turn dialogue, and agentic task execution,
     balancing reliability, efficiency, and cost across both high-frequency interactions
     and complex workflows.
   capabilities:
+    context_length: null
     max_output_tokens: 262144
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.14
     output_per_million: 0.58
@@ -265,12 +377,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-5.2
   name: zai-org/glm-5.2
   status: declared
   free: false
+  free_type: paid
   description: GLM-5.2 is Z.AI's latest flagship model, meticulously engineered for
     long-horizon autonomous tasks. Capable of working continuously on a single assignment
     for up to 8 hours, it autonomously manages the entire workflow—from initial planning
@@ -280,7 +393,14 @@ models:
     and real-world development scenarios. Its context window has been expanded from
     200K to 1M tokens, making it
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.4
     output_per_million: 4.4
@@ -288,19 +408,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2.7-code
   name: moonshotai/kimi-k2.7-code
   status: declared
   free: false
+  free_type: paid
   description: Kimi K2.7 Code is MoonshotAI's strongest coding & agentic model — a
     1T-parameter MoE (32B activated) , 256K context and interleaved thinking with
     multi-step tool calling. It delivers major gains on long-horizon coding tasks
     while cutting thinking-token usage by ~30% vs K2.6, and accepts text, image and
     video inputs for vision-driven development workflows.
   capabilities:
+    context_length: null
     max_output_tokens: 262144
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.95
     output_per_million: 4.0
@@ -308,17 +436,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-flash-0731-p
   name: deepseek/deepseek-v4-flash-0731-p
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek,
     with 13B active parameters out of 284B total. This re-post-trained revision is
     suited for coding, reasoning, and agent workflows.
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.44
     output_per_million: 1.32
@@ -326,12 +462,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.8-flash
   name: qwen/qwen3.8-flash
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: 'Qwen3.8-Flash is Alibaba''s multimodal MoE model and an early preview
     of the Qwen4 architecture: 125B total parameters with only 6B activated per token,
     plus a 51B N-gram embedding, built on GDN + QSA hybrid attention. It accepts text,
@@ -342,7 +479,14 @@ models:
     and long-document understanding, and long-video analysis at a fraction of the
     cost of comparable frontier models.'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.15
     output_per_million: 0.47
@@ -350,17 +494,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-flash-0731
   name: deepseek/deepseek-v4-flash-0731
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek,
     with 13B active parameters out of 284B total. This re-post-trained revision is
     suited for coding, reasoning, and agent workflows.
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.44
     output_per_million: 1.32
@@ -368,12 +520,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: mindai/macaron-v1-venti
   name: mindai/macaron-v1-venti
   status: declared
   free: false
+  free_type: paid
   description: Macaron-V1-Venti is a 748B-parameter flagship model in the Macaron-V1
     family, built for personal intelligence, tool use, coding workflows, and code-native
     Generative UI. The model uses a Mixture of LoRA (MoL) architecture on top of GLM-5.2,
@@ -381,7 +534,14 @@ models:
     The specialists cover chat, personal-agent tasks, coding, and GenUI, with an L0
     router selecting the most suitable specialist for each new user request.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.825
     output_per_million: 2.475
@@ -389,15 +549,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: minimax/minimax-m3
   name: minimax/minimax-m3
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -405,12 +573,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-flash
   name: deepseek/deepseek-v4-flash
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek-V4-Flash is a lightweight model meticulously designed by DeepSeek
     to deliver the ultimate combination of lightning-fast response times and unmatched
     cost-effectiveness. Engineered with fewer parameters and significantly lower activation
@@ -420,7 +589,14 @@ models:
     knowledge, it remains highly capable of satisfying the demands of most application
     scenarios. In Agentic appli
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.14
     output_per_million: 0.28
@@ -428,12 +604,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-v4-pro
   name: deepseek/deepseek-v4-pro
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek-V4-Pro is the next-generation flagship open-source large language
     model developed by DeepSeek, delivering comprehensive performance that rivals
     the world's premier closed-source models. Compared to its predecessor, V4-Pro
@@ -443,7 +620,14 @@ models:
     (such as Sonnet 4.5). Furthermore, the model not only boasts an expansive repository
     of world knowledge that leads the open-s
   capabilities:
+    context_length: null
     max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.6
     output_per_million: 3.2
@@ -451,18 +635,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: apodex/apodex-1.1-mini
   name: apodex/apodex-1.1-mini
   status: declared
-  free: false
+  free: null
+  free_type: unknown
   description: Apodex-1.1-mini is a reasoning-first model by Apodex for complex, long-horizon
     research and forecasting tasks. It works directly with files, data, code, and
     tools to deliver verifiable results, and ranks at the top of ProphetArena, the
     leading live forecasting benchmark.
   capabilities:
+    context_length: null
     max_output_tokens: 262144
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: null
     output_per_million: null
@@ -470,16 +662,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: inclusionai/ling-3.1-flash
   name: inclusionai/ling-3.1-flash
   status: declared
-  free: false
+  free: null
+  free_type: unknown
   description: Hybrid reasoning model with a 1M-token context window, featuring 560B
     total parameters and 25B activated parameters.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: null
     output_per_million: null
@@ -487,15 +687,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.8-27b
   name: qwen/qwen3.8-27b
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.42
     output_per_million: 3.0
@@ -503,12 +711,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: inclusionai/ling-3.0-flash-fin
   name: inclusionai/ling-3.0-flash-fin
   status: declared
   free: false
+  free_type: paid
   description: Ling-3.0-flash-Fin is a finance-enhanced MoE model built on Ling-3.0-flash,
     with 124 billion total parameters and approximately 5.1 billion activated parameters.
     Designed for real-world investment workflows, it is optimized for complex multi-step
@@ -516,7 +725,14 @@ models:
     parameter footprint, it delivers competitive financial performance while maintaining
     strong general capabilities in reasoning, coding, and mathematics.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.075
     output_per_million: 0.22
@@ -524,18 +740,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.8-2.4t-a95b
   name: qwen/qwen3.8-2.4t-a95b
   status: declared
   free: false
+  free_type: paid
   description: Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model
     from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters
     out of 2.4 trillion total. It is suited for coding, research, complex reasoning,
     and agentic workflows.Text-only.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 2.0
     output_per_million: 6.0
@@ -543,18 +767,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.8-max
   name: qwen/qwen3.8-max
   status: declared
   free: false
+  free_type: paid
   description: A 2.4T-parameter MoE flagship for coding and knowledge work. Programs
     autonomously for days to deliver complete projects end to end, with native visual
     understanding across planning, execution, and verification, plus deep semantic
     analysis of ultra-long documents and video.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 2.0
     output_per_million: 6.0
@@ -562,12 +794,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: inclusionai/ling-3.0-flash
   name: inclusionai/ling-3.0-flash
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: 'Ling-3.0-flash is a 124B-parameter Mixture-of-Experts (MoE) model,
     with approximately 5.1B parameters activated per token.
 
@@ -575,7 +808,14 @@ models:
     as key priorities, enabling developers to complete more useful work within constrained
     token, latency, and serving-cost budgets.'
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.06
     output_per_million: 0.18
@@ -583,19 +823,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: mindai/macaron-v1-tall
   name: mindai/macaron-v1-tall
   status: declared
   free: false
+  free_type: paid
   description: Macaron-V1-Tall is the efficient model of the Macaron-V1 family, built
     on Qwen3.6-35B-A3B with four specialist LoRA adapters for Chat, Agent, Coding,
     and GenUI. It follows the same routed Mixture of LoRA (MoL) design as Macaron-V1-Venti,
     bringing Macaron’s personal-intelligence, coding, tool-use, and code-native Generative
     UI capabilities to a smaller and more accessible deployment profile.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.2475
     output_per_million: 1.43
@@ -603,12 +851,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: stepfun/step-3.7-flash
   name: stepfun/step-3.7-flash
   status: declared
   free: false
+  free_type: paid
   description: 'Step-3.7-Flash is StepFun''s flagship high-efficiency multimodal reasoning
     model, built on a sparse Mixture-of-Experts architecture (198B total / ~11B active
     parameters) that delivers high throughput and low latency for real-time agentic
@@ -618,7 +867,14 @@ models:
     and reasoning depth. With reliable multi-step tool calling, task decomposition
     and plan execution, it excels at coding, '
   capabilities:
+    context_length: null
     max_output_tokens: 256000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.2
     output_per_million: 1.15
@@ -626,12 +882,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: nvidia/nemotron-3-nano-30b-a3b
   name: nvidia/nemotron-3-nano-30b-a3b
   status: declared
   free: false
+  free_type: paid
   description: Nemotron-3-Nano-30B-A3B is NVIDIA's compute-efficient, open-weight
     reasoning model built for agentic AI. Its Mixture-of-Experts design (30B total
     / 3.5B active) with a hybrid Mamba-2 + Transformer architecture delivers strong
@@ -641,7 +898,14 @@ models:
     agents, coding, and math. Released under the NVIDIA Nemotron Open Model License
     and ready for commercial use.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.05
     output_per_million: 0.2
@@ -649,18 +913,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: baidu/cobuddy
   name: baidu/cobuddy
   status: declared
   free: false
+  free_type: paid
   description: CoBuddy is a specialized code generation model developed by Baidu,
     engineered with targeted optimizations for Coding and AI Agent scenarios. It delivers
     exceptional performance, characterized by high inference throughput and ultra-low
     end-to-end (E2E) latency.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.28
     output_per_million: 1.13
@@ -668,17 +940,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: xiaomimimo/mimo-v2.5
   name: xiaomimimo/mimo-v2.5
   status: declared
   free: false
+  free_type: paid
   description: Xiaomi's native omni-modal model (text / image / video / audio understanding)
     with Pro-level agentic performance at ~half the inference cost and a 1M-token
     context — built for cost-efficient, perception-rich agent workflows.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.168
     output_per_million: 0.336
@@ -686,19 +966,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.7-max
   name: qwen/qwen3.7-max
   status: declared
   free: false
+  free_type: paid
   description: The Qwen3.7 Max model—the largest and most powerful in the series—is
     currently available for users to try out its text-only features. Built as a next-generation
     flagship model for the era of AI agents, Qwen3.7 stands out for the exceptional
     breadth and depth of its agent capabilities, seamlessly handling various tasks
     in programming, office productivity, and long-term autonomous execution.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.25
     output_per_million: 3.75
@@ -706,12 +994,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: xiaomimimo/mimo-v2.5-pro
   name: xiaomimimo/mimo-v2.5-pro
   status: declared
   free: false
+  free_type: paid
   description: 'MiMo-V2.5-Pro is purpose-built to push the boundaries of complex software
     engineering and extreme long-horizon tasks. Compared to its predecessor, it achieves
     a comprehensive leap in general agentic capabilities, advancing the human-AI collaboration
@@ -721,7 +1010,14 @@ models:
     contexts but also demonstrating exceptional global architectural planning and
     self-correction discipline. In '
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.522
     output_per_million: 1.044
@@ -729,12 +1025,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.6-27b
   name: qwen/qwen3.6-27b
   status: declared
   free: false
+  free_type: local
   description: The Qwen3.6 27B native vision-language dense model builds upon the
     3.5-27B version, with key improvements in agentic coding capabilities and enhanced
     STEM reasoning and inference skills. In the vision modality, it demonstrates significant
@@ -742,7 +1039,14 @@ models:
     understanding, document OCR, and visual agent capabilities continue to improve
     steadily.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 3.6
@@ -750,12 +1054,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2.6
   name: moonshotai/kimi-k2.6
   status: declared
   free: false
+  free_type: paid
   description: Kimi K2.6 is an open-source, native multimodal agentic model that significantly
     advances practical capabilities in long-horizon coding, coding-driven design,
     and swarm-based task orchestration. It robustly executes complex, end-to-end development
@@ -765,7 +1070,14 @@ models:
     K2.6 can horizontally orchestrate up to 300 domain-specialized sub-agents through
     4,000 coordinated steps, dynamica
   capabilities:
+    context_length: null
     max_output_tokens: 262144
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.8
     output_per_million: 3.4
@@ -773,15 +1085,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: bunny
   name: bunny
   status: declared
-  free: false
+  free: null
+  free_type: unknown
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: null
     output_per_million: null
@@ -789,12 +1109,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-5.1
   name: zai-org/glm-5.1
   status: declared
   free: false
+  free_type: paid
   description: GLM-5.1 is Z.AI's latest flagship model, meticulously engineered for
     long-horizon autonomous tasks. Capable of working continuously on a single assignment
     for up to 8 hours, it autonomously manages the entire workflow—from initial planning
@@ -804,7 +1125,14 @@ models:
     and real-world development scenarios. This makes it the ideal foundational model
     for powering advance
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.38
     output_per_million: 4.4
@@ -812,12 +1140,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: minimax/minimax-m2.7-highspeed
   name: minimax/minimax-m2.7-highspeed
   status: declared
   free: false
+  free_type: paid
   description: 'MiniMax M2.7-highspeed is an accelerated SOTA model engineered for
     scenarios demanding extreme efficiency. It perfectly inherits the core intelligence
     and robust digital workspace capabilities of the standard M2.7.
@@ -828,7 +1157,14 @@ models:
     workspace, it boasts the highest open-source GDPval-AA score (1495 ELO). It delivers
     high-fidelity, complex editing and multi-turn revisions a'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 2.4
@@ -836,12 +1172,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: google/gemma-4-26b-a4b-it
   name: google/gemma-4-26b-a4b-it
   status: declared
   free: false
+  free_type: paid
   description: 'Gemma 4 26B A4B is built for developers who need scalable performance
     without sacrificing core capabilities.Crucially, it retains the massive 256K-token
     context window of the 31B model, making it highly competitive for long-context
@@ -851,7 +1188,14 @@ models:
     Equipped with native Function Calling and robust coding proficiencies, the 26B
     A4B is the ideal, cost-effective engine for'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.13
     output_per_million: 0.4
@@ -859,12 +1203,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: google/gemma-4-31b-it
   name: google/gemma-4-31b-it
   status: declared
   free: false
+  free_type: paid
   description: Gemma 4 31B is engineered to tackle the most demanding enterprise workloads
     and complex reasoning tasks. With an expansive 256K-token context window, the
     31B model can effortlessly ingest entire codebases, and massive sets of images
@@ -874,7 +1219,14 @@ models:
     Combined with native structured Function Calling, robust code generation, and
     out-of-the-box fluency in 35+ la
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.14
     output_per_million: 0.4
@@ -882,12 +1234,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: minimax/minimax-m2.7
   name: minimax/minimax-m2.7
   status: declared
   free: false
+  free_type: paid
   description: 'MiniMax M2.7 is an all-around evolved, versatile open-source large
     language model that seamlessly blends hardcore engineering productivity with high-EQ,
     human-like interaction capabilities.
@@ -899,7 +1252,14 @@ models:
     high-fidelity, complex editing and multi-turn revisions across the Office suite
     (E'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -907,18 +1267,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.5-27b
   name: qwen/qwen3.5-27b
   status: declared
   free: false
+  free_type: paid
   description: The Qwen3.5 27B native vision-language Dense model incorporates a linear
     attention mechanism, delivering fast response times while balancing inference
     speed and performance. Its overall capabilities are comparable to those of the
     Qwen3.5-122B-A10B.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 2.4
@@ -926,12 +1294,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.5-122b-a10b
   name: qwen/qwen3.5-122b-a10b
   status: declared
   free: false
+  free_type: paid
   description: The Qwen3.5-122B-A10B native vision-language model is built on a hybrid
     architecture that integrates a linear attention mechanism with a sparse mixture-of-experts
     model, achieving higher inference efficiency. In terms of overall performance,
@@ -939,7 +1308,14 @@ models:
     outperform those of Qwen3-235B-2507, and its visual capabilities surpass those
     of Qwen3-VL-235B.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.4
     output_per_million: 3.2
@@ -947,18 +1323,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.5-35b-a3b
   name: qwen/qwen3.5-35b-a3b
   status: declared
   free: false
+  free_type: paid
   description: The Qwen3.5 Series 35B-A3B is a native vision-language model designed
     with a hybrid architecture that integrates linear attention mechanisms and a sparse
     mixture-of-experts model, achieving higher inference efficiency. Its overall performance
     is comparable to that of the Qwen3.5-27B.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.25
     output_per_million: 2.0
@@ -966,12 +1350,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.5-397b-a17b
   name: qwen/qwen3.5-397b-a17b
   status: declared
   free: false
+  free_type: paid
   description: The Qwen3.5 series 397B-A17B native vision-language model is based
     on a hybrid architecture design that integrates linear attention mechanisms with
     sparse Mixture-of-Experts (MoE), achieving higher inference efficiency. Across
@@ -981,7 +1366,14 @@ models:
     top-tier frontier models. Possessing robust code generation and agentic capabilities,
     it exhibits strong generalizatio
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 3.6
@@ -989,12 +1381,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: minimax/minimax-m2.5
   name: minimax/minimax-m2.5
   status: declared
   free: false
+  free_type: paid
   description: MiniMax-M2.5 is a SOTA large language model designed for real-world
     productivity. Trained in a diverse range of complex real-world digital working
     environments, M2.5 builds upon the coding expertise of M2.1 to extend into general
@@ -1004,7 +1397,14 @@ models:
     Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than
     previous generations, having been trained
   capabilities:
+    context_length: null
     max_output_tokens: 131100
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 1.2
@@ -1012,12 +1412,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-5
   name: zai-org/glm-5
   status: declared
   free: false
+  free_type: paid
   description: GLM-5 is an open-source foundation model engineered for complex system
     engineering and long-horizon Agent tasks, delivering reliable productivity for
     top-tier programmers. Transcending the boundary from "writing code" to "building
@@ -1027,7 +1428,14 @@ models:
     in backend refactoring, complex algorithm implementation, and deep debugging—autonomously
     analyzing logs and iterative
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.0
     output_per_million: 3.2
@@ -1035,12 +1443,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-ocr-2
   name: deepseek/deepseek-ocr-2
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek-OCR 2 is a multimodal document recognition model released
     by DeepSeek AI, serving as an upgrade to DeepSeek-OCR. By introducing the DeepEncoder
     V2 architecture, it achieves a paradigm shift in visual encoding from "fixed scanning"
@@ -1050,7 +1459,14 @@ models:
     tokens to cover complex document pages. On the OmniDocBench v1.5 benchmark, it
     achieves an overall score of
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.03
     output_per_million: 0.03
@@ -1058,12 +1474,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2.5
   name: moonshotai/kimi-k2.5
   status: declared
   free: false
+  free_type: paid
   description: Kimi K2.5 is the latest flagship iteration of Moonshot AI's large language
     model series, representing a significant leap in multimodal and agentic capabilities.
     It features a native multimodal architecture supporting both visual and text inputs,
@@ -1073,7 +1490,14 @@ models:
     and visual understanding benchmarks. Kimi K2.5 delivers a breakthrough in frontend
     development, enabling the gene
   capabilities:
+    context_length: null
     max_output_tokens: 262144
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 3.0
@@ -1081,18 +1505,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.7-h
   name: zai-org/glm-4.7-h
   status: declared
   free: false
+  free_type: paid
   description: GLM-4.7 is Z.AI's latest flagship model, with major upgrades focused
     on advanced coding capabilities and more reliable multi-step reasoning and execution.
     It shows clear gains in complex agent workflows, while delivering a more natural
     conversational experience and stronger front-end design sensibility.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 2.2
@@ -1100,12 +1532,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.7-flash
   name: zai-org/glm-4.7-flash
   status: declared
   free: false
+  free_type: paid
   description: GLM-4.7-Flash, a state-of-the-art model in the 30B class, delivers
     a compelling balance of high performance and efficiency. Tailored for Agentic
     Coding, it strengthens coding proficiency, long-horizon planning, and tool synergy,
@@ -1114,7 +1547,14 @@ models:
     tool use, while significantly elevating the frontend aesthetics and completion
     efficiency of long-range workflows in Artifacts and Agentic Coding.
   capabilities:
+    context_length: null
     max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.07
     output_per_million: 0.4
@@ -1122,18 +1562,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.7
   name: zai-org/glm-4.7
   status: declared
   free: false
+  free_type: paid
   description: GLM-4.7 is Z.AI's latest flagship model, with major upgrades focused
     on advanced coding capabilities and more reliable multi-step reasoning and execution.
     It shows clear gains in complex agent workflows, while delivering a more natural
     conversational experience and stronger front-end design sensibility.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 2.2
@@ -1141,12 +1589,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/autoglm-phone-9b-multilingual
   name: zai-org/autoglm-phone-9b-multilingual
   status: declared
   free: false
+  free_type: paid
   description: 'Phone Agent is a mobile intelligent assistant framework built on AutoGLM,
     capable of understanding smartphone screens through multimodal perception and
     executing automated operations to complete tasks.
@@ -1162,7 +1611,14 @@ models:
     Phone Agent will automatically parse the intent, understand the current UI, plan
     the'
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.035
     output_per_million: 0.138
@@ -1170,16 +1626,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2-thinking
   name: moonshotai/kimi-k2-thinking
   status: declared
   free: false
+  free_type: paid
   description: The kimi-k2-thinking model is a general-purpose agentic reasoning model
     developed by Moonshot AI.
   capabilities:
+    context_length: null
     max_output_tokens: 98304
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 2.5
@@ -1187,15 +1651,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: paddlepaddle/paddleocr-vl
   name: paddlepaddle/paddleocr-vl
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.02
     output_per_million: 0.02
@@ -1203,12 +1675,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.6v
   name: zai-org/glm-4.6v
   status: declared
   free: false
+  free_type: paid
   description: GLM-4.6V represents a significant multimodal advancement in the GLM
     series, featuring a 128k-token training context window and achieving state-of-the-art
     visual understanding accuracy for models of its parameter scale. Notably, it's
@@ -1217,7 +1690,14 @@ models:
     actions. This breakthrough establishes a unified technical foundation for deploying
     multimodal agents in real-world business applications.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.3
     output_per_million: 0.9
@@ -1225,17 +1705,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.6
   name: zai-org/glm-4.6
   status: declared
   free: false
+  free_type: paid
   description: As the latest iteration in the GLM series, GLM-4.6 achieves comprehensive
     enhancements across multiple domains, including real-world coding, long-context
     processing, reasoning, searching, writing, and agentic applications.
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.55
     output_per_million: 2.2
@@ -1243,12 +1731,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3.6-35b-a3b
   name: qwen/qwen3.6-35b-a3b
   status: declared
   free: false
+  free_type: local
   description: The Qwen3.6 35B-A3B native vision-language model is built on a hybrid
     architecture that integrates linear attention mechanisms with a sparse mixture-of-experts
     framework, achieving higher inference efficiency. Compared with the 3.5-35B-A3B,
@@ -1256,7 +1745,14 @@ models:
     and code reasoning abilities, spatial intelligence, as well as object localization
     and object detection performance.
   capabilities:
+    context_length: null
     max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.248
     output_per_million: 1.485
@@ -1264,12 +1760,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2-0905
   name: moonshotai/kimi-k2-0905
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: 'Kimi K2 0905 is the September update of Kimi K2 0711. It is a large-scale
     Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1
     trillion total parameters with 32 billion active per forward pass. It supports
@@ -1280,7 +1777,14 @@ models:
     outputs for web, 3D, and related tasks. Kimi K2 is optimized for agentic capabilities,
     including advanced tool use, reasoning, an'
   capabilities:
+    context_length: null
     max_output_tokens: 98304
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 2.5
@@ -1288,12 +1792,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: openai/gpt-oss-120b
   name: openai/gpt-oss-120b
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE)
     language model from OpenAI designed for high-reasoning, agentic, and general-purpose
     production use cases. It activates 5.1B parameters per forward pass and is optimized
@@ -1301,7 +1806,14 @@ models:
     configurable reasoning depth, full chain-of-thought access, and native tool use,
     including function calling, browsing, and structured output generation.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.05
     output_per_million: 0.25
@@ -1309,12 +1821,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: moonshotai/kimi-k2-instruct
   name: moonshotai/kimi-k2-instruct
   status: declared
   free: false
+  free_type: paid
   description: Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model
     with 32 billion activated parameters and 1 trillion total parameters. Trained
     with the Muon optimizer, Kimi K2 achieves exceptional performance across frontier
@@ -1322,7 +1835,14 @@ models:
     agentic capabilities.Specifically designed for tool use, reasoning, and autonomous
     problem-solving.
   capabilities:
+    context_length: null
     max_output_tokens: 98304
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.57
     output_per_million: 2.3
@@ -1330,18 +1850,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek_v3
   name: deepseek/deepseek_v3
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek-V3 is the latest model from the DeepSeek team, building upon
     the instruction following and coding abilities of the previous versions. Pre-trained
     on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms
     other open-source models and rivals leading closed-source models.
   capabilities:
+    context_length: null
     max_output_tokens: 16000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.89
     output_per_million: 0.89
@@ -1349,18 +1877,26 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: meta-llama/llama-3.1-8b-instruct
   name: meta-llama/llama-3.1-8b-instruct
   status: declared
   free: false
+  free_type: paid
   description: Meta's latest class of models, Llama 3.1, launched with a variety of
     sizes and configurations. The 8B instruct-tuned version is particularly fast and
     efficient. It has demonstrated strong performance in human evaluations, outperforming
     several leading closed-source models.
   capabilities:
+    context_length: null
     max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.02
     output_per_million: 0.05
@@ -1368,15 +1904,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: google/gemma-3-12b-it
   name: google/gemma-3-12b-it
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.05
     output_per_million: 0.1
@@ -1384,12 +1928,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.5v
   name: zai-org/glm-4.5v
   status: declared
   free: false
+  free_type: paid
   description: 'Z.ai''s GLM-4.5V sets a new standard in visual reasoning, achieving
     SOTA performance across 42 benchmarks among open-source models. Beyond benchmarks,
     it excels in real-world applications through hybrid training, enabling comprehensive
@@ -1401,7 +1946,14 @@ models:
     within 16 hours, reaching 66th place in a week. Built on the GLM-4.5-Air foundation
     and inheriting GLM-4.1V-Thinking''s approach, it leverages a 106B-paramete'
   capabilities:
+    context_length: null
     max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.6
     output_per_million: 1.8
@@ -1409,12 +1961,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: meta-llama/llama-3.3-70b-instruct
   name: meta-llama/llama-3.3-70b-instruct
   status: declared
   free: false
+  free_type: paid
   description: 'The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained
     and instruction tuned generative model in 70B (text in/text out). The Llama 3.3
     instruction tuned text only model is optimized for multilingual dialogue use cases
@@ -1425,7 +1978,14 @@ models:
     Supported languages: English, German, French, Italian, Portuguese, Hindi, Spanish,
     and Thai.'
   capabilities:
+    context_length: null
     max_output_tokens: 12288
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.135
     output_per_million: 0.4
@@ -1433,12 +1993,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: minimaxai/minimax-m1-80k
   name: minimaxai/minimax-m1-80k
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: 'MiniMax-M1: The World''s First Open-Weight, Large-Scale Hybrid Attention
     Inference Model
 
@@ -1453,7 +2014,14 @@ models:
     hybrid attention design for reinforcement learning training, MiniMax-M1 achieves
     industry-leading performance in long-context reasoning and'
   capabilities:
+    context_length: null
     max_output_tokens: 40000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.55
     output_per_million: 2.2
@@ -1461,17 +2029,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-r1-0528
   name: deepseek/deepseek-r1-0528
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek R1 0528 is the latest open-source model released by the DeepSeek
     team, featuring impressive reasoning capabilities, particularly achieving performance
     comparable to OpenAI's o1 model in mathematics, coding, and reasoning tasks.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.7
     output_per_million: 2.5
@@ -1479,17 +2055,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: microsoft/wizardlm-2-8x22b
   name: microsoft/wizardlm-2-8x22b
   status: declared
   free: false
+  free_type: paid
   description: WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates
     highly competitive performance compared to leading proprietary models, and it
     consistently outperforms all existing state-of-the-art opensource models.
   capabilities:
+    context_length: null
     max_output_tokens: 8000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.62
     output_per_million: 0.62
@@ -1497,12 +2081,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-r1-0528-qwen3-8b
   name: deepseek/deepseek-r1-0528-qwen3-8b
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek-R1-0528-Qwen3-8B is a high-performance reasoning model based
     on the Qwen3 8B Base model, enhanced through the integration of DeepSeek-R1-0528's
     Chain-of-Thought (CoT) optimization. In the AIME 2024 evaluation, this open-source
@@ -1510,7 +2095,14 @@ models:
     over the original Qwen3 8B while matching the reasoning capabilities of the much
     larger 235-billion-parameter Qwen3-235B-thinking.
   capabilities:
+    context_length: null
     max_output_tokens: 32000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.06
     output_per_million: 0.09
@@ -1518,12 +2110,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   name: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: 'Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal
     language model from Meta, built on a mixture-of-experts (MoE) architecture with
     128 experts and 17 billion active parameters per forward pass (400B total). It
@@ -1536,7 +2129,14 @@ models:
     Maverick features early fusion for native multimodality and a 1 million token
     context window. '
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.27
     output_per_million: 0.85
@@ -1544,12 +2144,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: meta-llama/llama-4-scout-17b-16e-instruct
   name: meta-llama/llama-4-scout-17b-16e-instruct
   status: declared
   free: false
+  free_type: local
   description: 'Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language
     model developed by Meta, activating 17 billion parameters out of a total of 109B.
     It supports native multimodal input (text and image) and multilingual output (text
@@ -1561,7 +2162,14 @@ models:
     Built for high efficiency and local or commercial deployment, Llama 4 Scout incorporates
     early fusion for seamless modal'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.18
     output_per_million: 0.59
@@ -1569,17 +2177,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: nousresearch/hermes-2-pro-llama-3-8b
   name: nousresearch/hermes-2-pro-llama-3-8b
   status: declared
   free: false
+  free_type: subscription
   description: Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting
     of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a
     newly introduced Function Calling and JSON Mode dataset developed in-house.
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.14
     output_per_million: 0.14
@@ -1587,12 +2203,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: sao10k/l3-70b-euryale-v2.1
   name: sao10k/l3-70b-euryale-v2.1
   status: declared
   free: false
+  free_type: paid
   description: The uncensored llama3 model is a powerhouse of creativity, excelling
     in both roleplay and story writing. It offers a liberating experience during roleplays,
     free from any restrictions. This model stands out for its immense creativity,
@@ -1602,7 +2219,14 @@ models:
     Stheno. Perfect for creative minds seeking a boundless platform for their imaginative
     expressions, the uncensored llama3 mo
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.48
     output_per_million: 1.48
@@ -1610,12 +2234,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: baichuan/baichuan-m2-32b
   name: baichuan/baichuan-m2-32b
   status: declared
   free: false
+  free_type: paid
   description: 'Baichuan-M2 is a medically-enhanced reasoning model specifically designed
     for real-world medical reasoning tasks. We begin with real-world medical questions
     and conduct reinforcement learning training based on a large-scale verifier system.
@@ -1627,7 +2252,14 @@ models:
     Benchmark, it surpasses all open-source models, including GPT-OSS-120B, as well
     as many cutting-edge closed-source models. It is the open'
   capabilities:
+    context_length: null
     max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.07
     output_per_million: 0.07
@@ -1635,19 +2267,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: google/gemma-3-27b-it
   name: google/gemma-3-27b-it
   status: declared
   free: false
+  free_type: paid
   description: Gemma 3 introduces multimodality, supporting vision-language input
     and text outputs. It handles context windows up to 32k tokens, understands over
     140 languages, and offers improved math, reasoning, and chat capabilities, including
     structured outputs. Gemma 3 27B is Google's latest open source model, successor
     to Gemma.
   capabilities:
+    context_length: null
     max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.119
     output_per_million: 0.2
@@ -1655,17 +2295,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-r1-turbo
   name: deepseek/deepseek-r1-turbo
   status: declared
   free: false
+  free_type: paid
   description: DeepSeek R1 is the latest open-source model released by the DeepSeek
     team, featuring impressive reasoning capabilities, particularly achieving performance
     comparable to OpenAI's o1 model in mathematics, coding, and reasoning tasks.
   capabilities:
+    context_length: null
     max_output_tokens: 16000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.7
     output_per_million: 2.5
@@ -1673,15 +2321,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: deepseek/deepseek-r1/community
   name: deepseek/deepseek-r1/community
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 8000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 4.0
     output_per_million: 4.0
@@ -1689,16 +2345,24 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: Sao10K/L3-8B-Stheno-v3.2
   name: Sao10K/L3-8B-Stheno-v3.2
   status: declared
   free: false
+  free_type: paid
   description: Sao10K/L3-8B-Stheno-v3.2 is a highly skilled actor that excels at fully
     immersing itself in any role assigned.
   capabilities:
+    context_length: null
     max_output_tokens: 32000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.05
     output_per_million: 0.05
@@ -1706,19 +2370,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: gryphe/mythomax-l2-13b
   name: gryphe/mythomax-l2-13b
   status: declared
   free: false
+  free_type: paid
   description: The idea behind this merge is that each layer is composed of several
     tensors, which are in turn responsible for specific functions. Using MythoLogic-L2's
     robust understanding as its input and Huginn's extensive writing capability as
     its output seems to have resulted in a model that exceeds at both, confirming
     my theory. (More details to be released at a later time).
   capabilities:
+    context_length: null
     max_output_tokens: 3200
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.09
     output_per_million: 0.09
@@ -1726,14 +2398,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: ming-image-0.1-design-layer
   name: ming-image-0.1-design-layer
   status: declared
   free: false
+  free_type: paid
   description: null
-  capabilities: {}
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.0
     output_per_million: 1.0
@@ -1741,14 +2422,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: ming-image-0.1-design
   name: ming-image-0.1-design
   status: declared
   free: false
+  free_type: paid
   description: null
-  capabilities: {}
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 1.0
     output_per_million: 1.0
@@ -1756,17 +2446,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: inclusionai/ling-3.0-flash-vl
   name: inclusionai/ling-3.0-flash-vl
   status: declared
   free: false
+  free_type: paid
   description: Ling-3.0-flash-VL builds on Ling-3.0-flash, further strengthening its
     language capabilities while adding native visual perception and advanced visual
     agent capabilities.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.075
     output_per_million: 0.22
@@ -1774,12 +2472,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: inclusionai/ling-3.0-flash-sante
   name: inclusionai/ling-3.0-flash-sante
   status: declared
-  free: false
+  free: null
+  free_type: zero_price
   description: Ling-3.0-Flash-Sante is a Mixture-of-Experts (MoE) model with enhanced
     capabilities across health and medicine. Built on Ling-3.0-Flash, it has 124 billion
     total parameters and activates approximately 5.1 billion parameters per token.
@@ -1787,7 +2486,14 @@ models:
     retrieval, and long-horizon medical tasks, while retaining strong general capabilities
     in reasoning, coding, and agentic tasks.
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.075
     output_per_million: 0.22
@@ -1795,15 +2501,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: dev/glm46
   name: dev/glm46
   status: declared
-  free: false
+  free: null
+  free_type: unknown
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 256000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: null
     output_per_million: null
@@ -1811,15 +2525,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: zai-org/glm-4.5-air
   name: zai-org/glm-4.5-air
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 98304
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.13
     output_per_million: 0.85
@@ -1827,15 +2549,23 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3-vl-30b-a3b-instruct
   name: qwen/qwen3-vl-30b-a3b-instruct
   status: declared
   free: false
+  free_type: paid
   description: null
   capabilities:
+    context_length: null
     max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.2
     output_per_million: 0.7
@@ -1843,19 +2573,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen3-omni-30b-a3b-thinking
   name: qwen/qwen3-omni-30b-a3b-thinking
   status: declared
   free: false
+  free_type: paid
   description: The Qwen-Omni model accepts combined inputs of text and a single additional
     modality (image, audio, or video) to generate responses in text or speech. It
     offers a variety of human-like voices, supports speech output in multiple languages
     and dialects, and is suitable for applications such as text creation, visual recognition,
     and voice assistants
   capabilities:
+    context_length: null
     max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.25
     output_per_million: 0.97
@@ -1863,19 +2601,27 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: qwen/qwen-mt-plus
   name: qwen/qwen-mt-plus
   status: declared
   free: false
+  free_type: paid
   description: Qwen-MT is a large language model optimized for machine translation,
     built upon the foundation of the Tongyi Qianwen model. It supports translation
     across 92 languages — including Chinese, English, Japanese, Korean, French, Spanish,
     German, Thai, Indonesian, Vietnamese, Arabic, and more — enabling seamless multilingual
     communication.
   capabilities:
+    context_length: null
     max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.25
     output_per_million: 0.75
@@ -1883,12 +2629,13 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: baidu/ernie-4.5-21B-a3b
   name: baidu/ernie-4.5-21B-a3b
   status: declared
   free: false
+  free_type: paid
   description: The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts
     (MoE) architecture, representing an innovative multimodal heterogeneous model
     structure. It achieves cross-modal knowledge fusion through a parameter-sharing
@@ -1898,7 +2645,14 @@ models:
     multimodal understanding capabilities while maintaining or even improving performance
     in text-based tasks. The models are efficient
   capabilities:
+    context_length: null
     max_output_tokens: 8000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.07
     output_per_million: 0.28
@@ -1906,17 +2660,25 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'
 - id: meta-llama/llama-3.2-1b-instruct
   name: meta-llama/llama-3.2-1b-instruct
   status: declared
   free: false
+  free_type: paid
   description: The Meta Llama 3.2 collection of multilingual large language models
     (LLMs) is a collection of pretrained and instruction-tuned generative models in
     1B and 3B sizes (text in/text out).
   capabilities:
+    context_length: null
     max_output_tokens: 32000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
   terms:
     input_per_million: 0.02
     output_per_million: 0.02
@@ -1924,5 +2686,5 @@ models:
   evidence:
   - kind: official_api
     url: https://api.novita.ai/v3/openai/models
-    at: '2026-10-09T02:41:41Z'
-  last_verified: '2026-10-09T02:41:41Z'
+    at: '2026-10-09T03:04:06Z'
+  last_verified: '2026-10-09T03:04:06Z'

@@ -1,27 +1,9 @@
 {
- "at": "2026-10-09T03:00:08Z",
- "live_count": 5,
+ "at": "2026-10-09T03:09:05Z",
+ "live_count": 4,
  "apply_count": 69,
- "total_free_models": 485,
+ "total_free_models": 442,
  "vendors": [
-  {
-   "provider": "fastrouter",
-   "name": "fastrouter",
-   "free_count": 28,
-   "sample_models": [
-    "fastrouter/auto",
-    "google/gemini-3.1-flash-image-preview",
-    "openai/gpt-live-1",
-    "google/gemini-2.5-flash-image",
-    "ace-step/prompt-to-audio",
-    "alibaba/happyhorse-1.1"
-   ],
-   "apply_url": "https://fastrouter.ai/signup",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "live",
-   "note": "已收录,直接可看"
-  },
   {
    "provider": "alibaba-token-plan",
    "name": "Alibaba Token Plan",
@@ -149,24 +131,6 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
-   "provider": "openrouter",
-   "name": "openrouter",
-   "free_count": 19,
-   "sample_models": [
-    "inclusionai/ling-3.1-flash",
-    "apodex/apodex-1.1-mini:free",
-    "dots-studio/dots-3-note-preview:free",
-    "liquid/lfm-2.5-2.6b:free",
-    "nvidia/nemotron-3.5-lightning:free",
-    "thinkingmachines/inkling-small:free"
-   ],
-   "apply_url": "https://openrouter.ai/sign-up",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "live",
-   "note": "已收录,直接可看"
-  },
-  {
    "provider": "scnet-token-plan",
    "name": "SCNet Token Plan",
    "free_count": 19,
@@ -188,6 +152,24 @@
    "note": "真注册入口(curl 已验证)"
   },
   {
+   "provider": "openrouter",
+   "name": "openrouter",
+   "free_count": 15,
+   "sample_models": [
+    "apodex/apodex-1.1-mini:free",
+    "dots-studio/dots-3-note-preview:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "thinkingmachines/inkling-small:free",
+    "poolside/laguna-s-2.1:free"
+   ],
+   "apply_url": "https://openrouter.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
    "provider": "iflowcn",
    "name": "iFlow",
    "free_count": 14,
@@ -207,24 +189,6 @@
     "IFLOW_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
-  },
-  {
-   "provider": "requesty",
-   "name": "requesty",
-   "free_count": 13,
-   "sample_models": [
-    "google/gemma-4-31b-it",
-    "poolside/laguna-m.1",
-    "poolside/laguna-xs.2",
-    "novita/ling-3.1-flash",
-    "novita/inclusionai/ling-3.0-tiny",
-    "mistral/leanstral-1-5"
-   ],
-   "apply_url": "https://requesty.ai/",
-   "link_kind": "homepage",
-   "btn": "去官网",
-   "status": "live",
-   "note": "已收录,直接可看"
   },
   {
    "provider": "inferx",
@@ -605,24 +569,6 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
-   "provider": "vercel",
-   "name": "vercel",
-   "free_count": 6,
-   "sample_models": [
-    "convaiinnovations/laya",
-    "convaiinnovations/laya-free",
-    "inclusionai/ling-3.1-flash",
-    "inclusionai/ling-3.1-flash-free",
-    "poolside/laguna-s-2.1-free",
-    "stealth/glyph-cluster"
-   ],
-   "apply_url": "https://vercel.com/signup",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "live",
-   "note": "已收录,直接可看"
-  },
-  {
    "provider": "zenmux",
    "name": "ZenMux",
    "free_count": 6,
@@ -682,6 +628,23 @@
     "ATOMIC_CHAT_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "fastrouter",
+   "name": "fastrouter",
+   "free_count": 5,
+   "sample_models": [
+    "google/gemma4-26b:free",
+    "nvidia/nemotron-3-nano-30b:free",
+    "nvidia/nemotron-3-super:free",
+    "openai/gpt-oss-120b:free",
+    "sarvam/sarvam-105b:free"
+   ],
+   "apply_url": "https://fastrouter.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "kilo",
@@ -908,6 +871,21 @@
     "SILICONFLOW_CN_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "vercel",
+   "name": "vercel",
+   "free_count": 3,
+   "sample_models": [
+    "convaiinnovations/laya-free",
+    "inclusionai/ling-3.1-flash-free",
+    "poolside/laguna-s-2.1-free"
+   ],
+   "apply_url": "https://vercel.com/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "zai",

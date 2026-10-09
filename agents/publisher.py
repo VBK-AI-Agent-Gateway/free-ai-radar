@@ -20,6 +20,15 @@ def _is_countable_free(m):
     return bool(m.get("free"))
 
 
+def _show_on_page(m):
+    """总闸: 展示 = 确认可免费(永久/试用/促销) + 待核验(zero_price: 价格0但无证据, honest 待人工核);
+    付费/订阅/本地/unknown(无价格也无证据, 可能付费) 不进免费页。待核验 badge 标"待核验"不是"FREE"。"""
+    ft = m.get("free_type")
+    if ft:
+        return ft in FREE_TYPES_COUNTABLE or ft == "zero_price"
+    return bool(m.get("free"))
+
+
 def load_all():
     rows = []
     for fp in sorted(PROV.glob("*.yaml")):
@@ -36,8 +45,8 @@ def flat(rows):
         reg = reg or r.get("homepage") or r.get("pricing_url")
         home = r.get("homepage") or reg
         for m in r.get("models") or []:
-            if ONLY_FREE and not _is_countable_free(m):
-                continue  # 免费总闸: 只收录免费模型(永久/试用/促销; zero_price待核验/订阅/本地不进)
+            if ONLY_FREE and not _show_on_page(m):
+                continue  # 免费总闸: 只进 确认可免费 + 待核验(zero_price); 付费/订阅/本地不进
             caps = m.get("capabilities") or {}
             terms = m.get("terms") or {}
             out.append({
@@ -71,7 +80,7 @@ def render_readme(rows):
              "| 厂商 | 免费模型 | 全量(含付费) | 免费模型ID | 最后验证 | 说明 |", "| --- | --- | --- | --- | --- | --- |"]
     for r in rows:
         allm = r.get("models") or []
-        freem = [m for m in allm if m.get("free")]
+        freem = [m for m in allm if _is_countable_free(m)]  # 免费口径: 只数永久/试用/促销(不含 zero_price 待核验)
         # 只列免费模型ID(免费口径), 不再把全量(含Claude/GPT收费)当免费清单
         ids = ", ".join(m.get("id", "?") for m in freem) or "(待采集员首轮抓取)"
         lines.append(f"| {r['provider']} | {len(freem)} | {len(allm)} | {ids} | {r.get('last_verified')} | {r.get('pricing_url', '')} |")
@@ -123,7 +132,8 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
 .nm{font-weight:600;color:#e6edf3;font-size:15px} .nid{color:#8b949e;font-size:12px;font-family:ui-monospace,monospace}
 .badge{font-size:11px;padding:3px 9px;border-radius:10px;white-space:nowrap}
-.badge.free{background:#238636;color:#fff} .badge.paid{background:#30363d;color:#8b949e}
+.badge.free{background:#238636;color:#fff} .badge.paid{background:#30363d;color:#8b949e} .badge.pend{background:#3a2e12;color:#d29922;border:1px solid #d2992255}
+.card.pend{border-color:#d2992244}
 .desc{color:#a5adb6;font-size:13px;margin:8px 0}
 .meta{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8b949e;margin-top:8px}
 .meta b{color:#c9d1d9;font-weight:600}
@@ -187,6 +197,7 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 </div>
 <div class="stats">
 <div class="stat"><b>__TOTAL__</b><span>已收录(可路由)</span></div>
+<div class="stat"><b>__PEND__</b><span>待核验(价格0)</span></div>
 <div class="stat"><b>__CATALOGN__</b><span>目录发现(待核验)</span></div>
 <div class="stat"><b>__PROBED__</b><span>已实测</span></div>
 <div class="stat"><b>__PROV__</b><span>渠道(有数据)</span></div>
@@ -315,15 +326,20 @@ function render(){
   if (!list.length) { el.innerHTML = '<div class="empty">没有匹配的模型</div>'; return; }
   el.innerHTML = list.map(m => {
     const tags = capTags(m);
-    const price = m.free
-      ? '<span class="badge free">FREE 免费</span>'
-      : '<span class="badge paid">'+fmtPrice(m.input_per_million)+' / '+fmtPrice(m.output_per_million)+' per 1M</span>';
+    // 免费类型 badge: 永久/试用/促销 -> FREE; zero_price/unknown -> 待核验(价格0无证据); 其余显示价格
+    let price;
+    if (m.free_type==="permanent"||m.free_type==="trial"||m.free_type==="promo")
+      price = '<span class="badge free">FREE 免费</span>';
+    else if (m.free_type==="zero_price"||m.free_type==="unknown"||m.free===null||m.free===undefined)
+      price = '<span class="badge pend">待核验</span>';
+    else
+      price = '<span class="badge paid">'+fmtPrice(m.input_per_million)+' / '+fmtPrice(m.output_per_million)+' per 1M</span>';
     const desc = m.description ? '<div class="desc">'+esc(m.description)+'</div>' : "";
     // 时间: 有 last_probed 显示"实测", 否则"抓取(未实测)" — 不把抓取当验证
     const timeLbl = m.last_probed
       ? '&#128200; 实测 '+esc(String(m.last_probed).slice(0,10))
       : '&#128197; 抓取 '+esc(String(m.last_fetched||m.last_verified||"-").slice(0,10))+' (未实测)';
-    return '<div class="card '+(m.free?"free":"")+'">'
+    return '<div class="card '+((m.free===true)?"free":"pend")+'">'
       + '<div class="top"><div><span class="nm">'+esc(m.name||m.id)+'</span>'
       + '<div class="nid">'+esc(m.id)+'</div></div>'+price+'</div>'
       + desc
@@ -498,7 +514,8 @@ def render_site(rows):
     _cat = _load_cat()
     out = SITE_TEMPLATE
     out = out.replace("__GEN__", html.escape(gen))
-    out = out.replace("__TOTAL__", str(len(data)))   # 已收录: 进页面的免费模型(永久/试用/促销)
+    out = out.replace("__TOTAL__", str(sum(1 for m in data if m.get("free_type") in FREE_TYPES_COUNTABLE)))  # 已收录: 确认可免费
+    out = out.replace("__PEND__", str(sum(1 for m in data if m.get("free_type") == "zero_price")))  # 待核验: 价格0无证据
     out = out.replace("__PROBED__", str(sum(1 for m in data if m.get("status") == "probed")))
     # 目录发现: free-catalog 里全部待核验/待申请的模型数
     out = out.replace("__CATALOGN__", str(_cat.get("total_free_models", 0) or 0))
