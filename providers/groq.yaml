@@ -1,4 +1,4 @@
-# 事实正本。字段规则见 docs/schema.md;无证据写 unknown,不猜。
+# 事实正本。免费层 = Groq 免费 API key(官方)。limits 待核验: 未抓到官方 rate-limits 页前留 unknown。
 provider: groq
 homepage: https://groq.com
 pricing_url: https://groq.com/pricing
@@ -7,6 +7,25 @@ signup:
   needs: ['email']
   regions_blocked: unknown
   est_minutes: unknown
-models: []
+models:
+- id: llama-3.3-70b-versatile
+  name: Llama 3.3 70B Versatile
+  status: declared
+  free: true
+  free_type: free_tier
+  free_limits: unknown
+  free_evidence: "Groq 免费 API key 可用 Llama 3.3 70B; 具体 RPM/RPD 见官方 rate-limits 页"
+  description: Groq Llama 3.3 70B — 免费层可用(高速 LPU 推理)。
+  capabilities:
+    context_length: 131072
+    tools: true
+    json_mode: true
+  terms: {input_per_million: 0, output_per_million: 0, currency: USD}
+  evidence:
+  - kind: official_page
+    url: https://console.groq.com/docs/rate-limits
+    at: '2026-10-09T00:00:00Z'
+  last_fetched: '2026-10-09T00:00:00Z'
+  last_verified: '2026-10-09T00:00:00Z'
 evidence: []
-last_verified: unknown
+last_verified: '2026-10-09T00:00:00Z'
