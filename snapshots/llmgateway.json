@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T13:08:09Z",
+ "fetched_at": "2026-10-09T15:22:35Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "9c106ae6062a987785b40e81bcbe3dda0aec586068443701e283b7ffdd3538c1",
+ "hash": "82a2b6bfa855bd24379dfd988c3ab4697bff2e77b39d6d123bdb26a837ffc1f4",
  "payload": {
   "data": [
    {
@@ -12115,6 +12115,91 @@
     },
     "context_length": 2000,
     "max_output": 4096,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false
+   },
+   {
+    "id": "grok-imagine-video-1-5-lite",
+    "name": "Grok Imagine Video 1.5 Lite",
+    "display_name": "Grok Imagine Video 1.5 Lite",
+    "created": 1791417600,
+    "description": "grok-imagine-video-1-5-lite provided by xai",
+    "family": "xai",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "video"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "xai",
+      "externalId": "grok-imagine-video-1.5-lite",
+      "supportedVideoSizes": [
+       "848x480",
+       "1280x720"
+      ],
+      "supportsVideoAudio": true,
+      "supportsVideoWithoutAudio": false,
+      "pricing": {
+       "prompt": "0",
+       "completion": "0",
+       "image": "0.01",
+       "per_second": {
+        "480p": "0.02",
+        "720p": "0.03",
+        "default": "0.03"
+       },
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": false,
+      "vision": true,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "max_output": 1
+     }
+    ],
+    "pricing": {
+     "prompt": "0",
+     "completion": "0",
+     "image": "0.01",
+     "per_second": {
+      "480p": "0.02",
+      "720p": "0.03",
+      "default": "0.03"
+     },
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 2000,
+    "max_output": 1,
     "supported_parameters": [
      "temperature",
      "max_tokens",
