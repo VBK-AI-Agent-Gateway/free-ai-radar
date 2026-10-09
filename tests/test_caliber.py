@@ -10,27 +10,38 @@ def test_classify_free_signals():
     assert enrich.classify_free(None, None, "GPT Coding Plan", "included in plan")[:1] == ("subscription",)
     # 本地软件 -> 不算免费
     assert enrich.classify_free(None, None, "LM Studio Chat", "runs locally")[:1] == ("local",)
-    # 按次/按秒计费(非按token) -> zero_price 待核验
+    # 按次/按秒计费(非按token, 价格缺失) -> price_zero_unverified 待核验
     ft, free = enrich.classify_free(None, None, "Lyria", "priced per song")
-    assert ft == "zero_price" and free is None
-    # 显式 free -> permanent
-    assert enrich.classify_free(0, 0, "M", "", explicit_free=True) == ("permanent", True)
-    # 只有价格0、无证据 -> zero_price(不直接算免费, 避免假免费)
-    assert enrich.classify_free(0, 0, "M", "") == ("zero_price", None)
+    assert ft == "price_zero_unverified" and free is None
+    # 显式 free -> free_tier
+    assert enrich.classify_free(0, 0, "M", "", explicit_free=True) == ("free_tier", True)
+    # 只有价格0、无证据 -> price_zero_unverified(不直接算免费, 避免假免费)
+    assert enrich.classify_free(0, 0, "M", "") == ("price_zero_unverified", None)
     # 明确付费
     assert enrich.classify_free(0.5, 1.5, "M", "") == ("paid", False)
     # 什么都没有 -> unknown
     assert enrich.classify_free(None, None, "M", "") == ("unknown", None)
 
 
+def test_paid_never_misclassified_by_description():
+    # 评审第2条回归: 价格>0 无条件 paid, 不被描述里的 "per" 等文字信号误判成待核验
+    assert enrich.classify_free(5.0, 25.0, "Claude Opus 5", "best model per benchmark", None, "anthropic/claude-opus-5")[0] == "paid"
+    assert enrich.classify_free(10.0, 50.0, "GPT-6 Astra", "per token pricing", None, "openai/gpt-6-astra")[0] == "paid"
+    assert enrich.classify_free(30.0, 0.0, "tts-1-hd", "speech per second", None, "openai/tts-1-hd")[0] == "paid"
+    # :free / -free 后缀(价格0) -> free_variant
+    assert enrich.classify_free(0, 0, "M", "", None, "openrouter/llama:free")[0] == "free_variant"
+    assert enrich.classify_free(0, 0, "M", "", None, "poolside/laguna-s-2.1-free")[0] == "free_variant"
+
+
 def test_derive_free_countable():
-    assert enrich.derive_free("permanent") is True
+    assert enrich.derive_free("free_tier") is True
+    assert enrich.derive_free("free_variant") is True
     assert enrich.derive_free("trial") is True
     assert enrich.derive_free("promo") is True
     assert enrich.derive_free("subscription") is False
     assert enrich.derive_free("local") is False
     assert enrich.derive_free("paid") is False
-    assert enrich.derive_free("zero_price") is None   # 待核验, 不武断判
+    assert enrich.derive_free("price_zero_unverified") is None   # 待核验, 不武断判
     assert enrich.derive_free("unknown") is None
 
 
@@ -48,9 +59,10 @@ def test_caps_tristate_keeps_none():
 
 
 def test_is_countable_free_gate():
-    # publisher 免费总闸: 只有永久/试用/促销算免费; zero_price/订阅/本地不进
-    assert publisher._is_countable_free({"free_type": "permanent"}) is True
-    assert publisher._is_countable_free({"free_type": "zero_price"}) is False
+    # publisher 免费总闸: 只有免费层/免费变体/试用/促销算免费; 待核验/订阅/本地不进
+    assert publisher._is_countable_free({"free_type": "free_tier"}) is True
+    assert publisher._is_countable_free({"free_type": "free_variant"}) is True
+    assert publisher._is_countable_free({"free_type": "price_zero_unverified"}) is False
     assert publisher._is_countable_free({"free_type": "subscription"}) is False
     assert publisher._is_countable_free({"free_type": "local"}) is False
     # 没 free_type 时回落 free 布尔
@@ -64,7 +76,7 @@ def test_flat_keeps_capability_tristate():
         "provider": "p", "homepage": "https://x", "pricing_url": "https://x/p",
         "last_verified": "2026-01-01",
         "models": [{
-            "id": "m", "name": "M", "free": True, "free_type": "permanent",
+            "id": "m", "name": "M", "free": True, "free_type": "free_variant",
             "status": "declared",
             "capabilities": {"image_input": True, "tools": None, "reasoning": None, "json_mode": None,
                              "context_length": 8192},
@@ -77,18 +89,18 @@ def test_flat_keeps_capability_tristate():
     assert m["image_input"] is True
     assert m["tools"] is None        # unknown 保留
     assert m["reasoning"] is None
-    assert m["free_type"] == "permanent"
+    assert m["free_type"] == "free_variant"
     assert m["context_length"] == 8192
 
 
 def test_flat_shows_zero_price_as_pending():
-    # zero_price(价格0但待核验) 现在进页面(诚实待核验), 但 free_type 保留供 badge 标"待核验"
+    # price_zero_unverified(价格0但待核验) 现在进页面(诚实待核验), 但 free_type 保留供 badge 标"待核验"
     rows = [{
         "provider": "p", "homepage": "https://x",
-        "models": [{"id": "z", "name": "Z", "free": None, "free_type": "zero_price", "capabilities": {}, "terms": {}}],
+        "models": [{"id": "z", "name": "Z", "free": None, "free_type": "price_zero_unverified", "capabilities": {}, "terms": {}}],
     }]
     out = publisher.flat(rows)
-    assert len(out) == 1 and out[0]["free_type"] == "zero_price" and out[0]["free"] is None
+    assert len(out) == 1 and out[0]["free_type"] == "price_zero_unverified" and out[0]["free"] is None
     # 付费/订阅/本地 仍不进免费页
     rows2 = [{"provider": "p", "models": [
         {"id": "a", "free": False, "free_type": "paid", "capabilities": {}, "terms": {}},
@@ -103,7 +115,7 @@ def test_site_has_security_and_tri_state():
         "provider": "p", "homepage": "https://x", "pricing_url": "https://x/p",
         "signup": {"url": "https://x/s"}, "last_verified": "2026-01-01",
         "models": [{
-            "id": "m", "name": "M", "free": True, "free_type": "permanent",
+            "id": "m", "name": "M", "free": True, "free_type": "free_variant",
             "status": "declared", "capabilities": {"tools": None}, "terms": {},
         }],
     }]
