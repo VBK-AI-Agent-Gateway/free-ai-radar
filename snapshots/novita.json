@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T15:22:34Z",
+ "fetched_at": "2026-10-09T19:29:44Z",
  "url": "https://api.novita.ai/v3/openai/models",
- "hash": "b1a36393c3bb3cca662c3be11290308658f3e56a661e4de789b0e8a45e9fa8e5",
+ "hash": "6cc76a08ec2a71d76b887c6980ef29c73bdb5db158faf1b7b837a033c02fb956",
  "payload": {
   "data": [
    {
@@ -1261,63 +1261,6 @@
      "text",
      "image",
      "video"
-    ],
-    "output_modalities": [
-     "text"
-    ]
-   },
-   {
-    "created": 1777001037,
-    "id": "deepseek/deepseek-v4-flash",
-    "object": "model",
-    "owned_by": "novita",
-    "permission": null,
-    "root": "",
-    "parent": "",
-    "input_token_price_per_m": 1400,
-    "output_token_price_per_m": 2800,
-    "pricing": {
-     "prompt": {
-      "origin_price_per_m": 1400,
-      "price_per_m": 1400,
-      "origin_price_per_m_decimal": "0.14",
-      "price_per_m_decimal": "0.14"
-     },
-     "completion": {
-      "origin_price_per_m": 2800,
-      "price_per_m": 2800,
-      "origin_price_per_m_decimal": "0.28",
-      "price_per_m_decimal": "0.28"
-     },
-     "input_cache_read": {
-      "origin_price_per_m": 280,
-      "price_per_m": 280,
-      "origin_price_per_m_decimal": "0.028",
-      "price_per_m_decimal": "0.028"
-     }
-    },
-    "is_tiered_billing": false,
-    "title": "deepseek/deepseek-v4-flash",
-    "description": "DeepSeek-V4-Flash is a lightweight model meticulously designed by DeepSeek to deliver the ultimate combination of lightning-fast response times and unmatched cost-effectiveness. Engineered with fewer parameters and significantly lower activation overhead, V4-Flash provides an exceptionally fast and economical API service. At its core, V4-Flash demonstrates outstanding reasoning capabilities that closely rival the V4-Pro model. While featuring a slightly streamlined repository of world knowledge, it remains highly capable of satisfying the demands of most application scenarios. In Agentic applications, V4-Flash performs on par with the Pro version when handling standard and fundamental tasks. As the premier choice for developers prioritizing high concurrency, low latency, and cost efficiency, DeepSeek-V4-Flash serves as the optimal solution for deploying large-scale, high-frequency, and lightweight AI workloads.",
-    "tags": [],
-    "context_size": 1048576,
-    "status": 1,
-    "display_name": "DeepSeek V4 Flash",
-    "model_type": "chat",
-    "max_output_tokens": 393216,
-    "features": [
-     "serverless",
-     "function-calling",
-     "structured-outputs",
-     "reasoning"
-    ],
-    "endpoints": [
-     "chat/completions",
-     "anthropic",
-     "responses"
-    ],
-    "input_modalities": [
-     "text"
     ],
     "output_modalities": [
      "text"

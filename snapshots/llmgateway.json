@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T15:22:35Z",
+ "fetched_at": "2026-10-09T19:29:45Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "82a2b6bfa855bd24379dfd988c3ab4697bff2e77b39d6d123bdb26a837ffc1f4",
+ "hash": "483e2400b888e7b9f817cdfd975958de14af47981ee78ad7e078c80f19953142",
  "payload": {
   "data": [
    {
@@ -13291,11 +13291,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.14e-6",
-     "completion": "0.28e-6",
+     "prompt": "0.168e-6",
+     "completion": "0.336e-6",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.0028e-6",
+     "input_cache_read": "0.0034e-6",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -15012,7 +15012,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, consensusprotocol, runware, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, gonka24",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15327,26 +15327,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "stability": "stable"
-     },
-     {
       "providerId": "runware",
       "externalId": "deepseek-v4-flash",
       "pricing": {
@@ -15371,6 +15351,26 @@
        "max"
       ],
       "max_output": 384000,
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
       "stability": "stable"
      },
      {

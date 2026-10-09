@@ -1,8 +1,8 @@
 {
- "at": "2026-10-09T15:23:10Z",
+ "at": "2026-10-09T19:30:17Z",
  "live_count": 7,
- "apply_count": 69,
- "total_free_models": 452,
+ "apply_count": 70,
+ "total_free_models": 456,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -506,6 +506,27 @@
    "note": "真注册入口(curl 已验证)"
   },
   {
+   "provider": "aihubmix",
+   "name": "AIHubMix",
+   "free_count": 7,
+   "sample_models": [
+    "coding-minimax-m2.7-free",
+    "coding-glm-5.3-free",
+    "xiaomi-mimo-v2.5-pro-free",
+    "coding-glm-5.3-flash-free",
+    "xiaomi-mimo-v2.5-free",
+    "ox-alpha"
+   ],
+   "apply_url": "https://docs.aihubmix.com",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "AIHUBMIX_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "llama",
    "name": "Llama",
    "free_count": 7,
@@ -607,26 +628,6 @@
    "status": "apply_key",
    "needs_env": [
     "ZENMUX_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "aihubmix",
-   "name": "AIHubMix",
-   "free_count": 5,
-   "sample_models": [
-    "coding-minimax-m2.7-free",
-    "xiaomi-mimo-v2.5-pro-free",
-    "xiaomi-mimo-v2.5-free",
-    "ox-alpha",
-    "coding-glm-5.1-free"
-   ],
-   "apply_url": "https://docs.aihubmix.com",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "AIHUBMIX_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
@@ -1140,6 +1141,23 @@
     "NOVA_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "novita-ai",
+   "name": "Novita AI",
+   "free_count": 2,
+   "sample_models": [
+    "inclusionai/ling-3.1-flash",
+    "apodex/apodex-1.1-mini"
+   ],
+   "apply_url": "https://novita.ai/docs/guides/introduction",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "NOVITA_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "ovhcloud",
