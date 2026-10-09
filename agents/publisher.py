@@ -9,11 +9,11 @@ PROV = ROOT / "providers"
 DOCS = ROOT / "docs"
 STATE = ROOT / "state.local"
 ONLY_FREE = True  # 免费总闸: 默认只收录/展示免费模型(付费留在正本做证据,不进页面)
-FREE_TYPES_COUNTABLE = {"permanent", "trial", "promo"}  # 首页只把这三类算"免费"(见 docs/CALIBER.md)
+FREE_TYPES_COUNTABLE = {"free_tier", "free_variant", "trial", "promo"}  # 首页只把这四类算"免费"(见 docs/CALIBER.md)
 
 
 def _is_countable_free(m):
-    """免费口径: 有 free_type 用分类判(只永久/试用/促销算); 没有 free_type 回落 free==True。zero_price/unknown 不算。"""
+    """免费口径: 有 free_type 用分类判(只永久层/免费变体/试用/促销算); 没有 free_type 回落 free==True。待核验/未知不算。"""
     ft = m.get("free_type")
     if ft:
         return ft in FREE_TYPES_COUNTABLE
@@ -21,11 +21,11 @@ def _is_countable_free(m):
 
 
 def _show_on_page(m):
-    """总闸: 展示 = 确认可免费(永久/试用/促销) + 待核验(zero_price: 价格0但无证据, honest 待人工核);
+    """总闸: 展示 = 确认可免费(免费层/免费变体/试用/促销) + 待核验(price_zero_unverified: 价格0但无证据);
     付费/订阅/本地/unknown(无价格也无证据, 可能付费) 不进免费页。待核验 badge 标"待核验"不是"FREE"。"""
     ft = m.get("free_type")
     if ft:
-        return ft in FREE_TYPES_COUNTABLE or ft == "zero_price"
+        return ft in FREE_TYPES_COUNTABLE or ft == "price_zero_unverified"
     return bool(m.get("free"))
 
 
@@ -46,13 +46,15 @@ def flat(rows):
         home = r.get("homepage") or reg
         for m in r.get("models") or []:
             if ONLY_FREE and not _show_on_page(m):
-                continue  # 免费总闸: 只进 确认可免费 + 待核验(zero_price); 付费/订阅/本地不进
+                continue  # 免费总闸: 只进 确认可免费 + 待核验(price_zero_unverified); 付费/订阅/本地不进
             caps = m.get("capabilities") or {}
             terms = m.get("terms") or {}
             out.append({
                 "id": m.get("id"), "name": m.get("name"), "provider": r["provider"],
                 "status": m.get("status"), "free": m.get("free"),
                 "free_type": m.get("free_type"),
+                "free_limits": m.get("free_limits"),
+                "free_evidence": m.get("free_evidence"),
                 "description": m.get("description"),
                 "context_length": caps.get("context_length"),
                 "max_output_tokens": caps.get("max_output_tokens"),
@@ -80,7 +82,7 @@ def render_readme(rows):
              "| 厂商 | 免费模型 | 全量(含付费) | 免费模型ID | 最后验证 | 说明 |", "| --- | --- | --- | --- | --- | --- |"]
     for r in rows:
         allm = r.get("models") or []
-        freem = [m for m in allm if _is_countable_free(m)]  # 免费口径: 只数永久/试用/促销(不含 zero_price 待核验)
+        freem = [m for m in allm if _is_countable_free(m)]  # 免费口径: 只数免费层/免费变体/试用/促销(不含待核验)
         # 只列免费模型ID(免费口径), 不再把全量(含Claude/GPT收费)当免费清单
         ids = ", ".join(m.get("id", "?") for m in freem) or "(待采集员首轮抓取)"
         lines.append(f"| {r['provider']} | {len(freem)} | {len(allm)} | {ids} | {r.get('last_verified')} | {r.get('pricing_url', '')} |")
@@ -140,6 +142,7 @@ label.toggle{display:flex;align-items:center;gap:6px;background:#161b22;border:1
 .tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
 .tag{font-size:11px;background:#21262d;border:1px solid #30363d;color:#8b949e;padding:1px 7px;border-radius:4px}
 .tag.unk{background:#161b22;border-style:dashed;color:#6e7681}
+.flim{font-size:11px;color:#8b949e;margin-top:5px} .flim.unk{color:#d29922}
 .tag.y{border-color:#d29922;color:#e3b341}
 a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .empty{color:#8b949e;text-align:center;padding:30px}
@@ -186,13 +189,13 @@ footer{color:#484f58;font-size:12px;margin-top:24px;text-align:center}
 code{background:#21262d;padding:1px 5px;border-radius:4px}
 </style></head><body><div class="wrap">
 <header><h1>&#128269; free-ai-radar &mdash; 免费AI模型清单</h1>
-<div class="sub">每条事实带来源与验证时间 &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
+<div class="sub">每条事实带来源与抓取/实测时间 &middot; 无证据写 unknown &middot; 数据正本 <code>providers/*.yaml</code> &middot; 更新 __GEN__</div></header>
 <div class="hero">
   <a class="cta" id="regbtn" href="#catalog" data-reg="site">&#127760; 看 74 家厂商的免费模型 &mdash; 点下方任一模型/厂商进去申请</a>
   <span class="ctahint">点任一模型的“注册领KEY”即计入人气 &middot; 已注册 <b id="regcount">0</b></span>
 </div>
 <div class="submitbar">
-  <a href="#subform" class="subbtn" id="subopen" onclick="openSubmit()">&#128227; 我要提交一个免费模型 / 新渠道</a>
+  <a href="#subform" class="subbtn" id="subopen">&#128227; 我要提交一个免费模型 / 新渠道</a>
   <span class="subhint">自动查重,人工核验后入库</span>
 </div>
 <div class="stats">
@@ -326,11 +329,11 @@ function render(){
   if (!list.length) { el.innerHTML = '<div class="empty">没有匹配的模型</div>'; return; }
   el.innerHTML = list.map(m => {
     const tags = capTags(m);
-    // 免费类型 badge: 永久/试用/促销 -> FREE; zero_price/unknown -> 待核验(价格0无证据); 其余显示价格
+    // 免费类型 badge: 免费层/免费变体/试用/促销 -> FREE; price_zero_unverified/unknown -> 待核验; 其余显示价格
     let price;
-    if (m.free_type==="permanent"||m.free_type==="trial"||m.free_type==="promo")
+    if (m.free_type==="free_tier"||m.free_type==="free_variant"||m.free_type==="trial"||m.free_type==="promo")
       price = '<span class="badge free">FREE 免费</span>';
-    else if (m.free_type==="zero_price"||m.free_type==="unknown"||m.free===null||m.free===undefined)
+    else if (m.free_type==="price_zero_unverified"||m.free_type==="unknown"||m.free===null||m.free===undefined)
       price = '<span class="badge pend">待核验</span>';
     else
       price = '<span class="badge paid">'+fmtPrice(m.input_per_million)+' / '+fmtPrice(m.output_per_million)+' per 1M</span>';
@@ -345,9 +348,10 @@ function render(){
       + desc
       + '<div class="meta"><span>&#127760; <a href="'+safeUrl(m.provider_home||"")+'" target="_blank" rel="noopener">'+esc(m.provider)+'</a></span>'
       + '<span>'+timeLbl+'</span>'
-      + (m.status?'<span class="tag">'+esc(m.status)+'</span>':"")
+      + (m.status?'<span class="tag">'+({declared:"厂商声明",probed:"实测",verified:"已验证"}[m.status]||esc(m.status))+'</span>':"")
       + '<span>&#128279; <a href="'+safeUrl(m.pricing_url||"")+'" target="_blank" rel="noopener">定价页</a></span></div>'
       + (tags?'<div class="tags">'+tags+'</div>':"")
+      + (m.free_limits && m.free_limits!=="unknown" ? '<div class="flim">&#128200; 限额 '+esc(typeof m.free_limits==="object"?JSON.stringify(m.free_limits):String(m.free_limits))+'</div>' : (m.free_type==="free_variant"||m.free_type==="free_tier" ? '<div class="flim unk">&#9888; 免费限额见官方页(未核验)</div>' : ""))
       + '<div class="pop">'+likeBtn(m.id)
       + (m.register_url ? ' <a class="reglink" href="'+safeUrl(m.register_url)+'" target="_blank" rel="noopener" data-reg="'+esc(m.provider)+'">&#128279; 注册领KEY</a>' : '')
       + '</div>'
@@ -437,6 +441,7 @@ function init(){
     c.classList.toggle("on"); render();
   }));
   document.getElementById("sfind").addEventListener("input", runFind);
+  document.getElementById("subopen").addEventListener("click", (e)=>{ e.preventDefault(); openSubmit(); });
   document.getElementById("subform").addEventListener("submit", e=>{
     e.preventDefault();
     const url=NORM(document.getElementById("surl").value), mid=NORM(document.getElementById("smid").value);
@@ -461,7 +466,7 @@ function init(){
       "- 说明: "+(document.getElementById("snote").value||"-")+"\n\n"+
       "_前端已查重通过(非重复)。请审核后关闭此 Issue。_");
     const gh="https://github.com/VBK-AI-Agent-Gateway/free-ai-radar/issues/new?title="+title+"&body="+body;
-    msg.innerHTML='\u2713 查重通过(非重复)。<a href="'+gh+'" target="_blank" rel="noopener" style="color:#58a6ff">\u2192 去 GitHub 提交审核</a>';
+    msg.innerHTML='\u2713 查重通过(非重复)。<a href="'+safeUrl(gh)+'" target="_blank" rel="noopener" style="color:#58a6ff">\u2192 去 GitHub 提交审核</a>';
     msg.className="ok";
     window.open(gh, "_blank", "noopener");
     e.target.reset();
@@ -515,7 +520,7 @@ def render_site(rows):
     out = SITE_TEMPLATE
     out = out.replace("__GEN__", html.escape(gen))
     out = out.replace("__TOTAL__", str(sum(1 for m in data if m.get("free_type") in FREE_TYPES_COUNTABLE)))  # 已收录: 确认可免费
-    out = out.replace("__PEND__", str(sum(1 for m in data if m.get("free_type") == "zero_price")))  # 待核验: 价格0无证据
+    out = out.replace("__PEND__", str(sum(1 for m in data if m.get("free_type") == "price_zero_unverified")))  # 待核验: 价格0无证据
     out = out.replace("__PROBED__", str(sum(1 for m in data if m.get("status") == "probed")))
     # 目录发现: free-catalog 里全部待核验/待申请的模型数
     out = out.replace("__CATALOGN__", str(_cat.get("total_free_models", 0) or 0))
