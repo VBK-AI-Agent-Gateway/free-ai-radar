@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 secrets.local.yaml
 state.local.yaml
+_lg.txt
