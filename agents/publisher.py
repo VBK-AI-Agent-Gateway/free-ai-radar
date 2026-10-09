@@ -200,6 +200,9 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 #submsg.dup{color:#d29922}
 .assistbtn{background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;padding:7px 13px;border-radius:7px;font-size:12px;margin-left:8px;display:inline-block;cursor:pointer}
 .assistbtn:hover{background:#388bfd}
+.assist-quick{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#0d1117;border:1px solid #238636;border-radius:8px;padding:10px 12px;margin:0 0 12px}
+.assist-quick .aq-label{font-size:12px;color:#3fb950;font-weight:600;white-space:nowrap}
+.assist-quick .aq-hint{font-size:11px;color:#8b949e;white-space:nowrap}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:1000}
 .modal.open{display:flex}
 .mbox{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:18px;max-width:640px;width:92%;max-height:86vh;overflow:auto}
@@ -283,6 +286,11 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 </div>
 <div id="list"></div>
 <section class="catalog" id="catalog">
+<div class="assist-quick" id="assistQuick">
+  <span class="aq-label" data-i18n="aq_label">&#9881; Config assistant (quick)</span>
+  <span id="assistQuickBtns"></span>
+  <span class="aq-hint" data-i18n="aq_hint">click a vendor to copy gateway-ready base_url + endpoint</span>
+</div>
 <h2>&#127760; <span data-i18n="cat_h">Free-model directory — which vendors have free models</span></h2>
 <p class="hint" data-i18n="cat_hint">Ingested ones you can open directly; pending buttons honestly label where they lead (signup / console / docs) — you must apply at the vendor yourself. models.dev only gives doc links, so most buttons are "view official docs" rather than a direct signup page.</p>
 <div class="vgrid" id="vgrid"></div>
@@ -409,7 +417,8 @@ const I18N = {
     report_tag:"[Report]", submit_tag:"[Submission]", like:"Upvote",
     assist_btn:"Config assistant", assist_h:"Configuration assistant",
     assist_hint:"Paste into your gateway \"Config assistant\" (or use as base_url/endpoints), add your free KEY, then create the BYOK channel.",
-    assist_copy:"Copy config", assist_close:"Close", copied:"\u2713 Copied"
+    assist_copy:"Copy config", assist_close:"Close", copied:"\u2713 Copied",
+    aq_label:"\u2699 Config assistant (quick)", aq_hint:"click a vendor to copy gateway-ready base_url + endpoint"
   },
   zh: {
     guide_h1:"\u{1F680} \u4F7F\u7528\u6D41\u7A0B", guide_cap:"\u4ECE\u7533\u8BF7\u514D\u8D39 KEY \u5230\u63A5\u5165\u7F51\u5173\uFF0C\u56DB\u6B65\u5B8C\u6210",
@@ -444,7 +453,8 @@ const I18N = {
     report_tag:"[上报]", submit_tag:"[投稿]", like:"点赞",
     assist_btn:"\u914D\u7F6E\u52A9\u7406", assist_h:"\u914D\u7F6E\u52A9\u7406",
     assist_hint:"\u590D\u5236\u5230\u7F51\u5173\u300C\u914D\u7F6E\u52A9\u7406\u300D\u7C98\u8D34\uFF08\u6216\u4F5C\u4E3A base_url/endpoints\uFF09\uFF0C\u52A0\u4E0A\u514D\u8D39 KEY \uFF0C\u521B\u5EFA BYOK \u6E20\u9053\u3002",
-    assist_copy:"\u590D\u5236\u914D\u7F6E", assist_close:"\u5173\u95ED", copied:"\u2713 \u5DF2\u590D\u5236"
+    assist_copy:"\u590D\u5236\u914D\u7F6E", assist_close:"\u5173\u95ED", copied:"\u2713 \u5DF2\u590D\u5236",
+    aq_label:"\u2699 \u914D\u7F6E\u52A9\u7406(\u5FEB\u6377)", aq_hint:"\u70B9\u5382\u5546\u590D\u5236\u53EF\u76F4\u63A5\u7528\u4E8E\u7F51\u5173\u7684 base_url + endpoint"
   }
 };
 let LANG = "en";  // 英文默认
@@ -561,6 +571,18 @@ function renderCatalog(){
   }).join("");
   el.querySelectorAll("[data-reg]").forEach(a=>a.addEventListener("click",()=>regClick(a.dataset.reg)));
   el.querySelectorAll("[data-assist]").forEach(a=>a.addEventListener("click",()=>openAssist(a.dataset.assist)));
+  renderAssistQuick();
+}
+// ---- C: 提位置 — CATALOG 顶部渲 ASSIST 快捷条(8 家,含 ASSIST-not-in-CATALOG) ----
+function renderAssistQuick(){
+  var box = document.getElementById("assistQuickBtns"); if(!box) return;
+  var keys = Object.keys(ASSIST);
+  box.innerHTML = keys.map(function(k){
+    return '<a class="assistbtn" data-assist="'+k+'">' + esc(ASSIST[k].name) + '</a>';
+  }).join(" ");
+  box.querySelectorAll("[data-assist]").forEach(function(a){
+    a.addEventListener("click", function(){ openAssist(a.getAttribute("data-assist")); });
+  });
 }
 // ---- 配置助理: 构造接入 JSON + 复制 + 弹窗 ----
 function buildAssistConfig(prov){
