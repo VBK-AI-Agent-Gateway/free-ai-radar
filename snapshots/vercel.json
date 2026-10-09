@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T06:00:03Z",
+ "fetched_at": "2026-10-09T13:08:07Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "c5e31cb80590c78f5c6a10c0d09f5221abac461b06b345c3886cf7f7e0e73eff",
+ "hash": "bd429dfea545bd49dd0c200f9131b2ad811d704c0d594a29b9dfa99d75161de0",
  "payload": {
   "object": "list",
   "data": [
@@ -7904,7 +7904,7 @@
        "none",
        "low",
        "medium",
-       "high"
+       "xhigh"
       ]
      }
     ],
@@ -15477,8 +15477,6 @@
       "type": "effort",
       "values": [
        "none",
-       "low",
-       "medium",
        "high"
       ]
      }
@@ -15535,6 +15533,9 @@
     ],
     "temperature": true,
     "reasoning_options": [
+     {
+      "type": "toggle"
+     },
      {
       "type": "effort",
       "values": [

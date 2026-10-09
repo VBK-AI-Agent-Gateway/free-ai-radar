@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T06:00:03Z",
+ "fetched_at": "2026-10-09T13:08:08Z",
  "url": "https://api.fastrouter.ai/v1/models",
- "hash": "a9fc683488054d2b1c4b288c7d6e35113d0d7e554dae1965b1e75484b9c1906d",
+ "hash": "fdedd5c13b09bf46083c20b21f4513da2fb900236f7d49792a3e376608855815",
  "payload": {
   "data": [
    {
@@ -519,22 +519,23 @@
     "supported_params_details": {
      "include_reasoning": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "max": 128000,
+       "dataType": "number",
        "min": 1,
-       "dataType": "number"
+       "max": 128000
       }
      },
      "reasoning": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
@@ -542,18 +543,17 @@
         "xhigh",
         "max"
        ],
-       "default": "medium",
-       "dataType": "string"
+       "default": "medium"
       }
      },
      "response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "stop": {
@@ -563,22 +563,22 @@
      },
      "structured_outputs": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "tool_choice": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "auto",
         "any",
         "tool",
         "none"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "tools": {
@@ -588,12 +588,12 @@
      },
      "verbosity": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
         "high"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
@@ -661,8 +661,8 @@
       "completion": "0.00001",
       "input_cache_read": "0.0000002",
       "input_cache_write": "0.0000025",
-      "input_cache_write_5m": "0.0000025",
-      "input_cache_write_1h": "0.000004"
+      "input_cache_write_1h": "0.000004",
+      "input_cache_write_5m": "0.0000025"
      }
     },
     "top_provider": {
@@ -695,11 +695,11 @@
     "supported_params_details": {
      "between_tools": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "cache_control": {
@@ -709,17 +709,17 @@
      },
      "display": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "updates"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "dataType": "number",
+       "max": 128000,
        "min": 1,
-       "max": 128000
+       "dataType": "number"
       }
      },
      "metadata": {
@@ -729,24 +729,24 @@
      },
      "reasoning": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "between_tools",
         "low",
         "medium",
         "high"
        ],
-       "default": "high"
+       "default": "high",
+       "dataType": "string"
       }
      },
      "response_format": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "stop": {
@@ -756,11 +756,11 @@
      },
      "stream": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "system": {
@@ -770,11 +770,11 @@
      },
      "tool_choice": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "auto",
         "none"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "tools": {
@@ -940,37 +940,35 @@
     }
    },
    {
-    "id": "google/gemini-3.8-flash",
-    "name": "Google: Gemini 3.8 Flash",
-    "description": "Gemini 3.8 Flash is Google’s most capable Flash-series multimodal model, optimized for long-horizon software engineering, autonomous agents, and complex enterprise workflows while maintaining high speed and cost efficiency. It supports very long contexts (up to 1,048,576 tokens) across text, images, video, audio, and PDFs, and offers advanced capabilities like tool calling, computer use, file search, and structured outputs. It is suitable for agentic applications, complex reasoning, and high-throughput production workloads.",
-    "created": 1788362056,
-    "context_length": 1048576,
+    "id": "google/gemini-nano-banana-2.1",
+    "name": "Google: Nano Banana 2.1 (Gemini Nano Banana 2.1)",
+    "description": "Google's gemini-nano-banana-2.1 (Nano Banana 2.1) is the successor to Nano Banana 2 (Gemini 3.1 Flash Image), built on Gemini 3.6 Flash for high-efficiency image generation and conversational editing at Flash-level speed and cost. It improves visual quality, text rendering, infographic layout accuracy, and multi-turn character consistency across 1K, 2K, and 4K output, fixes tiling artifacts on wide and panoramic aspect ratios, supports up to 14 reference images (up to 4 characters and 10 objects), grounding with Google Web and Image Search, and configurable thinking levels (minimal, medium, high). All outputs carry a SynthID watermark.",
+    "created": 1791244800,
+    "context_length": 131072,
     "architecture": {
-     "modality": "text+image+audio+video+file->text",
+     "modality": "text+image->text+image",
      "input_modalities": [
-      "text",
       "image",
-      "audio",
-      "video",
-      "file"
+      "text"
      ],
      "output_modalities": [
+      "image",
       "text"
      ],
      "tokenizer": "Gemini"
     },
     "pricing": {
-     "prompt": "0.00000075",
-     "completion": "0.00000375",
+     "prompt": "0.0000015",
+     "completion": "0.0000075",
      "request": "",
-     "image": "",
-     "web_search": "",
+     "image": "0.00003",
+     "web_search": "0.014",
      "citation": "",
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.000000075",
-     "input_cache_write": "0.0000005",
+     "input_cache_read": "",
+     "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -988,74 +986,203 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000000375",
-      "completion": "0.000001875",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000005"
+      "prompt": "0.00000075",
+      "completion": "0.00000375"
      },
-     "flex_service_tier_pricing": {
-      "prompt": "0.000000375",
-      "completion": "0.000001875",
-      "input_cache_read": "0.0000000375",
-      "input_cache_write": "0.0000005"
-     },
+     "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
      "priceToShow": {
-      "prompt": "0.00000075",
-      "completion": "0.00000375",
-      "input_cache_read": "0.000000075",
-      "input_cache_write": "0.0000005"
+      "prompt": "0.0000015",
+      "completion": "0.0000075",
+      "image": "0.00003",
+      "imageCost": [
+       {
+        "dimension": "1K",
+        "output": "0.0336",
+        "x-key": "dimension"
+       },
+       {
+        "dimension": "2K",
+        "output": "0.0504",
+        "x-key": "dimension"
+       },
+       {
+        "dimension": "4K",
+        "output": "0.113",
+        "x-key": "dimension"
+       }
+      ]
      }
     },
     "top_provider": {
-     "context_length": 1048576,
-     "max_completion_tokens": 65536,
-     "is_moderated": true
+     "context_length": 131072,
+     "max_completion_tokens": 32768,
+     "is_moderated": false
     },
     "supported_parameters": [
-     "max_output_tokens",
+     "include_reasoning",
+     "max_tokens",
+     "reasoning",
+     "response_format",
+     "seed",
+     "stop",
      "temperature",
-     "top_p",
-     "top_k",
-     "stop_sequences",
-     "tools",
-     "tool_choice",
-     "response_schema",
-     "response_mime_type",
-     "safety_settings",
-     "system_instruction",
-     "thinking",
-     "caching",
-     "request_options"
+     "top_p"
     ],
     "models_extra_params": {
      "category": [
-      "Coding",
-      "Agents",
-      "Enterprise",
-      "Reasoning"
+      "Image Generation"
      ],
      "sample_code_snippet": null
     },
     "is_active": true,
     "creator": "Google",
     "supported_params_details": {
-     "caching": {},
-     "max_output_tokens": {},
-     "request_options": {},
-     "response_mime_type": {},
-     "response_schema": {},
-     "safety_settings": {},
-     "stop_sequences": {},
-     "system_instruction": {},
-     "temperature": {},
-     "thinking": {},
-     "tool_choice": {},
-     "tools": {},
-     "top_k": {},
+     "aspectRatio": {
+      "inputFormat": {
+       "enum": [
+        "1:1",
+        "1:4",
+        "1:8",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:1",
+        "4:3",
+        "4:5",
+        "5:4",
+        "8:1",
+        "9:16",
+        "16:9",
+        "21:9"
+       ],
+       "default": "1:1",
+       "dataType": "string"
+      }
+     },
+     "candidateCount": {
+      "inputFormat": {
+       "max": 8,
+       "min": 1,
+       "default": 1,
+       "dataType": "number"
+      }
+     },
+     "contents": {
+      "inputFormat": {
+       "dataType": "array<object>"
+      }
+     },
+     "imageSize": {
+      "inputFormat": {
+       "enum": [
+        "1K",
+        "2K",
+        "4K"
+       ],
+       "default": "1K",
+       "dataType": "string"
+      }
+     },
+     "include_reasoning": {},
+     "maxOutputTokens": {
+      "inputFormat": {
+       "max": 32768,
+       "min": 1,
+       "dataType": "number"
+      }
+     },
+     "max_tokens": {},
+     "reasoning": {},
+     "responseFormat": {
+      "inputFormat": {
+       "dataType": "object"
+      }
+     },
+     "responseModalities": {
+      "inputFormat": {
+       "enum": [
+        [
+         "TEXT"
+        ],
+        [
+         "IMAGE"
+        ],
+        [
+         "TEXT",
+         "IMAGE"
+        ]
+       ],
+       "dataType": "array<string>"
+      }
+     },
+     "response_format": {},
+     "safetySettings": {
+      "inputFormat": {
+       "dataType": "array<object>"
+      }
+     },
+     "seed": {
+      "inputFormat": {
+       "dataType": "number"
+      }
+     },
+     "stop": {},
+     "stopSequences": {
+      "inputFormat": {
+       "dataType": "array<string>",
+       "maxItems": 5
+      }
+     },
+     "systemInstruction": {
+      "inputFormat": {
+       "dataType": "object"
+      }
+     },
+     "temperature": {
+      "inputFormat": {
+       "max": 2,
+       "min": 0,
+       "dataType": "number"
+      }
+     },
+     "thinkingConfig": {
+      "inputFormat": {
+       "dataType": "object"
+      }
+     },
+     "thinkingLevel": {
+      "inputFormat": {
+       "enum": [
+        "minimal",
+        "medium",
+        "high"
+       ],
+       "default": "medium",
+       "dataType": "string"
+      }
+     },
+     "tools": {
+      "inputFormat": {
+       "dataType": "array<object>"
+      }
+     },
+     "topK": {
+      "inputFormat": {
+       "min": 1,
+       "dataType": "number"
+      }
+     },
+     "topP": {
+      "inputFormat": {
+       "max": 1,
+       "min": 0,
+       "dataType": "number"
+      }
+     },
      "top_p": {}
     }
    },
@@ -2135,8 +2262,8 @@
       "completion": "0.00005",
       "input_cache_read": "0.000001",
       "input_cache_write": "0.0000125",
-      "input_cache_write_1h": "0.00002",
-      "input_cache_write_5m": "0.0000125"
+      "input_cache_write_5m": "0.0000125",
+      "input_cache_write_1h": "0.00002"
      }
     },
     "top_provider": {
@@ -2171,6 +2298,256 @@
      "tool_choice": {},
      "tools": {},
      "verbosity": {}
+    }
+   },
+   {
+    "id": "openai/gpt-6-sol",
+    "name": "OpenAI: GPT-6 Sol",
+    "description": "GPT-6 Sol is OpenAI's mid-tier model in the GPT-6 family, sitting below flagship GPT-6 Astra. Trained using the same methods as Astra but optimized to run faster and cost less, it cuts API prices 50% versus GPT-5.6 Sol's promotional pricing, with about half the factuality errors of its predecessor and cached input tokens now discounted 90%. OpenAI reports it matches Claude Fable 5.1 xhigh on FrontierCode coding benchmarks at substantially lower cost, and scores 33.2% on AutomationBench (xhigh) versus 26.9% for Claude Opus 5 at roughly a ninth of the per-task cost.",
+    "created": 1790035200,
+    "context_length": 400000,
+    "architecture": {
+     "modality": "text+image+file->text",
+     "input_modalities": [
+      "file",
+      "image",
+      "text"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "pricing": {
+     "prompt": "0.000002",
+     "completion": "0.00001",
+     "request": "",
+     "image": "",
+     "web_search": "0.01",
+     "citation": "",
+     "reasoning": "",
+     "duration": "",
+     "internal_reasoning": "",
+     "input_cache_read": "0.0000002",
+     "input_cache_write": "0.0000025",
+     "input_cache_read_more_than_272k_input": "0.0000004",
+     "prompt_more_than_128k_input": "",
+     "completion_more_than_128k_input": "",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
+     "prompt_more_than_272k_input": "0.000004",
+     "completion_more_than_272k_input": "0.000015",
+     "prompt_more_than_512k_input": "",
+     "completion_more_than_512k_input": "",
+     "web_search_per_1000_requests_low": "",
+     "web_search_per_1000_requests_medium": "",
+     "web_search_per_1000_requests_high": "",
+     "web_search_per_1000_requests": "",
+     "audio_output_per_minute": "",
+     "audio_input": "",
+     "audio_output": "",
+     "cached_audio_input": "",
+     "batchPrice": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "input_cache_read_more_than_272k_input": "0.0000002"
+     },
+     "flex_service_tier_pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "prompt_more_than_272k_input": "0.000002",
+      "completion_more_than_272k_input": "0.0000075",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "input_cache_read_more_than_272k_input": "0.0000002"
+     },
+     "fast_service_tier_pricing": {
+      "prompt": "0.000004",
+      "completion": "0.00002",
+      "prompt_more_than_272k_input": "0.000008",
+      "completion_more_than_272k_input": "0.00003",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "input_cache_read_more_than_272k_input": "0.0000008"
+     },
+     "videoCost": null,
+     "videoCostWithAudio": null,
+     "imageCost": null,
+     "priceToShow": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "prompt_more_than_272k_input": "0.000004",
+      "completion_more_than_272k_input": "0.000015",
+      "input_cache_write_more_than_272k": "0.000005",
+      "input_cache_read_more_than_272k_input": "0.0000004"
+     }
+    },
+    "top_provider": {
+     "context_length": 400000,
+     "max_completion_tokens": 128000,
+     "is_moderated": true
+    },
+    "supported_parameters": [
+     "frequency_penalty",
+     "logprobs",
+     "max_completion_tokens",
+     "metadata",
+     "n",
+     "presence_penalty",
+     "reasoning",
+     "response_format",
+     "seed",
+     "service_tier",
+     "stop",
+     "stop_sequences",
+     "stream",
+     "tool_choice",
+     "tools",
+     "top_logprobs",
+     "top_p"
+    ],
+    "models_extra_params": {
+     "category": [
+      "Text Generation"
+     ],
+     "sample_code_snippet": null
+    },
+    "is_active": true,
+    "creator": "OpenAI",
+    "supported_params_details": {
+     "frequency_penalty": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": -2,
+       "max": 2
+      }
+     },
+     "logprobs": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
+      }
+     },
+     "max_completion_tokens": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 1,
+       "max": 128000
+      }
+     },
+     "metadata": {
+      "inputFormat": {
+       "dataType": "string"
+      }
+     },
+     "n": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 1
+      }
+     },
+     "presence_penalty": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": -2,
+       "max": 2
+      }
+     },
+     "reasoning": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+       ]
+      }
+     },
+     "response_format": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "text",
+        "json_object",
+        "json_schema"
+       ]
+      }
+     },
+     "seed": {
+      "inputFormat": {
+       "dataType": "number"
+      }
+     },
+     "service_tier": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "auto",
+        "default",
+        "flex",
+        "priority",
+        "fast"
+       ]
+      }
+     },
+     "stop": {
+      "inputFormat": {
+       "dataType": "array"
+      }
+     },
+     "stop_sequences": {
+      "inputFormat": {
+       "dataType": "array"
+      }
+     },
+     "stream": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
+      }
+     },
+     "tool_choice": {
+      "inputFormat": {
+       "dataType": "string",
+       "enum": [
+        "auto",
+        "required",
+        "none"
+       ]
+      }
+     },
+     "tools": {
+      "inputFormat": {
+       "dataType": "array"
+      }
+     },
+     "top_logprobs": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 0,
+       "max": 20
+      }
+     },
+     "top_p": {
+      "inputFormat": {
+       "dataType": "number",
+       "min": 0,
+       "max": 1
+      }
+     }
     }
    },
    {
@@ -2406,256 +2783,6 @@
       "inputFormat": {
        "dataType": "number",
        "min": 0
-      }
-     },
-     "top_logprobs": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 0,
-       "max": 20
-      }
-     },
-     "top_p": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 0,
-       "max": 1
-      }
-     }
-    }
-   },
-   {
-    "id": "openai/gpt-6-sol",
-    "name": "OpenAI: GPT-6 Sol",
-    "description": "GPT-6 Sol is OpenAI's mid-tier model in the GPT-6 family, sitting below flagship GPT-6 Astra. Trained using the same methods as Astra but optimized to run faster and cost less, it cuts API prices 50% versus GPT-5.6 Sol's promotional pricing, with about half the factuality errors of its predecessor and cached input tokens now discounted 90%. OpenAI reports it matches Claude Fable 5.1 xhigh on FrontierCode coding benchmarks at substantially lower cost, and scores 33.2% on AutomationBench (xhigh) versus 26.9% for Claude Opus 5 at roughly a ninth of the per-task cost.",
-    "created": 1790035200,
-    "context_length": 400000,
-    "architecture": {
-     "modality": "text+image+file->text",
-     "input_modalities": [
-      "file",
-      "image",
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "pricing": {
-     "prompt": "0.000002",
-     "completion": "0.00001",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
-     "citation": "",
-     "reasoning": "",
-     "duration": "",
-     "internal_reasoning": "",
-     "input_cache_read": "0.0000002",
-     "input_cache_write": "0.0000025",
-     "input_cache_read_more_than_272k_input": "0.0000004",
-     "prompt_more_than_128k_input": "",
-     "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "",
-     "completion_more_than_200k_input": "",
-     "prompt_more_than_272k_input": "0.000004",
-     "completion_more_than_272k_input": "0.000015",
-     "prompt_more_than_512k_input": "",
-     "completion_more_than_512k_input": "",
-     "web_search_per_1000_requests_low": "",
-     "web_search_per_1000_requests_medium": "",
-     "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "",
-     "audio_output_per_minute": "",
-     "audio_input": "",
-     "audio_output": "",
-     "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
-     },
-     "flex_service_tier_pricing": {
-      "prompt": "0.000001",
-      "completion": "0.000005",
-      "prompt_more_than_272k_input": "0.000002",
-      "completion_more_than_272k_input": "0.0000075",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
-     },
-     "fast_service_tier_pricing": {
-      "prompt": "0.000004",
-      "completion": "0.00002",
-      "prompt_more_than_272k_input": "0.000008",
-      "completion_more_than_272k_input": "0.00003",
-      "input_cache_read": "0.0000004",
-      "input_cache_write": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000008"
-     },
-     "videoCost": null,
-     "videoCostWithAudio": null,
-     "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.000002",
-      "completion": "0.00001",
-      "input_cache_read": "0.0000002",
-      "input_cache_write": "0.0000025",
-      "prompt_more_than_272k_input": "0.000004",
-      "completion_more_than_272k_input": "0.000015",
-      "input_cache_write_more_than_272k": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000004"
-     }
-    },
-    "top_provider": {
-     "context_length": 400000,
-     "max_completion_tokens": 128000,
-     "is_moderated": true
-    },
-    "supported_parameters": [
-     "frequency_penalty",
-     "logprobs",
-     "max_completion_tokens",
-     "metadata",
-     "n",
-     "presence_penalty",
-     "reasoning",
-     "response_format",
-     "seed",
-     "service_tier",
-     "stop",
-     "stop_sequences",
-     "stream",
-     "tool_choice",
-     "tools",
-     "top_logprobs",
-     "top_p"
-    ],
-    "models_extra_params": {
-     "category": [
-      "Text Generation"
-     ],
-     "sample_code_snippet": null
-    },
-    "is_active": true,
-    "creator": "OpenAI",
-    "supported_params_details": {
-     "frequency_penalty": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": -2,
-       "max": 2
-      }
-     },
-     "logprobs": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
-      }
-     },
-     "max_completion_tokens": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 1,
-       "max": 128000
-      }
-     },
-     "metadata": {
-      "inputFormat": {
-       "dataType": "string"
-      }
-     },
-     "n": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": 1
-      }
-     },
-     "presence_penalty": {
-      "inputFormat": {
-       "dataType": "number",
-       "min": -2,
-       "max": 2
-      }
-     },
-     "reasoning": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "none",
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-       ]
-      }
-     },
-     "response_format": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "text",
-        "json_object",
-        "json_schema"
-       ]
-      }
-     },
-     "seed": {
-      "inputFormat": {
-       "dataType": "number"
-      }
-     },
-     "service_tier": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "auto",
-        "default",
-        "flex",
-        "priority",
-        "fast"
-       ]
-      }
-     },
-     "stop": {
-      "inputFormat": {
-       "dataType": "array"
-      }
-     },
-     "stop_sequences": {
-      "inputFormat": {
-       "dataType": "array"
-      }
-     },
-     "stream": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
-      }
-     },
-     "tool_choice": {
-      "inputFormat": {
-       "dataType": "string",
-       "enum": [
-        "auto",
-        "required",
-        "none"
-       ]
-      }
-     },
-     "tools": {
-      "inputFormat": {
-       "dataType": "array"
       }
      },
      "top_logprobs": {
@@ -3051,8 +3178,8 @@
       "completion": "0.00002500",
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
-      "input_cache_write_5m": "0.00000625",
-      "input_cache_write_1h": "0.00001000"
+      "input_cache_write_1h": "0.00001000",
+      "input_cache_write_5m": "0.00000625"
      }
     },
     "top_provider": {
@@ -3478,8 +3605,8 @@
       "completion": "0.00000500",
       "input_cache_read": "0.00000010",
       "input_cache_write": "0.00000125",
-      "input_cache_write_1h": "0.00000200",
-      "input_cache_write_5m": "0.00000125"
+      "input_cache_write_5m": "0.00000125",
+      "input_cache_write_1h": "0.00000200"
      }
     },
     "top_provider": {
@@ -3511,6 +3638,121 @@
      "response_format": {},
      "stop": {},
      "temperature": {},
+     "tool_choice": {},
+     "tools": {},
+     "top_k": {},
+     "top_p": {}
+    }
+   },
+   {
+    "id": "google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "description": "Gemini 3.8 Flash is Google’s most capable Flash-series multimodal model, optimized for long-horizon software engineering, autonomous agents, and complex enterprise workflows while maintaining high speed and cost efficiency. It supports very long contexts (up to 1,048,576 tokens) across text, images, video, audio, and PDFs, and offers advanced capabilities like tool calling, computer use, file search, and structured outputs. It is suitable for agentic applications, complex reasoning, and high-throughput production workloads.",
+    "created": 1788362056,
+    "context_length": 1048576,
+    "architecture": {
+     "modality": "text+image+audio+video+file->text",
+     "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "file"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "Gemini"
+    },
+    "pricing": {
+     "prompt": "0.00000075",
+     "completion": "0.00000375",
+     "request": "",
+     "image": "",
+     "web_search": "",
+     "citation": "",
+     "reasoning": "",
+     "duration": "",
+     "internal_reasoning": "",
+     "input_cache_read": "0.000000075",
+     "input_cache_write": "0.0000005",
+     "prompt_more_than_128k_input": "",
+     "completion_more_than_128k_input": "",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
+     "prompt_more_than_272k_input": "",
+     "completion_more_than_272k_input": "",
+     "prompt_more_than_512k_input": "",
+     "completion_more_than_512k_input": "",
+     "web_search_per_1000_requests_low": "",
+     "web_search_per_1000_requests_medium": "",
+     "web_search_per_1000_requests_high": "",
+     "web_search_per_1000_requests": "",
+     "audio_output_per_minute": "",
+     "audio_input": "",
+     "audio_output": "",
+     "cached_audio_input": "",
+     "batchPrice": {},
+     "flex_service_tier_pricing": {
+      "prompt": "0.000000375",
+      "completion": "0.000001875",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000005"
+     },
+     "fast_service_tier_pricing": {},
+     "videoCost": null,
+     "videoCostWithAudio": null,
+     "imageCost": null,
+     "priceToShow": {
+      "prompt": "0.00000075",
+      "completion": "0.00000375",
+      "input_cache_read": "0.000000075",
+      "input_cache_write": "0.0000005"
+     }
+    },
+    "top_provider": {
+     "context_length": 1048576,
+     "max_completion_tokens": 65536,
+     "is_moderated": true
+    },
+    "supported_parameters": [
+     "max_output_tokens",
+     "temperature",
+     "top_p",
+     "top_k",
+     "stop_sequences",
+     "tools",
+     "tool_choice",
+     "response_schema",
+     "response_mime_type",
+     "safety_settings",
+     "system_instruction",
+     "thinking",
+     "caching",
+     "request_options"
+    ],
+    "models_extra_params": {
+     "category": [
+      "Coding",
+      "Agents",
+      "Enterprise",
+      "Reasoning"
+     ],
+     "sample_code_snippet": null
+    },
+    "is_active": true,
+    "creator": "Google",
+    "supported_params_details": {
+     "caching": {},
+     "max_output_tokens": {},
+     "request_options": {},
+     "response_mime_type": {},
+     "response_schema": {},
+     "safety_settings": {},
+     "stop_sequences": {},
+     "system_instruction": {},
+     "temperature": {},
+     "thinking": {},
      "tool_choice": {},
      "tools": {},
      "top_k": {},
@@ -3565,11 +3807,7 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.000000375",
-      "completion": "0.000001875",
-      "input_cache_read": "0.0000000375"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -3741,117 +3979,6 @@
      "service_tier": {},
      "stop_sequences": {},
      "stream": {},
-     "system_instruction": {},
-     "temperature": {},
-     "thinking": {},
-     "tool_choice": {},
-     "tools": {},
-     "top_k": {},
-     "top_p": {}
-    }
-   },
-   {
-    "id": "google/gemini-3.5-flash-lite",
-    "name": "Google: Gemini 3.5 Flash-Lite",
-    "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution in agentic workflows and document parsing. It supports text, image, video, audio, and PDF inputs with text-only outputs, a 1M-token context window, and up to 65,536 output tokens. The model is designed for subagent tasks, simple data extraction, and applications where latency and API cost are primary constraints.",
-    "created": 1784646726,
-    "context_length": 1048576,
-    "architecture": {
-     "modality": "text+image+audio+video+file->text",
-     "input_modalities": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "file"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "Gemini"
-    },
-    "pricing": {
-     "prompt": "0.0000003",
-     "completion": "0.0000025",
-     "request": "",
-     "image": "",
-     "web_search": "",
-     "citation": "",
-     "reasoning": "",
-     "duration": "",
-     "internal_reasoning": "",
-     "input_cache_read": "0.00000003",
-     "input_cache_write": "",
-     "prompt_more_than_128k_input": "",
-     "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "",
-     "completion_more_than_200k_input": "",
-     "prompt_more_than_272k_input": "",
-     "completion_more_than_272k_input": "",
-     "prompt_more_than_512k_input": "",
-     "completion_more_than_512k_input": "",
-     "web_search_per_1000_requests_low": "",
-     "web_search_per_1000_requests_medium": "",
-     "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "14",
-     "audio_output_per_minute": "",
-     "audio_input": "",
-     "audio_output": "",
-     "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.00000015",
-      "completion": "0.00000125",
-      "input_cache_read": "0.00000002"
-     },
-     "flex_service_tier_pricing": {
-      "prompt": "0.00000015",
-      "completion": "0.00000125",
-      "input_cache_read": "0.00000002"
-     },
-     "fast_service_tier_pricing": {},
-     "videoCost": null,
-     "videoCostWithAudio": null,
-     "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.0000003",
-      "completion": "0.0000025",
-      "input_cache_read": "0.00000003"
-     }
-    },
-    "top_provider": {
-     "context_length": 1048576,
-     "max_completion_tokens": 65536,
-     "is_moderated": true
-    },
-    "supported_parameters": [
-     "max_output_tokens",
-     "temperature",
-     "top_p",
-     "top_k",
-     "stop_sequences",
-     "tools",
-     "tool_choice",
-     "response_schema",
-     "response_mime_type",
-     "thinking",
-     "safety_settings",
-     "system_instruction",
-     "metadata"
-    ],
-    "models_extra_params": {
-     "category": null,
-     "sample_code_snippet": null
-    },
-    "is_active": true,
-    "creator": "Google",
-    "supported_params_details": {
-     "max_output_tokens": {},
-     "metadata": {},
-     "response_mime_type": {},
-     "response_schema": {},
-     "safety_settings": {},
-     "service_tier": {},
-     "stop_sequences": {},
      "system_instruction": {},
      "temperature": {},
      "thinking": {},
@@ -4702,7 +4829,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.0000002",
+     "input_cache_read": "0.000000145",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -4729,7 +4856,7 @@
      "priceToShow": {
       "prompt": "0.00000174",
       "completion": "0.00000348",
-      "input_cache_read": "0.0000002"
+      "input_cache_read": "0.000000145"
      }
     },
     "top_provider": {
@@ -6722,12 +6849,10 @@
      "input_cache_write": "0.00000625",
      "input_cache_write_5m": "0.00000625",
      "input_cache_write_1h": "0.00001000",
-     "input_cache_write_more_than_200k_5m": "0.00000625",
-     "input_cache_write_more_than_200k_1h": "0.00001000",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "0.00000500",
-     "completion_more_than_200k_input": "0.00002500",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
      "prompt_more_than_272k_input": "",
      "completion_more_than_272k_input": "",
      "prompt_more_than_512k_input": "",
@@ -6744,11 +6869,7 @@
       "prompt": "0.00000250",
       "completion": "0.00001250",
       "input_cache_read": "0.00000025",
-      "input_cache_write": "0.000003125",
-      "input_cache_read_more_than_200k_input": "0.00000025",
-      "input_cache_write_more_than_200k_input": "0.000003125",
-      "prompt_more_than_200k_input": "0.00000250",
-      "completion_more_than_200k_input": "0.00001250"
+      "input_cache_write": "0.000003125"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -6761,11 +6882,7 @@
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
       "input_cache_write_5m": "0.00000625",
-      "input_cache_write_1h": "0.00001000",
-      "input_cache_write_more_than_200k_5m": "0.00000625",
-      "input_cache_write_more_than_200k_1h": "0.00001000",
-      "prompt_more_than_200k_input": "0.00000500",
-      "completion_more_than_200k_input": "0.00002500"
+      "input_cache_write_1h": "0.00001000"
      }
     },
     "top_provider": {
@@ -7860,9 +7977,11 @@
        "enum": [
         "16:9",
         "9:16",
+        "1:1",
         "4:3",
         "3:4",
-        "1:1",
+        "2:3",
+        "3:2",
         "21:9"
        ]
       }
@@ -7870,11 +7989,7 @@
      "aspect_ratio": {},
      "cameraFixed": {
       "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
+       "dataType": "bool"
       }
      },
      "first_frame": {
@@ -7884,11 +7999,7 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
+       "dataType": "bool"
       }
      },
      "image": {
@@ -7904,17 +8015,8 @@
      "length": {
       "inputFormat": {
        "dataType": "number",
-       "enum": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-       ]
+       "min": 3,
+       "max": 12
       }
      },
      "prompt": {
@@ -7935,7 +8037,7 @@
      "seed": {
       "inputFormat": {
        "dataType": "number",
-       "min": 1,
+       "min": -1,
        "max": 2147483647
       }
      },
@@ -9895,11 +9997,11 @@
      "priceToShow": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "prompt_audio": "0.000001",
       "input_cache_read": "0.00000003",
-      "input_cache_read_audio": "0.0000001",
       "prompt_more_than_200k_input": "0.0000003",
-      "completion_more_than_200k_input": "0.0000025"
+      "completion_more_than_200k_input": "0.0000025",
+      "prompt_audio": "0.000001",
+      "input_cache_read_audio": "0.0000001"
      }
     },
     "top_provider": {
@@ -10476,7 +10578,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.000000025",
+     "input_cache_read": "",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -10496,13 +10598,11 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.000000125",
-      "completion": "0.00000075",
-      "input_cache_read": "0.0000000125"
+      "completion": "0.00000075"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000000125",
-      "completion": "0.00000075",
-      "input_cache_read": "0.0000000125"
+      "completion": "0.00000075"
      },
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -10511,7 +10611,6 @@
      "priceToShow": {
       "prompt": "0.00000025",
       "completion": "0.0000015",
-      "input_cache_read": "0.000000025",
       "image": "0.00003"
      }
     },
@@ -10773,6 +10872,117 @@
      "temperature": {},
      "tool_choice": {},
      "tools": {},
+     "top_p": {}
+    }
+   },
+   {
+    "id": "google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash-Lite",
+    "description": "Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution in agentic workflows and document parsing. It supports text, image, video, audio, and PDF inputs with text-only outputs, a 1M-token context window, and up to 65,536 output tokens. The model is designed for subagent tasks, simple data extraction, and applications where latency and API cost are primary constraints.",
+    "created": 1784646726,
+    "context_length": 1048576,
+    "architecture": {
+     "modality": "text+image+audio+video+file->text",
+     "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "file"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "Gemini"
+    },
+    "pricing": {
+     "prompt": "0.0000003",
+     "completion": "0.0000025",
+     "request": "",
+     "image": "",
+     "web_search": "",
+     "citation": "",
+     "reasoning": "",
+     "duration": "",
+     "internal_reasoning": "",
+     "input_cache_read": "0.00000003",
+     "input_cache_write": "",
+     "prompt_more_than_128k_input": "",
+     "completion_more_than_128k_input": "",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
+     "prompt_more_than_272k_input": "",
+     "completion_more_than_272k_input": "",
+     "prompt_more_than_512k_input": "",
+     "completion_more_than_512k_input": "",
+     "web_search_per_1000_requests_low": "",
+     "web_search_per_1000_requests_medium": "",
+     "web_search_per_1000_requests_high": "",
+     "web_search_per_1000_requests": "14",
+     "audio_output_per_minute": "",
+     "audio_input": "",
+     "audio_output": "",
+     "cached_audio_input": "",
+     "batchPrice": {
+      "prompt": "0.00000015",
+      "completion": "0.00000125",
+      "input_cache_read": "0.00000002"
+     },
+     "flex_service_tier_pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000125",
+      "input_cache_read": "0.00000002"
+     },
+     "fast_service_tier_pricing": {},
+     "videoCost": null,
+     "videoCostWithAudio": null,
+     "imageCost": null,
+     "priceToShow": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "input_cache_read": "0.00000003"
+     }
+    },
+    "top_provider": {
+     "context_length": 1048576,
+     "max_completion_tokens": 65536,
+     "is_moderated": true
+    },
+    "supported_parameters": [
+     "max_output_tokens",
+     "temperature",
+     "top_p",
+     "top_k",
+     "stop_sequences",
+     "tools",
+     "tool_choice",
+     "response_schema",
+     "response_mime_type",
+     "thinking",
+     "safety_settings",
+     "system_instruction",
+     "metadata"
+    ],
+    "models_extra_params": {
+     "category": null,
+     "sample_code_snippet": null
+    },
+    "is_active": true,
+    "creator": "Google",
+    "supported_params_details": {
+     "max_output_tokens": {},
+     "metadata": {},
+     "response_mime_type": {},
+     "response_schema": {},
+     "safety_settings": {},
+     "service_tier": {},
+     "stop_sequences": {},
+     "system_instruction": {},
+     "temperature": {},
+     "thinking": {},
+     "tool_choice": {},
+     "tools": {},
+     "top_k": {},
      "top_p": {}
     }
    },
@@ -16515,13 +16725,13 @@
     "pricing": {
      "prompt": "0.0000004",
      "completion": "0.0000016",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.0000001",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16540,24 +16750,13 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.0000002",
-      "completion": "0.0000008"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000007",
-      "completion": "0.0000028",
-      "input_cache_read": "0.000000175"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.0000004",
-      "completion": "0.0000016",
-      "input_cache_read": "0.0000001"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16660,14 +16859,18 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.00000005",
-      "completion": "0.00000020"
+      "completion": "0.0000002"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "input_cache_read": "0.000000025"
+     }
     },
     "top_provider": {
      "context_length": 1047576,
@@ -17423,14 +17626,14 @@
     },
     "pricing": {
      "prompt": "0.00000125",
-     "completion": "0.00001",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "completion": "0.000010",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.000000125",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -17450,28 +17653,16 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000000625",
+      "prompt": "0.00000063",
       "completion": "0.000005",
-      "input_cache_read": "0.0000000625"
+      "input_cache_read": "0.00000006"
      },
-     "flex_service_tier_pricing": {
-      "prompt": "0.000000625",
-      "completion": "0.000005",
-      "input_cache_read": "0.0000000625"
-     },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000025",
-      "completion": "0.00002",
-      "input_cache_read": "0.00000025"
-     },
+     "flex_service_tier_pricing": {},
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.00000125",
-      "completion": "0.00001",
-      "input_cache_read": "0.000000125"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 400000,
@@ -17527,13 +17718,13 @@
     "pricing": {
      "prompt": "0.00000025",
      "completion": "0.000002",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.000000025",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -17562,11 +17753,7 @@
       "completion": "0.000001",
       "input_cache_read": "0.0000000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.00000045",
-      "completion": "0.0000036",
-      "input_cache_read": "0.000000045"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -17762,14 +17949,14 @@
     "pricing": {
      "prompt": "0.00000125",
      "completion": "0.00001",
-     "request": "0",
-     "image": "0",
+     "request": "",
+     "image": "",
      "web_search": "0.01",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "0",
-     "input_cache_read": "0.00000013",
+     "internal_reasoning": "",
+     "input_cache_read": "0.000000125",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -17797,14 +17984,18 @@
       "completion": "0.000005",
       "input_cache_read": "0.0000000625"
      },
-     "fast_service_tier_pricing": {},
+     "fast_service_tier_pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00002",
+      "input_cache_read": "0.00000025"
+     },
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
      "priceToShow": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "input_cache_read": "0.00000013"
+      "input_cache_read": "0.000000125"
      }
     },
     "top_provider": {
@@ -18762,7 +18953,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.00000002",
      "input_cache_write": "0.00000025",
-     "input_cache_read_more_than_272k_input": "0.00000004",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -18783,8 +18973,7 @@
       "prompt": "0.0000001",
       "completion": "0.0000006",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125",
-      "input_cache_read_more_than_272k_input": "0.00000002"
+      "input_cache_write": "0.000000125"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.0000001",
@@ -18792,18 +18981,9 @@
       "prompt_more_than_272k_input": "0.0000002",
       "completion_more_than_272k_input": "0.0000009",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125",
-      "input_cache_read_more_than_272k_input": "0.00000002"
+      "input_cache_write": "0.000000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.0000024",
-      "prompt_more_than_272k_input": "0.0000008",
-      "completion_more_than_272k_input": "0.0000036",
-      "input_cache_read": "0.00000004",
-      "input_cache_write": "0.0000005",
-      "input_cache_read_more_than_272k_input": "0.00000008"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -18811,9 +18991,7 @@
       "prompt": "0.0000002",
       "completion": "0.0000012",
       "input_cache_read": "0.00000002",
-      "input_cache_read_more_than_272k_input": "0.00000004",
       "input_cache_write": "0.00000025",
-      "input_cache_write_more_than_272k": "0.0000005",
       "prompt_more_than_272k_input": "0.0000004",
       "completion_more_than_272k_input": "0.0000018"
      }
@@ -19021,7 +19199,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.0000002",
      "input_cache_write": "0.0000025",
-     "input_cache_read_more_than_272k_input": "0.0000004",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19042,8 +19219,7 @@
       "prompt": "0.000001",
       "completion": "0.000006",
       "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
+      "input_cache_write": "0.00000125"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000001",
@@ -19051,18 +19227,9 @@
       "prompt_more_than_272k_input": "0.000002",
       "completion_more_than_272k_input": "0.000009",
       "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125",
-      "input_cache_read_more_than_272k_input": "0.0000002"
+      "input_cache_write": "0.00000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.000004",
-      "completion": "0.000024",
-      "prompt_more_than_272k_input": "0.000008",
-      "completion_more_than_272k_input": "0.000036",
-      "input_cache_read": "0.0000004",
-      "input_cache_write": "0.000005",
-      "input_cache_read_more_than_272k_input": "0.0000008"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19070,9 +19237,7 @@
       "prompt": "0.000002",
       "completion": "0.000012",
       "input_cache_read": "0.0000002",
-      "input_cache_read_more_than_272k_input": "0.0000004",
       "input_cache_write": "0.0000025",
-      "input_cache_write_more_than_272k": "0.000005",
       "prompt_more_than_272k_input": "0.000004",
       "completion_more_than_272k_input": "0.000018"
      }
@@ -19157,7 +19322,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.000001",
      "input_cache_write": "0.0000125",
-     "input_cache_read_more_than_272k_input": "0.000002",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19169,7 +19333,7 @@
      "web_search_per_1000_requests_low": "",
      "web_search_per_1000_requests_medium": "",
      "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "",
+     "web_search_per_1000_requests": "10",
      "audio_output_per_minute": "",
      "audio_input": "",
      "audio_output": "",
@@ -19178,8 +19342,7 @@
       "prompt": "0.000005",
       "completion": "0.000025",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000005",
@@ -19187,18 +19350,9 @@
       "prompt_more_than_272k_input": "0.00001",
       "completion_more_than_272k_input": "0.0000375",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.00002",
-      "completion": "0.0001",
-      "prompt_more_than_272k_input": "0.00004",
-      "completion_more_than_272k_input": "0.00015",
-      "input_cache_read": "0.000002",
-      "input_cache_write": "0.000025",
-      "input_cache_read_more_than_272k_input": "0.000004"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19206,9 +19360,7 @@
       "prompt": "0.00001",
       "completion": "0.00005",
       "input_cache_read": "0.000001",
-      "input_cache_read_more_than_272k_input": "0.000002",
       "input_cache_write": "0.0000125",
-      "input_cache_write_more_than_272k": "0.000025",
       "prompt_more_than_272k_input": "0.00002",
       "completion_more_than_272k_input": "0.000075"
      }
@@ -20734,15 +20886,19 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.00000750",
-      "completion": "0.00003000"
+      "prompt": "0.0000075",
+      "completion": "0.00003"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.000015",
+      "completion": "0.00006",
+      "input_cache_read": "0.0000075"
+     }
     },
     "top_provider": {
      "context_length": 200000,
@@ -20939,18 +21095,14 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.00000055",
-      "completion": "0.0000022"
+      "completion": "0.00000220"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.0000011",
-      "completion": "0.0000044",
-      "input_cache_read": "0.00000055"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 200000,
@@ -21710,10 +21862,7 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.00000001",
-      "completion": "0"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -22267,9 +22416,9 @@
      },
      "temperature": {
       "inputFormat": {
-       "dataType": "number",
+       "max": 1,
        "min": 0,
-       "max": 1
+       "dataType": "number"
       }
      },
      "timestamp_granularities": {
@@ -26644,6 +26793,7 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1:1",
         "3:4",
@@ -26660,25 +26810,24 @@
         "9:20",
         "auto"
        ],
-       "default": "1:1",
-       "dataType": "string"
+       "default": "1:1"
       }
      },
      "aspect_ratio": {},
      "image_response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "b64_json"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "n": {
       "inputFormat": {
-       "max": 4,
+       "dataType": "number",
        "min": 1,
-       "default": 4,
-       "dataType": "number"
+       "max": 4,
+       "default": 4
       }
      },
      "prompt": {
@@ -26689,12 +26838,12 @@
      },
      "size": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1K",
         "2K"
        ],
-       "default": "1K",
-       "dataType": "string"
+       "default": "1K"
       }
      }
     }
@@ -26933,6 +27082,7 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1:1",
         "16:9",
@@ -26941,8 +27091,7 @@
         "4:3",
         "2:3",
         "3:2"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "aspect_ratio": {},
@@ -26958,6 +27107,7 @@
      },
      "length": {
       "inputFormat": {
+       "dataType": "number",
        "enum": [
         1,
         1,
@@ -26974,8 +27124,7 @@
         13,
         14,
         15
-       ],
-       "dataType": "number"
+       ]
       }
      },
      "prompt": {
@@ -26985,11 +27134,11 @@
      },
      "resolution": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "720p",
         "480p"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
