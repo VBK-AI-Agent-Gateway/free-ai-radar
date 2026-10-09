@@ -1,8 +1,8 @@
 {
- "at": "2026-10-09T03:18:21Z",
- "live_count": 4,
+ "at": "2026-10-09T03:30:42Z",
+ "live_count": 7,
  "apply_count": 69,
- "total_free_models": 448,
+ "total_free_models": 446,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -273,27 +273,6 @@
     "ALIBABA_CODING_PLAN_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "kilo",
-   "name": "Kilo Gateway",
-   "free_count": 10,
-   "sample_models": [
-    "stealth/glyph-cluster",
-    "openrouter/bodybuilder",
-    "openrouter/free",
-    "openrouter/pareto-code",
-    "openrouter/auto",
-    "google/lyria-3-pro-preview"
-   ],
-   "apply_url": "https://kilo.ai/login",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "apply_key",
-   "needs_env": [
-    "KILO_API_KEY"
-   ],
-   "note": "真注册入口(curl 已验证)"
   },
   {
    "provider": "volcengine-coding-plan",
@@ -668,6 +647,26 @@
    "note": "已收录,直接可看"
   },
   {
+   "provider": "kilo",
+   "name": "Kilo Gateway",
+   "free_count": 5,
+   "sample_models": [
+    "openrouter/bodybuilder",
+    "openrouter/pareto-code",
+    "openrouter/auto",
+    "kilo-auto/free",
+    "stepfun/step-3.7-flash:free"
+   ],
+   "apply_url": "https://kilo.ai/login",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "apply_key",
+   "needs_env": [
+    "KILO_API_KEY"
+   ],
+   "note": "真注册入口(curl 已验证)"
+  },
+  {
    "provider": "orcarouter",
    "name": "OrcaRouter",
    "free_count": 5,
@@ -800,24 +799,6 @@
     "LMSTUDIO_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
-  },
-  {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 3,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free",
-    "step-5-preview-free"
-   ],
-   "apply_url": "https://opencode.ai/docs/go",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "poe",
@@ -1046,6 +1027,20 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
+   "provider": "google",
+   "name": "google",
+   "free_count": 2,
+   "sample_models": [
+    "gemini-2.5-flash",
+    "gemini-2.5-pro"
+   ],
+   "apply_url": "https://aistudio.google.com/app/apikey",
+   "link_kind": "homepage",
+   "btn": "去官网",
+   "status": "live",
+   "note": "已收录,直接可看"
+  },
+  {
    "provider": "hetzner",
    "name": "Hetzner",
    "free_count": 2,
@@ -1128,6 +1123,23 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 2,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "space-bunny-free"
+   ],
+   "apply_url": "https://opencode.ai/docs/go",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "ovhcloud",
    "name": "OVHcloud AI Endpoints",
    "free_count": 2,
@@ -1176,6 +1188,19 @@
     "AMD_API_KEY"
    ],
    "note": "厂商官网(找注册/控制台入口)"
+  },
+  {
+   "provider": "groq",
+   "name": "groq",
+   "free_count": 1,
+   "sample_models": [
+    "llama-3.3-70b-versatile"
+   ],
+   "apply_url": "https://console.groq.com/keys",
+   "link_kind": "console",
+   "btn": "去控制台",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "huggingface",
@@ -1305,6 +1330,19 @@
     "MERGE_GATEWAY_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
+   "provider": "mistral",
+   "name": "mistral",
+   "free_count": 1,
+   "sample_models": [
+    "mistral-small-latest"
+   ],
+   "apply_url": "https://console.mistral.ai/signup",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "standardcompute",
