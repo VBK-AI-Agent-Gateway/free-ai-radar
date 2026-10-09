@@ -181,6 +181,8 @@ a{color:#58a6ff;text-decoration:none} a:hover{text-decoration:underline}
 .submitbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0 4px}
 .subbtn{background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;padding:9px 16px;border-radius:8px;font-size:14px}
 .subbtn:hover{background:#388bfd}
+.byokbtn{background:#21262d;border:1px solid #3fb950;color:#3fb950;box-shadow:none}
+.byokbtn:hover{background:#238636;color:#fff}
 .subhint{color:#8b949e;font-size:12px}
 #submsg{font-size:13px}
 #submsg.ok{color:#3fb950}
@@ -192,6 +194,7 @@ code{background:#21262d;padding:1px 5px;border-radius:4px}
 <div class="sub">Every fact carries a source &amp; fetched/probed time &middot; no evidence = unknown &middot; source of truth <code>providers/*.yaml</code> &middot; <span data-i18n="updated">updated</span> <span id="gents">__GEN__</span></div></header>
 <div class="hero">
   <a class="cta" id="regbtn" href="#catalog" data-reg="site" data-i18n="cta">&#127760; Browse free models from 74 vendors — click any model/vendor below to sign up</a>
+  <a class="cta byokbtn" id="byokbtn" target="_blank" rel="noopener" href="__BYOK_URL__">&#128273; Got your free KEY? Open console</a>
   <span class="ctahint"><span data-i18n="ctahint">Click "Get API key" on any model to upvote it</span> &middot; <span data-i18n="registered">registered</span> <b id="regcount">0</b></span>
 </div>
 <div class="submitbar">
@@ -578,6 +581,7 @@ document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState 
 </script></body></html>"""
 
 
+SITE_CONSOLE_URL = os.environ.get("RADAR_CONSOLE_URL", "http://5.189.129.216:8888/ops/byok.html")  # 隐藏登录+BYOK面板
 SITE_REGISTER_URL = os.environ.get("RADAR_REGISTER_URL", "https://openrouter.ai/")  # 注册领KEY落地页
 
 
@@ -612,7 +616,8 @@ def render_site(rows):
     _cat_s = json.dumps(_cat, ensure_ascii=False)
     _cat_s = _re.sub(r"[<>&]", lambda c: "\\u%04x" % ord(c.group()), _cat_s)
     out = out.replace("__CATALOG__", _cat_s)
-    out = out.replace("__REGISTER_URL__", html.escape(SITE_REGISTER_URL))
+    out = out.replace("__BYOK_URL__", html.escape(SITE_CONSOLE_URL))
+out = out.replace("__REGISTER_URL__", html.escape(SITE_REGISTER_URL))
     return out
 
 
