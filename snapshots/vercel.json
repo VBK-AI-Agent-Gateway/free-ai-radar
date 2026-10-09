@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T04:23:38Z",
+ "fetched_at": "2026-10-09T06:00:03Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "6b15f1858909b40b2259ac3fb9cb743b7b8f4c455dbe485de092135cbb9af036",
+ "hash": "c5e31cb80590c78f5c6a10c0d09f5221abac461b06b345c3886cf7f7e0e73eff",
  "payload": {
   "object": "list",
   "data": [
@@ -70,12 +70,11 @@
     "context_window": 262144,
     "max_tokens": 16384,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
-     "structured-output",
-     "reasoning"
+     "structured-output"
     ],
     "supported_specifications": [
      "v2",
@@ -96,26 +95,10 @@
      "stop",
      "tools",
      "tool_choice",
-     "reasoning",
-     "include_reasoning",
      "response_format",
      "structured_outputs"
     ],
     "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "toggle"
-     },
-     {
-      "type": "effort",
-      "values": [
-       "none",
-       "low",
-       "medium",
-       "high"
-      ]
-     }
-    ],
     "knowledge": "2025-04",
     "pricing": {
      "input": "0.00000022",
@@ -350,8 +333,8 @@
     "context_window": 131072,
     "max_tokens": 32768,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "vision",
      "reasoning",
@@ -393,8 +376,7 @@
     "knowledge": "2025-04",
     "pricing": {
      "input": "0.0000004",
-     "output": "0.000004",
-     "varies_by_provider": true
+     "output": "0.000004"
     }
    },
    {
@@ -408,12 +390,12 @@
     "context_window": 262144,
     "max_tokens": 65536,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
-     "structured-output",
-     "implicit-caching"
+     "implicit-caching",
+     "structured-output"
     ],
     "supported_specifications": [
      "v2",
@@ -505,8 +487,8 @@
     "context_window": 262144,
     "max_tokens": 8192,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
      "structured-output"
@@ -537,8 +519,7 @@
     "knowledge": "2025-04",
     "pricing": {
      "input": "0.00000015",
-     "output": "0.0000006",
-     "varies_by_provider": true
+     "output": "0.0000006"
     }
    },
    {
@@ -796,8 +777,8 @@
     "context_window": 262144,
     "max_tokens": 32768,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
      "implicit-caching",
@@ -894,8 +875,7 @@
        "cost": "0.0000006",
        "min": 128001
       }
-     ],
-     "varies_by_provider": true
+     ]
     }
    },
    {
@@ -1110,8 +1090,8 @@
     "context_window": 262114,
     "max_tokens": 262114,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
      "structured-output"
@@ -1259,13 +1239,12 @@
     "context_window": 131072,
     "max_tokens": 129024,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
      "vision",
-     "implicit-caching",
-     "structured-output"
+     "implicit-caching"
     ],
     "supported_specifications": [
      "v2",
@@ -1286,9 +1265,7 @@
      "temperature",
      "stop",
      "tools",
-     "tool_choice",
-     "response_format",
-     "structured_outputs"
+     "tool_choice"
     ],
     "temperature": true,
     "knowledge": "2025-04",
@@ -1309,8 +1286,8 @@
     "context_window": 131072,
     "max_tokens": 32768,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "vision",
      "reasoning",
@@ -1352,8 +1329,7 @@
     "knowledge": "2025-09",
     "pricing": {
      "input": "0.0000004",
-     "output": "0.000004",
-     "varies_by_provider": true
+     "output": "0.000004"
     }
    },
    {
@@ -15580,12 +15556,12 @@
     "released": 1721260800,
     "owned_by": "mistral",
     "name": "Mistral Nemo 12B",
-    "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA. The model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi. It supports function calling and is released under the Apache 2.0 license.",
-    "context_window": 60288,
-    "max_tokens": 16000,
+    "description": "12B model trained jointly by Mistral AI and NVIDIA, it significantly outperforms existing models smaller or similar in size.",
+    "context_window": 131072,
+    "max_tokens": 131072,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "tool-use",
      "structured-output"
@@ -15615,9 +15591,8 @@
     "temperature": true,
     "knowledge": "2024-04",
     "pricing": {
-     "input": "0.00000004",
-     "output": "0.00000017",
-     "varies_by_provider": true
+     "input": "0.000000019",
+     "output": "0.00000003"
     }
    },
    {
@@ -24272,8 +24247,8 @@
     "context_window": 131072,
     "max_tokens": 8192,
     "type": "language",
-    "zdr": "some",
-    "no_training": "some",
+    "zdr": "all",
+    "no_training": "all",
     "tags": [
      "reasoning",
      "tool-use",

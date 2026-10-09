@@ -3,28 +3,35 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "2dee87dbd498b9ac0bb1c59dd01eb689145a5dfc7401bbe8a08354f5a6b089db",
-  "new_hash": "82032f5c5c1a4b02e88be4b03b3a8af11895347d053ecefe169632233358c313"
+  "old_hash": "82032f5c5c1a4b02e88be4b03b3a8af11895347d053ecefe169632233358c313",
+  "new_hash": "2963764addc0f850442bb8264055d04cbf27d5f4056bcff69dcdebebdab185c7"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "aa88e4130d3250f716c2bda71d2c85ef74750f336720169220c2b2cc0210b15a",
-  "new_hash": "7188ccf374d690e92df65cf98a784f2b7431dd8b574709b233c2167fdb78bab5"
+  "old_hash": "7188ccf374d690e92df65cf98a784f2b7431dd8b574709b233c2167fdb78bab5",
+  "new_hash": "6abb6af805aeec2b27babaccb779e205d6d20f5ba99b8814727cffe58fdfa64f"
+ },
+ {
+  "provider": "vercel",
+  "url": "https://ai-gateway.vercel.sh/v1/models",
+  "type": "official_api",
+  "old_hash": "6b15f1858909b40b2259ac3fb9cb743b7b8f4c455dbe485de092135cbb9af036",
+  "new_hash": "c5e31cb80590c78f5c6a10c0d09f5221abac461b06b345c3886cf7f7e0e73eff"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "fd41866641aca2ee60f6d88545e627eb530628dfbfe54b7307e073c70ae61e6a",
-  "new_hash": "26dd06b13808fc030a7e75fdc0350a24cc22fc5942e961315856b6313fae44f1"
+  "old_hash": "26dd06b13808fc030a7e75fdc0350a24cc22fc5942e961315856b6313fae44f1",
+  "new_hash": "a9fc683488054d2b1c4b288c7d6e35113d0d7e554dae1965b1e75484b9c1906d"
  },
  {
   "provider": "requesty",
   "url": "https://router.requesty.ai/v1/models",
   "type": "official_api",
-  "old_hash": "6af9b375bd012b2030ba932dbf84f6018552b2e273bcb26e2d03d28adb02b761",
-  "new_hash": "66c903a3693245051d2e6594e3625c19cde94a32affea58ca4c090538009bdd5"
+  "old_hash": "66c903a3693245051d2e6594e3625c19cde94a32affea58ca4c090538009bdd5",
+  "new_hash": "1ec763408079c6f3843c27bc4b924f134821358aa563beab3441f62287bd50df"
  }
 ]
