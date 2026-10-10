@@ -3,35 +3,21 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "c0eece1f00d3021d7e69dd2e51228067ea55c82755034483f81bf49e8ed7c82c",
-  "new_hash": "8343d0deb5fafb3a2f3303e992a1f4d43fe308220072d40df44cb3446c2ae260"
+  "old_hash": "8343d0deb5fafb3a2f3303e992a1f4d43fe308220072d40df44cb3446c2ae260",
+  "new_hash": "4f83e2c38f9e174f760e425488a4e9f4029d0ac5c20ba1e66fb617261309f61c"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "f925328e02cf28ce11e3b702a727102facec22fb858a2626fcae347f195d9db5",
-  "new_hash": "fc962a7ebcee52cd8012c2d6273ca1908feffb3bacb4d4bca293c480bf9a6ee2"
- },
- {
-  "provider": "vercel",
-  "url": "https://ai-gateway.vercel.sh/v1/models",
-  "type": "official_api",
-  "old_hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400",
-  "new_hash": "6b52447c03dea4e0c9bb21f4c06aa6ba64de0e1ce06a5c7331bbcb4a56995899"
+  "old_hash": "fc962a7ebcee52cd8012c2d6273ca1908feffb3bacb4d4bca293c480bf9a6ee2",
+  "new_hash": "e55126928fc45bd56d010c457ad6e1a9a8787a0683ae33e0cb66c4d5a5f65d52"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "917c8f28d0fd437056a204beddb8646ed50ca2101640c5b82a86197d1827fd6e",
-  "new_hash": "b0432c9c425bdd541543e1370c56bbb7609617775fda941e0ae1b22971bec5ce"
- },
- {
-  "provider": "llmgateway",
-  "url": "https://api.llmgateway.io/v1/models",
-  "type": "official_api",
-  "old_hash": "950923fd958fbc4133f190a1bc0966cf9da676c4f9ac43389501380ce8c95050",
-  "new_hash": "d50a113b3909b511e887efd0bfee1b37d8a924a18046603c86db21d97a0f9d47"
+  "old_hash": "b0432c9c425bdd541543e1370c56bbb7609617775fda941e0ae1b22971bec5ce",
+  "new_hash": "830b3f8ceaf986b71745aa4941548ca69a08e21309ee1b324c4ce7cee8beff23"
  }
 ]
