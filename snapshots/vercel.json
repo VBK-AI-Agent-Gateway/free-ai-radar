@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T23:59:47Z",
+ "fetched_at": "2026-10-10T05:42:40Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400",
+ "hash": "6b52447c03dea4e0c9bb21f4c06aa6ba64de0e1ce06a5c7331bbcb4a56995899",
  "payload": {
   "object": "list",
   "data": [
@@ -11939,6 +11939,167 @@
        "resolution": "1080p",
        "audio": true,
        "cost_per_second": "0.08"
+      }
+     ]
+    }
+   },
+   {
+    "id": "heygen/heygen-video-1",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791504000,
+    "owned_by": "heygen",
+    "name": "HeyGen Video",
+    "description": "HeyGen Video generates 5–15 second clips with synchronized dialogue, ambience, and sound effects from text, a first-frame image, or image and video references. It supports 480p, 768p, 1080p, and 2K output. Reference mode charges for input video seconds plus output video seconds; image and audio references have no additional charge.",
+    "context_window": 0,
+    "max_tokens": 0,
+    "type": "video",
+    "zdr": "none",
+    "no_training": "none",
+    "tags": [
+     "vision",
+     "video-generation"
+    ],
+    "supported_specifications": [
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text",
+      "image"
+     ],
+     "output": [
+      "video"
+     ]
+    },
+    "video_capabilities": {
+     "supported_operations": [
+      "text-to-video",
+      "image-to-video",
+      "reference-to-video"
+     ],
+     "supported_resolutions": [
+      "480p",
+      "768p",
+      "1080p",
+      "2k"
+     ],
+     "supported_aspect_ratios": [
+      "21:9",
+      "16:9",
+      "4:3",
+      "1:1",
+      "3:4",
+      "9:16"
+     ],
+     "supported_durations_seconds": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "generate_audio": true,
+     "supported_fps": [
+      24
+     ],
+     "max_sample_count": 1,
+     "input_limits": {
+      "image": {
+       "max_count": 9,
+       "supported_sources": [
+        "url",
+        "base64",
+        "buffer"
+       ]
+      },
+      "video": {
+       "max_count": 3,
+       "max_file_size_mb": 16,
+       "supported_sources": [
+        "url",
+        "base64",
+        "buffer"
+       ],
+       "max_duration_seconds": 5
+      },
+      "audio": {
+       "supported_sources": [
+        "url",
+        "base64",
+        "buffer"
+       ]
+      }
+     }
+    },
+    "pricing": {
+     "video_duration_pricing": [
+      {
+       "resolution": "480p",
+       "mode": "text_to_video",
+       "cost_per_second": "0.01"
+      },
+      {
+       "resolution": "768p",
+       "mode": "text_to_video",
+       "cost_per_second": "0.015"
+      },
+      {
+       "resolution": "1080p",
+       "mode": "text_to_video",
+       "cost_per_second": "0.045"
+      },
+      {
+       "resolution": "2k",
+       "mode": "text_to_video",
+       "cost_per_second": "0.045"
+      },
+      {
+       "resolution": "480p",
+       "mode": "image_to_video",
+       "cost_per_second": "0.01"
+      },
+      {
+       "resolution": "768p",
+       "mode": "image_to_video",
+       "cost_per_second": "0.015"
+      },
+      {
+       "resolution": "1080p",
+       "mode": "image_to_video",
+       "cost_per_second": "0.045"
+      },
+      {
+       "resolution": "2k",
+       "mode": "image_to_video",
+       "cost_per_second": "0.045"
+      },
+      {
+       "resolution": "480p",
+       "mode": "reference_to_video",
+       "cost_per_second": "0.02"
+      },
+      {
+       "resolution": "768p",
+       "mode": "reference_to_video",
+       "cost_per_second": "0.03"
+      },
+      {
+       "resolution": "1080p",
+       "mode": "reference_to_video",
+       "cost_per_second": "0.09"
+      },
+      {
+       "resolution": "2k",
+       "mode": "reference_to_video",
+       "cost_per_second": "0.09"
       }
      ]
     }

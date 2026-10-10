@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T23:59:48Z",
+ "fetched_at": "2026-10-10T05:42:42Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "950923fd958fbc4133f190a1bc0966cf9da676c4f9ac43389501380ce8c95050",
+ "hash": "d50a113b3909b511e887efd0bfee1b37d8a924a18046603c86db21d97a0f9d47",
  "payload": {
   "data": [
    {
@@ -15042,7 +15042,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, reka-ai, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, reka-ai, consensusprotocol, gonka24",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15384,26 +15384,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "stability": "stable"
-     },
-     {
       "providerId": "reka-ai",
       "externalId": "deepseek4-flash",
       "pricing": {
@@ -15431,6 +15411,26 @@
        "max"
       ],
       "max_output": 131072,
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -15496,7 +15496,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, consensusprotocol, entrim, runware, scx-ai-gp, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, consensusprotocol, runware, scx-ai-gp, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15730,32 +15730,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "dsv41",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.00000055",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "max",
-       "xhigh"
-      ],
-      "stability": "stable"
-     },
-     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15779,6 +15753,32 @@
        "high",
        "medium",
        "low"
+      ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "dsv41",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.00000055",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "max",
+       "xhigh"
       ],
       "stability": "stable"
      },
@@ -19551,145 +19551,6 @@
     "free": false
    },
    {
-    "id": "qwen-omni-turbo",
-    "name": "Qwen Omni Turbo",
-    "display_name": "Qwen Omni Turbo",
-    "created": 1742947200,
-    "description": "qwen-omni-turbo provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-omni-turbo",
-      "pricing": {
-       "prompt": "0.2e-6",
-       "completion": "0.8e-6",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 8192
-     }
-    ],
-    "pricing": {
-     "prompt": "0.2e-6",
-     "completion": "0.8e-6",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 32768,
-    "max_output": 8192,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": true,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen3-coder-plus",
-    "name": "Qwen3 Coder Plus",
-    "display_name": "Qwen3 Coder Plus",
-    "created": 1758585600,
-    "description": "qwen3-coder-plus provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen3-coder-plus",
-      "pricing": {
-       "prompt": "1e-6",
-       "completion": "5e-6",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.2e-6",
-       "input_cache_write": "1.25e-6",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 66000
-     }
-    ],
-    "pricing": {
-     "prompt": "1e-6",
-     "completion": "5e-6",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0.2e-6",
-     "input_cache_write": "1.25e-6",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 1000000,
-    "max_output": 66000,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": true,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
     "id": "qwen3-235b-a22b-instruct-2507",
     "name": "Qwen3 235B A22B Instruct 2507",
     "display_name": "Qwen3 235B A22B Instruct 2507",
@@ -20676,7 +20537,7 @@
      "internal_reasoning": "0"
     },
     "context_length": 262144,
-    "max_output": 32800,
+    "max_output": 65536,
     "supported_parameters": [
      "temperature",
      "max_tokens",
@@ -21936,355 +21797,6 @@
     "free": false
    },
    {
-    "id": "qwen-image-plus",
-    "name": "Qwen Image Plus",
-    "display_name": "Qwen Image Plus",
-    "created": 1754265600,
-    "description": "qwen-image-plus provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image-plus",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.03",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.03",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen-image-max",
-    "name": "Qwen Image Max",
-    "display_name": "Qwen Image Max",
-    "created": 1754265600,
-    "description": "qwen-image-max provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image-max",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.075",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.075",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen-image",
-    "name": "Qwen Image",
-    "display_name": "Qwen Image",
-    "created": 1754265600,
-    "description": "qwen-image provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.035",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.035",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen-image-max-2025-12-30",
-    "name": "Qwen Image Max 2025-12-30",
-    "display_name": "Qwen Image Max 2025-12-30",
-    "created": 1767139200,
-    "description": "qwen-image-max-2025-12-30 provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image-max-2025-12-30",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.075",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.075",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen-coder-plus",
-    "name": "Qwen Coder Plus",
-    "display_name": "Qwen Coder Plus",
-    "created": 1726617600,
-    "description": "qwen-coder-plus provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-coder-plus",
-      "pricing": {
-       "prompt": "0.502e-6",
-       "completion": "1.004e-6",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 8192
-     }
-    ],
-    "pricing": {
-     "prompt": "0.502e-6",
-     "completion": "1.004e-6",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 131072,
-    "max_output": 8192,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": true,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
     "id": "qwen3-coder-flash",
     "name": "Qwen3 Coder Flash",
     "display_name": "Qwen3 Coder Flash",
@@ -22420,76 +21932,6 @@
     "json_output": true,
     "structured_outputs": false,
     "free": false
-   },
-   {
-    "id": "qwen3-vl-flash",
-    "name": "Qwen3 VL Flash",
-    "display_name": "Qwen3 VL Flash",
-    "created": 1760486400,
-    "description": "qwen3-vl-flash provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen3-vl-flash",
-      "pricing": {
-       "prompt": "0.05e-6",
-       "completion": "0.4e-6",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.01e-6",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 32768
-     }
-    ],
-    "pricing": {
-     "prompt": "0.05e-6",
-     "completion": "0.4e-6",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0.01e-6",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 262144,
-    "max_output": 32768,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": true,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
    },
    {
     "id": "qwen3-vl-235b-a22b-instruct",
@@ -22687,220 +22129,6 @@
     "json_output": false,
     "structured_outputs": false,
     "free": false
-   },
-   {
-    "id": "qwen-image-edit-plus",
-    "name": "Qwen Image Edit Plus",
-    "display_name": "Qwen Image Edit Plus",
-    "created": 1755561600,
-    "description": "qwen-image-edit-plus provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image-edit-plus",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.04",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": true,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.04",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen-image-edit-max",
-    "name": "Qwen Image Edit Max",
-    "display_name": "Qwen Image Edit Max",
-    "created": 1768521600,
-    "description": "qwen-image-edit-max provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text",
-      "image"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen-image-edit-max",
-      "pricing": {
-       "prompt": "0",
-       "completion": "0",
-       "image": "0",
-       "request": "0.08",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": false,
-      "vision": true,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 4096
-     }
-    ],
-    "pricing": {
-     "prompt": "0",
-     "completion": "0",
-     "image": "0",
-     "request": "0.08",
-     "input_cache_read": "0",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 2000,
-    "max_output": 4096,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
-   },
-   {
-    "id": "qwen3.6-max-preview",
-    "name": "Qwen3.6 Max Preview",
-    "display_name": "Qwen3.6 Max Preview",
-    "created": 1777420800,
-    "description": "qwen3.6-max-preview provided by alibaba",
-    "family": "alibaba",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "alibaba",
-      "externalId": "qwen3.6-max-preview",
-      "pricing": {
-       "prompt": "1.3e-6",
-       "completion": "7.8e-6",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.13e-6",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "max_output": 65536
-     }
-    ],
-    "pricing": {
-     "prompt": "1.3e-6",
-     "completion": "7.8e-6",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0.13e-6",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 262144,
-    "max_output": 65536,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "stop",
-     "stream",
-     "response_format",
-     "tools",
-     "reasoning_effort",
-     "reasoning"
-    ],
-    "json_output": true,
-    "structured_outputs": false,
-    "free": false,
-    "deactivated_at": "2026-10-10T00:00:00.000Z"
    },
    {
     "id": "qwen3.6-plus",

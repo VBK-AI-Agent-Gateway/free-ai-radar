@@ -3,28 +3,35 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "01de580c798301f187b6aa769ad169faf3be3722018516a69d2331d97263ac1e",
-  "new_hash": "c0eece1f00d3021d7e69dd2e51228067ea55c82755034483f81bf49e8ed7c82c"
+  "old_hash": "c0eece1f00d3021d7e69dd2e51228067ea55c82755034483f81bf49e8ed7c82c",
+  "new_hash": "8343d0deb5fafb3a2f3303e992a1f4d43fe308220072d40df44cb3446c2ae260"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "5201febf8a19b66ed1214ed2495879b3413535a53fe5b571d11fe06929a501c8",
-  "new_hash": "f925328e02cf28ce11e3b702a727102facec22fb858a2626fcae347f195d9db5"
+  "old_hash": "f925328e02cf28ce11e3b702a727102facec22fb858a2626fcae347f195d9db5",
+  "new_hash": "fc962a7ebcee52cd8012c2d6273ca1908feffb3bacb4d4bca293c480bf9a6ee2"
  },
  {
   "provider": "vercel",
   "url": "https://ai-gateway.vercel.sh/v1/models",
   "type": "official_api",
-  "old_hash": "9e09c0462392a4e7de983b2dbf545cd9584ca75af9010dfe2c4c7045c1ec52a7",
-  "new_hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400"
+  "old_hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400",
+  "new_hash": "6b52447c03dea4e0c9bb21f4c06aa6ba64de0e1ce06a5c7331bbcb4a56995899"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "cc8ebbc01c81729b7949d964bbb0557432966b2943267176718f9312efb8074c",
-  "new_hash": "917c8f28d0fd437056a204beddb8646ed50ca2101640c5b82a86197d1827fd6e"
+  "old_hash": "917c8f28d0fd437056a204beddb8646ed50ca2101640c5b82a86197d1827fd6e",
+  "new_hash": "b0432c9c425bdd541543e1370c56bbb7609617775fda941e0ae1b22971bec5ce"
+ },
+ {
+  "provider": "llmgateway",
+  "url": "https://api.llmgateway.io/v1/models",
+  "type": "official_api",
+  "old_hash": "950923fd958fbc4133f190a1bc0966cf9da676c4f9ac43389501380ce8c95050",
+  "new_hash": "d50a113b3909b511e887efd0bfee1b37d8a924a18046603c86db21d97a0f9d47"
  }
 ]
