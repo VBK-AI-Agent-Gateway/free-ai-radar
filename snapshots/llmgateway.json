@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-10T14:31:45Z",
+ "fetched_at": "2026-10-10T17:48:26Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "d50a113b3909b511e887efd0bfee1b37d8a924a18046603c86db21d97a0f9d47",
+ "hash": "7e18fdaea8cf2503ee08d36ddd9f89f92b8e85013f00e0ea8bac73d233ce824e",
  "payload": {
   "data": [
    {
@@ -6211,7 +6211,7 @@
        "completion": "10.0e-6",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.2e-6",
+       "input_cache_read": "0.1e-6",
        "input_cache_write": "2.5e-6",
        "input_cache_write_1h": "4.0e-6"
       },
@@ -6239,7 +6239,7 @@
        "completion": "10.0e-6",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.2e-6",
+       "input_cache_read": "0.1e-6",
        "input_cache_write": "2.5e-6",
        "input_cache_write_1h": "4.0e-6"
       },
@@ -6267,7 +6267,7 @@
        "completion": "10.0e-6",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.2e-6",
+       "input_cache_read": "0.1e-6",
        "input_cache_write": "2.5e-6",
        "input_cache_write_1h": "4.0e-6"
       },
@@ -6293,7 +6293,7 @@
      "completion": "10.0e-6",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.2e-6",
+     "input_cache_read": "0.1e-6",
      "input_cache_write": "2.5e-6",
      "input_cache_write_1h": "4.0e-6",
      "web_search": "0",
@@ -8690,7 +8690,8 @@
     ],
     "json_output": true,
     "structured_outputs": true,
-    "free": false
+    "free": false,
+    "deactivated_at": "2027-01-28T00:00:00.000Z"
    },
    {
     "id": "gemini-3.8-flash",
