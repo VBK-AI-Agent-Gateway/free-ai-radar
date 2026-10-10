@@ -3,35 +3,28 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "9d1d54befa689190283b3a3b8916658c1dc191c38545e97a0f50a290645daf4b",
-  "new_hash": "01de580c798301f187b6aa769ad169faf3be3722018516a69d2331d97263ac1e"
+  "old_hash": "01de580c798301f187b6aa769ad169faf3be3722018516a69d2331d97263ac1e",
+  "new_hash": "c0eece1f00d3021d7e69dd2e51228067ea55c82755034483f81bf49e8ed7c82c"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "fb0b528e587e15deb4c3aec8f00ec248ec49fc8a2e039ead9b6ec585064902b8",
-  "new_hash": "5201febf8a19b66ed1214ed2495879b3413535a53fe5b571d11fe06929a501c8"
+  "old_hash": "5201febf8a19b66ed1214ed2495879b3413535a53fe5b571d11fe06929a501c8",
+  "new_hash": "f925328e02cf28ce11e3b702a727102facec22fb858a2626fcae347f195d9db5"
  },
  {
   "provider": "vercel",
   "url": "https://ai-gateway.vercel.sh/v1/models",
   "type": "official_api",
-  "old_hash": "bd429dfea545bd49dd0c200f9131b2ad811d704c0d594a29b9dfa99d75161de0",
-  "new_hash": "9e09c0462392a4e7de983b2dbf545cd9584ca75af9010dfe2c4c7045c1ec52a7"
+  "old_hash": "9e09c0462392a4e7de983b2dbf545cd9584ca75af9010dfe2c4c7045c1ec52a7",
+  "new_hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "d26c9f67a81bfd379cc74ecb0f430d43af97df37b5ebb7089717d4e888e95b01",
-  "new_hash": "cc8ebbc01c81729b7949d964bbb0557432966b2943267176718f9312efb8074c"
- },
- {
-  "provider": "llmgateway",
-  "url": "https://api.llmgateway.io/v1/models",
-  "type": "official_api",
-  "old_hash": "483e2400b888e7b9f817cdfd975958de14af47981ee78ad7e078c80f19953142",
-  "new_hash": "950923fd958fbc4133f190a1bc0966cf9da676c4f9ac43389501380ce8c95050"
+  "old_hash": "cc8ebbc01c81729b7949d964bbb0557432966b2943267176718f9312efb8074c",
+  "new_hash": "917c8f28d0fd437056a204beddb8646ed50ca2101640c5b82a86197d1827fd6e"
  }
 ]

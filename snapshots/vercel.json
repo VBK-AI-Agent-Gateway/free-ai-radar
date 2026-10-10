@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-09T21:00:27Z",
+ "fetched_at": "2026-10-09T23:59:47Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "9e09c0462392a4e7de983b2dbf545cd9584ca75af9010dfe2c4c7045c1ec52a7",
+ "hash": "3f4acee4dbc5aa42dab6c88567d97bab69be51016409b80faf6a6f67ea6ff400",
  "payload": {
   "object": "list",
   "data": [
@@ -14394,6 +14394,35 @@
     "pricing": {
      "input": "0.000015",
      "speech_input_character_cost": "0.000015"
+    }
+   },
+   {
+    "id": "microsoft/microsoft-decision-1",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791504000,
+    "owned_by": "microsoft",
+    "name": "Decision-1",
+    "description": "Microsoft Decision-1 is a text decision model from Microsoft AI for classification, routing, and evaluation. It answers yes/no questions, selects among predefined options, and scores inputs against custom criteria, returning calibrated probabilities and confidence values. With support for multiple questions per request and a 32,768-token context window, it helps developers triage support requests, guide automated workflows, and evaluate AI responses against a rubric.",
+    "context_window": 32768,
+    "max_tokens": 0,
+    "type": "evaluation",
+    "zdr": "all",
+    "no_training": "all",
+    "supported_specifications": [
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "pricing": {
+     "input": "0.000000042",
+     "output": "0"
     }
    },
    {
