@@ -7,1208 +7,8 @@ signup:
   regions_blocked: unknown
   est_minutes: unknown
 pricing_url: https://deepinfra.com/pricing
-last_verified: '2026-10-10T20:10:33Z'
+last_verified: '2026-10-10T21:36:23Z'
 models:
-- id: nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
-  name: nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-3.1-flash-lite
-  name: google/gemini-3.1-flash-lite
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/nano-banana-2
-  name: google/nano-banana-2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Wan-AI/Wan2.6-T2V
-  name: Wan-AI/Wan2.6-T2V
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seedream-4
-  name: ByteDance/Seedream-4
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: nvidia/llama-nemotron-embed-vl-1b-v2
-  name: nvidia/llama-nemotron-embed-vl-1b-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seedance-1.5-Pro
-  name: ByteDance/Seedance-1.5-Pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-m3
-  name: BAAI/bge-m3
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: stabilityai/sdxl-turbo
-  name: stabilityai/sdxl-turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: intfloat/e5-base-v2
-  name: intfloat/e5-base-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: XiaomiMiMo/MiMo-V2.6-Flash
-  name: XiaomiMiMo/MiMo-V2.6-Flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen2.5-72B-Instruct
-  name: Qwen/Qwen2.5-72B-Instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-Next-80B-A3B-Instruct
-  name: Qwen/Qwen3-Next-80B-A3B-Instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: zai-org/GLM-4.7
-  name: zai-org/GLM-4.7
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-4-26B-A4B-it
-  name: google/gemma-4-26B-A4B-it
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.7-Max
-  name: Qwen/Qwen3.7-Max
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-Embedding-4B
-  name: Qwen/Qwen3-Embedding-4B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-4-31B-it-Ultra
-  name: google/gemma-4-31B-it-Ultra
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: thenlper/gte-large
-  name: thenlper/gte-large
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seed-2.0-code
-  name: ByteDance/Seed-2.0-code
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Pixverse/Pixverse-T2V
-  name: Pixverse/Pixverse-T2V
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: zai-org/GLM-5.3-Flash
-  name: zai-org/GLM-5.3-Flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/fibo_edit
-  name: Bria/fibo_edit
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-30B-A3B
-  name: Qwen/Qwen3-30B-A3B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-sonnet-5
-  name: anthropic/claude-sonnet-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo
-  name: Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-opus-4-7
-  name: anthropic/claude-opus-4-7
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-4-31B-it-turbo
-  name: google/gemma-4-31B-it-turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seed-1.8
-  name: ByteDance/Seed-1.8
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: NousResearch/Hermes-3-Llama-3.1-405B
-  name: NousResearch/Hermes-3-Llama-3.1-405B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-1-schnell
-  name: black-forest-labs/FLUX-1-schnell
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ResembleAI/chatterbox-multilingual
-  name: ResembleAI/chatterbox-multilingual
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/nano-banana-2-lite
-  name: google/nano-banana-2-lite
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-3.5-flash
-  name: google/gemini-3.5-flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.8-27B
-  name: Qwen/Qwen3.8-27B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V3.1
-  name: deepseek-ai/DeepSeek-V3.1
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: nvidia/Nemotron-Content-Safety-3.5
-  name: nvidia/Nemotron-Content-Safety-3.5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-2.5-pro
-  name: google/gemini-2.5-pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ibm-granite/granite-4.2-3b
-  name: ibm-granite/granite-4.2-3b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/expand
-  name: Bria/expand
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: bosonai/HiggsAudioV2.5
-  name: bosonai/HiggsAudioV2.5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/nano-banana-pro
-  name: google/nano-banana-pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-sonnet-5-5
-  name: anthropic/claude-sonnet-5-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ResembleAI/chatterbox-turbo
-  name: ResembleAI/chatterbox-turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/all-MiniLM-L12-v2
-  name: sentence-transformers/all-MiniLM-L12-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/clip-ViT-B-32-multilingual-v1
-  name: sentence-transformers/clip-ViT-B-32-multilingual-v1
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-2-dev
-  name: black-forest-labs/FLUX-2-dev
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: thenlper/gte-base
-  name: thenlper/gte-base
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Pixverse/Pixverse-T2V-HD
-  name: Pixverse/Pixverse-T2V-HD
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-TTS
-  name: Qwen/Qwen3-TTS
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
 - id: Wan-AI/Wan2.6-T2I
   name: Wan-AI/Wan2.6-T2I
   status: declared
@@ -1231,368 +31,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: inclusionAI/Ling-3.0-flash-VL
-  name: inclusionAI/Ling-3.0-flash-VL
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: XiaomiMiMo/MiMo-V2.5-tts
-  name: XiaomiMiMo/MiMo-V2.5-tts
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-2.5-flash
-  name: google/gemini-2.5-flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-opus-5-5
-  name: anthropic/claude-opus-5-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: zai-org/GLM-4.6
-  name: zai-org/GLM-4.6
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V3
-  name: deepseek-ai/DeepSeek-V3
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4-Pro
-  name: deepseek-ai/DeepSeek-V4-Pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seed-2.0-mini
-  name: ByteDance/Seed-2.0-mini
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-1-Redux-dev
-  name: black-forest-labs/FLUX-1-Redux-dev
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/erase_foreground
-  name: Bria/erase_foreground
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: NousResearch/Hermes-3-Llama-3.1-70B
-  name: NousResearch/Hermes-3-Llama-3.1-70B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
-  name: meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
-  name: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/fibo
-  name: Bria/fibo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/fibo-1.5
-  name: Bria/fibo-1.5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: sentence-transformers/clip-ViT-B-32
   name: sentence-transformers/clip-ViT-B-32
   status: declared
@@ -1615,2072 +55,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seedance-2.0
-  name: ByteDance/Seedance-2.0
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Wan-AI/Wan2.2-T2V-A14B
-  name: Wan-AI/Wan2.2-T2V-A14B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4-Flash-0731
-  name: deepseek-ai/DeepSeek-V4-Flash-0731
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: intfloat/e5-large-v2
-  name: intfloat/e5-large-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-llama/Llama-3.3-70B-Instruct-Turbo
-  name: meta-llama/Llama-3.3-70B-Instruct-Turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-2-klein-4b
-  name: black-forest-labs/FLUX-2-klein-4b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-sonnet-4-6
-  name: anthropic/claude-sonnet-4-6
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Gryphe/MythoMax-L2-13b
-  name: Gryphe/MythoMax-L2-13b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-2-max
-  name: black-forest-labs/FLUX-2-max
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-VL-30B-A3B-Instruct
-  name: Qwen/Qwen3-VL-30B-A3B-Instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-fable-5
-  name: anthropic/claude-fable-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: zai-org/GLM-5.3
-  name: zai-org/GLM-5.3
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Audio8/Audio8-TTS-Preview-0.6b
-  name: Audio8/Audio8-TTS-Preview-0.6b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/whisper-large-v3
-  name: openai/whisper-large-v3
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: inclusionAI/Ling-3.0-flash
-  name: inclusionAI/Ling-3.0-flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: inworld-ai/realtime-tts-1.5-max
-  name: inworld-ai/realtime-tts-1.5-max
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: hexgrad/Kokoro-82M
-  name: hexgrad/Kokoro-82M
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/Bria-3.2
-  name: Bria/Bria-3.2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ibm-granite/granite-4.2-30b
-  name: ibm-granite/granite-4.2-30b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-llama/Llama-4-Scout-17B-16E-Instruct
-  name: meta-llama/Llama-4-Scout-17B-16E-Instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/veo-3.1-fast
-  name: google/veo-3.1-fast
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-opus-4-8
-  name: anthropic/claude-opus-4-8
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Sao10K/L3.1-70B-Euryale-v2.2
-  name: Sao10K/L3.1-70B-Euryale-v2.2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B
-  name: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/gpt-oss-20b
-  name: openai/gpt-oss-20b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-ASR-0.6B
-  name: Qwen/Qwen3-ASR-0.6B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: intfloat/multilingual-e5-large
-  name: intfloat/multilingual-e5-large
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.6-27B
-  name: Qwen/Qwen3.6-27B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-2-pro
-  name: black-forest-labs/FLUX-2-pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/all-mpnet-base-v2
-  name: sentence-transformers/all-mpnet-base-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/paraphrase-MiniLM-L6-v2
-  name: sentence-transformers/paraphrase-MiniLM-L6-v2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: microsoft/phi-4
-  name: microsoft/phi-4
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/gpt-oss-120b-Turbo
-  name: openai/gpt-oss-120b-Turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: nvidia/NVIDIA-Nemotron-3.5-Lightning
-  name: nvidia/NVIDIA-Nemotron-3.5-Lightning
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-3.7-flash
-  name: google/gemini-3.7-flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-3-12b-it
-  name: google/gemma-3-12b-it
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-llama/Llama-Guard-4-12B
-  name: meta-llama/Llama-Guard-4-12B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-14B
-  name: Qwen/Qwen3-14B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.5-9B
-  name: Qwen/Qwen3.5-9B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.5-35B-A3B
-  name: Qwen/Qwen3.5-35B-A3B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: moonshotai/Kimi-K2.6
-  name: moonshotai/Kimi-K2.6
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-3.1-pro
-  name: google/gemini-3.1-pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sesame/csm-1b
-  name: sesame/csm-1b
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-1-dev
-  name: black-forest-labs/FLUX-1-dev
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemini-3-pro-image
-  name: google/gemini-3-pro-image
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V3.2
-  name: deepseek-ai/DeepSeek-V3.2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: PrunaAI/p-video
-  name: PrunaAI/p-video
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.8-Max
-  name: Qwen/Qwen3.8-Max
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: PrunaAI/p-image
-  name: PrunaAI/p-image
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/Bria-3.2-vector
-  name: Bria/Bria-3.2-vector
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: inworld-ai/realtime-tts-2
-  name: inworld-ai/realtime-tts-2
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-haiku-4-5
-  name: anthropic/claude-haiku-4-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: mistralai/Mistral-Nemo-Instruct-2407
-  name: mistralai/Mistral-Nemo-Instruct-2407
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: XiaomiMiMo/MiMo-V2.6-Pro
-  name: XiaomiMiMo/MiMo-V2.6-Pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.5-27B
-  name: Qwen/Qwen3.5-27B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-en-icl
-  name: BAAI/bge-en-icl
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
-  name: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-R1-0528
-  name: deepseek-ai/DeepSeek-R1-0528
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/blur_background
-  name: Bria/blur_background
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-3-4b-it
-  name: google/gemma-3-4b-it
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-m3-multi
-  name: BAAI/bge-m3-multi
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: thinkingmachines/Inkling
-  name: thinkingmachines/Inkling
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.8-Flash
-  name: Qwen/Qwen3.8-Flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: MiniMaxAI/MiniMax-M3
-  name: MiniMaxAI/MiniMax-M3
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-1.1-pro
-  name: black-forest-labs/FLUX-1.1-pro
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/gpt-oss-120b-Ultra
-  name: openai/gpt-oss-120b-Ultra
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-ASR-1.7B
-  name: Qwen/Qwen3-ASR-1.7B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-Embedding-8B
-  name: Qwen/Qwen3-Embedding-8B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: intfloat/multilingual-e5-large-instruct
-  name: intfloat/multilingual-e5-large-instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: mistralai/Mistral-Small-3.2-24B-Instruct-2506
-  name: mistralai/Mistral-Small-3.2-24B-Instruct-2506
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-large-en-v1.5
-  name: BAAI/bge-large-en-v1.5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen-Image-Max
-  name: Qwen/Qwen-Image-Max
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/veo-3.1
-  name: google/veo-3.1
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-4-31B-it
-  name: google/gemma-4-31B-it
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/whisper-large-v3-turbo
-  name: openai/whisper-large-v3-turbo
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4.1-Flash
-  name: deepseek-ai/DeepSeek-V4.1-Flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-TTS-VoiceDesign
-  name: Qwen/Qwen3-TTS-VoiceDesign
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: anthropic/claude-opus-5
-  name: anthropic/claude-opus-5
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4-Flash
-  name: deepseek-ai/DeepSeek-V4-Flash
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: mistralai/Mistral-Small-24B-Instruct-2501
-  name: mistralai/Mistral-Small-24B-Instruct-2501
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: tencent/Hy4-preview
-  name: tencent/Hy4-preview
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B
-  name: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: mistralai/Voxtral-Mini-3B-2507
-  name: mistralai/Voxtral-Mini-3B-2507
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-VL-235B-A22B-Instruct
-  name: Qwen/Qwen3-VL-235B-A22B-Instruct
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: deepseek-ai/DeepSeek-V4-Pro-0813
-  name: deepseek-ai/DeepSeek-V4-Pro-0813
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: mistralai/Voxtral-Small-24B-2507
-  name: mistralai/Voxtral-Small-24B-2507
-  status: declared
-  free: null
-  free_type: unknown
-  description: null
-  capabilities:
-    context_length: null
-    max_output_tokens: null
-    input_modalities: []
-    modality: null
-    image_input: null
-    reasoning: null
-    tools: null
-    json_mode: null
-  terms:
-    input_per_million: null
-    output_per_million: null
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: moonshotai/Kimi-K3
   name: moonshotai/Kimi-K3
   status: declared
@@ -3703,10 +79,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-235B-A22B-Instruct-2507
-  name: Qwen/Qwen3-235B-A22B-Instruct-2507
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-4-26B-A4B-it
+  name: google/gemma-4-26B-A4B-it
   status: declared
   free: null
   free_type: unknown
@@ -3727,10 +103,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.6-35B-A3B
-  name: Qwen/Qwen3.6-35B-A3B
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/NVIDIA-Nemotron-3.5-Lightning
+  name: nvidia/NVIDIA-Nemotron-3.5-Lightning
   status: declared
   free: null
   free_type: unknown
@@ -3751,10 +127,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: ByteDance/Seed-2.0-pro
-  name: ByteDance/Seed-2.0-pro
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-1-schnell
+  name: black-forest-labs/FLUX-1-schnell
   status: declared
   free: null
   free_type: unknown
@@ -3775,10 +151,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/gemma-3-27b-it
-  name: google/gemma-3-27b-it
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: thenlper/gte-base
+  name: thenlper/gte-base
   status: declared
   free: null
   free_type: unknown
@@ -3799,10 +175,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-Embedding-0.6B
-  name: Qwen/Qwen3-Embedding-0.6B
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-en-icl
+  name: BAAI/bge-en-icl
   status: declared
   free: null
   free_type: unknown
@@ -3823,10 +199,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/fibo_edit-1.5
-  name: Bria/fibo_edit-1.5
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: bosonai/HiggsAudioV2.5
+  name: bosonai/HiggsAudioV2.5
   status: declared
   free: null
   free_type: unknown
@@ -3847,10 +223,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: google/embeddinggemma-300m
-  name: google/embeddinggemma-300m
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-1.1-pro
+  name: black-forest-labs/FLUX-1.1-pro
   status: declared
   free: null
   free_type: unknown
@@ -3871,10 +247,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/all-MiniLM-L6-v2
-  name: sentence-transformers/all-MiniLM-L6-v2
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.8-Max
+  name: Qwen/Qwen3.8-Max
   status: declared
   free: null
   free_type: unknown
@@ -3895,10 +271,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-m3-multi-8k
-  name: BAAI/bge-m3-multi-8k
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seedream-4
+  name: ByteDance/Seedream-4
   status: declared
   free: null
   free_type: unknown
@@ -3919,10 +295,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: thinkingmachines/Inkling-Small
-  name: thinkingmachines/Inkling-Small
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-4-31B-it
+  name: google/gemma-4-31B-it
   status: declared
   free: null
   free_type: unknown
@@ -3943,10 +319,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3.5-397B-A17B
-  name: Qwen/Qwen3.5-397B-A17B
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/whisper-large-v3-turbo
+  name: openai/whisper-large-v3-turbo
   status: declared
   free: null
   free_type: unknown
@@ -3967,10 +343,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: black-forest-labs/FLUX-2-klein-9b
-  name: black-forest-labs/FLUX-2-klein-9b
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-Embedding-4B
+  name: Qwen/Qwen3-Embedding-4B
   status: declared
   free: null
   free_type: unknown
@@ -3991,10 +367,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: meta-models/Muse-Glimmer-30B
-  name: meta-models/Muse-Glimmer-30B
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4-Pro-0813
+  name: deepseek-ai/DeepSeek-V4-Pro-0813
   status: declared
   free: null
   free_type: unknown
@@ -4015,10 +391,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: openai/gpt-oss-120b
-  name: openai/gpt-oss-120b
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-llama/Llama-Guard-4-12B
+  name: meta-llama/Llama-Guard-4-12B
   status: declared
   free: null
   free_type: unknown
@@ -4039,10 +415,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: zai-org/GLM-5.2
-  name: zai-org/GLM-5.2
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-ASR-1.7B
+  name: Qwen/Qwen3-ASR-1.7B
   status: declared
   free: null
   free_type: unknown
@@ -4063,10 +439,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Bria/remove_background
-  name: Bria/remove_background
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.5-27B
+  name: Qwen/Qwen3.5-27B
   status: declared
   free: null
   free_type: unknown
@@ -4087,10 +463,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: inworld-ai/realtime-tts-1.5-mini
-  name: inworld-ai/realtime-tts-1.5-mini
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4-Flash-0731
+  name: deepseek-ai/DeepSeek-V4-Flash-0731
   status: declared
   free: null
   free_type: unknown
@@ -4111,8 +487,56 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: stabilityai/sdxl-turbo
+  name: stabilityai/sdxl-turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: thinkingmachines/Inkling
+  name: thinkingmachines/Inkling
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: ibm-granite/granite-4.2-8b
   name: ibm-granite/granite-4.2-8b
   status: declared
@@ -4135,8 +559,368 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-ASR-0.6B
+  name: Qwen/Qwen3-ASR-0.6B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  name: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-2.5-flash
+  name: google/gemini-2.5-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/all-mpnet-base-v2
+  name: sentence-transformers/all-mpnet-base-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-3.1-pro
+  name: google/gemini-3.1-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: PrunaAI/p-image
+  name: PrunaAI/p-image
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-235B-A22B-Instruct-2507
+  name: Qwen/Qwen3-235B-A22B-Instruct-2507
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/llama-nemotron-embed-vl-1b-v2
+  name: nvidia/llama-nemotron-embed-vl-1b-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-Embedding-8B
+  name: Qwen/Qwen3-Embedding-8B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/blur_background
+  name: Bria/blur_background
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-VL-235B-A22B-Instruct
+  name: Qwen/Qwen3-VL-235B-A22B-Instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.5-35B-A3B
+  name: Qwen/Qwen3.5-35B-A3B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/nano-banana-2
+  name: google/nano-banana-2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.5-9B
+  name: Qwen/Qwen3.5-9B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.6-27B
+  name: Qwen/Qwen3.6-27B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: XiaomiMiMo/MiMo-V2.5-tts-voicedesign
   name: XiaomiMiMo/MiMo-V2.5-tts-voicedesign
   status: declared
@@ -4159,10 +943,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: shibing624/text2vec-base-chinese
-  name: shibing624/text2vec-base-chinese
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: XiaomiMiMo/MiMo-V2.6-Flash
+  name: XiaomiMiMo/MiMo-V2.6-Flash
   status: declared
   free: null
   free_type: unknown
@@ -4183,10 +967,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: sentence-transformers/multi-qa-mpnet-base-dot-v1
-  name: sentence-transformers/multi-qa-mpnet-base-dot-v1
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/fibo-1.5
+  name: Bria/fibo-1.5
   status: declared
   free: null
   free_type: unknown
@@ -4207,8 +991,1304 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
+  name: meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seedance-2.0
+  name: ByteDance/Seedance-2.0
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/erase_foreground
+  name: Bria/erase_foreground
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4-Pro
+  name: deepseek-ai/DeepSeek-V4-Pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seedance-1.5-Pro
+  name: ByteDance/Seedance-1.5-Pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/nano-banana-2-lite
+  name: google/nano-banana-2-lite
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: microsoft/phi-4
+  name: microsoft/phi-4
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: mistralai/Mistral-Nemo-Instruct-2407
+  name: mistralai/Mistral-Nemo-Instruct-2407
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Sao10K/L3.1-70B-Euryale-v2.2
+  name: Sao10K/L3.1-70B-Euryale-v2.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Audio8/Audio8-TTS-Preview-0.6b
+  name: Audio8/Audio8-TTS-Preview-0.6b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/fibo
+  name: Bria/fibo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Wan-AI/Wan2.6-T2V
+  name: Wan-AI/Wan2.6-T2V
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-3-pro-image
+  name: google/gemini-3-pro-image
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-3-12b-it
+  name: google/gemma-3-12b-it
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ibm-granite/granite-4.2-3b
+  name: ibm-granite/granite-4.2-3b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.8-Flash
+  name: Qwen/Qwen3.8-Flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4.1-Flash
+  name: deepseek-ai/DeepSeek-V4.1-Flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/fibo_edit-1.5
+  name: Bria/fibo_edit-1.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-m3-multi-8k
+  name: BAAI/bge-m3-multi-8k
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: PrunaAI/p-video
+  name: PrunaAI/p-video
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: MiniMaxAI/MiniMax-M3
+  name: MiniMaxAI/MiniMax-M3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/expand
+  name: Bria/expand
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: thinkingmachines/Inkling-Small
+  name: thinkingmachines/Inkling-Small
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/gpt-oss-120b-Turbo
+  name: openai/gpt-oss-120b-Turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-opus-4-8
+  name: anthropic/claude-opus-4-8
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: NousResearch/Hermes-3-Llama-3.1-405B
+  name: NousResearch/Hermes-3-Llama-3.1-405B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-3-27b-it
+  name: google/gemma-3-27b-it
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/Nemotron-Content-Safety-3.5
+  name: nvidia/Nemotron-Content-Safety-3.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: tencent/Hy4-preview
+  name: tencent/Hy4-preview
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: inclusionAI/Ling-3.0-flash
+  name: inclusionAI/Ling-3.0-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-opus-5
+  name: anthropic/claude-opus-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seed-1.8
+  name: ByteDance/Seed-1.8
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-4-31B-it-Ultra
+  name: google/gemma-4-31B-it-Ultra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/veo-3.1
+  name: google/veo-3.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ResembleAI/chatterbox-turbo
+  name: ResembleAI/chatterbox-turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Wan-AI/Wan2.2-T2V-A14B
+  name: Wan-AI/Wan2.2-T2V-A14B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: mistralai/Voxtral-Mini-3B-2507
+  name: mistralai/Voxtral-Mini-3B-2507
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-30B-A3B
+  name: Qwen/Qwen3-30B-A3B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Pixverse/Pixverse-T2V
+  name: Pixverse/Pixverse-T2V
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/gpt-oss-120b
+  name: openai/gpt-oss-120b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo
+  name: Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: XiaomiMiMo/MiMo-V2.6-Pro
+  name: XiaomiMiMo/MiMo-V2.6-Pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-opus-5-5
+  name: anthropic/claude-opus-5-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/veo-3.1-fast
+  name: google/veo-3.1-fast
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Pixverse/Pixverse-T2V-HD
+  name: Pixverse/Pixverse-T2V-HD
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-2-klein-4b
+  name: black-forest-labs/FLUX-2-klein-4b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-3.5-flash
+  name: google/gemini-3.5-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/whisper-large-v3
+  name: openai/whisper-large-v3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: XiaomiMiMo/MiMo-V2.5-tts
+  name: XiaomiMiMo/MiMo-V2.5-tts
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: hexgrad/Kokoro-82M
+  name: hexgrad/Kokoro-82M
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V3
+  name: deepseek-ai/DeepSeek-V3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/gpt-oss-120b-Ultra
+  name: openai/gpt-oss-120b-Ultra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+  name: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: moonshotai/Kimi-K2.6
+  name: moonshotai/Kimi-K2.6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: Sao10K/L3-8B-Lunaris-v1-Turbo
   name: Sao10K/L3-8B-Lunaris-v1-Turbo
   status: declared
@@ -4231,10 +2311,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: BAAI/bge-base-en-v1.5
-  name: BAAI/bge-base-en-v1.5
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seed-2.0-mini
+  name: ByteDance/Seed-2.0-mini
   status: declared
   free: null
   free_type: unknown
@@ -4255,10 +2335,10 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
-- id: Qwen/Qwen3-32B
-  name: Qwen/Qwen3-32B
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: intfloat/e5-base-v2
+  name: intfloat/e5-base-v2
   status: declared
   free: null
   free_type: unknown
@@ -4279,8 +2359,128 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: intfloat/multilingual-e5-large
+  name: intfloat/multilingual-e5-large
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/multi-qa-mpnet-base-dot-v1
+  name: sentence-transformers/multi-qa-mpnet-base-dot-v1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-2-max
+  name: black-forest-labs/FLUX-2-max
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/remove_background
+  name: Bria/remove_background
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen2.5-72B-Instruct
+  name: Qwen/Qwen2.5-72B-Instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
 - id: Pixverse/Pixverse-6-T2V
   name: Pixverse/Pixverse-6-T2V
   status: declared
@@ -4303,5 +2503,1805 @@ models:
   evidence:
   - kind: official_api
     url: https://api.deepinfra.com/v1/openai/models
-    at: '2026-10-10T20:10:32Z'
-  last_verified: '2026-10-10T20:10:32Z'
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-sonnet-4-6
+  name: anthropic/claude-sonnet-4-6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seed-2.0-pro
+  name: ByteDance/Seed-2.0-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
+  name: nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.8-27B
+  name: Qwen/Qwen3.8-27B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: zai-org/GLM-5.3
+  name: zai-org/GLM-5.3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: mistralai/Mistral-Small-24B-Instruct-2501
+  name: mistralai/Mistral-Small-24B-Instruct-2501
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/Bria-3.2
+  name: Bria/Bria-3.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.7-Max
+  name: Qwen/Qwen3.7-Max
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-TTS
+  name: Qwen/Qwen3-TTS
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-opus-4-7
+  name: anthropic/claude-opus-4-7
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: NousResearch/Hermes-3-Llama-3.1-70B
+  name: NousResearch/Hermes-3-Llama-3.1-70B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: inclusionAI/Ling-3.0-flash-VL
+  name: inclusionAI/Ling-3.0-flash-VL
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-models/Muse-Glimmer-30B
+  name: meta-models/Muse-Glimmer-30B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-base-en-v1.5
+  name: BAAI/bge-base-en-v1.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B
+  name: nvidia/NVIDIA-Nemotron-3-Super-120B-A12B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-1-Redux-dev
+  name: black-forest-labs/FLUX-1-Redux-dev
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ByteDance/Seed-2.0-code
+  name: ByteDance/Seed-2.0-code
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: inworld-ai/realtime-tts-2
+  name: inworld-ai/realtime-tts-2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.6-35B-A3B
+  name: Qwen/Qwen3.6-35B-A3B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ibm-granite/granite-4.2-30b
+  name: ibm-granite/granite-4.2-30b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: mistralai/Voxtral-Small-24B-2507
+  name: mistralai/Voxtral-Small-24B-2507
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-R1-0528
+  name: deepseek-ai/DeepSeek-R1-0528
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+  name: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: intfloat/e5-large-v2
+  name: intfloat/e5-large-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-2-pro
+  name: black-forest-labs/FLUX-2-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: zai-org/GLM-4.7
+  name: zai-org/GLM-4.7
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-m3-multi
+  name: BAAI/bge-m3-multi
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-4-31B-it-turbo
+  name: google/gemma-4-31B-it-turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/embeddinggemma-300m
+  name: google/embeddinggemma-300m
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B
+  name: nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-32B
+  name: Qwen/Qwen3-32B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: inworld-ai/realtime-tts-1.5-mini
+  name: inworld-ai/realtime-tts-1.5-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: zai-org/GLM-5.2
+  name: zai-org/GLM-5.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sesame/csm-1b
+  name: sesame/csm-1b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/all-MiniLM-L6-v2
+  name: sentence-transformers/all-MiniLM-L6-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-3.7-flash
+  name: google/gemini-3.7-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Gryphe/MythoMax-L2-13b
+  name: Gryphe/MythoMax-L2-13b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: thenlper/gte-large
+  name: thenlper/gte-large
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V3.1
+  name: deepseek-ai/DeepSeek-V3.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-2-klein-9b
+  name: black-forest-labs/FLUX-2-klein-9b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3.5-397B-A17B
+  name: Qwen/Qwen3.5-397B-A17B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/clip-ViT-B-32-multilingual-v1
+  name: sentence-transformers/clip-ViT-B-32-multilingual-v1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-large-en-v1.5
+  name: BAAI/bge-large-en-v1.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-sonnet-5-5
+  name: anthropic/claude-sonnet-5-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: intfloat/multilingual-e5-large-instruct
+  name: intfloat/multilingual-e5-large-instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/nano-banana-pro
+  name: google/nano-banana-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: inworld-ai/realtime-tts-1.5-max
+  name: inworld-ai/realtime-tts-1.5-max
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-haiku-4-5
+  name: anthropic/claude-haiku-4-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: ResembleAI/chatterbox-multilingual
+  name: ResembleAI/chatterbox-multilingual
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-fable-5
+  name: anthropic/claude-fable-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-Next-80B-A3B-Instruct
+  name: Qwen/Qwen3-Next-80B-A3B-Instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: openai/gpt-oss-20b
+  name: openai/gpt-oss-20b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-1-dev
+  name: black-forest-labs/FLUX-1-dev
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: zai-org/GLM-4.6
+  name: zai-org/GLM-4.6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-TTS-VoiceDesign
+  name: Qwen/Qwen3-TTS-VoiceDesign
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: BAAI/bge-m3
+  name: BAAI/bge-m3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: meta-llama/Llama-4-Scout-17B-16E-Instruct
+  name: meta-llama/Llama-4-Scout-17B-16E-Instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/fibo_edit
+  name: Bria/fibo_edit
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/all-MiniLM-L12-v2
+  name: sentence-transformers/all-MiniLM-L12-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: mistralai/Mistral-Small-3.2-24B-Instruct-2506
+  name: mistralai/Mistral-Small-3.2-24B-Instruct-2506
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen-Image-Max
+  name: Qwen/Qwen-Image-Max
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: zai-org/GLM-5.3-Flash
+  name: zai-org/GLM-5.3-Flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-VL-30B-A3B-Instruct
+  name: Qwen/Qwen3-VL-30B-A3B-Instruct
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemma-3-4b-it
+  name: google/gemma-3-4b-it
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V3.2
+  name: deepseek-ai/DeepSeek-V3.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: anthropic/claude-sonnet-5
+  name: anthropic/claude-sonnet-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: shibing624/text2vec-base-chinese
+  name: shibing624/text2vec-base-chinese
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-14B
+  name: Qwen/Qwen3-14B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: sentence-transformers/paraphrase-MiniLM-L6-v2
+  name: sentence-transformers/paraphrase-MiniLM-L6-v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: black-forest-labs/FLUX-2-dev
+  name: black-forest-labs/FLUX-2-dev
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: deepseek-ai/DeepSeek-V4-Flash
+  name: deepseek-ai/DeepSeek-V4-Flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Bria/Bria-3.2-vector
+  name: Bria/Bria-3.2-vector
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-2.5-pro
+  name: google/gemini-2.5-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: Qwen/Qwen3-Embedding-0.6B
+  name: Qwen/Qwen3-Embedding-0.6B
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
+- id: google/gemini-3.1-flash-lite
+  name: google/gemini-3.1-flash-lite
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.deepinfra.com/v1/openai/models
+    at: '2026-10-10T21:36:23Z'
+  last_verified: '2026-10-10T21:36:23Z'
