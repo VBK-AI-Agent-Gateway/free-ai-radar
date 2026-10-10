@@ -35,8 +35,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-haiku-5.5
   name: 'Anthropic: Claude Haiku 5.5'
   status: declared
@@ -64,8 +64,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-haiku-5.5:batch
   name: 'Anthropic: Claude Haiku 5.5 (batch)'
   status: declared
@@ -93,8 +93,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-nano-banana-2.1
   name: 'Google: Nano Banana 2.1'
   status: declared
@@ -121,8 +121,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-large-4-0
   name: 'Mistral: Mistral Large 4'
   status: declared
@@ -149,8 +149,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inclusionai/ling-3.1-flash
   name: 'inclusionAI: Ling 3.1 Flash'
   status: declared
@@ -175,8 +175,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: apodex/apodex-1.1-mini:free
   name: 'Apodex: Apodex 1.1 Mini (free)'
   status: declared
@@ -202,8 +202,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: unbiased/pareto-26.10-preview
   name: Pareto 26.10 Preview
   status: declared
@@ -230,8 +230,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6.1-sol-pro
   name: 'OpenAI: GPT-6.1 Sol Pro'
   status: declared
@@ -259,8 +259,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6.1-sol-pro:batch
   name: 'OpenAI: GPT-6.1 Sol Pro (batch)'
   status: declared
@@ -288,8 +288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6.1-sol
   name: 'OpenAI: GPT-6.1 Sol'
   status: declared
@@ -317,8 +317,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6.1-sol:batch
   name: 'OpenAI: GPT-6.1 Sol (batch)'
   status: declared
@@ -346,8 +346,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-5.5
   name: 'Anthropic: Claude Sonnet 5.5'
   status: declared
@@ -375,8 +375,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-5.5:batch
   name: 'Anthropic: Claude Sonnet 5.5 (batch)'
   status: declared
@@ -404,8 +404,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: typesafe/jev-router
   name: 'TypeSafe: Jev Router'
   status: declared
@@ -435,8 +435,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perceptron/perceptron-mk1.5
   name: 'Perceptron: Perceptron Mk1.5'
   status: declared
@@ -465,8 +465,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: fireworks/ember-1
   name: 'Fireworks: Ember-1'
   status: declared
@@ -494,8 +494,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3-prime
   name: 'Z.ai: GLM 5.3 Prime'
   status: declared
@@ -521,8 +521,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-max-prime
   name: 'Qwen: Qwen3.8 Max Prime'
   status: declared
@@ -550,8 +550,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-3.5-mini
   name: 'AionLabs: Aion 3.5 Mini'
   status: declared
@@ -577,8 +577,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-3.5
   name: 'AionLabs: Aion 3.5'
   status: declared
@@ -604,8 +604,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: upstage/solar-mini4
   name: 'Upstage: Solar Mini 4'
   status: declared
@@ -631,8 +631,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/command-a-plus
   name: 'Cohere: Command A+'
   status: declared
@@ -659,8 +659,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-luna-pro
   name: 'OpenAI: GPT-6 Luna Pro'
   status: declared
@@ -688,8 +688,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-luna-pro:batch
   name: 'OpenAI: GPT-6 Luna Pro (batch)'
   status: declared
@@ -717,8 +717,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-luna
   name: 'OpenAI: GPT-6 Luna'
   status: declared
@@ -746,8 +746,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-luna:batch
   name: 'OpenAI: GPT-6 Luna (batch)'
   status: declared
@@ -775,8 +775,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-sol-pro
   name: 'OpenAI: GPT-6 Sol Pro'
   status: declared
@@ -804,8 +804,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-sol-pro:batch
   name: 'OpenAI: GPT-6 Sol Pro (batch)'
   status: declared
@@ -833,8 +833,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-sol
   name: 'OpenAI: GPT-6 Sol'
   status: declared
@@ -862,8 +862,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-sol:batch
   name: 'OpenAI: GPT-6 Sol (batch)'
   status: declared
@@ -891,8 +891,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-5.5
   name: 'Anthropic: Claude Opus 5.5'
   status: declared
@@ -920,8 +920,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-5.5:batch
   name: 'Anthropic: Claude Opus 5.5 (batch)'
   status: declared
@@ -949,8 +949,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/switchyard
   name: 'NVIDIA: Switchyard'
   status: declared
@@ -976,8 +976,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: xiaomi/mimo-v2.6-pro-ultraspeed
   name: 'Xiaomi: MiMo-V2.6-Pro-UltraSpeed'
   status: declared
@@ -1006,8 +1006,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: xiaomi/mimo-v2.6-flash
   name: 'Xiaomi: MiMo-V2.6-Flash'
   status: declared
@@ -1036,8 +1036,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: xiaomi/mimo-v2.6-pro
   name: 'Xiaomi: MiMo-V2.6-Pro'
   status: declared
@@ -1066,8 +1066,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.7
   name: 'SpaceXAI: Grok 4.7'
   status: declared
@@ -1095,8 +1095,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-omni-flash
   name: 'Qwen: Qwen3.8 Omni Flash'
   status: declared
@@ -1125,8 +1125,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: prism-ml/ternary-bonsai-2-27b
   name: 'PrismML: Ternary Bonsai 2 27B'
   status: declared
@@ -1153,8 +1153,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3-flashx
   name: 'Z.ai: GLM 5.3 FlashX'
   status: declared
@@ -1182,8 +1182,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: unbiased/pareto
   name: Pareto
   status: declared
@@ -1210,8 +1210,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~deepseek/deepseek-pro-latest
   name: 'DeepSeek: DeepSeek Pro Latest'
   status: declared
@@ -1236,8 +1236,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~deepseek/deepseek-flash-latest
   name: 'DeepSeek: DeepSeek Flash Latest'
   status: declared
@@ -1263,8 +1263,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inference-net/schematron-v2-turbo
   name: 'Inference.net: Schematron V2 Turbo'
   status: declared
@@ -1291,8 +1291,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inference-net/schematron-v2-small
   name: 'Inference.net: Schematron V2 Small'
   status: declared
@@ -1318,8 +1318,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~openai/gpt-astra-latest
   name: 'OpenAI: GPT Astra Latest'
   status: declared
@@ -1345,8 +1345,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~openai/gpt-sol-latest
   name: 'OpenAI: GPT Sol Latest'
   status: declared
@@ -1372,8 +1372,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~openai/gpt-terra-latest
   name: 'OpenAI: GPT Terra Latest'
   status: declared
@@ -1399,8 +1399,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~openai/gpt-luna-latest
   name: 'OpenAI: GPT Luna Latest'
   status: declared
@@ -1426,8 +1426,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sakana/fugu-ultra-v2
   name: 'Sakana: Fugu Ultra v2'
   status: declared
@@ -1455,8 +1455,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sakana/fugu-max
   name: 'Sakana: Fugu Max'
   status: declared
@@ -1484,8 +1484,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inclusionai/ling-3.0-flash-vl
   name: 'inclusionAI: Ling 3.0 Flash VL'
   status: declared
@@ -1513,8 +1513,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4.1-flash
   name: 'DeepSeek: DeepSeek V4.1 Flash'
   status: declared
@@ -1541,8 +1541,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4.1-flash:batch
   name: 'DeepSeek: DeepSeek V4.1 Flash (batch)'
   status: declared
@@ -1569,8 +1569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inception/mercury-2.5
   name: 'Inception: Mercury 2.5'
   status: declared
@@ -1596,8 +1596,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nex-agi/nex-n2.5-mini
   name: 'Nex AGI: Nex-N2.5-Mini'
   status: declared
@@ -1624,8 +1624,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nex-agi/nex-n2.5-pro
   name: 'Nex AGI: Nex-N2.5-Pro'
   status: declared
@@ -1652,8 +1652,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-astra
   name: 'OpenAI: GPT-6 Astra'
   status: declared
@@ -1681,8 +1681,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-astra:batch
   name: 'OpenAI: GPT-6 Astra (batch)'
   status: declared
@@ -1710,8 +1710,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-astra-pro
   name: 'OpenAI: GPT-6 Astra Pro'
   status: declared
@@ -1739,8 +1739,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-6-astra-pro:batch
   name: 'OpenAI: GPT-6 Astra Pro (batch)'
   status: declared
@@ -1768,8 +1768,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inclusionai/ling-3.0-flash-sante
   name: 'inclusionAI: Ling 3.0 Flash Sante'
   status: declared
@@ -1795,8 +1795,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-max-0902
   name: 'Qwen: Qwen3.8 Max (0902)'
   status: declared
@@ -1824,8 +1824,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-spark-1.3-contributor
   name: 'Meta: Muse Spark 1.3 Contributor'
   status: declared
@@ -1854,8 +1854,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-spark-1.3
   name: 'Meta: Muse Spark 1.3'
   status: declared
@@ -1884,8 +1884,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.8-flash
   name: 'Google: Gemini 3.8 Flash'
   status: declared
@@ -1915,8 +1915,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.8-flash:batch
   name: 'Google: Gemini 3.8 Flash (batch)'
   status: declared
@@ -1946,8 +1946,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-fable-5.1
   name: 'Anthropic: Claude Fable 5.1'
   status: declared
@@ -1975,8 +1975,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-fable-5.1:batch
   name: 'Anthropic: Claude Fable 5.1 (batch)'
   status: declared
@@ -2004,8 +2004,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ibm-granite/granite-4.2-8b
   name: 'IBM: Granite 4.2 8B'
   status: declared
@@ -2031,8 +2031,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy4-preview
   name: 'Tencent: Hy4 preview'
   status: declared
@@ -2058,8 +2058,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inclusionai/ling-3.0-flash-fin
   name: 'inclusionAI: Ling 3.0 Flash Fin'
   status: declared
@@ -2085,8 +2085,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~z-ai/glm-flash-latest
   name: 'Z.ai: GLM Flash Latest'
   status: declared
@@ -2112,8 +2112,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-flash
   name: 'Qwen: Qwen3.8 Flash'
   status: declared
@@ -2141,8 +2141,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3-flash
   name: 'Z.ai: GLM 5.3 Flash'
   status: declared
@@ -2170,8 +2170,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3-flash:batch
   name: 'Z.ai: GLM 5.3 Flash (batch)'
   status: declared
@@ -2199,8 +2199,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-spark-1.2-contributor
   name: 'Meta: Muse Spark 1.2 Contributor'
   status: declared
@@ -2229,8 +2229,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4-flash-vision-exp
   name: 'DeepSeek: DeepSeek V4 Flash Vision Exp'
   status: declared
@@ -2258,8 +2258,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy-mt2-1.8b
   name: 'Tencent: Hy-MT2-1.8B'
   status: declared
@@ -2286,8 +2286,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy-mt2-30b-a3b
   name: 'Tencent: Hy-MT2-30B-A3B'
   status: declared
@@ -2314,8 +2314,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~z-ai/glm-latest
   name: 'Z.ai: GLM Latest'
   status: declared
@@ -2339,8 +2339,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy-mt2-7b
   name: 'Tencent: Hy-MT2-7B'
   status: declared
@@ -2367,8 +2367,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3
   name: 'Z.ai: GLM 5.3'
   status: declared
@@ -2394,8 +2394,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.3:batch
   name: 'Z.ai: GLM 5.3 (batch)'
   status: declared
@@ -2421,8 +2421,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-27b
   name: 'Qwen: Qwen3.8 27B'
   status: declared
@@ -2450,8 +2450,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: dots-studio/dots-3-note-preview:free
   name: 'Dots Studio: Dots3-Note Preview (free)'
   status: declared
@@ -2478,8 +2478,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.7-flash
   name: 'Google: Gemini 3.7 Flash'
   status: declared
@@ -2509,8 +2509,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.7-flash:batch
   name: 'Google: Gemini 3.7 Flash (batch)'
   status: declared
@@ -2540,8 +2540,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-2-1-turbo
   name: 'ByteDance Seed: Seed 2.1 Turbo'
   status: declared
@@ -2569,8 +2569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.8-2.4t-a95b
   name: 'Qwen: Qwen3.8 2.4T A95B'
   status: declared
@@ -2596,8 +2596,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-2.0-code
   name: 'ByteDance Seed: Seed-2.0-Code'
   status: declared
@@ -2625,8 +2625,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4-pro-0813
   name: 'DeepSeek: DeepSeek V4 Pro 0813'
   status: declared
@@ -2651,8 +2651,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.6
   name: 'SpaceXAI: Grok 4.6'
   status: declared
@@ -2679,8 +2679,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: liquid/lfm-2.5-2.6b:free
   name: 'LiquidAI: LFM2.5-2.6B (free)'
   status: declared
@@ -2706,8 +2706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3.5-lightning
   name: 'NVIDIA: Nemotron 3.5 Lightning'
   status: declared
@@ -2733,8 +2733,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3.5-lightning:free
   name: 'NVIDIA: Nemotron 3.5 Lightning (free)'
   status: declared
@@ -2760,8 +2760,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sakana/sakana-namazu
   name: 'Sakana: Sakana Namazu'
   status: declared
@@ -2789,8 +2789,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: upstage/solar-pro4
   name: 'Upstage: Solar Pro 4'
   status: declared
@@ -2816,8 +2816,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-glimmer-30b
   name: 'Meta: Muse Glimmer 30B'
   status: declared
@@ -2844,8 +2844,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-spark-1.2
   name: 'Meta: Muse Spark 1.2'
   status: declared
@@ -2874,8 +2874,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~deepseek/deepseek-v4-flash-latest
   name: 'DeepSeek: DeepSeek V4 Flash Latest'
   status: declared
@@ -2900,8 +2900,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4-flash-0731
   name: 'DeepSeek: DeepSeek V4 Flash 0731'
   status: declared
@@ -2927,8 +2927,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thinkingmachines/inkling-small
   name: 'Thinking Machines: Inkling Small'
   status: declared
@@ -2956,8 +2956,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thinkingmachines/inkling-small:free
   name: 'Thinking Machines: Inkling Small (free)'
   status: declared
@@ -2985,8 +2985,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.7-flash
   name: 'Qwen: Qwen3.7 Flash'
   status: declared
@@ -3014,8 +3014,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-5
   name: 'Anthropic: Claude Opus 5'
   status: declared
@@ -3043,8 +3043,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-5:batch
   name: 'Anthropic: Claude Opus 5 (batch)'
   status: declared
@@ -3072,8 +3072,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inclusionai/ling-3.0-flash
   name: 'inclusionAI: Ling 3.0 Flash'
   status: declared
@@ -3100,8 +3100,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: poolside/laguna-s-2.1
   name: 'Poolside: Laguna S 2.1'
   status: declared
@@ -3127,8 +3127,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: poolside/laguna-s-2.1:free
   name: 'Poolside: Laguna S 2.1 (free)'
   status: declared
@@ -3154,8 +3154,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.6-flash
   name: 'Google: Gemini 3.6 Flash'
   status: declared
@@ -3185,8 +3185,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.6-flash:batch
   name: 'Google: Gemini 3.6 Flash (batch)'
   status: declared
@@ -3216,8 +3216,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.5-flash-lite
   name: 'Google: Gemini 3.5 Flash Lite'
   status: declared
@@ -3247,8 +3247,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.5-flash-lite:batch
   name: 'Google: Gemini 3.5 Flash Lite (batch)'
   status: declared
@@ -3278,8 +3278,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meituan/longcat-2.0
   name: 'Meituan: LongCat 2.0'
   status: declared
@@ -3305,8 +3305,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thinkingmachines/inkling
   name: 'Thinking Machines: Inkling'
   status: declared
@@ -3334,8 +3334,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thinkingmachines/inkling:free
   name: 'Thinking Machines: Inkling (free)'
   status: declared
@@ -3363,8 +3363,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/auto-beta
   name: Auto Router (Beta)
   status: declared
@@ -3394,8 +3394,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k3
   name: 'MoonshotAI: Kimi K3'
   status: declared
@@ -3417,14 +3417,14 @@ models:
     tools: true
     json_mode: true
   terms:
-    input_per_million: 0.5
-    output_per_million: 13.5
+    input_per_million: 0.8
+    output_per_million: 15.0
     currency: USD
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k3:batch
   name: 'MoonshotAI: Kimi K3 (batch)'
   status: declared
@@ -3452,8 +3452,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta/muse-spark-1.1
   name: 'Meta: Muse Spark 1.1'
   status: declared
@@ -3482,8 +3482,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-luna-pro
   name: 'OpenAI: GPT-5.6 Luna Pro'
   status: declared
@@ -3511,8 +3511,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-luna-pro:batch
   name: 'OpenAI: GPT-5.6 Luna Pro (batch)'
   status: declared
@@ -3540,8 +3540,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-luna
   name: 'OpenAI: GPT-5.6 Luna'
   status: declared
@@ -3569,8 +3569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-luna:batch
   name: 'OpenAI: GPT-5.6 Luna (batch)'
   status: declared
@@ -3598,8 +3598,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-terra-pro
   name: 'OpenAI: GPT-5.6 Terra Pro'
   status: declared
@@ -3627,8 +3627,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-terra-pro:batch
   name: 'OpenAI: GPT-5.6 Terra Pro (batch)'
   status: declared
@@ -3656,8 +3656,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-terra
   name: 'OpenAI: GPT-5.6 Terra'
   status: declared
@@ -3685,8 +3685,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-terra:batch
   name: 'OpenAI: GPT-5.6 Terra (batch)'
   status: declared
@@ -3714,8 +3714,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-sol-pro
   name: 'OpenAI: GPT-5.6 Sol Pro'
   status: declared
@@ -3743,8 +3743,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-sol-pro:batch
   name: 'OpenAI: GPT-5.6 Sol Pro (batch)'
   status: declared
@@ -3772,8 +3772,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-sol
   name: 'OpenAI: GPT-5.6 Sol'
   status: declared
@@ -3801,8 +3801,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.6-sol:batch
   name: 'OpenAI: GPT-5.6 Sol (batch)'
   status: declared
@@ -3830,8 +3830,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.5
   name: 'SpaceXAI: Grok 4.5'
   status: declared
@@ -3858,8 +3858,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~x-ai/grok-latest
   name: 'xAI: Grok Latest'
   status: declared
@@ -3885,8 +3885,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-3.0-mini
   name: 'AionLabs: Aion-3.0-Mini'
   status: declared
@@ -3912,8 +3912,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-3.0
   name: 'AionLabs: Aion-3.0'
   status: declared
@@ -3939,8 +3939,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy3
   name: 'Tencent: Hy3'
   status: declared
@@ -3966,8 +3966,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: poolside/laguna-xs-2.1
   name: 'Poolside: Laguna XS 2.1'
   status: declared
@@ -3993,8 +3993,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: poolside/laguna-xs-2.1:free
   name: 'Poolside: Laguna XS 2.1 (free)'
   status: declared
@@ -4020,8 +4020,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-5
   name: 'Anthropic: Claude Sonnet 5'
   status: declared
@@ -4049,8 +4049,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-5:batch
   name: 'Anthropic: Claude Sonnet 5 (batch)'
   status: declared
@@ -4078,8 +4078,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-lite-image
   name: 'Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)'
   status: declared
@@ -4106,8 +4106,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sakana/fugu-ultra
   name: 'Sakana: Fugu Ultra'
   status: declared
@@ -4134,8 +4134,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-image
   name: 'Google: Nano Banana 2 (Gemini 3.1 Flash Image)'
   status: declared
@@ -4162,8 +4162,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3-pro-image
   name: 'Google: Nano Banana Pro (Gemini 3 Pro Image)'
   status: declared
@@ -4190,8 +4190,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/north-mini-code:free
   name: 'Cohere: North Mini Code (free)'
   status: declared
@@ -4217,8 +4217,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.2
   name: 'Z.ai: GLM 5.2'
   status: declared
@@ -4244,8 +4244,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/fusion
   name: 'OpenRouter: Fusion'
   status: declared
@@ -4271,8 +4271,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2.7-code
   name: 'MoonshotAI: Kimi K2.7 Code'
   status: declared
@@ -4299,8 +4299,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~anthropic/claude-fable-latest
   name: 'Anthropic: Claude Fable Latest'
   status: declared
@@ -4327,8 +4327,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-fable-5
   name: 'Anthropic: Claude Fable 5'
   status: declared
@@ -4356,8 +4356,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-fable-5:batch
   name: 'Anthropic: Claude Fable 5 (batch)'
   status: declared
@@ -4385,8 +4385,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3.5-content-safety
   name: 'NVIDIA: Nemotron 3.5 Content Safety'
   status: declared
@@ -4413,8 +4413,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3.5-content-safety:free
   name: 'NVIDIA: Nemotron 3.5 Content Safety (free)'
   status: declared
@@ -4441,8 +4441,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-ultra-550b-a55b
   name: 'NVIDIA: Nemotron 3 Ultra'
   status: declared
@@ -4468,8 +4468,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-ultra-550b-a55b:free
   name: 'NVIDIA: Nemotron 3 Ultra (free)'
   status: declared
@@ -4495,8 +4495,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.7-plus
   name: 'Qwen: Qwen3.7 Plus'
   status: declared
@@ -4523,8 +4523,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m3
   name: 'MiniMax: MiniMax M3'
   status: declared
@@ -4552,8 +4552,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: stepfun/step-3.7-flash
   name: 'StepFun: Step 3.7 Flash'
   status: declared
@@ -4581,8 +4581,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.8
   name: 'Anthropic: Claude Opus 4.8'
   status: declared
@@ -4610,8 +4610,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.8:batch
   name: 'Anthropic: Claude Opus 4.8 (batch)'
   status: declared
@@ -4639,8 +4639,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.7-max
   name: 'Qwen: Qwen3.7 Max'
   status: declared
@@ -4666,8 +4666,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-build-0.1
   name: 'SpaceXAI: Grok Build 0.1'
   status: declared
@@ -4695,8 +4695,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.5-flash
   name: 'Google: Gemini 3.5 Flash'
   status: declared
@@ -4726,8 +4726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.5-flash:batch
   name: 'Google: Gemini 3.5 Flash (batch)'
   status: declared
@@ -4757,8 +4757,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perceptron/perceptron-mk1
   name: 'Perceptron: Perceptron Mk1'
   status: declared
@@ -4786,8 +4786,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-lite
   name: 'Google: Gemini 3.1 Flash Lite'
   status: declared
@@ -4817,8 +4817,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-lite:batch
   name: 'Google: Gemini 3.1 Flash Lite (batch)'
   status: declared
@@ -4848,8 +4848,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-chat-latest
   name: 'OpenAI: GPT Chat Latest'
   status: declared
@@ -4877,8 +4877,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.3
   name: 'SpaceXAI: Grok 4.3'
   status: declared
@@ -4906,8 +4906,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.3:batch
   name: 'SpaceXAI: Grok 4.3 (batch)'
   status: declared
@@ -4935,8 +4935,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-medium-3-5
   name: 'Mistral: Mistral Medium 3.5'
   status: declared
@@ -4964,8 +4964,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-medium-3-5:batch
   name: 'Mistral: Mistral Medium 3.5 (batch)'
   status: declared
@@ -4993,8 +4993,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
   name: 'NVIDIA: Nemotron 3 Nano Omni (free)'
   status: declared
@@ -5023,8 +5023,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~anthropic/claude-haiku-latest
   name: 'Anthropic: Claude Haiku Latest'
   status: declared
@@ -5051,8 +5051,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~openai/gpt-mini-latest
   name: 'OpenAI: GPT Mini Latest'
   status: declared
@@ -5078,8 +5078,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~google/gemini-pro-latest
   name: 'Google: Gemini Pro Latest'
   status: declared
@@ -5107,8 +5107,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~moonshotai/kimi-latest
   name: 'MoonshotAI: Kimi Latest'
   status: declared
@@ -5128,14 +5128,14 @@ models:
     tools: true
     json_mode: true
   terms:
-    input_per_million: 0.31
-    output_per_million: 14.89
+    input_per_million: 0.3
+    output_per_million: 14.9
     currency: USD
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~google/gemini-flash-latest
   name: 'Google: Gemini Flash Latest'
   status: declared
@@ -5164,8 +5164,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~anthropic/claude-sonnet-latest
   name: 'Anthropic: Claude Sonnet Latest'
   status: declared
@@ -5192,8 +5192,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-plus-20260420
   name: 'Qwen: Qwen3.5 Plus 2026-04-20'
   status: declared
@@ -5221,8 +5221,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.6-flash
   name: 'Qwen: Qwen3.6 Flash'
   status: declared
@@ -5250,8 +5250,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.6-35b-a3b
   name: 'Qwen: Qwen3.6 35B A3B'
   status: declared
@@ -5262,7 +5262,7 @@ models:
     uses a hybrid sparse mixture-of-experts architecture combining Gated...
   capabilities:
     context_length: 262144
-    max_output_tokens: 235929
+    max_output_tokens: 65536
     input_modalities:
     - text
     - image
@@ -5273,14 +5273,14 @@ models:
     tools: true
     json_mode: true
   terms:
-    input_per_million: 0.15
-    output_per_million: 1.0
+    input_per_million: 0.1
+    output_per_million: 0.95
     currency: USD
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.6-27b
   name: 'Qwen: Qwen3.6 27B'
   status: declared
@@ -5308,8 +5308,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.5-pro
   name: 'OpenAI: GPT-5.5 Pro'
   status: declared
@@ -5337,8 +5337,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.5-pro:batch
   name: 'OpenAI: GPT-5.5 Pro (batch)'
   status: declared
@@ -5366,8 +5366,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.5
   name: 'OpenAI: GPT-5.5'
   status: declared
@@ -5395,8 +5395,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.5:batch
   name: 'OpenAI: GPT-5.5 (batch)'
   status: declared
@@ -5424,8 +5424,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4-pro
   name: 'DeepSeek: DeepSeek V4 Pro 0423'
   status: declared
@@ -5451,8 +5451,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v4-flash
   name: 'DeepSeek: DeepSeek V4 Flash 0423'
   status: declared
@@ -5478,8 +5478,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hy3-preview
   name: 'Tencent: Hy3 preview'
   status: declared
@@ -5505,8 +5505,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: xiaomi/mimo-v2.5-pro
   name: 'Xiaomi: MiMo-V2.5-Pro'
   status: declared
@@ -5533,8 +5533,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: xiaomi/mimo-v2.5
   name: 'Xiaomi: MiMo-V2.5'
   status: declared
@@ -5563,8 +5563,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-image-2
   name: 'OpenAI: GPT-5.4 Image 2'
   status: declared
@@ -5593,8 +5593,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ~anthropic/claude-opus-latest
   name: 'Anthropic: Claude Opus Latest'
   status: declared
@@ -5621,8 +5621,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/pareto-code
   name: Pareto Code Router
   status: declared
@@ -5649,8 +5649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2.6
   name: 'MoonshotAI: Kimi K2.6'
   status: declared
@@ -5677,8 +5677,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.7
   name: 'Anthropic: Claude Opus 4.7'
   status: declared
@@ -5706,8 +5706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.7:batch
   name: 'Anthropic: Claude Opus 4.7 (batch)'
   status: declared
@@ -5735,8 +5735,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5.1
   name: 'Z.ai: GLM 5.1'
   status: declared
@@ -5763,8 +5763,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-4-26b-a4b-it
   name: 'Google: Gemma 4 26B A4B '
   status: declared
@@ -5792,8 +5792,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-4-26b-a4b-it:free
   name: 'Google: Gemma 4 26B A4B  (free)'
   status: declared
@@ -5821,8 +5821,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-4-31b-it
   name: 'Google: Gemma 4 31B'
   status: declared
@@ -5850,8 +5850,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-4-31b-it:free
   name: 'Google: Gemma 4 31B (free)'
   status: declared
@@ -5879,8 +5879,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.6-plus
   name: 'Qwen: Qwen3.6 Plus'
   status: declared
@@ -5908,8 +5908,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5v-turbo
   name: 'Z.ai: GLM 5V Turbo'
   status: declared
@@ -5937,8 +5937,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: arcee-ai/trinity-large-thinking
   name: 'Arcee AI: Trinity Large Thinking'
   status: declared
@@ -5964,8 +5964,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.20-multi-agent
   name: 'SpaceXAI: Grok 4.20 Multi-Agent'
   status: declared
@@ -5993,8 +5993,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: x-ai/grok-4.20
   name: 'SpaceXAI: Grok 4.20'
   status: declared
@@ -6022,8 +6022,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/lyria-3-pro-preview
   name: 'Google: Lyria 3 Pro Preview'
   status: declared
@@ -6050,8 +6050,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/lyria-3-clip-preview
   name: 'Google: Lyria 3 Clip Preview'
   status: declared
@@ -6078,8 +6078,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: rekaai/reka-edge
   name: Reka Edge
   status: declared
@@ -6107,8 +6107,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m2.7
   name: 'MiniMax: MiniMax M2.7'
   status: declared
@@ -6135,8 +6135,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-nano
   name: 'OpenAI: GPT-5.4 Nano'
   status: declared
@@ -6164,8 +6164,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-nano:batch
   name: 'OpenAI: GPT-5.4 Nano (batch)'
   status: declared
@@ -6193,8 +6193,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-mini
   name: 'OpenAI: GPT-5.4 Mini'
   status: declared
@@ -6222,8 +6222,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-mini:batch
   name: 'OpenAI: GPT-5.4 Mini (batch)'
   status: declared
@@ -6251,8 +6251,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-small-2603
   name: 'Mistral: Mistral Small 4'
   status: declared
@@ -6279,8 +6279,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-small-2603:batch
   name: 'Mistral: Mistral Small 4 (batch)'
   status: declared
@@ -6307,8 +6307,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5-turbo
   name: 'Z.ai: GLM 5 Turbo'
   status: declared
@@ -6334,8 +6334,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-super-120b-a12b
   name: 'NVIDIA: Nemotron 3 Super'
   status: declared
@@ -6361,8 +6361,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-super-120b-a12b:free
   name: 'NVIDIA: Nemotron 3 Super (free)'
   status: declared
@@ -6388,8 +6388,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-2.0-lite
   name: 'ByteDance Seed: Seed-2.0-Lite'
   status: declared
@@ -6417,8 +6417,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-9b
   name: 'Qwen: Qwen3.5-9B'
   status: declared
@@ -6446,8 +6446,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-pro
   name: 'OpenAI: GPT-5.4 Pro'
   status: declared
@@ -6475,8 +6475,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4-pro:batch
   name: 'OpenAI: GPT-5.4 Pro (batch)'
   status: declared
@@ -6504,8 +6504,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4
   name: 'OpenAI: GPT-5.4'
   status: declared
@@ -6533,8 +6533,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.4:batch
   name: 'OpenAI: GPT-5.4 (batch)'
   status: declared
@@ -6562,8 +6562,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: inception/mercury-2
   name: 'Inception: Mercury 2'
   status: declared
@@ -6589,8 +6589,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-lite-preview
   name: 'Google: Gemini 3.1 Flash Lite Preview'
   status: declared
@@ -6620,8 +6620,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-2.0-mini
   name: 'ByteDance Seed: Seed-2.0-Mini'
   status: declared
@@ -6650,8 +6650,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-flash-image-preview
   name: 'Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)'
   status: declared
@@ -6678,8 +6678,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-35b-a3b
   name: 'Qwen: Qwen3.5-35B-A3B'
   status: declared
@@ -6707,8 +6707,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-27b
   name: 'Qwen: Qwen3.5-27B'
   status: declared
@@ -6736,8 +6736,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-122b-a10b
   name: 'Qwen: Qwen3.5-122B-A10B'
   status: declared
@@ -6765,8 +6765,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-flash-02-23
   name: 'Qwen: Qwen3.5-Flash'
   status: declared
@@ -6794,8 +6794,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-pro-preview-customtools
   name: 'Google: Gemini 3.1 Pro Preview Custom Tools'
   status: declared
@@ -6825,8 +6825,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.3-codex
   name: 'OpenAI: GPT-5.3-Codex'
   status: declared
@@ -6855,8 +6855,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-2.0
   name: 'AionLabs: Aion-2.0'
   status: declared
@@ -6882,8 +6882,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-pro-preview
   name: 'Google: Gemini 3.1 Pro Preview'
   status: declared
@@ -6913,8 +6913,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3.1-pro-preview:batch
   name: 'Google: Gemini 3.1 Pro Preview (batch)'
   status: declared
@@ -6944,8 +6944,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-4.6
   name: 'Anthropic: Claude Sonnet 4.6'
   status: declared
@@ -6974,8 +6974,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-4.6:batch
   name: 'Anthropic: Claude Sonnet 4.6 (batch)'
   status: declared
@@ -7004,8 +7004,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-plus-02-15
   name: 'Qwen: Qwen3.5 Plus 2026-02-15'
   status: declared
@@ -7034,8 +7034,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3.5-397b-a17b
   name: 'Qwen: Qwen3.5 397B A17B'
   status: declared
@@ -7063,8 +7063,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m2.5
   name: 'MiniMax: MiniMax M2.5'
   status: declared
@@ -7090,8 +7090,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-5
   name: 'Z.ai: GLM 5'
   status: declared
@@ -7118,8 +7118,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.6
   name: 'Anthropic: Claude Opus 4.6'
   status: declared
@@ -7147,8 +7147,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.6:batch
   name: 'Anthropic: Claude Opus 4.6 (batch)'
   status: declared
@@ -7176,8 +7176,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-coder-next
   name: 'Qwen: Qwen3 Coder Next'
   status: declared
@@ -7203,8 +7203,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/free
   name: Free Models Router
   status: declared
@@ -7231,8 +7231,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: stepfun/step-3.5-flash
   name: 'StepFun: Step 3.5 Flash'
   status: declared
@@ -7258,8 +7258,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2.5
   name: 'MoonshotAI: Kimi K2.5'
   status: declared
@@ -7286,8 +7286,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: upstage/solar-pro-3
   name: 'Upstage: Solar Pro 3'
   status: declared
@@ -7314,8 +7314,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m2-her
   name: 'MiniMax: MiniMax M2-her'
   status: declared
@@ -7341,8 +7341,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: writer/palmyra-x5
   name: 'Writer: Palmyra X5'
   status: declared
@@ -7368,8 +7368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-audio
   name: 'OpenAI: GPT Audio'
   status: declared
@@ -7396,8 +7396,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-audio-mini
   name: 'OpenAI: GPT Audio Mini'
   status: declared
@@ -7424,8 +7424,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.7-flash
   name: 'Z.ai: GLM 4.7 Flash'
   status: declared
@@ -7451,8 +7451,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2-codex
   name: 'OpenAI: GPT-5.2-Codex'
   status: declared
@@ -7479,8 +7479,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-1.6-flash
   name: 'ByteDance Seed: Seed 1.6 Flash'
   status: declared
@@ -7508,8 +7508,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance-seed/seed-1.6
   name: 'ByteDance Seed: Seed 1.6'
   status: declared
@@ -7537,8 +7537,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m2.1
   name: 'MiniMax: MiniMax M2.1'
   status: declared
@@ -7564,8 +7564,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.7
   name: 'Z.ai: GLM 4.7'
   status: declared
@@ -7591,8 +7591,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3-flash-preview
   name: 'Google: Gemini 3 Flash Preview'
   status: declared
@@ -7622,8 +7622,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3-flash-preview:batch
   name: 'Google: Gemini 3 Flash Preview (batch)'
   status: declared
@@ -7653,8 +7653,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nvidia/nemotron-3-nano-30b-a3b
   name: 'NVIDIA: Nemotron 3 Nano 30B A3B'
   status: declared
@@ -7680,8 +7680,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2-chat
   name: 'OpenAI: GPT-5.2 Chat'
   status: declared
@@ -7709,8 +7709,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2-pro
   name: 'OpenAI: GPT-5.2 Pro'
   status: declared
@@ -7738,8 +7738,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2-pro:batch
   name: 'OpenAI: GPT-5.2 Pro (batch)'
   status: declared
@@ -7767,8 +7767,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2
   name: 'OpenAI: GPT-5.2'
   status: declared
@@ -7796,8 +7796,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.2:batch
   name: 'OpenAI: GPT-5.2 (batch)'
   status: declared
@@ -7825,8 +7825,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/devstral-2512
   name: 'Mistral: Devstral 2 2512'
   status: declared
@@ -7853,8 +7853,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: relace/relace-search
   name: 'Relace: Relace Search'
   status: declared
@@ -7880,8 +7880,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.6v
   name: 'Z.ai: GLM 4.6V'
   status: declared
@@ -7909,8 +7909,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/bodybuilder
   name: Body Builder (beta)
   status: declared
@@ -7936,8 +7936,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.1-codex-max
   name: 'OpenAI: GPT-5.1-Codex-Max'
   status: declared
@@ -7964,8 +7964,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: amazon/nova-2-lite-v1
   name: 'Amazon: Nova 2 Lite'
   status: declared
@@ -7994,8 +7994,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/ministral-14b-2512
   name: 'Mistral: Ministral 3 14B 2512'
   status: declared
@@ -8022,8 +8022,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/ministral-8b-2512
   name: 'Mistral: Ministral 3 8B 2512'
   status: declared
@@ -8049,8 +8049,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/ministral-8b-2512:batch
   name: 'Mistral: Ministral 3 8B 2512 (batch)'
   status: declared
@@ -8076,8 +8076,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/ministral-3b-2512
   name: 'Mistral: Ministral 3 3B 2512'
   status: declared
@@ -8103,8 +8103,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-large-2512
   name: 'Mistral: Mistral Large 3 2512'
   status: declared
@@ -8132,8 +8132,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-large-2512:batch
   name: 'Mistral: Mistral Large 3 2512 (batch)'
   status: declared
@@ -8161,8 +8161,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v3.2
   name: 'DeepSeek: DeepSeek V3.2'
   status: declared
@@ -8189,8 +8189,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.5
   name: 'Anthropic: Claude Opus 4.5'
   status: declared
@@ -8219,8 +8219,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.5:batch
   name: 'Anthropic: Claude Opus 4.5 (batch)'
   status: declared
@@ -8249,8 +8249,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-3-pro-image-preview
   name: 'Google: Nano Banana Pro (Gemini 3 Pro Image Preview)'
   status: declared
@@ -8277,8 +8277,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.1
   name: 'OpenAI: GPT-5.1'
   status: declared
@@ -8306,8 +8306,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.1:batch
   name: 'OpenAI: GPT-5.1 (batch)'
   status: declared
@@ -8335,8 +8335,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.1-codex
   name: 'OpenAI: GPT-5.1-Codex'
   status: declared
@@ -8363,8 +8363,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5.1-codex-mini
   name: 'OpenAI: GPT-5.1-Codex-Mini'
   status: declared
@@ -8389,8 +8389,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2-thinking
   name: 'MoonshotAI: Kimi K2 Thinking'
   status: declared
@@ -8416,8 +8416,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: amazon/nova-premier-v1
   name: 'Amazon: Nova Premier 1.0'
   status: declared
@@ -8444,8 +8444,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perplexity/sonar-pro-search
   name: 'Perplexity: Sonar Pro Search'
   status: declared
@@ -8472,8 +8472,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/voxtral-small-24b-2507
   name: 'Mistral: Voxtral Small 24B 2507'
   status: declared
@@ -8501,8 +8501,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-oss-safeguard-20b
   name: 'OpenAI: gpt-oss-safeguard-20b'
   status: declared
@@ -8529,8 +8529,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m2
   name: 'MiniMax: MiniMax M2'
   status: declared
@@ -8556,8 +8556,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: ibm-granite/granite-4.0-h-micro
   name: 'IBM: Granite 4.0 Micro'
   status: declared
@@ -8583,8 +8583,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-image-mini
   name: 'OpenAI: GPT-5 Image Mini'
   status: declared
@@ -8613,8 +8613,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-haiku-4.5
   name: 'Anthropic: Claude Haiku 4.5'
   status: declared
@@ -8642,8 +8642,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-haiku-4.5:batch
   name: 'Anthropic: Claude Haiku 4.5 (batch)'
   status: declared
@@ -8671,8 +8671,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-vl-8b-instruct
   name: 'Qwen: Qwen3 VL 8B Instruct'
   status: declared
@@ -8700,8 +8700,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-image
   name: 'OpenAI: GPT-5 Image'
   status: declared
@@ -8730,8 +8730,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-flash-image
   name: 'Google: Nano Banana (Gemini 2.5 Flash Image)'
   status: declared
@@ -8758,8 +8758,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-vl-30b-a3b-thinking
   name: 'Qwen: Qwen3 VL 30B A3B Thinking'
   status: declared
@@ -8786,8 +8786,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-vl-30b-a3b-instruct
   name: 'Qwen: Qwen3 VL 30B A3B Instruct'
   status: declared
@@ -8815,8 +8815,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-pro
   name: 'OpenAI: GPT-5 Pro'
   status: declared
@@ -8844,8 +8844,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-pro:batch
   name: 'OpenAI: GPT-5 Pro (batch)'
   status: declared
@@ -8873,8 +8873,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.6
   name: 'Z.ai: GLM 4.6'
   status: declared
@@ -8900,8 +8900,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-4.5
   name: 'Anthropic: Claude Sonnet 4.5'
   status: declared
@@ -8929,8 +8929,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-4.5:batch
   name: 'Anthropic: Claude Sonnet 4.5 (batch)'
   status: declared
@@ -8958,8 +8958,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v3.2-exp
   name: 'DeepSeek: DeepSeek V3.2 Exp'
   status: declared
@@ -8985,8 +8985,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thedrummer/cydonia-24b-v4.1
   name: 'TheDrummer: Cydonia 24B V4.1'
   status: declared
@@ -9011,8 +9011,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: relace/relace-apply-3
   name: 'Relace: Relace Apply 3'
   status: declared
@@ -9038,8 +9038,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-vl-235b-a22b-instruct
   name: 'Qwen: Qwen3 VL 235B A22B Instruct'
   status: declared
@@ -9067,8 +9067,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-v3.1-terminus
   name: 'DeepSeek: DeepSeek V3.1 Terminus'
   status: declared
@@ -9095,8 +9095,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-coder-flash
   name: 'Qwen: Qwen3 Coder Flash'
   status: declared
@@ -9122,8 +9122,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-next-80b-a3b-thinking
   name: 'Qwen: Qwen3 Next 80B A3B Thinking'
   status: declared
@@ -9150,8 +9150,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-next-80b-a3b-instruct
   name: 'Qwen: Qwen3 Next 80B A3B Instruct'
   status: declared
@@ -9178,8 +9178,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2-0905
   name: 'MoonshotAI: Kimi K2 0905'
   status: declared
@@ -9205,8 +9205,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nousresearch/hermes-4-405b
   name: 'Nous: Hermes 4 405B'
   status: declared
@@ -9232,8 +9232,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-chat-v3.1
   name: 'DeepSeek: DeepSeek V3.1'
   status: declared
@@ -9259,8 +9259,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-medium-3.1
   name: 'Mistral: Mistral Medium 3.1'
   status: declared
@@ -9288,8 +9288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-medium-3.1:batch
   name: 'Mistral: Mistral Medium 3.1 (batch)'
   status: declared
@@ -9317,8 +9317,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.5v
   name: 'Z.ai: GLM 4.5V'
   status: declared
@@ -9345,8 +9345,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5
   name: 'OpenAI: GPT-5'
   status: declared
@@ -9374,8 +9374,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5:batch
   name: 'OpenAI: GPT-5 (batch)'
   status: declared
@@ -9403,8 +9403,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-mini
   name: 'OpenAI: GPT-5 Mini'
   status: declared
@@ -9432,8 +9432,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-mini:batch
   name: 'OpenAI: GPT-5 Mini (batch)'
   status: declared
@@ -9461,8 +9461,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-nano
   name: 'OpenAI: GPT-5 Nano'
   status: declared
@@ -9490,8 +9490,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-5-nano:batch
   name: 'OpenAI: GPT-5 Nano (batch)'
   status: declared
@@ -9519,8 +9519,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-oss-120b
   name: 'OpenAI: gpt-oss-120b'
   status: declared
@@ -9546,8 +9546,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-oss-120b:batch
   name: 'OpenAI: gpt-oss-120b (batch)'
   status: declared
@@ -9573,8 +9573,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-oss-20b
   name: 'OpenAI: gpt-oss-20b'
   status: declared
@@ -9600,8 +9600,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-oss-20b:batch
   name: 'OpenAI: gpt-oss-20b (batch)'
   status: declared
@@ -9627,8 +9627,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.1
   name: 'Anthropic: Claude Opus 4.1'
   status: declared
@@ -9656,8 +9656,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-opus-4.1:batch
   name: 'Anthropic: Claude Opus 4.1 (batch)'
   status: declared
@@ -9685,8 +9685,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/codestral-2508
   name: 'Mistral: Codestral 2508'
   status: declared
@@ -9716,8 +9716,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/codestral-2508:batch
   name: 'Mistral: Codestral 2508 (batch)'
   status: declared
@@ -9747,8 +9747,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-coder-30b-a3b-instruct
   name: 'Qwen: Qwen3 Coder 30B A3B Instruct'
   status: declared
@@ -9775,8 +9775,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-30b-a3b-instruct-2507
   name: 'Qwen: Qwen3 30B A3B Instruct 2507'
   status: declared
@@ -9803,8 +9803,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.5
   name: 'Z.ai: GLM 4.5'
   status: declared
@@ -9830,8 +9830,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: z-ai/glm-4.5-air
   name: 'Z.ai: GLM 4.5 Air'
   status: declared
@@ -9857,8 +9857,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-235b-a22b-thinking-2507
   name: 'Qwen: Qwen3 235B A22B Thinking 2507'
   status: declared
@@ -9884,8 +9884,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-coder
   name: 'Qwen: Qwen3 Coder 480B A35B'
   status: declared
@@ -9911,8 +9911,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: bytedance/ui-tars-1.5-7b
   name: 'ByteDance: UI-TARS 7B '
   status: declared
@@ -9939,8 +9939,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-flash-lite
   name: 'Google: Gemini 2.5 Flash Lite'
   status: declared
@@ -9970,8 +9970,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-flash-lite:batch
   name: 'Google: Gemini 2.5 Flash Lite (batch)'
   status: declared
@@ -10001,8 +10001,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-235b-a22b-2507
   name: 'Qwen: Qwen3 235B A22B Instruct 2507'
   status: declared
@@ -10029,8 +10029,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: moonshotai/kimi-k2
   name: 'MoonshotAI: Kimi K2 0711'
   status: declared
@@ -10056,8 +10056,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cognitivecomputations/dolphin-mistral-24b-venice-edition
   name: 'Venice: Uncensored'
   status: declared
@@ -10084,8 +10084,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: tencent/hunyuan-a13b-instruct
   name: 'Tencent: Hunyuan A13B Instruct'
   status: declared
@@ -10111,8 +10111,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: morph/morph-v3-large
   name: 'Morph: Morph V3 Large'
   status: declared
@@ -10139,8 +10139,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: morph/morph-v3-fast
   name: 'Morph: Morph V3 Fast'
   status: declared
@@ -10167,8 +10167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-small-3.2-24b-instruct
   name: 'Mistral: Mistral Small 3.2 24B'
   status: declared
@@ -10196,8 +10196,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-m1
   name: 'MiniMax: MiniMax M1'
   status: declared
@@ -10224,8 +10224,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-flash
   name: 'Google: Gemini 2.5 Flash'
   status: declared
@@ -10256,8 +10256,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-flash:batch
   name: 'Google: Gemini 2.5 Flash (batch)'
   status: declared
@@ -10288,8 +10288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-pro
   name: 'Google: Gemini 2.5 Pro'
   status: declared
@@ -10319,8 +10319,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-pro:batch
   name: 'Google: Gemini 2.5 Pro (batch)'
   status: declared
@@ -10350,8 +10350,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3-pro
   name: 'OpenAI: o3 Pro'
   status: declared
@@ -10379,8 +10379,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemini-2.5-pro-preview
   name: 'Google: Gemini 2.5 Pro Preview 06-05'
   status: declared
@@ -10409,8 +10409,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-r1-0528
   name: 'DeepSeek: R1 0528'
   status: declared
@@ -10436,8 +10436,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthropic/claude-sonnet-4
   name: 'Anthropic: Claude Sonnet 4'
   status: declared
@@ -10465,8 +10465,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-medium-3
   name: 'Mistral: Mistral Medium 3'
   status: declared
@@ -10495,8 +10495,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-guard-4-12b
   name: 'Meta: Llama Guard 4 12B'
   status: declared
@@ -10523,8 +10523,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-30b-a3b
   name: 'Qwen: Qwen3 30B A3B'
   status: declared
@@ -10550,8 +10550,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-14b
   name: 'Qwen: Qwen3 14B'
   status: declared
@@ -10577,8 +10577,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen3-32b
   name: 'Qwen: Qwen3 32B'
   status: declared
@@ -10604,8 +10604,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o4-mini-high
   name: 'OpenAI: o4 Mini High'
   status: declared
@@ -10633,8 +10633,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3
   name: 'OpenAI: o3'
   status: declared
@@ -10662,8 +10662,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3:batch
   name: 'OpenAI: o3 (batch)'
   status: declared
@@ -10691,8 +10691,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o4-mini
   name: 'OpenAI: o4 Mini'
   status: declared
@@ -10720,8 +10720,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o4-mini:batch
   name: 'OpenAI: o4 Mini (batch)'
   status: declared
@@ -10749,8 +10749,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1
   name: 'OpenAI: GPT-4.1'
   status: declared
@@ -10778,8 +10778,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1:batch
   name: 'OpenAI: GPT-4.1 (batch)'
   status: declared
@@ -10807,8 +10807,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1-mini
   name: 'OpenAI: GPT-4.1 Mini'
   status: declared
@@ -10836,8 +10836,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1-mini:batch
   name: 'OpenAI: GPT-4.1 Mini (batch)'
   status: declared
@@ -10865,8 +10865,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1-nano
   name: 'OpenAI: GPT-4.1 Nano'
   status: declared
@@ -10894,8 +10894,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4.1-nano:batch
   name: 'OpenAI: GPT-4.1 Nano (batch)'
   status: declared
@@ -10923,8 +10923,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-4-maverick
   name: 'Meta: Llama 4 Maverick'
   status: declared
@@ -10951,8 +10951,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-4-scout
   name: 'Meta: Llama 4 Scout'
   status: declared
@@ -10979,8 +10979,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-chat-v3-0324
   name: 'DeepSeek: DeepSeek V3 0324'
   status: declared
@@ -11006,8 +11006,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o1-pro
   name: 'OpenAI: o1-pro'
   status: declared
@@ -11035,8 +11035,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-small-3.1-24b-instruct
   name: 'Mistral: Mistral Small 3.1 24B'
   status: declared
@@ -11063,8 +11063,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-3-4b-it
   name: 'Google: Gemma 3 4B'
   status: declared
@@ -11091,8 +11091,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-3-12b-it
   name: 'Google: Gemma 3 12B'
   status: declared
@@ -11119,8 +11119,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/command-a
   name: 'Cohere: Command A'
   status: declared
@@ -11146,8 +11146,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: rekaai/reka-flash-3
   name: Reka Flash 3
   status: declared
@@ -11173,8 +11173,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-3-27b-it
   name: 'Google: Gemma 3 27B'
   status: declared
@@ -11201,8 +11201,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thedrummer/skyfall-36b-v2
   name: 'TheDrummer: Skyfall 36B V2'
   status: declared
@@ -11228,8 +11228,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perplexity/sonar-reasoning-pro
   name: 'Perplexity: Sonar Reasoning Pro'
   status: declared
@@ -11257,8 +11257,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perplexity/sonar-pro
   name: 'Perplexity: Sonar Pro'
   status: declared
@@ -11286,8 +11286,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perplexity/sonar-deep-research
   name: 'Perplexity: Sonar Deep Research'
   status: declared
@@ -11313,8 +11313,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-saba
   name: 'Mistral: Saba'
   status: declared
@@ -11341,8 +11341,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3-mini-high
   name: 'OpenAI: o3 Mini High'
   status: declared
@@ -11370,8 +11370,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: aion-labs/aion-rp-llama-3.1-8b
   name: 'AionLabs: Aion-RP 1.0 (8B)'
   status: declared
@@ -11397,8 +11397,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen2.5-vl-72b-instruct
   name: 'Qwen: Qwen2.5 VL 72B Instruct'
   status: declared
@@ -11425,8 +11425,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen-plus
   name: 'Qwen: Qwen-Plus'
   status: declared
@@ -11451,8 +11451,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3-mini
   name: 'OpenAI: o3 Mini'
   status: declared
@@ -11479,8 +11479,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o3-mini:batch
   name: 'OpenAI: o3 Mini (batch)'
   status: declared
@@ -11507,8 +11507,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-small-24b-instruct-2501
   name: 'Mistral: Mistral Small 3'
   status: declared
@@ -11534,8 +11534,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: perplexity/sonar
   name: 'Perplexity: Sonar'
   status: declared
@@ -11562,8 +11562,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-r1
   name: 'DeepSeek: R1'
   status: declared
@@ -11589,8 +11589,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: minimax/minimax-01
   name: 'MiniMax: MiniMax-01'
   status: declared
@@ -11617,8 +11617,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: microsoft/phi-4
   name: 'Microsoft: Phi 4'
   status: declared
@@ -11644,8 +11644,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: deepseek/deepseek-chat
   name: 'DeepSeek: DeepSeek V3'
   status: declared
@@ -11671,8 +11671,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sao10k/l3.3-euryale-70b
   name: 'Sao10K: Llama 3.3 Euryale 70B'
   status: declared
@@ -11697,8 +11697,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/o1
   name: 'OpenAI: o1'
   status: declared
@@ -11726,8 +11726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/command-r7b-12-2024
   name: 'Cohere: Command R7B (12-2024)'
   status: declared
@@ -11753,8 +11753,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-3.3-70b-instruct
   name: 'Meta: Llama 3.3 70B Instruct'
   status: declared
@@ -11780,8 +11780,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: amazon/nova-lite-v1
   name: 'Amazon: Nova Lite 1.0'
   status: declared
@@ -11808,8 +11808,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: amazon/nova-micro-v1
   name: 'Amazon: Nova Micro 1.0'
   status: declared
@@ -11835,8 +11835,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: amazon/nova-pro-v1
   name: 'Amazon: Nova Pro 1.0'
   status: declared
@@ -11863,8 +11863,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-2024-11-20
   name: 'OpenAI: GPT-4o (2024-11-20)'
   status: declared
@@ -11892,8 +11892,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-large-2407
   name: Mistral Large 2407
   status: declared
@@ -11920,8 +11920,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen-2.5-coder-32b-instruct
   name: Qwen2.5 Coder 32B Instruct
   status: declared
@@ -11948,8 +11948,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: thedrummer/unslopnemo-12b
   name: 'TheDrummer: UnslopNemo 12B'
   status: declared
@@ -11974,8 +11974,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: anthracite-org/magnum-v4-72b
   name: Magnum v4 72B
   status: declared
@@ -12004,8 +12004,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen-2.5-7b-instruct
   name: 'Qwen: Qwen2.5 7B Instruct'
   status: declared
@@ -12031,8 +12031,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-3.2-1b-instruct
   name: 'Meta: Llama 3.2 1B Instruct'
   status: declared
@@ -12058,8 +12058,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-3.2-3b-instruct
   name: 'Meta: Llama 3.2 3B Instruct'
   status: declared
@@ -12086,8 +12086,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: qwen/qwen-2.5-72b-instruct
   name: Qwen2.5 72B Instruct
   status: declared
@@ -12113,8 +12113,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/command-r-08-2024
   name: 'Cohere: Command R (08-2024)'
   status: declared
@@ -12140,8 +12140,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: cohere/command-r-plus-08-2024
   name: 'Cohere: Command R+ (08-2024)'
   status: declared
@@ -12167,8 +12167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sao10k/l3.1-euryale-70b
   name: 'Sao10K: Llama 3.1 Euryale 70B v2.2'
   status: declared
@@ -12193,8 +12193,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nousresearch/hermes-3-llama-3.1-70b
   name: 'Nous: Hermes 3 70B Instruct'
   status: declared
@@ -12221,8 +12221,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: nousresearch/hermes-3-llama-3.1-405b
   name: 'Nous: Hermes 3 405B Instruct'
   status: declared
@@ -12248,8 +12248,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: sao10k/l3-lunaris-8b
   name: 'Sao10K: Llama 3 8B Lunaris'
   status: declared
@@ -12275,8 +12275,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-2024-08-06
   name: 'OpenAI: GPT-4o (2024-08-06)'
   status: declared
@@ -12305,8 +12305,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-3.1-70b-instruct
   name: 'Meta: Llama 3.1 70B Instruct'
   status: declared
@@ -12332,8 +12332,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: meta-llama/llama-3.1-8b-instruct
   name: 'Meta: Llama 3.1 8B Instruct'
   status: declared
@@ -12359,8 +12359,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-nemo
   name: 'Mistral: Mistral Nemo'
   status: declared
@@ -12386,8 +12386,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-mini
   name: 'OpenAI: GPT-4o-mini'
   status: declared
@@ -12415,8 +12415,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-mini-2024-07-18
   name: 'OpenAI: GPT-4o-mini (2024-07-18)'
   status: declared
@@ -12444,8 +12444,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-mini:batch
   name: 'OpenAI: GPT-4o-mini (batch)'
   status: declared
@@ -12473,8 +12473,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: google/gemma-2-27b-it
   name: 'Google: Gemma 2 27B'
   status: declared
@@ -12500,8 +12500,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o
   name: 'OpenAI: GPT-4o'
   status: declared
@@ -12529,8 +12529,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o-2024-05-13
   name: 'OpenAI: GPT-4o (2024-05-13)'
   status: declared
@@ -12558,8 +12558,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4o:batch
   name: 'OpenAI: GPT-4o (batch)'
   status: declared
@@ -12587,8 +12587,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mixtral-8x22b-instruct
   name: 'Mistral: Mixtral 8x22B Instruct'
   status: declared
@@ -12615,8 +12615,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: microsoft/wizardlm-2-8x22b
   name: WizardLM-2 8x22B
   status: declared
@@ -12642,8 +12642,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4-turbo
   name: 'OpenAI: GPT-4 Turbo'
   status: declared
@@ -12672,8 +12672,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4-turbo:batch
   name: 'OpenAI: GPT-4 Turbo (batch)'
   status: declared
@@ -12702,8 +12702,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mistralai/mistral-large
   name: Mistral Large
   status: declared
@@ -12730,8 +12730,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-3.5-turbo-0613
   name: 'OpenAI: GPT-3.5 Turbo (older v0613)'
   status: declared
@@ -12760,8 +12760,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openrouter/auto
   name: Auto Router
   status: declared
@@ -12791,8 +12791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-3.5-turbo-instruct
   name: 'OpenAI: GPT-3.5 Turbo Instruct'
   status: declared
@@ -12817,8 +12817,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-3.5-turbo-16k
   name: 'OpenAI: GPT-3.5 Turbo 16k'
   status: declared
@@ -12844,8 +12844,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: mancer/weaver
   name: 'Mancer: Weaver (alpha)'
   status: declared
@@ -12870,8 +12870,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: undi95/remm-slerp-l2-13b
   name: ReMM SLERP 13B
   status: declared
@@ -12896,8 +12896,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: gryphe/mythomax-l2-13b
   name: MythoMax 13B
   status: declared
@@ -12922,8 +12922,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-3.5-turbo
   name: 'OpenAI: GPT-3.5 Turbo'
   status: declared
@@ -12952,8 +12952,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-3.5-turbo:batch
   name: 'OpenAI: GPT-3.5 Turbo (batch)'
   status: declared
@@ -12982,8 +12982,8 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 - id: openai/gpt-4
   name: 'OpenAI: GPT-4'
   status: declared
@@ -13009,7 +13009,7 @@ models:
   evidence:
   - kind: official_api
     url: https://openrouter.ai/api/v1/models
-    at: '2026-10-10T17:48:44Z'
-  last_verified: '2026-10-10T17:48:44Z'
+    at: '2026-10-10T20:10:30Z'
+  last_verified: '2026-10-10T20:10:30Z'
 evidence: []
-last_verified: '2026-10-10T17:48:45Z'
+last_verified: '2026-10-10T20:10:32Z'
