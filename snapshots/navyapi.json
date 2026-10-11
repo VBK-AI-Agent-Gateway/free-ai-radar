@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-11T14:58:20Z",
+ "fetched_at": "2026-10-11T18:49:11Z",
  "url": "https://api.navy/v1/models",
- "hash": "a807e613d5a82ff955d423499a98f6d47e72c9a6cd7242157cad6541e23f9e4b",
+ "hash": "f0eb5c7ddca2f4a448def0abd38159b6ee03da9c66f42c3253f3f1a3daf7f925",
  "payload": {
   "object": "list",
   "data": [
@@ -1700,7 +1700,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
     "pricing": {
-     "prompt": "0.0000000161",
+     "prompt": "0.000000018",
      "completion": "0.00000064",
      "image": null,
      "request": null

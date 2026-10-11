@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T14:59:03Z",
+ "at": "2026-10-11T18:49:53Z",
  "source": "hn_algolia",
  "mentions": [
   {
@@ -9,22 +9,10 @@
    "at": "2026-04-07T12:48:49Z"
   },
   {
-   "title": "Show HN: VebGen – AI agent that understands projects with AST, not LLM tokens",
-   "url": "https://news.ycombinator.com/item?id=45711058",
-   "points": 2,
-   "at": "2025-10-26T12:03:34Z"
-  },
-  {
    "title": "Show HN: LlaMaKey – One master key for all cloud LLM/GenAI APIs",
    "url": "https://news.ycombinator.com/item?id=39381436",
    "points": 6,
    "at": "2024-02-15T11:25:00Z"
-  },
-  {
-   "title": "Show HN: Scrappy Free AI Code Assistant",
-   "url": "https://news.ycombinator.com/item?id=46297932",
-   "points": 1,
-   "at": "2025-12-17T03:34:02Z"
   },
   {
    "title": "Show HN: Papermill Press – An AI-friendly markup language for PDF generation",
@@ -55,12 +43,6 @@
    "url": "https://news.ycombinator.com/item?id=48119543",
    "points": 4,
    "at": "2026-05-13T09:09:48Z"
-  },
-  {
-   "title": "Show HN: Structured LLM Output in iOS Shortcuts",
-   "url": "https://news.ycombinator.com/item?id=43971439",
-   "points": 1,
-   "at": "2025-05-13T10:27:25Z"
   },
   {
    "title": "Show HN: GoogLLM – Google search that returns Markdown instead of HTML",
@@ -117,10 +99,28 @@
    "at": "2026-02-19T13:56:12Z"
   },
   {
-   "title": "Show HN: Fixthisbug.de – AI Code Fixes with Local LLM for Privacy",
-   "url": "https://news.ycombinator.com/item?id=42087203",
-   "points": 2,
-   "at": "2024-11-08T14:43:22Z"
+   "title": "Launch HN: Credal.ai (YC W23) – Data Safety for Enterprise AI",
+   "url": "https://news.ycombinator.com/item?id=36326525",
+   "points": 114,
+   "at": "2023-06-14T14:26:55Z"
+  },
+  {
+   "title": "My First $500 MRR – My thoughts and learnings",
+   "url": "https://news.ycombinator.com/item?id=44935238",
+   "points": 44,
+   "at": "2025-08-17T21:50:22Z"
+  },
+  {
+   "title": "Show HN: Praxos – Context Management for AI Agents",
+   "url": "https://news.ycombinator.com/item?id=44429298",
+   "points": 18,
+   "at": "2025-07-01T00:13:24Z"
+  },
+  {
+   "title": "I optimised my vibe coding tech stack cost to $0",
+   "url": "https://news.ycombinator.com/item?id=46463216",
+   "points": 12,
+   "at": "2026-01-02T09:54:42Z"
   }
  ]
 }
