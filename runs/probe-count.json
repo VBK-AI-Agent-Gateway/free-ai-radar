@@ -18,10 +18,10 @@
   "fastrouter": 2,
   "requesty": 2,
   "llmgateway": 2,
-  "voidai": 1,
-  "nagaai": 1,
-  "navyapi": 1,
-  "mnn": 1,
-  "hcap.ai": 1
+  "voidai": 2,
+  "nagaai": 2,
+  "navyapi": 2,
+  "mnn": 2,
+  "hcap.ai": 2
  }
 }

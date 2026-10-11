@@ -1,0 +1,72 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "readable",
+   "latency_ms": 485,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "voidai",
+   "url": "https://api.voidai.app/v1/models",
+   "at": "2026-10-11T10:57:01Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 1015,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "nagaai",
+   "url": "https://api.naga.ac/v1/models",
+   "at": "2026-10-11T10:57:02Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 1042,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "navyapi",
+   "url": "https://api.navy/v1/models",
+   "at": "2026-10-11T10:57:03Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 993,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "mnn",
+   "url": "https://api.mnnai.ru/v1/models",
+   "at": "2026-10-11T10:57:04Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": 118,
+   "http": 403,
+   "provider": "hcap.ai",
+   "url": "https://hcap.ai/v1/models",
+   "at": "2026-10-11T10:57:04Z"
+  }
+ ],
+ "skipped_budget": [
+  "openai",
+  "anthropic",
+  "google",
+  "openrouter",
+  "groq",
+  "mistral",
+  "cohere",
+  "together",
+  "deepseek",
+  "zhipu",
+  "deepinfra",
+  "sambanova",
+  "novita",
+  "vercel",
+  "fastrouter",
+  "requesty",
+  "llmgateway"
+ ]
+}
