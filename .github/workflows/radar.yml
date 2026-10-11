@@ -51,6 +51,8 @@ jobs:
         with: {name: providers, path: "providers/**"}
       - uses: actions/upload-artifact@v4
         with: {name: catalog, path: "docs/free-catalog.json"}
+      - uses: actions/upload-artifact@v4
+        with: {name: candidates, path: "candidates/**"}
 
   probe:     # 探测员:唯一能读探测密钥的 job
     needs: test
@@ -86,6 +88,8 @@ jobs:
         with: {name: providers, path: providers/}
       - uses: actions/download-artifact@v4
         with: {name: catalog, path: docs/}
+      - uses: actions/download-artifact@v4
+        with: {name: candidates, path: candidates/}
       - run: python agents/verdict.py
       - name: Snapshot baseline (last round free-models.json, before publisher overwrites)
         run: cp docs/free-models.json docs/free-models.baseline.json 2>/dev/null || true
@@ -100,7 +104,7 @@ jobs:
         run: |
           git config user.name "free-ai-radar[bot]"
           git config user.email "radar@users.noreply.github.com"
-          git add providers/ docs/ README.md runs/ snapshots/ state.changes.json || true
+          git add providers/ docs/ README.md runs/ snapshots/ state.changes.json candidates/ || true
           git diff --cached --quiet || git commit -m "radar: auto update $(date -u +%FT%TZ)"
           git push
       - name: Notify telegram (small changes auto-publish)

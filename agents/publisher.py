@@ -66,6 +66,7 @@ def flat(rows):
                 "tools": caps.get("tools"),
                 "json_mode": caps.get("json_mode"),
                 "created": m.get("created"),
+                "first_seen": m.get("first_seen"),
                 "last_verified": r.get("last_verified"),
                 "last_fetched": m.get("last_fetched") or r.get("last_fetched") or r.get("last_verified"),
                 "last_probed": m.get("last_probed") or r.get("last_probed"),
@@ -494,7 +495,7 @@ function render(){
     if (sort==="free") return (b.free?1:0)-(a.free?1:0) || (a.name||"").localeCompare(b.name||"");
     if (sort==="ctx") return (b.context_length||0)-(a.context_length||0);
     if (sort==="price") return (a.input_per_million==null?1e9:a.input_per_million)-(b.input_per_million==null?1e9:b.input_per_million);
-    if (sort==="new") return (b.created||0)-(a.created||0);
+    if (sort==="new") return (b.first_seen||"") > (a.first_seen||"") ? 1 : (b.first_seen||"") < (a.first_seen||"") ? -1 : 0;
     return 0;
   });
   const el = document.getElementById("list");

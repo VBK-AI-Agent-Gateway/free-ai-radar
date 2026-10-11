@@ -122,12 +122,17 @@ PARSERS = {"openrouter": parse_openrouter, "google": parse_google, "openai": par
 
 
 def update_provider(pid, models):
-    """合并进 providers/{pid}.yaml,按 id 去重,保留人工修订字段。"""
+    """合并进 providers/{pid}.yaml,按 id 去重,保留人工修订字段。新模型写 first_seen(增量情报排序键)。"""
     fp = PROV / f"{pid}.yaml"
     data = yaml.safe_load(fp.read_text(encoding="utf-8")) if fp.exists() else {"provider": pid}
     by_id = {m["id"]: m for m in (data.get("models") or [])}
+    now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for m in models:
-        by_id[m["id"]] = {**by_id.get(m["id"], {}), **m}
+        existed = m["id"] in by_id  # 本次合并前已存在 = 存量, 不补 first_seen(收录时间已不可考)
+        merged = {**by_id.get(m["id"], {}), **m}
+        if not existed:
+            merged.setdefault("first_seen", now_iso)  # 真正新增的模型记录收录时间; 存量保持缺失不伪造
+        by_id[m["id"]] = merged
     data["models"] = list(by_id.values())
     data["last_verified"] = _now()
     fp.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False), encoding="utf-8")

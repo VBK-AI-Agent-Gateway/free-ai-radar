@@ -71,11 +71,58 @@ def ref_free_providers():
     return found
 
 
+def zukixa_free_providers():
+    """方案第 1 层补充源: zukixa/cool-ai-stuff README 表格, 提取每行 Models 列的 /v1/models 端点。
+    这些是 OpenAI 兼容的免费/试用 API 端点, 作为候选 provider 进队列待确认。
+    返回 {provider: {free_models:[], src, models_url}}; provider 取自服务名(小写去空格)。"""
+    url = "https://raw.githubusercontent.com/zukixa/cool-ai-stuff/main/README.md"
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=25) as r:
+            text = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"discover: fetch fail {url}: {str(e)[:120]}", file=sys.stderr)
+        return {}
+    found = {}
+    for line in text.splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < 6:
+            continue
+        # 表头/分隔行跳过
+        if cells[0].lower() in ("service", "services") or set(cells[0]) <= set("-: "):
+            continue
+        # 服务名在第 0 列的 [Name](link) 里
+        name = cells[0]
+        if "[" in name and "](" in name:
+            name = name.split("[", 1)[1].split("]", 1)[0]
+        name = name.strip().lower().replace(" ", "-")
+        if not name:
+            continue
+        # Models 端点在任意列的 [Models](url) 里
+        models_url = None
+        for cell in cells:
+            if "Models](" in cell:
+                u = cell.split("](", 1)[1].rsplit(")", 1)[0]
+                if "/models" in u or "/v1/models" in u:
+                    models_url = u
+                    break
+        if not models_url:
+            continue
+        found.setdefault(name, {"free_models": [], "src": "zukixa", "models_url": models_url})
+    return found
+
+
 def build_candidates():
     """外部目录的免费来源 - 正本已收录 = 候选(标待确认)。"""
     have = load_canonical_providers()
     have_free_ids = canonical_free_ids()
     ref = ref_free_providers()
+    # 合并 zukixa 发现源(端点级候选, free_models 留空待采集员接)
+    for prov, info in zukixa_free_providers().items():
+        if prov not in ref:
+            ref[prov] = info
     CAND.mkdir(exist_ok=True)
     out = []
     for prov, info in ref.items():
@@ -84,10 +131,12 @@ def build_candidates():
         new_models = [m for m in info["free_models"] if m not in have_free_ids]
         if not new_models and prov not in have:
             out.append({"provider": prov, "status": "candidate", "reason": "provider not in canonical",
-                        "src": info["src"], "free_models": info["free_models"][:20]})
+                        "src": info["src"], "free_models": info["free_models"][:20],
+                        "models_url": info.get("models_url")})
         elif new_models:
             out.append({"provider": prov, "status": "candidate", "reason": "provider not in canonical",
-                        "src": info["src"], "free_models": new_models[:20]})
+                        "src": info["src"], "free_models": new_models[:20],
+                        "models_url": info.get("models_url")})
     # 写队列(去重:按 provider)
     by_p = {c["provider"]: c for c in out}
     (CAND / "discover.json").write_text(
