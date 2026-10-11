@@ -56,9 +56,21 @@ def _verified_signups():
         return {}
 
 
+def _apply_urls():
+    """③ candidates/apply_urls.json: discover 从 open-free-llm-api 提取的 provider -> {apply_url, free_count}。"""
+    p = ROOT / "candidates" / "apply_urls.json"
+    if not p.exists():
+        return {}
+    try:
+        return (json.loads(p.read_text(encoding="utf-8")) or {}).get("providers") or {}
+    except Exception:
+        return {}
+
+
 def canonical_free():
-    """已正本收录的厂商 -> 申请链接=正本 signup/homepage(已实测真注册口)。"""
+    """已正本收录的厂商 -> 申请链接=正本 signup/homepage(已实测真注册口), 兜底 ③ apply_urls.json。"""
     out = {}
+    afs = _apply_urls()
     for f in sorted(PROV.glob("*.yaml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
         pid = d.get("provider") or f.stem
@@ -67,7 +79,8 @@ def canonical_free():
         if not free:
             continue
         su = d.get("signup") or {}
-        link = su.get("url") or d.get("homepage") or d.get("pricing_url") or ""
+        link = (su.get("url") or d.get("homepage") or d.get("pricing_url")
+                or (afs.get(pid) or {}).get("apply_url") or "")
         kind = _link_kind(link) or "homepage"
         out[pid] = {"provider": pid, "name": pid, "free_count": len(free),
                     "sample_models": [m["id"] for m in free[:6]],

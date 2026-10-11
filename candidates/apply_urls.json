@@ -1,0 +1,180 @@
+{
+ "at": "2026-10-11T10:46:11Z",
+ "source": "open-free-llm-api/awesome-freellm-apis",
+ "providers": {
+  "nvidia-nim": {
+   "free_models": [],
+   "free_count": 132,
+   "apply_url": "https://build.nvidia.com/settings/api-keys",
+   "src": "awesome_freellm"
+  },
+  "modelscope": {
+   "free_models": [],
+   "free_count": 61,
+   "apply_url": "https://modelscope.cn/my/myaccesstoken",
+   "src": "awesome_freellm"
+  },
+  "cloudflare-workers-ai": {
+   "free_models": [],
+   "free_count": 40,
+   "apply_url": "https://dash.cloudflare.com/profile/api-tokens",
+   "src": "awesome_freellm"
+  },
+  "opencode-zen": {
+   "free_models": [],
+   "free_count": 34,
+   "apply_url": "https://opencode.ai/auth",
+   "src": "awesome_freellm"
+  },
+  "llm7.io": {
+   "free_models": [],
+   "free_count": 24,
+   "apply_url": "https://token.llm7.io",
+   "src": "awesome_freellm"
+  },
+  "kilo-code": {
+   "free_models": [],
+   "free_count": 22,
+   "apply_url": "https://app.kilo.ai/profile",
+   "src": "awesome_freellm"
+  },
+  "google-gemini": {
+   "free_models": [],
+   "free_count": 19,
+   "apply_url": "https://aistudio.google.com/app/apikey",
+   "src": "awesome_freellm"
+  },
+  "ollama-cloud": {
+   "free_models": [],
+   "free_count": 17,
+   "apply_url": "https://ollama.com/settings/keys",
+   "src": "awesome_freellm"
+  },
+  "mistral-ai": {
+   "free_models": [],
+   "free_count": 15,
+   "apply_url": "https://console.mistral.ai/api-keys",
+   "src": "awesome_freellm"
+  },
+  "ovhcloud-ai-endpoints": {
+   "free_models": [],
+   "free_count": 15,
+   "apply_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+   "src": "awesome_freellm"
+  },
+  "groq": {
+   "free_models": [],
+   "free_count": 12,
+   "apply_url": "https://console.groq.com/keys",
+   "src": "awesome_freellm"
+  },
+  "cohere": {
+   "free_models": [],
+   "free_count": 12,
+   "apply_url": "https://dashboard.cohere.com/api-keys",
+   "src": "awesome_freellm"
+  },
+  "aion-labs": {
+   "free_models": [],
+   "free_count": 11,
+   "apply_url": "https://www.aionlabs.ai/app/api-keys/",
+   "src": "awesome_freellm"
+  },
+  "hugging-face": {
+   "free_models": [],
+   "free_count": 9,
+   "apply_url": "https://huggingface.co/settings/tokens",
+   "src": "awesome_freellm"
+  },
+  "z-ai-zhipu-ai": {
+   "free_models": [],
+   "free_count": 8,
+   "apply_url": "https://open.bigmodel.cn/usercenter/apikeys",
+   "src": "awesome_freellm"
+  },
+  "cerebras": {
+   "free_models": [],
+   "free_count": 6,
+   "apply_url": "https://cloud.cerebras.ai/",
+   "src": "awesome_freellm"
+  },
+  "agnes-ai": {
+   "free_models": [],
+   "free_count": 5,
+   "apply_url": "https://platform.agnes-ai.com/settings/apiKeys",
+   "src": "awesome_freellm"
+  },
+  "alibaba-cloud-model-studio": {
+   "free_models": [],
+   "free_count": 5,
+   "apply_url": "https://bailian.console.alibabacloud.com/?apiKey=1",
+   "src": "awesome_freellm"
+  },
+  "siliconflow": {
+   "free_models": [],
+   "free_count": 4,
+   "apply_url": "https://cloud.siliconflow.cn/account/ak",
+   "src": "awesome_freellm"
+  },
+  "sambanova": {
+   "free_models": [],
+   "free_count": 4,
+   "apply_url": "https://cloud.sambanova.ai/apis",
+   "src": "awesome_freellm"
+  },
+  "xai": {
+   "free_models": [],
+   "free_count": 3,
+   "apply_url": "https://console.x.ai",
+   "src": "awesome_freellm"
+  },
+  "chutes.ai": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://chutes.ai/",
+   "src": "awesome_freellm"
+  },
+  "glhf.chat": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://glhf.chat/",
+   "src": "awesome_freellm"
+  },
+  "grok-xai": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://console.x.ai/",
+   "src": "awesome_freellm"
+  },
+  "ai21-labs": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://studio.ai21.com/account/api-key",
+   "src": "awesome_freellm"
+  },
+  "deepseek": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://platform.deepseek.com/api_keys",
+   "src": "awesome_freellm"
+  },
+  "nscale": {
+   "free_models": [],
+   "free_count": 2,
+   "apply_url": "https://console.nscale.com/",
+   "src": "awesome_freellm"
+  },
+  "nebius": {
+   "free_models": [],
+   "free_count": 1,
+   "apply_url": "https://studio.nebius.com/settings/api-keys",
+   "src": "awesome_freellm"
+  },
+  "openrouter": {
+   "free_models": [],
+   "free_count": 31,
+   "apply_url": "https://openrouter.ai/workspaces/default/keys",
+   "src": "awesome_freellm"
+  }
+ }
+}
