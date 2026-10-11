@@ -1,27 +1,9 @@
 {
- "at": "2026-10-11T09:52:16Z",
+ "at": "2026-10-11T10:02:33Z",
  "live_count": 7,
  "apply_count": 70,
- "total_free_models": 471,
+ "total_free_models": 456,
  "vendors": [
-  {
-   "provider": "openrouter",
-   "name": "openrouter",
-   "free_count": 30,
-   "sample_models": [
-    "apodex/apodex-1.1-mini:free",
-    "dots-studio/dots-3-note-preview:free",
-    "liquid/lfm-2.5-2.6b:free",
-    "nvidia/nemotron-3.5-lightning:free",
-    "thinkingmachines/inkling-small:free",
-    "poolside/laguna-s-2.1:free"
-   ],
-   "apply_url": "https://openrouter.ai/sign-up",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "live",
-   "note": "已收录,直接可看"
-  },
   {
    "provider": "alibaba-token-plan",
    "name": "Alibaba Token Plan",
@@ -168,6 +150,24 @@
     "SCNET_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
+  },
+  {
+   "provider": "openrouter",
+   "name": "openrouter",
+   "free_count": 15,
+   "sample_models": [
+    "apodex/apodex-1.1-mini:free",
+    "dots-studio/dots-3-note-preview:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "thinkingmachines/inkling-small:free",
+    "poolside/laguna-s-2.1:free"
+   ],
+   "apply_url": "https://openrouter.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "iflowcn",
