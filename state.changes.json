@@ -1,30 +1,23 @@
 [
  {
-  "provider": "openrouter",
-  "url": "https://openrouter.ai/api/v1/models",
-  "type": "official_api",
-  "old_hash": "8218fda630ae8528f6c1e1dc5a94aff02b05d5665247695db4d94cdf6fe941c3",
-  "new_hash": "3c1dab97f40bfdafcd357d8cbcb9e28a0e3e32a1a0530c7ef398000b0ebd749f"
- },
- {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "8c245d7b54b99df16fdc7207361387181e91b21a690c18a222867b361dbea915",
-  "new_hash": "de4b0310515bd0db66211a1132597b4e283eab5dcda9a98ffb7babd9e6c55640"
+  "old_hash": "de4b0310515bd0db66211a1132597b4e283eab5dcda9a98ffb7babd9e6c55640",
+  "new_hash": "e68e5cb80a063fb4c6c49c83fb155245156f78fb92a0d0fc450488bd6a0d0b57"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "bf2e8599f31d20b6cc9762a91253dd55a1833368cb19a34a092337a2cb1bddcb",
-  "new_hash": "58ae1a2a358a18510a7ab40e81fef99fbb4f14d35cfbb3f65e64b519e95f41fe"
+  "old_hash": "58ae1a2a358a18510a7ab40e81fef99fbb4f14d35cfbb3f65e64b519e95f41fe",
+  "new_hash": "a43fdeacc9b17fc9da39c525f9615fc3c2cfc8efe5ef16e03c5d44e84be79e86"
  },
  {
   "provider": "mnn",
   "url": "https://api.mnnai.ru/v1/models",
   "type": "official_api",
-  "old_hash": "46be84f64598310a7fc62f800a41937b0142cd68a3c0e2653188622338cf5f42",
-  "new_hash": "87f3fc265e02d27089f854f40f003c35276d1b75cb58c2fa86020a8a26d1ec84"
+  "old_hash": "87f3fc265e02d27089f854f40f003c35276d1b75cb58c2fa86020a8a26d1ec84",
+  "new_hash": "73710c047443a27fb26ee25460a2241098d40d55eea5d7314270eb9e61ad1a84"
  }
 ]
