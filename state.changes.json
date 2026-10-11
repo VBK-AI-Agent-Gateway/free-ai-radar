@@ -3,35 +3,28 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "8320295750096e4c6ab90632a91419686fba70ee37578446c49f9aecf634352b",
-  "new_hash": "09a52454c96a04b4973e78c588e7345a47704270c0be14e7d5e4a2870ad0f757"
+  "old_hash": "09a52454c96a04b4973e78c588e7345a47704270c0be14e7d5e4a2870ad0f757",
+  "new_hash": "110e55891f01aca2ef52052c9e1b6b43dabcafb14182a7b6980e0d370239ffc2"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "849fe861b3cc550312a179b6cc6efd253eacf4fd1f38e49b0b0eabcfa70a7a93",
-  "new_hash": "1fc95b6fbd6faad7d638d9901c7198dfad5fb722a60385d3aa484868b20fc75d"
+  "old_hash": "1fc95b6fbd6faad7d638d9901c7198dfad5fb722a60385d3aa484868b20fc75d",
+  "new_hash": "da3f83d7841af74975999fe44868d0ab6aace822a556048efa6fa301ef8988a0"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "d0e0e423a223e1f7a9d4d097e7666b08f6f2e017383ee0675288d273aa306877",
-  "new_hash": "5d2b0cda7c1a006506b010cc8161deb8ed27c998cc914180a59a16926d80f84b"
- },
- {
-  "provider": "navyapi",
-  "url": "https://api.navy/v1/models",
-  "type": "official_api",
-  "old_hash": "f0eb5c7ddca2f4a448def0abd38159b6ee03da9c66f42c3253f3f1a3daf7f925",
-  "new_hash": "2794438b03235ac0ff12a9b795d3a64fa8ead0fc50b87631fbe0c56c5c7a3dc3"
+  "old_hash": "5d2b0cda7c1a006506b010cc8161deb8ed27c998cc914180a59a16926d80f84b",
+  "new_hash": "e922d0ce76f877c690428ce8f69b473469adf05e32b031ebe5165a05be064ea2"
  },
  {
   "provider": "mnn",
   "url": "https://api.mnnai.ru/v1/models",
   "type": "official_api",
-  "old_hash": "46be84f64598310a7fc62f800a41937b0142cd68a3c0e2653188622338cf5f42",
-  "new_hash": "e6b4c9d87ee7f48ca397dcbc6bd740ce8465b26f72b311e39b708301cdcdeff1"
+  "old_hash": "e6b4c9d87ee7f48ca397dcbc6bd740ce8465b26f72b311e39b708301cdcdeff1",
+  "new_hash": "b7f80b76df098d49e28a2a8390f6ca6d21ec3e0247e10193042230d9ebd012dd"
  }
 ]

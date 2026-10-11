@@ -22,8 +22,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-6-astra
   name: gpt-6-astra
   status: declared
@@ -48,8 +48,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-6-sol
   name: gpt-6-sol
   status: declared
@@ -74,8 +74,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-6-luna
   name: gpt-6-luna
   status: declared
@@ -100,8 +100,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-5.6-sol
   name: gpt-5.6-sol
   status: declared
@@ -126,8 +126,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-5.6-terra
   name: gpt-5.6-terra
   status: declared
@@ -152,8 +152,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-5.6-luna
   name: gpt-5.6-luna
   status: declared
@@ -178,8 +178,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-5.5
   name: gpt-5.5
   status: declared
@@ -204,8 +204,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-opus-5.5
   name: claude-opus-5.5
   status: declared
@@ -230,8 +230,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-opus-5
   name: claude-opus-5
   status: declared
@@ -256,8 +256,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-opus-4.8
   name: claude-opus-4.8
   status: declared
@@ -282,8 +282,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-opus-4.7
   name: claude-opus-4.7
   status: declared
@@ -308,8 +308,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-opus-4.6
   name: claude-opus-4.6
   status: declared
@@ -334,8 +334,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-sonnet-5.5
   name: claude-sonnet-5.5
   status: declared
@@ -360,8 +360,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-sonnet-5
   name: claude-sonnet-5
   status: declared
@@ -386,8 +386,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: claude-sonnet-4.6
   name: claude-sonnet-4.6
   status: declared
@@ -413,8 +413,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.8-flash
   name: gemini-3.8-flash
   status: declared
@@ -439,8 +439,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.8-flash-thinking
   name: gemini-3.8-flash-thinking
   status: declared
@@ -465,8 +465,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.7-flash
   name: gemini-3.7-flash
   status: declared
@@ -491,8 +491,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.7-flash-thinking
   name: gemini-3.7-flash-thinking
   status: declared
@@ -517,8 +517,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.6-flash
   name: gemini-3.6-flash
   status: declared
@@ -543,8 +543,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.6-flash-thinking
   name: gemini-3.6-flash-thinking
   status: declared
@@ -569,8 +569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.5-flash
   name: gemini-3.5-flash
   status: declared
@@ -595,8 +595,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.5-flash-thinking
   name: gemini-3.5-flash-thinking
   status: declared
@@ -621,8 +621,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.5-flash-lite
   name: gemini-3.5-flash-lite
   status: declared
@@ -647,8 +647,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.5-flash-lite-thinking
   name: gemini-3.5-flash-lite-thinking
   status: declared
@@ -673,8 +673,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.1-pro-preview
   name: gemini-3.1-pro-preview
   status: declared
@@ -699,8 +699,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.1-flash-lite
   name: gemini-3.1-flash-lite
   status: declared
@@ -725,8 +725,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.1-flash-lite-thinking
   name: gemini-3.1-flash-lite-thinking
   status: declared
@@ -751,8 +751,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.1-flash-image
   name: gemini-3.1-flash-image
   status: declared
@@ -777,8 +777,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.1-flash-lite-image
   name: gemini-3.1-flash-lite-image
   status: declared
@@ -803,8 +803,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3-pro-image
   name: gemini-3-pro-image
   status: declared
@@ -829,8 +829,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3-flash-preview
   name: gemini-3-flash-preview
   status: declared
@@ -855,8 +855,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3-flash-preview-thinking
   name: gemini-3-flash-preview-thinking
   status: declared
@@ -885,8 +885,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-2.5-pro
   name: gemini-2.5-pro
   status: declared
@@ -911,8 +911,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-2.5-flash
   name: gemini-2.5-flash
   status: declared
@@ -938,8 +938,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-2.5-flash-thinking
   name: gemini-2.5-flash-thinking
   status: declared
@@ -965,8 +965,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-2.5-flash-lite
   name: gemini-2.5-flash-lite
   status: declared
@@ -991,8 +991,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-2.5-flash-image
   name: gemini-2.5-flash-image
   status: declared
@@ -1017,8 +1017,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemma-4-31b-it
   name: gemma-4-31b-it
   status: declared
@@ -1043,8 +1043,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemma-4-26b-a4b-it
   name: gemma-4-26b-a4b-it
   status: declared
@@ -1069,8 +1069,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: llama-3.1-8b-ludicrous
   name: llama-3.1-8b-ludicrous
   status: declared
@@ -1100,8 +1100,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4.1-flash
   name: deepseek-v4.1-flash
   status: declared
@@ -1126,8 +1126,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4-flash-0731
   name: deepseek-v4-flash-0731
   status: declared
@@ -1152,8 +1152,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4-flash
   name: deepseek-v4-flash
   status: declared
@@ -1178,8 +1178,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4-pro-0813
   name: deepseek-v4-pro-0813
   status: declared
@@ -1203,8 +1203,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4-pro
   name: deepseek-v4-pro
   status: declared
@@ -1229,8 +1229,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-chat
   name: deepseek-chat
   status: declared
@@ -1255,8 +1255,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-reasoner
   name: deepseek-reasoner
   status: declared
@@ -1279,8 +1279,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v3.2
   name: deepseek-v3.2
   status: declared
@@ -1306,8 +1306,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.7
   name: grok-4.7
   status: declared
@@ -1332,8 +1332,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.6
   name: grok-4.6
   status: declared
@@ -1357,8 +1357,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.5
   name: grok-4.5
   status: declared
@@ -1382,8 +1382,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.3
   name: grok-4.3
   status: declared
@@ -1408,8 +1408,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.20-reasoning
   name: grok-4.20-reasoning
   status: declared
@@ -1434,8 +1434,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-4.20-non-reasoning
   name: grok-4.20-non-reasoning
   status: declared
@@ -1460,8 +1460,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: codestral-2508
   name: codestral-2508
   status: declared
@@ -1489,8 +1489,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: codestral-latest
   name: codestral-latest
   status: declared
@@ -1518,8 +1518,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-small-2603
   name: mistral-small-2603
   status: declared
@@ -1544,8 +1544,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-small-latest
   name: mistral-small-latest
   status: declared
@@ -1570,8 +1570,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-medium-3-5
   name: mistral-medium-3-5
   status: declared
@@ -1596,8 +1596,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-medium-2508
   name: mistral-medium-2508
   status: declared
@@ -1622,8 +1622,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-medium-latest
   name: mistral-medium-latest
   status: declared
@@ -1648,8 +1648,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-large-2512
   name: mistral-large-2512
   status: declared
@@ -1674,8 +1674,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-large-4
   name: mistral-large-4
   status: declared
@@ -1699,8 +1699,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mistral-large-latest
   name: mistral-large-latest
   status: declared
@@ -1725,8 +1725,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: sonar
   name: sonar
   status: declared
@@ -1751,8 +1751,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: sonar-pro
   name: sonar-pro
   status: declared
@@ -1778,8 +1778,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: sonar-reasoning-pro
   name: sonar-reasoning-pro
   status: declared
@@ -1805,8 +1805,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: sonar-deep-research
   name: sonar-deep-research
   status: declared
@@ -1831,8 +1831,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-a-plus
   name: command-a-plus
   status: declared
@@ -1857,8 +1857,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-a
   name: command-a
   status: declared
@@ -1883,8 +1883,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-a-vision
   name: command-a-vision
   status: declared
@@ -1909,8 +1909,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-a-reasoning
   name: command-a-reasoning
   status: declared
@@ -1935,8 +1935,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-r-7b
   name: command-r-7b
   status: declared
@@ -1961,8 +1961,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-r
   name: command-r
   status: declared
@@ -1987,8 +1987,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: command-r-plus
   name: command-r-plus
   status: declared
@@ -2013,8 +2013,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: c4ai-aya-expanse-32b
   name: c4ai-aya-expanse-32b
   status: declared
@@ -2037,8 +2037,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: c4ai-aya-vision-32b
   name: c4ai-aya-vision-32b
   status: declared
@@ -2061,8 +2061,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-oss-20b
   name: gpt-oss-20b
   status: declared
@@ -2087,8 +2087,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-oss-120b
   name: gpt-oss-120b
   status: declared
@@ -2113,8 +2113,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: kimi-k3
   name: kimi-k3
   status: declared
@@ -2139,8 +2139,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: kimi-k2.7-code
   name: kimi-k2.7-code
   status: declared
@@ -2165,8 +2165,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: kimi-k2.6
   name: kimi-k2.6
   status: declared
@@ -2191,8 +2191,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: mimo-v2.6-flash
   name: mimo-v2.6-flash
   status: declared
@@ -2217,8 +2217,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: minimax-m3
   name: minimax-m3
   status: declared
@@ -2243,8 +2243,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: minimax-m2.7
   name: minimax-m2.7
   status: declared
@@ -2270,8 +2270,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.3
   name: glm-5.3
   status: declared
@@ -2296,8 +2296,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.3-flash
   name: glm-5.3-flash
   status: declared
@@ -2322,8 +2322,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.2
   name: glm-5.2
   status: declared
@@ -2348,8 +2348,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.1
   name: glm-5.1
   status: declared
@@ -2375,8 +2375,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: qwen3.8-27b
   name: qwen3.8-27b
   status: declared
@@ -2401,8 +2401,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: qwen3.6-27b
   name: qwen3.6-27b
   status: declared
@@ -2427,8 +2427,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: nemotron-3-super
   name: nemotron-3-super
   status: declared
@@ -2453,8 +2453,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: venice-uncensored
   name: venice-uncensored
   status: declared
@@ -2477,8 +2477,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: venice-uncensored-role-play
   name: venice-uncensored-role-play
   status: declared
@@ -2501,8 +2501,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v4-flash-venice
   name: deepseek-v4-flash-venice
   status: declared
@@ -2527,8 +2527,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: deepseek-v3.2-venice
   name: deepseek-v3.2-venice
   status: declared
@@ -2554,8 +2554,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5-venice
   name: glm-5-venice
   status: declared
@@ -2581,8 +2581,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.1-venice
   name: glm-5.1-venice
   status: declared
@@ -2608,8 +2608,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-5.2-venice
   name: glm-5.2-venice
   status: declared
@@ -2634,8 +2634,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: glm-4.7-flash-heretic
   name: glm-4.7-flash-heretic
   status: declared
@@ -2660,8 +2660,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: grok-uncensored
   name: grok-uncensored
   status: declared
@@ -2684,8 +2684,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: devious-uncensored
   name: devious-uncensored
   status: declared
@@ -2708,8 +2708,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: revenant-uncensored
   name: revenant-uncensored
   status: declared
@@ -2732,8 +2732,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: laborratse-uncensored
   name: laborratse-uncensored
   status: declared
@@ -2756,8 +2756,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: laborratse-de-uncensored
   name: laborratse-de-uncensored
   status: declared
@@ -2780,8 +2780,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: emotional-medium
   name: emotional-medium
   status: declared
@@ -2804,8 +2804,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-image-2
   name: gpt-image-2
   status: declared
@@ -2842,8 +2842,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-image-1.5
   name: gpt-image-1.5
   status: declared
@@ -2873,8 +2873,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: flux
   name: flux
   status: declared
@@ -2906,8 +2906,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: flux.1-schnell
   name: flux.1-schnell
   status: declared
@@ -2930,8 +2930,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: flux.2-klein
   name: flux.2-klein
   status: declared
@@ -2963,8 +2963,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: z-image
   name: z-image
   status: declared
@@ -2999,8 +2999,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: nano-banana-2
   name: nano-banana-2
   status: declared
@@ -3032,8 +3032,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: p-image
   name: p-image
   status: declared
@@ -3056,8 +3056,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: veo-3.1
   name: veo-3.1
   status: declared
@@ -3094,8 +3094,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-omni
   name: gemini-omni
   status: declared
@@ -3122,8 +3122,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: omni-moderation-latest
   name: omni-moderation-latest
   status: declared
@@ -3146,8 +3146,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: text-embedding-3-large
   name: text-embedding-3-large
   status: declared
@@ -3170,8 +3170,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: text-embedding-3-small
   name: text-embedding-3-small
   status: declared
@@ -3194,8 +3194,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: text-embedding-ada-002
   name: text-embedding-ada-002
   status: declared
@@ -3218,8 +3218,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-embedding-2-preview
   name: gemini-embedding-2-preview
   status: declared
@@ -3242,8 +3242,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-embedding-001
   name: gemini-embedding-001
   status: declared
@@ -3266,8 +3266,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: whisper-1
   name: whisper-1
   status: declared
@@ -3290,8 +3290,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: whisper-large-v3
   name: whisper-large-v3
   status: declared
@@ -3314,8 +3314,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: whisper-large-v3-turbo
   name: whisper-large-v3-turbo
   status: declared
@@ -3338,8 +3338,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-transcribe
   name: gpt-transcribe
   status: declared
@@ -3362,8 +3362,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-4o-transcribe
   name: gpt-4o-transcribe
   status: declared
@@ -3388,8 +3388,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-4o-mini-transcribe
   name: gpt-4o-mini-transcribe
   status: declared
@@ -3414,8 +3414,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: scribe_v2
   name: scribe_v2
   status: declared
@@ -3438,8 +3438,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gpt-4o-mini-tts
   name: gpt-4o-mini-tts
   status: declared
@@ -3464,8 +3464,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: tts-1
   name: tts-1
   status: declared
@@ -3488,8 +3488,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: tts-1-hd
   name: tts-1-hd
   status: declared
@@ -3512,8 +3512,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_v4
   name: eleven_v4
   status: declared
@@ -3536,8 +3536,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_v3
   name: eleven_v3
   status: declared
@@ -3560,8 +3560,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_multilingual_v2
   name: eleven_multilingual_v2
   status: declared
@@ -3584,8 +3584,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_turbo_v2_5
   name: eleven_turbo_v2_5
   status: declared
@@ -3608,8 +3608,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_turbo_v2
   name: eleven_turbo_v2
   status: declared
@@ -3632,8 +3632,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_flash_v2_5
   name: eleven_flash_v2_5
   status: declared
@@ -3656,8 +3656,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: eleven_flash_v2
   name: eleven_flash_v2
   status: declared
@@ -3680,8 +3680,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
 - id: gemini-3.8-flash-tts
   name: gemini-3.8-flash-tts
   status: declared
@@ -3706,7 +3706,7 @@ models:
   evidence:
   - kind: official_api
     url: https://api.navy/v1/models
-    at: '2026-10-11T22:50:35Z'
-  last_verified: '2026-10-11T22:50:35Z'
-last_verified: '2026-10-11T22:50:35Z'
+    at: '2026-10-11T23:47:13Z'
+  last_verified: '2026-10-11T23:47:13Z'
+last_verified: '2026-10-11T23:47:14Z'
 homepage: https://api.navy
