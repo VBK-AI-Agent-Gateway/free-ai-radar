@@ -1,0 +1,2356 @@
+{
+ "fetched_at": "2026-10-11T10:28:10Z",
+ "url": "https://api.mnnai.ru/v1/models",
+ "hash": "46be84f64598310a7fc62f800a41937b0142cd68a3c0e2653188622338cf5f42",
+ "payload": {
+  "data": [
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-6.1-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-6-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-6-luna",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.1,
+     "out_cost_per_million": 0.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.6-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.6-terra",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 12,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.6-luna",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.2,
+     "out_cost_per_million": 1.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-chat-latest",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 30,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.5",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 30,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.4",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 2.5,
+     "out_cost_per_million": 15,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.4-nano",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.2,
+     "out_cost_per_million": 1.25,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high",
+     "xhigh"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.2",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1.75,
+     "out_cost_per_million": 14,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-5.1",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1.25,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "minimal",
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-5",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1.25,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "minimal",
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-5-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.25,
+     "out_cost_per_million": 2,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "minimal",
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-5-nano",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.4,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-4.1",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 4,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-4.1-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.2,
+     "out_cost_per_million": 0.8,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-4.1-nano",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-oss-120b",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.15,
+     "out_cost_per_million": 0.6,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gpt-oss-20b",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "o4-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1.1,
+     "out_cost_per_million": 4.4,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-4o",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 5,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gpt-4o-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.07,
+     "out_cost_per_million": 0.3,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "o3-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.55,
+     "out_cost_per_million": 2.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high",
+     "xhigh"
+    ],
+    "function_calling": true,
+    "id": "grok-4.7",
+    "object": "model",
+    "owned_by": "xai",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 6,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "glm-5.3",
+    "object": "model",
+    "owned_by": "z.ai",
+    "pricing": {
+     "in_cost_per_million": 1.25,
+     "out_cost_per_million": 4.4,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "glm-5.3-flash",
+    "object": "model",
+    "owned_by": "z.ai",
+    "pricing": {
+     "in_cost_per_million": 0.15,
+     "out_cost_per_million": 0.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "minimal",
+     "low",
+     "medium",
+     "high",
+     "xhigh",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "glm-5.2",
+    "object": "model",
+    "owned_by": "z.ai",
+    "pricing": {
+     "in_cost_per_million": 1.4,
+     "out_cost_per_million": 4.4,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-opus-5-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 4,
+     "out_cost_per_million": 20,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-sonnet-5-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-opus-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 25,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-sonnet-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 3,
+     "out_cost_per_million": 15,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-4.8-opus",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 25,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-4.7-opus",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 25,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "claude-4.6-opus",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 5,
+     "out_cost_per_million": 25,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "medium",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "claude-4.6-sonnet",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 3,
+     "out_cost_per_million": 15,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": false,
+    "id": "claude-4.5-haiku",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 5,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "deepseek-v4.1-flash",
+    "object": "model",
+    "owned_by": "deepseek",
+    "pricing": {
+     "in_cost_per_million": 0.15,
+     "out_cost_per_million": 0.6,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "deepseek-v4-pro-0813",
+    "object": "model",
+    "owned_by": "deepseek",
+    "pricing": {
+     "in_cost_per_million": 1.32,
+     "out_cost_per_million": 3.96,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "command-a-03-2025",
+    "object": "model",
+    "owned_by": "cohere",
+    "pricing": {
+     "in_cost_per_million": 2.5,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "command-a-reasoning-08-2025",
+    "object": "model",
+    "owned_by": "cohere",
+    "pricing": {
+     "in_cost_per_million": 2.5,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "command-r7b-12-2024",
+    "object": "model",
+    "owned_by": "cohere",
+    "pricing": {
+     "in_cost_per_million": 0.0375,
+     "out_cost_per_million": 0.15,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "none",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "mistral-large-4",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 1.36,
+     "out_cost_per_million": 4.18,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "mistral-large-latest",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 3,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "mistral-medium-latest",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 0.2,
+     "out_cost_per_million": 1,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "magistral-medium-latest",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 2.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "mistral-small-latest",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.15,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "pixtral-12b-2409",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "in_cost_per_million": 0.075,
+     "out_cost_per_million": 0.075,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-3.8-flash",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 0.75,
+     "out_cost_per_million": 3.75,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-3.7-flash",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 1.5,
+     "out_cost_per_million": 7.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-3.1-pro-preview",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 2,
+     "out_cost_per_million": 12,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "minimal",
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-3.1-flash-lite",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 0.25,
+     "out_cost_per_million": 0.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-2.5-pro",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 1.25,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "gemma-4-31b-it",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 0.14,
+     "out_cost_per_million": 0.4,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "qwen-3.6-plus",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "in_cost_per_million": 1,
+     "out_cost_per_million": 4,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "qwen-3.5-397b-a17b",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "in_cost_per_million": 0.6,
+     "out_cost_per_million": 3.6,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "nemotron-3.5-lightning",
+    "object": "model",
+    "owned_by": "nvidia",
+    "pricing": {
+     "in_cost_per_million": 0.1,
+     "out_cost_per_million": 0.25,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "nemotron-3-ultra",
+    "object": "model",
+    "owned_by": "nvidia",
+    "pricing": {
+     "in_cost_per_million": 0.5,
+     "out_cost_per_million": 2.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "nemotron-3-super",
+    "object": "model",
+    "owned_by": "nvidia",
+    "pricing": {
+     "in_cost_per_million": 0.1,
+     "out_cost_per_million": 0.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "nemotron-3-nano",
+    "object": "model",
+    "owned_by": "nvidia",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.2,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "effort_types": [
+     "low",
+     "high",
+     "max"
+    ],
+    "function_calling": true,
+    "id": "kimi-k3",
+    "object": "model",
+    "owned_by": "moonshotai",
+    "pricing": {
+     "in_cost_per_million": 3,
+     "out_cost_per_million": 15,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "kimi-k2.7-code",
+    "object": "model",
+    "owned_by": "moonshotai",
+    "pricing": {
+     "in_cost_per_million": 0.75,
+     "out_cost_per_million": 3.5,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "kimi-k2.6",
+    "object": "model",
+    "owned_by": "moonshotai",
+    "pricing": {
+     "in_cost_per_million": 0.6,
+     "out_cost_per_million": 3,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": false
+   },
+   {
+    "audio": true,
+    "effort_types": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "function_calling": true,
+    "id": "gemini-3.1-pro-rp",
+    "object": "model",
+    "owned_by": "google",
+    "pricing": {
+     "in_cost_per_million": 6,
+     "out_cost_per_million": 36,
+     "type": "tokens"
+    },
+    "reasoning_effort": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-opus-5-5-rp",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 12,
+     "out_cost_per_million": 60,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-sonnet-5-5-rp",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 7,
+     "out_cost_per_million": 35,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-opus-5-rp",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 15,
+     "out_cost_per_million": 75,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-sonnet-5-rp",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 9,
+     "out_cost_per_million": 45,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "audio": false,
+    "function_calling": true,
+    "id": "claude-opus-4-8-rp",
+    "object": "model",
+    "owned_by": "anthropic",
+    "pricing": {
+     "in_cost_per_million": 15,
+     "out_cost_per_million": 75,
+     "type": "tokens"
+    },
+    "reasoning_effort": false,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "chat.completions",
+    "vision": true
+   },
+   {
+    "id": "z-image-turbo",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.01,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-2-max",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.07,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-2-pro",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-2-flex",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.05,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-2-klein-9b",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.015,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-2-klein-4b",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.014,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "flux-1.1-pro-ultra",
+    "object": "model",
+    "owned_by": "bfl",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "gpt-image-1.5",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "qwen-image-3.0-pro",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.04,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "qwen-image-3.0",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "qwen-image-2.0",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.035,
+     "type": "image"
+    },
+    "size": true,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.generations"
+   },
+   {
+    "id": "text-embedding-3-small",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.01,
+     "out_cost_per_million": 0.01,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "embeddings"
+   },
+   {
+    "id": "text-embedding-3-large",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.065,
+     "out_cost_per_million": 0.065,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "embeddings"
+   },
+   {
+    "id": "text-embedding-ada-002",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "in_cost_per_million": 0.05,
+     "out_cost_per_million": 0.05,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "embeddings"
+   },
+   {
+    "id": "embed-v4.0",
+    "object": "model",
+    "owned_by": "cohere",
+    "pricing": {
+     "in_cost_per_million": 0.12,
+     "out_cost_per_million": 0.47,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "embeddings"
+   },
+   {
+    "id": "mistral-moderation-2603",
+    "object": "model",
+    "owned_by": "mistral",
+    "pricing": {
+     "cost_per_million": 0.1,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "moderations",
+    "vision": false
+   },
+   {
+    "id": "qwen-3-tts-flash",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "in_cost_per_million": 10,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "speech"
+   },
+   {
+    "id": "whisper-1",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "per": "minute",
+     "rate": 0.006
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": [
+     "transcriptions",
+     "translations"
+    ]
+   },
+   {
+    "id": "gpt-4o-transcribe",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "audio_cost_per_million": 6,
+     "in_cost_per_million": 2.5,
+     "out_cost_per_million": 10,
+     "type": "tokens"
+    },
+    "status": "active",
+    "tiers": [
+     "Free",
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": [
+     "transcriptions"
+    ]
+   },
+   {
+    "id": "gpt-image-1.5-edit",
+    "object": "model",
+    "owned_by": "openai",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.edits"
+   },
+   {
+    "id": "qwen-image-3.0-pro-edit",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.04,
+     "type": "image"
+    },
+    "size": true,
+    "status": "inactive",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.edits"
+   },
+   {
+    "id": "qwen-image-3.0-edit",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.03,
+     "type": "image"
+    },
+    "size": true,
+    "status": "inactive",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.edits"
+   },
+   {
+    "id": "qwen-image-2.0-edit",
+    "object": "model",
+    "owned_by": "alibaba",
+    "pricing": {
+     "cost_per_image": 0.045,
+     "type": "image"
+    },
+    "size": false,
+    "status": "active",
+    "tiers": [
+     "Basic",
+     "Pro",
+     "Ultra",
+     "Scale",
+     "Enterprise",
+     "PAYG"
+    ],
+    "type": "images.edits"
+   }
+  ],
+  "object": "list"
+ }
+}

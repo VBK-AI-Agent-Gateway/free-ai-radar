@@ -1,3 +1,2212 @@
 provider: mnn
-models: []
+models:
+- id: gpt-6.1-sol
+  name: gpt-6.1-sol
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-6-sol
+  name: gpt-6-sol
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-6-luna
+  name: gpt-6-luna
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.6-sol
+  name: gpt-5.6-sol
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.6-terra
+  name: gpt-5.6-terra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.6-luna
+  name: gpt-5.6-luna
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-chat-latest
+  name: gpt-chat-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.5
+  name: gpt-5.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.4
+  name: gpt-5.4
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.4-nano
+  name: gpt-5.4-nano
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.2
+  name: gpt-5.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5.1
+  name: gpt-5.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5
+  name: gpt-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5-mini
+  name: gpt-5-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-5-nano
+  name: gpt-5-nano
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4.1
+  name: gpt-4.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4.1-mini
+  name: gpt-4.1-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4.1-nano
+  name: gpt-4.1-nano
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-oss-120b
+  name: gpt-oss-120b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-oss-20b
+  name: gpt-oss-20b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: o4-mini
+  name: o4-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4o
+  name: gpt-4o
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4o-mini
+  name: gpt-4o-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: o3-mini
+  name: o3-mini
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: grok-4.7
+  name: grok-4.7
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: glm-5.3
+  name: glm-5.3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: glm-5.3-flash
+  name: glm-5.3-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: glm-5.2
+  name: glm-5.2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-opus-5-5
+  name: claude-opus-5-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-sonnet-5-5
+  name: claude-sonnet-5-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-opus-5
+  name: claude-opus-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-sonnet-5
+  name: claude-sonnet-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-4.8-opus
+  name: claude-4.8-opus
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-4.7-opus
+  name: claude-4.7-opus
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-4.6-opus
+  name: claude-4.6-opus
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-4.6-sonnet
+  name: claude-4.6-sonnet
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-4.5-haiku
+  name: claude-4.5-haiku
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: deepseek-v4.1-flash
+  name: deepseek-v4.1-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: deepseek-v4-pro-0813
+  name: deepseek-v4-pro-0813
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: command-a-03-2025
+  name: command-a-03-2025
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: command-a-reasoning-08-2025
+  name: command-a-reasoning-08-2025
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: command-r7b-12-2024
+  name: command-r7b-12-2024
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: mistral-large-4
+  name: mistral-large-4
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: mistral-large-latest
+  name: mistral-large-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: mistral-medium-latest
+  name: mistral-medium-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: magistral-medium-latest
+  name: magistral-medium-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: mistral-small-latest
+  name: mistral-small-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: pixtral-12b-2409
+  name: pixtral-12b-2409
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-3.8-flash
+  name: gemini-3.8-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-3.7-flash
+  name: gemini-3.7-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-3.1-pro-preview
+  name: gemini-3.1-pro-preview
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-3.1-flash-lite
+  name: gemini-3.1-flash-lite
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-2.5-pro
+  name: gemini-2.5-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemma-4-31b-it
+  name: gemma-4-31b-it
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-3.6-plus
+  name: qwen-3.6-plus
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-3.5-397b-a17b
+  name: qwen-3.5-397b-a17b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: nemotron-3.5-lightning
+  name: nemotron-3.5-lightning
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: nemotron-3-ultra
+  name: nemotron-3-ultra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: nemotron-3-super
+  name: nemotron-3-super
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: nemotron-3-nano
+  name: nemotron-3-nano
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: kimi-k3
+  name: kimi-k3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: kimi-k2.7-code
+  name: kimi-k2.7-code
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: kimi-k2.6
+  name: kimi-k2.6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gemini-3.1-pro-rp
+  name: gemini-3.1-pro-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-opus-5-5-rp
+  name: claude-opus-5-5-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-sonnet-5-5-rp
+  name: claude-sonnet-5-5-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-opus-5-rp
+  name: claude-opus-5-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-sonnet-5-rp
+  name: claude-sonnet-5-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: claude-opus-4-8-rp
+  name: claude-opus-4-8-rp
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: z-image-turbo
+  name: z-image-turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-2-max
+  name: flux-2-max
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-2-pro
+  name: flux-2-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-2-flex
+  name: flux-2-flex
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-2-klein-9b
+  name: flux-2-klein-9b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-2-klein-4b
+  name: flux-2-klein-4b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: flux-1.1-pro-ultra
+  name: flux-1.1-pro-ultra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-image-1.5
+  name: gpt-image-1.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-3.0-pro
+  name: qwen-image-3.0-pro
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-3.0
+  name: qwen-image-3.0
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-2.0
+  name: qwen-image-2.0
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: text-embedding-3-small
+  name: text-embedding-3-small
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: text-embedding-3-large
+  name: text-embedding-3-large
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: text-embedding-ada-002
+  name: text-embedding-ada-002
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: embed-v4.0
+  name: embed-v4.0
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: mistral-moderation-2603
+  name: mistral-moderation-2603
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-3-tts-flash
+  name: qwen-3-tts-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: whisper-1
+  name: whisper-1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-4o-transcribe
+  name: gpt-4o-transcribe
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: gpt-image-1.5-edit
+  name: gpt-image-1.5-edit
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-3.0-pro-edit
+  name: qwen-image-3.0-pro-edit
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-3.0-edit
+  name: qwen-image-3.0-edit
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
+- id: qwen-image-2.0-edit
+  name: qwen-image-2.0-edit
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.mnnai.ru/v1/models
+    at: '2026-10-11T10:28:40Z'
+  last_verified: '2026-10-11T10:28:40Z'
 homepage: https://api.mnnai.ru
+last_verified: '2026-10-11T10:28:40Z'

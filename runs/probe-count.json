@@ -17,6 +17,11 @@
   "vercel": 2,
   "fastrouter": 2,
   "requesty": 2,
-  "llmgateway": 2
+  "llmgateway": 2,
+  "voidai": 1,
+  "nagaai": 1,
+  "navyapi": 1,
+  "mnn": 1,
+  "hcap.ai": 1
  }
 }

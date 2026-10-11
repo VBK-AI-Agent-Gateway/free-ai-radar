@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T10:02:28Z",
+ "generated_at": "2026-10-11T10:28:45Z",
  "candidates": [
   {
    "provider": "poe",
@@ -1067,22 +1067,6 @@
    "models_url": "https://docs.zukijourney.com/models"
   },
   {
-   "provider": "voidai",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "zukixa",
-   "free_models": [],
-   "models_url": "https://api.voidai.app/v1/models"
-  },
-  {
-   "provider": "nagaai",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "zukixa",
-   "free_models": [],
-   "models_url": "https://api.naga.ac/v1/models"
-  },
-  {
    "provider": "zanityai",
    "status": "candidate",
    "reason": "provider not in canonical",
@@ -1099,22 +1083,6 @@
    "models_url": "https://api.kimetsu.ai/v1/models"
   },
   {
-   "provider": "navyapi",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "zukixa",
-   "free_models": [],
-   "models_url": "https://api.navy/v1/models"
-  },
-  {
-   "provider": "mnn",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "zukixa",
-   "free_models": [],
-   "models_url": "https://api.mnnai.ru/v1/models"
-  },
-  {
    "provider": "webraftai",
    "status": "candidate",
    "reason": "provider not in canonical",
@@ -1129,14 +1097,6 @@
    "src": "zukixa",
    "free_models": [],
    "models_url": "https://voltaisite.onrender.com/v1/models"
-  },
-  {
-   "provider": "hcap.ai",
-   "status": "candidate",
-   "reason": "provider not in canonical",
-   "src": "zukixa",
-   "free_models": [],
-   "models_url": "https://hcap.ai/v1/models"
   },
   {
    "provider": "nexeonai",
