@@ -1,8 +1,8 @@
 {
- "at": "2026-10-11T10:02:33Z",
- "live_count": 7,
+ "at": "2026-10-11T10:18:01Z",
+ "live_count": 9,
  "apply_count": 70,
- "total_free_models": 456,
+ "total_free_models": 466,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -315,6 +315,24 @@
     "ARK_CODING_PLAN_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
+  },
+  {
+   "provider": "nagaai",
+   "name": "nagaai",
+   "free_count": 9,
+   "sample_models": [
+    "apodex-1.1-mini:free",
+    "dots-3-note-preview:free",
+    "lfm-2.5-2.6b:free",
+    "nemotron-3.5-lightning:free",
+    "eleven-multilingual-v2:free",
+    "gpt-4o-mini-tts:free"
+   ],
+   "apply_url": "https://api.naga.ac",
+   "link_kind": "homepage",
+   "btn": "去官网",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "qvac",
@@ -1411,6 +1429,19 @@
     "TOKENROUTER_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
+   "provider": "voidai",
+   "name": "voidai",
+   "free_count": 1,
+   "sample_models": [
+    "qwen3.8-27b:free"
+   ],
+   "apply_url": "https://api.voidai.app",
+   "link_kind": "homepage",
+   "btn": "去官网",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "zeldoc",

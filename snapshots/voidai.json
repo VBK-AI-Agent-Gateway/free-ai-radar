@@ -1,0 +1,2650 @@
+{
+ "fetched_at": "2026-10-11T10:13:35Z",
+ "url": "https://api.voidai.app/v1/models",
+ "hash": "c2f0e95cc332e4c795a1118c80b7cc8c8c678c0f8d7628705337e42d95a97956",
+ "payload": {
+  "object": "list",
+  "data": [
+   {
+    "id": "gpt-4o-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.06,
+    "output_multiplier": 0.24,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-4o",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-4.1-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.06,
+    "output_multiplier": 0.24,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-4.1",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.8,
+    "output_multiplier": 3.2,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-oss-20b",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.02,
+    "output_multiplier": 0.08,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-oss-120b",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.04,
+    "output_multiplier": 0.16,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5-nano",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.02,
+    "output_multiplier": 0.08,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.4-nano",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.08,
+    "output_multiplier": 0.25,
+    "cache_read_multiplier": 0.5,
+    "max_context_tokens": 400000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.06,
+    "output_multiplier": 0.24,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.4-mini",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.09,
+    "output_multiplier": 0.3,
+    "cache_read_multiplier": 0.5,
+    "max_context_tokens": 400000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.8,
+    "output_multiplier": 3.2,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.1",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.8,
+    "output_multiplier": 3.2,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.2",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.8,
+    "output_multiplier": 3.2,
+    "cache_read_multiplier": 0.5,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.4",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.6,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.1,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 1.6,
+    "long_context_output_multiplier": 3,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.5",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 3.2,
+    "output_multiplier": 8,
+    "cache_read_multiplier": 0.1,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 3.2,
+    "long_context_output_multiplier": 6,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.6-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 4,
+    "long_context_output_multiplier": 9,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.6-terra",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 3,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 2,
+    "long_context_output_multiplier": 4.5,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.6-luna",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.3,
+    "output_multiplier": 1.2,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 0.6,
+    "long_context_output_multiplier": 1.8,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-6-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 4,
+    "long_context_output_multiplier": 9,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-6.1-sol",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 4,
+    "long_context_output_multiplier": 9,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-6-astra",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 7.5,
+    "output_multiplier": 30,
+    "cache_read_multiplier": 0.1,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-6-luna",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.3,
+    "output_multiplier": 1.2,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 0.6,
+    "long_context_output_multiplier": 1.8,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.4-pro",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 25000,
+    "input_multiplier": 20,
+    "output_multiplier": 60,
+    "cache_read_multiplier": 1,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 40,
+    "long_context_output_multiplier": 90,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.5-pro",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 25000,
+    "input_multiplier": 20,
+    "output_multiplier": 60,
+    "cache_read_multiplier": 1,
+    "long_context_threshold": 272000,
+    "long_context_input_multiplier": 40,
+    "long_context_output_multiplier": 90,
+    "max_context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gpt-5.3-codex",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.5,
+    "max_context_tokens": 400000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "o3",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.8,
+    "output_multiplier": 3.2,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-image-1",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/images/generations",
+     "/v1/images/edits"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 12000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-image-1.5",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/images/generations",
+     "/v1/images/edits"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 8000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-image-2",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/images/generations",
+     "/v1/images/edits"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 10000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "text-embedding-3-small",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/embeddings"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 50,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "text-embedding-3-large",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/embeddings"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 50,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "tts-1",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/speech"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 75,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "tts-1-hd",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/speech"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 150,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-4o-mini-tts",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/speech"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 250,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "whisper-1",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/transcriptions",
+     "/v1/audio/translations"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 10,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-4o-mini-transcribe",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/transcriptions"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 20,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gpt-4o-transcribe",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/audio/transcriptions"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 50,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "omni-moderation-latest",
+    "object": "model",
+    "owned_by": "openai",
+    "endpoints": [
+     "/v1/moderations"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "claude-opus-4-1-20250805",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 6,
+    "output_multiplier": 30,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-4-5-20251101",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-sonnet-4-5-20250929",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-haiku-4-5-20251001",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.4,
+    "output_multiplier": 2,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-4-6",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_tokens",
+     "custom_200m_plan"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-4-7",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-4-8",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "cache_write_multiplier": 1.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "max_context_tokens": 1000000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-opus-5-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 2,
+    "output_multiplier": 10,
+    "cache_read_multiplier": 0.1,
+    "max_context_tokens": 1000000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-sonnet-4-6",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-sonnet-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 5,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "claude-fable-5",
+    "object": "model",
+    "owned_by": "anthropic",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses",
+     "/v1/messages",
+     "/v1/messages/count_tokens"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 7.5,
+    "output_multiplier": 30,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-2.5-flash",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.22,
+    "output_multiplier": 1.9,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-2.5-flash-image",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.22,
+    "output_multiplier": 1.9,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3-flash-preview",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.38,
+    "output_multiplier": 2.3,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.5-flash",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 5,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.6-flash",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.7-flash",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.8-flash",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 4,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-2.5-pro",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.95,
+    "output_multiplier": 7.5,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.1-pro-preview",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.1-flash-image",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.38,
+    "output_multiplier": 2.3,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3-pro-image",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.5,
+    "output_multiplier": 9,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.1-flash-lite-image",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.4,
+    "output_multiplier": 2.3,
+    "cache_read_multiplier": 0.25,
+    "max_context_tokens": 65536,
+    "max_output_tokens": 4096,
+    "supports_streaming": true,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gemini-nano-banana-2.1",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 2.3,
+    "cache_read_multiplier": 0.25,
+    "max_context_tokens": 131072,
+    "max_output_tokens": 32768,
+    "supports_streaming": true,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "gemini-3.1-flash-lite",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.2,
+    "output_multiplier": 1.1,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-3.5-flash-lite",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.22,
+    "output_multiplier": 1.9,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemma-4-31b-it",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.04,
+    "output_multiplier": 0.16,
+    "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "sonar",
+    "object": "model",
+    "owned_by": "perplexity",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.2,
+    "output_multiplier": 0.2,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "sonar-pro",
+    "object": "model",
+    "owned_by": "perplexity",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 3,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "sonar-reasoning-pro",
+    "object": "model",
+    "owned_by": "perplexity",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 3,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "sonar-deep-research",
+    "object": "model",
+    "owned_by": "perplexity",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.4,
+    "output_multiplier": 1.6,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "deepseek-v3.2",
+    "object": "model",
+    "owned_by": "deepseek",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.2,
+    "output_multiplier": 0.3,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "deepseek-v4-flash",
+    "object": "model",
+    "owned_by": "deepseek",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.35,
+    "output_multiplier": 0.65,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "deepseek-v4-flash-0731",
+    "object": "model",
+    "owned_by": "deepseek",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.35,
+    "output_multiplier": 0.65,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "deepseek-v4-pro",
+    "object": "model",
+    "owned_by": "deepseek",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.5,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "deepseek-v4-pro-0813",
+    "object": "model",
+    "owned_by": "deepseek",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.5,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "qwen3-235b-a22b-instruct",
+    "object": "model",
+    "owned_by": "qwen",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.05,
+    "output_multiplier": 0.5,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "qwen3-coder-480b-a35b-instruct",
+    "object": "model",
+    "owned_by": "qwen",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.05,
+    "output_multiplier": 0.5,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "qwen3.8-2.4t-a95b",
+    "object": "model",
+    "owned_by": "qwen",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.05,
+    "output_multiplier": 0.5,
+    "cache_read_multiplier": 0.1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "qwen3.8-27b:free",
+    "object": "model",
+    "owned_by": "qwen",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0,
+    "output_multiplier": 0,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "kimi-k2.5",
+    "object": "model",
+    "owned_by": "moonshot",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.12,
+    "output_multiplier": 0.6,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "kimi-k2.6",
+    "object": "model",
+    "owned_by": "moonshot",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.12,
+    "output_multiplier": 0.6,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "kimi-k2.7-code",
+    "object": "model",
+    "owned_by": "moonshot",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.12,
+    "output_multiplier": 0.6,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "kimi-k3",
+    "object": "model",
+    "owned_by": "moonshot",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens",
+     "custom_200m_plan",
+     "custom_200m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 3,
+    "cache_read_multiplier": 0.1,
+    "max_context_tokens": 1000000,
+    "max_output_tokens": 128000,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "flux-kontext-pro",
+    "object": "model",
+    "owned_by": "black-forest-labs",
+    "endpoints": [
+     "/v1/images/generations"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 3000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "flux-kontext-max",
+    "object": "model",
+    "owned_by": "black-forest-labs",
+    "endpoints": [
+     "/v1/images/generations"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 3000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "midjourney",
+    "object": "model",
+    "owned_by": "midjourney",
+    "endpoints": [
+     "/v1/images/generations"
+    ],
+    "plan_requirements": [
+     "contributor",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 75000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "recraft-v3",
+    "object": "model",
+    "owned_by": "recraft",
+    "endpoints": [
+     "/v1/images/generations"
+    ],
+    "plan_requirements": [
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "fixed",
+    "base_cost": 1000,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": false,
+    "supports_tool_calling": false
+   },
+   {
+    "id": "umbra",
+    "object": "model",
+    "owned_by": "voidai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.02,
+    "output_multiplier": 0.1,
+    "cache_read_multiplier": 1,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "glm-5.1",
+    "object": "model",
+    "owned_by": "z-ai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 0.85,
+    "cache_read_multiplier": 0.2,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "glm-5.2",
+    "object": "model",
+    "owned_by": "z-ai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 0.85,
+    "cache_read_multiplier": 0.2,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "glm-5.3",
+    "object": "model",
+    "owned_by": "z-ai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.6,
+    "output_multiplier": 0.85,
+    "cache_read_multiplier": 0.2,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "glm-5.3-flash",
+    "object": "model",
+    "owned_by": "z-ai",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "free",
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 0.3,
+    "output_multiplier": 0.6,
+    "cache_read_multiplier": 0.2,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   }
+  ]
+ }
+}

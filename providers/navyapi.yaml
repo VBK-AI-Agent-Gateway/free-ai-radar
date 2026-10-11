@@ -1,0 +1,3712 @@
+provider: navyapi
+models:
+- id: schizogpt
+  name: schizogpt
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-6-astra
+  name: gpt-6-astra
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work.
+    It is suited for advanced analysis, software engineering, deep research, scientific
+    work, and document creation, with particular strengths in long-horizon...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 10.0
+    output_per_million: 50.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-6-sol
+  name: gpt-6-sol
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series,
+    positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier.
+    It is suited for demanding professional...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-6-luna
+  name: gpt-6-luna
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series,
+    positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive
+    workloads such as chat, classification, and lightweight agentic...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.1
+    output_per_million: 0.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-sol
+  name: gpt-5.6-sol
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is
+    suited for complex reasoning, coding, and agentic workflows, and is particularly
+    strong at command-line and multi-step coding tasks...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-terra
+  name: gpt-5.6-terra
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned
+    between the flagship Sol tier and the cost-efficient Luna tier. It is suited for
+    everyday coding, reasoning, and agentic...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 12.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-luna
+  name: gpt-5.6-luna
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series.
+    It is suited for high-volume, latency-sensitive tasks such as chat, classification,
+    and lightweight agentic workflows, providing capable reasoning for...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.2
+    output_per_million: 1.2
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.5
+  name: gpt-5.5
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-5.5 is OpenAI’s frontier model designed for complex professional
+    workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and
+    improved token efficiency on hard tasks. It features a 1M+ token...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0
+    output_per_million: 30.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-5.5
+  name: claude-opus-5.5
+  status: declared
+  free: false
+  free_type: paid
+  description: Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning,
+    coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly
+    strong at multi-step changes in large codebases, code...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 4.0
+    output_per_million: 20.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-5
+  name: claude-opus-5
+  status: declared
+  free: false
+  free_type: paid
+  description: Claude Opus 5 is Anthropic’s flagship model for demanding reasoning,
+    coding, and long-horizon agentic work. It is particularly strong at end-to-end
+    software tasks, code review and bug finding, visual analysis...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0
+    output_per_million: 25.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4.8
+  name: claude-opus-4.8
+  status: declared
+  free: false
+  free_type: paid
+  description: Claude Opus 4.8 is Anthropic's most capable generally available model
+    in the Opus family. It supports text, image, and file inputs with text output,
+    with reasoning support and a 1M-token...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0
+    output_per_million: 25.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4.7
+  name: claude-opus-4.7
+  status: declared
+  free: false
+  free_type: paid
+  description: Opus 4.7 is the next generation of Anthropic's Opus family, built for
+    long-running, asynchronous agents. Building on the coding and agentic strengths
+    of Opus 4.6, it delivers stronger performance on...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0
+    output_per_million: 25.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4.6
+  name: claude-opus-4.6
+  status: declared
+  free: false
+  free_type: paid
+  description: Opus 4.6 is Anthropic’s strongest model for coding and long-running
+    professional tasks. It is built for agents that operate across entire workflows
+    rather than single prompts, making it especially effective...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0
+    output_per_million: 25.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-5.5
+  name: claude-sonnet-5.5
+  status: declared
+  free: false
+  free_type: paid
+  description: Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped
+    everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially
+    strong at building features, fixing bugs, and producing...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-5
+  name: claude-sonnet-5
+  status: declared
+  free: false
+  free_type: paid
+  description: Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier
+    performance across coding, agents, and professional work. It supports adaptive
+    thinking with selectable reasoning effort levels (low, medium, high, max,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-4.6
+  name: claude-sonnet-4.6
+  status: declared
+  free: false
+  free_type: paid
+  description: Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with
+    frontier performance across coding, agents, and professional work. It excels at
+    iterative development, complex codebase navigation, end-to-end project management
+    with...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 3.0
+    output_per_million: 15.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.8-flash
+  name: gemini-3.8-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.8 Flash is Google's most intelligent Flash model with significant
+    gains from 3.7 Flash across software engineering, agentic tasks, and multi-step
+    reasoning.
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.8-flash-thinking
+  name: gemini-3.8-flash-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.8 Flash is Google's most intelligent Flash model with significant
+    gains from 3.7 Flash across software engineering, agentic tasks, and multi-step
+    reasoning.
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.7-flash
+  name: gemini-3.7-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.7 Flash is a multimodal model from Google for fast agentic
+    workflows, coding, and complex multi-step reasoning. It is designed for tasks
+    that require responsive performance and reliable multi-step...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.7-flash-thinking
+  name: gemini-3.7-flash-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.7 Flash is a multimodal model from Google for fast agentic
+    workflows, coding, and complex multi-step reasoning. It is designed for tasks
+    that require responsive performance and reliable multi-step...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.6-flash
+  name: gemini-3.6-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.6 Flash is a high-efficiency model from Google for coding,
+    agentic workflows, and web and app development. It is designed to produce polished
+    outputs with fewer unnecessary edits and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.6-flash-thinking
+  name: gemini-3.6-flash-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.6 Flash is a high-efficiency model from Google for coding,
+    agentic workflows, and web and app development. It is designed to produce polished
+    outputs with fewer unnecessary edits and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.5-flash
+  name: gemini-3.5-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing
+    near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly
+    optimized for coding proficiency and parallel agentic execution...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.5
+    output_per_million: 9.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.5-flash-thinking
+  name: gemini-3.5-flash-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing
+    near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly
+    optimized for coding proficiency and parallel agentic execution...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.5
+    output_per_million: 9.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.5-flash-lite
+  name: gemini-3.5-flash-lite
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded
+    agentic capabilities. It is suited for subagents that execute focused tasks within
+    complex, multi-agent workflows.
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.5-flash-lite-thinking
+  name: gemini-3.5-flash-lite-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded
+    agentic capabilities. It is suited for subagents that execute focused tasks within
+    complex, multi-agent workflows.
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.1-pro-preview
+  name: gemini-3.1-pro-preview
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering
+    enhanced software engineering performance, improved agentic reliability, and more
+    efficient token usage across complex workflows. Building on the multimodal foundation...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 12.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.1-flash-lite
+  name: gemini-3.1-flash-lite
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model
+    optimized for low-latency, high-volume workloads. It supports text, image, video,
+    audio, and PDF inputs, and is designed for lightweight agentic...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.25
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.1-flash-lite-thinking
+  name: gemini-3.1-flash-lite-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model
+    optimized for low-latency, high-volume workloads. It supports text, image, video,
+    audio, and PDF inputs, and is designed for lightweight agentic...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.25
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.1-flash-image
+  name: gemini-3.1-flash-image
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.1 Flash Image, a.k.a. "Nano Banana 2," is Google’s latest
+    state of the art image generation and editing model, delivering Pro-level visual
+    quality at Flash speed. It combines advanced...
+  capabilities:
+    context_length: null
+    max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.5
+    output_per_million: 3.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.1-flash-lite-image
+  name: gemini-3.1-flash-lite-image
+  status: declared
+  free: false
+  free_type: paid
+  description: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest,
+    most cost-efficient Gemini image model, built for high-velocity developer pipelines
+    and rapid-fire visual exploration. It delivers text-to-image generation...
+  capabilities:
+    context_length: null
+    max_output_tokens: 58982
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.25
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3-pro-image
+  name: gemini-3-pro-image
+  status: declared
+  free: false
+  free_type: paid
+  description: Nano Banana Pro is Google’s most advanced image-generation and editing
+    model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly
+    improved multimodal reasoning, real-world grounding, and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 12.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3-flash-preview
+  name: gemini-3-flash-preview
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3 Flash Preview is a high speed, high value thinking model designed
+    for agentic workflows, multi turn chat, and coding assistance. It delivers near
+    Pro level reasoning and tool...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.5
+    output_per_million: 3.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3-flash-preview-thinking
+  name: gemini-3-flash-preview-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Building on the reasoning capabilities of Gemini 3 Pro, Gemini 3 Flash
+    is a powerful but affordable and performant model. It has exceptional world knowledge,
+    multimodal understanding and reasoning capabilities at a fraction of the cost
+    of equivalent models (as of December 2025).
+
+
+    This bot supports optional parameters for additional customization.'
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.404
+    output_per_million: 2.4242
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-2.5-pro
+  name: gemini-2.5-pro
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced
+    reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities,
+    enabling it to reason through responses with enhanced accuracy...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.25
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-2.5-flash
+  name: gemini-2.5-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically
+    designed for advanced reasoning, coding, mathematics, and scientific tasks. It
+    includes built-in "thinking" capabilities, enabling it to provide responses with
+    greater...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65535
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-2.5-flash-thinking
+  name: gemini-2.5-flash-thinking
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically
+    designed for advanced reasoning, coding, mathematics, and scientific tasks. It
+    includes built-in "thinking" capabilities, enabling it to provide responses with
+    greater...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65535
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-2.5-flash-lite
+  name: gemini-2.5-flash-lite
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini
+    2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved
+    throughput, faster token generation, and better performance...
+  capabilities:
+    context_length: null
+    max_output_tokens: 65535
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.1
+    output_per_million: 0.4
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-2.5-flash-image
+  name: gemini-2.5-flash-image
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 2.5 Flash Image, a.k.a. "Nano Banana," is now generally available.
+    It is a state of the art image generation model with contextual understanding.
+    It is capable of image generation,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemma-4-31b-it
+  name: gemma-4-31b-it
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model
+    supporting text and image input with text output. Features a 256K token context
+    window, configurable thinking/reasoning mode, native function...
+  capabilities:
+    context_length: null
+    max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.09
+    output_per_million: 0.34
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemma-4-26b-a4b-it
+  name: gemma-4-26b-a4b-it
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE)
+    model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate
+    per token during inference — delivering near-31B quality at...
+  capabilities:
+    context_length: null
+    max_output_tokens: 235929
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.0675
+    output_per_million: 0.225
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: llama-3.1-8b-ludicrous
+  name: llama-3.1-8b-ludicrous
+  status: declared
+  free: null
+  free_type: unknown
+  description: 'The smallest and fastest model from Meta''s Llama 3.1 family. This
+    open-source language model excels in multilingual dialogue, outperforming numerous
+    industry benchmarks for both closed and open-source conversational AI systems.  All
+    data you submit to this bot is governed by the Poe privacy policy and is only
+    sent to DeepInfra, a US-based company.
+
+
+    Input token limit 128k, output token limit 8k. Quantization: FP16 (official).'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4.1-flash
+  name: deepseek-v4.1-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek,
+    and the first built on the company's Causal Encoder-Decoder (CED) architecture.
+    It activates 8B parameters on input and 16B on...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 1.2
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4-flash-0731
+  name: deepseek-v4-flash-0731
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek,
+    with 13B active parameters out of 284B total. This re-post-trained revision is
+    suited for coding, reasoning, and agent workflows....
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.0142
+    output_per_million: 1.28
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4-flash
+  name: deepseek-v4-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model
+    from DeepSeek with 284B total parameters and 13B activated parameters, supporting
+    a 1M-token context window. It is designed for fast inference and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.03
+    output_per_million: 1.28
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4-pro-0813
+  name: deepseek-v4-pro-0813
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from
+    DeepSeek. This is the GA release of DeepSeek V4 Pro.
+  capabilities:
+    context_length: null
+    max_output_tokens: 393216
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.66
+    output_per_million: 1.98
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4-pro
+  name: deepseek-v4-pro
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek
+    with 1.6T total parameters and 49B activated parameters, supporting a 1M-token
+    context window. It is designed for advanced reasoning, coding,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 384000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.2088
+    output_per_million: 0.4176
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-chat
+  name: deepseek-chat
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek-V3 is the latest model from the DeepSeek team, building upon
+    the instruction following and coding abilities of the previous versions. Pre-trained
+    on nearly 15 trillion tokens, the reported evaluations...
+  capabilities:
+    context_length: null
+    max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.32
+    output_per_million: 0.89
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-reasoner
+  name: deepseek-reasoner
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v3.2
+  name: deepseek-v3.2
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek-V3.2 is a large language model designed to harmonize high
+    computational efficiency with strong reasoning and agentic tool-use performance.
+    It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention
+    mechanism...
+  capabilities:
+    context_length: null
+    max_output_tokens: 147456
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.259
+    output_per_million: 0.8
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.7
+  name: grok-4.7
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and
+    knowledge work, succeeding Grok 4.6. It is particularly strong at long-running
+    software engineering tasks, verifying its own work, and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 450000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 6.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.6
+  name: grok-4.6
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.6 is a model from SpaceXAI with frontier performance on coding,
+    knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).
+  capabilities:
+    context_length: null
+    max_output_tokens: 450000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 6.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.5
+  name: grok-4.5
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.5 is a model from SpaceXAI with frontier performance on coding,
+    knowledge work, and STEM.
+  capabilities:
+    context_length: null
+    max_output_tokens: 450000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 6.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.3
+  name: grok-4.3
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image
+    inputs with text output, and is suited for agentic workflows, instruction-following
+    tasks, and applications requiring high factual...
+  capabilities:
+    context_length: null
+    max_output_tokens: 900000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.25
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.20-reasoning
+  name: grok-4.20-reasoning
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.20 is a reasoning model from SpaceXAI with industry-leading
+    speed and agentic tool calling capabilities. It combines the lowest hallucination
+    rate on the market with strict prompt adherance, delivering...
+  capabilities:
+    context_length: null
+    max_output_tokens: 1800000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.25
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-4.20-non-reasoning
+  name: grok-4.20-non-reasoning
+  status: declared
+  free: false
+  free_type: paid
+  description: Grok 4.20 is a reasoning model from SpaceXAI with industry-leading
+    speed and agentic tool calling capabilities. It combines the lowest hallucination
+    rate on the market with strict prompt adherance, delivering...
+  capabilities:
+    context_length: null
+    max_output_tokens: 1800000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.25
+    output_per_million: 2.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: codestral-2508
+  name: codestral-2508
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Mistral''s cutting-edge language model for coding released end of
+    July 2025. Codestral specializes in low-latency, high-frequency tasks such as
+    fill-in-the-middle (FIM), code correction and test generation.
+
+
+    [Blog Post](https://mistral.ai/news/codestral-25-08)'
+  capabilities:
+    context_length: null
+    max_output_tokens: 204800
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 0.9
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: codestral-latest
+  name: codestral-latest
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Mistral''s cutting-edge language model for coding released end of
+    July 2025. Codestral specializes in low-latency, high-frequency tasks such as
+    fill-in-the-middle (FIM), code correction and test generation.
+
+
+    [Blog Post](https://mistral.ai/news/codestral-25-08)'
+  capabilities:
+    context_length: null
+    max_output_tokens: 204800
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 0.9
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-small-2603
+  name: mistral-small-2603
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral Small 4 is the next major release in the Mistral Small family,
+    unifying the capabilities of several flagship Mistral models into a single system.
+    It combines strong reasoning from...
+  capabilities:
+    context_length: null
+    max_output_tokens: 209715
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.15
+    output_per_million: 0.6
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-small-latest
+  name: mistral-small-latest
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral Small 4 is the next major release in the Mistral Small family,
+    unifying the capabilities of several flagship Mistral models into a single system.
+    It combines strong reasoning from...
+  capabilities:
+    context_length: null
+    max_output_tokens: 209715
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.15
+    output_per_million: 0.6
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-medium-3-5
+  name: mistral-medium-3-5
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral Medium 3.5 is a dense 128B instruction-following model from
+    Mistral AI. It supports text and image inputs with text output, and is designed
+    for agentic workflows, coding, and complex...
+  capabilities:
+    context_length: null
+    max_output_tokens: 209715
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.5
+    output_per_million: 7.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-medium-2508
+  name: mistral-medium-2508
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral AI's medium-sized model. Supports a context window of 32k tokens
+    (around 24,000 words) and is stronger than Mixtral-8x7b and Mistral-7b on benchmarks
+    across the board.
+  capabilities:
+    context_length: null
+    max_output_tokens: 4096
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.7273
+    output_per_million: 8.1818
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-medium-latest
+  name: mistral-medium-latest
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral AI's medium-sized model. Supports a context window of 32k tokens
+    (around 24,000 words) and is stronger than Mixtral-8x7b and Mistral-7b on benchmarks
+    across the board.
+  capabilities:
+    context_length: null
+    max_output_tokens: 4096
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.7273
+    output_per_million: 8.1818
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-large-2512
+  name: mistral-large-2512
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral Large 3 2512 is Mistral’s most capable model to date, featuring
+    a sparse mixture-of-experts architecture with 41B active parameters (675B total),
+    and released under the Apache 2.0 license.
+  capabilities:
+    context_length: null
+    max_output_tokens: 209715
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.5
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-large-4
+  name: mistral-large-4
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral AI’s open-weight multimodal model for reasoning, coding, and
+    image understanding, with a 524K-token context window. Available in public preview.
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.3737
+    output_per_million: 4.2222
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mistral-large-latest
+  name: mistral-large-latest
+  status: declared
+  free: false
+  free_type: paid
+  description: Mistral Large 3 2512 is Mistral’s most capable model to date, featuring
+    a sparse mixture-of-experts architecture with 41B active parameters (675B total),
+    and released under the Apache 2.0 license.
+  capabilities:
+    context_length: null
+    max_output_tokens: 209715
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.5
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: sonar
+  name: sonar
+  status: declared
+  free: false
+  free_type: paid
+  description: Sonar is lightweight, affordable, fast, and simple to use — now featuring
+    citations and the ability to customize sources. It is designed for companies seeking
+    to integrate lightweight question-and-answer features...
+  capabilities:
+    context_length: null
+    max_output_tokens: 114364
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.0
+    output_per_million: 1.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: sonar-pro
+  name: sonar-pro
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Note: Sonar Pro pricing includes Perplexity search pricing. See [details
+    here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro)
+    For enterprises seeking more advanced capabilities, the Sonar Pro API can handle
+    in-depth, multi-step queries with added extensibility, like...'
+  capabilities:
+    context_length: null
+    max_output_tokens: 8000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 3.0
+    output_per_million: 15.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: sonar-reasoning-pro
+  name: sonar-reasoning-pro
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Note: Sonar Pro pricing includes Perplexity search pricing. See [details
+    here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro)
+    Sonar Reasoning Pro is a premier reasoning model powered by DeepSeek R1 with Chain
+    of Thought (CoT). Designed for...'
+  capabilities:
+    context_length: null
+    max_output_tokens: 115200
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 8.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: sonar-deep-research
+  name: sonar-deep-research
+  status: declared
+  free: false
+  free_type: paid
+  description: Sonar Deep Research is a research-focused model designed for multi-step
+    retrieval, synthesis, and reasoning across complex topics. It autonomously searches,
+    reads, and evaluates sources, refining its approach as it gathers...
+  capabilities:
+    context_length: null
+    max_output_tokens: 115200
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.0
+    output_per_million: 8.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-a-plus
+  name: command-a-plus
+  status: declared
+  free: false
+  free_type: paid
+  description: Command A+ is Cohere's flagship model for enterprise agentic workflows.
+    It accepts text and image inputs with a 192K context window, supports native tool
+    calling with strict tool schemas, structured...
+  capabilities:
+    context_length: null
+    max_output_tokens: 64000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 1.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-a
+  name: command-a
+  status: declared
+  free: false
+  free_type: paid
+  description: Command A is an open-weights 111B parameter model with a 256k context
+    window focused on delivering great performance across agentic, multilingual, and
+    coding use cases. Compared to other leading proprietary...
+  capabilities:
+    context_length: null
+    max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-a-vision
+  name: command-a-vision
+  status: declared
+  free: false
+  free_type: paid
+  description: Command A is an open-weights 111B parameter model with a 256k context
+    window focused on delivering great performance across agentic, multilingual, and
+    coding use cases. Compared to other leading proprietary...
+  capabilities:
+    context_length: null
+    max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-a-reasoning
+  name: command-a-reasoning
+  status: declared
+  free: false
+  free_type: paid
+  description: Command A is an open-weights 111B parameter model with a 256k context
+    window focused on delivering great performance across agentic, multilingual, and
+    coding use cases. Compared to other leading proprietary...
+  capabilities:
+    context_length: null
+    max_output_tokens: 8192
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-r-7b
+  name: command-r-7b
+  status: declared
+  free: false
+  free_type: paid
+  description: Command R7B (12-2024) is a small, fast update of the Command R+ model,
+    delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks
+    requiring complex reasoning...
+  capabilities:
+    context_length: null
+    max_output_tokens: 4000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.0375
+    output_per_million: 0.15
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-r
+  name: command-r
+  status: declared
+  free: false
+  free_type: paid
+  description: command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus)
+    with roughly 50% higher throughput and 25% lower latencies as compared to the
+    previous Command R+ version, while keeping the hardware footprint...
+  capabilities:
+    context_length: null
+    max_output_tokens: 4000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: command-r-plus
+  name: command-r-plus
+  status: declared
+  free: false
+  free_type: paid
+  description: command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus)
+    with roughly 50% higher throughput and 25% lower latencies as compared to the
+    previous Command R+ version, while keeping the hardware footprint...
+  capabilities:
+    context_length: null
+    max_output_tokens: 4000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: c4ai-aya-expanse-32b
+  name: c4ai-aya-expanse-32b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: c4ai-aya-vision-32b
+  name: c4ai-aya-vision-32b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-oss-20b
+  name: gpt-oss-20b
+  status: declared
+  free: false
+  free_type: paid
+  description: gpt-oss-20b is an open-weight 21B parameter model released by OpenAI
+    under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture
+    with 3.6B active parameters per forward pass, optimized for...
+  capabilities:
+    context_length: null
+    max_output_tokens: 32768
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.018
+    output_per_million: 0.09
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-oss-120b
+  name: gpt-oss-120b
+  status: declared
+  free: false
+  free_type: paid
+  description: gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE)
+    language model from OpenAI designed for high-reasoning, agentic, and general-purpose
+    production use cases. It activates 5.1B parameters per forward pass and is optimized...
+  capabilities:
+    context_length: null
+    max_output_tokens: 117964
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.037
+    output_per_million: 0.17
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: kimi-k3
+  name: kimi-k3
+  status: declared
+  free: false
+  free_type: paid
+  description: Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model
+    from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon
+    agentic workflows, and is particularly strong at...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.8
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: kimi-k2.7-code
+  name: kimi-k2.7-code
+  status: declared
+  free: false
+  free_type: paid
+  description: 'MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI''s
+    Kimi K2 family, built to complete end-to-end programming tasks reliably over long
+    contexts. It uses a native multimodal mixture-of-experts...'
+  capabilities:
+    context_length: null
+    max_output_tokens: 235929
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.6712
+    output_per_million: 3.35
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: kimi-k2.6
+  name: kimi-k2.6
+  status: declared
+  free: false
+  free_type: paid
+  description: Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed
+    for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.
+    It handles complex end-to-end coding tasks across Python, Rust, and Go, and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 235929
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.65
+    output_per_million: 3.41
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: mimo-v2.6-flash
+  name: mimo-v2.6-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi.
+    Built on a Mixture-of-Experts architecture with 309B total parameters and 15B
+    activated per token, it employs a hybrid attention mechanism for...
+  capabilities:
+    context_length: null
+    max_output_tokens: 131072
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.14
+    output_per_million: 0.28
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: minimax-m3
+  name: minimax-m3
+  status: declared
+  free: false
+  free_type: paid
+  description: MiniMax-M3 is a multimodal foundation model from MiniMax. It supports
+    text, image, and video inputs with text output, a 1M-token context window, and
+    is suited for long-horizon agentic work, coding,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 512000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.3
+    output_per_million: 1.2
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: minimax-m2.7
+  name: minimax-m2.7
+  status: declared
+  free: false
+  free_type: paid
+  description: MiniMax-M2.7 is a next-generation large language model designed for
+    autonomous, real-world productivity and continuous improvement. Built to actively
+    participate in its own evolution, M2.7 integrates advanced agentic capabilities
+    through multi-agent...
+  capabilities:
+    context_length: null
+    max_output_tokens: 176947
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.21
+    output_per_million: 0.84
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.3
+  name: glm-5.3
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex
+    software engineering and long-horizon agent tasks. It supports text input and
+    output with a 1M-token context window, and improves...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.039
+    output_per_million: 4.8
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.3-flash
+  name: glm-5.3-flash
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited
+    for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear
+    attention architecture maintains accurate long-context behavior while...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943717
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.15
+    output_per_million: 0.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.2
+  name: glm-5.2
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text
+    input and output with a 1M-token context window, and is suited for long-horizon
+    agent workflows, project-level software engineering,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.06
+    output_per_million: 7.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.1
+  name: glm-5.1
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM-5.1 delivers a major leap in coding capability, with particularly
+    significant gains in handling long-horizon tasks. Unlike previous models built
+    around minute-level interactions, GLM-5.1 can work independently and continuously
+    on...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.966
+    output_per_million: 3.036
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: qwen3.8-27b
+  name: qwen3.8-27b
+  status: declared
+  free: false
+  free_type: paid
+  description: Qwen3.8 27B is an open-weight dense vision-language model from Qwen.
+    It is suited for coding, professional workflows, research, multimodal interaction,
+    and long-running agent tasks, with flexible thinking that can be...
+  capabilities:
+    context_length: null
+    max_output_tokens: 235929
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.04
+    output_per_million: 2.3
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: qwen3.6-27b
+  name: qwen3.6-27b
+  status: declared
+  free: false
+  free_type: paid
+  description: Qwen3.6 27B is a dense 27-billion-parameter language model from the
+    Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities
+    — accepting text, image, and video inputs...
+  capabilities:
+    context_length: null
+    max_output_tokens: 81920
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.32
+    output_per_million: 3.2
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: nemotron-3-super
+  name: nemotron-3-super
+  status: declared
+  free: null
+  free_type: price_zero_unverified
+  description: NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model,
+    activating just 12B parameters for maximum compute efficiency and accuracy in
+    complex multi-agent applications. Built on a hybrid Mamba-Transformer...
+  capabilities:
+    context_length: null
+    max_output_tokens: 235929
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.0
+    output_per_million: 0.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: venice-uncensored
+  name: venice-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: venice-uncensored-role-play
+  name: venice-uncensored-role-play
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v4-flash-venice
+  name: deepseek-v4-flash-venice
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model
+    from DeepSeek with 284B total parameters and 13B activated parameters, supporting
+    a 1M-token context window. It is designed for fast inference and...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.03
+    output_per_million: 1.28
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-v3.2-venice
+  name: deepseek-v3.2-venice
+  status: declared
+  free: false
+  free_type: paid
+  description: DeepSeek-V3.2 is a large language model designed to harmonize high
+    computational efficiency with strong reasoning and agentic tool-use performance.
+    It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention
+    mechanism...
+  capabilities:
+    context_length: null
+    max_output_tokens: 147456
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.259
+    output_per_million: 0.8
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5-venice
+  name: glm-5-venice
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM-5 is Z.ai’s flagship open-source foundation model engineered for
+    complex systems design and long-horizon agent workflows. Built for expert developers,
+    it delivers production-grade performance on large-scale programming tasks, rivaling
+    leading...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.6
+    output_per_million: 1.92
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.1-venice
+  name: glm-5.1-venice
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM-5.1 delivers a major leap in coding capability, with particularly
+    significant gains in handling long-horizon tasks. Unlike previous models built
+    around minute-level interactions, GLM-5.1 can work independently and continuously
+    on...
+  capabilities:
+    context_length: null
+    max_output_tokens: 128000
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.966
+    output_per_million: 3.036
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-5.2-venice
+  name: glm-5.2-venice
+  status: declared
+  free: false
+  free_type: paid
+  description: GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text
+    input and output with a 1M-token context window, and is suited for long-horizon
+    agent workflows, project-level software engineering,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 943718
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.06
+    output_per_million: 7.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: glm-4.7-flash-heretic
+  name: glm-4.7-flash-heretic
+  status: declared
+  free: false
+  free_type: paid
+  description: As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances
+    performance and efficiency. It is further optimized for agentic coding use cases,
+    strengthening coding capabilities, long-horizon task planning,...
+  capabilities:
+    context_length: null
+    max_output_tokens: 117964
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.0605
+    output_per_million: 0.4
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: grok-uncensored
+  name: grok-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: devious-uncensored
+  name: devious-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: revenant-uncensored
+  name: revenant-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: laborratse-uncensored
+  name: laborratse-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: laborratse-de-uncensored
+  name: laborratse-de-uncensored
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: emotional-medium
+  name: emotional-medium
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-image-2
+  name: gpt-image-2
+  status: declared
+  free: false
+  free_type: paid
+  description: 'OpenAI’s state-of-the-art image generation model as of April 21, 2026,
+    designed for fast, high-quality image generation and editing with strong prompt
+    adherence and flexible image sizes. It supports generating, editing, restyling,
+    and combining images attached to the latest user query.
+
+
+    Optional Parameters:
+
+
+    Set aspect ratio, with options 3:2, 1:1, and 2:3.
+
+    Set quality to low, medium, and high.
+
+    Enable use mask by toggling it on or by typing use_mask in the prompt. This option
+    is turned off by default.'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 5.0505
+    output_per_million: 30.303
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-image-1.5
+  name: gpt-image-1.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: "OpenAI's frontier image generation model in ChatGPT as of December\
+    \ 2025, offering exceptional prompt adherence, world knowledge, precise edits,\
+    \ facial preservation, level of detail, and overall quality with improved latency/generation\
+    \ times. It supports editing, restyling, and combining images attached to the\
+    \ latest user query. For a conversational image generation and editing experience\n\
+    \nOptional Parameters:\nSet aspect ratio, with options 3:2, 1:1 and 2:3. \nSet\
+    \ quality to low, medium and high. Default is set to high.\nEnable use mask by\
+    \ toggling it on or by typing 'use_mask' in the prompt. Thi"
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: flux
+  name: flux
+  status: declared
+  free: null
+  free_type: unknown
+  description: 'Text-to-image generation and image editing with Flux 2 [klein] 4B
+    Base from Black Forest Labs. Enhanced realism, crisper text rendering within images,
+    and native editing capabilities. Send up to 3 images (jpeg/ png/ webp) to use
+    for image editing or as references.
+
+
+    Optional parameters:
+
+    - Set aspect ratio. Select from (16:9, 4:3, 1:1, 3:4, 9:16). It is set to 4:3
+    aspect ratio as default.'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: flux.1-schnell
+  name: flux.1-schnell
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: flux.2-klein
+  name: flux.2-klein
+  status: declared
+  free: null
+  free_type: unknown
+  description: 'Text-to-image generation and image editing with Flux 2 [klein] 4B
+    Base from Black Forest Labs. Enhanced realism, crisper text rendering within images,
+    and native editing capabilities. Send up to 3 images (jpeg/ png/ webp) to use
+    for image editing or as references.
+
+
+    Optional parameters:
+
+    - Set aspect ratio. Select from (16:9, 4:3, 1:1, 3:4, 9:16). It is set to 4:3
+    aspect ratio as default.'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: z-image
+  name: z-image
+  status: declared
+  free: null
+  free_type: unknown
+  description: 'Super-fast endpoint for Z-Image Turbo, hosted by fal.ai. Excels at
+    portrait photos and realistic images.
+
+
+    Notes:
+
+    Bot does not accept attachment.
+
+
+    Optional parameters:
+
+    - Set aspect ratio. Select from (16:9, 4:3, 1:1, 3:4, 9:16). It is set to 4:3
+    aspect ratio as default.'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: nano-banana-2
+  name: nano-banana-2
+  status: declared
+  free: false
+  free_type: paid
+  description: 'Try Google’s newer Gemini Nano Banana 2.1 for image generation and
+    editing: https://poe.com/Nano-Banana-2.1
+
+
+    Google’s Nano Banana 2 image model combines Pro-level intelligence with lightning-fast
+    generation. It features advanced world knowledge, precise text rendering, strong
+    subject consistency, and 4K production-ready outputs.
+
+
+    This bot supports optional parameters for additional customization.'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.5051
+    output_per_million: 3.0303
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: p-image
+  name: p-image
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: veo-3.1
+  name: veo-3.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: 'Google’s Veo 3.1 is an updated version of the Veo family of models
+    that features richer native audio, from natural conversations to synchronized
+    sound effects, and offers greater narrative control with an improved understanding
+    of cinematic styles. Enhanced image-to-video capabilities ensure better prompt
+    adherence while delivering superior audio and visual quality and maintaining character
+    consistency across multiple scenes.
+
+
+    Optional parameters:
+
+    - Set the aspect ratio (either `16:9` or `9:16`), which defaults to `16:9`
+
+    - Negative prompt can be set on elements to avoid
+
+    - Set the duration (one'
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-omni
+  name: gemini-omni
+  status: declared
+  free: false
+  free_type: paid
+  description: Google's Gemini Omni 1.1 Flash brings Gemini's multimodal reasoning
+    to controllable video generation. Generate from text, images, or video, then extend
+    scenes with coherent motion, or interpolate between start and end frames for smooth,
+    deliberate camera movement. Natural-language editing and multimodal referencing
+    keep your scene consistent as it grows.
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 1.5152
+    output_per_million: 9.0909
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: omni-moderation-latest
+  name: omni-moderation-latest
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: text-embedding-3-large
+  name: text-embedding-3-large
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: text-embedding-3-small
+  name: text-embedding-3-small
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: text-embedding-ada-002
+  name: text-embedding-ada-002
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-embedding-2-preview
+  name: gemini-embedding-2-preview
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-embedding-001
+  name: gemini-embedding-001
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: whisper-1
+  name: whisper-1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: whisper-large-v3
+  name: whisper-large-v3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: whisper-large-v3-turbo
+  name: whisper-large-v3-turbo
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-transcribe
+  name: gpt-transcribe
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-4o-transcribe
+  name: gpt-4o-transcribe
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-4o ("o" for "omni") is OpenAI's latest AI model, supporting both
+    text and image inputs with text outputs. It maintains the intelligence level of
+    [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...
+  capabilities:
+    context_length: null
+    max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 2.5
+    output_per_million: 10.0
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-4o-mini-transcribe
+  name: gpt-4o-mini-transcribe
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o),
+    supporting both text and image inputs with text outputs. As their most advanced
+    small model, it is many multiples more affordable...
+  capabilities:
+    context_length: null
+    max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.15
+    output_per_million: 0.6
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: scribe_v2
+  name: scribe_v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-4o-mini-tts
+  name: gpt-4o-mini-tts
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o),
+    supporting both text and image inputs with text outputs. As their most advanced
+    small model, it is many multiples more affordable...
+  capabilities:
+    context_length: null
+    max_output_tokens: 16384
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.15
+    output_per_million: 0.6
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: tts-1
+  name: tts-1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: tts-1-hd
+  name: tts-1-hd
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_v4
+  name: eleven_v4
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_v3
+  name: eleven_v3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_multilingual_v2
+  name: eleven_multilingual_v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_turbo_v2_5
+  name: eleven_turbo_v2_5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_turbo_v2
+  name: eleven_turbo_v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_flash_v2_5
+  name: eleven_flash_v2_5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: eleven_flash_v2
+  name: eleven_flash_v2
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gemini-3.8-flash-tts
+  name: gemini-3.8-flash-tts
+  status: declared
+  free: false
+  free_type: paid
+  description: Gemini 3.8 Flash is Google's most intelligent Flash model with significant
+    gains from 3.7 Flash across software engineering, agentic tasks, and multi-step
+    reasoning.
+  capabilities:
+    context_length: null
+    max_output_tokens: 65536
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: 0.75
+    output_per_million: 3.75
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.navy/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+last_verified: '2026-10-11T10:14:13Z'
+homepage: https://api.navy

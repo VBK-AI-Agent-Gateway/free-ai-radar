@@ -1,0 +1,712 @@
+{
+ "fetched_at": "2026-10-11T10:13:47Z",
+ "url": "https://hcap.ai/v1/models",
+ "hash": "08016f628de06bb8e170d52f8aa197ac9b2eb06cb479a984bc5c6855f1762129",
+ "payload": {
+  "data": [
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-fable-5-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1790892210.340834,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 4.0,
+      "output_per_million_usd": 20.0
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 28,
+     "tokens_per_second": 21.569710103455453,
+     "wallet": "premium"
+    },
+    "id": "claude-fable-5",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-fable-5-1-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791053406.0776937,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 4.0,
+      "output_per_million_usd": 20.0
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 46,
+     "tokens_per_second": 23.854695138391705,
+     "wallet": "premium"
+    },
+    "id": "claude-fable-5-1",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-haiku-4-5-20251001-UnJailed",
+      "vision": true
+     },
+     "context": 262144,
+     "last_used": 1791562249.7423682,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2025-10-15",
+     "release_source": "https://www.anthropic.com/news/claude-haiku-4-5",
+     "requests": 55,
+     "tokens_per_second": 14.861832281105967,
+     "wallet": "premium"
+    },
+    "id": "claude-haiku-4-5-20251001",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-opus-4-5-20251101-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791125822.347248,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2025-11-24",
+     "release_source": "https://www.anthropic.com/news/claude-opus-4-5",
+     "requests": 6,
+     "tokens_per_second": null,
+     "wallet": "premium"
+    },
+    "id": "claude-opus-4-5-20251101",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-opus-4-6-UnJailed",
+      "vision": true
+     },
+     "context": 262144,
+     "last_used": 1791713630.450649,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-02-05",
+     "release_source": "https://www.anthropic.com/news/claude-opus-4-6",
+     "requests": 9802,
+     "tokens_per_second": 14.360936832220192,
+     "wallet": "premium"
+    },
+    "id": "claude-opus-4-6",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-opus-4-7-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791713268.7509453,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-04-16",
+     "release_source": "https://www.anthropic.com/news/claude-opus-4-7",
+     "requests": 2602,
+     "tokens_per_second": 1.2850058954658052,
+     "wallet": "premium"
+    },
+    "id": "claude-opus-4-7",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-opus-4-8-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791712969.181025,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-05-28",
+     "release_source": "https://www.anthropic.com/news/claude-opus-4-8",
+     "requests": 13167,
+     "tokens_per_second": 10.357794836155687,
+     "wallet": "premium"
+    },
+    "id": "claude-opus-4-8",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-opus-5-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791712969.1905978,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-07-24",
+     "release_source": "https://www.anthropic.com/news/claude-opus-5",
+     "requests": 2648,
+     "tokens_per_second": 5.6125807891019495,
+     "wallet": "premium"
+    },
+    "id": "claude-opus-5",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-sonnet-4-5-20250929-UnJailed",
+      "vision": true
+     },
+     "context": 262144,
+     "last_used": 1790892208.7640178,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.12,
+      "output_per_million_usd": 0.6
+     },
+     "release_date": "2025-09-29",
+     "release_source": "https://www.anthropic.com/news/claude-sonnet-4-5",
+     "requests": 3,
+     "tokens_per_second": null,
+     "wallet": "premium"
+    },
+    "id": "claude-sonnet-4-5-20250929",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-sonnet-4-6-UnJailed",
+      "vision": true
+     },
+     "context": 262144,
+     "last_used": 1791712560.5774243,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.12,
+      "output_per_million_usd": 0.6
+     },
+     "release_date": "2026-02-17",
+     "release_source": "https://www.anthropic.com/news/claude-sonnet-4-6",
+     "requests": 3015,
+     "tokens_per_second": 6.044887651569225,
+     "wallet": "premium"
+    },
+    "id": "claude-sonnet-4-6",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "claude-sonnet-5-UnJailed",
+      "vision": true
+     },
+     "context": 262144,
+     "last_used": 1791712860.5774019,
+     "max_output": 65536,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.12,
+      "output_per_million_usd": 0.6
+     },
+     "release_date": "2026-06-30",
+     "release_source": "https://www.anthropic.com/news/claude-sonnet-5",
+     "requests": 2793,
+     "tokens_per_second": 5.557274897810162,
+     "wallet": "premium"
+    },
+    "id": "claude-sonnet-5",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "deepseek-ai/deepseek-v4-pro-0813-UnJailed",
+      "vision": false
+     },
+     "context": 1048576,
+     "last_used": 1791713689.7914035,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": "2026-08-13",
+     "release_source": "https://api-docs.deepseek.com/updates/",
+     "requests": 27272,
+     "tokens_per_second": 40.45581508834618,
+     "wallet": "house"
+    },
+    "id": "deepseek-ai/deepseek-v4-pro-0813",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "deepseek-ai/deepseek-v4.1-flash-UnJailed",
+      "vision": false
+     },
+     "context": 1048576,
+     "last_used": 1791713329.188285,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 1779,
+     "tokens_per_second": 18.69396717950426,
+     "wallet": "house"
+    },
+    "id": "deepseek-ai/deepseek-v4.1-flash",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "google/diffusiongemma-26b-a4b-it-UnJailed",
+      "vision": true
+     },
+     "context": 196608,
+     "last_used": 1791415263.4148755,
+     "max_output": 32768,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.0,
+      "output_per_million_usd": 0.02
+     },
+     "release_date": "2026-06-10",
+     "release_source": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+     "requests": 3184,
+     "tokens_per_second": 38.32620471938713,
+     "wallet": "house"
+    },
+    "id": "google/diffusiongemma-26b-a4b-it",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "gpt-5.5-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791714050.751965,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-04-23",
+     "release_source": "https://openai.com/index/introducing-gpt-5-5/",
+     "requests": 3435,
+     "tokens_per_second": 2.3716149066305054,
+     "wallet": "premium"
+    },
+    "id": "gpt-5.5",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "gpt-5.6-luna-UnJailed",
+      "vision": true
+     },
+     "context": 1075200,
+     "last_used": 1791712567.5560186,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-07-09",
+     "release_source": "https://openai.com/index/gpt-5-6/",
+     "requests": 2561,
+     "tokens_per_second": 10.318528916875412,
+     "wallet": "premium"
+    },
+    "id": "gpt-5.6-luna",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "gpt-5.6-sol-UnJailed",
+      "vision": true
+     },
+     "context": 1075200,
+     "last_used": 1791713756.4195824,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-07-09",
+     "release_source": "https://openai.com/index/gpt-5-6/",
+     "requests": 1483,
+     "tokens_per_second": 6.653262833137051,
+     "wallet": "premium"
+    },
+    "id": "gpt-5.6-sol",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "gpt-5.6-terra-UnJailed",
+      "vision": true
+     },
+     "context": 1075200,
+     "last_used": 1791713759.7255297,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.2,
+      "output_per_million_usd": 1.0
+     },
+     "release_date": "2026-07-09",
+     "release_source": "https://openai.com/index/gpt-5-6/",
+     "requests": 1070,
+     "tokens_per_second": 2.099576632055566,
+     "wallet": "premium"
+    },
+    "id": "gpt-5.6-terra",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "gpt-6-astra-UnJailed",
+      "vision": true
+     },
+     "context": 1075200,
+     "last_used": 1791713767.1928637,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.4,
+      "output_per_million_usd": 2.0
+     },
+     "release_date": "2026-09-03",
+     "release_source": "https://openai.com/research/index/",
+     "requests": 2048,
+     "tokens_per_second": 8.777156023401584,
+     "wallet": "premium"
+    },
+    "id": "gpt-6-astra",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "minimaxai/minimax-m3-UnJailed",
+      "vision": false
+     },
+     "context": 196608,
+     "last_used": 1791642796.0842795,
+     "max_output": 32768,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": "2026-06-01",
+     "release_source": "https://ir.minimax.io/zh/news-events/new-releases",
+     "requests": 21730,
+     "tokens_per_second": 32.69988929484837,
+     "wallet": "house"
+    },
+    "id": "minimaxai/minimax-m3",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "moonshotai/kimi-k3-UnJailed",
+      "vision": true
+     },
+     "context": 1048576,
+     "last_used": 1791710865.226737,
+     "max_output": 131072,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.06,
+      "output_per_million_usd": 0.25
+     },
+     "release_date": "2026-07-16",
+     "release_source": "https://www.moonshot.ai/fr",
+     "requests": 41501,
+     "tokens_per_second": 209.33591746257608,
+     "wallet": "house"
+    },
+    "id": "moonshotai/kimi-k3",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "poolside/laguna-xs-2.1-UnJailed",
+      "vision": false
+     },
+     "context": 262144,
+     "last_used": 1791415263.4005675,
+     "max_output": 32768,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": "2026-07-02",
+     "release_source": "https://poolside.ai/blog/introducing-laguna-xs-2-1",
+     "requests": 886,
+     "tokens_per_second": 4.208604421821152,
+     "wallet": "house"
+    },
+    "id": "poolside/laguna-xs-2.1",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "qwen/qwen3.8-2.4t-a95b-UnJailed",
+      "vision": false
+     },
+     "context": 262144,
+     "last_used": 1791713693.146159,
+     "max_output": 32768,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": "2026-08-12",
+     "release_source": "https://github.com/QwenLM/Qwen3.8/blob/main/README.md",
+     "requests": 78965,
+     "tokens_per_second": 14.811904604773849,
+     "wallet": "house"
+    },
+    "id": "qwen/qwen3.8-2.4t-a95b",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "stepfun-ai/step-3.7-flash-UnJailed",
+      "vision": false
+     },
+     "context": 262144,
+     "last_used": 1791651550.1095402,
+     "max_output": 32768,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 2883,
+     "tokens_per_second": 218.447,
+     "wallet": "house"
+    },
+    "id": "stepfun-ai/step-3.7-flash",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "z-ai/glm-5-3-UnJailed",
+      "vision": false
+     },
+     "context": null,
+     "last_used": 1791712980.8609102,
+     "max_output": null,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 19308,
+     "tokens_per_second": 3.0987550858882633,
+     "wallet": "house"
+    },
+    "id": "z-ai/glm-5-3",
+    "object": "model",
+    "owned_by": "hcap"
+   },
+   {
+    "created": 0,
+    "extra": {
+     "capabilities": {
+      "streaming": true,
+      "tools": true,
+      "unjailed_variant": "z-ai/glm-5-3-flash-UnJailed",
+      "vision": false
+     },
+     "context": null,
+     "last_used": 1791712668.228347,
+     "max_output": null,
+     "pricing": {
+      "currency": "USD",
+      "input_per_million_usd": 0.025,
+      "output_per_million_usd": 0.1
+     },
+     "release_date": null,
+     "release_source": null,
+     "requests": 3129,
+     "tokens_per_second": 1.65169512363529,
+     "wallet": "house"
+    },
+    "id": "z-ai/glm-5-3-flash",
+    "object": "model",
+    "owned_by": "hcap"
+   }
+  ],
+  "object": "list"
+ }
+}

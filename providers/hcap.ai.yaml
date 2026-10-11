@@ -1,0 +1,628 @@
+provider: hcap.ai
+models:
+- id: claude-fable-5
+  name: claude-fable-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-fable-5-1
+  name: claude-fable-5-1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-haiku-4-5-20251001
+  name: claude-haiku-4-5-20251001
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4-5-20251101
+  name: claude-opus-4-5-20251101
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4-6
+  name: claude-opus-4-6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4-7
+  name: claude-opus-4-7
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-4-8
+  name: claude-opus-4-8
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-opus-5
+  name: claude-opus-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-4-5-20250929
+  name: claude-sonnet-4-5-20250929
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-4-6
+  name: claude-sonnet-4-6
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: claude-sonnet-5
+  name: claude-sonnet-5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-ai/deepseek-v4-pro-0813
+  name: deepseek-ai/deepseek-v4-pro-0813
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: deepseek-ai/deepseek-v4.1-flash
+  name: deepseek-ai/deepseek-v4.1-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: google/diffusiongemma-26b-a4b-it
+  name: google/diffusiongemma-26b-a4b-it
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.5
+  name: gpt-5.5
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-luna
+  name: gpt-5.6-luna
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-sol
+  name: gpt-5.6-sol
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-5.6-terra
+  name: gpt-5.6-terra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: gpt-6-astra
+  name: gpt-6-astra
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: minimaxai/minimax-m3
+  name: minimaxai/minimax-m3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: moonshotai/kimi-k3
+  name: moonshotai/kimi-k3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: poolside/laguna-xs-2.1
+  name: poolside/laguna-xs-2.1
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: qwen/qwen3.8-2.4t-a95b
+  name: qwen/qwen3.8-2.4t-a95b
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: stepfun-ai/step-3.7-flash
+  name: stepfun-ai/step-3.7-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: z-ai/glm-5-3
+  name: z-ai/glm-5-3
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+- id: z-ai/glm-5-3-flash
+  name: z-ai/glm-5-3-flash
+  status: declared
+  free: null
+  free_type: unknown
+  description: null
+  capabilities:
+    context_length: null
+    max_output_tokens: null
+    input_modalities: []
+    modality: null
+    image_input: null
+    reasoning: null
+    tools: null
+    json_mode: null
+  terms:
+    input_per_million: null
+    output_per_million: null
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://hcap.ai/v1/models
+    at: '2026-10-11T10:14:13Z'
+  last_verified: '2026-10-11T10:14:13Z'
+last_verified: '2026-10-11T10:14:13Z'
+homepage: https://hcap.ai

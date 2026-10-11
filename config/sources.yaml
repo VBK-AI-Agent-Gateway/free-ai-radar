@@ -1,86 +1,106 @@
-# 要查的接口、页面、公告(六种来源类型之二:official_api / official_page)
-# 全部公开无 key;探测密钥只放仓库 Secrets,不进本文件
 sources:
-  - provider: openai
-    type: official_api
-    url: https://api.openai.com/v1/models
-    check: hourly
-    needs_key: true
-  - provider: anthropic
-    type: official_page
-    url: https://www.anthropic.com/pricing
-    check: daily
-  - provider: google
-    type: official_api
-    url: https://generativelanguage.googleapis.com/v1beta/models
-    check: hourly
-    needs_key: true
-    parser: google
-  - provider: openrouter
-    type: official_api
-    url: https://openrouter.ai/api/v1/models
-    check: hourly
-  - provider: groq
-    type: official_api
-    url: https://api.groq.com/openai/v1/models
-    check: hourly
-    needs_key: true
-    parser: openai_compat
-  - provider: mistral
-    type: official_page
-    url: https://mistral.ai/pricing
-    check: daily
-  - provider: cohere
-    type: official_page
-    url: https://cohere.com/pricing
-    check: daily
-  - provider: together
-    type: official_page
-    url: https://www.together.ai/pricing
-    check: daily
-  - provider: deepseek
-    type: official_page
-    url: https://api-docs.deepseek.com/quick_start/pricing
-    check: daily
-  - provider: zhipu
-    type: official_page
-    url: https://open.bigmodel.cn/pricing
-    check: daily
-  # 多渠道扩充:匿名可拉的 OpenAI 兼容模型清单(每家字段略异,enrich 解析)
-  - provider: deepinfra
-    type: official_api
-    url: https://api.deepinfra.com/v1/openai/models
-    check: daily
-    parser: openai_compat
-  - provider: sambanova
-    type: official_api
-    url: https://api.sambanova.ai/v1/models
-    check: daily
-    parser: openai_compat
-  - provider: novita
-    type: official_api
-    url: https://api.novita.ai/v3/openai/models
-    check: daily
-    parser: openai_compat
-  # 阶段2发现员筛出的真厂商:匿名可拉 + 带定价 + 有真免费层
-  - provider: vercel
-    type: official_api
-    url: https://ai-gateway.vercel.sh/v1/models
-    check: daily
-    parser: openai_compat
-  # 第三方聚合网关平台(用户核心需求): 全网搜出匿名可拉 + 带定价 + 有真免费
-  - provider: fastrouter
-    type: official_api
-    url: https://api.fastrouter.ai/v1/models
-    check: daily
-    parser: openai_compat
-  - provider: requesty
-    type: official_api
-    url: https://router.requesty.ai/v1/models
-    check: daily
-    parser: openai_compat
-  - provider: llmgateway
-    type: official_api
-    url: https://api.llmgateway.io/v1/models
-    check: daily
-    parser: openai_compat
+- provider: openai
+  type: official_api
+  url: https://api.openai.com/v1/models
+  check: hourly
+  needs_key: true
+- provider: anthropic
+  type: official_page
+  url: https://www.anthropic.com/pricing
+  check: daily
+- provider: google
+  type: official_api
+  url: https://generativelanguage.googleapis.com/v1beta/models
+  check: hourly
+  needs_key: true
+  parser: google
+- provider: openrouter
+  type: official_api
+  url: https://openrouter.ai/api/v1/models
+  check: hourly
+- provider: groq
+  type: official_api
+  url: https://api.groq.com/openai/v1/models
+  check: hourly
+  needs_key: true
+  parser: openai_compat
+- provider: mistral
+  type: official_page
+  url: https://mistral.ai/pricing
+  check: daily
+- provider: cohere
+  type: official_page
+  url: https://cohere.com/pricing
+  check: daily
+- provider: together
+  type: official_page
+  url: https://www.together.ai/pricing
+  check: daily
+- provider: deepseek
+  type: official_page
+  url: https://api-docs.deepseek.com/quick_start/pricing
+  check: daily
+- provider: zhipu
+  type: official_page
+  url: https://open.bigmodel.cn/pricing
+  check: daily
+- provider: deepinfra
+  type: official_api
+  url: https://api.deepinfra.com/v1/openai/models
+  check: daily
+  parser: openai_compat
+- provider: sambanova
+  type: official_api
+  url: https://api.sambanova.ai/v1/models
+  check: daily
+  parser: openai_compat
+- provider: novita
+  type: official_api
+  url: https://api.novita.ai/v3/openai/models
+  check: daily
+  parser: openai_compat
+- provider: vercel
+  type: official_api
+  url: https://ai-gateway.vercel.sh/v1/models
+  check: daily
+  parser: openai_compat
+- provider: fastrouter
+  type: official_api
+  url: https://api.fastrouter.ai/v1/models
+  check: daily
+  parser: openai_compat
+- provider: requesty
+  type: official_api
+  url: https://router.requesty.ai/v1/models
+  check: daily
+  parser: openai_compat
+- provider: llmgateway
+  type: official_api
+  url: https://api.llmgateway.io/v1/models
+  check: daily
+  parser: openai_compat
+- provider: voidai
+  type: official_api
+  url: https://api.voidai.app/v1/models
+  check: daily
+  parser: openai_compat
+- provider: nagaai
+  type: official_api
+  url: https://api.naga.ac/v1/models
+  check: daily
+  parser: openai_compat
+- provider: navyapi
+  type: official_api
+  url: https://api.navy/v1/models
+  check: daily
+  parser: openai_compat
+- provider: mnn
+  type: official_api
+  url: https://api.mnnai.ru/v1/models
+  check: daily
+  parser: openai_compat
+- provider: hcap.ai
+  type: official_api
+  url: https://hcap.ai/v1/models
+  check: daily
+  parser: openai_compat
