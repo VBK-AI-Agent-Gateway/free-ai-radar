@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-11T20:23:54Z",
+ "fetched_at": "2026-10-11T22:50:05Z",
  "url": "https://api.navy/v1/models",
- "hash": "f0eb5c7ddca2f4a448def0abd38159b6ee03da9c66f42c3253f3f1a3daf7f925",
+ "hash": "2794438b03235ac0ff12a9b795d3a64fa8ead0fc50b87631fbe0c56c5c7a3dc3",
  "payload": {
   "object": "list",
   "data": [
@@ -1700,7 +1700,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
     "pricing": {
-     "prompt": "0.000000018",
+     "prompt": "0.0000000161",
      "completion": "0.00000064",
      "image": null,
      "request": null
@@ -3076,8 +3076,8 @@
     "supports_streaming": true,
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
-     "prompt": "0.0000008",
-     "completion": "0.00001",
+     "prompt": "0.00000073",
+     "completion": "0.0000135",
      "image": null,
      "request": null
     },
@@ -3299,7 +3299,7 @@
     "supports_streaming": true,
     "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
     "pricing": {
-     "prompt": "0.00000007",
+     "prompt": "0.000000079",
      "completion": "0.0000048",
      "image": null,
      "request": null
