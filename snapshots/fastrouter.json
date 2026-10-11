@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-11T00:55:08Z",
+ "fetched_at": "2026-10-11T05:59:57Z",
  "url": "https://api.fastrouter.ai/v1/models",
- "hash": "beaf4ac47bdfc3b12263946d786eaa036d20df160ed3bc04bd9c928fd120dec8",
+ "hash": "379eb6eb3e6811d13d787bc2cc03a5602476186f88a4fde1c4b4dacb959496e1",
  "payload": {
   "data": [
    {
@@ -1684,9 +1684,9 @@
     }
    },
    {
-    "id": "openai/gpt-image-2.5-flare",
-    "name": "OpenAI: GPT Image 2.5 Flare",
-    "description": "GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency. It is the default choice for most API applications, sharing Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, and is well suited to creator and social content, product experiences, visual search, rapid prototyping, and high-volume generation.",
+    "id": "openai/gpt-image-2.5-sunburst",
+    "name": "OpenAI: GPT Image 2.5 Sunburst",
+    "description": "GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation and editing model, offering an extra level of precision for detailed creative work at the cost of longer generation times than Flare. It shares Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, with sharper detail, more natural lighting, richer textures, and better handling of complex layouts and transparent backgrounds. Recommended for premium visual workflows like production-ready campaign creative or polished product imagery.",
     "created": 1788825600,
     "context_length": 128000,
     "architecture": {
@@ -1785,7 +1785,9 @@
      "output_format",
      "partial_images",
      "quality",
-     "size"
+     "size",
+     "stream",
+     "user"
     ],
     "models_extra_params": {
      "category": [
@@ -1903,6 +1905,21 @@
         "1024x1536"
        ],
        "default": "auto"
+      }
+     },
+     "stream": {
+      "inputFormat": {
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ],
+       "default": false
+      }
+     },
+     "user": {
+      "inputFormat": {
+       "dataType": "string"
       }
      }
     }
@@ -3226,7 +3243,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.0000002",
+     "input_cache_read": "0.00000020",
      "input_cache_write": "0.0000025",
      "input_cache_write_5m": "0.0000025",
      "input_cache_write_1h": "0.000004",
@@ -3247,10 +3264,10 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000001",
+      "prompt": "0.000002",
       "completion": "0.000005",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.00000125"
+      "input_cache_read": "0.00000025",
+      "input_cache_write": "0.000003125"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -3260,7 +3277,7 @@
      "priceToShow": {
       "prompt": "0.000002",
       "completion": "0.00001",
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.00000020",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "input_cache_write_5m": "0.0000025"
@@ -3327,23 +3344,25 @@
      "tokenizer": "Claude"
     },
     "pricing": {
-     "prompt": "0.00000300",
-     "completion": "0.00001500",
+     "prompt": "0.000003",
+     "completion": "0.000015",
      "request": "",
      "image": "",
-     "web_search": "0",
+     "web_search": "0.01",
      "citation": "",
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.00000030",
+     "input_cache_read": "0.0000003",
      "input_cache_write": "0.00000375",
      "input_cache_write_5m": "0.00000375",
-     "input_cache_write_1h": "0.00000600",
+     "input_cache_write_1h": "0.000006",
+     "input_cache_write_more_than_200k_5m": "0.00000375",
+     "input_cache_write_more_than_200k_1h": "0.000006",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "",
-     "completion_more_than_200k_input": "",
+     "prompt_more_than_200k_input": "0.000003",
+     "completion_more_than_200k_input": "0.000015",
      "prompt_more_than_272k_input": "",
      "completion_more_than_272k_input": "",
      "prompt_more_than_512k_input": "",
@@ -3357,10 +3376,14 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.00000150",
-      "completion": "0.00000750",
+      "prompt": "0.0000015",
+      "completion": "0.0000075",
       "input_cache_read": "0.00000015",
-      "input_cache_write": "0.000001875"
+      "input_cache_write": "0.000001875",
+      "input_cache_read_more_than_200k_input": "0.00000015",
+      "input_cache_write_more_than_200k_input": "0.000001875",
+      "prompt_more_than_200k_input": "0.0000015",
+      "completion_more_than_200k_input": "0.0000075"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -3368,12 +3391,14 @@
      "videoCostWithAudio": null,
      "imageCost": null,
      "priceToShow": {
-      "prompt": "0.00000300",
-      "completion": "0.00001500",
-      "input_cache_read": "0.00000030",
+      "prompt": "0.000003",
+      "completion": "0.000015",
+      "input_cache_read": "0.0000003",
       "input_cache_write": "0.00000375",
-      "input_cache_write_1h": "0.00000600",
-      "input_cache_write_5m": "0.00000375"
+      "input_cache_write_5m": "0.00000375",
+      "input_cache_write_1h": "0.000006",
+      "prompt_more_than_200k_input": "0.000003",
+      "completion_more_than_200k_input": "0.000015"
      }
     },
     "top_provider": {
@@ -3447,12 +3472,10 @@
      "input_cache_write": "0.00000375",
      "input_cache_write_5m": "0.00000375",
      "input_cache_write_1h": "0.00000600",
-     "input_cache_write_more_than_200k_5m": "0.00000750",
-     "input_cache_write_more_than_200k_1h": "0.00001200",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
-     "prompt_more_than_200k_input": "0.00000600",
-     "completion_more_than_200k_input": "0.00002250",
+     "prompt_more_than_200k_input": "",
+     "completion_more_than_200k_input": "",
      "prompt_more_than_272k_input": "",
      "completion_more_than_272k_input": "",
      "prompt_more_than_512k_input": "",
@@ -3469,11 +3492,7 @@
       "prompt": "0.00000150",
       "completion": "0.00000750",
       "input_cache_read": "0.00000015",
-      "input_cache_write": "0.000001875",
-      "input_cache_read_more_than_200k_input": "0.00000030",
-      "input_cache_write_more_than_200k_input": "0.00000375",
-      "prompt_more_than_200k_input": "0.00000300",
-      "completion_more_than_200k_input": "0.00001125"
+      "input_cache_write": "0.000001875"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
@@ -3485,12 +3504,8 @@
       "completion": "0.00001500",
       "input_cache_read": "0.00000030",
       "input_cache_write": "0.00000375",
-      "input_cache_write_5m": "0.00000375",
       "input_cache_write_1h": "0.00000600",
-      "input_cache_write_more_than_200k_5m": "0.00000750",
-      "input_cache_write_more_than_200k_1h": "0.00001200",
-      "prompt_more_than_200k_input": "0.00000600",
-      "completion_more_than_200k_input": "0.00002250"
+      "input_cache_write_5m": "0.00000375"
      }
     },
     "top_provider": {
@@ -3910,11 +3925,7 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.000000375",
-      "completion": "0.000001875",
-      "input_cache_read": "0.0000000375"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -4227,6 +4238,7 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1:1",
         "16:9",
@@ -4235,8 +4247,7 @@
         "4:3",
         "2:3",
         "3:2"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "image": {
@@ -4251,6 +4262,7 @@
      },
      "length": {
       "inputFormat": {
+       "dataType": "number",
        "enum": [
         1,
         2,
@@ -4267,8 +4279,7 @@
         13,
         14,
         15
-       ],
-       "dataType": "number"
+       ]
       }
      },
      "prompt": {
@@ -4278,11 +4289,11 @@
      },
      "resolution": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "720p",
         "480p"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
@@ -4818,7 +4829,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "0.0000002",
+     "input_cache_read": "0.000000145",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -4845,7 +4856,7 @@
      "priceToShow": {
       "prompt": "0.00000174",
       "completion": "0.00000348",
-      "input_cache_read": "0.0000002"
+      "input_cache_read": "0.000000145"
      }
     },
     "top_provider": {
@@ -5005,9 +5016,9 @@
     }
    },
    {
-    "id": "openai/gpt-image-2.5-sunburst",
-    "name": "OpenAI: GPT Image 2.5 Sunburst",
-    "description": "GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation and editing model, offering an extra level of precision for detailed creative work at the cost of longer generation times than Flare. It shares Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, with sharper detail, more natural lighting, richer textures, and better handling of complex layouts and transparent backgrounds. Recommended for premium visual workflows like production-ready campaign creative or polished product imagery.",
+    "id": "openai/gpt-image-2.5-flare",
+    "name": "OpenAI: GPT Image 2.5 Flare",
+    "description": "GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency. It is the default choice for most API applications, sharing Images 2.5's improvements in reference fidelity, precise edits, and multi-turn consistency, and is well suited to creator and social content, product experiences, visual search, rapid prototyping, and high-volume generation.",
     "created": 1788825600,
     "context_length": 128000,
     "architecture": {
@@ -5106,9 +5117,7 @@
      "output_format",
      "partial_images",
      "quality",
-     "size",
-     "stream",
-     "user"
+     "size"
     ],
     "models_extra_params": {
      "category": [
@@ -5226,21 +5235,6 @@
         "1024x1536"
        ],
        "default": "auto"
-      }
-     },
-     "stream": {
-      "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ],
-       "default": false
-      }
-     },
-     "user": {
-      "inputFormat": {
-       "dataType": "string"
       }
      }
     }
@@ -16659,13 +16653,13 @@
     "pricing": {
      "prompt": "0.000002",
      "completion": "0.000008",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.0000005",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16685,23 +16679,15 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000001",
-      "completion": "0.000004"
+      "prompt": "0.00000100",
+      "completion": "0.00000400"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000035",
-      "completion": "0.000014",
-      "input_cache_read": "0.000000875"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.000002",
-      "completion": "0.000008",
-      "input_cache_read": "0.0000005"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16807,13 +16793,20 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008"
+     },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.0000004",
+      "completion": "0.0000016",
+      "input_cache_read": "0.0000001"
+     }
     },
     "top_provider": {
      "context_length": 1047576,
@@ -17775,13 +17768,13 @@
     "pricing": {
      "prompt": "0.00000025",
      "completion": "0.000002",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.000000025",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -17810,11 +17803,7 @@
       "completion": "0.000001",
       "input_cache_read": "0.0000000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.00000045",
-      "completion": "0.0000036",
-      "input_cache_read": "0.000000045"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -17923,16 +17912,24 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.00000003",
-      "completion": "0.00000020",
-      "input_cache_read": "0.00000000"
+      "prompt": "0.000000025",
+      "completion": "0.0000002",
+      "input_cache_read": "0.0000000025"
      },
-     "flex_service_tier_pricing": {},
+     "flex_service_tier_pricing": {
+      "prompt": "0.000000025",
+      "completion": "0.0000002",
+      "input_cache_read": "0.0000000025"
+     },
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.00000005",
+      "completion": "0.0000004",
+      "input_cache_read": "0.000000005"
+     }
     },
     "top_provider": {
      "context_length": 400000,
@@ -18500,11 +18497,7 @@
       "completion": "0.00000225",
       "input_cache_read": "0.0000000375"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000015",
-      "completion": "0.000009",
-      "input_cache_read": "0.00000015"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19018,7 +19011,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.00000002",
      "input_cache_write": "0.00000025",
-     "input_cache_read_more_than_272k_input": "0.00000004",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19039,8 +19031,7 @@
       "prompt": "0.0000001",
       "completion": "0.0000006",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125",
-      "input_cache_read_more_than_272k_input": "0.00000002"
+      "input_cache_write": "0.000000125"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.0000001",
@@ -19048,18 +19039,9 @@
       "prompt_more_than_272k_input": "0.0000002",
       "completion_more_than_272k_input": "0.0000009",
       "input_cache_read": "0.00000001",
-      "input_cache_write": "0.000000125",
-      "input_cache_read_more_than_272k_input": "0.00000002"
+      "input_cache_write": "0.000000125"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000004",
-      "completion": "0.0000024",
-      "prompt_more_than_272k_input": "0.0000008",
-      "completion_more_than_272k_input": "0.0000036",
-      "input_cache_read": "0.00000004",
-      "input_cache_write": "0.0000005",
-      "input_cache_read_more_than_272k_input": "0.00000008"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19069,9 +19051,7 @@
       "input_cache_read": "0.00000002",
       "input_cache_write": "0.00000025",
       "prompt_more_than_272k_input": "0.0000004",
-      "completion_more_than_272k_input": "0.0000018",
-      "input_cache_write_more_than_272k": "0.0000005",
-      "input_cache_read_more_than_272k_input": "0.00000004"
+      "completion_more_than_272k_input": "0.0000018"
      }
     },
     "top_provider": {
@@ -19413,7 +19393,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.000001",
      "input_cache_write": "0.0000125",
-     "input_cache_read_more_than_272k_input": "0.000002",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19425,7 +19404,7 @@
      "web_search_per_1000_requests_low": "",
      "web_search_per_1000_requests_medium": "",
      "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "",
+     "web_search_per_1000_requests": "10",
      "audio_output_per_minute": "",
      "audio_input": "",
      "audio_output": "",
@@ -19434,8 +19413,7 @@
       "prompt": "0.000005",
       "completion": "0.000025",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000005",
@@ -19443,18 +19421,9 @@
       "prompt_more_than_272k_input": "0.00001",
       "completion_more_than_272k_input": "0.0000375",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.00002",
-      "completion": "0.0001",
-      "prompt_more_than_272k_input": "0.00004",
-      "completion_more_than_272k_input": "0.00015",
-      "input_cache_read": "0.000002",
-      "input_cache_write": "0.000025",
-      "input_cache_read_more_than_272k_input": "0.000004"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19462,9 +19431,7 @@
       "prompt": "0.00001",
       "completion": "0.00005",
       "input_cache_read": "0.000001",
-      "input_cache_read_more_than_272k_input": "0.000002",
       "input_cache_write": "0.0000125",
-      "input_cache_write_more_than_272k": "0.000025",
       "prompt_more_than_272k_input": "0.00002",
       "completion_more_than_272k_input": "0.000075"
      }
@@ -21195,18 +21162,14 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.00000055",
-      "completion": "0.0000022"
+      "completion": "0.00000220"
      },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.0000011",
-      "completion": "0.0000044",
-      "input_cache_read": "0.00000055"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 200000,
@@ -24111,7 +24074,9 @@
     "supported_params_details": {
      "dimensions": {
       "inputFormat": {
-       "dataType": "number"
+       "dataType": "number",
+       "min": 32,
+       "max": 8192
       }
      },
      "encoding_format": {
@@ -24140,11 +24105,11 @@
      },
      "normalize": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "prompt_template": {
@@ -25653,14 +25618,14 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
+        "16:9",
+        "9:16",
         "1:1",
         "4:3",
-        "3:4",
-        "16:9",
-        "9:16"
-       ]
+        "3:4"
+       ],
+       "dataType": "string"
       }
      },
      "audioUrl": {
@@ -25691,11 +25656,11 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "image": {
@@ -25716,23 +25681,9 @@
      },
      "length": {
       "inputFormat": {
-       "dataType": "number",
-       "enum": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-       ]
+       "max": 15,
+       "min": 2,
+       "dataType": "number"
       }
      },
      "multiClip": {
@@ -25771,18 +25722,19 @@
      },
      "resolution": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
+        "480P",
         "720P",
         "1080P"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "seed": {
       "inputFormat": {
-       "dataType": "number",
-       "min": 1,
-       "max": 2147483647
+       "max": 2147483647,
+       "min": 0,
+       "dataType": "number"
       }
      },
      "size": {
@@ -27052,6 +27004,7 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1:1",
         "3:4",
@@ -27068,25 +27021,24 @@
         "9:20",
         "auto"
        ],
-       "default": "1:1",
-       "dataType": "string"
+       "default": "1:1"
       }
      },
      "aspect_ratio": {},
      "image_response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "b64_json"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "n": {
       "inputFormat": {
-       "max": 4,
+       "dataType": "number",
        "min": 1,
-       "default": 4,
-       "dataType": "number"
+       "max": 4,
+       "default": 4
       }
      },
      "prompt": {
@@ -27097,12 +27049,12 @@
      },
      "size": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1K",
         "2K"
        ],
-       "default": "1K",
-       "dataType": "string"
+       "default": "1K"
       }
      }
     }
@@ -27199,6 +27151,7 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "1:1",
         "16:9",
@@ -27207,8 +27160,7 @@
         "4:3",
         "2:3",
         "3:2"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "aspect_ratio": {},
@@ -27224,6 +27176,7 @@
      },
      "length": {
       "inputFormat": {
+       "dataType": "number",
        "enum": [
         1,
         1,
@@ -27240,8 +27193,7 @@
         13,
         14,
         15
-       ],
-       "dataType": "number"
+       ]
       }
      },
      "prompt": {
@@ -27251,11 +27203,11 @@
      },
      "resolution": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "720p",
         "480p"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
