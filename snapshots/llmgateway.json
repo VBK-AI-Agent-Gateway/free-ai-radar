@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T10:39:34Z",
+ "fetched_at": "2026-10-12T18:02:06Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "266f0ffe08f7d7dcfc24aafbc8578f51208bddb475962b4fd07e5622a109292f",
+ "hash": "0748bb71f09686c0bcf82cbfddea73c26e650745e342f4fd8d3347a6cd583c4c",
  "payload": {
   "data": [
    {
@@ -13463,6 +13463,84 @@
     "free": false
    },
    {
+    "id": "muse-wonder-1.0",
+    "name": "Muse Wonder 1.0",
+    "display_name": "Muse Wonder 1.0",
+    "created": 1791763200,
+    "description": "muse-wonder-1.0 provided by meta",
+    "family": "meta",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "meta",
+      "externalId": "muse-wonder-1.0",
+      "pricing": {
+       "prompt": "4e-6",
+       "completion": "20e-6",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.2e-6",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh"
+      ],
+      "max_output": 1048576,
+      "stability": "beta"
+     }
+    ],
+    "pricing": {
+     "prompt": "4e-6",
+     "completion": "20e-6",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0.2e-6",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 1048576,
+    "max_output": 1048576,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice",
+     "reasoning"
+    ],
+    "json_output": true,
+    "structured_outputs": true,
+    "free": false
+   },
+   {
     "id": "muse-spark-1.3",
     "name": "Muse Spark 1.3",
     "display_name": "Muse Spark 1.3",
@@ -15566,7 +15644,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, entrim, consensusprotocol, luminal, runware, scx-ai-gp, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, consensusprotocol, runware, scx-ai-gp, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15780,6 +15858,26 @@
       "max_output": 393216
      },
      {
+      "providerId": "luminal",
+      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "pricing": {
+       "prompt": "0.000000135",
+       "completion": "0.00000054",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.0000000027",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
+     },
+     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15830,26 +15928,6 @@
        "max",
        "xhigh"
       ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "luminal",
-      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "pricing": {
-       "prompt": "0.000000135",
-       "completion": "0.00000054",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000027",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -26044,7 +26122,7 @@
     "name": "GLM-5.3 Flash",
     "display_name": "GLM-5.3 Flash",
     "created": 1787702400,
-    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, runware, entrim, reka-ai, gonka24, consensusprotocol, scx-ai-gp",
+    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, reka-ai, runware, entrim, gonka24, consensusprotocol, scx-ai-gp",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -26186,6 +26264,36 @@
       "max_output": 943717
      },
      {
+      "providerId": "reka-ai",
+      "externalId": "glm5.3-flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000005",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000015",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 262144,
+      "stability": "stable"
+     },
+     {
       "providerId": "runware",
       "externalId": "zai:glm@5.3-flash",
       "pricing": {
@@ -26240,36 +26348,6 @@
        "xhigh",
        "max"
       ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "reka-ai",
-      "externalId": "glm5.3-flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000005",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000015",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "minimal",
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ],
-      "max_output": 262144,
       "stability": "stable"
      },
      {

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-12T10:40:30Z",
+ "at": "2026-10-12T18:02:36Z",
  "coverage": {
   "ref_providers": 77,
   "covered": 7,
@@ -699,11 +699,19 @@
    "src": "models_dev",
    "free_models": [
     "coding-minimax-m2.7-free",
+    "nemotron-3.5-content-safety-free",
     "coding-glm-5.3-free",
     "xiaomi-mimo-v2.5-pro-free",
+    "nemotron-3-ultra-550b-a55b-free",
     "coding-glm-5.3-flash-free",
     "xiaomi-mimo-v2.5-free",
+    "nemotron-3-super-120b-a12b-free",
     "ox-alpha",
+    "glm-4.7-flash-free",
+    "coding-glm-5.2-free",
+    "nemotron-3.5-lightning-free",
+    "nemotron-3-nano-omni-30b-a3b-reasoning-free",
+    "ling-3.0-flash-free",
     "coding-glm-5.1-free"
    ],
    "models_url": null

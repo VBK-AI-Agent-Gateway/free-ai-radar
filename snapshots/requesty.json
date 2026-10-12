@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T10:39:34Z",
+ "fetched_at": "2026-10-12T18:02:06Z",
  "url": "https://router.requesty.ai/v1/models",
- "hash": "434bb14df07ae4d9d830a1715c317a3755e654b8ecbeb66bda73c5d89e2a5f58",
+ "hash": "f8d266dd1cc4d37dae8ad5794c2cc22319d5ff83dd4fb7f105ed612ccd79c14a",
  "payload": {
   "object": "list",
   "data": [
@@ -4005,7 +4005,7 @@
     "data_retention_days": 0,
     "data_used_for_training": false,
     "privacy_comments": "N/A",
-    "geolocation": "us",
+    "geolocation": "global",
     "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
     "open_weights": true,
     "model_lab": "deepseek",
@@ -9998,6 +9998,49 @@
     "data_used_for_training": false,
     "privacy_comments": "N/A",
     "geolocation": "global",
+    "open_weights": false,
+    "model_lab": "google",
+    "model_canonical_name": "gemini-3.1-flash-image"
+   },
+   {
+    "api": "chat",
+    "id": "vertex/gemini-3.1-flash-image@eu",
+    "object": "model",
+    "created": 1781754065,
+    "updated": 1791812689,
+    "owned_by": "system",
+    "input_price": 5e-07,
+    "caching_price": 0,
+    "cached_price": 0,
+    "output_price": 2e-06,
+    "pricing": [
+     {
+      "prompt_tokens_threshold": 0,
+      "input_price": 5e-07,
+      "caching_price": 0,
+      "cached_price": 0,
+      "output_price": 2e-06
+     }
+    ],
+    "max_output_tokens": 32768,
+    "context_window": 131072,
+    "supports_caching": true,
+    "supports_vision": true,
+    "supports_computer_use": false,
+    "supports_reasoning": true,
+    "supports_image_generation": true,
+    "supports_tool_calling": true,
+    "supports_role_developer": false,
+    "supports_web_search": true,
+    "supports_output_json_object": true,
+    "supports_output_json_schema": false,
+    "supports_system_mid_conversation": true,
+    "description": "Gemini 3.1 Flash Image is optimized for image understanding and generation and offers a balance of price and performance.",
+    "data_retention": false,
+    "data_retention_days": 0,
+    "data_used_for_training": false,
+    "privacy_comments": "N/A",
+    "geolocation": "eu",
     "open_weights": false,
     "model_lab": "google",
     "model_canonical_name": "gemini-3.1-flash-image"

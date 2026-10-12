@@ -1,8 +1,8 @@
 {
- "at": "2026-10-12T10:40:51Z",
+ "at": "2026-10-12T18:02:56Z",
  "live_count": 9,
  "apply_count": 70,
- "total_free_models": 466,
+ "total_free_models": 474,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -111,7 +111,7 @@
   },
   {
    "provider": "opencode",
-   "name": "OpenCode Zen",
+   "name": "OpenCode",
    "free_count": 20,
    "sample_models": [
     "ling-3.0-flash-fin-free",
@@ -121,7 +121,7 @@
     "muse-spark-1.2-contributor-free",
     "ling-3.1-flash-free"
    ],
-   "apply_url": "https://opencode.ai/docs/zen",
+   "apply_url": "https://opencode.ai/v2/docs/console/models/",
    "link_kind": "doc",
    "btn": "查官方文档",
    "status": "apply_key",
@@ -150,6 +150,27 @@
     "SCNET_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
+  },
+  {
+   "provider": "aihubmix",
+   "name": "AIHubMix",
+   "free_count": 15,
+   "sample_models": [
+    "coding-minimax-m2.7-free",
+    "nemotron-3.5-content-safety-free",
+    "coding-glm-5.3-free",
+    "xiaomi-mimo-v2.5-pro-free",
+    "nemotron-3-ultra-550b-a55b-free",
+    "coding-glm-5.3-flash-free"
+   ],
+   "apply_url": "https://docs.aihubmix.com",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "AIHUBMIX_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "openrouter",
@@ -524,27 +545,6 @@
    "note": "真注册入口(curl 已验证)"
   },
   {
-   "provider": "aihubmix",
-   "name": "AIHubMix",
-   "free_count": 7,
-   "sample_models": [
-    "coding-minimax-m2.7-free",
-    "coding-glm-5.3-free",
-    "xiaomi-mimo-v2.5-pro-free",
-    "coding-glm-5.3-flash-free",
-    "xiaomi-mimo-v2.5-free",
-    "ox-alpha"
-   ],
-   "apply_url": "https://docs.aihubmix.com",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "AIHUBMIX_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
    "provider": "llama",
    "name": "Llama",
    "free_count": 7,
@@ -829,7 +829,7 @@
     "space-bunny-free",
     "step-5-preview-free"
    ],
-   "apply_url": "https://opencode.ai/docs/go",
+   "apply_url": "https://opencode.ai/v2/docs/console/go/",
    "link_kind": "doc",
    "btn": "查官方文档",
    "status": "apply_key",

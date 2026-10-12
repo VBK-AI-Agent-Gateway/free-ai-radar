@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T10:39:33Z",
+ "fetched_at": "2026-10-12T18:02:04Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "b9f62e41388c0a9b98ec2352aebf6325f0e9d155017c46050493beb727fb950e",
+ "hash": "d2d2842dda9441e4d31c30414e16c99a4e65517c38d5de4a1e692f90fc47e7f0",
  "payload": {
   "object": "list",
   "data": [
@@ -13753,6 +13753,72 @@
      "input": "0.0000001",
      "output": "0.0000002",
      "input_cache_read": "0.000000002"
+    }
+   },
+   {
+    "id": "meta/muse-wonder-1.0",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791763200,
+    "owned_by": "meta",
+    "name": "Muse Wonder",
+    "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors",
+    "context_window": 1048576,
+    "max_tokens": 1048576,
+    "type": "language",
+    "zdr": "all",
+    "no_training": "all",
+    "tags": [
+     "reasoning",
+     "tool-use",
+     "implicit-caching",
+     "file-input",
+     "vision",
+     "structured-output"
+    ],
+    "supported_specifications": [
+     "v2",
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text",
+      "image",
+      "pdf"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "supported_parameters": [
+     "max_tokens",
+     "temperature",
+     "stop",
+     "tools",
+     "tool_choice",
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs"
+    ],
+    "temperature": true,
+    "reasoning_options": [
+     {
+      "type": "effort",
+      "values": [
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh"
+      ]
+     }
+    ],
+    "pricing": {
+     "input": "0.000004",
+     "output": "0.00002",
+     "input_cache_read": "0.0000002"
     }
    },
    {

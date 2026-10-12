@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T10:39:38Z",
+ "fetched_at": "2026-10-12T18:02:09Z",
  "url": "https://api.navy/v1/models",
- "hash": "ba9c96b02ed5d83d82a415d5b97fa59f2fc5a721cbd2b37841482745d991947b",
+ "hash": "57dde3d7464bac249cd4dd2a227328ce3cabf9543f9542cc51a23b567856555e",
  "payload": {
   "object": "list",
   "data": [
@@ -1808,8 +1808,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.00000095526",
-     "completion": "0.00000191052",
+     "prompt": "0.000000415686",
+     "completion": "0.000000831372",
      "image": null,
      "request": null
     },
