@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-11T23:46:39Z",
+ "fetched_at": "2026-10-12T02:18:57Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "6b52447c03dea4e0c9bb21f4c06aa6ba64de0e1ce06a5c7331bbcb4a56995899",
+ "hash": "b9f62e41388c0a9b98ec2352aebf6325f0e9d155017c46050493beb727fb950e",
  "payload": {
   "object": "list",
   "data": [
@@ -215,168 +215,9 @@
     ],
     "knowledge": "2025-04",
     "pricing": {
-     "input": "0.00000016",
-     "output": "0.00000064",
+     "input": "0.00000015",
+     "output": "0.0000006",
      "varies_by_provider": true
-    }
-   },
-   {
-    "id": "alibaba/qwen-3.6-max-preview",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1776643200,
-    "owned_by": "alibaba",
-    "name": "Qwen 3.6 Max Preview",
-    "description": "Compared with the previously released Qwen3-Max and Qwen3.6-Plus, this model features enhanced vibe coding abilities, more efficient coding agent execution, and significantly improved front-end development skills. Additionally, its long-tail knowledge retention has been further upgraded.",
-    "context_window": 240000,
-    "max_tokens": 64000,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "reasoning",
-     "tool-use",
-     "explicit-caching"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "toggle"
-     },
-     {
-      "type": "budget_tokens",
-      "min": 1,
-      "max": 131072
-     }
-    ],
-    "pricing": {
-     "input": "0.0000013",
-     "input_tiers": [
-      {
-       "cost": "0.0000013",
-       "min": 0,
-       "max": 128000
-      },
-      {
-       "cost": "0.000002",
-       "min": 128000
-      }
-     ],
-     "output": "0.0000078",
-     "output_tiers": [
-      {
-       "cost": "0.0000078",
-       "min": 0,
-       "max": 128000
-      },
-      {
-       "cost": "0.000012",
-       "min": 128000
-      }
-     ],
-     "input_cache_read": "0.00000013",
-     "input_cache_read_tiers": [
-      {
-       "cost": "0.00000013",
-       "min": 0,
-       "max": 128000
-      },
-      {
-       "cost": "0.0000002",
-       "min": 128000
-      }
-     ],
-     "input_cache_write": "0.000001625",
-     "input_cache_write_tiers": [
-      {
-       "cost": "0.000001625",
-       "min": 0,
-       "max": 128000
-      },
-      {
-       "cost": "0.0000025",
-       "min": 128000
-      }
-     ]
-    }
-   },
-   {
-    "id": "alibaba/qwen3-235b-a22b-thinking",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1758585600,
-    "owned_by": "alibaba",
-    "name": "Qwen3 VL 235B A22B Thinking",
-    "description": "Qwen3 series VL models feature significantly enhanced multimodal reasoning capabilities, with a particular focus on optimizing the model for STEM and mathematical reasoning. Visual perception and recognition abilities have been comprehensively improved, and OCR capabilities have undergone a major upgrade.",
-    "context_window": 131072,
-    "max_tokens": 32768,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "vision",
-     "reasoning",
-     "tool-use",
-     "file-input"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text",
-      "image",
-      "pdf"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "budget_tokens",
-      "min": 1,
-      "max": 81920
-     }
-    ],
-    "knowledge": "2025-04",
-    "pricing": {
-     "input": "0.0000004",
-     "output": "0.000004"
     }
    },
    {
@@ -386,15 +227,15 @@
     "released": 1753142400,
     "owned_by": "alibaba",
     "name": "Qwen3 Coder 480B A35B Instruct",
-    "description": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks.",
+    "description": "Mixture-of-experts LLM with advanced coding and reasoning capabilities",
     "context_window": 262144,
-    "max_tokens": 65536,
+    "max_tokens": 32768,
     "type": "language",
     "zdr": "all",
     "no_training": "all",
     "tags": [
-     "tool-use",
      "implicit-caching",
+     "tool-use",
      "structured-output"
     ],
     "supported_specifications": [
@@ -422,58 +263,9 @@
     "temperature": true,
     "knowledge": "2025-04",
     "pricing": {
-     "input": "0.0000015",
-     "input_tiers": [
-      {
-       "cost": "0.0000015",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.0000027",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000045",
-       "min": 128001
-      }
-     ],
-     "output": "0.0000075",
-     "output_tiers": [
-      {
-       "cost": "0.0000075",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.0000135",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000225",
-       "min": 128001
-      }
-     ],
-     "input_cache_read": "0.0000003",
-     "input_cache_read_tiers": [
-      {
-       "cost": "0.0000003",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.00000054",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000009",
-       "min": 128001
-      }
-     ],
-     "varies_by_provider": true
+     "input": "0.00000022",
+     "output": "0.0000018",
+     "input_cache_read": "0.000000022"
     }
    },
    {
@@ -569,114 +361,6 @@
     }
    },
    {
-    "id": "alibaba/qwen3-coder-plus",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1753228800,
-    "owned_by": "alibaba",
-    "name": "Qwen3 Coder Plus",
-    "description": "Powered by Qwen3 this is a powerful Coding Agent that excels in tool calling and environment interaction to achieve autonomous programming. It combines outstanding coding proficiency with versatile general-purpose abilities.",
-    "context_window": 1000000,
-    "max_tokens": 65536,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "implicit-caching",
-     "tool-use"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice"
-    ],
-    "temperature": true,
-    "knowledge": "2025-04",
-    "pricing": {
-     "input": "0.000001",
-     "input_tiers": [
-      {
-       "cost": "0.000001",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.0000018",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000003",
-       "min": 128001,
-       "max": 256001
-      },
-      {
-       "cost": "0.000006",
-       "min": 256001
-      }
-     ],
-     "output": "0.000005",
-     "output_tiers": [
-      {
-       "cost": "0.000005",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.000009",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000015",
-       "min": 128001,
-       "max": 256001
-      },
-      {
-       "cost": "0.00006",
-       "min": 256001
-      }
-     ],
-     "input_cache_read": "0.0000002",
-     "input_cache_read_tiers": [
-      {
-       "cost": "0.0000002",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.00000036",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000006",
-       "min": 128001,
-       "max": 256001
-      },
-      {
-       "cost": "0.0000012",
-       "min": 256001
-      }
-     ]
-    }
-   },
-   {
     "id": "alibaba/qwen3-embedding-0.6b",
     "object": "model",
     "created": 1755815280,
@@ -764,214 +448,6 @@
     },
     "pricing": {
      "input": "0.00000001"
-    }
-   },
-   {
-    "id": "alibaba/qwen3-max",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1758585600,
-    "owned_by": "alibaba",
-    "name": "Qwen3 Max",
-    "description": "The Qwen 3 series Max model has undergone specialized upgrades in agent programming and tool invocation compared to the preview version. The officially released model this time has achieved state-of-the-art (SOTA) performance in its field and is better suited to meet the demands of agents operating in more complex scenarios.",
-    "context_window": 262144,
-    "max_tokens": 32768,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "tool-use",
-     "implicit-caching",
-     "structured-output"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning",
-     "response_format",
-     "structured_outputs"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "effort",
-      "values": [
-       "none",
-       "minimal",
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ]
-     }
-    ],
-    "knowledge": "2025-04",
-    "pricing": {
-     "input": "0.0000012",
-     "input_tiers": [
-      {
-       "cost": "0.0000012",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.0000024",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000003",
-       "min": 128001
-      }
-     ],
-     "output": "0.000006",
-     "output_tiers": [
-      {
-       "cost": "0.000006",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.000012",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000015",
-       "min": 128001
-      }
-     ],
-     "input_cache_read": "0.00000024",
-     "input_cache_read_tiers": [
-      {
-       "cost": "0.00000024",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.00000048",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000006",
-       "min": 128001
-      }
-     ]
-    }
-   },
-   {
-    "id": "alibaba/qwen3-max-preview",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1757030400,
-    "owned_by": "alibaba",
-    "name": "Qwen3 Max Preview",
-    "description": "Qwen3-Max-Preview shows substantial gains over the 2.5 series in overall capability, with significant enhancements in Chinese-English text understanding, complex instruction following, handling of subjective open-ended tasks, multilingual ability, and tool invocation; model knowledge hallucinations are reduced.",
-    "context_window": 262144,
-    "max_tokens": 32768,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "tool-use",
-     "implicit-caching",
-     "structured-output"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "response_format",
-     "structured_outputs"
-    ],
-    "temperature": true,
-    "knowledge": "2025-04",
-    "pricing": {
-     "input": "0.0000012",
-     "input_tiers": [
-      {
-       "cost": "0.0000012",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.0000024",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000003",
-       "min": 128001
-      }
-     ],
-     "output": "0.000006",
-     "output_tiers": [
-      {
-       "cost": "0.000006",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.000012",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.000015",
-       "min": 128001
-      }
-     ],
-     "input_cache_read": "0.00000024",
-     "input_cache_read_tiers": [
-      {
-       "cost": "0.00000024",
-       "min": 0,
-       "max": 32001
-      },
-      {
-       "cost": "0.00000048",
-       "min": 32001,
-       "max": 128001
-      },
-      {
-       "cost": "0.0000006",
-       "min": 128001
-      }
-     ]
     }
    },
    {
@@ -1182,53 +658,6 @@
     }
    },
    {
-    "id": "alibaba/qwen3-vl-235b-a22b-instruct",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1758585600,
-    "owned_by": "alibaba",
-    "name": "Qwen3 VL 235B A22B Instruct",
-    "description": "The Qwen3 series VL models has been comprehensively upgraded in areas such as visual coding and spatial perception. Its visual perception and recognition capabilities have significantly improved, supporting the understanding of ultra-long videos, and its OCR functionality has undergone a major enhancement.",
-    "context_window": 131072,
-    "max_tokens": 129024,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "tool-use",
-     "vision",
-     "implicit-caching"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text",
-      "image"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice"
-    ],
-    "temperature": true,
-    "knowledge": "2025-03-31",
-    "pricing": {
-     "input": "0.0000004",
-     "output": "0.0000016",
-     "varies_by_provider": true
-    }
-   },
-   {
     "id": "alibaba/qwen3-vl-instruct",
     "object": "model",
     "created": 1755815280,
@@ -1236,15 +665,15 @@
     "owned_by": "alibaba",
     "name": "Qwen3 VL 235B A22B Instruct",
     "description": "The Qwen3 series VL models has been comprehensively upgraded in areas such as visual coding and spatial perception. Its visual perception and recognition capabilities have significantly improved, supporting the understanding of ultra-long videos, and its OCR functionality has undergone a major enhancement.",
-    "context_window": 131072,
-    "max_tokens": 129024,
+    "context_window": 262144,
+    "max_tokens": 262144,
     "type": "language",
     "zdr": "all",
     "no_training": "all",
     "tags": [
+     "implicit-caching",
      "tool-use",
-     "vision",
-     "implicit-caching"
+     "vision"
     ],
     "supported_specifications": [
      "v2",
@@ -1270,66 +699,9 @@
     "temperature": true,
     "knowledge": "2025-04",
     "pricing": {
-     "input": "0.0000004",
-     "output": "0.0000016",
-     "varies_by_provider": true
-    }
-   },
-   {
-    "id": "alibaba/qwen3-vl-thinking",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1758585600,
-    "owned_by": "alibaba",
-    "name": "Qwen3 VL 235B A22B Thinking",
-    "description": "Qwen3 series VL models feature significantly enhanced multimodal reasoning capabilities, with a particular focus on optimizing the model for STEM and mathematical reasoning. Visual perception and recognition abilities have been comprehensively improved, and OCR capabilities have undergone a major upgrade.",
-    "context_window": 131072,
-    "max_tokens": 32768,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "vision",
-     "reasoning",
-     "tool-use",
-     "file-input"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text",
-      "image",
-      "pdf"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "budget_tokens",
-      "min": 1,
-      "max": 81920
-     }
-    ],
-    "knowledge": "2025-09",
-    "pricing": {
-     "input": "0.0000004",
-     "output": "0.000004"
+     "input": "0.0000002",
+     "output": "0.00000088",
+     "input_cache_read": "0.00000011"
     }
    },
    {

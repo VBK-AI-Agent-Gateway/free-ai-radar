@@ -9,7 +9,7 @@ models:
   evidence:
   - kind: official_page
     url: https://api-docs.deepseek.com/quick_start/pricing
-    at: '2026-10-11'
+    at: '2026-10-12'
     excerpt: prices listed below are in units of per 1M tokens.
-  last_verified: '2026-10-11'
-last_verified: '2026-10-11T23:47:14Z'
+  last_verified: '2026-10-12'
+last_verified: '2026-10-12T02:19:32Z'
