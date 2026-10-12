@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T06:10:12Z",
+ "fetched_at": "2026-10-12T10:39:34Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "9208775dc65e4e0df1ebd3727e72b8092a96ad978760d42b3649fe876db3935a",
+ "hash": "266f0ffe08f7d7dcfc24aafbc8578f51208bddb475962b4fd07e5622a109292f",
  "payload": {
   "data": [
    {
@@ -3918,6 +3918,75 @@
     "json_output": true,
     "structured_outputs": true,
     "free": false
+   },
+   {
+    "id": "gpt-6-luna-decisions",
+    "name": "GPT-6 Luna Decisions",
+    "display_name": "GPT-6 Luna Decisions",
+    "created": 1791244800,
+    "description": "gpt-6-luna-decisions provided by openai",
+    "family": "openai",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "decision"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "openai",
+      "externalId": "gpt-6-luna",
+      "pricing": {
+       "prompt": "0.1e-6",
+       "completion": "0",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": false,
+      "vision": true,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "stability": "beta"
+     }
+    ],
+    "pricing": {
+     "prompt": "0.1e-6",
+     "completion": "0",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 1050000,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false,
+    "stability": "beta"
    },
    {
     "id": "gpt-5.2-codex",
@@ -15497,7 +15566,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, consensusprotocol, runware, scx-ai-gp, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, entrim, consensusprotocol, luminal, runware, scx-ai-gp, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15711,26 +15780,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "luminal",
-      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "pricing": {
-       "prompt": "0.000000135",
-       "completion": "0.00000054",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000027",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "stability": "stable"
-     },
-     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15781,6 +15830,26 @@
        "max",
        "xhigh"
       ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "luminal",
+      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "pricing": {
+       "prompt": "0.000000135",
+       "completion": "0.00000054",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.0000000027",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -16689,6 +16758,72 @@
     ],
     "json_output": true,
     "structured_outputs": true,
+    "free": false
+   },
+   {
+    "id": "microsoft-decision-1",
+    "name": "Microsoft-Decision-1",
+    "display_name": "Microsoft-Decision-1",
+    "created": 1791504000,
+    "description": "microsoft-decision-1 provided by azure",
+    "family": "microsoft",
+    "architecture": {
+     "input_modalities": [
+      "text"
+     ],
+     "output_modalities": [
+      "decision"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "azure",
+      "externalId": "Decision-1",
+      "pricing": {
+       "prompt": "0.042e-6",
+       "completion": "0",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": false,
+      "vision": false,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false
+     }
+    ],
+    "pricing": {
+     "prompt": "0.042e-6",
+     "completion": "0",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 32768,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
     "free": false
    },
    {
@@ -21774,6 +21909,82 @@
      "image": "0",
      "per_image": {
       "default": "0.04"
+     },
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 4500,
+    "max_output": 4096,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false
+   },
+   {
+    "id": "qwen-image-2.1-turbo",
+    "name": "Qwen Image 2.1 Turbo",
+    "display_name": "Qwen Image 2.1 Turbo",
+    "created": 1791504000,
+    "description": "qwen-image-2.1-turbo provided by alibaba",
+    "family": "alibaba",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text",
+      "image"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "alibaba",
+      "externalId": "qwen-image-2.1-turbo",
+      "pricing": {
+       "prompt": "0",
+       "completion": "0",
+       "image": "0",
+       "per_image": {
+        "default": "0.016"
+       },
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": false,
+      "vision": true,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "max_output": 4096
+     }
+    ],
+    "pricing": {
+     "prompt": "0",
+     "completion": "0",
+     "image": "0",
+     "per_image": {
+      "default": "0.016"
      },
      "request": "0",
      "input_cache_read": "0",

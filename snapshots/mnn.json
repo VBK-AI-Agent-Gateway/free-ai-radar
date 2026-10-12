@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T06:10:15Z",
+ "fetched_at": "2026-10-12T10:39:48Z",
  "url": "https://api.mnnai.ru/v1/models",
- "hash": "b7f80b76df098d49e28a2a8390f6ca6d21ec3e0247e10193042230d9ebd012dd",
+ "hash": "75c1b37ff4a85a36c9f9918d75140c7db56b28260ef2675b0fe1c07fdac3913f",
  "payload": {
   "data": [
    {
@@ -866,7 +866,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1042,7 +1042,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "active",
+    "status": "inactive",
     "tiers": [
      "Basic",
      "Pro",
@@ -1387,7 +1387,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "active",
+    "status": "inactive",
     "tiers": [
      "Basic",
      "Pro",

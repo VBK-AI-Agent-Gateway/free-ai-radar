@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T06:10:11Z",
+ "fetched_at": "2026-10-12T10:39:33Z",
  "url": "https://api.novita.ai/v3/openai/models",
- "hash": "6cc76a08ec2a71d76b887c6980ef29c73bdb5db158faf1b7b837a033c02fb956",
+ "hash": "3a2bfea0ca170a267add13696561e8f0448018357ed2a55c046dc469843be7c7",
  "payload": {
   "data": [
    {
@@ -1378,7 +1378,7 @@
     "status": 1,
     "display_name": "Ling 3.1 Flash",
     "model_type": "chat",
-    "max_output_tokens": 32768,
+    "max_output_tokens": 262144,
     "features": [
      "serverless",
      "function-calling",

@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T06:10:12Z",
+ "fetched_at": "2026-10-12T10:39:34Z",
  "url": "https://router.requesty.ai/v1/models",
- "hash": "339af55888a13d58e65df8848ce79d34915b87208129f50891ae49f6cf7c8ee5",
+ "hash": "434bb14df07ae4d9d830a1715c317a3755e654b8ecbeb66bda73c5d89e2a5f58",
  "payload": {
   "object": "list",
   "data": [
@@ -30810,7 +30810,7 @@
     "id": "openai/gpt-4.1",
     "object": "model",
     "created": 1744654985,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 2e-06,
     "cached_price": 5e-07,
@@ -30844,14 +30844,15 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4.1"
+    "model_canonical_name": "gpt-4.1",
+    "retires": 1799884800
    },
    {
     "api": "chat",
     "id": "openai/gpt-4.1-mini",
     "object": "model",
     "created": 1744654981,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 4e-07,
     "cached_price": 1e-07,
@@ -30885,7 +30886,8 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4.1-mini"
+    "model_canonical_name": "gpt-4.1-mini",
+    "retires": 1799884800
    },
    {
     "api": "chat",
@@ -33525,7 +33527,7 @@
     "id": "openai/gpt-4o",
     "object": "model",
     "created": 1732127594,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 2.5e-06,
     "cached_price": 1.25e-06,
@@ -33559,14 +33561,15 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4o-2024-11-20"
+    "model_canonical_name": "gpt-4o-2024-11-20",
+    "retires": 1799884800
    },
    {
     "api": "chat",
     "id": "openai/gpt-4o-2024-11-20",
     "object": "model",
     "created": 1732127594,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 2.5e-06,
     "cached_price": 1.25e-06,
@@ -33600,7 +33603,8 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4o-2024-11-20"
+    "model_canonical_name": "gpt-4o-2024-11-20",
+    "retires": 1799884800
    },
    {
     "api": "chat",
@@ -33908,7 +33912,7 @@
     "id": "openai/gpt-4o-2024-08-06",
     "object": "model",
     "created": 1722902400,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 2.5e-06,
     "cached_price": 1.25e-06,
@@ -33942,7 +33946,8 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4o-2024-08-06"
+    "model_canonical_name": "gpt-4o-2024-08-06",
+    "retires": 1799884800
    },
    {
     "api": "chat",
@@ -34164,7 +34169,7 @@
     "id": "openai/gpt-4o-mini",
     "object": "model",
     "created": 1721264400,
-    "updated": 1787843415,
+    "updated": 1791792762,
     "owned_by": "system",
     "input_price": 1.5e-07,
     "cached_price": 7.5e-08,
@@ -34198,7 +34203,8 @@
     "geolocation": "global",
     "open_weights": false,
     "model_lab": "openai",
-    "model_canonical_name": "gpt-4o-mini"
+    "model_canonical_name": "gpt-4o-mini",
+    "retires": 1799884800
    },
    {
     "api": "chat",
