@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T02:19:01Z",
+ "fetched_at": "2026-10-12T06:10:14Z",
  "url": "https://api.navy/v1/models",
- "hash": "2794438b03235ac0ff12a9b795d3a64fa8ead0fc50b87631fbe0c56c5c7a3dc3",
+ "hash": "40f94dd24d61fba0919560ca56f48646566d736aca413164cff0b71d136c7656",
  "payload": {
   "object": "list",
   "data": [
@@ -1570,7 +1570,7 @@
     "token_multiplier": 1,
     "premium": false,
     "context_window": 262144,
-    "max_output_tokens": 235929,
+    "max_output_tokens": 32768,
     "input_modalities": [
      "text",
      "image",
@@ -1591,8 +1591,8 @@
     "supports_streaming": true,
     "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
     "pricing": {
-     "prompt": "0.0000000675",
-     "completion": "0.000000225",
+     "prompt": "0.000000042",
+     "completion": "0.00000022",
      "image": null,
      "request": null
     },
@@ -1700,7 +1700,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
     "pricing": {
-     "prompt": "0.0000000161",
+     "prompt": "0.000000016",
      "completion": "0.00000064",
      "image": null,
      "request": null
@@ -1736,7 +1736,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000003",
+     "prompt": "0.0000000057",
      "completion": "0.00000128",
      "image": null,
      "request": null
@@ -1808,8 +1808,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.0000002088",
-     "completion": "0.0000004176",
+     "prompt": "0.00000095526",
+     "completion": "0.00000191052",
      "image": null,
      "request": null
     },
@@ -3077,7 +3077,7 @@
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
      "prompt": "0.00000073",
-     "completion": "0.0000135",
+     "completion": "0.00001",
      "image": null,
      "request": null
     },
@@ -3299,7 +3299,7 @@
     "supports_streaming": true,
     "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
     "pricing": {
-     "prompt": "0.000000079",
+     "prompt": "0.00000007",
      "completion": "0.0000048",
      "image": null,
      "request": null
@@ -3611,7 +3611,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000003",
+     "prompt": "0.0000000057",
      "completion": "0.00000128",
      "image": null,
      "request": null
