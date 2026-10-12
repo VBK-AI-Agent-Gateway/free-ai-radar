@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T18:02:04Z",
+ "fetched_at": "2026-10-12T20:15:39Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "d2d2842dda9441e4d31c30414e16c99a4e65517c38d5de4a1e692f90fc47e7f0",
+ "hash": "6f397b1b67d54012fe797bc52581533d4ceb7bc06730c51db259b0f465bd071c",
  "payload": {
   "object": "list",
   "data": [
@@ -3320,57 +3320,6 @@
     }
    },
    {
-    "id": "anthropic/claude-3-haiku",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1710288000,
-    "owned_by": "anthropic",
-    "name": "Claude 3 Haiku",
-    "description": "Claude 3 Haiku is Anthropic's fastest, most compact model for near-instant responsiveness. It answers simple queries and requests with speed. Customers will be able to build seamless AI experiences that mimic human interactions. Claude 3 Haiku can process images and return text outputs, and features a 200K context window.",
-    "context_window": 200000,
-    "max_tokens": 4096,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "tool-use",
-     "vision",
-     "explicit-caching",
-     "structured-output"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text",
-      "image"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "response_format",
-     "structured_outputs"
-    ],
-    "temperature": true,
-    "knowledge": "2023-08-31",
-    "pricing": {
-     "input": "0.00000025",
-     "output": "0.00000125",
-     "input_cache_read": "0.00000003",
-     "input_cache_write": "0.0000003"
-    }
-   },
-   {
     "id": "anthropic/claude-fable-5",
     "object": "model",
     "created": 1755815280,
@@ -3849,69 +3798,6 @@
        ]
       }
      }
-    }
-   },
-   {
-    "id": "anthropic/claude-opus-4",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1747872000,
-    "owned_by": "anthropic",
-    "name": "Claude Opus 4",
-    "description": "Claude Opus 4 is Anthropic's most powerful model yet and the state-of-the-art coding model. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. Claude Opus 4 is ideal for powering frontier agent products and features.",
-    "context_window": 200000,
-    "max_tokens": 32000,
-    "type": "language",
-    "zdr": "all",
-    "no_training": "all",
-    "tags": [
-     "file-input",
-     "reasoning",
-     "tool-use",
-     "vision",
-     "explicit-caching"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text",
-      "image",
-      "pdf"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "toggle"
-     },
-     {
-      "type": "budget_tokens",
-      "min": 1024
-     }
-    ],
-    "knowledge": "2025-03-31",
-    "pricing": {
-     "input": "0.000015",
-     "output": "0.000075",
-     "input_cache_read": "0.0000015",
-     "input_cache_write": "0.00001875",
-     "web_search": "10"
     }
    },
    {
@@ -8306,11 +8192,92 @@
      "output": "0.0000012",
      "input_cache_read": "0.000000007",
      "varies_by_provider": true,
+     "fast": {
+      "input": "0.0000006",
+      "output": "0.0000024",
+      "input_cache_read": "0.000000014"
+     },
      "regional": {
       "us": {
        "input": "0.0000003",
        "output": "0.0000012",
        "input_cache_read": "0.000000007"
+      }
+     }
+    }
+   },
+   {
+    "id": "deepseek/deepseek-v4.1-flash-fast",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1790640000,
+    "owned_by": "deepseek",
+    "name": "DeepSeek V4.1 Flash Fast",
+    "description": "Higher-throughput variant of DeepSeek V4.1 Flash for responsive coding, reasoning, and agentic workloads.",
+    "context_window": 1048576,
+    "max_tokens": 32768,
+    "type": "language",
+    "zdr": "all",
+    "no_training": "all",
+    "tags": [
+     "reasoning",
+     "tool-use",
+     "implicit-caching",
+     "vision",
+     "structured-output"
+    ],
+    "regions": [
+     "us"
+    ],
+    "supported_specifications": [
+     "v2",
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text",
+      "image"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "supported_parameters": [
+     "max_tokens",
+     "temperature",
+     "stop",
+     "tools",
+     "tool_choice",
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs"
+    ],
+    "temperature": true,
+    "reasoning_options": [
+     {
+      "type": "toggle"
+     },
+     {
+      "type": "effort",
+      "values": [
+       "none",
+       "low",
+       "medium",
+       "high"
+      ]
+     }
+    ],
+    "pricing": {
+     "input": "0.0000006",
+     "output": "0.0000024",
+     "input_cache_read": "0.000000014",
+     "regional": {
+      "us": {
+       "input": "0.0000006",
+       "output": "0.0000024",
+       "input_cache_read": "0.000000014"
       }
      }
     }
@@ -13762,7 +13729,7 @@
     "released": 1791763200,
     "owned_by": "meta",
     "name": "Muse Wonder",
-    "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors",
+    "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors.",
     "context_window": 1048576,
     "max_tokens": 1048576,
     "type": "language",

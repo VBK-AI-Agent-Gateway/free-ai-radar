@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T18:02:06Z",
+ "fetched_at": "2026-10-12T20:15:40Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "0748bb71f09686c0bcf82cbfddea73c26e650745e342f4fd8d3347a6cd583c4c",
+ "hash": "e3356dbca7641c1b843de1f7400b0b251a0e97383244dcc7184b1ed3c4f1399a",
  "payload": {
   "data": [
    {
@@ -15539,7 +15539,7 @@
        "completion": "0.00000066",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.000000007",
+       "input_cache_read": "0.00000001",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -18896,11 +18896,11 @@
       "providerId": "scx-ai-gp",
       "externalId": "Kimi-K2.7-Code",
       "pricing": {
-       "prompt": "0.00000095",
-       "completion": "0.000004",
+       "prompt": "0.000000737",
+       "completion": "0.00000308",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000019",
+       "input_cache_read": "0.000000143",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -18923,11 +18923,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.95e-6",
-     "completion": "4.0e-6",
+     "prompt": "0.000000737",
+     "completion": "0.00000308",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.19e-6",
+     "input_cache_read": "0.000000143",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -19334,11 +19334,11 @@
       "providerId": "scx-ai-gp",
       "externalId": "Kimi-K3",
       "pricing": {
-       "prompt": "0.0000035",
-       "completion": "0.000018",
+       "prompt": "0.000003135",
+       "completion": "0.000015675",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000035",
+       "input_cache_read": "0.000000319",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -21095,12 +21095,12 @@
       "providerId": "scx-ai-gp",
       "externalId": "qwen3.8-max",
       "pricing": {
-       "prompt": "0.000002",
-       "completion": "0.000006",
+       "prompt": "0.00000154",
+       "completion": "0.000004631",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000025",
-       "input_cache_write": "0.0000025",
+       "input_cache_read": "0.000000198",
+       "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
       "streaming": true,
@@ -21114,12 +21114,12 @@
      }
     ],
     "pricing": {
-     "prompt": "2e-6",
-     "completion": "6e-6",
+     "prompt": "0.00000154",
+     "completion": "0.000004631",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.25e-6",
-     "input_cache_write": "2.5e-6",
+     "input_cache_read": "0.000000198",
+     "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
      "internal_reasoning": "0"
@@ -21214,11 +21214,11 @@
       "providerId": "reka-ai",
       "externalId": "qwen3.8-27b",
       "pricing": {
-       "prompt": "0.0000002",
-       "completion": "0.0000025",
+       "prompt": "0.00000041",
+       "completion": "0.000003",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000005",
+       "input_cache_read": "0.000000085",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -21242,11 +21242,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.0000002",
-     "completion": "0.0000025",
+     "prompt": "0.00000041",
+     "completion": "0.000003",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.00000005",
+     "input_cache_read": "0.000000085",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -26271,7 +26271,7 @@
        "completion": "0.0000005",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.000000015",
+       "input_cache_read": "0.00000002",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -26750,11 +26750,11 @@
       "providerId": "scx-ai-gp",
       "externalId": "GLM-5.3",
       "pricing": {
-       "prompt": "0.0000014",
-       "completion": "0.0000044",
+       "prompt": "0.000000924",
+       "completion": "0.000002904",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000026",
+       "input_cache_read": "0.0000001716",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -26774,11 +26774,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.9e-6",
-     "completion": "3e-6",
+     "prompt": "0.000000924",
+     "completion": "0.000002904",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.15e-6",
+     "input_cache_read": "0.0000001716",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -27087,11 +27087,11 @@
       "providerId": "scx-ai-gp",
       "externalId": "GLM-5.2",
       "pricing": {
-       "prompt": "0.00000088",
-       "completion": "0.00000255",
+       "prompt": "0.000000605",
+       "completion": "0.000002123",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000016",
+       "input_cache_read": "0.000000154",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -27106,11 +27106,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.0000008",
-     "completion": "0.00000255",
+     "prompt": "0.000000605",
+     "completion": "0.000002123",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.00000016",
+     "input_cache_read": "0.000000154",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -29699,11 +29699,11 @@
       "providerId": "scx-ai-gp",
       "externalId": "GLM-5.2-Fast",
       "pricing": {
-       "prompt": "0.0000022",
-       "completion": "0.0000065",
+       "prompt": "0.0000021256",
+       "completion": "0.000006776",
        "image": "0",
        "request": "0",
-       "input_cache_read": "0.00000045",
+       "input_cache_read": "0.000000429",
        "input_cache_write": "0",
        "input_cache_write_1h": "0"
       },
@@ -29718,11 +29718,11 @@
      }
     ],
     "pricing": {
-     "prompt": "0.0000022",
-     "completion": "0.0000065",
+     "prompt": "0.0000021256",
+     "completion": "0.000006776",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.00000045",
+     "input_cache_read": "0.000000429",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
