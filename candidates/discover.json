@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:12:15Z",
+ "generated_at": "2026-10-13T19:22:51Z",
  "candidates": [
   {
    "provider": "poe",
@@ -284,7 +284,6 @@
     "openrouter/auto",
     "google/lyria-3-pro-preview",
     "google/lyria-3-clip-preview",
-    "inclusionai/ling-3.1-flash",
     "kilo-auto/free",
     "stepfun/step-5-preview-free"
    ],

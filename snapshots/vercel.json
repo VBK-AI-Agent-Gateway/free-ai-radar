@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T18:11:29Z",
+ "fetched_at": "2026-10-13T19:22:08Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "eede1031518918bdbb29a116f8fb8933d913e5c63735183a939c1ab7d349b158",
+ "hash": "568430650ac4c9c0b43efa0ce82e51c6503af80f7ca98e8f4d960dd481f13ae2",
  "payload": {
   "object": "list",
   "data": [
@@ -14829,6 +14829,69 @@
     }
    },
    {
+    "id": "liquid/lfm2.5-24b-a2b",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791849600,
+    "owned_by": "liquid",
+    "name": "LFM2.5-24B-A2B",
+    "description": "LFM2.5-24B-A2B is a text-generation model from Liquid AI with a 128,000-token context window.",
+    "context_window": 128000,
+    "max_tokens": 8200,
+    "type": "language",
+    "zdr": "none",
+    "no_training": "none",
+    "tags": [
+     "implicit-caching",
+     "reasoning",
+     "structured-output",
+     "tool-use"
+    ],
+    "supported_specifications": [
+     "v2",
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "supported_parameters": [
+     "max_tokens",
+     "temperature",
+     "stop",
+     "tools",
+     "tool_choice",
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs"
+    ],
+    "temperature": true,
+    "reasoning_options": [
+     {
+      "type": "effort",
+      "values": [
+       "minimal",
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ]
+     }
+    ],
+    "pricing": {
+     "input": "0.0000001",
+     "output": "0.000001",
+     "input_cache_read": "0.00000005"
+    }
+   },
+   {
     "id": "meituan/longcat-2.5-preview",
     "object": "model",
     "created": 1755815280,
@@ -15700,6 +15763,84 @@
      "input": "0.000004",
      "output": "0.00002",
      "input_cache_read": "0.0000002"
+    }
+   },
+   {
+    "id": "microsoft/mai-image-2.6",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1786665600,
+    "owned_by": "microsoft",
+    "name": "MAI-Image-2.6",
+    "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
+    "context_window": 0,
+    "max_tokens": 0,
+    "type": "image",
+    "zdr": "all",
+    "no_training": "all",
+    "tags": [
+     "image-generation"
+    ],
+    "supported_specifications": [
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "image"
+     ]
+    },
+    "pricing": {
+     "input": "0.000005",
+     "output": "0.000038",
+     "image_dimension_quality_pricing": [
+      {
+       "operation": "web-grounding",
+       "cost": "0.014"
+      }
+     ]
+    }
+   },
+   {
+    "id": "microsoft/mai-image-2.6-flash",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1788480000,
+    "owned_by": "microsoft",
+    "name": "MAI-Image-2.6-Flash",
+    "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
+    "context_window": 0,
+    "max_tokens": 0,
+    "type": "image",
+    "zdr": "all",
+    "no_training": "all",
+    "tags": [
+     "image-generation"
+    ],
+    "supported_specifications": [
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "image"
+     ]
+    },
+    "pricing": {
+     "input": "0.00000175",
+     "output": "0.000019",
+     "image_dimension_quality_pricing": [
+      {
+       "operation": "web-grounding",
+       "cost": "0.014"
+      }
+     ]
     }
    },
    {

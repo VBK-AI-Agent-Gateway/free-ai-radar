@@ -1,8 +1,8 @@
 {
- "at": "2026-10-13T18:12:39Z",
+ "at": "2026-10-13T19:23:13Z",
  "live_count": 8,
  "apply_count": 70,
- "total_free_models": 473,
+ "total_free_models": 471,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -173,24 +173,6 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
-   "provider": "openrouter",
-   "name": "openrouter",
-   "free_count": 15,
-   "sample_models": [
-    "apodex/apodex-1.1-mini:free",
-    "dots-studio/dots-3-note-preview:free",
-    "liquid/lfm-2.5-2.6b:free",
-    "nvidia/nemotron-3.5-lightning:free",
-    "thinkingmachines/inkling-small:free",
-    "poolside/laguna-s-2.1:free"
-   ],
-   "apply_url": "https://openrouter.ai/sign-up",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "live",
-   "note": "已收录,直接可看"
-  },
-  {
    "provider": "iflowcn",
    "name": "iFlow",
    "free_count": 14,
@@ -210,6 +192,24 @@
     "IFLOW_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
+  },
+  {
+   "provider": "openrouter",
+   "name": "openrouter",
+   "free_count": 14,
+   "sample_models": [
+    "dots-studio/dots-3-note-preview:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "thinkingmachines/inkling-small:free",
+    "poolside/laguna-s-2.1:free",
+    "thinkingmachines/inkling:free"
+   ],
+   "apply_url": "https://openrouter.ai/sign-up",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "live",
+   "note": "已收录,直接可看"
   },
   {
    "provider": "inferx",
@@ -296,27 +296,6 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
-   "provider": "kilo",
-   "name": "Kilo Gateway",
-   "free_count": 10,
-   "sample_models": [
-    "stealth/glyph-cluster",
-    "openrouter/bodybuilder",
-    "openrouter/free",
-    "openrouter/pareto-code",
-    "openrouter/auto",
-    "google/lyria-3-pro-preview"
-   ],
-   "apply_url": "https://kilo.ai/login",
-   "link_kind": "signup",
-   "btn": "去注册",
-   "status": "apply_key",
-   "needs_env": [
-    "KILO_API_KEY"
-   ],
-   "note": "真注册入口(curl 已验证)"
-  },
-  {
    "provider": "volcengine-coding-plan",
    "name": "Volcengine Ark Coding Plan",
    "free_count": 10,
@@ -334,6 +313,27 @@
    "status": "apply_key",
    "needs_env": [
     "ARK_CODING_PLAN_API_KEY"
+   ],
+   "note": "真注册入口(curl 已验证)"
+  },
+  {
+   "provider": "kilo",
+   "name": "Kilo Gateway",
+   "free_count": 9,
+   "sample_models": [
+    "stealth/glyph-cluster",
+    "openrouter/bodybuilder",
+    "openrouter/free",
+    "openrouter/pareto-code",
+    "openrouter/auto",
+    "google/lyria-3-pro-preview"
+   ],
+   "apply_url": "https://kilo.ai/login",
+   "link_kind": "signup",
+   "btn": "去注册",
+   "status": "apply_key",
+   "needs_env": [
+    "KILO_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
   },

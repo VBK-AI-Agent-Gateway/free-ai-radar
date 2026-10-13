@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T18:11:26Z",
+ "fetched_at": "2026-10-13T19:22:04Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "5840c10531bdff99f5cd482963489f86f745bea111bec7f6d780fc7c94c84e29",
+ "hash": "32267930e290fa7d57565a9b399d1d1e8dd082699a4f48f87e15128cc9b10b0e",
  "payload": {
   "data": [
    {
@@ -50,8 +50,7 @@
      "temperature",
      "tool_choice",
      "tools",
-     "top_k",
-     "top_p"
+     "top_k"
     ],
     "default_parameters": {
      "temperature": 0.1,
@@ -996,63 +995,6 @@
     "reasoning": {
      "mandatory": false,
      "default_enabled": true
-    }
-   },
-   {
-    "id": "apodex/apodex-1.1-mini:free",
-    "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-    "hugging_face_id": null,
-    "name": "Apodex: Apodex 1.1 Mini (free)",
-    "created": 1790875335,
-    "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-    "context_length": 262144,
-    "architecture": {
-     "modality": "text->text",
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "Other",
-     "instruct_type": null
-    },
-    "pricing": {
-     "prompt": "0",
-     "completion": "0"
-    },
-    "top_provider": {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-     "frequency_penalty",
-     "include_reasoning",
-     "max_tokens",
-     "presence_penalty",
-     "reasoning",
-     "repetition_penalty",
-     "response_format",
-     "seed",
-     "stop",
-     "structured_outputs",
-     "temperature",
-     "tool_choice",
-     "tools",
-     "top_k",
-     "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": null,
-    "expiration_date": null,
-    "links": {
-     "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
-    },
-    "reasoning": {
-     "mandatory": false
     }
    },
    {
@@ -4749,7 +4691,7 @@
     "name": "inclusionAI: Ling 3.0 Flash VL",
     "created": 1789056114,
     "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
-    "context_length": 262144,
+    "context_length": 131072,
     "architecture": {
      "modality": "text+image+video->text",
      "input_modalities": [
@@ -4764,12 +4706,12 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000021",
-     "completion": "0.0000000616",
-     "input_cache_read": "0.0000000042"
+     "prompt": "0.00000006",
+     "completion": "0.00000018",
+     "input_cache_read": "0.000000012"
     },
     "top_provider": {
-     "context_length": 262144,
+     "context_length": 131072,
      "max_completion_tokens": 32768,
      "is_moderated": false
     },
@@ -4778,7 +4720,6 @@
      "frequency_penalty",
      "include_reasoning",
      "logit_bias",
-     "logprobs",
      "max_tokens",
      "min_p",
      "presence_penalty",
@@ -4792,7 +4733,6 @@
      "tool_choice",
      "tools",
      "top_k",
-     "top_logprobs",
      "top_p"
     ],
     "default_parameters": {},
@@ -5486,65 +5426,6 @@
       "low"
      ],
      "default_effort": "medium"
-    }
-   },
-   {
-    "id": "inclusionai/ling-3.0-flash-sante",
-    "canonical_slug": "inclusionai/ling-3.0-flash-sante-20260904",
-    "hugging_face_id": null,
-    "name": "inclusionAI: Ling 3.0 Flash Sante",
-    "created": 1788545946,
-    "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
-    "context_length": 262144,
-    "architecture": {
-     "modality": "text->text",
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "Other",
-     "instruct_type": null
-    },
-    "pricing": {
-     "prompt": "0.000000042",
-     "completion": "0.0000001232",
-     "input_cache_read": "0.0000000084"
-    },
-    "top_provider": {
-     "context_length": 262144,
-     "max_completion_tokens": 32768,
-     "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-     "frequency_penalty",
-     "include_reasoning",
-     "logprobs",
-     "max_tokens",
-     "presence_penalty",
-     "reasoning",
-     "repetition_penalty",
-     "seed",
-     "stop",
-     "temperature",
-     "tool_choice",
-     "tools",
-     "top_k",
-     "top_logprobs",
-     "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": null,
-    "expiration_date": null,
-    "links": {
-     "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
-    },
-    "reasoning": {
-     "mandatory": false,
-     "default_enabled": true
     }
    },
    {
@@ -6717,73 +6598,6 @@
       "none"
      ],
      "default_effort": "high"
-    }
-   },
-   {
-    "id": "inclusionai/ling-3.0-flash-fin",
-    "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
-    "hugging_face_id": null,
-    "name": "inclusionAI: Ling 3.0 Flash Fin",
-    "created": 1787846290,
-    "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
-    "context_length": 262144,
-    "architecture": {
-     "modality": "text->text",
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "Other",
-     "instruct_type": null
-    },
-    "pricing": {
-     "prompt": "0.000000042",
-     "completion": "0.0000001232",
-     "input_cache_read": "0.0000000084"
-    },
-    "top_provider": {
-     "context_length": 262144,
-     "max_completion_tokens": 32768,
-     "is_moderated": false
-    },
-    "per_request_limits": null,
-    "supported_parameters": [
-     "frequency_penalty",
-     "include_reasoning",
-     "logprobs",
-     "max_tokens",
-     "presence_penalty",
-     "reasoning",
-     "repetition_penalty",
-     "seed",
-     "stop",
-     "temperature",
-     "tool_choice",
-     "tools",
-     "top_k",
-     "top_logprobs",
-     "top_p"
-    ],
-    "default_parameters": {},
-    "supported_voices": null,
-    "knowledge_cutoff": null,
-    "expiration_date": null,
-    "links": {
-     "details": "/api/v1/models/inclusionai/ling-3.0-flash-fin-20260827/endpoints"
-    },
-    "benchmarks": {
-     "design_arena": [],
-     "artificial_analysis": {
-      "intelligence_index": 22.6,
-      "coding_index": 55.6,
-      "agentic_index": 27.9
-     }
-    },
-    "reasoning": {
-     "mandatory": false,
-     "default_enabled": true
     }
    },
    {
@@ -8987,8 +8801,7 @@
      "tool_choice",
      "tools",
      "top_k",
-     "top_logprobs",
-     "top_p"
+     "top_logprobs"
     ],
     "default_parameters": {
      "temperature": 0.1,
@@ -14510,7 +14323,7 @@
     },
     "pricing": {
      "prompt": "0.00000006",
-     "completion": "0.000007",
+     "completion": "0.0000056",
      "input_cache_read": "0.000000059"
     },
     "top_provider": {
@@ -19848,9 +19661,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000434304",
-     "completion": "0.000000868608",
-     "input_cache_read": "0.000000036192"
+     "prompt": "0.000000422472",
+     "completion": "0.000000844944",
+     "input_cache_read": "0.000000035206"
     },
     "top_provider": {
      "context_length": 1024000,
@@ -21277,9 +21090,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000009",
-     "completion": "0.0000003",
-     "input_cache_read": "0.00000005"
+     "prompt": "0.0000000765",
+     "completion": "0.000000255",
+     "input_cache_read": "0.0000000425"
     },
     "top_provider": {
      "context_length": 262144,
@@ -38431,7 +38244,6 @@
      "frequency_penalty",
      "include_reasoning",
      "logit_bias",
-     "logprobs",
      "max_tokens",
      "min_p",
      "presence_penalty",
@@ -38444,9 +38256,7 @@
      "temperature",
      "tool_choice",
      "tools",
-     "top_a",
      "top_k",
-     "top_logprobs",
      "top_p"
     ],
     "default_parameters": {},
@@ -44218,7 +44028,7 @@
     }
    }
   ],
-  "total_count": 464,
+  "total_count": 461,
   "links": {
    "next": null
   }
