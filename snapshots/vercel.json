@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T19:22:08Z",
+ "fetched_at": "2026-10-13T23:16:18Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "568430650ac4c9c0b43efa0ce82e51c6503af80f7ca98e8f4d960dd481f13ae2",
+ "hash": "a58ba8334ade88bb8a020ac820bd7f7a5ef36132e81aca2ccb5980a12b9f05e1",
  "payload": {
   "object": "list",
   "data": [
@@ -9415,6 +9415,34 @@
     }
    },
    {
+    "id": "fish-audio/drama-3",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791849600,
+    "owned_by": "fish-audio",
+    "name": "Drama 3",
+    "description": "Drama 3 is Fish Audio’s text-to-speech model, currently in preview, that lets you direct voice performances using natural-language instructions. It supports control over emotion, pacing, pauses, and vocal sounds, with tags that apply effects to specific words. Multi-speaker dialogue and directions written in different languages make it well suited to expressive voiceovers, character dialogue, and audio storytelling.",
+    "type": "speech",
+    "zdr": "none",
+    "no_training": "none",
+    "supported_specifications": [
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "audio"
+     ]
+    },
+    "pricing": {
+     "input": "0.00001",
+     "speech_input_character_cost": "0.00001"
+    }
+   },
+   {
     "id": "fish-audio/s1",
     "object": "model",
     "created": 1755815280,
@@ -13761,7 +13789,6 @@
     "zdr": "none",
     "no_training": "none",
     "tags": [
-     "free",
      "reasoning",
      "tool-use",
      "implicit-caching"
@@ -13804,69 +13831,9 @@
      }
     ],
     "pricing": {
-     "input": "0",
-     "output": "0"
-    }
-   },
-   {
-    "id": "inclusionai/ling-3.1-flash-free",
-    "object": "model",
-    "created": 1755815280,
-    "released": 1790640000,
-    "owned_by": "inclusionai",
-    "name": "Ling 3.1 Flash (Free)",
-    "description": "Ling 3.1 Flash is InclusionAI's hybrid reasoning language model for coding, multi-step analysis, and tool-using agents. It has 560B total parameters with 25B activated parameters and supports long-context text workflows.",
-    "context_window": 262144,
-    "max_tokens": 32768,
-    "type": "language",
-    "zdr": "none",
-    "no_training": "none",
-    "tags": [
-     "free",
-     "reasoning",
-     "tool-use",
-     "implicit-caching"
-    ],
-    "supported_specifications": [
-     "v2",
-     "v3",
-     "v4"
-    ],
-    "modalities": {
-     "input": [
-      "text"
-     ],
-     "output": [
-      "text"
-     ]
-    },
-    "supported_parameters": [
-     "max_tokens",
-     "temperature",
-     "stop",
-     "tools",
-     "tool_choice",
-     "reasoning",
-     "include_reasoning"
-    ],
-    "temperature": true,
-    "reasoning_options": [
-     {
-      "type": "toggle"
-     },
-     {
-      "type": "effort",
-      "values": [
-       "none",
-       "low",
-       "medium",
-       "high"
-      ]
-     }
-    ],
-    "pricing": {
-     "input": "0",
-     "output": "0"
+     "input": "0.0000003",
+     "output": "0.0000009",
+     "input_cache_read": "0.00000006"
     }
    },
    {
@@ -14886,9 +14853,9 @@
      }
     ],
     "pricing": {
-     "input": "0.0000001",
-     "output": "0.000001",
-     "input_cache_read": "0.00000005"
+     "input": "0.00000005",
+     "output": "0.0000007",
+     "input_cache_read": "0.000000025"
     }
    },
    {
@@ -15623,7 +15590,8 @@
        "low",
        "medium",
        "high",
-       "xhigh"
+       "xhigh",
+       "max"
       ]
      }
     ],
@@ -15689,7 +15657,8 @@
        "low",
        "medium",
        "high",
-       "xhigh"
+       "xhigh",
+       "max"
       ]
      }
     ],
@@ -15755,7 +15724,8 @@
        "low",
        "medium",
        "high",
-       "xhigh"
+       "xhigh",
+       "max"
       ]
      }
     ],
@@ -15769,7 +15739,7 @@
     "id": "microsoft/mai-image-2.6",
     "object": "model",
     "created": 1755815280,
-    "released": 1786665600,
+    "released": 1791849600,
     "owned_by": "microsoft",
     "name": "MAI-Image-2.6",
     "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
@@ -15808,7 +15778,7 @@
     "id": "microsoft/mai-image-2.6-flash",
     "object": "model",
     "created": 1755815280,
-    "released": 1788480000,
+    "released": 1791849600,
     "owned_by": "microsoft",
     "name": "MAI-Image-2.6-Flash",
     "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
@@ -18132,6 +18102,69 @@
      "output": "0.0000002",
      "input_cache_read": "0.00000001",
      "varies_by_provider": true
+    }
+   },
+   {
+    "id": "nvidia/nemotron-3.5-lightning-free",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791849600,
+    "owned_by": "nvidia",
+    "name": "Nemotron 3.5 Lightning Free",
+    "description": "Nemotron 3.5 Lightning is an open-weight reasoning and chat model for long-running agents, sub-agent work, chatbots, and RAG systems. The model has 30B parameters with 3B active per token, in a hybrid Mixture-of-Experts design that interleaves Mamba-2 and MoE layers with a few attention layers. It has a 1M token context window and supports tool calling and structured outputs. The provider may retain prompts and responses for model improvement.",
+    "context_window": 1000000,
+    "max_tokens": 65000,
+    "type": "language",
+    "zdr": "none",
+    "no_training": "none",
+    "tags": [
+     "reasoning",
+     "tool-use",
+     "structured-output",
+     "implicit-caching"
+    ],
+    "supported_specifications": [
+     "v2",
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "supported_parameters": [
+     "max_tokens",
+     "temperature",
+     "stop",
+     "tools",
+     "tool_choice",
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs"
+    ],
+    "temperature": true,
+    "reasoning_options": [
+     {
+      "type": "toggle"
+     },
+     {
+      "type": "effort",
+      "values": [
+       "none",
+       "low",
+       "medium",
+       "high"
+      ]
+     }
+    ],
+    "pricing": {
+     "input": "0",
+     "output": "0"
     }
    },
    {

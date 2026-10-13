@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T19:23:13Z",
+ "at": "2026-10-13T23:17:25Z",
  "live_count": 8,
  "apply_count": 70,
  "total_free_models": 471,
@@ -917,7 +917,7 @@
    "free_count": 3,
    "sample_models": [
     "convaiinnovations/laya-free",
-    "inclusionai/ling-3.1-flash-free",
+    "nvidia/nemotron-3.5-lightning-free",
     "poolside/laguna-s-2.1-free"
    ],
    "apply_url": "https://vercel.com/signup",

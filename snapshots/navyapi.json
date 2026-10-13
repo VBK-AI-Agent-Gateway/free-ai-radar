@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T19:22:10Z",
+ "fetched_at": "2026-10-13T23:16:22Z",
  "url": "https://api.navy/v1/models",
- "hash": "c1a17a9b0c238b252a5fdcd148ee315d086dd0d169713be0784b415e45367313",
+ "hash": "8c1a809bf42b25511aa5ee4511cafbeff6ad7c038d3f2e70b2ec4a6cce08d896",
  "payload": {
   "object": "list",
   "data": [
@@ -606,6 +606,47 @@
      "prompt": "0.000003",
      "completion": "0.000015",
      "image": null,
+     "request": null
+    },
+    "metadata_source": "openrouter",
+    "metadata_status": "known"
+   },
+   {
+    "id": "gemini-4-argon",
+    "object": "model",
+    "created": 1749028256,
+    "owned_by": "google",
+    "endpoint": "/v1/chat/completions",
+    "token_multiplier": 12,
+    "premium": true,
+    "required_plan": "Plus",
+    "context_window": 1048576,
+    "max_output_tokens": 65536,
+    "input_modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text",
+    "tokenizer": "Gemini",
+    "supports_vision": true,
+    "supports_tools": true,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_json_mode": true,
+    "supports_audio_input": true,
+    "supports_image_output": false,
+    "supports_streaming": true,
+    "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across...",
+    "pricing": {
+     "prompt": "0.000002",
+     "completion": "0.00001",
+     "image": "0.000002",
      "request": null
     },
     "metadata_source": "openrouter",
@@ -1629,8 +1670,8 @@
     "supports_streaming": true,
     "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
     "pricing": {
-     "prompt": "0.00000009",
-     "completion": "0.0000003",
+     "prompt": "0.0000000765",
+     "completion": "0.000000255",
      "image": null,
      "request": null
     },
@@ -1703,7 +1744,7 @@
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
      "prompt": "0.0000000441",
-     "completion": "0.00000063",
+     "completion": "0.000000765",
      "image": null,
      "request": null
     },
@@ -1846,8 +1887,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.000000436044",
-     "completion": "0.000000872088",
+     "prompt": "0.00000041238",
+     "completion": "0.00000082476",
      "image": null,
      "request": null
     },
