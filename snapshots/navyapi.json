@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T11:55:38Z",
+ "fetched_at": "2026-10-13T18:11:33Z",
  "url": "https://api.navy/v1/models",
- "hash": "0a6eab8573f20c29fddff04497b56f07581ab8a51eba0b6dae45bbf44daed91e",
+ "hash": "c1a17a9b0c238b252a5fdcd148ee315d086dd0d169713be0784b415e45367313",
  "payload": {
   "object": "list",
   "data": [
@@ -1755,7 +1755,7 @@
     "token_multiplier": 1,
     "premium": false,
     "context_window": 1048576,
-    "max_output_tokens": 943718,
+    "max_output_tokens": 943717,
     "input_modalities": [
      "text"
     ],
@@ -1774,8 +1774,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.0000000454",
-     "completion": "0.00000128",
+     "prompt": "0.000000091",
+     "completion": "0.000000182",
      "image": null,
      "request": null
     },
@@ -1846,8 +1846,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.00000095526",
-     "completion": "0.00000191052",
+     "prompt": "0.000000436044",
+     "completion": "0.000000872088",
      "image": null,
      "request": null
     },
@@ -3115,7 +3115,7 @@
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
      "prompt": "0.00000073",
-     "completion": "0.0000135",
+     "completion": "0.00001",
      "image": null,
      "request": null
     },
@@ -3630,7 +3630,7 @@
     "token_multiplier": 1,
     "premium": false,
     "context_window": 1048576,
-    "max_output_tokens": 943718,
+    "max_output_tokens": 943717,
     "input_modalities": [
      "text"
     ],
@@ -3649,8 +3649,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.0000000454",
-     "completion": "0.00000128",
+     "prompt": "0.000000091",
+     "completion": "0.000000182",
      "image": null,
      "request": null
     },

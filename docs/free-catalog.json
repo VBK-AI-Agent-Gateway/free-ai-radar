@@ -1,8 +1,8 @@
 {
- "at": "2026-10-13T11:56:41Z",
- "live_count": 9,
+ "at": "2026-10-13T18:12:39Z",
+ "live_count": 8,
  "apply_count": 70,
- "total_free_models": 474,
+ "total_free_models": 473,
  "vendors": [
   {
    "provider": "alibaba-token-plan",
@@ -784,6 +784,25 @@
    "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
+   "provider": "opencode-go",
+   "name": "OpenCode Go",
+   "free_count": 4,
+   "sample_models": [
+    "longcat-2.5-preview-free",
+    "cat-jam-free",
+    "space-bunny-free",
+    "step-5-preview-free"
+   ],
+   "apply_url": "https://opencode.ai/v2/docs/console/go/",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "OPENCODE_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "tempr",
    "name": "Tempr Gateway",
    "free_count": 4,
@@ -819,24 +838,6 @@
     "LMSTUDIO_API_KEY"
    ],
    "note": "真注册入口(curl 已验证)"
-  },
-  {
-   "provider": "opencode-go",
-   "name": "OpenCode Go",
-   "free_count": 3,
-   "sample_models": [
-    "longcat-2.5-preview-free",
-    "space-bunny-free",
-    "step-5-preview-free"
-   ],
-   "apply_url": "https://opencode.ai/v2/docs/console/go/",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "OPENCODE_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
   },
   {
    "provider": "poe",
@@ -1161,23 +1162,6 @@
    "note": "厂商官网(找注册/控制台入口)"
   },
   {
-   "provider": "novita-ai",
-   "name": "Novita AI",
-   "free_count": 2,
-   "sample_models": [
-    "inclusionai/ling-3.1-flash",
-    "apodex/apodex-1.1-mini"
-   ],
-   "apply_url": "https://novita.ai/docs/guides/introduction",
-   "link_kind": "doc",
-   "btn": "查官方文档",
-   "status": "apply_key",
-   "needs_env": [
-    "NOVITA_API_KEY"
-   ],
-   "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
    "provider": "ovhcloud",
    "name": "OVHcloud AI Endpoints",
    "free_count": 2,
@@ -1383,6 +1367,22 @@
    "note": "已收录,直接可看"
   },
   {
+   "provider": "novita-ai",
+   "name": "Novita AI",
+   "free_count": 1,
+   "sample_models": [
+    "apodex/apodex-1.1-mini"
+   ],
+   "apply_url": "https://novita.ai/docs/guides/introduction",
+   "link_kind": "doc",
+   "btn": "查官方文档",
+   "status": "apply_key",
+   "needs_env": [
+    "NOVITA_API_KEY"
+   ],
+   "note": "帮助文档(页内通常有 Get API key 入口)"
+  },
+  {
    "provider": "standardcompute",
    "name": "Standard Compute",
    "free_count": 1,
@@ -1429,19 +1429,6 @@
     "TOKENROUTER_API_KEY"
    ],
    "note": "帮助文档(页内通常有 Get API key 入口)"
-  },
-  {
-   "provider": "voidai",
-   "name": "voidai",
-   "free_count": 1,
-   "sample_models": [
-    "qwen3.8-27b:free"
-   ],
-   "apply_url": "https://api.voidai.app",
-   "link_kind": "homepage",
-   "btn": "去官网",
-   "status": "live",
-   "note": "已收录,直接可看"
   },
   {
    "provider": "zeldoc",

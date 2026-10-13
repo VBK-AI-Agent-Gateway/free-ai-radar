@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T11:55:36Z",
+ "fetched_at": "2026-10-13T18:11:29Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "98872c1031b1d0c82dffaba53005c6254e392dd259dc7ec1b8e6efada9f6fb85",
+ "hash": "eede1031518918bdbb29a116f8fb8933d913e5c63735183a939c1ab7d349b158",
  "payload": {
   "object": "list",
   "data": [
@@ -12200,6 +12200,103 @@
      "output": "0.0000045",
      "audio_input_token_cost": "0.000003",
      "audio_output_token_cost": "0.000012"
+    }
+   },
+   {
+    "id": "google/gemini-4-argon",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791849600,
+    "owned_by": "google",
+    "name": "Gemini 4 Argon",
+    "description": "Gemini 4 Argon is Google’s multimodal reasoning model, supporting text, image, and file inputs with configurable reasoning levels. It combines tool calling, structured outputs, and Google Search and Maps grounding to support document analysis and agent workflows. Long-form generation supports continuation across requests, allowing applications to resume output beyond a single request’s token limit.",
+    "context_window": 1000000,
+    "max_tokens": 1000000,
+    "type": "language",
+    "zdr": "some",
+    "no_training": "all",
+    "tags": [
+     "reasoning",
+     "file-input",
+     "vision",
+     "tool-use",
+     "web-search",
+     "implicit-caching",
+     "video-input",
+     "structured-output"
+    ],
+    "regions": [
+     "eu",
+     "us"
+    ],
+    "supported_specifications": [
+     "v2",
+     "v3",
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text",
+      "image",
+      "pdf",
+      "video"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "supported_parameters": [
+     "max_tokens",
+     "temperature",
+     "stop",
+     "tools",
+     "tool_choice",
+     "reasoning",
+     "include_reasoning",
+     "response_format",
+     "structured_outputs"
+    ],
+    "temperature": true,
+    "reasoning_options": [
+     {
+      "type": "effort",
+      "values": [
+       "low",
+       "medium",
+       "high"
+      ]
+     }
+    ],
+    "pricing": {
+     "input": "0.000002",
+     "output": "0.00001",
+     "input_cache_read": "0.0000001",
+     "web_search": "14",
+     "maps_search": "14",
+     "service_tiers": {
+      "priority": {
+       "input": "0.0000036",
+       "output": "0.000018",
+       "input_cache_read": "0.00000018"
+      },
+      "flex": {
+       "input": "0.000001",
+       "output": "0.000005",
+       "input_cache_read": "0.00000005"
+      }
+     },
+     "regional": {
+      "eu": {
+       "input": "0.0000022",
+       "output": "0.000011",
+       "input_cache_read": "0.00000011"
+      },
+      "us": {
+       "input": "0.0000022",
+       "output": "0.000011",
+       "input_cache_read": "0.00000011"
+      }
+     }
     }
    },
    {

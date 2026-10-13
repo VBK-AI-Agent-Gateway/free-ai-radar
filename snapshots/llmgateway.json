@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T11:55:37Z",
+ "fetched_at": "2026-10-13T18:11:31Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "e3356dbca7641c1b843de1f7400b0b251a0e97383244dcc7184b1ed3c4f1399a",
+ "hash": "554f8533c44e44be222925caae87457e912282aa08dbc85c59608995d885b80f",
  "payload": {
   "data": [
    {
@@ -8863,6 +8863,78 @@
     "free": false
    },
    {
+    "id": "gemini-4-argon",
+    "name": "Gemini 4 Argon",
+    "display_name": "Gemini 4 Argon",
+    "created": 1790726400,
+    "description": "gemini-4-argon provided by google-vertex",
+    "family": "google",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image",
+      "audio"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "google-vertex",
+      "externalId": "gemini-4-argon",
+      "pricing": {
+       "prompt": "4e-6",
+       "completion": "20e-6",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.2e-6",
+       "input_cache_write": "0.375e-6",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "high"
+      ],
+      "min_cacheable_tokens": 4096,
+      "max_output": 1048576
+     }
+    ],
+    "pricing": {
+     "prompt": "4e-6",
+     "completion": "20e-6",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0.2e-6",
+     "input_cache_write": "0.375e-6",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 1048576,
+    "max_output": 1048576,
+    "supported_parameters": [
+     "max_tokens",
+     "response_format",
+     "tools",
+     "tool_choice",
+     "reasoning_effort",
+     "reasoning"
+    ],
+    "json_output": true,
+    "structured_outputs": true,
+    "free": false
+   },
+   {
     "id": "veo-3.1-generate-preview",
     "name": "Veo 3.1",
     "display_name": "Veo 3.1",
@@ -15190,7 +15262,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, reka-ai, consensusprotocol, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, reka-ai, gonka24",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15532,6 +15604,26 @@
       "stability": "stable"
      },
      {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
+     },
+     {
       "providerId": "reka-ai",
       "externalId": "deepseek4-flash",
       "pricing": {
@@ -15559,26 +15651,6 @@
        "max"
       ],
       "max_output": 131072,
-      "stability": "stable"
-     },
-     {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -15644,7 +15716,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, consensusprotocol, runware, scx-ai-gp, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, consensusprotocol, luminal, entrim, scx-ai-gp, sciforium, runware",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15858,6 +15930,32 @@
       "max_output": 393216
      },
      {
+      "providerId": "consensusprotocol",
+      "externalId": "dsv41",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.00000055",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "max",
+       "xhigh"
+      ],
+      "stability": "stable"
+     },
+     {
       "providerId": "luminal",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15905,59 +16003,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "dsv41",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.00000055",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "max",
-       "xhigh"
-      ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "runware",
-      "externalId": "deepseek:v4.1@flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "xhigh",
-       "max",
-       "none"
-      ],
-      "stability": "stable"
-     },
-     {
       "providerId": "scx-ai-gp",
       "externalId": "DeepSeek-V4.1-flash",
       "pricing": {
@@ -16001,6 +16046,33 @@
        "high",
        "max",
        "xhigh"
+      ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "runware",
+      "externalId": "deepseek:v4.1@flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000001",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "xhigh",
+       "max",
+       "none"
       ],
       "stability": "stable"
      }
@@ -26122,7 +26194,7 @@
     "name": "GLM-5.3 Flash",
     "display_name": "GLM-5.3 Flash",
     "created": 1787702400,
-    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, reka-ai, runware, entrim, gonka24, consensusprotocol, scx-ai-gp",
+    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, entrim, reka-ai, runware, gonka24, consensusprotocol, scx-ai-gp",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -26264,6 +26336,33 @@
       "max_output": 943717
      },
      {
+      "providerId": "entrim",
+      "externalId": "zai-org/GLM-5.3-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.00000035",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.0000000175",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "medium",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "stability": "stable"
+     },
+     {
       "providerId": "reka-ai",
       "externalId": "glm5.3-flash",
       "pricing": {
@@ -26321,33 +26420,6 @@
        "max"
       ],
       "max_output": 131072,
-      "stability": "stable"
-     },
-     {
-      "providerId": "entrim",
-      "externalId": "zai-org/GLM-5.3-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.00000035",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000175",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ],
       "stability": "stable"
      },
      {
@@ -29747,82 +29819,6 @@
     "stability": "stable"
    },
    {
-    "id": "Qwen3.8-27B",
-    "name": "Qwen3.8 27B",
-    "display_name": "Qwen3.8 27B",
-    "aliases": [],
-    "created": 1788377194,
-    "description": "Qwen3.8-27B provided by consensusprotocol",
-    "family": "Qwen3.8 27B",
-    "architecture": {
-     "input_modalities": [
-      "text",
-      "image"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "consensusprotocol",
-      "externalId": "Qwen3.8-27B",
-      "pricing": {
-       "prompt": "0.00000008",
-       "completion": "0.00000035",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "xhigh",
-       "medium",
-       "low"
-      ],
-      "stability": "stable"
-     }
-    ],
-    "pricing": {
-     "prompt": "0.00000008",
-     "completion": "0.00000035",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0.00000005",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 262000,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice",
-     "reasoning"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "stability": "stable"
-   },
-   {
     "id": "reka-edge-2603",
     "name": "Reka Edge 2603",
     "display_name": "Reka Edge 2603",
@@ -29959,6 +29955,82 @@
      "response_format",
      "tools",
      "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false,
+    "stability": "stable"
+   },
+   {
+    "id": "Qwen3.8-27B",
+    "name": "Qwen3.8 27B",
+    "display_name": "Qwen3.8 27B",
+    "aliases": [],
+    "created": 1788377194,
+    "description": "Qwen3.8-27B provided by consensusprotocol",
+    "family": "Qwen3.8 27B",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "Qwen3.8-27B",
+      "pricing": {
+       "prompt": "0.00000008",
+       "completion": "0.00000035",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "xhigh",
+       "medium",
+       "low"
+      ],
+      "stability": "stable"
+     }
+    ],
+    "pricing": {
+     "prompt": "0.00000008",
+     "completion": "0.00000035",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0.00000005",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 262000,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice",
+     "reasoning"
     ],
     "json_output": false,
     "structured_outputs": false,

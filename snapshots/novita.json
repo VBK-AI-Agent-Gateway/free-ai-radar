@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T11:55:36Z",
+ "fetched_at": "2026-10-13T18:11:29Z",
  "url": "https://api.novita.ai/v3/openai/models",
- "hash": "1aec6a71739ed3c12c926e89a44daee4bbe4f1f59ae5a2afa64c0d5314354072",
+ "hash": "98d7cb3beef488576ecb328f3274ac9ce617566dc5c0570792e297242f60ecaf",
  "payload": {
   "data": [
    {
@@ -1426,8 +1426,28 @@
     "permission": null,
     "root": "",
     "parent": "",
-    "input_token_price_per_m": 0,
-    "output_token_price_per_m": 0,
+    "input_token_price_per_m": 3000,
+    "output_token_price_per_m": 9000,
+    "pricing": {
+     "prompt": {
+      "origin_price_per_m": 3000,
+      "price_per_m": 3000,
+      "origin_price_per_m_decimal": "0.3",
+      "price_per_m_decimal": "0.3"
+     },
+     "completion": {
+      "origin_price_per_m": 9000,
+      "price_per_m": 9000,
+      "origin_price_per_m_decimal": "0.9",
+      "price_per_m_decimal": "0.9"
+     },
+     "input_cache_read": {
+      "origin_price_per_m": 600,
+      "price_per_m": 600,
+      "origin_price_per_m_decimal": "0.06",
+      "price_per_m_decimal": "0.06"
+     }
+    },
     "is_tiered_billing": false,
     "title": "inclusionai/ling-3.1-flash",
     "description": "Hybrid reasoning model with a 1M-token context window, featuring 560B total parameters and 25B activated parameters.",

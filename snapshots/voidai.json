@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T11:55:37Z",
+ "fetched_at": "2026-10-13T18:11:32Z",
  "url": "https://api.voidai.app/v1/models",
- "hash": "c2f0e95cc332e4c795a1118c80b7cc8c8c678c0f8d7628705337e42d95a97956",
+ "hash": "6aa66308fcf6cae9c2c8003adc06e89387e86e70b62138bcfa9bfddedeef3628",
  "payload": {
   "object": "list",
   "data": [
@@ -2205,8 +2205,8 @@
     ],
     "cost_type": "per_token",
     "base_cost": 0,
-    "input_multiplier": 0.05,
-    "output_multiplier": 0.5,
+    "input_multiplier": 0.25,
+    "output_multiplier": 0.75,
     "cache_read_multiplier": 1,
     "supports_streaming": true,
     "supports_tool_calling": true
@@ -2233,8 +2233,8 @@
     ],
     "cost_type": "per_token",
     "base_cost": 0,
-    "input_multiplier": 0.05,
-    "output_multiplier": 0.5,
+    "input_multiplier": 0.5,
+    "output_multiplier": 1.5,
     "cache_read_multiplier": 1,
     "supports_streaming": true,
     "supports_tool_calling": true
@@ -2261,14 +2261,14 @@
     ],
     "cost_type": "per_token",
     "base_cost": 0,
-    "input_multiplier": 0.05,
-    "output_multiplier": 0.5,
+    "input_multiplier": 1,
+    "output_multiplier": 3,
     "cache_read_multiplier": 0.1,
     "supports_streaming": true,
     "supports_tool_calling": true
    },
    {
-    "id": "qwen3.8-27b:free",
+    "id": "qwen3.8-27b",
     "object": "model",
     "owned_by": "qwen",
     "endpoints": [
@@ -2289,9 +2289,10 @@
     ],
     "cost_type": "per_token",
     "base_cost": 0,
-    "input_multiplier": 0,
-    "output_multiplier": 0,
+    "input_multiplier": 1,
+    "output_multiplier": 1,
     "cache_read_multiplier": 1,
+    "max_context_tokens": 262144,
     "supports_streaming": true,
     "supports_tool_calling": true
    },

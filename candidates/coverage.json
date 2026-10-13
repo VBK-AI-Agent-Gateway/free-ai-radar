@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T11:56:19Z",
+ "at": "2026-10-13T18:12:16Z",
  "coverage": {
   "ref_providers": 77,
   "covered": 7,
@@ -383,7 +383,6 @@
    "reason": "provider not in canonical",
    "src": "models_dev",
    "free_models": [
-    "inclusionai/ling-3.1-flash",
     "apodex/apodex-1.1-mini"
    ],
    "models_url": null
