@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-12T20:15:42Z",
+ "fetched_at": "2026-10-13T02:07:00Z",
  "url": "https://api.navy/v1/models",
- "hash": "57dde3d7464bac249cd4dd2a227328ce3cabf9543f9542cc51a23b567856555e",
+ "hash": "d1473b2da5d87e9e5946b4590bc20df06477f6228390d6f2ff4a69e3c8a54b21",
  "payload": {
   "object": "list",
   "data": [
@@ -1591,8 +1591,8 @@
     "supports_streaming": true,
     "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
     "pricing": {
-     "prompt": "0.00000009",
-     "completion": "0.0000003",
+     "prompt": "0.0000000765",
+     "completion": "0.000000255",
      "image": null,
      "request": null
     },
@@ -1736,7 +1736,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000003",
+     "prompt": "0.0000000228",
      "completion": "0.00000128",
      "image": null,
      "request": null
@@ -1808,8 +1808,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.000000415686",
-     "completion": "0.000000831372",
+     "prompt": "0.00000041238",
+     "completion": "0.00000082476",
      "image": null,
      "request": null
     },
@@ -3611,7 +3611,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000003",
+     "prompt": "0.0000000228",
      "completion": "0.00000128",
      "image": null,
      "request": null
@@ -4754,6 +4754,33 @@
     "owned_by": "openai",
     "endpoint": "/v1/audio/speech",
     "token_multiplier": 150,
+    "premium": false,
+    "context_window": null,
+    "max_output_tokens": null,
+    "input_modalities": null,
+    "output_modalities": null,
+    "modality": null,
+    "tokenizer": null,
+    "supports_vision": null,
+    "supports_tools": null,
+    "supports_function_calling": null,
+    "supports_reasoning": null,
+    "supports_json_mode": null,
+    "supports_audio_input": null,
+    "supports_image_output": null,
+    "supports_streaming": null,
+    "description": null,
+    "pricing": null,
+    "metadata_source": null,
+    "metadata_status": "unknown"
+   },
+   {
+    "id": "eleven_v4_turbo",
+    "object": "model",
+    "created": 1749028256,
+    "owned_by": "elevenlabs",
+    "endpoint": "/v1/audio/speech",
+    "token_multiplier": 450,
     "premium": false,
     "context_window": null,
     "max_output_tokens": null,
