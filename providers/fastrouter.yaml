@@ -34,8 +34,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-fable-5.1
   name: 'Anthropic: Claude Fable 5.1'
   status: declared
@@ -67,8 +67,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-6.1-sol
   name: 'OpenAI: GPT-6.1 Sol'
   status: declared
@@ -101,8 +101,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-5.5
   name: 'Anthropic: Claude Opus 5.5'
   status: declared
@@ -135,8 +135,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-sonnet-5.5
   name: 'Anthropic: Claude Sonnet 5.5'
   status: declared
@@ -168,8 +168,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-haiku-5.5
   name: 'Anthropic: Claude Haiku 5.5'
   status: declared
@@ -201,8 +201,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-nano-banana-2.1
   name: 'Google: Nano Banana 2.1 (Gemini Nano Banana 2.1)'
   status: declared
@@ -234,8 +234,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-4.7
   name: 'xAI: Grok 4.7'
   status: declared
@@ -267,8 +267,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.3-codex
   name: 'OpenAI: GPT-5.3-Codex'
   status: declared
@@ -296,8 +296,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: moonshotai/kimi-k3
   name: 'MoonshotAI: Kimi K3'
   status: declared
@@ -327,8 +327,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek/deepseek-v4.1-flash
   name: 'DeepSeek: DeepSeek V4.1 Flash'
   status: declared
@@ -360,19 +360,20 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
-- id: openai/gpt-image-2.5-flare
-  name: 'OpenAI: GPT Image 2.5 Flare'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
+- id: openai/gpt-image-2.5-sunburst
+  name: 'OpenAI: GPT Image 2.5 Sunburst'
   status: declared
   free: false
   free_type: paid
-  description: GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing
-    model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency.
-    It is the default choice for most API applications, sharing Images 2.5's improvements
-    in reference fidelity, precise edits, and multi-turn consistency, and is well
-    suited to creator and social content, product experiences, visual search, rapid
-    prototyping, and high-volume generation.
+  description: GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation
+    and editing model, offering an extra level of precision for detailed creative
+    work at the cost of longer generation times than Flare. It shares Images 2.5's
+    improvements in reference fidelity, precise edits, and multi-turn consistency,
+    with sharper detail, more natural lighting, richer textures, and better handling
+    of complex layouts and transparent backgrounds. Recommended for premium visual
+    workflows like production-ready campaign creative or polished product imagery.
   capabilities:
     context_length: 128000
     max_output_tokens: 4096
@@ -391,8 +392,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.1-flash-image-preview
   name: 'Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)'
   status: declared
@@ -420,8 +421,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-fable-5
   name: 'Anthropic: Claude Fable 5'
   status: declared
@@ -452,41 +453,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
-- id: openai/gpt-6-luna
-  name: 'OpenAI: GPT-6 Luna'
-  status: declared
-  free: false
-  free_type: paid
-  description: GPT-6 Luna is OpenAI's fast, low-cost entry-tier model in the GPT-6
-    family, trained with the same methods as flagship GPT-6 Astra but tuned to run
-    faster and cheaper. It cuts API prices 50% versus GPT-5.6 Luna's promotional pricing,
-    with cached input tokens now discounted 90%. At higher reasoning-effort levels
-    it matches GPT-5.6 Sol's factuality on OpenAI's internal evaluation at about a
-    hundredth of the cost, and reaches 66.6% on DeepSWE. Free and Go ChatGPT users
-    can access Luna through the desktop app.
-  capabilities:
-    context_length: 400000
-    max_output_tokens: 128000
-    input_modalities:
-    - file
-    - image
-    - text
-    modality: text+image+file->text
-    image_input: true
-    reasoning: true
-    tools: true
-    json_mode: true
-  terms:
-    input_per_million: 0.1
-    output_per_million: 0.5
-    currency: USD
-  evidence:
-  - kind: official_api
-    url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-6-sol
   name: 'OpenAI: GPT-6 Sol'
   status: declared
@@ -519,8 +487,41 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
+- id: openai/gpt-6-luna
+  name: 'OpenAI: GPT-6 Luna'
+  status: declared
+  free: false
+  free_type: paid
+  description: GPT-6 Luna is OpenAI's fast, low-cost entry-tier model in the GPT-6
+    family, trained with the same methods as flagship GPT-6 Astra but tuned to run
+    faster and cheaper. It cuts API prices 50% versus GPT-5.6 Luna's promotional pricing,
+    with cached input tokens now discounted 90%. At higher reasoning-effort levels
+    it matches GPT-5.6 Sol's factuality on OpenAI's internal evaluation at about a
+    hundredth of the cost, and reaches 66.6% on DeepSWE. Free and Go ChatGPT users
+    can access Luna through the desktop app.
+  capabilities:
+    context_length: 400000
+    max_output_tokens: 128000
+    input_modalities:
+    - file
+    - image
+    - text
+    modality: text+image+file->text
+    image_input: true
+    reasoning: true
+    tools: true
+    json_mode: true
+  terms:
+    input_per_million: 0.1
+    output_per_million: 0.5
+    currency: USD
+  evidence:
+  - kind: official_api
+    url: https://api.fastrouter.ai/v1/models
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-live-1
   name: 'OpenAI: GPT-Live 1'
   status: declared
@@ -550,8 +551,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-5
   name: 'Anthropic: Claude Opus 5'
   status: declared
@@ -583,8 +584,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-4.8
   name: 'Anthropic: Claude Opus 4.8'
   status: declared
@@ -615,8 +616,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-4.7
   name: 'Anthropic: Claude Opus 4.7'
   status: declared
@@ -643,8 +644,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-sonnet-5
   name: 'Anthropic: Claude Sonnet 5'
   status: declared
@@ -674,8 +675,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-sonnet-4.6
   name: 'Anthropic: Claude Sonnet 4.6'
   status: declared
@@ -705,8 +706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-4.5-sonnet
   name: 'Anthropic: Claude Sonnet 4.5'
   status: declared
@@ -740,8 +741,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-haiku-4.5
   name: 'Anthropic: Claude Haiku 4.5'
   status: declared
@@ -770,8 +771,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.8-flash
   name: 'Google: Gemini 3.8 Flash'
   status: declared
@@ -805,8 +806,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.7-flash
   name: 'Google: Gemini 3.7 Flash'
   status: declared
@@ -840,8 +841,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.6-flash
   name: 'Google: Gemini 3.6 Flash'
   status: declared
@@ -874,8 +875,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-4.6
   name: 'xAI: Grok 4.6'
   status: declared
@@ -907,8 +908,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-imagine-image-2-0
   name: 'xAI: Grok Imagine Image 2.0'
   status: declared
@@ -937,8 +938,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-imagine-video-1.5
   name: 'xAI: Grok Imagine Video 1.5'
   status: declared
@@ -966,8 +967,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: moonshotai/kimi-k2.7-code
   name: 'MoonshotAI: Kimi K2.7 Code'
   status: declared
@@ -995,8 +996,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: moonshotai/kimi-k2.6
   name: 'MoonshotAI: Kimi K2.6'
   status: declared
@@ -1025,8 +1026,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: moonshotai/kimi-k2.5
   name: 'MoonshotAI: Kimi K2.5'
   status: declared
@@ -1058,8 +1059,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek/deepseek-v4-flash
   name: 'DeepSeek: V4 Flash'
   status: declared
@@ -1087,8 +1088,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek/deepseek-v4-pro
   name: 'DeepSeek: DeepSeek V4 Pro'
   status: declared
@@ -1119,8 +1120,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek/deepseek-v3.2
   name: 'DeepSeek: DeepSeek V3.2'
   status: declared
@@ -1149,20 +1150,19 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
-- id: openai/gpt-image-2.5-sunburst
-  name: 'OpenAI: GPT Image 2.5 Sunburst'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
+- id: openai/gpt-image-2.5-flare
+  name: 'OpenAI: GPT Image 2.5 Flare'
   status: declared
   free: false
   free_type: paid
-  description: GPT Image 2.5 Sunburst is OpenAI's high-fidelity text-to-image generation
-    and editing model, offering an extra level of precision for detailed creative
-    work at the cost of longer generation times than Flare. It shares Images 2.5's
-    improvements in reference fidelity, precise edits, and multi-turn consistency,
-    with sharper detail, more natural lighting, richer textures, and better handling
-    of complex layouts and transparent backgrounds. Recommended for premium visual
-    workflows like production-ready campaign creative or polished product imagery.
+  description: GPT Image 2.5 Flare is OpenAI's fast text-to-image generation and editing
+    model, delivering higher-quality images than GPT Image 2 at up to 50% lower latency.
+    It is the default choice for most API applications, sharing Images 2.5's improvements
+    in reference fidelity, precise edits, and multi-turn consistency, and is well
+    suited to creator and social content, product experiences, visual search, rapid
+    prototyping, and high-volume generation.
   capabilities:
     context_length: 128000
     max_output_tokens: 4096
@@ -1181,8 +1181,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-image-2
   name: 'OpenAI: GPT Image 2'
   status: declared
@@ -1210,8 +1210,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-image-1.5
   name: 'OpenAI: GPT Image 1.5'
   status: declared
@@ -1237,8 +1237,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-2.5-flash-image
   name: 'Google: Gemini 2.5 Flash Image (Nano Banana)'
   status: declared
@@ -1267,8 +1267,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: Qwen/Qwen2.5-72B-Instruct
   name: 'Qwen: Qwen2.5 72B Instruct'
   status: declared
@@ -1295,8 +1295,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: Qwen/Qwen3-14B
   name: 'Qwen: Qwen3 14B'
   status: declared
@@ -1324,8 +1324,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: Qwen/Qwen3-30B-A3B
   name: 'Qwen: Qwen3 30B A3B'
   status: declared
@@ -1353,8 +1353,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: ace-step/prompt-to-audio
   name: 'ACE Step: Prompt-to-Audio'
   status: declared
@@ -1385,8 +1385,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: alibaba/happyhorse-1.1
   name: 'Alibaba: HappyHorse 1.1'
   status: declared
@@ -1419,8 +1419,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-4.1
   name: 'Anthropic: Claude Opus 4.1'
   status: declared
@@ -1453,8 +1453,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-4.5
   name: 'Anthropic: Claude Opus 4.5'
   status: declared
@@ -1485,8 +1485,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: anthropic/claude-opus-4.6
   name: 'Anthropic: Claude Opus 4.6'
   status: declared
@@ -1517,8 +1517,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: black-forest-labs/flux-dev
   name: 'Black Forest Labs: FLUX Dev'
   status: declared
@@ -1546,8 +1546,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: black-forest-labs/flux-kontext-pro
   name: 'Black Forest Labs: FLUX Kontext Pro'
   status: declared
@@ -1573,8 +1573,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: black-forest-labs/flux-pro-2.0
   name: 'Black Forest Labs: FLUX 2 Pro'
   status: declared
@@ -1604,8 +1604,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: black-forest-labs/flux-schnell
   name: 'Black Forest Labs: FLUX Schnell'
   status: declared
@@ -1634,8 +1634,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/dreamina-seedance-2-5
   name: 'ByteDance: Seedance 2.5'
   status: declared
@@ -1665,8 +1665,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedance-1.5-pro
   name: 'ByteDance: Seedance 1.5 Pro'
   status: declared
@@ -1696,8 +1696,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedance-2
   name: 'ByteDance: Seedance 2'
   status: declared
@@ -1726,8 +1726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedance-2-fast
   name: 'ByteDance: Seedance 2 Fast'
   status: declared
@@ -1755,8 +1755,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedance-2-mini
   name: 'ByteDance: Seedance 2 Mini'
   status: declared
@@ -1785,8 +1785,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedance-pro
   name: 'ByteDance: Seedance Pro'
   status: declared
@@ -1818,8 +1818,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedream-4.0
   name: 'ByteDance: Seedream 4.0'
   status: declared
@@ -1848,8 +1848,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedream-4.5
   name: 'ByteDance: seedream-4.5'
   status: declared
@@ -1879,8 +1879,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: bytedance/seedream-5-lite
   name: 'ByteDance: Seedream 5.0 Lite'
   status: declared
@@ -1909,8 +1909,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepgram/nova-3
   name: 'Deepgram: Nova 3'
   status: declared
@@ -1939,8 +1939,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepinfra/intfloat-e5-base-v2
   name: 'DeepInfra: intfloat/e5-base-v2'
   status: declared
@@ -1965,8 +1965,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek-ai/DeepSeek-R1
   name: 'DeepSeek: R1'
   status: declared
@@ -1994,8 +1994,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: deepseek/deepseek-v3.1
   name: 'DeepSeek: DeepSeek V3.1'
   status: declared
@@ -2026,8 +2026,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-2.5-flash
   name: 'Google: Gemini 2.5 Flash'
   status: declared
@@ -2060,8 +2060,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-2.5-pro
   name: 'Google: Gemini 2.5 Pro '
   status: declared
@@ -2094,8 +2094,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3-flash-preview
   name: 'Google: Gemini 3 Flash Preview'
   status: declared
@@ -2126,8 +2126,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3-pro-image-preview
   name: 'Google: Gemini 3 Pro Image Preview (Nano Banana Pro)'
   status: declared
@@ -2156,8 +2156,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.1-flash-lite-image
   name: 'Google: Nano Banana 2 Lite (Gemini 3.1 Flash-Lite Image)'
   status: declared
@@ -2187,8 +2187,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.1-pro-preview
   name: 'Google: Gemini 3.1 Pro Preview'
   status: declared
@@ -2223,8 +2223,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.5-flash
   name: 'Google: Gemini 3.5 Flash'
   status: declared
@@ -2255,8 +2255,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-3.5-flash-lite
   name: 'Google: Gemini 3.5 Flash-Lite'
   status: declared
@@ -2289,8 +2289,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-embedding-001
   name: 'Google: gemini-embedding'
   status: declared
@@ -2315,8 +2315,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-omni-1.1-flash
   name: 'Google: Gemini Omni 1.1 Flash'
   status: declared
@@ -2350,8 +2350,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemini-omni-flash-preview
   name: 'Google: Gemini Omni Flash Preview'
   status: declared
@@ -2383,8 +2383,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemma-4-26b-a4b-it
   name: 'Google: Gemma 4 26B A4B IT'
   status: declared
@@ -2415,8 +2415,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemma-4-31b-it
   name: 'Google: Gemma 4 31B'
   status: declared
@@ -2445,8 +2445,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/gemma4-26b:free
   name: 'Google: Gemma 4 26B (Free)'
   status: declared
@@ -2474,8 +2474,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo2
   name: 'Google: Veo 2'
   status: declared
@@ -2503,8 +2503,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo3
   name: 'Google: Veo 3'
   status: declared
@@ -2533,8 +2533,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo3-fast
   name: 'Google: Veo 3 Fast'
   status: declared
@@ -2563,8 +2563,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo3.1
   name: 'Google: Google Veo 3.1'
   status: declared
@@ -2592,8 +2592,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo3.1-fast
   name: 'Google: Google Veo 3.1 Fast'
   status: declared
@@ -2621,8 +2621,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: google/veo3.1-lite
   name: 'Google: Google Veo 3.1 Lite'
   status: declared
@@ -2649,8 +2649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v1-6
   name: 'Kling AI: Kling V1.6'
   status: declared
@@ -2682,8 +2682,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v2
   name: 'Kling AI: Kling V2'
   status: declared
@@ -2714,8 +2714,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v2-1
   name: 'Kling AI: Kling V2.1'
   status: declared
@@ -2747,8 +2747,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v2-1-master
   name: 'Kling AI: Kling V2.1 Master'
   status: declared
@@ -2780,8 +2780,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v3
   name: 'Kling AI: Kling V3'
   status: declared
@@ -2810,8 +2810,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-v3-omni
   name: 'Kling AI: Kling V3 Omni'
   status: declared
@@ -2842,8 +2842,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: kling-ai/kling-video-o1
   name: 'Kling AI: Kling Video O1'
   status: declared
@@ -2870,8 +2870,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: leonardo-ai/lucid-origin
   name: 'Leonardo.AI: Lucid Origin'
   status: declared
@@ -2897,8 +2897,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: leonardo-ai/lucid-realism
   name: 'Leonardo.AI: Lucid Realism'
   status: declared
@@ -2924,8 +2924,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: leonardo-ai/phoenix
   name: 'Leonardo.AI: Phoenix'
   status: declared
@@ -2950,8 +2950,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: meta-llama/llama-3.1-8b-instant
   name: 'Meta: LLaMA 3.1 8B Instant'
   status: declared
@@ -2982,8 +2982,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: meta-llama/llama-4-scout-17b-16e-instruct
   name: 'Meta: LLaMA 4 Scout 17B 16E Instruct'
   status: declared
@@ -3013,8 +3013,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: meta/muse-spark-1.1
   name: 'Meta: Muse Spark 1.1'
   status: declared
@@ -3046,8 +3046,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: meta/muse-spark-1.2
   name: 'Meta: Muse Spark 1.2'
   status: declared
@@ -3081,8 +3081,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-h3
   name: 'MiniMax: MiniMax-H3'
   status: declared
@@ -3114,8 +3114,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-m2.5
   name: 'MiniMax: MiniMax M2.5'
   status: declared
@@ -3142,8 +3142,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-m2.5-highspeed
   name: 'MiniMax: MiniMax M2.5 Highspeed'
   status: declared
@@ -3170,8 +3170,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-m2.7
   name: 'MiniMax: MiniMax M2.7'
   status: declared
@@ -3199,8 +3199,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-m2.7-highspeed
   name: 'MiniMax: MiniMax M2.7 Highspeed'
   status: declared
@@ -3227,8 +3227,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: minimax/minimax-m3
   name: 'MiniMax: MiniMax M3'
   status: declared
@@ -3257,8 +3257,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: mistralai/Mistral-Nemo-Instruct-2407
   name: 'Mistral: Mistral Nemo'
   status: declared
@@ -3285,8 +3285,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: mistralai/Mistral-Small-24B-Instruct-2501
   name: 'Mistral: Mistral Small 3'
   status: declared
@@ -3314,8 +3314,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: nvidia/nemotron-3-nano-30b:free
   name: 'NVIDIA: Nemotron 3 Nano 30B (Free)'
   status: declared
@@ -3343,8 +3343,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: nvidia/nemotron-3-super:free
   name: 'NVIDIA: Nemotron 3 Super 120B (Free)'
   status: declared
@@ -3373,8 +3373,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-3.5-turbo
   name: 'OpenAI: GPT-3.5 Turbo'
   status: declared
@@ -3405,8 +3405,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-3.5-turbo-0125
   name: 'OpenAI: GPT-3.5 Turbo 0125'
   status: declared
@@ -3437,8 +3437,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-3.5-turbo-1106
   name: 'OpenAI: GPT-3.5 Turbo 16k (older v1106)'
   status: declared
@@ -3464,8 +3464,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-3.5-turbo-16k
   name: 'OpenAI: GPT-3.5 Turbo 16k'
   status: declared
@@ -3491,8 +3491,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4
   name: 'OpenAI: GPT-4'
   status: declared
@@ -3522,8 +3522,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4-turbo
   name: 'OpenAI: GPT-4 Turbo'
   status: declared
@@ -3553,8 +3553,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4.1
   name: 'OpenAI: GPT-4.1'
   status: declared
@@ -3587,8 +3587,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4.1-mini
   name: 'OpenAI: GPT-4.1 Mini'
   status: declared
@@ -3621,8 +3621,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4.1-nano
   name: 'OpenAI: GPT-4.1 Nano'
   status: declared
@@ -3655,8 +3655,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o
   name: 'OpenAI: GPT-4o'
   status: declared
@@ -3689,8 +3689,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o-2024-05-13
   name: 'OpenAI: GPT-4o (2024-05-13)'
   status: declared
@@ -3723,8 +3723,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o-2024-08-06
   name: 'OpenAI: GPT-4o (2024-08-06)'
   status: declared
@@ -3757,8 +3757,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o-2024-11-20
   name: 'OpenAI: GPT-4o (2024-11-20)'
   status: declared
@@ -3791,8 +3791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o-mini
   name: 'OpenAI: GPT-4o-mini'
   status: declared
@@ -3823,8 +3823,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-4o-mini-2024-07-18
   name: 'OpenAI: GPT-4o-mini (2024-07-18)'
   status: declared
@@ -3857,8 +3857,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5
   name: 'OpenAI: GPT-5'
   status: declared
@@ -3889,8 +3889,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5-mini
   name: 'OpenAI: GPT-5-Mini'
   status: declared
@@ -3921,8 +3921,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5-nano
   name: 'OpenAI: GPT-5-Nano'
   status: declared
@@ -3954,8 +3954,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.1
   name: 'OpenAI: GPT-5.1'
   status: declared
@@ -3983,8 +3983,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.2
   name: 'OpenAI: GPT-5.2'
   status: declared
@@ -4013,8 +4013,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.2-pro
   name: 'OpenAI: GPT-5.2 Pro'
   status: declared
@@ -4042,8 +4042,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.4
   name: 'OpenAI: GPT-5.4'
   status: declared
@@ -4076,8 +4076,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.4-mini
   name: 'OpenAI: GPT-5.4 Mini'
   status: declared
@@ -4110,8 +4110,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.4-nano
   name: 'OpenAI: GPT-5.4 Nano'
   status: declared
@@ -4145,8 +4145,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.4-pro
   name: 'OpenAI: GPT-5.4 Pro'
   status: declared
@@ -4177,8 +4177,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.5
   name: 'OpenAI: GPT-5.5'
   status: declared
@@ -4208,8 +4208,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.5-pro
   name: 'OpenAI: GPT-5.5 Pro'
   status: declared
@@ -4239,8 +4239,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.6-luna
   name: 'OpenAI: GPT-5.6 Luna'
   status: declared
@@ -4270,8 +4270,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.6-sol
   name: 'OpenAI: GPT-5.6 Sol'
   status: declared
@@ -4302,8 +4302,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-5.6-terra
   name: 'OpenAI: GPT-5.6 Terra'
   status: declared
@@ -4333,8 +4333,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-6-astra
   name: 'OpenAI: GPT-6 Astra'
   status: declared
@@ -4366,8 +4366,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-image-1
   name: 'OpenAI: GPT-image-1'
   status: declared
@@ -4398,8 +4398,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-image-1-mini
   name: 'OpenAI: GPT Image 1: Mini'
   status: declared
@@ -4427,8 +4427,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-oss-120b
   name: 'OpenAI: GPT OSS 120B'
   status: declared
@@ -4458,8 +4458,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-oss-120b:free
   name: 'OpenAI: gpt-oss-120b (Free)'
   status: declared
@@ -4488,8 +4488,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-oss-20b
   name: 'OpenAI: GPT OSS 20B'
   status: declared
@@ -4517,8 +4517,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-oss-20b:free
   name: 'OpenAI: gpt-oss-20b (Free)'
   status: declared
@@ -4546,8 +4546,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-realtime
   name: GPT Realtime
   status: declared
@@ -4577,8 +4577,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-realtime-1.5
   name: 'OpenAI: GPT Realtime 1.5'
   status: declared
@@ -4606,8 +4606,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-realtime-2.1
   name: 'OpenAI: GPT-Realtime-2.1'
   status: declared
@@ -4634,8 +4634,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-realtime-mini
   name: GPT Realtime Mini
   status: declared
@@ -4665,8 +4665,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/gpt-transcribe
   name: 'OpenAI: GPT Transcribe'
   status: declared
@@ -4697,8 +4697,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o1
   name: 'OpenAI: o1'
   status: declared
@@ -4726,8 +4726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o3
   name: 'OpenAI: o3'
   status: declared
@@ -4759,8 +4759,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o3-mini
   name: 'OpenAI: o3 Mini'
   status: declared
@@ -4791,8 +4791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o3-mini-high
   name: 'OpenAI: o3 Mini High'
   status: declared
@@ -4823,8 +4823,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o4-mini
   name: 'OpenAI: o4 Mini'
   status: declared
@@ -4856,8 +4856,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/o4-mini-high
   name: 'OpenAI: o4 Mini High'
   status: declared
@@ -4890,8 +4890,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/omni-moderation-latest
   name: Omni Moderation (Latest)
   status: declared
@@ -4919,8 +4919,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/sora-2
   name: 'OpenAI: Sora 2'
   status: declared
@@ -4949,8 +4949,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/sora-2-pro
   name: 'OpenAI: Sora 2 Pro'
   status: declared
@@ -4978,8 +4978,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/text-embedding-3-large
   name: 'OpenAI: text-embedding-3-large'
   status: declared
@@ -5010,8 +5010,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/text-embedding-3-small
   name: 'OpenAI: text-embedding-3-small'
   status: declared
@@ -5042,8 +5042,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/text-embedding-ada-002
   name: 'OpenAI: text-embedding-ada-002'
   status: declared
@@ -5074,8 +5074,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/tts-1
   name: 'OpenAI: TTS-1'
   status: declared
@@ -5106,8 +5106,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/tts-1-hd
   name: 'OpenAI: TTS-1 HD'
   status: declared
@@ -5139,8 +5139,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/whisper-1
   name: 'OpenAI: Whisper-1'
   status: declared
@@ -5166,8 +5166,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: openai/whisper-large-v3
   name: 'OpenAI: Whisper Large V3 '
   status: declared
@@ -5195,8 +5195,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: perplexity/sonar
   name: 'Perplexity: Sonar'
   status: declared
@@ -5228,8 +5228,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: perplexity/sonar-deep-research
   name: 'Perplexity: Sonar Deep Research'
   status: declared
@@ -5260,8 +5260,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: perplexity/sonar-pro
   name: 'Perplexity: Sonar Pro'
   status: declared
@@ -5293,8 +5293,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: perplexity/sonar-reasoning-pro
   name: 'Perplexity: Sonar Reasoning Pro'
   status: declared
@@ -5326,8 +5326,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: pika/pika-v2-2
   name: 'Pika: Pika V2.2'
   status: declared
@@ -5359,8 +5359,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: pollo/pollo-v1-6
   name: 'Pollo: Pollo V1.6'
   status: declared
@@ -5391,8 +5391,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen-image
   name: 'Qwen: Qwen Image'
   status: declared
@@ -5420,8 +5420,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen-image-2512
   name: 'Qwen: Qwen Image 2512'
   status: declared
@@ -5448,8 +5448,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen-image-3
   name: 'Qwen: Qwen Image 3.0'
   status: declared
@@ -5478,8 +5478,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen-image-3-pro
   name: 'Qwen: Qwen Image 3.0 Pro'
   status: declared
@@ -5507,8 +5507,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen3-32b
   name: 'Qwen: Qwen3 32B'
   status: declared
@@ -5539,8 +5539,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen3-embedding-8b
   name: 'Qwen: Qwen3 Embedding 8B'
   status: declared
@@ -5570,8 +5570,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen3.8-27b
   name: 'Qwen: Qwen3.8 27B'
   status: declared
@@ -5603,8 +5603,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: qwen/qwen3.8-max
   name: 'Qwen: Qwen3.8 Max'
   status: declared
@@ -5637,8 +5637,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: runway/runway-gen-3-turbo
   name: 'Runway: Runway Gen-3 Turbo'
   status: declared
@@ -5670,8 +5670,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: runway/runway-gen-4-turbo
   name: 'Runway: Runway Gen-4 Turbo'
   status: declared
@@ -5702,8 +5702,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: sarvam/bulbul:v2
   name: 'Sarvam: Bulbul V2'
   status: declared
@@ -5734,8 +5734,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: sarvam/saaras:v3
   name: 'Sarvam: Saaras V3'
   status: declared
@@ -5767,8 +5767,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: sarvam/sarvam-105b
   name: 'Sarvam: Sarvam 105B'
   status: declared
@@ -5796,8 +5796,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: sarvam/sarvam-105b:free
   name: 'Sarvam: Sarvam 105B (Free)'
   status: declared
@@ -5825,8 +5825,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: typesafe/jev-latest
   name: 'TypeSafe: Jev (latest)'
   status: declared
@@ -5855,8 +5855,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: vidu/vidu-q1
   name: 'Vidu: Vidu Q1'
   status: declared
@@ -5888,8 +5888,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: vidu/vidu-v2-0
   name: 'Vidu: Vidu V2.0'
   status: declared
@@ -5920,8 +5920,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: wanx/wan-v2-6
   name: 'Alibaba: Wan 2.6 '
   status: declared
@@ -5949,8 +5949,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: wanx/wan-v2-7
   name: 'Alibaba: Wan 2.7'
   status: declared
@@ -5982,8 +5982,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: wanx/wan-v3-0
   name: 'Alibaba: Wan 3.0'
   status: declared
@@ -6017,8 +6017,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-3-beta
   name: 'xAI: Grok 3 Beta'
   status: declared
@@ -6049,8 +6049,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-3-mini-beta
   name: 'xAI: Grok 3 Mini Beta'
   status: declared
@@ -6081,8 +6081,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-4.20-beta
   name: 'xAI: Grok 4.20 Beta'
   status: declared
@@ -6109,8 +6109,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-4.3
   name: 'xAI: Grok 4.3'
   status: declared
@@ -6137,8 +6137,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-4.5
   name: 'xAI: Grok 4.5'
   status: declared
@@ -6168,8 +6168,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-build-0.1
   name: 'xAI: Grok Build 1'
   status: declared
@@ -6197,8 +6197,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-imagine-image
   name: 'xAI: Grok Imagine Image'
   status: declared
@@ -6225,8 +6225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-imagine-image-quality
   name: 'xAI: Grok Imagine (Image Quality)'
   status: declared
@@ -6254,8 +6254,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: x-ai/grok-imagine-video
   name: 'xAI: Grok Imagine (Video)'
   status: declared
@@ -6284,8 +6284,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-4.6
   name: 'Z.AI: GLM 4.6'
   status: declared
@@ -6315,8 +6315,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-4.7
   name: 'Z.AI: GLM 4.7'
   status: declared
@@ -6343,8 +6343,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5
   name: 'Z.AI: GLM 5'
   status: declared
@@ -6373,8 +6373,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5.1
   name: 'Z.ai: GLM 5.1'
   status: declared
@@ -6401,8 +6401,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5.2
   name: 'Z.ai: GLM 5.2'
   status: declared
@@ -6428,8 +6428,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5.3
   name: 'Z.ai: GLM-5.3'
   status: declared
@@ -6457,8 +6457,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5.3-flash
   name: 'Z.ai: GLM-5.3-Flash'
   status: declared
@@ -6488,8 +6488,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-5.3-flashx
   name: 'Z.ai: GLM-5.3-FlashX'
   status: declared
@@ -6522,8 +6522,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-ai/glm-image
   name: 'Z.AI: GLM-Image'
   status: declared
@@ -6551,8 +6551,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-image/base
   name: 'Z-Image: Base'
   status: declared
@@ -6580,8 +6580,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
 - id: z-image/turbo
   name: 'Z-Image: Turbo'
   status: declared
@@ -6610,6 +6610,6 @@ models:
   evidence:
   - kind: official_api
     url: https://api.fastrouter.ai/v1/models
-    at: '2026-10-13T23:16:46Z'
-  last_verified: '2026-10-13T23:16:46Z'
-last_verified: '2026-10-13T23:16:46Z'
+    at: '2026-10-13T23:47:11Z'
+  last_verified: '2026-10-13T23:47:11Z'
+last_verified: '2026-10-13T23:47:12Z'

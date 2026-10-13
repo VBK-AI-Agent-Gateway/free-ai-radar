@@ -22,8 +22,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4o
   name: gpt-4o
   status: declared
@@ -46,8 +46,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4.1-mini
   name: gpt-4.1-mini
   status: declared
@@ -70,8 +70,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4.1
   name: gpt-4.1
   status: declared
@@ -94,8 +94,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-oss-20b
   name: gpt-oss-20b
   status: declared
@@ -118,8 +118,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-oss-120b
   name: gpt-oss-120b
   status: declared
@@ -142,8 +142,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5-nano
   name: gpt-5-nano
   status: declared
@@ -166,8 +166,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.4-nano
   name: gpt-5.4-nano
   status: declared
@@ -190,8 +190,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5-mini
   name: gpt-5-mini
   status: declared
@@ -214,8 +214,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.4-mini
   name: gpt-5.4-mini
   status: declared
@@ -238,8 +238,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5
   name: gpt-5
   status: declared
@@ -262,8 +262,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.1
   name: gpt-5.1
   status: declared
@@ -286,8 +286,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.2
   name: gpt-5.2
   status: declared
@@ -310,8 +310,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.4
   name: gpt-5.4
   status: declared
@@ -334,8 +334,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.5
   name: gpt-5.5
   status: declared
@@ -358,8 +358,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.6-sol
   name: gpt-5.6-sol
   status: declared
@@ -382,8 +382,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.6-terra
   name: gpt-5.6-terra
   status: declared
@@ -406,8 +406,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.6-luna
   name: gpt-5.6-luna
   status: declared
@@ -430,8 +430,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-6-sol
   name: gpt-6-sol
   status: declared
@@ -454,8 +454,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-6.1-sol
   name: gpt-6.1-sol
   status: declared
@@ -478,8 +478,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-6-astra
   name: gpt-6-astra
   status: declared
@@ -502,8 +502,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-6-luna
   name: gpt-6-luna
   status: declared
@@ -526,8 +526,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.4-pro
   name: gpt-5.4-pro
   status: declared
@@ -550,8 +550,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.5-pro
   name: gpt-5.5-pro
   status: declared
@@ -574,8 +574,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-5.3-codex
   name: gpt-5.3-codex
   status: declared
@@ -598,8 +598,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: o3
   name: o3
   status: declared
@@ -622,8 +622,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-image-1
   name: gpt-image-1
   status: declared
@@ -646,8 +646,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-image-1.5
   name: gpt-image-1.5
   status: declared
@@ -670,8 +670,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-image-2
   name: gpt-image-2
   status: declared
@@ -694,8 +694,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: text-embedding-3-small
   name: text-embedding-3-small
   status: declared
@@ -718,8 +718,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: text-embedding-3-large
   name: text-embedding-3-large
   status: declared
@@ -742,8 +742,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: tts-1
   name: tts-1
   status: declared
@@ -766,8 +766,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: tts-1-hd
   name: tts-1-hd
   status: declared
@@ -790,8 +790,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4o-mini-tts
   name: gpt-4o-mini-tts
   status: declared
@@ -814,8 +814,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: whisper-1
   name: whisper-1
   status: declared
@@ -838,8 +838,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4o-mini-transcribe
   name: gpt-4o-mini-transcribe
   status: declared
@@ -862,8 +862,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gpt-4o-transcribe
   name: gpt-4o-transcribe
   status: declared
@@ -886,8 +886,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: omni-moderation-latest
   name: omni-moderation-latest
   status: declared
@@ -910,8 +910,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-4-1-20250805
   name: claude-opus-4-1-20250805
   status: declared
@@ -934,8 +934,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-4-5-20251101
   name: claude-opus-4-5-20251101
   status: declared
@@ -958,8 +958,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-sonnet-4-5-20250929
   name: claude-sonnet-4-5-20250929
   status: declared
@@ -982,8 +982,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-haiku-4-5-20251001
   name: claude-haiku-4-5-20251001
   status: declared
@@ -1006,8 +1006,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-4-6
   name: claude-opus-4-6
   status: declared
@@ -1030,8 +1030,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-4-7
   name: claude-opus-4-7
   status: declared
@@ -1054,8 +1054,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-4-8
   name: claude-opus-4-8
   status: declared
@@ -1078,8 +1078,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-5
   name: claude-opus-5
   status: declared
@@ -1102,8 +1102,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-opus-5-5
   name: claude-opus-5-5
   status: declared
@@ -1126,8 +1126,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-sonnet-4-6
   name: claude-sonnet-4-6
   status: declared
@@ -1150,8 +1150,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-sonnet-5
   name: claude-sonnet-5
   status: declared
@@ -1174,8 +1174,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: claude-fable-5
   name: claude-fable-5
   status: declared
@@ -1198,8 +1198,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-2.5-flash
   name: gemini-2.5-flash
   status: declared
@@ -1222,8 +1222,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-2.5-flash-image
   name: gemini-2.5-flash-image
   status: declared
@@ -1246,8 +1246,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3-flash-preview
   name: gemini-3-flash-preview
   status: declared
@@ -1270,8 +1270,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.5-flash
   name: gemini-3.5-flash
   status: declared
@@ -1294,8 +1294,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.6-flash
   name: gemini-3.6-flash
   status: declared
@@ -1318,8 +1318,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.7-flash
   name: gemini-3.7-flash
   status: declared
@@ -1342,8 +1342,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.8-flash
   name: gemini-3.8-flash
   status: declared
@@ -1366,8 +1366,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-2.5-pro
   name: gemini-2.5-pro
   status: declared
@@ -1390,8 +1390,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.1-pro-preview
   name: gemini-3.1-pro-preview
   status: declared
@@ -1414,8 +1414,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.1-flash-image
   name: gemini-3.1-flash-image
   status: declared
@@ -1438,8 +1438,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3-pro-image
   name: gemini-3-pro-image
   status: declared
@@ -1462,8 +1462,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.1-flash-lite-image
   name: gemini-3.1-flash-lite-image
   status: declared
@@ -1486,8 +1486,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-nano-banana-2.1
   name: gemini-nano-banana-2.1
   status: declared
@@ -1510,8 +1510,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.1-flash-lite
   name: gemini-3.1-flash-lite
   status: declared
@@ -1534,8 +1534,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemini-3.5-flash-lite
   name: gemini-3.5-flash-lite
   status: declared
@@ -1558,8 +1558,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: gemma-4-31b-it
   name: gemma-4-31b-it
   status: declared
@@ -1582,8 +1582,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: sonar
   name: sonar
   status: declared
@@ -1606,8 +1606,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: sonar-pro
   name: sonar-pro
   status: declared
@@ -1630,8 +1630,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: sonar-reasoning-pro
   name: sonar-reasoning-pro
   status: declared
@@ -1654,8 +1654,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: sonar-deep-research
   name: sonar-deep-research
   status: declared
@@ -1678,8 +1678,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: deepseek-v3.2
   name: deepseek-v3.2
   status: declared
@@ -1702,8 +1702,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: deepseek-v4-flash
   name: deepseek-v4-flash
   status: declared
@@ -1726,8 +1726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: deepseek-v4-flash-0731
   name: deepseek-v4-flash-0731
   status: declared
@@ -1750,8 +1750,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: deepseek-v4-pro
   name: deepseek-v4-pro
   status: declared
@@ -1774,8 +1774,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: deepseek-v4-pro-0813
   name: deepseek-v4-pro-0813
   status: declared
@@ -1798,8 +1798,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: qwen3-235b-a22b-instruct
   name: qwen3-235b-a22b-instruct
   status: declared
@@ -1822,8 +1822,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: qwen3-coder-480b-a35b-instruct
   name: qwen3-coder-480b-a35b-instruct
   status: declared
@@ -1846,8 +1846,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: qwen3.8-2.4t-a95b
   name: qwen3.8-2.4t-a95b
   status: declared
@@ -1870,8 +1870,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: qwen3.8-27b
   name: qwen3.8-27b
   status: declared
@@ -1894,8 +1894,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: kimi-k2.5
   name: kimi-k2.5
   status: declared
@@ -1918,8 +1918,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: kimi-k2.6
   name: kimi-k2.6
   status: declared
@@ -1942,8 +1942,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: kimi-k2.7-code
   name: kimi-k2.7-code
   status: declared
@@ -1966,8 +1966,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: kimi-k3
   name: kimi-k3
   status: declared
@@ -1990,8 +1990,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: flux-kontext-pro
   name: flux-kontext-pro
   status: declared
@@ -2014,8 +2014,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: flux-kontext-max
   name: flux-kontext-max
   status: declared
@@ -2038,8 +2038,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: midjourney
   name: midjourney
   status: declared
@@ -2062,8 +2062,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: recraft-v3
   name: recraft-v3
   status: declared
@@ -2086,8 +2086,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: umbra
   name: umbra
   status: declared
@@ -2110,8 +2110,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: glm-5.1
   name: glm-5.1
   status: declared
@@ -2134,8 +2134,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: glm-5.2
   name: glm-5.2
   status: declared
@@ -2158,8 +2158,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: glm-5.3
   name: glm-5.3
   status: declared
@@ -2182,8 +2182,8 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
 - id: glm-5.3-flash
   name: glm-5.3-flash
   status: declared
@@ -2206,7 +2206,7 @@ models:
   evidence:
   - kind: official_api
     url: https://api.voidai.app/v1/models
-    at: '2026-10-13T23:16:49Z'
-  last_verified: '2026-10-13T23:16:49Z'
-last_verified: '2026-10-13T23:16:49Z'
+    at: '2026-10-13T23:47:15Z'
+  last_verified: '2026-10-13T23:47:15Z'
+last_verified: '2026-10-13T23:47:15Z'
 homepage: https://api.voidai.app

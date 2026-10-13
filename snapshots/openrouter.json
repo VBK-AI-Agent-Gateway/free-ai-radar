@@ -1,9 +1,107 @@
 {
- "fetched_at": "2026-10-13T23:16:12Z",
+ "fetched_at": "2026-10-13T23:46:42Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "f089156a2e9d543765c89165d435f427d6859b0228d91f5fcbc331212ef1410d",
+ "hash": "bba5798569c95043f6b9260de34ca57c0e0e22ecc33be135c81e30d631a4a5ff",
  "payload": {
   "data": [
+   {
+    "id": "~unbiased/pareto-latest",
+    "canonical_slug": "~unbiased/pareto-latest",
+    "alias_target": {
+     "name": "Pareto 26.9",
+     "slug": "unbiased/pareto-26.9"
+    },
+    "hugging_face_id": null,
+    "name": "Pareto Latest",
+    "created": 1791933050,
+    "description": "This model always redirects to the latest model in the Pareto family.",
+    "context_length": 262144,
+    "architecture": {
+     "modality": "text+image->text",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "Router",
+     "instruct_type": null
+    },
+    "pricing": {
+     "prompt": "0.0000025",
+     "completion": "0.0000075",
+     "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+     "context_length": 262144,
+     "max_completion_tokens": 131072,
+     "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+     "max_tokens",
+     "response_format",
+     "temperature",
+     "tool_choice",
+     "tools",
+     "top_p"
+    ],
+    "default_parameters": {},
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+     "details": "/api/v1/models/~unbiased/pareto-latest/endpoints"
+    }
+   },
+   {
+    "id": "unbiased/pareto-26.9",
+    "canonical_slug": "unbiased/pareto-26.9-20260917",
+    "hugging_face_id": null,
+    "name": "Pareto 26.9",
+    "created": 1791930537,
+    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+    "context_length": 262144,
+    "architecture": {
+     "modality": "text+image->text",
+     "input_modalities": [
+      "text",
+      "image"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "Other",
+     "instruct_type": null
+    },
+    "pricing": {
+     "prompt": "0.0000025",
+     "completion": "0.0000075",
+     "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+     "context_length": 262144,
+     "max_completion_tokens": 131072,
+     "is_moderated": false
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+     "max_tokens",
+     "response_format",
+     "temperature",
+     "tool_choice",
+     "tools",
+     "top_p"
+    ],
+    "default_parameters": {},
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+     "details": "/api/v1/models/unbiased/pareto-26.9-20260917/endpoints"
+    }
+   },
    {
     "id": "liquid/lfm-2.5-24b-a2b",
     "canonical_slug": "liquid/lfm-2.5-24b-a2b-20261012",
@@ -1040,7 +1138,7 @@
     "default_parameters": {},
     "supported_voices": null,
     "knowledge_cutoff": null,
-    "expiration_date": "2026-10-14",
+    "expiration_date": "2026-10-15",
     "links": {
      "details": "/api/v1/models/unbiased/pareto-26.10-preview-20260929/endpoints"
     }
@@ -3975,9 +4073,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000001461",
+     "prompt": "0.000000225",
      "completion": "0.000008",
-     "input_cache_read": "0.00000015"
+     "input_cache_read": "0.00000023"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -4052,7 +4150,7 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000441",
+     "prompt": "0.0000000405",
      "completion": "0.000000765",
      "input_cache_read": "0.0000000054"
     },
@@ -4778,13 +4876,94 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000441",
-     "completion": "0.000000765",
-     "input_cache_read": "0.0000000054"
+     "prompt": "0.00000015",
+     "completion": "0.0000006",
+     "input_cache_read": "0.000000003",
+     "overrides": [
+      {
+       "utc_days": [
+        "saturday",
+        "sunday"
+       ],
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "input_cache_read": "0.000000003"
+      },
+      {
+       "utc_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ],
+       "utc_start": 0,
+       "utc_end": 100,
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "input_cache_read": "0.000000003"
+      },
+      {
+       "utc_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ],
+       "utc_start": 100,
+       "utc_end": 400,
+       "prompt": "0.0000003",
+       "completion": "0.0000012",
+       "input_cache_read": "0.000000006"
+      },
+      {
+       "utc_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ],
+       "utc_start": 400,
+       "utc_end": 600,
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "input_cache_read": "0.000000003"
+      },
+      {
+       "utc_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ],
+       "utc_start": 600,
+       "utc_end": 1000,
+       "prompt": "0.0000003",
+       "completion": "0.0000012",
+       "input_cache_read": "0.000000006"
+      },
+      {
+       "utc_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+       ],
+       "utc_start": 1000,
+       "utc_end": 0,
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "input_cache_read": "0.000000003"
+      }
+     ]
     },
     "top_provider": {
      "context_length": 1048576,
-     "max_completion_tokens": 943718,
+     "max_completion_tokens": 393216,
      "is_moderated": false
     },
     "per_request_limits": null,
@@ -14324,9 +14503,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000008",
+     "prompt": "0.00000006",
      "completion": "0.000007",
-     "input_cache_read": "0.00000007"
+     "input_cache_read": "0.000000059"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -19663,9 +19842,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000383496",
-     "completion": "0.000000766992",
-     "input_cache_read": "0.000000031958"
+     "prompt": "0.00000095526",
+     "completion": "0.00000191052",
+     "input_cache_read": "0.000000079605"
     },
     "top_provider": {
      "context_length": 1024000,
@@ -44058,7 +44237,7 @@
     }
    }
   ],
-  "total_count": 461,
+  "total_count": 463,
   "links": {
    "next": null
   }
