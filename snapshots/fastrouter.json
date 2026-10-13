@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T02:33:29Z",
+ "fetched_at": "2026-10-13T10:27:05Z",
  "url": "https://api.fastrouter.ai/v1/models",
- "hash": "fb5d440a8f6fb27ba70d2075649e68c0650af7edf731ab972a4679d1c17cb564",
+ "hash": "3fc03f7fa8ae828dd04b3e9319fdd04c0b2f527632ac6ca9ab3fe3d34729dc55",
  "payload": {
   "data": [
    {
@@ -519,22 +519,23 @@
     "supported_params_details": {
      "include_reasoning": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "max": 128000,
+       "dataType": "number",
        "min": 1,
-       "dataType": "number"
+       "max": 128000
       }
      },
      "reasoning": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
@@ -542,18 +543,17 @@
         "xhigh",
         "max"
        ],
-       "default": "medium",
-       "dataType": "string"
+       "default": "medium"
       }
      },
      "response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "stop": {
@@ -563,22 +563,22 @@
      },
      "structured_outputs": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "tool_choice": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "auto",
         "any",
         "tool",
         "none"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "tools": {
@@ -588,12 +588,12 @@
      },
      "verbosity": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "low",
         "medium",
         "high"
-       ],
-       "dataType": "string"
+       ]
       }
      }
     }
@@ -695,11 +695,11 @@
     "supported_params_details": {
      "between_tools": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "cache_control": {
@@ -709,17 +709,17 @@
      },
      "display": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "updates"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "max_tokens": {
       "inputFormat": {
-       "max": 128000,
+       "dataType": "number",
        "min": 1,
-       "dataType": "number"
+       "max": 128000
       }
      },
      "metadata": {
@@ -729,24 +729,24 @@
      },
      "reasoning": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "between_tools",
         "low",
         "medium",
         "high"
        ],
-       "default": "high",
-       "dataType": "string"
+       "default": "high"
       }
      },
      "response_format": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "text",
         "json_object",
         "json_schema"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "stop": {
@@ -756,11 +756,11 @@
      },
      "stream": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "system": {
@@ -770,11 +770,11 @@
      },
      "tool_choice": {
       "inputFormat": {
+       "dataType": "string",
        "enum": [
         "auto",
         "none"
-       ],
-       "dataType": "string"
+       ]
       }
      },
      "tools": {
@@ -2276,8 +2276,8 @@
       "completion": "0.00005",
       "input_cache_read": "0.000001",
       "input_cache_write": "0.0000125",
-      "input_cache_write_1h": "0.00002",
-      "input_cache_write_5m": "0.0000125"
+      "input_cache_write_5m": "0.0000125",
+      "input_cache_write_1h": "0.00002"
      }
     },
     "top_provider": {
@@ -3611,8 +3611,8 @@
       "completion": "0.00000500",
       "input_cache_read": "0.00000010",
       "input_cache_write": "0.00000125",
-      "input_cache_write_5m": "0.00000125",
-      "input_cache_write_1h": "0.00000200"
+      "input_cache_write_1h": "0.00000200",
+      "input_cache_write_5m": "0.00000125"
      }
     },
     "top_provider": {
@@ -3698,7 +3698,12 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.000000375",
+      "completion": "0.000001875",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000005"
+     },
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -3813,11 +3818,7 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.000000375",
-      "completion": "0.000001875",
-      "input_cache_read": "0.0000000375"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -3935,7 +3936,11 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.000000375",
+      "completion": "0.000001875",
+      "input_cache_read": "0.0000000375"
+     },
      "flex_service_tier_pricing": {
       "prompt": "0.000000375",
       "completion": "0.000001875",
@@ -4417,7 +4422,6 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "1:1",
         "16:9",
@@ -4426,7 +4430,8 @@
         "4:3",
         "2:3",
         "3:2"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "image": {
@@ -4441,7 +4446,6 @@
      },
      "length": {
       "inputFormat": {
-       "dataType": "number",
        "enum": [
         1,
         2,
@@ -4458,7 +4462,8 @@
         13,
         14,
         15
-       ]
+       ],
+       "dataType": "number"
       }
      },
      "prompt": {
@@ -4468,11 +4473,11 @@
      },
      "resolution": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "720p",
         "480p"
-       ]
+       ],
+       "dataType": "string"
       }
      }
     }
@@ -6865,8 +6870,8 @@
       "completion": "0.00002500",
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
-      "input_cache_write_1h": "0.00001000",
-      "input_cache_write_5m": "0.00000625"
+      "input_cache_write_5m": "0.00000625",
+      "input_cache_write_1h": "0.00001000"
      }
     },
     "top_provider": {
@@ -6977,12 +6982,12 @@
       "completion": "0.00002500",
       "input_cache_read": "0.00000050",
       "input_cache_write": "0.00000625",
-      "input_cache_write_1h": "0.00001000",
       "input_cache_write_5m": "0.00000625",
-      "prompt_more_than_200k_input": "0.00000500",
-      "completion_more_than_200k_input": "0.00002500",
+      "input_cache_write_1h": "0.00001000",
+      "input_cache_write_more_than_200k_5m": "0.00000625",
       "input_cache_write_more_than_200k_1h": "0.00001000",
-      "input_cache_write_more_than_200k_5m": "0.00000625"
+      "prompt_more_than_200k_input": "0.00000500",
+      "completion_more_than_200k_input": "0.00002500"
      }
     },
     "top_provider": {
@@ -8077,11 +8082,9 @@
        "enum": [
         "16:9",
         "9:16",
-        "1:1",
         "4:3",
         "3:4",
-        "2:3",
-        "3:2",
+        "1:1",
         "21:9"
        ]
       }
@@ -8089,7 +8092,11 @@
      "aspect_ratio": {},
      "cameraFixed": {
       "inputFormat": {
-       "dataType": "bool"
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
       }
      },
      "first_frame": {
@@ -8099,7 +8106,11 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool"
+       "dataType": "bool",
+       "enum": [
+        true,
+        false
+       ]
       }
      },
      "image": {
@@ -8115,8 +8126,17 @@
      "length": {
       "inputFormat": {
        "dataType": "number",
-       "min": 3,
-       "max": 12
+       "enum": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+       ]
       }
      },
      "prompt": {
@@ -8137,7 +8157,7 @@
      "seed": {
       "inputFormat": {
        "dataType": "number",
-       "min": -1,
+       "min": 1,
        "max": 2147483647
       }
      },
@@ -8414,9 +8434,11 @@
        "enum": [
         "16:9",
         "9:16",
+        "1:1",
         "4:3",
         "3:4",
-        "1:1",
+        "2:3",
+        "3:2",
         "21:9"
        ]
       }
@@ -8434,11 +8456,7 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool",
-       "enum": [
-        true,
-        false
-       ]
+       "dataType": "bool"
       }
      },
      "image": {
@@ -8454,20 +8472,8 @@
      "length": {
       "inputFormat": {
        "dataType": "number",
-       "enum": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-       ]
+       "min": 3,
+       "max": 12
       }
      },
      "prompt": {
@@ -8488,7 +8494,7 @@
      "seed": {
       "inputFormat": {
        "dataType": "number",
-       "min": 1,
+       "min": -1,
        "max": 2147483647
       }
      },
@@ -10111,11 +10117,11 @@
      "priceToShow": {
       "prompt": "0.0000003",
       "completion": "0.0000025",
-      "input_cache_read": "0.00000003",
-      "prompt_more_than_200k_input": "0.0000003",
-      "completion_more_than_200k_input": "0.0000025",
       "prompt_audio": "0.000001",
-      "input_cache_read_audio": "0.0000001"
+      "input_cache_read": "0.00000003",
+      "input_cache_read_audio": "0.0000001",
+      "prompt_more_than_200k_input": "0.0000003",
+      "completion_more_than_200k_input": "0.0000025"
      }
     },
     "top_provider": {
@@ -10692,7 +10698,7 @@
      "reasoning": "",
      "duration": "",
      "internal_reasoning": "",
-     "input_cache_read": "",
+     "input_cache_read": "0.000000025",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -10712,11 +10718,13 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.000000125",
-      "completion": "0.00000075"
+      "completion": "0.00000075",
+      "input_cache_read": "0.0000000125"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000000125",
-      "completion": "0.00000075"
+      "completion": "0.00000075",
+      "input_cache_read": "0.0000000125"
      },
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -10725,6 +10733,7 @@
      "priceToShow": {
       "prompt": "0.00000025",
       "completion": "0.0000015",
+      "input_cache_read": "0.000000025",
       "image": "0.00003"
      }
     },
@@ -10840,9 +10849,9 @@
       "prompt": "0.000002",
       "completion": "0.000012",
       "input_cache_read": "0.0000002",
+      "input_cache_read_more_than_200k_input": "0.0000004",
       "prompt_more_than_200k_input": "0.000004",
-      "completion_more_than_200k_input": "0.000018",
-      "input_cache_read_more_than_200k_input": "0.0000004"
+      "completion_more_than_200k_input": "0.000018"
      }
     },
     "top_provider": {
@@ -11965,6 +11974,7 @@
        "dataType": "number",
        "enum": [
         5,
+        6,
         8
        ]
       }
@@ -15403,7 +15413,7 @@
      "duration": "",
      "internal_reasoning": "",
      "input_cache_read": "0.00000006",
-     "input_cache_write": "0.000000375",
+     "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -15426,12 +15436,7 @@
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.0000003",
-      "completion": "0.0000012",
-      "input_cache_read": "0.00000006",
-      "input_cache_write": "0.000000375"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 204800,
@@ -16728,13 +16733,13 @@
     "pricing": {
      "prompt": "0.000002",
      "completion": "0.000008",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
+     "internal_reasoning": "0",
      "input_cache_read": "0.0000005",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16754,23 +16759,15 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000001",
-      "completion": "0.000004"
+      "prompt": "0.00000100",
+      "completion": "0.00000400"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000035",
-      "completion": "0.000014",
-      "input_cache_read": "0.000000875"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": {
-      "prompt": "0.000002",
-      "completion": "0.000008",
-      "input_cache_read": "0.0000005"
-     }
+     "priceToShow": null
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16876,13 +16873,20 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {},
+     "batchPrice": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008"
+     },
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.0000004",
+      "completion": "0.0000016",
+      "input_cache_read": "0.0000001"
+     }
     },
     "top_provider": {
      "context_length": 1047576,
@@ -16958,13 +16962,13 @@
     "pricing": {
      "prompt": "0.0000001",
      "completion": "0.0000004",
-     "request": "0",
-     "image": "0",
-     "web_search": "0",
+     "request": "",
+     "image": "",
+     "web_search": "0.01",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "0",
+     "internal_reasoning": "",
      "input_cache_read": "0.000000025",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
@@ -16985,14 +16989,22 @@
      "cached_audio_input": "",
      "batchPrice": {
       "prompt": "0.00000005",
-      "completion": "0.00000020"
+      "completion": "0.0000002"
      },
      "flex_service_tier_pricing": {},
-     "fast_service_tier_pricing": {},
+     "fast_service_tier_pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000008",
+      "input_cache_read": "0.00000005"
+     },
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
-     "priceToShow": null
+     "priceToShow": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "input_cache_read": "0.000000025"
+     }
     },
     "top_provider": {
      "context_length": 1047576,
@@ -17749,14 +17761,14 @@
     "pricing": {
      "prompt": "0.00000125",
      "completion": "0.00001",
-     "request": "",
-     "image": "",
-     "web_search": "0.01",
+     "request": "0",
+     "image": "0",
+     "web_search": "0",
      "citation": "",
      "reasoning": "",
      "duration": "",
-     "internal_reasoning": "",
-     "input_cache_read": "0.000000125",
+     "internal_reasoning": "0",
+     "input_cache_read": "0.00000013",
      "input_cache_write": "",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
@@ -17775,27 +17787,23 @@
      "audio_output": "",
      "cached_audio_input": "",
      "batchPrice": {
-      "prompt": "0.000000625",
+      "prompt": "0.00000063",
       "completion": "0.000005",
-      "input_cache_read": "0.0000000625"
+      "input_cache_read": "0.00000007"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000000625",
       "completion": "0.000005",
       "input_cache_read": "0.0000000625"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.0000025",
-      "completion": "0.00002",
-      "input_cache_read": "0.00000025"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
      "priceToShow": {
       "prompt": "0.00000125",
       "completion": "0.00001",
-      "input_cache_read": "0.000000125"
+      "input_cache_read": "0.00000013"
      }
     },
     "top_provider": {
@@ -18416,6 +18424,7 @@
      "internal_reasoning": "",
      "input_cache_read": "0.00000025",
      "input_cache_write": "",
+     "input_cache_read_more_than_272k_input": "0.0000005",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -18435,16 +18444,22 @@
      "batchPrice": {
       "prompt": "0.00000125",
       "completion": "0.0000075",
-      "input_cache_read": "0.00000013"
+      "input_cache_read": "0.00000013",
+      "input_cache_read_more_than_272k_input": "0.00000025"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.00000125",
       "completion": "0.0000075",
       "prompt_more_than_272k_input": "0.0000025",
       "completion_more_than_272k_input": "0.00001125",
-      "input_cache_read": "0.00000013"
+      "input_cache_read": "0.00000013",
+      "input_cache_read_more_than_272k_input": "0.00000025"
      },
-     "fast_service_tier_pricing": {},
+     "fast_service_tier_pricing": {
+      "prompt": "0.000005",
+      "completion": "0.00003",
+      "input_cache_read": "0.0000005"
+     },
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -18452,6 +18467,7 @@
       "prompt": "0.0000025",
       "completion": "0.000015",
       "input_cache_read": "0.00000025",
+      "input_cache_read_more_than_272k_input": "0.0000005",
       "prompt_more_than_272k_input": "0.000005",
       "completion_more_than_272k_input": "0.0000225"
      }
@@ -19491,7 +19507,6 @@
      "internal_reasoning": "",
      "input_cache_read": "0.000001",
      "input_cache_write": "0.0000125",
-     "input_cache_read_more_than_272k_input": "0.000002",
      "prompt_more_than_128k_input": "",
      "completion_more_than_128k_input": "",
      "prompt_more_than_200k_input": "",
@@ -19503,7 +19518,7 @@
      "web_search_per_1000_requests_low": "",
      "web_search_per_1000_requests_medium": "",
      "web_search_per_1000_requests_high": "",
-     "web_search_per_1000_requests": "",
+     "web_search_per_1000_requests": "10",
      "audio_output_per_minute": "",
      "audio_input": "",
      "audio_output": "",
@@ -19512,8 +19527,7 @@
       "prompt": "0.000005",
       "completion": "0.000025",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
      "flex_service_tier_pricing": {
       "prompt": "0.000005",
@@ -19521,18 +19535,9 @@
       "prompt_more_than_272k_input": "0.00001",
       "completion_more_than_272k_input": "0.0000375",
       "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_read_more_than_272k_input": "0.000001"
+      "input_cache_write": "0.00000625"
      },
-     "fast_service_tier_pricing": {
-      "prompt": "0.00002",
-      "completion": "0.0001",
-      "prompt_more_than_272k_input": "0.00004",
-      "completion_more_than_272k_input": "0.00015",
-      "input_cache_read": "0.000002",
-      "input_cache_write": "0.000025",
-      "input_cache_read_more_than_272k_input": "0.000004"
-     },
+     "fast_service_tier_pricing": {},
      "videoCost": null,
      "videoCostWithAudio": null,
      "imageCost": null,
@@ -19540,9 +19545,7 @@
       "prompt": "0.00001",
       "completion": "0.00005",
       "input_cache_read": "0.000001",
-      "input_cache_read_more_than_272k_input": "0.000002",
       "input_cache_write": "0.0000125",
-      "input_cache_write_more_than_272k": "0.000025",
       "prompt_more_than_272k_input": "0.00002",
       "completion_more_than_272k_input": "0.000075"
      }
@@ -21067,10 +21070,7 @@
      "audio_input": "",
      "audio_output": "",
      "cached_audio_input": "",
-     "batchPrice": {
-      "prompt": "0.00000750",
-      "completion": "0.00003000"
-     },
+     "batchPrice": {},
      "flex_service_tier_pricing": {},
      "fast_service_tier_pricing": {},
      "videoCost": null,
@@ -24189,7 +24189,9 @@
     "supported_params_details": {
      "dimensions": {
       "inputFormat": {
-       "dataType": "number"
+       "dataType": "number",
+       "min": 32,
+       "max": 8192
       }
      },
      "encoding_format": {
@@ -24218,11 +24220,11 @@
      },
      "normalize": {
       "inputFormat": {
+       "dataType": "bool",
        "enum": [
         true,
         false
-       ],
-       "dataType": "bool"
+       ]
       }
      },
      "prompt_template": {
@@ -25731,14 +25733,14 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
+        "16:9",
+        "9:16",
         "1:1",
         "4:3",
-        "3:4",
-        "16:9",
-        "9:16"
-       ]
+        "3:4"
+       ],
+       "dataType": "string"
       }
      },
      "audioUrl": {
@@ -25769,11 +25771,11 @@
      },
      "generateAudio": {
       "inputFormat": {
-       "dataType": "bool",
        "enum": [
         true,
         false
-       ]
+       ],
+       "dataType": "bool"
       }
      },
      "image": {
@@ -25794,23 +25796,9 @@
      },
      "length": {
       "inputFormat": {
-       "dataType": "number",
-       "enum": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-       ]
+       "max": 15,
+       "min": 2,
+       "dataType": "number"
       }
      },
      "multiClip": {
@@ -25849,18 +25837,19 @@
      },
      "resolution": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
+        "480P",
         "720P",
         "1080P"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "seed": {
       "inputFormat": {
-       "dataType": "number",
-       "min": 1,
-       "max": 2147483647
+       "max": 2147483647,
+       "min": 0,
+       "dataType": "number"
       }
      },
      "size": {
@@ -27370,7 +27359,6 @@
     "supported_params_details": {
      "aspectRatio": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "1:1",
         "16:9",
@@ -27379,7 +27367,8 @@
         "4:3",
         "2:3",
         "3:2"
-       ]
+       ],
+       "dataType": "string"
       }
      },
      "aspect_ratio": {},
@@ -27395,7 +27384,6 @@
      },
      "length": {
       "inputFormat": {
-       "dataType": "number",
        "enum": [
         1,
         1,
@@ -27412,7 +27400,8 @@
         13,
         14,
         15
-       ]
+       ],
+       "dataType": "number"
       }
      },
      "prompt": {
@@ -27422,11 +27411,11 @@
      },
      "resolution": {
       "inputFormat": {
-       "dataType": "string",
        "enum": [
         "720p",
         "480p"
-       ]
+       ],
+       "dataType": "string"
       }
      }
     }

@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T02:33:29Z",
+ "fetched_at": "2026-10-13T10:27:05Z",
  "url": "https://api.novita.ai/v3/openai/models",
- "hash": "3a2bfea0ca170a267add13696561e8f0448018357ed2a55c046dc469843be7c7",
+ "hash": "1aec6a71739ed3c12c926e89a44daee4bbe4f1f59ae5a2afa64c0d5314354072",
  "payload": {
   "data": [
    {
@@ -1355,6 +1355,64 @@
     ],
     "input_modalities": [
      "text"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   {
+    "created": 1790740518,
+    "id": "stepfun/step-5-preview",
+    "object": "model",
+    "owned_by": "novita",
+    "permission": null,
+    "root": "",
+    "parent": "",
+    "input_token_price_per_m": 10000,
+    "output_token_price_per_m": 27000,
+    "pricing": {
+     "prompt": {
+      "origin_price_per_m": 10000,
+      "price_per_m": 10000,
+      "origin_price_per_m_decimal": "1",
+      "price_per_m_decimal": "1"
+     },
+     "completion": {
+      "origin_price_per_m": 27000,
+      "price_per_m": 27000,
+      "origin_price_per_m_decimal": "2.7",
+      "price_per_m_decimal": "2.7"
+     },
+     "input_cache_read": {
+      "origin_price_per_m": 1000,
+      "price_per_m": 1000,
+      "origin_price_per_m_decimal": "0.1",
+      "price_per_m_decimal": "0.1"
+     }
+    },
+    "is_tiered_billing": false,
+    "title": "stepfun/step-5-preview",
+    "description": "Step 5 Preview is StepFun's flagship model for coding, software engineering, and professional knowledge work. Its sparse MoE architecture uses 600B total and 27B active parameters, with a 1M-token context window and up to 64K output tokens. It accepts text, images, and video and supports tool calling, structured JSON output, three reasoning effort levels, streaming, and prompt caching. ",
+    "tags": [],
+    "context_size": 1000000,
+    "status": 1,
+    "display_name": "Step 5 Preview",
+    "model_type": "chat",
+    "max_output_tokens": 64000,
+    "features": [
+     "serverless",
+     "function-calling",
+     "structured-outputs",
+     "reasoning"
+    ],
+    "endpoints": [
+     "chat/completions",
+     "anthropic"
+    ],
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
     ],
     "output_modalities": [
      "text"

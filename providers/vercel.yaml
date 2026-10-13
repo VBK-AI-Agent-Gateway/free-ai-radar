@@ -3,7 +3,7 @@ homepage: https://vercel.com/docs/ai-gateway
 pricing_url: https://vercel.com/docs/ai-gateway
 signup:
   url: https://vercel.com/signup
-last_verified: '2026-10-13T02:33:56Z'
+last_verified: '2026-10-13T10:27:33Z'
 models:
 - id: alibaba/qwen-3-14b
   name: Qwen3-14B
@@ -30,8 +30,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen-3-235b
   name: Qwen3 235B A22B
   status: declared
@@ -54,8 +54,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen-3-30b
   name: Qwen3-30B-A3B
   status: declared
@@ -81,8 +81,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen-3-32b
   name: Qwen 3 32B
   status: declared
@@ -108,8 +108,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-coder
   name: Qwen3 Coder 480B A35B Instruct
   status: declared
@@ -132,8 +132,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-coder-30b-a3b
   name: Qwen 3 Coder 30B A3B Instruct
   status: declared
@@ -157,8 +157,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-coder-next
   name: Qwen3 Coder Next
   status: declared
@@ -188,8 +188,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-embedding-0.6b
   name: Qwen3 Embedding 0.6B
   status: declared
@@ -216,8 +216,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-embedding-4b
   name: Qwen3 Embedding 4B
   status: declared
@@ -244,8 +244,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-embedding-8b
   name: Qwen3 Embedding 8B
   status: declared
@@ -272,8 +272,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-max-thinking
   name: Qwen 3 Max Thinking
   status: declared
@@ -303,8 +303,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-next-80b-a3b-instruct
   name: Qwen3 Next 80B A3B Instruct
   status: declared
@@ -330,8 +330,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-next-80b-a3b-thinking
   name: Qwen3 Next 80B A3B Thinking
   status: declared
@@ -361,8 +361,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3-vl-instruct
   name: Qwen3 VL 235B A22B Instruct
   status: declared
@@ -388,8 +388,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.5-flash
   name: Qwen 3.5 Flash
   status: declared
@@ -417,8 +417,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.5-plus
   name: Qwen 3.5 Plus
   status: declared
@@ -446,8 +446,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.6-27b
   name: Qwen 3.6 27B
   status: declared
@@ -475,8 +475,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.6-plus
   name: Qwen 3.6 Plus
   status: declared
@@ -504,8 +504,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.7-flash
   name: Qwen 3.7 Flash
   status: declared
@@ -534,8 +534,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.7-max
   name: Qwen 3.7 Max
   status: declared
@@ -561,8 +561,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.7-plus
   name: Qwen 3.7 Plus
   status: declared
@@ -588,8 +588,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-2.4t-a95b
   name: Qwen3.8 2.4T A95B
   status: declared
@@ -619,8 +619,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-27b
   name: Qwen3.8 27B
   status: declared
@@ -648,8 +648,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-flash
   name: Qwen 3.8 Flash
   status: declared
@@ -675,8 +675,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-max
   name: Qwen 3.8 Max
   status: declared
@@ -706,8 +706,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-max-0902
   name: Qwen3.8 Max 0902
   status: declared
@@ -730,8 +730,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-max-prime
   name: Qwen 3.8 Max Prime
   status: declared
@@ -758,8 +758,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/qwen3.8-omni-flash
   name: Qwen 3.8 Omni Flash
   status: declared
@@ -785,8 +785,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.5-t2v-preview
   name: Wan v2.5 Text-to-Video Preview
   status: declared
@@ -809,8 +809,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.6-i2v
   name: Wan v2.6 Image-to-Video
   status: declared
@@ -833,8 +833,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.6-i2v-flash
   name: Wan v2.6 Image-to-Video Flash
   status: declared
@@ -857,8 +857,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.6-r2v
   name: Wan v2.6 Reference-to-Video
   status: declared
@@ -881,8 +881,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.6-r2v-flash
   name: Wan v2.6 Reference-to-Video Flash
   status: declared
@@ -905,8 +905,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.6-t2v
   name: Wan v2.6 Text-to-Video
   status: declared
@@ -929,8 +929,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.7-r2v
   name: Wan v2.7 Reference-to-Video
   status: declared
@@ -953,8 +953,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v2.7-t2v
   name: Wan v2.7 Text-to-Video
   status: declared
@@ -977,8 +977,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v3.0-video
   name: Wan v3.0 Video
   status: declared
@@ -1003,8 +1003,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: alibaba/wan-v3.0-video-prime
   name: Wan v3.0 Video Prime
   status: declared
@@ -1031,8 +1031,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: amazon/nova-2-lite
   name: Nova 2 Lite
   status: declared
@@ -1056,8 +1056,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: amazon/nova-lite
   name: Nova Lite
   status: declared
@@ -1081,8 +1081,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: amazon/nova-micro
   name: Nova Micro
   status: declared
@@ -1106,8 +1106,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: amazon/nova-pro
   name: Nova Pro
   status: declared
@@ -1131,8 +1131,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: amazon/titan-embed-text-v2
   name: Titan Text Embeddings V2
   status: declared
@@ -1156,8 +1156,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-fable-5
   name: Claude Fable 5
   status: declared
@@ -1182,8 +1182,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-fable-5-batch
   name: Claude Fable 5 (Batch)
   status: declared
@@ -1208,8 +1208,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-fable-5.1
   name: Claude Fable 5.1
   status: declared
@@ -1234,8 +1234,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-fable-5.1-batch
   name: Claude Fable 5.1 (Batch)
   status: declared
@@ -1260,8 +1260,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-haiku-4.5
   name: Claude Haiku 4.5
   status: declared
@@ -1288,8 +1288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-haiku-4.5-batch
   name: Claude Haiku 4.5 (Batch)
   status: declared
@@ -1316,8 +1316,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-haiku-5.5
   name: Claude Haiku 5.5
   status: declared
@@ -1344,8 +1344,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-haiku-5.5-batch
   name: Claude Haiku 5.5 (Batch)
   status: declared
@@ -1372,8 +1372,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.5
   name: Claude Opus 4.5
   status: declared
@@ -1401,8 +1401,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.5-batch
   name: Claude Opus 4.5 (Batch)
   status: declared
@@ -1430,8 +1430,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.6
   name: Claude Opus 4.6
   status: declared
@@ -1459,8 +1459,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.6-batch
   name: Claude Opus 4.6 (Batch)
   status: declared
@@ -1488,8 +1488,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.7
   name: Claude Opus 4.7
   status: declared
@@ -1515,8 +1515,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.7-batch
   name: Claude Opus 4.7 (Batch)
   status: declared
@@ -1542,8 +1542,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.8
   name: Claude Opus 4.8
   status: declared
@@ -1571,8 +1571,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.8-fast
   name: Claude Opus 4.8 (Fast)
   status: declared
@@ -1600,8 +1600,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-4.8-batch
   name: Claude Opus 4.8 (Batch)
   status: declared
@@ -1629,8 +1629,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5
   name: Claude Opus 5
   status: declared
@@ -1656,8 +1656,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5-fast
   name: Claude Opus 5 (Fast)
   status: declared
@@ -1683,8 +1683,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5-batch
   name: Claude Opus 5 (Batch)
   status: declared
@@ -1710,8 +1710,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5.5
   name: Claude Opus 5.5
   status: declared
@@ -1737,8 +1737,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5.5-fast
   name: Claude Opus 5.5 (Fast)
   status: declared
@@ -1764,8 +1764,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-opus-5.5-batch
   name: Claude Opus 5.5 (Batch)
   status: declared
@@ -1791,8 +1791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-4
   name: Claude Sonnet 4
   status: declared
@@ -1818,8 +1818,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-4.5
   name: Claude Sonnet 4.5
   status: declared
@@ -1843,8 +1843,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-4.5-batch
   name: Claude Sonnet 4.5 (Batch)
   status: declared
@@ -1868,8 +1868,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-4.6
   name: Claude Sonnet 4.6
   status: declared
@@ -1896,8 +1896,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-4.6-batch
   name: Claude Sonnet 4.6 (Batch)
   status: declared
@@ -1924,8 +1924,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-5
   name: Claude Sonnet 5
   status: declared
@@ -1951,8 +1951,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-5-batch
   name: Claude Sonnet 5 (Batch)
   status: declared
@@ -1978,8 +1978,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-5.5
   name: Claude Sonnet 5.5
   status: declared
@@ -2004,8 +2004,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: anthropic/claude-sonnet-5.5-batch
   name: Claude Sonnet 5.5 (Batch)
   status: declared
@@ -2030,8 +2030,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: arcee-ai/trinity-large-thinking
   name: Trinity Large Thinking
   status: declared
@@ -2059,8 +2059,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-2-flex
   name: FLUX.2 [flex]
   status: declared
@@ -2092,8 +2092,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-2-klein-4b
   name: FLUX.2 [klein] 4B
   status: declared
@@ -2119,8 +2119,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-2-klein-9b
   name: FLUX.2 [klein] 9B
   status: declared
@@ -2146,8 +2146,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-2-max
   name: FLUX.2 [max]
   status: declared
@@ -2174,8 +2174,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-2-pro
   name: FLUX.2 [pro]
   status: declared
@@ -2206,8 +2206,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-3-image
   name: FLUX 3 Image
   status: declared
@@ -2233,8 +2233,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-3-video
   name: Flux 3
   status: declared
@@ -2258,8 +2258,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-kontext-max
   name: FLUX.1 Kontext Max
   status: declared
@@ -2288,8 +2288,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-kontext-pro
   name: FLUX.1 Kontext Pro
   status: declared
@@ -2318,8 +2318,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-pro-1.0-fill
   name: FLUX.1 Fill [pro]
   status: declared
@@ -2347,8 +2347,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-pro-1.1
   name: FLUX1.1 [pro]
   status: declared
@@ -2376,8 +2376,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bfl/flux-pro-1.1-ultra
   name: FLUX1.1 [pro] Ultra
   status: declared
@@ -2406,8 +2406,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seed-1.6
   name: Seed 1.6
   status: declared
@@ -2431,8 +2431,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seed-1.8
   name: Bytedance Seed 1.8
   status: declared
@@ -2457,8 +2457,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seed-2.1-turbo
   name: Seed 2.1 Turbo
   status: declared
@@ -2483,8 +2483,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-2.0
   name: Seedance 2.0
   status: declared
@@ -2512,8 +2512,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-2.0-fast
   name: Seedance 2.0 Fast
   status: declared
@@ -2537,8 +2537,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-2.0-mini
   name: Seedance 2.0 Mini
   status: declared
@@ -2562,8 +2562,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-2.5
   name: Seedance 2.5
   status: declared
@@ -2588,8 +2588,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-v1.0-pro
   name: Seedance v1.0 Pro
   status: declared
@@ -2614,8 +2614,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-v1.0-pro-fast
   name: Seedance v1.0 Pro Fast
   status: declared
@@ -2640,8 +2640,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedance-v1.5-pro
   name: Seedance v1.5 Pro
   status: declared
@@ -2666,8 +2666,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedream-4.0
   name: Seedream 4.0
   status: declared
@@ -2695,8 +2695,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedream-4.5
   name: Seedream 4.5
   status: declared
@@ -2725,8 +2725,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedream-5.0-lite
   name: Seedream 5.0 Lite
   status: declared
@@ -2756,8 +2756,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: bytedance/seedream-5.0-pro
   name: Seedream 5.0 Pro
   status: declared
@@ -2783,8 +2783,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: callstack/apex
   name: Apex
   status: declared
@@ -2809,8 +2809,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/command-a
   name: Command A
   status: declared
@@ -2836,8 +2836,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/embed-v4.0
   name: Embed v4.0
   status: declared
@@ -2861,8 +2861,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/embed-v5.0-fast
   name: Embed 5 Fast
   status: declared
@@ -2889,8 +2889,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/embed-v5.0-pro
   name: Embed 5 Pro
   status: declared
@@ -2917,8 +2917,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/rerank-v3.5
   name: Cohere Rerank 3.5
   status: declared
@@ -2942,8 +2942,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/rerank-v4-fast
   name: Cohere Rerank 4 Fast
   status: declared
@@ -2969,8 +2969,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: cohere/rerank-v4-pro
   name: Cohere Rerank 4 Pro
   status: declared
@@ -2995,8 +2995,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: convaiinnovations/laya
   name: Laya
   status: declared
@@ -3023,8 +3023,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: convaiinnovations/laya-free
   name: Laya (Free)
   status: declared
@@ -3051,8 +3051,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-r1
   name: DeepSeek-R1
   status: declared
@@ -3076,8 +3076,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v3.1
   name: DeepSeek V3.1
   status: declared
@@ -3107,8 +3107,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v3.2
   name: DeepSeek V3.2
   status: declared
@@ -3138,8 +3138,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v3.2-thinking
   name: DeepSeek V3.2 Thinking
   status: declared
@@ -3169,8 +3169,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4-flash
   name: DeepSeek V4 Flash
   status: declared
@@ -3193,8 +3193,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4-flash-0731
   name: DeepSeek V4 Flash 0731
   status: declared
@@ -3217,8 +3217,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4-flash-vision-exp
   name: DeepSeek V4 Flash Vision Exp
   status: declared
@@ -3245,8 +3245,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4-pro
   name: DeepSeek V4 Pro
   status: declared
@@ -3277,8 +3277,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4-pro-0813
   name: DeepSeek V4 Pro 0813
   status: declared
@@ -3301,8 +3301,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4.1-flash
   name: DeepSeek V4.1 Flash
   status: declared
@@ -3328,8 +3328,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: deepseek/deepseek-v4.1-flash-fast
   name: DeepSeek V4.1 Flash Fast
   status: declared
@@ -3353,8 +3353,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: fireworks/ember-1
   name: Ember-1
   status: declared
@@ -3381,8 +3381,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: fish-audio/s1
   name: S1
   status: declared
@@ -3407,8 +3407,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: fish-audio/s2-pro
   name: S2 Pro
   status: declared
@@ -3435,8 +3435,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: fish-audio/s2.1-pro
   name: S2.1 Pro
   status: declared
@@ -3463,8 +3463,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: fish-audio/transcribe-1
   name: Transcribe-1
   status: declared
@@ -3489,8 +3489,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-flash
   name: Gemini 2.5 Flash
   status: declared
@@ -3515,8 +3515,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-flash-batch
   name: Gemini 2.5 Flash (Batch)
   status: declared
@@ -3541,8 +3541,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-flash-image
   name: Nano Banana (Gemini 2.5 Flash Image)
   status: declared
@@ -3570,8 +3570,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-flash-lite
   name: Gemini 2.5 Flash Lite
   status: declared
@@ -3596,8 +3596,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-flash-lite-batch
   name: Gemini 2.5 Flash Lite (Batch)
   status: declared
@@ -3622,8 +3622,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-pro
   name: Gemini 2.5 Pro
   status: declared
@@ -3649,8 +3649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-2.5-pro-batch
   name: Gemini 2.5 Pro (Batch)
   status: declared
@@ -3676,8 +3676,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3-flash
   name: Gemini 3 Flash
   status: declared
@@ -3701,8 +3701,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3-flash-batch
   name: Gemini 3 Flash (Batch)
   status: declared
@@ -3726,8 +3726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3-pro-image
   name: Nano Banana Pro (Gemini 3 Pro Image)
   status: declared
@@ -3754,8 +3754,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-flash-image
   name: Gemini 3.1 Flash Image (Nano Banana 2)
   status: declared
@@ -3779,8 +3779,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-flash-image-preview
   name: Gemini 3.1 Flash Image Preview (Nano Banana 2)
   status: declared
@@ -3804,8 +3804,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-flash-lite
   name: Gemini 3.1 Flash Lite
   status: declared
@@ -3831,8 +3831,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-flash-lite-batch
   name: Gemini 3.1 Flash Lite (Batch)
   status: declared
@@ -3858,8 +3858,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-flash-lite-image
   name: Gemini 3.1 Flash Lite Image (Nano Banana 2 Lite)
   status: declared
@@ -3883,8 +3883,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-pro-preview
   name: Gemini 3.1 Pro Preview
   status: declared
@@ -3910,8 +3910,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.1-pro-preview-batch
   name: Gemini 3.1 Pro Preview (Batch)
   status: declared
@@ -3935,8 +3935,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-flash
   name: Gemini 3.5 Flash
   status: declared
@@ -3961,8 +3961,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-flash-batch
   name: Gemini 3.5 Flash (Batch)
   status: declared
@@ -3987,8 +3987,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-flash-lite
   name: Gemini 3.5 Flash Lite
   status: declared
@@ -4012,8 +4012,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-flash-lite-batch
   name: Gemini 3.5 Flash Lite (Batch)
   status: declared
@@ -4037,8 +4037,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-transcribe
   name: Gemini 3.5 Transcribe
   status: declared
@@ -4061,8 +4061,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.5-transcribe-live
   name: Gemini 3.5 Transcribe Live
   status: declared
@@ -4085,8 +4085,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.6-flash
   name: Gemini 3.6 Flash
   status: declared
@@ -4111,8 +4111,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.6-flash-batch
   name: Gemini 3.6 Flash (Batch)
   status: declared
@@ -4137,8 +4137,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.7-flash
   name: Gemini 3.7 Flash
   status: declared
@@ -4166,8 +4166,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.7-flash-batch
   name: Gemini 3.7 Flash (Batch)
   status: declared
@@ -4192,8 +4192,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.8-flash
   name: Gemini 3.8 Flash
   status: declared
@@ -4221,8 +4221,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.8-flash-lite-tts
   name: Gemini 3.8 Flash-Lite TTS
   status: declared
@@ -4249,8 +4249,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.8-flash-tts
   name: Gemini 3.8 Flash TTS
   status: declared
@@ -4277,8 +4277,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.8-live
   name: Gemini 3.8 Live
   status: declared
@@ -4303,8 +4303,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-3.8-live-extended-thinking
   name: Gemini 3.8 Live Extended Thinking
   status: declared
@@ -4329,8 +4329,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-embedding-001
   name: Gemini Embedding 001
   status: declared
@@ -4354,8 +4354,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-embedding-2
   name: Gemini Embedding 2
   status: declared
@@ -4381,8 +4381,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-nano-banana-2.1
   name: Gemini Nano Banana 2.1
   status: declared
@@ -4406,8 +4406,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemini-omni-flash-preview
   name: Gemini Omni Flash Preview
   status: declared
@@ -4432,8 +4432,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemma-4-26b-a4b-it
   name: Google Gemma 4 26B A4B
   status: declared
@@ -4460,8 +4460,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/gemma-4-31b-it
   name: Gemma 4 31B IT
   status: declared
@@ -4487,8 +4487,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/text-embedding-005
   name: Text Embedding 005
   status: declared
@@ -4512,8 +4512,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/text-multilingual-embedding-002
   name: Text Multilingual Embedding 002
   status: declared
@@ -4537,8 +4537,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/veo-3.0-fast-generate-001
   name: Veo 3.0 Fast Generate
   status: declared
@@ -4564,8 +4564,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/veo-3.0-generate-001
   name: Veo 3.0
   status: declared
@@ -4591,8 +4591,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/veo-3.1-fast-generate-001
   name: Veo 3.1 Fast Generate
   status: declared
@@ -4619,8 +4619,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/veo-3.1-generate-001
   name: Veo 3.1
   status: declared
@@ -4645,8 +4645,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: google/veo-3.1-lite-generate-001
   name: Veo 3.1 Lite Generate
   status: declared
@@ -4672,8 +4672,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: heygen/heygen-video-1
   name: HeyGen Video
   status: declared
@@ -4700,8 +4700,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inception/mercury-2
   name: Mercury 2
   status: declared
@@ -4726,8 +4726,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inception/mercury-2.5
   name: Mercury 2.5
   status: declared
@@ -4752,8 +4752,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inception/mercury-coder-small
   name: Mercury Coder Small Beta
   status: declared
@@ -4777,8 +4777,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.0-flash
   name: Ling 3.0 Flash
   status: declared
@@ -4803,8 +4803,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.0-flash-fin
   name: Ling 3.0 Flash Fin
   status: declared
@@ -4832,8 +4832,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.0-flash-sante
   name: Ling 3.0 Flash Sante
   status: declared
@@ -4861,8 +4861,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.0-flash-vl
   name: Ling 3.0 Flash VL
   status: declared
@@ -4887,8 +4887,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.1-flash
   name: Ling 3.1 Flash
   status: declared
@@ -4913,8 +4913,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inclusionai/ling-3.1-flash-free
   name: Ling 3.1 Flash (Free)
   status: declared
@@ -4939,8 +4939,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inference-net/schematron-v2-small
   name: Schematron V2 Small
   status: declared
@@ -4965,8 +4965,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: inference-net/schematron-v2-turbo
   name: Schematron V2 Turbo
   status: declared
@@ -4991,8 +4991,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: interfaze/interfaze-beta
   name: Interfaze Beta
   status: declared
@@ -5017,8 +5017,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v2.5-turbo-i2v
   name: Kling v2.5 Turbo Image-to-Video
   status: declared
@@ -5044,8 +5044,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v2.5-turbo-t2v
   name: Kling v2.5 Turbo Text-to-Video
   status: declared
@@ -5071,8 +5071,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v2.6-i2v
   name: Kling v2.6 Image-to-Video
   status: declared
@@ -5098,8 +5098,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v2.6-motion-control
   name: Kling v2.6 Motion Control
   status: declared
@@ -5125,8 +5125,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v2.6-t2v
   name: Kling v2.6 Text-to-Video
   status: declared
@@ -5152,8 +5152,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v3.0-i2v
   name: Kling v3.0 Image-to-Video
   status: declared
@@ -5182,8 +5182,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v3.0-motion-control
   name: Kling v3.0 Motion Control
   status: declared
@@ -5210,8 +5210,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: klingai/kling-v3.0-t2v
   name: Kling v3.0 Text-to-Video
   status: declared
@@ -5240,8 +5240,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: liquid/d1
   name: Liquid d1
   status: declared
@@ -5267,8 +5267,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meituan/longcat-2.5-preview
   name: LongCat 2.5 Preview
   status: declared
@@ -5295,8 +5295,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/llama-3.1-70b
   name: Llama 3.1 70B Instruct
   status: declared
@@ -5320,8 +5320,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/llama-3.1-8b
   name: Llama 3.1 8B Instruct
   status: declared
@@ -5345,8 +5345,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/llama-3.3-70b
   name: Llama 3.3 70B Instruct
   status: declared
@@ -5372,8 +5372,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/llama-4-maverick
   name: Llama 4 Maverick 17B Instruct
   status: declared
@@ -5398,8 +5398,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/llama-4-scout
   name: Llama 4 Scout 17B Instruct
   status: declared
@@ -5425,8 +5425,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-glimmer-30b
   name: Muse Glimmer 30B
   status: declared
@@ -5449,8 +5449,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-image-1.0
   name: Muse Image 1.0
   status: declared
@@ -5475,8 +5475,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-spark-1.1
   name: Muse Spark 1.1
   status: declared
@@ -5502,8 +5502,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-spark-1.2
   name: Muse Spark 1.2
   status: declared
@@ -5528,8 +5528,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-spark-1.2-contributor
   name: Muse Spark 1.2 Contributor
   status: declared
@@ -5554,8 +5554,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-spark-1.3
   name: Muse Spark 1.3
   status: declared
@@ -5582,8 +5582,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-spark-1.3-contributor
   name: Muse Spark 1.3 Contributor
   status: declared
@@ -5609,8 +5609,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: meta/muse-wonder-1.0
   name: Muse Wonder
   status: declared
@@ -5635,8 +5635,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-transcribe-2
   name: MAI-Transcribe 2
   status: declared
@@ -5665,8 +5665,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-transcribe-2-streaming
   name: MAI-Transcribe-2-Streaming
   status: declared
@@ -5694,8 +5694,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-voice-2
   name: MAI-Voice-2
   status: declared
@@ -5720,8 +5720,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-voice-2-flash
   name: MAI-Voice-2-Flash
   status: declared
@@ -5746,8 +5746,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-voice-2.1
   name: MAI-Voice-2.1
   status: declared
@@ -5776,8 +5776,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/mai-voice-2.1-flash
   name: MAI-Voice-2.1-Flash
   status: declared
@@ -5805,8 +5805,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: microsoft/microsoft-decision-1
   name: Decision-1
   status: declared
@@ -5834,8 +5834,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-h3
   name: MiniMax H3
   status: declared
@@ -5862,8 +5862,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-h3-max
   name: MiniMax H3 Max
   status: declared
@@ -5888,8 +5888,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2
   name: MiniMax M2
   status: declared
@@ -5915,8 +5915,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.1
   name: MiniMax M2.1
   status: declared
@@ -5940,8 +5940,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.1-lightning
   name: MiniMax M2.1 Lightning
   status: declared
@@ -5966,8 +5966,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.5
   name: MiniMax M2.5
   status: declared
@@ -5994,8 +5994,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.5-highspeed
   name: MiniMax M2.5 High Speed
   status: declared
@@ -6019,8 +6019,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.7
   name: MiniMax M2.7
   status: declared
@@ -6045,8 +6045,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m2.7-highspeed
   name: MiniMax M2.7 High Speed
   status: declared
@@ -6070,8 +6070,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: minimax/minimax-m3
   name: MiniMax M3
   status: declared
@@ -6097,8 +6097,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/codestral
   name: Mistral Codestral
   status: declared
@@ -6123,8 +6123,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/codestral-embed
   name: Codestral Embed
   status: declared
@@ -6148,8 +6148,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/ministral-14b
   name: Ministral 14B
   status: declared
@@ -6175,8 +6175,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/ministral-3b
   name: Ministral 3B
   status: declared
@@ -6200,8 +6200,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/ministral-8b
   name: Ministral 8B
   status: declared
@@ -6225,8 +6225,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-embed
   name: Mistral Embed
   status: declared
@@ -6250,8 +6250,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-large-3
   name: Mistral Large 3
   status: declared
@@ -6275,8 +6275,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-large-4
   name: Mistral Large 4
   status: declared
@@ -6303,8 +6303,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-medium-3.5
   name: Mistral Medium Latest
   status: declared
@@ -6328,8 +6328,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-nemo
   name: Mistral Nemo 12B
   status: declared
@@ -6353,8 +6353,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mistral/mistral-small
   name: Mistral Small
   status: declared
@@ -6378,8 +6378,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: mixedbread/toast-1
   name: Toast 1
   status: declared
@@ -6404,8 +6404,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k2
   name: Kimi K2 Instruct
   status: declared
@@ -6432,8 +6432,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k2.5
   name: Kimi K2.5
   status: declared
@@ -6458,8 +6458,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k2.6
   name: Kimi K2.6
   status: declared
@@ -6483,8 +6483,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k2.7-code
   name: Kimi K2.7 Code
   status: declared
@@ -6509,8 +6509,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k2.7-code-highspeed
   name: Kimi K2.7 Code High Speed
   status: declared
@@ -6536,8 +6536,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k3
   name: Kimi K3
   status: declared
@@ -6561,8 +6561,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: moonshotai/kimi-k3-fast
   name: Kimi K3 Fast
   status: declared
@@ -6586,8 +6586,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: morph/morph-v3-fast
   name: Morph V3 Fast
   status: declared
@@ -6613,8 +6613,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: morph/morph-v3-large
   name: Morph V3 Large
   status: declared
@@ -6640,8 +6640,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-3-nano-30b-a3b
   name: Nemotron 3 Nano 30B A3B
   status: declared
@@ -6667,8 +6667,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-3-super-120b-a12b
   name: NVIDIA Nemotron 3 Super 120B A12B
   status: declared
@@ -6698,8 +6698,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-3-ultra-550b-a55b
   name: Nemotron 3 Ultra
   status: declared
@@ -6724,8 +6724,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-3.5-lightning
   name: Nemotron 3.5 Lightning 30B
   status: declared
@@ -6755,8 +6755,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-nano-12b-v2-vl
   name: Nvidia Nemotron Nano 12B V2 VL
   status: declared
@@ -6782,8 +6782,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: nvidia/nemotron-nano-9b-v2
   name: Nvidia Nemotron Nano 9B V2
   status: declared
@@ -6812,8 +6812,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-3.5-turbo
   name: GPT-3.5 Turbo
   status: declared
@@ -6837,8 +6837,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4-turbo
   name: GPT-4 Turbo
   status: declared
@@ -6864,8 +6864,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1
   name: GPT-4.1
   status: declared
@@ -6889,8 +6889,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-fast
   name: GPT-4.1 (Fast)
   status: declared
@@ -6914,8 +6914,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-batch
   name: GPT-4.1 (Batch)
   status: declared
@@ -6939,8 +6939,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-mini
   name: GPT-4.1 mini
   status: declared
@@ -6964,8 +6964,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-mini-fast
   name: GPT-4.1 mini (Fast)
   status: declared
@@ -6989,8 +6989,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-mini-batch
   name: GPT-4.1 mini (Batch)
   status: declared
@@ -7014,8 +7014,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-nano
   name: GPT-4.1 nano
   status: declared
@@ -7038,8 +7038,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-nano-fast
   name: GPT-4.1 nano (Fast)
   status: declared
@@ -7062,8 +7062,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4.1-nano-batch
   name: GPT-4.1 nano (Batch)
   status: declared
@@ -7086,8 +7086,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o
   name: GPT-4o
   status: declared
@@ -7113,8 +7113,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-fast
   name: GPT-4o (Fast)
   status: declared
@@ -7140,8 +7140,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-batch
   name: GPT-4o (Batch)
   status: declared
@@ -7167,8 +7167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-mini
   name: GPT-4o mini
   status: declared
@@ -7193,8 +7193,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-mini-fast
   name: GPT-4o mini (Fast)
   status: declared
@@ -7219,8 +7219,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-mini-batch
   name: GPT-4o mini (Batch)
   status: declared
@@ -7245,8 +7245,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-mini-transcribe
   name: GPT-4o mini Transcribe
   status: declared
@@ -7272,8 +7272,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-4o-transcribe
   name: GPT-4o Transcribe
   status: declared
@@ -7298,8 +7298,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5
   name: GPT-5
   status: declared
@@ -7323,8 +7323,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-fast
   name: GPT-5 (Fast)
   status: declared
@@ -7348,8 +7348,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-batch
   name: GPT-5 (Batch)
   status: declared
@@ -7373,8 +7373,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-codex
   name: GPT-5-Codex
   status: declared
@@ -7398,8 +7398,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-mini
   name: GPT-5 mini
   status: declared
@@ -7423,8 +7423,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-mini-fast
   name: GPT-5 mini (Fast)
   status: declared
@@ -7448,8 +7448,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-mini-batch
   name: GPT-5 mini (Batch)
   status: declared
@@ -7473,8 +7473,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-nano
   name: GPT-5 nano
   status: declared
@@ -7498,8 +7498,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-nano-batch
   name: GPT-5 nano (Batch)
   status: declared
@@ -7523,8 +7523,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-pro
   name: GPT-5 pro
   status: declared
@@ -7549,8 +7549,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5-pro-batch
   name: GPT-5 pro (Batch)
   status: declared
@@ -7575,8 +7575,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.1-codex
   name: GPT-5.1-Codex
   status: declared
@@ -7600,8 +7600,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.1-codex-max
   name: GPT 5.1 Codex Max
   status: declared
@@ -7624,8 +7624,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.1-codex-mini
   name: GPT 5.1 Codex Mini
   status: declared
@@ -7649,8 +7649,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.1-thinking
   name: GPT 5.1 Thinking
   status: declared
@@ -7675,8 +7675,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.1-thinking-fast
   name: GPT 5.1 Thinking (Fast)
   status: declared
@@ -7701,8 +7701,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.2
   name: GPT 5.2
   status: declared
@@ -7727,8 +7727,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.2-fast
   name: GPT 5.2 (Fast)
   status: declared
@@ -7753,8 +7753,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.2-batch
   name: GPT 5.2 (Batch)
   status: declared
@@ -7779,8 +7779,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.2-codex
   name: GPT 5.2 Codex
   status: declared
@@ -7807,8 +7807,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.2-pro
   name: 'GPT 5.2 '
   status: declared
@@ -7831,8 +7831,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.3-codex
   name: GPT 5.3 Codex
   status: declared
@@ -7858,8 +7858,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.3-codex-fast
   name: GPT 5.3 Codex (Fast)
   status: declared
@@ -7885,8 +7885,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4
   name: GPT 5.4
   status: declared
@@ -7911,8 +7911,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-fast
   name: GPT 5.4 (Fast)
   status: declared
@@ -7937,8 +7937,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-batch
   name: GPT 5.4 (Batch)
   status: declared
@@ -7963,8 +7963,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-mini
   name: GPT 5.4 Mini
   status: declared
@@ -7988,8 +7988,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-mini-fast
   name: GPT 5.4 Mini (Fast)
   status: declared
@@ -8013,8 +8013,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-mini-batch
   name: GPT 5.4 Mini (Batch)
   status: declared
@@ -8038,8 +8038,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-nano
   name: GPT 5.4 Nano
   status: declared
@@ -8063,8 +8063,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-nano-batch
   name: GPT 5.4 Nano (Batch)
   status: declared
@@ -8088,8 +8088,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.4-pro
   name: GPT 5.4 Pro
   status: declared
@@ -8113,8 +8113,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.5
   name: GPT 5.5
   status: declared
@@ -8142,8 +8142,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.5-fast
   name: GPT 5.5 (Fast)
   status: declared
@@ -8171,8 +8171,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.5-batch
   name: GPT 5.5 (Batch)
   status: declared
@@ -8200,8 +8200,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.5-pro
   name: GPT 5.5 Pro
   status: declared
@@ -8224,8 +8224,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.5-pro-batch
   name: GPT 5.5 Pro (Batch)
   status: declared
@@ -8248,8 +8248,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-luna
   name: GPT 5.6 Luna
   status: declared
@@ -8273,8 +8273,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-luna-fast
   name: GPT 5.6 Luna (Fast)
   status: declared
@@ -8298,8 +8298,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-luna-batch
   name: GPT 5.6 Luna (Batch)
   status: declared
@@ -8323,8 +8323,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-sol
   name: GPT 5.6 Sol
   status: declared
@@ -8348,8 +8348,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-sol-fast
   name: GPT 5.6 Sol (Fast)
   status: declared
@@ -8373,8 +8373,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-sol-batch
   name: GPT 5.6 Sol (Batch)
   status: declared
@@ -8398,8 +8398,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-terra
   name: GPT 5.6 Terra
   status: declared
@@ -8423,8 +8423,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-terra-fast
   name: GPT 5.6 Terra (Fast)
   status: declared
@@ -8448,8 +8448,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-5.6-terra-batch
   name: GPT 5.6 Terra (Batch)
   status: declared
@@ -8473,8 +8473,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-astra
   name: GPT-6 Astra
   status: declared
@@ -8498,8 +8498,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-astra-fast
   name: GPT-6 Astra (Fast)
   status: declared
@@ -8523,8 +8523,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-astra-batch
   name: GPT-6 Astra (Batch)
   status: declared
@@ -8548,8 +8548,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-luna
   name: GPT-6 Luna
   status: declared
@@ -8576,8 +8576,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-luna-fast
   name: GPT-6 Luna (Fast)
   status: declared
@@ -8604,8 +8604,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-luna-batch
   name: GPT-6 Luna (Batch)
   status: declared
@@ -8632,8 +8632,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-luna-decisions
   name: GPT-6 Luna Decisions
   status: declared
@@ -8658,8 +8658,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-sol
   name: GPT-6 Sol
   status: declared
@@ -8686,8 +8686,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-sol-fast
   name: GPT-6 Sol (Fast)
   status: declared
@@ -8714,8 +8714,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6-sol-batch
   name: GPT-6 Sol (Batch)
   status: declared
@@ -8742,8 +8742,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6.1-sol
   name: GPT-6.1 Sol
   status: declared
@@ -8770,8 +8770,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6.1-sol-fast
   name: GPT-6.1 Sol (Fast)
   status: declared
@@ -8798,8 +8798,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-6.1-sol-batch
   name: GPT-6.1 Sol (Batch)
   status: declared
@@ -8826,8 +8826,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-1
   name: GPT Image 1
   status: declared
@@ -8852,8 +8852,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-1-mini
   name: GPT Image 1 Mini
   status: declared
@@ -8877,8 +8877,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-1.5
   name: GPT Image 1.5
   status: declared
@@ -8902,8 +8902,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-2
   name: GPT Image 2
   status: declared
@@ -8928,8 +8928,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-2.5-flare
   name: GPT Image 2.5 Flare
   status: declared
@@ -8953,8 +8953,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-image-2.5-sunburst
   name: GPT Image 2.5 Sunburst
   status: declared
@@ -8978,8 +8978,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-live-1
   name: GPT-Live 1
   status: declared
@@ -9003,8 +9003,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-oss-120b
   name: GPT OSS 120B
   status: declared
@@ -9028,8 +9028,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-oss-20b
   name: GPT OSS 20B
   status: declared
@@ -9053,8 +9053,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-oss-safeguard-120b
   name: GPT OSS Safeguard 120B
   status: declared
@@ -9080,8 +9080,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-oss-safeguard-20b
   name: GPT OSS Safeguard 20B
   status: declared
@@ -9108,8 +9108,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-realtime-1.5
   name: GPT-Realtime-1.5
   status: declared
@@ -9133,8 +9133,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-realtime-2
   name: gpt-realtime-2
   status: declared
@@ -9159,8 +9159,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-realtime-2.1
   name: gpt-realtime-2.1
   status: declared
@@ -9186,8 +9186,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-realtime-mini
   name: GPT-Realtime mini
   status: declared
@@ -9211,8 +9211,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/gpt-realtime-whisper
   name: gpt-realtime-whisper
   status: declared
@@ -9238,8 +9238,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o1
   name: o1
   status: declared
@@ -9264,8 +9264,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o3
   name: o3
   status: declared
@@ -9291,8 +9291,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o3-fast
   name: o3 (Fast)
   status: declared
@@ -9318,8 +9318,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o3-mini
   name: o3-mini
   status: declared
@@ -9343,8 +9343,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o3-pro
   name: o3 Pro
   status: declared
@@ -9369,8 +9369,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o4-mini
   name: o4-mini
   status: declared
@@ -9395,8 +9395,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/o4-mini-fast
   name: o4-mini (Fast)
   status: declared
@@ -9421,8 +9421,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/text-embedding-3-large
   name: text-embedding-3-large
   status: declared
@@ -9446,8 +9446,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/text-embedding-3-small
   name: text-embedding-3-small
   status: declared
@@ -9470,8 +9470,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/text-embedding-ada-002
   name: text-embedding-ada-002
   status: declared
@@ -9494,8 +9494,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/tts-1
   name: TTS-1
   status: declared
@@ -9518,8 +9518,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/tts-1-hd
   name: TTS-1 HD
   status: declared
@@ -9543,8 +9543,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: openai/whisper-1
   name: Whisper
   status: declared
@@ -9569,8 +9569,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: perplexity/pplx-embed-v1-0.6b
   name: Embed v1 0.6b
   status: declared
@@ -9594,8 +9594,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: perplexity/pplx-embed-v1-4b
   name: Embed v1 4b
   status: declared
@@ -9619,8 +9619,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: perplexity/sonar
   name: Sonar
   status: declared
@@ -9644,8 +9644,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: poolside/laguna-s-2.1
   name: Laguna S 2.1
   status: declared
@@ -9669,8 +9669,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: poolside/laguna-s-2.1-free
   name: Laguna S 2.1 Free
   status: declared
@@ -9694,8 +9694,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: prodia/flux-fast-schnell
   name: Flux Schnell
   status: declared
@@ -9718,8 +9718,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: quiverai/arrow-1.1
   name: Arrow 1.1
   status: declared
@@ -9743,8 +9743,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: quiverai/arrow-2
   name: Arrow 2
   status: declared
@@ -9767,8 +9767,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: quiverai/arrow-2-telos
   name: Arrow 2 Telos
   status: declared
@@ -9792,8 +9792,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v2
   name: Recraft V2
   status: declared
@@ -9820,8 +9820,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v3
   name: Recraft V3
   status: declared
@@ -9846,8 +9846,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4
   name: Recraft V4
   status: declared
@@ -9874,8 +9874,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4-pro
   name: Recraft V4 Pro
   status: declared
@@ -9902,8 +9902,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4.1
   name: Recraft V4.1
   status: declared
@@ -9930,8 +9930,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4.1-flash
   name: Recraft V4.1 Flash
   status: declared
@@ -9957,8 +9957,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4.1-pro
   name: Recraft V4.1 Pro
   status: declared
@@ -9986,8 +9986,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4.1-utility
   name: Recraft V4.1 Utility
   status: declared
@@ -10016,8 +10016,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: recraft/recraft-v4.1-utility-pro
   name: Recraft V4.1 Utility Pro
   status: declared
@@ -10046,8 +10046,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: sakana/fugu-max
   name: Fugu Max
   status: declared
@@ -10072,8 +10072,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: sakana/fugu-ultra
   name: Fugu Ultra
   status: declared
@@ -10098,8 +10098,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: sakana/fugu-ultra-v2
   name: Fugu Ultra v2
   status: declared
@@ -10124,8 +10124,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: sakana/namazu
   name: Sakana Namazu
   status: declared
@@ -10153,8 +10153,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: stealth/glyph-cluster
   name: Glyph Cluster
   status: declared
@@ -10178,8 +10178,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: stepfun/step-3.7-flash
   name: Step 3.7 Flash
   status: declared
@@ -10204,8 +10204,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: stepfun/step-5-preview
   name: Step 5 Preview
   status: declared
@@ -10233,8 +10233,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: tencent/hy-mt2-lite
   name: Tencent Hy-MT2-Lite
   status: declared
@@ -10263,8 +10263,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: tencent/hy-mt2-plus
   name: Tencent Hy-MT2-Plus
   status: declared
@@ -10293,8 +10293,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: tencent/hy-mt2-pro
   name: Tencent Hy-MT2-Pro
   status: declared
@@ -10322,8 +10322,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: tencent/hy3
   name: Hy3
   status: declared
@@ -10350,8 +10350,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: tencent/hy4-preview
   name: Tencent Hy4 Preview
   status: declared
@@ -10379,8 +10379,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: thinkingmachines/inkling
   name: Inkling
   status: declared
@@ -10404,8 +10404,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: thinkingmachines/inkling-small
   name: Inkling Small
   status: declared
@@ -10430,8 +10430,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: topaz/proteus
   name: Proteus
   status: declared
@@ -10458,8 +10458,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: topaz/starlight-precise-2.6
   name: Starlight Precise 2.6
   status: declared
@@ -10486,8 +10486,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: topaz/wonder-3.5
   name: Wonder 3.5
   status: declared
@@ -10514,8 +10514,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: typesafe-ai/jev
   name: Jev
   status: declared
@@ -10541,8 +10541,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/rerank-2.5
   name: Voyage Rerank 2.5
   status: declared
@@ -10566,8 +10566,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/rerank-2.5-lite
   name: Voyage Rerank 2.5 Lite
   status: declared
@@ -10591,8 +10591,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/rerank-3
   name: Voyage Rerank 3
   status: declared
@@ -10615,8 +10615,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/rerank-3-lite
   name: Voyage Rerank 3 Lite
   status: declared
@@ -10639,8 +10639,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-3-large
   name: voyage-3-large
   status: declared
@@ -10664,8 +10664,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-3.5
   name: Voyage 3.5
   status: declared
@@ -10689,8 +10689,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-3.5-lite
   name: Voyage 3.5 Lite
   status: declared
@@ -10713,8 +10713,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-4
   name: Voyage 4
   status: declared
@@ -10738,8 +10738,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-4-large
   name: Voyage 4 Large
   status: declared
@@ -10763,8 +10763,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-4-lite
   name: Voyage 4 Lite
   status: declared
@@ -10788,8 +10788,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-code-2
   name: Voyage Code 2
   status: declared
@@ -10813,8 +10813,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-code-3
   name: Voyage Code 3
   status: declared
@@ -10837,8 +10837,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-finance-2
   name: Voyage Finance 2
   status: declared
@@ -10861,8 +10861,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: voyage/voyage-law-2
   name: Voyage Law 2
   status: declared
@@ -10885,8 +10885,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.1-fast-non-reasoning
   name: Grok 4.1 Fast Non-Reasoning
   status: declared
@@ -10909,8 +10909,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.1-fast-reasoning
   name: Grok 4.1 Fast Reasoning
   status: declared
@@ -10933,8 +10933,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-multi-agent
   name: Grok 4.20 Multi-Agent
   status: declared
@@ -10957,8 +10957,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-multi-agent-batch
   name: Grok 4.20 Multi-Agent (Batch)
   status: declared
@@ -10981,8 +10981,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-multi-agent-beta
   name: Grok 4.20 Multi Agent Beta
   status: declared
@@ -11005,8 +11005,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-non-reasoning
   name: Grok 4.20 Non-Reasoning
   status: declared
@@ -11032,8 +11032,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-non-reasoning-batch
   name: Grok 4.20 Non-Reasoning (Batch)
   status: declared
@@ -11059,8 +11059,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-non-reasoning-beta
   name: Grok 4.20 Beta Non-Reasoning
   status: declared
@@ -11086,8 +11086,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-reasoning
   name: Grok 4.20 Reasoning
   status: declared
@@ -11113,8 +11113,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-reasoning-batch
   name: Grok 4.20 Reasoning (Batch)
   status: declared
@@ -11140,8 +11140,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.20-reasoning-beta
   name: Grok 4.20 Beta Reasoning
   status: declared
@@ -11167,8 +11167,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.3
   name: Grok 4.3
   status: declared
@@ -11192,8 +11192,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.3-batch
   name: Grok 4.3 (Batch)
   status: declared
@@ -11217,8 +11217,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.5
   name: Grok 4.5
   status: declared
@@ -11242,8 +11242,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.6
   name: Grok 4.6
   status: declared
@@ -11269,8 +11269,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-4.7
   name: Grok 4.7
   status: declared
@@ -11296,8 +11296,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-build-0.1
   name: Grok Build 0.1
   status: declared
@@ -11320,8 +11320,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-imagine-image
   name: Grok Imagine Image
   status: declared
@@ -11344,8 +11344,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-imagine-image-2.0
   name: Grok Imagine Image 2.0
   status: declared
@@ -11368,8 +11368,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-imagine-video
   name: Grok Imagine
   status: declared
@@ -11395,8 +11395,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-imagine-video-1.5
   name: Grok Imagine Video 1.5
   status: declared
@@ -11419,8 +11419,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-imagine-video-1.5-lite
   name: Grok Imagine Video 1.5 Lite
   status: declared
@@ -11446,8 +11446,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-stt
   name: Grok STT
   status: declared
@@ -11470,8 +11470,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-tts
   name: Grok TTS
   status: declared
@@ -11495,8 +11495,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-voice-think-fast-1.0
   name: Grok Voice Think Fast 1.0
   status: declared
@@ -11521,8 +11521,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: spacexai/grok-voice-think-fast-2.0
   name: Grok Voice Think Fast 2.0
   status: declared
@@ -11546,8 +11546,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: xiaomi/mimo-v2.5
   name: MiMo M2.5
   status: declared
@@ -11571,8 +11571,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: xiaomi/mimo-v2.5-pro
   name: MiMo V2.5 Pro
   status: declared
@@ -11599,8 +11599,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: xiaomi/mimo-v2.6-flash
   name: MiMo V2.6 Flash
   status: declared
@@ -11627,8 +11627,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: xiaomi/mimo-v2.6-pro
   name: MiMo V2.6 Pro
   status: declared
@@ -11655,8 +11655,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: xiaomi/mimo-v2.6-pro-ultraspeed
   name: MiMo V2.6 Pro UltraSpeed
   status: declared
@@ -11683,8 +11683,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.5
   name: GLM 4.5
   status: declared
@@ -11711,8 +11711,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.5-air
   name: GLM 4.5 Air
   status: declared
@@ -11739,8 +11739,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.5v
   name: GLM 4.5V
   status: declared
@@ -11765,8 +11765,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.6
   name: GLM 4.6
   status: declared
@@ -11791,8 +11791,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.7
   name: GLM 4.7
   status: declared
@@ -11820,8 +11820,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.7-flash
   name: GLM 4.7 Flash
   status: declared
@@ -11846,8 +11846,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-4.7-flashx
   name: GLM 4.7 FlashX
   status: declared
@@ -11871,8 +11871,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5
   name: GLM 5
   status: declared
@@ -11902,8 +11902,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5-turbo
   name: GLM 5 Turbo
   status: declared
@@ -11929,8 +11929,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.1
   name: GLM 5.1
   status: declared
@@ -11958,8 +11958,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.2
   name: GLM 5.2
   status: declared
@@ -11983,8 +11983,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.2-fast
   name: GLM 5.2 Fast
   status: declared
@@ -12010,8 +12010,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.3
   name: GLM 5.3
   status: declared
@@ -12036,8 +12036,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.3-fast
   name: GLM 5.3 Fast
   status: declared
@@ -12064,8 +12064,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.3-flash
   name: GLM 5.3 Flash
   status: declared
@@ -12092,8 +12092,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5.3-flashx
   name: GLM 5.3 FlashX
   status: declared
@@ -12120,8 +12120,8 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
 - id: zai/glm-5v-turbo
   name: GLM 5V Turbo
   status: declared
@@ -12149,5 +12149,5 @@ models:
   evidence:
   - kind: official_api
     url: https://ai-gateway.vercel.sh/v1/models
-    at: '2026-10-13T02:33:55Z'
-  last_verified: '2026-10-13T02:33:55Z'
+    at: '2026-10-13T10:27:32Z'
+  last_verified: '2026-10-13T10:27:32Z'
