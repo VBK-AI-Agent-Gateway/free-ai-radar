@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T10:27:45Z",
+ "generated_at": "2026-10-13T11:56:18Z",
  "candidates": [
   {
    "provider": "poe",
@@ -1113,6 +1113,54 @@
    "src": "zukixa",
    "free_models": [],
    "models_url": "https://nexeonai.com/v1/models"
+  },
+  {
+   "provider": "awesome-freellm-apis",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:open-free-llm-api/awesome-freellm-apis",
+   "free_models": [],
+   "models_url": null
+  },
+  {
+   "provider": "freellmpool",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:0xzr/freellmpool",
+   "free_models": [],
+   "models_url": null
+  },
+  {
+   "provider": "awesome-free-llm-apis",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:amardeeplakshkar/awesome-free-llm-apis",
+   "free_models": [],
+   "models_url": null
+  },
+  {
+   "provider": "freellm-api-keyhub",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:guihuashaoxiang/FreeLLM-API-KeyHub",
+   "free_models": [],
+   "models_url": null
+  },
+  {
+   "provider": "free-ai-models",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:ClawLabsAI/free-ai-models",
+   "free_models": [],
+   "models_url": null
+  },
+  {
+   "provider": "awesome-free-llm-api",
+   "status": "candidate",
+   "reason": "provider not in canonical",
+   "src": "github:peter123023/awesome-free-llm-api",
+   "free_models": [],
+   "models_url": null
   },
   {
    "provider": "google",

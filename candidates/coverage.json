@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T10:27:46Z",
+ "at": "2026-10-13T11:56:19Z",
  "coverage": {
   "ref_providers": 77,
   "covered": 7,
@@ -799,6 +799,6 @@
  "regional_groups": {
   "cn": 25,
   "eu": 3,
-  "other": 49
+  "other": 55
  }
 }

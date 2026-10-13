@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T10:27:08Z",
+ "fetched_at": "2026-10-13T11:55:38Z",
  "url": "https://api.navy/v1/models",
- "hash": "b6f3b588aba99c917d9511c7d1ce647c1f6ecf3ff32fe0b731c5510dd8dbddb7",
+ "hash": "0a6eab8573f20c29fddff04497b56f07581ab8a51eba0b6dae45bbf44daed91e",
  "payload": {
   "object": "list",
   "data": [
@@ -766,6 +766,44 @@
      "prompt": "0.00000075",
      "completion": "0.00000375",
      "image": "0.00000075",
+     "request": null
+    },
+    "metadata_source": "openrouter",
+    "metadata_status": "known"
+   },
+   {
+    "id": "gemini-nano-banana-2.1",
+    "object": "model",
+    "created": 1749028256,
+    "owned_by": "google",
+    "endpoint": "/v1/chat/completions",
+    "token_multiplier": 45,
+    "premium": true,
+    "context_window": 65536,
+    "max_output_tokens": 58982,
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text",
+     "image"
+    ],
+    "modality": "text+image->text+image",
+    "tokenizer": "Gemini",
+    "supports_vision": true,
+    "supports_tools": true,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_json_mode": true,
+    "supports_audio_input": false,
+    "supports_image_output": true,
+    "supports_streaming": true,
+    "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
+    "pricing": {
+     "prompt": "0.0000015",
+     "completion": "0.0000075",
+     "image": null,
      "request": null
     },
     "metadata_source": "openrouter",
@@ -1665,7 +1703,7 @@
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
      "prompt": "0.0000000441",
-     "completion": "0.000000621",
+     "completion": "0.00000063",
      "image": null,
      "request": null
     },
@@ -1736,7 +1774,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000005",
+     "prompt": "0.0000000454",
      "completion": "0.00000128",
      "image": null,
      "request": null
@@ -3611,7 +3649,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
     "pricing": {
-     "prompt": "0.00000005",
+     "prompt": "0.0000000454",
      "completion": "0.00000128",
      "image": null,
      "request": null
@@ -3935,33 +3973,6 @@
     "metadata_status": "unknown"
    },
    {
-    "id": "emotional-medium",
-    "object": "model",
-    "created": 1749028256,
-    "owned_by": "navyai",
-    "endpoint": "/v1/chat/completions",
-    "token_multiplier": 1.5,
-    "premium": false,
-    "context_window": null,
-    "max_output_tokens": null,
-    "input_modalities": null,
-    "output_modalities": null,
-    "modality": null,
-    "tokenizer": null,
-    "supports_vision": null,
-    "supports_tools": null,
-    "supports_function_calling": null,
-    "supports_reasoning": null,
-    "supports_json_mode": null,
-    "supports_audio_input": null,
-    "supports_image_output": null,
-    "supports_streaming": true,
-    "description": null,
-    "pricing": null,
-    "metadata_source": null,
-    "metadata_status": "unknown"
-   },
-   {
     "id": "gpt-image-2",
     "object": "model",
     "created": 1749028256,
@@ -4026,42 +4037,6 @@
     "supports_image_output": true,
     "supports_streaming": null,
     "description": "OpenAI's frontier image generation model in ChatGPT as of December 2025, offering exceptional prompt adherence, world knowledge, precise edits, facial preservation, level of detail, and overall quality with improved latency/generation times. It supports editing, restyling, and combining images attached to the latest user query. For a conversational image generation and editing experience\n\nOptional Parameters:\nSet aspect ratio, with options 3:2, 1:1 and 2:3. \nSet quality to low, medium and high. Default is set to high.\nEnable use mask by toggling it on or by typing 'use_mask' in the prompt. This option is turned off by default.\nDisable high fidelity by toggling it off or by typing 'use_high_fidelity'. This option is turned on by default.",
-    "pricing": {
-     "prompt": null,
-     "completion": null,
-     "image": null,
-     "request": null
-    },
-    "metadata_source": "poe",
-    "metadata_status": "known"
-   },
-   {
-    "id": "flux",
-    "object": "model",
-    "created": 1749028256,
-    "owned_by": "blackforest-ai",
-    "endpoint": "/v1/images/generations",
-    "token_multiplier": 1,
-    "premium": false,
-    "context_window": null,
-    "max_output_tokens": null,
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "image"
-    ],
-    "modality": "text->image",
-    "tokenizer": null,
-    "supports_vision": false,
-    "supports_tools": null,
-    "supports_function_calling": null,
-    "supports_reasoning": null,
-    "supports_json_mode": null,
-    "supports_audio_input": false,
-    "supports_image_output": true,
-    "supports_streaming": null,
-    "description": "Text-to-image generation and image editing with Flux 2 [klein] 4B Base from Black Forest Labs. Enhanced realism, crisper text rendering within images, and native editing capabilities. Send up to 3 images (jpeg/ png/ webp) to use for image editing or as references.\n\nOptional parameters:\n- Set aspect ratio. Select from (16:9, 4:3, 1:1, 3:4, 9:16). It is set to 4:3 aspect ratio as default.",
     "pricing": {
      "prompt": null,
      "completion": null,

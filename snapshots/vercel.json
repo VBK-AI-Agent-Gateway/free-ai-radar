@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T10:27:05Z",
+ "fetched_at": "2026-10-13T11:55:36Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "d1acea948469271d7c7d416620c16ec41dac3b950e0b906387aafc52281430f2",
+ "hash": "98872c1031b1d0c82dffaba53005c6254e392dd259dc7ec1b8e6efada9f6fb85",
  "payload": {
   "object": "list",
   "data": [
@@ -29617,6 +29617,35 @@
      "input": "0.00000095",
      "output": "0.000004",
      "input_cache_read": "0.00000015"
+    }
+   },
+   {
+    "id": "scaledown/scaledown-classify-1",
+    "object": "model",
+    "created": 1755815280,
+    "released": 1791849600,
+    "owned_by": "scaledown",
+    "name": "Classify-1",
+    "description": "ScaleDown Classify-1 is a task-specific small language model for text classification. It assigns text to custom labels and returns probability scores, supporting intent detection, content categorization, and routing workflows. Its deterministic, encoder-only approach produces consistent classification results without sampling variability.",
+    "context_window": 0,
+    "max_tokens": 0,
+    "type": "evaluation",
+    "zdr": "none",
+    "no_training": "none",
+    "supported_specifications": [
+     "v4"
+    ],
+    "modalities": {
+     "input": [
+      "text"
+     ],
+     "output": [
+      "text"
+     ]
+    },
+    "pricing": {
+     "input": "0.00000005",
+     "output": "0"
     }
    },
    {
