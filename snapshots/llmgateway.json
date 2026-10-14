@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T13:50:53Z",
+ "fetched_at": "2026-10-14T15:05:31Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "3164e894a566de6676ee1474a7f8ce6e36bdda70b0cb8896e2dcf2a3221874c1",
+ "hash": "5825284b1407a962e3f887b7244dd4e907579fed49a4391258c4d7bc063d83f5",
  "payload": {
   "data": [
    {
@@ -15306,7 +15306,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol, reka-ai, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, consensusprotocol, runware, reka-ai, gonka24",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15621,6 +15621,26 @@
       "max_output": 393216
      },
      {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
+     },
+     {
       "providerId": "runware",
       "externalId": "deepseek-v4-flash",
       "pricing": {
@@ -15645,26 +15665,6 @@
        "max"
       ],
       "max_output": 384000,
-      "stability": "stable"
-     },
-     {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -15760,7 +15760,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, entrim, luminal, scx-ai-gp, runware, consensusprotocol, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, scx-ai-gp, runware, consensusprotocol, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15974,6 +15974,26 @@
       "max_output": 393216
      },
      {
+      "providerId": "luminal",
+      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "pricing": {
+       "prompt": "0.000000135",
+       "completion": "0.00000054",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.0000000027",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
+     },
+     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15998,26 +16018,6 @@
        "medium",
        "low"
       ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "luminal",
-      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "pricing": {
-       "prompt": "0.000000135",
-       "completion": "0.00000054",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000027",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      },
      {
@@ -26238,7 +26238,7 @@
     "name": "GLM-5.3 Flash",
     "display_name": "GLM-5.3 Flash",
     "created": 1787702400,
-    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, entrim, runware, reka-ai, consensusprotocol, gonka24, scx-ai-gp",
+    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, entrim, runware, reka-ai, gonka24, scx-ai-gp, consensusprotocol",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -26467,31 +26467,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "glm-5.3-flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.00000025",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000002",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "max"
-      ],
-      "stability": "stable"
-     },
-     {
       "providerId": "gonka24",
       "externalId": "glm-5.3-flash",
       "pricing": {
@@ -26536,6 +26511,31 @@
        "max"
       ],
       "max_output": 131072,
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "glm-5.3-flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.00000025",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000002",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "max"
+      ],
       "stability": "stable"
      }
     ],
