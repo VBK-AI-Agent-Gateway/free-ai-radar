@@ -3,35 +3,56 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "9e6c20ec83b875876b62149804815a79bc428da51e3df73d77bf19e56399e7c4",
-  "new_hash": "09b331a83ef24a4d1694f77808aff86dec1e81a4a307211fad36a3b6c6016c75"
+  "old_hash": "09b331a83ef24a4d1694f77808aff86dec1e81a4a307211fad36a3b6c6016c75",
+  "new_hash": "fbb21cdf259a2fa1e5929ed57cdf8166f649489ddc192093e5e5a427e6c8cff6"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "077bac12fa92e6f5a5feaa95312584bfd91c7542fd4709194ae4fa2814ac7801",
-  "new_hash": "7628cf5d65e5735e7f9365b4fb9ea73817c5b6d073dbf969b0ea16cfa7424940"
+  "old_hash": "7628cf5d65e5735e7f9365b4fb9ea73817c5b6d073dbf969b0ea16cfa7424940",
+  "new_hash": "038f72f9ee57c4c8e7bb10dda8596503bba6863a554b86e1c0da01d5f6bc8695"
+ },
+ {
+  "provider": "vercel",
+  "url": "https://ai-gateway.vercel.sh/v1/models",
+  "type": "official_api",
+  "old_hash": "a58ba8334ade88bb8a020ac820bd7f7a5ef36132e81aca2ccb5980a12b9f05e1",
+  "new_hash": "216f724d88002c31549015646f2b789c504cdeebc3494db02f5c4775eec8420d"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "f103bbd62989bde2b555776ac976ffb092449550362021243fca8dd610ed07ee",
-  "new_hash": "5cf165d8bbcc8b32861b07ba6db179bedc6a5b2b731164ab990345e4f25143ba"
+  "old_hash": "5cf165d8bbcc8b32861b07ba6db179bedc6a5b2b731164ab990345e4f25143ba",
+  "new_hash": "258dde716b1d92d3a5f61440471013a961414d405a958dc9ce3f88bd9c8ef26d"
  },
  {
   "provider": "llmgateway",
   "url": "https://api.llmgateway.io/v1/models",
   "type": "official_api",
-  "old_hash": "3164e894a566de6676ee1474a7f8ce6e36bdda70b0cb8896e2dcf2a3221874c1",
-  "new_hash": "5825284b1407a962e3f887b7244dd4e907579fed49a4391258c4d7bc063d83f5"
+  "old_hash": "5825284b1407a962e3f887b7244dd4e907579fed49a4391258c4d7bc063d83f5",
+  "new_hash": "8ac2a08e9472f4fe36da34ab6efe2e3016ed1e8b49e339fdc74cba82aab183da"
+ },
+ {
+  "provider": "voidai",
+  "url": "https://api.voidai.app/v1/models",
+  "type": "official_api",
+  "old_hash": "6aa66308fcf6cae9c2c8003adc06e89387e86e70b62138bcfa9bfddedeef3628",
+  "new_hash": "5a0eb18c05c0a51aba27f58bb7bc1ee59f5270f5d6681ed6665fced62ad6ce3b"
+ },
+ {
+  "provider": "navyapi",
+  "url": "https://api.navy/v1/models",
+  "type": "official_api",
+  "old_hash": "4ef4105caab306effef89a550210ed4e3f0dbca49dba763b5cdcc76b438b8642",
+  "new_hash": "b8a88a742bdad7a52d8679d652edbb39c1c83fd541400384bd122eb073d8c043"
  },
  {
   "provider": "mnn",
   "url": "https://api.mnnai.ru/v1/models",
   "type": "official_api",
-  "old_hash": "11514144fe9964d2e5ec9b2e01191d8d4efd0a3a68dbb34f04bcb065f6ce00d7",
-  "new_hash": "fe62e644a84ad45ed756e43efcaf7a5f411ececd3b21ee161ff0c670c2c22195"
+  "old_hash": "fe62e644a84ad45ed756e43efcaf7a5f411ececd3b21ee161ff0c670c2c22195",
+  "new_hash": "f775641abbdb290a03d7d70a93eba7067eb6ee0f1844659bf21007bcd53b40a7"
  }
 ]

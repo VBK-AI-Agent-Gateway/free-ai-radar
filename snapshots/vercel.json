@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T15:05:30Z",
+ "fetched_at": "2026-10-14T19:19:49Z",
  "url": "https://ai-gateway.vercel.sh/v1/models",
- "hash": "a58ba8334ade88bb8a020ac820bd7f7a5ef36132e81aca2ccb5980a12b9f05e1",
+ "hash": "216f724d88002c31549015646f2b789c504cdeebc3494db02f5c4775eec8420d",
  "payload": {
   "object": "list",
   "data": [
@@ -13330,17 +13330,17 @@
       {
        "resolution": "768p",
        "mode": "text_to_video",
-       "cost_per_second": "0.015"
+       "cost_per_second": "0.018"
       },
       {
        "resolution": "1080p",
        "mode": "text_to_video",
-       "cost_per_second": "0.045"
+       "cost_per_second": "0.05"
       },
       {
        "resolution": "2k",
        "mode": "text_to_video",
-       "cost_per_second": "0.045"
+       "cost_per_second": "0.05"
       },
       {
        "resolution": "480p",
@@ -13350,27 +13350,27 @@
       {
        "resolution": "768p",
        "mode": "image_to_video",
-       "cost_per_second": "0.015"
+       "cost_per_second": "0.018"
       },
       {
        "resolution": "1080p",
        "mode": "image_to_video",
-       "cost_per_second": "0.045"
+       "cost_per_second": "0.05"
       },
       {
        "resolution": "2k",
        "mode": "image_to_video",
-       "cost_per_second": "0.045"
+       "cost_per_second": "0.05"
       },
       {
        "resolution": "480p",
        "mode": "reference_to_video",
-       "cost_per_second": "0.02"
+       "cost_per_second": "0.035"
       },
       {
        "resolution": "768p",
        "mode": "reference_to_video",
-       "cost_per_second": "0.03"
+       "cost_per_second": "0.05"
       },
       {
        "resolution": "1080p",
@@ -18108,7 +18108,7 @@
     "id": "nvidia/nemotron-3.5-lightning-free",
     "object": "model",
     "created": 1755815280,
-    "released": 1791849600,
+    "released": 1791936000,
     "owned_by": "nvidia",
     "name": "Nemotron 3.5 Lightning Free",
     "description": "Nemotron 3.5 Lightning is an open-weight reasoning and chat model for long-running agents, sub-agent work, chatbots, and RAG systems. The model has 30B parameters with 3B active per token, in a hybrid Mixture-of-Experts design that interleaves Mamba-2 and MoE layers with a few attention layers. It has a 1M token context window and supports tool calling and structured outputs. The provider may retain prompts and responses for model improvement.",
@@ -33506,10 +33506,9 @@
     ],
     "knowledge": "2024-12",
     "pricing": {
-     "input": "0.000000435",
-     "output": "0.00000087",
-     "input_cache_read": "0.0000000036",
-     "varies_by_provider": true
+     "input": "0.0000003045",
+     "output": "0.000000609",
+     "input_cache_read": "0.0000000028"
     }
    },
    {

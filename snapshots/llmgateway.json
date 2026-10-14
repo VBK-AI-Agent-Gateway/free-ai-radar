@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T15:05:31Z",
+ "fetched_at": "2026-10-14T19:19:51Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "5825284b1407a962e3f887b7244dd4e907579fed49a4391258c4d7bc063d83f5",
+ "hash": "8ac2a08e9472f4fe36da34ab6efe2e3016ed1e8b49e339fdc74cba82aab183da",
  "payload": {
   "data": [
    {
@@ -9978,7 +9978,7 @@
     "name": "Gemma 4 31B IT",
     "display_name": "Gemma 4 31B IT",
     "created": 1775088000,
-    "description": "gemma-4-31b-it provided by deepinfra, novita, together-ai, cerebras, ranoai, scx-ai, consensusprotocol, runware",
+    "description": "gemma-4-31b-it provided by deepinfra, novita, together-ai, cerebras, ranoai, consensusprotocol, runware",
     "family": "google",
     "architecture": {
      "input_modalities": [
@@ -10110,27 +10110,6 @@
       "max_output": 20480
      },
      {
-      "providerId": "scx-ai",
-      "externalId": "gemma-4-31B-it",
-      "pricing": {
-       "prompt": "0.00000030",
-       "completion": "0.00000091",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 8192,
-      "stability": "stable"
-     },
-     {
       "providerId": "consensusprotocol",
       "externalId": "Gemma-4-31B-IT",
       "pricing": {
@@ -10196,7 +10175,7 @@
      "internal_reasoning": "0"
     },
     "context_length": 262144,
-    "max_output": 8192,
+    "max_output": 32768,
     "supported_parameters": [
      "temperature",
      "max_tokens",
@@ -14493,7 +14472,7 @@
     "name": "Llama 4 Maverick 17B Instruct",
     "display_name": "Llama 4 Maverick 17B Instruct",
     "created": 1743811200,
-    "description": "llama-4-maverick-17b-instruct provided by aws-bedrock, novita, scx-ai",
+    "description": "llama-4-maverick-17b-instruct provided by aws-bedrock, novita",
     "family": "meta",
     "architecture": {
      "input_modalities": [
@@ -14549,27 +14528,6 @@
       "parallelToolCalls": false,
       "reasoning": false,
       "max_output": 8192
-     },
-     {
-      "providerId": "scx-ai",
-      "externalId": "Llama-4-Maverick-17B-128E-Instruct",
-      "pricing": {
-       "prompt": "0.00000053",
-       "completion": "0.00000162",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 8192,
-      "stability": "stable"
      }
     ],
     "pricing": {
@@ -14931,7 +14889,7 @@
     "name": "DeepSeek V4 Pro",
     "display_name": "DeepSeek V4 Pro",
     "created": 1776988800,
-    "description": "deepseek-v4-pro provided by deepseek, together-ai, alibaba, deepinfra, bytedance, nebius, canopywave, fireworks, baidu, tencent, reka-ai, runware",
+    "description": "deepseek-v4-pro provided by deepseek, together-ai, alibaba, deepinfra, bytedance, nebius, canopywave, fireworks, baidu, tencent, runware, reka-ai",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15214,6 +15172,33 @@
       "max_output": 393216
      },
      {
+      "providerId": "runware",
+      "externalId": "deepseek-v4-pro",
+      "pricing": {
+       "prompt": "0.000000961",
+       "completion": "0.000001922",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000079",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "none",
+       "high",
+       "xhigh",
+       "max"
+      ],
+      "max_output": 384000,
+      "stability": "stable"
+     },
+     {
       "providerId": "reka-ai",
       "externalId": "deepseek-v4-pro",
       "pricing": {
@@ -15241,33 +15226,6 @@
        "max"
       ],
       "max_output": 393216,
-      "stability": "stable"
-     },
-     {
-      "providerId": "runware",
-      "externalId": "deepseek-v4-pro",
-      "pricing": {
-       "prompt": "0.000000961",
-       "completion": "0.000001922",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000079",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "high",
-       "xhigh",
-       "max"
-      ],
-      "max_output": 384000,
       "stability": "stable"
      }
     ],
@@ -15306,7 +15264,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, consensusprotocol, runware, reka-ai, gonka24",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15621,26 +15579,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "stability": "stable"
-     },
-     {
       "providerId": "runware",
       "externalId": "deepseek-v4-flash",
       "pricing": {
@@ -15666,78 +15604,21 @@
       ],
       "max_output": 384000,
       "stability": "stable"
-     },
-     {
-      "providerId": "reka-ai",
-      "externalId": "deepseek4-flash",
-      "pricing": {
-       "prompt": "0.00000011",
-       "completion": "0.00000066",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "minimal",
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ],
-      "max_output": 131072,
-      "stability": "stable"
-     },
-     {
-      "providerId": "gonka24",
-      "externalId": "deepseek-v4-flash-0731",
-      "pricing": {
-       "prompt": "0.000000065",
-       "completion": "0.000000116",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000012",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "low",
-       "medium",
-       "high"
-      ],
-      "max_output": 16384,
-      "stability": "stable"
      }
     ],
     "pricing": {
-     "prompt": "0.000000065",
-     "completion": "0.000000116",
+     "prompt": "0.000000076",
+     "completion": "0.000000153",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.000000012",
+     "input_cache_read": "0.000000014",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
      "internal_reasoning": "0"
     },
     "context_length": 1050000,
-    "max_output": 16384,
+    "max_output": 131072,
     "supported_parameters": [
      "temperature",
      "max_tokens",
@@ -15760,7 +15641,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, entrim, scx-ai-gp, runware, consensusprotocol, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, runware, luminal, scx-ai-gp, entrim, consensusprotocol, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15974,6 +15855,33 @@
       "max_output": 393216
      },
      {
+      "providerId": "runware",
+      "externalId": "deepseek:v4.1@flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000001",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "xhigh",
+       "max",
+       "none"
+      ],
+      "stability": "stable"
+     },
+     {
       "providerId": "luminal",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15991,6 +15899,26 @@
       "tools": true,
       "parallelToolCalls": false,
       "reasoning": true,
+      "stability": "stable"
+     },
+     {
+      "providerId": "scx-ai-gp",
+      "externalId": "DeepSeek-V4.1-flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000001",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
       "stability": "stable"
      },
      {
@@ -16017,53 +15945,6 @@
        "high",
        "medium",
        "low"
-      ],
-      "stability": "stable"
-     },
-     {
-      "providerId": "scx-ai-gp",
-      "externalId": "DeepSeek-V4.1-flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "stability": "stable"
-     },
-     {
-      "providerId": "runware",
-      "externalId": "deepseek:v4.1@flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "xhigh",
-       "max",
-       "none"
       ],
       "stability": "stable"
      },
@@ -21264,7 +21145,7 @@
     "name": "Qwen3.8 27B",
     "display_name": "Qwen3.8 27B",
     "created": 1786665600,
-    "description": "qwen3.8-27b provided by novita, deepinfra, reka-ai",
+    "description": "qwen3.8-27b provided by novita, deepinfra",
     "family": "alibaba",
     "architecture": {
      "input_modalities": [
@@ -21325,44 +21206,14 @@
        "high"
       ],
       "max_output": 235929
-     },
-     {
-      "providerId": "reka-ai",
-      "externalId": "qwen3.8-27b",
-      "pricing": {
-       "prompt": "0.00000041",
-       "completion": "0.000003",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000085",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "minimal",
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ],
-      "max_output": 262144,
-      "stability": "stable"
      }
     ],
     "pricing": {
-     "prompt": "0.00000041",
-     "completion": "0.000003",
+     "prompt": "0.42e-6",
+     "completion": "3e-6",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.000000085",
+     "input_cache_read": "0.085e-6",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -21384,7 +21235,7 @@
      "reasoning"
     ],
     "json_output": true,
-    "structured_outputs": true,
+    "structured_outputs": false,
     "free": false
    },
    {
@@ -26238,7 +26089,7 @@
     "name": "GLM-5.3 Flash",
     "display_name": "GLM-5.3 Flash",
     "created": 1787702400,
-    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, entrim, runware, reka-ai, gonka24, scx-ai-gp, consensusprotocol",
+    "description": "glm-5.3-flash provided by zai, novita, fireworks, inference.net, together-ai, entrim, runware, scx-ai-gp, consensusprotocol",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -26437,57 +26288,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "reka-ai",
-      "externalId": "glm5.3-flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000005",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000002",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "none",
-       "minimal",
-       "low",
-       "medium",
-       "high",
-       "xhigh",
-       "max"
-      ],
-      "max_output": 262144,
-      "stability": "stable"
-     },
-     {
-      "providerId": "gonka24",
-      "externalId": "glm-5.3-flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000003",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000035",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "max_output": 16384,
-      "stability": "stable"
-     },
-     {
       "providerId": "scx-ai-gp",
       "externalId": "GLM-5.3-Flash",
       "pricing": {
@@ -26551,7 +26351,7 @@
      "internal_reasoning": "0"
     },
     "context_length": 1048576,
-    "max_output": 16384,
+    "max_output": 128000,
     "supported_parameters": [
      "temperature",
      "max_tokens",
@@ -26924,7 +26724,7 @@
     "name": "GLM-5.2",
     "display_name": "GLM-5.2",
     "created": 1781308800,
-    "description": "glm-5.2 provided by zai, novita, canopywave, embercloud, bytedance, alibaba, nebius, baidu, tencent, scx-ai-gp, runware",
+    "description": "glm-5.2 provided by zai, novita, canopywave, embercloud, bytedance, alibaba, nebius, baidu, tencent, runware, scx-ai-gp",
     "family": "zai",
     "architecture": {
      "input_modalities": [
@@ -27170,27 +26970,6 @@
       "max_output": 128000
      },
      {
-      "providerId": "scx-ai-gp",
-      "externalId": "GLM-5.2",
-      "pricing": {
-       "prompt": "0.000000605",
-       "completion": "0.000002123",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000154",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "max_output": 131072,
-      "stability": "stable"
-     },
-     {
       "providerId": "runware",
       "externalId": "zai-glm-5-2",
       "pricing": {
@@ -27218,6 +26997,27 @@
        "max"
       ],
       "max_output": 128000,
+      "stability": "stable"
+     },
+     {
+      "providerId": "scx-ai-gp",
+      "externalId": "GLM-5.2",
+      "pricing": {
+       "prompt": "0.000000605",
+       "completion": "0.000002123",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000154",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "max_output": 131072,
       "stability": "stable"
      }
     ],
@@ -29935,77 +29735,6 @@
     "stability": "stable"
    },
    {
-    "id": "glm-5.3-fast",
-    "name": "GLM 5.3 Fast",
-    "display_name": "GLM 5.3 Fast",
-    "aliases": [],
-    "created": 1791353600,
-    "description": "glm-5.3-fast provided by scx-ai-gp",
-    "family": "zai",
-    "architecture": {
-     "input_modalities": [
-      "text"
-     ],
-     "output_modalities": [
-      "text"
-     ],
-     "tokenizer": "GPT"
-    },
-    "top_provider": {
-     "is_moderated": true
-    },
-    "providers": [
-     {
-      "providerId": "scx-ai-gp",
-      "externalId": "glm-5.3-fast",
-      "pricing": {
-       "prompt": "0.0000028",
-       "completion": "0.0000088",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000056",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "max_output": 128000,
-      "stability": "stable"
-     }
-    ],
-    "pricing": {
-     "prompt": "0.0000028",
-     "completion": "0.0000088",
-     "image": "0",
-     "request": "0",
-     "input_cache_read": "0.00000056",
-     "input_cache_write": "0",
-     "input_cache_write_1h": "0",
-     "web_search": "0",
-     "internal_reasoning": "0"
-    },
-    "context_length": 1000000,
-    "max_output": 128000,
-    "supported_parameters": [
-     "temperature",
-     "max_tokens",
-     "top_p",
-     "frequency_penalty",
-     "presence_penalty",
-     "response_format",
-     "tools",
-     "tool_choice"
-    ],
-    "json_output": false,
-    "structured_outputs": false,
-    "free": false,
-    "stability": "stable"
-   },
-   {
     "id": "Qwen3.8-27B",
     "name": "Qwen3.8 27B",
     "display_name": "Qwen3.8 27B",
@@ -30075,6 +29804,77 @@
      "tools",
      "tool_choice",
      "reasoning"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false,
+    "stability": "stable"
+   },
+   {
+    "id": "glm-5.3-fast",
+    "name": "GLM 5.3 Fast",
+    "display_name": "GLM 5.3 Fast",
+    "aliases": [],
+    "created": 1791353600,
+    "description": "glm-5.3-fast provided by scx-ai-gp",
+    "family": "zai",
+    "architecture": {
+     "input_modalities": [
+      "text"
+     ],
+     "output_modalities": [
+      "text"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "scx-ai-gp",
+      "externalId": "glm-5.3-fast",
+      "pricing": {
+       "prompt": "0.0000028",
+       "completion": "0.0000088",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000056",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "max_output": 128000,
+      "stability": "stable"
+     }
+    ],
+    "pricing": {
+     "prompt": "0.0000028",
+     "completion": "0.0000088",
+     "image": "0",
+     "request": "0",
+     "input_cache_read": "0.00000056",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 1000000,
+    "max_output": 128000,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
     ],
     "json_output": false,
     "structured_outputs": false,

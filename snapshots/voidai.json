@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T15:05:32Z",
+ "fetched_at": "2026-10-14T19:19:51Z",
  "url": "https://api.voidai.app/v1/models",
- "hash": "6aa66308fcf6cae9c2c8003adc06e89387e86e70b62138bcfa9bfddedeef3628",
+ "hash": "5a0eb18c05c0a51aba27f58bb7bc1ee59f5270f5d6681ed6665fced62ad6ce3b",
  "payload": {
   "object": "list",
   "data": [
@@ -1690,7 +1690,6 @@
      "/v1/responses"
     ],
     "plan_requirements": [
-     "free",
      "economy",
      "basic",
      "premium",
@@ -1718,7 +1717,6 @@
      "/v1/responses"
     ],
     "plan_requirements": [
-     "free",
      "economy",
      "basic",
      "premium",
@@ -1734,6 +1732,35 @@
     "input_multiplier": 1.2,
     "output_multiplier": 6,
     "cache_read_multiplier": 0.25,
+    "supports_streaming": true,
+    "supports_tool_calling": true
+   },
+   {
+    "id": "gemini-4-argon",
+    "object": "model",
+    "owned_by": "google",
+    "endpoints": [
+     "/v1/chat/completions",
+     "/v1/responses"
+    ],
+    "plan_requirements": [
+     "economy",
+     "basic",
+     "premium",
+     "contributor",
+     "pro",
+     "ultra",
+     "enterprise",
+     "admin",
+     "custom_3100m_tokens"
+    ],
+    "cost_type": "per_token",
+    "base_cost": 0,
+    "input_multiplier": 1.2,
+    "output_multiplier": 6,
+    "cache_read_multiplier": 0.25,
+    "max_context_tokens": 1048576,
+    "max_output_tokens": 32768,
     "supports_streaming": true,
     "supports_tool_calling": true
    },

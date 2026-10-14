@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T15:05:33Z",
+ "fetched_at": "2026-10-14T19:19:52Z",
  "url": "https://api.navy/v1/models",
- "hash": "4ef4105caab306effef89a550210ed4e3f0dbca49dba763b5cdcc76b438b8642",
+ "hash": "b8a88a742bdad7a52d8679d652edbb39c1c83fd541400384bd122eb073d8c043",
  "payload": {
   "object": "list",
   "data": [
@@ -1781,7 +1781,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
-     "prompt": "0.00000002088",
+     "prompt": "0.00000002016",
      "completion": "0.000000891",
      "image": null,
      "request": null
@@ -1889,8 +1889,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
     "pricing": {
-     "prompt": "0.00000132",
-     "completion": "0.00000396",
+     "prompt": "0.00000066",
+     "completion": "0.00000198",
      "image": null,
      "request": null
     },
@@ -1925,8 +1925,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.00000095526",
-     "completion": "0.00000191052",
+     "prompt": "0.000000424212",
+     "completion": "0.000000848424",
      "image": null,
      "request": null
     },
@@ -3454,7 +3454,7 @@
     "supports_streaming": true,
     "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
     "pricing": {
-     "prompt": "0.0000000351",
+     "prompt": "0.000000036",
      "completion": "0.0000009",
      "image": null,
      "request": null
