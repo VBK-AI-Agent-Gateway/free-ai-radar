@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T05:03:50Z",
+ "fetched_at": "2026-10-14T10:06:11Z",
  "url": "https://router.requesty.ai/v1/models",
- "hash": "6c24d66184be72e1af9de28227bd0320c419fa130aa765d8bca6391e0bf67358",
+ "hash": "65906154749fe6553ab1de03a1b033cbe5c2d71a615dbb3d3ee7d69c44a961fc",
  "payload": {
   "object": "list",
   "data": [
@@ -3384,6 +3384,48 @@
     "open_weights": true,
     "model_lab": "deepseek",
     "model_canonical_name": "deepseek-v4.1-flash"
+   },
+   {
+    "api": "chat",
+    "id": "mistral/glm-5-3",
+    "object": "model",
+    "created": 1789430400,
+    "updated": 1791971563,
+    "owned_by": "system",
+    "input_price": 1.54e-06,
+    "cached_price": 1.6e-07,
+    "output_price": 4.84e-06,
+    "pricing": [
+     {
+      "prompt_tokens_threshold": 0,
+      "input_price": 1.54e-06,
+      "cached_price": 1.6e-07,
+      "output_price": 4.84e-06
+     }
+    ],
+    "max_output_tokens": 128000,
+    "context_window": 1000000,
+    "supports_caching": true,
+    "supports_vision": false,
+    "supports_computer_use": false,
+    "supports_reasoning": true,
+    "supports_image_generation": false,
+    "supports_tool_calling": true,
+    "supports_role_developer": false,
+    "supports_web_search": false,
+    "supports_output_json_object": true,
+    "supports_output_json_schema": true,
+    "supports_system_mid_conversation": true,
+    "description": "GLM 5.3 by Z.ai is an open weights model served by Mistral on EU infrastructure with no Mistral modifications. 1M token context window, 128K max output. Text only. Supports reasoning, function calling, structured outputs, predicted outputs and prefix. Built for long context coding and agentic workflows.",
+    "data_retention": false,
+    "data_retention_days": 0,
+    "data_used_for_training": false,
+    "privacy_comments": "N/A",
+    "geolocation": "eu",
+    "hugging_face_id": "zai-org/GLM-5.3",
+    "open_weights": true,
+    "model_lab": "zai",
+    "model_canonical_name": "glm-5.3"
    },
    {
     "api": "chat",

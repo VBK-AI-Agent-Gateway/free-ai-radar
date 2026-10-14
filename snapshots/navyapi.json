@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T05:03:52Z",
+ "fetched_at": "2026-10-14T10:06:13Z",
  "url": "https://api.navy/v1/models",
- "hash": "fee18fcf48132b4003cc3375f4690cd2b9cc36708f92a9e58b7d43441f8d7874",
+ "hash": "4ef4105caab306effef89a550210ed4e3f0dbca49dba763b5cdcc76b438b8642",
  "payload": {
   "object": "list",
   "data": [
@@ -31,6 +31,44 @@
     "pricing": null,
     "metadata_source": null,
     "metadata_status": "unknown"
+   },
+   {
+    "id": "gpt-6.1-sol",
+    "object": "model",
+    "created": 1749028256,
+    "owned_by": "openai",
+    "endpoint": "/v1/chat/completions",
+    "token_multiplier": 9,
+    "premium": true,
+    "context_window": 1050000,
+    "max_output_tokens": 128000,
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text",
+    "tokenizer": "GPT",
+    "supports_vision": true,
+    "supports_tools": true,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_json_mode": true,
+    "supports_audio_input": false,
+    "supports_image_output": false,
+    "supports_streaming": true,
+    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+    "pricing": {
+     "prompt": "0.000002",
+     "completion": "0.00001",
+     "image": null,
+     "request": null
+    },
+    "metadata_source": "openrouter",
+    "metadata_status": "known"
    },
    {
     "id": "gpt-6-astra",
@@ -1670,8 +1708,8 @@
     "supports_streaming": true,
     "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
     "pricing": {
-     "prompt": "0.0000000765",
-     "completion": "0.000000255",
+     "prompt": "0.00000009",
+     "completion": "0.0000003",
      "image": null,
      "request": null
     },
@@ -1743,7 +1781,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
-     "prompt": "0.0000000369",
+     "prompt": "0.00000002088",
      "completion": "0.000000891",
      "image": null,
      "request": null
@@ -3098,7 +3136,7 @@
     "token_multiplier": 1,
     "premium": false,
     "context_window": 131072,
-    "max_output_tokens": 65536,
+    "max_output_tokens": 117964,
     "input_modalities": [
      "text"
     ],
@@ -3117,8 +3155,8 @@
     "supports_streaming": true,
     "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...",
     "pricing": {
-     "prompt": "0.00000015",
-     "completion": "0.0000006",
+     "prompt": "0.000000037",
+     "completion": "0.00000017",
      "image": null,
      "request": null
     },
@@ -3156,7 +3194,7 @@
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
      "prompt": "0.0000007",
-     "completion": "0.0000135",
+     "completion": "0.000015",
      "image": null,
      "request": null
     },
@@ -3416,7 +3454,7 @@
     "supports_streaming": true,
     "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
     "pricing": {
-     "prompt": "0.000000036",
+     "prompt": "0.0000000351",
      "completion": "0.0000009",
      "image": null,
      "request": null
@@ -3452,7 +3490,7 @@
     "supports_streaming": true,
     "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
     "pricing": {
-     "prompt": "0.00000006",
+     "prompt": "0.00000005",
      "completion": "0.000007",
      "image": null,
      "request": null
@@ -3834,7 +3872,7 @@
     "supports_streaming": true,
     "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
     "pricing": {
-     "prompt": "0.00000006",
+     "prompt": "0.00000005",
      "completion": "0.000007",
      "image": null,
      "request": null

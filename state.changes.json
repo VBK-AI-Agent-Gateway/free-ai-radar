@@ -3,21 +3,49 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "af710f3c8b45b7684955df729173fc9c667cd678c7e539b6744810b1f975bfe1",
-  "new_hash": "b9413044d8dc3be1350a52f5eb374ac1bf36ad4d1a266d748f570070a4f67d6e"
+  "old_hash": "b9413044d8dc3be1350a52f5eb374ac1bf36ad4d1a266d748f570070a4f67d6e",
+  "new_hash": "9bb6f69339f712ca2205ddb2d830a0eec91e9612f0c94869731ccf60c970f2f4"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "2ccef56e3d215d03503944dd9cb9d86614814a41395f9b5580938e2bc998646a",
-  "new_hash": "ca18a536adf61345bffe93a3fdc325fb251408f4d62420753b79fdb2faf83775"
+  "old_hash": "ca18a536adf61345bffe93a3fdc325fb251408f4d62420753b79fdb2faf83775",
+  "new_hash": "1547fea20f94d99bf22730de4c06739c08c3a0d35121cb91a94eccf39a0a87cc"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "297d0d19ea3ec940b1417d9ca4a8550d64cb51eaca675ba0c4ddcc78ebdcec78",
-  "new_hash": "c0951a7b8b3dc96d301bc47a236d99061b7e51ef81774caefb61fdc4b74fa81d"
+  "old_hash": "c0951a7b8b3dc96d301bc47a236d99061b7e51ef81774caefb61fdc4b74fa81d",
+  "new_hash": "442f25b7530db6d5470e02bcdaf985a968438ce8f351c63db61c9cfeee35fda5"
+ },
+ {
+  "provider": "requesty",
+  "url": "https://router.requesty.ai/v1/models",
+  "type": "official_api",
+  "old_hash": "6c24d66184be72e1af9de28227bd0320c419fa130aa765d8bca6391e0bf67358",
+  "new_hash": "65906154749fe6553ab1de03a1b033cbe5c2d71a615dbb3d3ee7d69c44a961fc"
+ },
+ {
+  "provider": "llmgateway",
+  "url": "https://api.llmgateway.io/v1/models",
+  "type": "official_api",
+  "old_hash": "7b620d7f5bc2387526acf2e93593cad2247d3855340882ff12d88b8e67984447",
+  "new_hash": "acb315b169b2debf22b4df2874c81aa042530d5406702f608cb6f42f7f0107e0"
+ },
+ {
+  "provider": "navyapi",
+  "url": "https://api.navy/v1/models",
+  "type": "official_api",
+  "old_hash": "fee18fcf48132b4003cc3375f4690cd2b9cc36708f92a9e58b7d43441f8d7874",
+  "new_hash": "4ef4105caab306effef89a550210ed4e3f0dbca49dba763b5cdcc76b438b8642"
+ },
+ {
+  "provider": "mnn",
+  "url": "https://api.mnnai.ru/v1/models",
+  "type": "official_api",
+  "old_hash": "1b1814ca1cf0134a30b23d9a2bc314d7fe91611c95f69f0410692552de98708d",
+  "new_hash": "296b936c92f404d34b1f39d3465ff5148ace0634fd2f4f9a727bee443337335e"
  }
 ]

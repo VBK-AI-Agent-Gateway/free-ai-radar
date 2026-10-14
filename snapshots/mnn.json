@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T05:03:53Z",
+ "fetched_at": "2026-10-14T10:06:14Z",
  "url": "https://api.mnnai.ru/v1/models",
- "hash": "1b1814ca1cf0134a30b23d9a2bc314d7fe91611c95f69f0410692552de98708d",
+ "hash": "296b936c92f404d34b1f39d3465ff5148ace0634fd2f4f9a727bee443337335e",
  "payload": {
   "data": [
    {
@@ -23,7 +23,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -54,7 +54,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -85,7 +85,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -117,7 +117,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -149,7 +149,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -181,7 +181,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -205,7 +205,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -236,7 +236,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -267,7 +267,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -298,7 +298,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -329,7 +329,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -360,7 +360,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -391,7 +391,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -422,7 +422,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -453,7 +453,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -478,7 +478,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -503,7 +503,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -528,7 +528,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -558,7 +558,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -588,7 +588,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -618,7 +618,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -643,7 +643,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -668,7 +668,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -698,7 +698,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -729,7 +729,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -757,7 +757,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -786,7 +786,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -819,7 +819,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -843,7 +843,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -866,7 +866,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -890,7 +890,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -913,7 +913,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -937,7 +937,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -960,7 +960,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -989,7 +989,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1018,7 +1018,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1042,7 +1042,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1071,7 +1071,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1100,7 +1100,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1124,7 +1124,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1152,7 +1152,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1176,7 +1176,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1204,7 +1204,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1228,7 +1228,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1253,7 +1253,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1278,7 +1278,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1303,7 +1303,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1328,7 +1328,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1358,7 +1358,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1387,7 +1387,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1416,7 +1416,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1445,7 +1445,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1499,7 +1499,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1524,7 +1524,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1548,7 +1548,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1573,7 +1573,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1598,7 +1598,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1622,7 +1622,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1646,7 +1646,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -1676,7 +1676,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1699,7 +1699,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1723,7 +1723,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1752,7 +1752,7 @@
      "type": "tokens"
     },
     "reasoning_effort": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1775,7 +1775,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1798,7 +1798,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1822,7 +1822,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1845,7 +1845,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -1869,7 +1869,7 @@
      "type": "tokens"
     },
     "reasoning_effort": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Pro",
      "Ultra",
@@ -1889,7 +1889,7 @@
      "type": "image"
     },
     "size": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2028,7 +2028,7 @@
      "type": "image"
     },
     "size": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2048,7 +2048,7 @@
      "type": "image"
     },
     "size": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2068,7 +2068,7 @@
      "type": "image"
     },
     "size": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2088,7 +2088,7 @@
      "type": "image"
     },
     "size": true,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2108,7 +2108,7 @@
      "out_cost_per_million": 0.01,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2129,7 +2129,7 @@
      "out_cost_per_million": 0.065,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2150,7 +2150,7 @@
      "out_cost_per_million": 0.05,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2171,7 +2171,7 @@
      "out_cost_per_million": 0.47,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2190,7 +2190,7 @@
      "cost_per_million": 0.1,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2212,7 +2212,7 @@
      "out_cost_per_million": 10,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2231,7 +2231,7 @@
      "per": "minute",
      "rate": 0.006
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2256,7 +2256,7 @@
      "out_cost_per_million": 10,
      "type": "tokens"
     },
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Free",
      "Basic",
@@ -2279,7 +2279,7 @@
      "type": "image"
     },
     "size": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
@@ -2339,7 +2339,7 @@
      "type": "image"
     },
     "size": false,
-    "status": "inactive",
+    "status": "active",
     "tiers": [
      "Basic",
      "Pro",
