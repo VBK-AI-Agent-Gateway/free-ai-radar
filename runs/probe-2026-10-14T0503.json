@@ -1,0 +1,216 @@
+{
+ "agent": "prober",
+ "results": [
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "openai",
+   "url": "https://api.openai.com/v1/models",
+   "at": "2026-10-14T05:03:25Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 445,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "anthropic",
+   "url": "https://www.anthropic.com/pricing",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "google",
+   "url": "https://generativelanguage.googleapis.com/v1beta/models",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 87,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "openrouter",
+   "url": "https://openrouter.ai/api/v1/models",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": null,
+   "free_marker": null,
+   "provider": "groq",
+   "url": "https://api.groq.com/openai/v1/models",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 110,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "mistral",
+   "url": "https://mistral.ai/pricing",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 97,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "cohere",
+   "url": "https://cohere.com/pricing",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 173,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "together",
+   "url": "https://www.together.ai/pricing",
+   "at": "2026-10-14T05:03:26Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 834,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepseek",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "at": "2026-10-14T05:03:27Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 366,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "zhipu",
+   "url": "https://open.bigmodel.cn/pricing",
+   "at": "2026-10-14T05:03:28Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 321,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "deepinfra",
+   "url": "https://api.deepinfra.com/v1/openai/models",
+   "at": "2026-10-14T05:03:28Z"
+  },
+  {
+   "status": "error",
+   "latency_ms": null,
+   "error": "HTTPSConnectionPool(host='api.sambanova.ai', port=443): Read timed out. (read timeout=15)",
+   "provider": "sambanova",
+   "url": "https://api.sambanova.ai/v1/models",
+   "at": "2026-10-14T05:03:43Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 696,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "novita",
+   "url": "https://api.novita.ai/v3/openai/models",
+   "at": "2026-10-14T05:03:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 176,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "vercel",
+   "url": "https://ai-gateway.vercel.sh/v1/models",
+   "at": "2026-10-14T05:03:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 85,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "fastrouter",
+   "url": "https://api.fastrouter.ai/v1/models",
+   "at": "2026-10-14T05:03:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 240,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "requesty",
+   "url": "https://router.requesty.ai/v1/models",
+   "at": "2026-10-14T05:03:44Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 280,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "llmgateway",
+   "url": "https://api.llmgateway.io/v1/models",
+   "at": "2026-10-14T05:03:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 420,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "voidai",
+   "url": "https://api.voidai.app/v1/models",
+   "at": "2026-10-14T05:03:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 205,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "nagaai",
+   "url": "https://api.naga.ac/v1/models",
+   "at": "2026-10-14T05:03:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 180,
+   "free_marker": false,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "navyapi",
+   "url": "https://api.navy/v1/models",
+   "at": "2026-10-14T05:03:45Z"
+  },
+  {
+   "status": "readable",
+   "latency_ms": 2612,
+   "free_marker": true,
+   "ratelimit_remaining": null,
+   "http": 200,
+   "provider": "mnn",
+   "url": "https://api.mnnai.ru/v1/models",
+   "at": "2026-10-14T05:03:48Z"
+  },
+  {
+   "status": "needs_key",
+   "latency_ms": 59,
+   "http": 403,
+   "provider": "hcap.ai",
+   "url": "https://hcap.ai/v1/models",
+   "at": "2026-10-14T05:03:48Z"
+  }
+ ],
+ "skipped_budget": []
+}

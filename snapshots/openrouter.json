@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T04:45:30Z",
+ "fetched_at": "2026-10-14T05:03:28Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "af710f3c8b45b7684955df729173fc9c667cd678c7e539b6744810b1f975bfe1",
+ "hash": "b9413044d8dc3be1350a52f5eb374ac1bf36ad4d1a266d748f570070a4f67d6e",
  "payload": {
   "data": [
    {
@@ -4049,9 +4049,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000018",
+     "prompt": "0.000000225",
      "completion": "0.000008",
-     "input_cache_read": "0.00000018"
+     "input_cache_read": "0.00000023"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -4126,9 +4126,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000066",
-     "completion": "0.0000006",
-     "input_cache_read": "0.000000008"
+     "prompt": "0.0000000351",
+     "completion": "0.000000891",
+     "input_cache_read": "0.0000000054"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -4852,9 +4852,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000066",
-     "completion": "0.0000006",
-     "input_cache_read": "0.000000008"
+     "prompt": "0.0000000351",
+     "completion": "0.000000891",
+     "input_cache_read": "0.0000000054"
     },
     "top_provider": {
      "context_length": 1048576,
