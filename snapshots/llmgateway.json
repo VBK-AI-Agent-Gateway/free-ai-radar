@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T23:10:15Z",
+ "fetched_at": "2026-10-14T23:18:54Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "ceef7a81d83fede95b9712f0a0afd5dd40e1e6a8e26b462eb7ff0f0dc4c21dd4",
+ "hash": "2ced0d4495cd5ec070383feef92f7a26c1d525b097baadadfaf49a1e66fb073e",
  "payload": {
   "data": [
    {
@@ -15740,7 +15740,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, consensusprotocol, scx-ai-gp, entrim, runware, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, consensusprotocol, luminal, scx-ai-gp, entrim, runware, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15954,26 +15954,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "luminal",
-      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "pricing": {
-       "prompt": "0.000000135",
-       "completion": "0.00000054",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.0000000027",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "stability": "stable"
-     },
-     {
       "providerId": "consensusprotocol",
       "externalId": "dsv41",
       "pricing": {
@@ -15997,6 +15977,26 @@
        "max",
        "xhigh"
       ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "luminal",
+      "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "pricing": {
+       "prompt": "0.000000135",
+       "completion": "0.00000054",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.0000000027",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": false,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
       "stability": "stable"
      },
      {
