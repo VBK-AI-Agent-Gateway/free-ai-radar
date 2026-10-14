@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T20:15:33Z",
+ "fetched_at": "2026-10-14T23:10:11Z",
  "url": "https://openrouter.ai/api/v1/models",
- "hash": "b5b4f0f145ef99b7901acfd1a7773fa902584482f4b00e8c7e31e676500b2ca4",
+ "hash": "b9c866702e1e07a193e493bd8ff99f56836f6b28bec400dc562d12f00c6ff7d9",
  "payload": {
   "data": [
    {
@@ -4188,7 +4188,7 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000000108",
+     "prompt": "0.00000001584",
      "completion": "0.000000891",
      "input_cache_read": "0.0000000054"
     },
@@ -4914,94 +4914,13 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000015",
-     "completion": "0.0000006",
-     "input_cache_read": "0.000000003",
-     "overrides": [
-      {
-       "utc_days": [
-        "saturday",
-        "sunday"
-       ],
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "input_cache_read": "0.000000003"
-      },
-      {
-       "utc_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-       ],
-       "utc_start": 0,
-       "utc_end": 100,
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "input_cache_read": "0.000000003"
-      },
-      {
-       "utc_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-       ],
-       "utc_start": 100,
-       "utc_end": 400,
-       "prompt": "0.0000003",
-       "completion": "0.0000012",
-       "input_cache_read": "0.000000006"
-      },
-      {
-       "utc_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-       ],
-       "utc_start": 400,
-       "utc_end": 600,
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "input_cache_read": "0.000000003"
-      },
-      {
-       "utc_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-       ],
-       "utc_start": 600,
-       "utc_end": 1000,
-       "prompt": "0.0000003",
-       "completion": "0.0000012",
-       "input_cache_read": "0.000000006"
-      },
-      {
-       "utc_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-       ],
-       "utc_start": 1000,
-       "utc_end": 0,
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "input_cache_read": "0.000000003"
-      }
-     ]
+     "prompt": "0.00000001584",
+     "completion": "0.000000891",
+     "input_cache_read": "0.0000000054"
     },
     "top_provider": {
      "context_length": 1048576,
-     "max_completion_tokens": 393216,
+     "max_completion_tokens": 943718,
      "is_moderated": false
     },
     "per_request_limits": null,
@@ -6847,7 +6766,7 @@
     "pricing": {
      "prompt": "0.000000036",
      "completion": "0.0000009",
-     "input_cache_read": "0.0000000108"
+     "input_cache_read": "0.00000001125"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -7618,9 +7537,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.000000079",
+     "prompt": "0.00000012",
      "completion": "0.0000048",
-     "input_cache_read": "0.000000059"
+     "input_cache_read": "0.000000119"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -7939,7 +7858,7 @@
     "pricing": {
      "prompt": "0.00000004",
      "completion": "0.0000023",
-     "input_cache_read": "0.0000000198"
+     "input_cache_read": "0.000000039"
     },
     "top_provider": {
      "context_length": 262144,
@@ -11609,7 +11528,7 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000005",
+     "prompt": "0.00000058",
      "completion": "0.000015",
      "input_cache_read": "0.00000028"
     },
@@ -18741,7 +18660,7 @@
     "pricing": {
      "prompt": "0.00000049",
      "completion": "0.0000149",
-     "input_cache_read": "0.00000027"
+     "input_cache_read": "0.00000045"
     },
     "top_provider": {
      "context_length": 1048576,
@@ -19103,13 +19022,13 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.0000001",
-     "completion": "0.00000095",
-     "input_cache_read": "0.0000001"
+     "prompt": "0.00000015",
+     "completion": "0.000001",
+     "input_cache_read": "0.00000005"
     },
     "top_provider": {
      "context_length": 262144,
-     "max_completion_tokens": 65536,
+     "max_completion_tokens": 235929,
      "is_moderated": false
     },
     "per_request_limits": null,
@@ -19880,9 +19799,9 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000038019",
-     "completion": "0.00000076038",
-     "input_cache_read": "0.0000000316825"
+     "prompt": "0.000000348174",
+     "completion": "0.000000696348",
+     "input_cache_read": "0.0000000290145"
     },
     "top_provider": {
      "context_length": 1024000,
@@ -21477,9 +21396,8 @@
      "instruct_type": null
     },
     "pricing": {
-     "prompt": "0.00000009",
-     "completion": "0.00000034",
-     "input_cache_read": "0.00000005"
+     "prompt": "0.0000002",
+     "completion": "0.0000004"
     },
     "top_provider": {
      "context_length": 262144,
@@ -38053,7 +37971,7 @@
     },
     "supported_voices": null,
     "knowledge_cutoff": "2025-01-31",
-    "expiration_date": null,
+    "expiration_date": "2026-10-15",
     "links": {
      "details": "/api/v1/models/anthropic/claude-4-sonnet-20250522/endpoints"
     },

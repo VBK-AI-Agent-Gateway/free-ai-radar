@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T20:15:38Z",
+ "fetched_at": "2026-10-14T23:10:15Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "57b7f3ba92b157718941cc0505478829605287be97d6421cbd982a15ac8abc55",
+ "hash": "ceef7a81d83fede95b9712f0a0afd5dd40e1e6a8e26b462eb7ff0f0dc4c21dd4",
  "payload": {
   "data": [
    {
@@ -12963,6 +12963,85 @@
     "free": false
    },
    {
+    "id": "grok-voice-3-0",
+    "name": "Grok Voice 3.0",
+    "display_name": "Grok Voice 3.0",
+    "created": 1791936000,
+    "description": "grok-voice-3-0 provided by xai",
+    "family": "xai",
+    "architecture": {
+     "input_modalities": [
+      "text",
+      "audio"
+     ],
+     "output_modalities": [
+      "text",
+      "audio"
+     ],
+     "tokenizer": "GPT"
+    },
+    "top_provider": {
+     "is_moderated": true
+    },
+    "providers": [
+     {
+      "providerId": "xai",
+      "externalId": "grok-voice-3.0",
+      "pricing": {
+       "prompt": "0",
+       "completion": "0",
+       "image": "0",
+       "input_audio": "0",
+       "input_audio_cache_read": "0",
+       "output_audio": "0",
+       "request": "0",
+       "input_cache_read": "0",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0",
+       "input_audio_hour": "4.80"
+      },
+      "streaming": false,
+      "vision": false,
+      "realtime": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": false,
+      "stability": "beta"
+     }
+    ],
+    "pricing": {
+     "prompt": "0",
+     "completion": "0",
+     "image": "0",
+     "input_audio": "0",
+     "input_audio_cache_read": "0",
+     "output_audio": "0",
+     "request": "0",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "input_cache_write_1h": "0",
+     "input_audio_hour": "4.80",
+     "web_search": "0",
+     "internal_reasoning": "0"
+    },
+    "context_length": 0,
+    "supported_parameters": [
+     "temperature",
+     "max_tokens",
+     "top_p",
+     "frequency_penalty",
+     "presence_penalty",
+     "response_format",
+     "tools",
+     "tool_choice"
+    ],
+    "json_output": false,
+    "structured_outputs": false,
+    "free": false,
+    "stability": "beta"
+   },
+   {
     "id": "mimo-v2.6-pro",
     "name": "MiMo V2.6 Pro",
     "display_name": "MiMo V2.6 Pro",
@@ -15264,7 +15343,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, consensusprotocol, runware",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15579,6 +15658,26 @@
       "max_output": 393216
      },
      {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
+     },
+     {
       "providerId": "runware",
       "externalId": "deepseek-v4-flash",
       "pricing": {
@@ -15603,26 +15702,6 @@
        "max"
       ],
       "max_output": 384000,
-      "stability": "stable"
-     },
-     {
-      "providerId": "consensusprotocol",
-      "externalId": "DeepSeek-V4-Flash",
-      "pricing": {
-       "prompt": "0.0000001",
-       "completion": "0.0000002",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
       "stability": "stable"
      }
     ],
@@ -15661,7 +15740,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, runware, luminal, entrim, scx-ai-gp, consensusprotocol, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, luminal, consensusprotocol, scx-ai-gp, entrim, runware, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15875,33 +15954,6 @@
       "max_output": 393216
      },
      {
-      "providerId": "runware",
-      "externalId": "deepseek:v4.1@flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": true,
-      "cancellation": false,
-      "tools": true,
-      "parallelToolCalls": false,
-      "reasoning": true,
-      "reasoning_efforts": [
-       "low",
-       "high",
-       "xhigh",
-       "max",
-       "none"
-      ],
-      "stability": "stable"
-     },
-     {
       "providerId": "luminal",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15919,6 +15971,52 @@
       "tools": true,
       "parallelToolCalls": false,
       "reasoning": true,
+      "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "dsv41",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.00000055",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": true,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "reasoning_efforts": [
+       "low",
+       "high",
+       "max",
+       "xhigh"
+      ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "scx-ai-gp",
+      "externalId": "DeepSeek-V4.1-flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000001",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
       "stability": "stable"
      },
      {
@@ -15949,8 +16047,8 @@
       "stability": "stable"
      },
      {
-      "providerId": "scx-ai-gp",
-      "externalId": "DeepSeek-V4.1-flash",
+      "providerId": "runware",
+      "externalId": "deepseek:v4.1@flash",
       "pricing": {
        "prompt": "0.00000015",
        "completion": "0.0000006",
@@ -15961,36 +16059,17 @@
        "input_cache_write_1h": "0"
       },
       "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "stability": "stable"
-     },
-     {
-      "providerId": "consensusprotocol",
-      "externalId": "dsv41",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.00000055",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.000000005",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
       "vision": true,
-      "cancellation": true,
+      "cancellation": false,
       "tools": true,
       "parallelToolCalls": false,
       "reasoning": true,
       "reasoning_efforts": [
        "low",
        "high",
+       "xhigh",
        "max",
-       "xhigh"
+       "none"
       ],
       "stability": "stable"
      },

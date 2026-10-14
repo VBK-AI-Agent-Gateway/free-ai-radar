@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T20:15:40Z",
+ "fetched_at": "2026-10-14T23:10:17Z",
  "url": "https://api.navy/v1/models",
- "hash": "b8a88a742bdad7a52d8679d652edbb39c1c83fd541400384bd122eb073d8c043",
+ "hash": "591def55f174a8867b986fcb3318d01ef187db42a71401edfffb64927a9f3556",
  "payload": {
   "object": "list",
   "data": [
@@ -215,8 +215,8 @@
     "supports_streaming": true,
     "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
     "pricing": {
-     "prompt": "0.000002",
-     "completion": "0.00001",
+     "prompt": "0.000004",
+     "completion": "0.00002",
      "image": null,
      "request": null
     },
@@ -1708,8 +1708,8 @@
     "supports_streaming": true,
     "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
     "pricing": {
-     "prompt": "0.00000009",
-     "completion": "0.0000003",
+     "prompt": "0.0000000765",
+     "completion": "0.000000255",
      "image": null,
      "request": null
     },
@@ -1781,7 +1781,7 @@
     "supports_streaming": true,
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
-     "prompt": "0.00000002016",
+     "prompt": "0.00000001584",
      "completion": "0.000000891",
      "image": null,
      "request": null
@@ -1925,8 +1925,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.000000424212",
-     "completion": "0.000000848424",
+     "prompt": "0.000000375144",
+     "completion": "0.000000750288",
      "image": null,
      "request": null
     },
@@ -3193,7 +3193,7 @@
     "supports_streaming": true,
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
-     "prompt": "0.0000007",
+     "prompt": "0.0000005",
      "completion": "0.000015",
      "image": null,
      "request": null
@@ -3433,7 +3433,7 @@
     "token_multiplier": 2,
     "premium": false,
     "context_window": 1048576,
-    "max_output_tokens": 943718,
+    "max_output_tokens": 943717,
     "input_modalities": [
      "text",
      "image",
@@ -3454,8 +3454,8 @@
     "supports_streaming": true,
     "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
     "pricing": {
-     "prompt": "0.000000036",
-     "completion": "0.0000009",
+     "prompt": "0.00000015",
+     "completion": "0.0000005",
      "image": null,
      "request": null
     },
@@ -3490,7 +3490,7 @@
     "supports_streaming": true,
     "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
     "pricing": {
-     "prompt": "0.00000005",
+     "prompt": "0.00000004",
      "completion": "0.000007",
      "image": null,
      "request": null
@@ -3872,7 +3872,7 @@
     "supports_streaming": true,
     "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
     "pricing": {
-     "prompt": "0.00000005",
+     "prompt": "0.00000004",
      "completion": "0.000007",
      "image": null,
      "request": null

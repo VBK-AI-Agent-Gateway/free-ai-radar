@@ -1,10 +1,49 @@
 {
- "fetched_at": "2026-10-14T20:15:38Z",
+ "fetched_at": "2026-10-14T23:10:15Z",
  "url": "https://router.requesty.ai/v1/models",
- "hash": "24d7732d0ce10ea30a5fc7d6f51c902fc7dc6523d95ed64963b225898e18d728",
+ "hash": "d1188b63167d100f770358b583230f284d50af16f624532c98426f8d21ecfa22",
  "payload": {
   "object": "list",
   "data": [
+   {
+    "api": "chat",
+    "id": "typesafe/jev-1.14.0",
+    "object": "model",
+    "created": 1792016361,
+    "updated": 1792016361,
+    "owned_by": "system",
+    "input_price": 4.2e-08,
+    "output_price": 0,
+    "pricing": [
+     {
+      "prompt_tokens_threshold": 0,
+      "input_price": 4.2e-08,
+      "output_price": 0
+     }
+    ],
+    "max_output_tokens": 1024,
+    "context_window": 64000,
+    "supports_caching": false,
+    "supports_vision": false,
+    "supports_computer_use": false,
+    "supports_reasoning": false,
+    "supports_image_generation": false,
+    "supports_tool_calling": false,
+    "supports_role_developer": false,
+    "supports_web_search": false,
+    "supports_output_json_object": false,
+    "supports_output_json_schema": false,
+    "supports_system_mid_conversation": true,
+    "description": "Jev is TypeSafe’s flagship model and the first System One model.",
+    "data_retention": true,
+    "data_retention_days": 0,
+    "data_used_for_training": false,
+    "privacy_comments": "Data retention period is not specified",
+    "geolocation": "global",
+    "open_weights": false,
+    "model_lab": "typesafe",
+    "model_canonical_name": "jev"
+   },
    {
     "api": "chat",
     "id": "vertex/gemini-4-argon",
