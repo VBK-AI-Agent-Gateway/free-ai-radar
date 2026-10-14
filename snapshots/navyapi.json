@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-13T23:46:48Z",
+ "fetched_at": "2026-10-14T04:45:36Z",
  "url": "https://api.navy/v1/models",
- "hash": "8c1a809bf42b25511aa5ee4511cafbeff6ad7c038d3f2e70b2ec4a6cce08d896",
+ "hash": "fee18fcf48132b4003cc3375f4690cd2b9cc36708f92a9e58b7d43441f8d7874",
  "payload": {
   "object": "list",
   "data": [
@@ -1743,8 +1743,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
     "pricing": {
-     "prompt": "0.0000000441",
-     "completion": "0.000000765",
+     "prompt": "0.0000000369",
+     "completion": "0.000000891",
      "image": null,
      "request": null
     },
@@ -1851,8 +1851,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
     "pricing": {
-     "prompt": "0.00000066",
-     "completion": "0.00000198",
+     "prompt": "0.00000132",
+     "completion": "0.00000396",
      "image": null,
      "request": null
     },
@@ -1887,8 +1887,8 @@
     "supports_streaming": true,
     "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
     "pricing": {
-     "prompt": "0.00000041238",
-     "completion": "0.00000082476",
+     "prompt": "0.00000095526",
+     "completion": "0.00000191052",
      "image": null,
      "request": null
     },
@@ -3155,8 +3155,8 @@
     "supports_streaming": true,
     "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
     "pricing": {
-     "prompt": "0.00000073",
-     "completion": "0.00001",
+     "prompt": "0.0000007",
+     "completion": "0.0000135",
      "image": null,
      "request": null
     },
@@ -3416,7 +3416,7 @@
     "supports_streaming": true,
     "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
     "pricing": {
-     "prompt": "0.0000000261",
+     "prompt": "0.000000036",
      "completion": "0.0000009",
      "image": null,
      "request": null
@@ -3469,7 +3469,7 @@
     "token_multiplier": 4,
     "premium": false,
     "context_window": 204800,
-    "max_output_tokens": 128000,
+    "max_output_tokens": 131072,
     "input_modalities": [
      "text"
     ],
@@ -3488,8 +3488,8 @@
     "supports_streaming": true,
     "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
     "pricing": {
-     "prompt": "0.000000966",
-     "completion": "0.000003036",
+     "prompt": "0.00000133",
+     "completion": "0.00000418",
      "image": null,
      "request": null
     },
@@ -3779,7 +3779,7 @@
     "token_multiplier": 1,
     "premium": false,
     "context_window": 204800,
-    "max_output_tokens": 128000,
+    "max_output_tokens": 131072,
     "input_modalities": [
      "text"
     ],
@@ -3798,8 +3798,8 @@
     "supports_streaming": true,
     "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
     "pricing": {
-     "prompt": "0.000000966",
-     "completion": "0.000003036",
+     "prompt": "0.00000133",
+     "completion": "0.00000418",
      "image": null,
      "request": null
     },

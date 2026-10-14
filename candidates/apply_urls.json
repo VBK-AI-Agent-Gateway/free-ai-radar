@@ -1,5 +1,5 @@
 {
- "at": "2026-10-13T23:47:27Z",
+ "at": "2026-10-14T04:45:59Z",
  "source": "open-free-llm-api/awesome-freellm-apis",
  "providers": {
   "nvidia-nim": {
@@ -34,7 +34,7 @@
   },
   "kilo-code": {
    "free_models": [],
-   "free_count": 22,
+   "free_count": 23,
    "apply_url": "https://app.kilo.ai/profile",
    "src": "awesome_freellm"
   },
@@ -172,7 +172,7 @@
   },
   "openrouter": {
    "free_models": [],
-   "free_count": 31,
+   "free_count": 30,
    "apply_url": "https://openrouter.ai/workspaces/default/keys",
    "src": "awesome_freellm"
   }

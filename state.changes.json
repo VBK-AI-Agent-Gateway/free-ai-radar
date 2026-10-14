@@ -3,28 +3,35 @@
   "provider": "openrouter",
   "url": "https://openrouter.ai/api/v1/models",
   "type": "official_api",
-  "old_hash": "f089156a2e9d543765c89165d435f427d6859b0228d91f5fcbc331212ef1410d",
-  "new_hash": "bba5798569c95043f6b9260de34ca57c0e0e22ecc33be135c81e30d631a4a5ff"
+  "old_hash": "bba5798569c95043f6b9260de34ca57c0e0e22ecc33be135c81e30d631a4a5ff",
+  "new_hash": "af710f3c8b45b7684955df729173fc9c667cd678c7e539b6744810b1f975bfe1"
  },
  {
   "provider": "deepinfra",
   "url": "https://api.deepinfra.com/v1/openai/models",
   "type": "official_api",
-  "old_hash": "555a2e10c9785126dd2b11e48fafcf727ef525ff42a5316ab7f8666dd05c7c60",
-  "new_hash": "31cb229a071150f66e17a680e8a5e98c5ea91c962a6c9d5fe608791d2594cbe8"
+  "old_hash": "31cb229a071150f66e17a680e8a5e98c5ea91c962a6c9d5fe608791d2594cbe8",
+  "new_hash": "2ccef56e3d215d03503944dd9cb9d86614814a41395f9b5580938e2bc998646a"
  },
  {
   "provider": "fastrouter",
   "url": "https://api.fastrouter.ai/v1/models",
   "type": "official_api",
-  "old_hash": "df045e46c6325b46a24bf37473c03ca3e65d37ea5858f9a0583c1eae85fccd19",
-  "new_hash": "be5a0afa65ca5ececf9b071adbd0837674e36274e9cf2bca27bdb31287510490"
+  "old_hash": "be5a0afa65ca5ececf9b071adbd0837674e36274e9cf2bca27bdb31287510490",
+  "new_hash": "297d0d19ea3ec940b1417d9ca4a8550d64cb51eaca675ba0c4ddcc78ebdcec78"
  },
  {
   "provider": "llmgateway",
   "url": "https://api.llmgateway.io/v1/models",
   "type": "official_api",
-  "old_hash": "9877d2680e4c23d8e9b3d1f29dd1e637b90f21dd319af6eff5d935f3b064adad",
-  "new_hash": "a5befcda76644516933bd42510e682544fbd2d67912fb16367e9001bf1565e39"
+  "old_hash": "a5befcda76644516933bd42510e682544fbd2d67912fb16367e9001bf1565e39",
+  "new_hash": "7b620d7f5bc2387526acf2e93593cad2247d3855340882ff12d88b8e67984447"
+ },
+ {
+  "provider": "navyapi",
+  "url": "https://api.navy/v1/models",
+  "type": "official_api",
+  "old_hash": "8c1a809bf42b25511aa5ee4511cafbeff6ad7c038d3f2e70b2ec4a6cce08d896",
+  "new_hash": "fee18fcf48132b4003cc3375f4690cd2b9cc36708f92a9e58b7d43441f8d7874"
  }
 ]
