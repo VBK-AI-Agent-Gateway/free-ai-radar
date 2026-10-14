@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-14T19:19:51Z",
+ "fetched_at": "2026-10-14T20:15:38Z",
  "url": "https://api.llmgateway.io/v1/models",
- "hash": "8ac2a08e9472f4fe36da34ab6efe2e3016ed1e8b49e339fdc74cba82aab183da",
+ "hash": "57b7f3ba92b157718941cc0505478829605287be97d6421cbd982a15ac8abc55",
  "payload": {
   "data": [
    {
@@ -15264,7 +15264,7 @@
     "name": "DeepSeek V4 Flash",
     "display_name": "DeepSeek V4 Flash",
     "created": 1776988800,
-    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware",
+    "description": "deepseek-v4-flash provided by deepseek, novita, alibaba, deepinfra, bytedance, fireworks, together-ai, ranoai, canopywave, baidu, tencent, runware, consensusprotocol",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15604,6 +15604,26 @@
       ],
       "max_output": 384000,
       "stability": "stable"
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "DeepSeek-V4-Flash",
+      "pricing": {
+       "prompt": "0.0000001",
+       "completion": "0.0000002",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.000000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
      }
     ],
     "pricing": {
@@ -15641,7 +15661,7 @@
     "name": "DeepSeek V4.1 Flash",
     "display_name": "DeepSeek V4.1 Flash",
     "created": 1788998400,
-    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, runware, luminal, scx-ai-gp, entrim, consensusprotocol, sciforium",
+    "description": "deepseek-v4.1-flash provided by deepseek, alibaba, deepinfra, fireworks, together-ai, novita, baidu, runware, luminal, entrim, scx-ai-gp, consensusprotocol, sciforium",
     "family": "deepseek",
     "architecture": {
      "input_modalities": [
@@ -15902,26 +15922,6 @@
       "stability": "stable"
      },
      {
-      "providerId": "scx-ai-gp",
-      "externalId": "DeepSeek-V4.1-flash",
-      "pricing": {
-       "prompt": "0.00000015",
-       "completion": "0.0000006",
-       "image": "0",
-       "request": "0",
-       "input_cache_read": "0.00000001",
-       "input_cache_write": "0",
-       "input_cache_write_1h": "0"
-      },
-      "streaming": true,
-      "vision": false,
-      "cancellation": true,
-      "tools": false,
-      "parallelToolCalls": false,
-      "reasoning": false,
-      "stability": "stable"
-     },
-     {
       "providerId": "entrim",
       "externalId": "deepseek-ai/DeepSeek-V4.1-Flash",
       "pricing": {
@@ -15946,6 +15946,26 @@
        "medium",
        "low"
       ],
+      "stability": "stable"
+     },
+     {
+      "providerId": "scx-ai-gp",
+      "externalId": "DeepSeek-V4.1-flash",
+      "pricing": {
+       "prompt": "0.00000015",
+       "completion": "0.0000006",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000001",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": false,
+      "parallelToolCalls": false,
+      "reasoning": false,
       "stability": "stable"
      },
      {
@@ -16906,7 +16926,7 @@
     "name": "MiniMax M3",
     "display_name": "MiniMax M3",
     "created": 1780272000,
-    "description": "minimax-m3 provided by minimax, together-ai, nebius, tencent",
+    "description": "minimax-m3 provided by minimax, together-ai, nebius, tencent, consensusprotocol",
     "family": "minimax",
     "architecture": {
      "input_modalities": [
@@ -17019,14 +17039,34 @@
        "max"
       ],
       "max_output": 131072
+     },
+     {
+      "providerId": "consensusprotocol",
+      "externalId": "MiniMax-M3",
+      "pricing": {
+       "prompt": "0.00000028",
+       "completion": "0.0000011",
+       "image": "0",
+       "request": "0",
+       "input_cache_read": "0.00000005",
+       "input_cache_write": "0",
+       "input_cache_write_1h": "0"
+      },
+      "streaming": true,
+      "vision": false,
+      "cancellation": true,
+      "tools": true,
+      "parallelToolCalls": false,
+      "reasoning": true,
+      "stability": "stable"
      }
     ],
     "pricing": {
-     "prompt": "0.3e-6",
-     "completion": "1.2e-6",
+     "prompt": "0.00000028",
+     "completion": "0.0000011",
      "image": "0",
      "request": "0",
-     "input_cache_read": "0.06e-6",
+     "input_cache_read": "0.00000005",
      "input_cache_write": "0",
      "input_cache_write_1h": "0",
      "web_search": "0",
@@ -23765,6 +23805,7 @@
     "json_output": false,
     "structured_outputs": false,
     "free": true,
+    "deactivated_at": "2026-10-15T00:00:00.000Z",
     "stability": "unstable"
    },
    {
